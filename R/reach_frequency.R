@@ -148,6 +148,11 @@ optimizar_y_calcular <- function(POB,
   # Ajustar las probabilidades multiplicadas por la población
   mejores_combinaciones$prob <- round(probs[indices] * POB, 0)
 
+  # Ordenar primero por número de inserciones (x) y luego por la distancia mínima con valor_objetivo
+  mejores_combinaciones <- mejores_combinaciones[order
+                                                 (mejores_combinaciones$x,
+                                                       abs(valor_objetivo - mejores_combinaciones$prob)), ]
+
   # Mostrar la tabla con el mensaje añadido
   print(mejores_combinaciones)
 
@@ -175,9 +180,11 @@ optimizar_y_calcular <- function(POB,
   # Graficar probabilidades y acumuladas
   p <- ggplot(data, aes(x = inserciones)) +
     geom_line(aes(y = probabilidad, color = "Probabilidad"), size = 1.2) +
+    geom_smooth(aes(y = probabilidad, color = "Probabilidad"), method = "loess", se = FALSE, linetype = "solid", size = 0.8) +  # Añadir suavizado
     geom_line(aes(y = acumulada, color = "Acumulada"), linetype = "dashed", size = 1.2) +
+    geom_smooth(aes(y = acumulada, color = "Acumulada"), method = "loess", se = FALSE, linetype = "dashed", size = 0.8) +  # Suavizado acumulado
     labs(
-      title = "Distribución Beta Binomial y Acumulada",
+      title = "Distribución Beta Binomial y Acumulada con Suavizado",
       x = "Número de inserciones",
       y = "Probabilidad"
     ) +
