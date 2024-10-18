@@ -145,15 +145,21 @@ optimizar_y_calcular <- function(POB,
   # Añadir un asterisco cuando R2 > 2 * R1
   mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
 
-  # Ajustar las probabilidades multiplicadas por la población
+
+  # Asegurarse de que valor_objetivo esté en las mismas unidades que prob
+  valor_objetivo_poblacional <- valor_objetivo * POB  # Ajustamos el valor objetivo según la población
+
+  # Calcular la columna prob
   mejores_combinaciones$prob <- round(probs[indices] * POB, 0)
 
-  # Crear la columna de distancia con respecto al valor objetivo
-  mejores_combinaciones$distancia_objetivo <- abs(valor_objetivo / POB - mejores_combinaciones$prob)
+  # Crear la columna de distancia con respecto al valor objetivo poblacional
+  mejores_combinaciones$distancia_objetivo <- abs(valor_objetivo_poblacional - mejores_combinaciones$prob)
 
   # Ordenar primero por el número de inserciones (x) y luego por la distancia al valor objetivo
-  mejores_combinaciones <- mejores_combinaciones[order(mejores_combinaciones$x,
-                                                       mejores_combinaciones$distancia_objetivo), ]
+  mejores_combinaciones <- mejores_combinaciones[order(mejores_combinaciones$x, mejores_combinaciones$distancia_objetivo), ]
+
+  # Eliminar las filas donde la columna 'flag' tiene un asterisco
+  mejores_combinaciones <- mejores_combinaciones[mejores_combinaciones$flag != "*", ]
 
   # Mostrar la tabla con las mejores combinaciones ordenadas
   print(mejores_combinaciones)
