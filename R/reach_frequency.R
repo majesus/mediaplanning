@@ -148,13 +148,16 @@ optimizar_y_calcular <- function(POB,
   # Ajustar las probabilidades multiplicadas por la población
   mejores_combinaciones$prob <- round(probs[indices] * POB, 0)
 
-  # Ordenar primero por número de inserciones (x) y luego por la distancia mínima con valor_objetivo
-  mejores_combinaciones <- mejores_combinaciones[order
-                                                 (mejores_combinaciones$x,
-                                                       abs(valor_objetivo - mejores_combinaciones$prob)), ]
+  # Crear la columna de distancia con respecto al valor objetivo
+  mejores_combinaciones$distancia_objetivo <- abs(valor_objetivo - mejores_combinaciones$prob)
 
-  # Mostrar la tabla con el mensaje añadido
+  # Ordenar primero por el número de inserciones (x) y luego por la distancia al valor objetivo
+  mejores_combinaciones <- mejores_combinaciones[order(mejores_combinaciones$x,
+                                                       mejores_combinaciones$distancia_objetivo), ]
+
+  # Mostrar la tabla con las mejores combinaciones ordenadas
   print(mejores_combinaciones)
+
 
   # Añadir un pie de tabla como mensaje adicional
   cat("\n* Indica que R2 es más del doble que R1, lo que sugiere que la propuesta no es viable.\n")
