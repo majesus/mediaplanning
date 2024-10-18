@@ -149,7 +149,7 @@ optimizar_y_calcular <- function(POB,
   mejores_combinaciones$prob <- round(probs[indices] * POB, 0)
 
   # Crear la columna de distancia con respecto al valor objetivo
-  mejores_combinaciones$distancia_objetivo <- abs(valor_objetivo - mejores_combinaciones$prob)
+  mejores_combinaciones$distancia_objetivo <- abs(valor_objetivo / POB - mejores_combinaciones$prob)
 
   # Ordenar primero por el número de inserciones (x) y luego por la distancia al valor objetivo
   mejores_combinaciones <- mejores_combinaciones[order(mejores_combinaciones$x,
