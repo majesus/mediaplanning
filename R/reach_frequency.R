@@ -1,3 +1,5 @@
+#__________________________________________________________#
+
 #' Calcula el alcance y la frecuencia
 #'
 #' Esta función calcula el alcance y la frecuencia de una campaña publicitaria
@@ -20,7 +22,7 @@ reach_frequency <- function(impresiones, audiencia) {
   ))
 }
 
-
+#__________________________________________________________#
 
 #' Calcula R1 y R2 a partir de los parámetros A y B
 #'
@@ -57,6 +59,8 @@ calcular_R1_R2 <- function(A, B) {
   return(list(R1 = R1, R2 = R2))
 }
 
+#__________________________________________________________#
+
 #' Optimiza la distribución de contactos y calcula R1 y R2
 #'
 #' Esta función optimiza la distribución de contactos y calcula los valores de R1 y R2
@@ -73,7 +77,12 @@ calcular_R1_R2 <- function(A, B) {
 #'
 #' @examples
 #' optimizar_y_calcular(POB = 1000000, Pi = 3, valor_objetivo = 0.043, salto_A = 0.125, salto_B = 0.125)
-optimizar_y_calcular <- function(POB, Pi, valor_objetivo, salto_A = 0.025, salto_B = 0.025) {
+optimizar_y_calcular <- function(POB,
+                                 Pi,
+                                 tolerancia = 0.05,
+                                 valor_objetivo,
+                                 salto_A = 0.025,
+                                 salto_B = 0.025) {
 
   #___________________________________#
   options(lazyLoad = FALSE)
@@ -97,7 +106,7 @@ optimizar_y_calcular <- function(POB, Pi, valor_objetivo, salto_A = 0.025, salto
   }
 
   # Cálculo de la tolerancia
-  tolerancia <- valor_objetivo * 0.05
+  tolerancia <- valor_objetivo * tolerancia
 
   # Definición de rangos para los parámetros
   rangos_size <- seq(Pi, Pi + 3, 1)  # Rango para x (contactos)
@@ -133,5 +142,9 @@ optimizar_y_calcular <- function(POB, Pi, valor_objetivo, salto_A = 0.025, salto
 
   # Retornar el data frame con los resultados
   return(mejores_combinaciones)
+}
+
+#__________________________________________________________#
+
 }
 
