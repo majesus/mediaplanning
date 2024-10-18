@@ -82,7 +82,8 @@ optimizar_y_calcular <- function(POB,
                                  tolerancia = 0.05,
                                  valor_objetivo,
                                  salto_A = 0.025,
-                                 salto_B = 0.025) {
+                                 salto_B = 0.025,
+                                 n = 5) {
 
   #___________________________________#
   options(lazyLoad = FALSE)
@@ -92,6 +93,7 @@ optimizar_y_calcular <- function(POB,
   }
   # Cargar el paquete
   library(extraDistr)
+  library(ggplot2)  # Necesario para gráficos
   #___________________________________#
 
   # Validación de entrada
@@ -106,6 +108,7 @@ optimizar_y_calcular <- function(POB,
   }
 
   # Cálculo de la tolerancia
+  valor_objetivo <- valor_objetivo / POB
   tolerancia <- valor_objetivo * tolerancia
 
   # Definición de rangos para los parámetros
@@ -114,11 +117,13 @@ optimizar_y_calcular <- function(POB,
   rangos_prob2 <- seq(0.001, 1, salto_B)   # Rango para beta
 
   # Generar todas las combinaciones posibles de x, alpha y beta
-  combinaciones <- expand.grid(x = rangos_size, alpha = rangos_prob1, beta = rangos_prob2)
+  combinaciones <- expand.grid(x = rangos_size,
+                               alpha = rangos_prob1,
+                               beta = rangos_prob2)
 
   # Calcular probabilidades con vectorización usando mapply
   probs <- mapply(function(x, alpha, beta) {
-    extraDistr::dbbinom(x = x, size = 5, alpha = alpha, beta = beta)
+    extraDistr::dbbinom(x = x, size = n, alpha = alpha, beta = beta)
   }, combinaciones$x, combinaciones$alpha, combinaciones$beta)
 
   # Filtrar combinaciones que cumplen el criterio
@@ -137,14 +142,54 @@ optimizar_y_calcular <- function(POB,
   resultados_df <- do.call(rbind, resultados)
   mejores_combinaciones <- cbind(mejores_combinaciones, resultados_df)
 
+  # Añadir un asterisco cuando R2 > 2 * R1
+  mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
+
   # Ajustar las probabilidades multiplicadas por la población
   mejores_combinaciones$prob <- round(probs[indices] * POB, 0)
 
-  # Retornar el data frame con los resultados
-  return(mejores_combinaciones)
+  # Mostrar la tabla con el mensaje añadido
+  print(mejores_combinaciones)
+
+  # Añadir un pie de tabla como mensaje adicional
+  cat("\n* Indica que R2 es más del doble que R1, lo que sugiere que la propuesta no es viable.\n")
+
+  # Elegir la combinación principal (primera fila)
+  principal <- mejores_combinaciones[1, ]
+  alpha <- principal$alpha
+  beta <- principal$beta
+
+  # Calcular las probabilidades para la distribución beta binomial con la solución principal
+  distribucion <- extraDistr::dbbinom(0:n, size = n, alpha = alpha, beta = beta)
+
+  # Crear el dataframe con las probabilidades acumuladas de 1 a n, 2 a n, etc.
+  acumuladas <- sapply(1:n, function(k) sum(distribucion[(k + 1):(n + 1)]))
+
+  # Crear un dataframe para el gráfico
+  data <- data.frame(
+    inserciones = 1:n,
+    probabilidad = distribucion[2:(n + 1)],  # Probabilidades desde P(1) hasta P(n)
+    acumulada = acumuladas  # Acumulaciones correctas de 1 a n, 2 a n, etc.
+  )
+
+  # Graficar probabilidades y acumuladas
+  p <- ggplot(data, aes(x = inserciones)) +
+    geom_line(aes(y = probabilidad, color = "Probabilidad"), size = 1.2) +
+    geom_line(aes(y = acumulada, color = "Acumulada"), linetype = "dashed", size = 1.2) +
+    labs(
+      title = "Distribución Beta Binomial y Acumulada",
+      x = "Número de inserciones",
+      y = "Probabilidad"
+    ) +
+    theme_minimal() +
+    theme(legend.position = "top") +
+    scale_color_manual(name = "Tipo", values = c("Probabilidad" = "blue", "Acumulada" = "red"))
+
+  # Mostrar el gráfico
+  print(p)
+
+  # Retornar la tabla final con los resultados
+  # return(mejores_combinaciones)
 }
 
 #__________________________________________________________#
-
-}
-
