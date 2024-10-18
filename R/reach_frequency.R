@@ -106,6 +106,14 @@ optimizar_y_calcular <- function(POB,
   if (valor_objetivo > POB) {
     stop("El valor objetivo no puede ser mayor que la población.")
   }
+  if (Pi > n) {
+    stop("Error: 'Pi' no puede ser superior a 'n'.")
+  }
+  if (Pi == 0) {
+    stop("Error: 'Pi' no puede ser igual a 0.")
+  }
+
+  #___________________________________#
 
   # Cálculo de la tolerancia
   valor_objetivo <- valor_objetivo / POB
