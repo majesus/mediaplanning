@@ -264,7 +264,18 @@ optimizar_dc <- function(POB,
   #___________________________________#
 
   # Cargar el paquete y mostrar ayuda de mi paquete
-  cat("Este script optimiza la distribución de contactos y calcula los valores de R1 y R2 en función de los parámetros proporcionados.")
+  cat("Este script optimiza la distribución de contactos y calcula los valores de R1 y R2 en función de los parámetros proporcionados.
+
+Para mayor información:
+@param POB Numeric. Tamaño de la población.
+@param Pi Numeric. Valor objetivo de distribución de contactos acumulada.
+@param valor_objetivo Numeric. Número de personas a alcanzar al menos i veces.
+@param audiencia_objetivo Numeric. Audiencia del soporte objetivo.
+@param tolerancia Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i).
+@param salto_A Numeric. Paso para el rango de probabilidad alpha.
+@param salto_B Numeric. Paso para el rango de probabilidad beta.
+
+")
 
   #___________________________________#
 
