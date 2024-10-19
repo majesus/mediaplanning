@@ -359,8 +359,8 @@ optimizar_dc <- function(POB,
 
   # Graficar probabilidades y acumuladas
   p <- ggplot(data, aes(x = inserciones)) +
-    geom_smooth(aes(y = probabilidad, color = "Probabilidad"), method = "loess", se = FALSE, linetype = "solid", size = 0.8) +  # Añadir suavizado
-    geom_smooth(aes(y = acumulada, color = "Acumulada"), method = "loess", se = FALSE, linetype = "dashed", size = 0.8) +  # Suavizado acumulado
+    geom_smooth(aes(y = probabilidad, color = "Probabilidad"), linetype = "solid", size = 0.8) +  # Añadir suavizado
+    geom_smooth(aes(y = acumulada, color = "Acumulada"), linetype = "dashed", size = 0.8) +  # Suavizado acumulado
     labs(
       title = "Distribución Beta Binomial y Acumulada con Suavizado",
       x = "Número de inserciones",
