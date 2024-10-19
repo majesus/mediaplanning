@@ -346,6 +346,13 @@ optimizar_dc <- function(POB,
   mejores_combinaciones <- mejores_combinaciones[which(abs(mejores_combinaciones$R1 - R1_objetivo) <= tolerancia), ]
 
   # Mostrar la tabla con las mejores combinaciones ordenadas
+  if (nrow(mejores_combinaciones) == 0) {
+    cat("No se ha encontrado ninguna solución que se ajuste a los límites de tolerancia especificados. Se recomienda ampliar los límites de tolerancia para encontrar posibles soluciones.")
+  } else {
+    print(mejores_combinaciones)
+  }
+
+  # Mostrar la tabla con las mejores combinaciones ordenadas
   print(mejores_combinaciones)
 
   # Añadir un pie de tabla como mensaje adicional
