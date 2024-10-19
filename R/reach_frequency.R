@@ -77,7 +77,7 @@ calcular_R1_R2 <- function(A, B) {
 #'
 #' @examples
 #' optimizar_y_calcular(POB = 1000000, Pi = 3, valor_objetivo = 0.043, salto_A = 0.125, salto_B = 0.125)
-optimizar_y_calcular <- function(POB,
+optimizar_d <- function(POB,
                                  Pi,
                                  tolerancia = 0.05,
                                  valor_objetivo,
@@ -100,17 +100,17 @@ optimizar_y_calcular <- function(POB,
   if (!is.numeric(POB) || !is.numeric(Pi) || !is.numeric(valor_objetivo)) {
     stop("Todos los parámetros deben ser numéricos.")
   }
-  if (POB <= 0 || Pi <= 0 || valor_objetivo <= 0) {
-    stop("Todos los parámetros deben ser positivos.")
+  if (POB <= 0 || valor_objetivo <= 0) {
+    stop("POB y valor_objetivo deben ser positivos.")
+  }
+  if (Pi <= 0) {
+    stop("'Pi' no puede ser igual o menor que 0.")
+  }
+  if (Pi > n) {
+    stop("'Pi' no puede ser superior a 'n'.")
   }
   if (valor_objetivo > POB) {
     stop("El valor objetivo no puede ser mayor que la población.")
-  }
-  if (Pi > n) {
-    stop("Error: 'Pi' no puede ser superior a 'n'.")
-  }
-  if (Pi == 0) {
-    stop("Error: 'Pi' no puede ser igual a 0.")
   }
 
   #___________________________________#
@@ -215,3 +215,164 @@ optimizar_y_calcular <- function(POB,
 }
 
 #__________________________________________________________#
+
+
+#' Optimiza la distribución de contactos y calcula R1 y R2
+#'
+#' Esta función optimiza la distribución de contactos y calcula los valores de R1 y R2
+#' en función de los parámetros proporcionados.
+#'
+#' @param POB Numeric. Tamaño de la población objetivo.
+#' @param Pi Numeric. Valor objetivo de distribución de contactos Pi.
+#' @param valor_objetivo Numeric. Número de personas a alcanzar Pi veces.
+#' @param salto_A Numeric. Paso para el rango de probabilidad alpha.
+#' @param salto_B Numeric. Paso para el rango de probabilidad beta.
+#'
+#' @return Data frame con las combinaciones óptimas de x, alpha, R1, R2, y prob.
+#' @export
+#'
+#' @examples
+#' optimizar_y_calcular(POB = 1000000, Pi = 3, valor_objetivo = 0.043, salto_A = 0.125, salto_B = 0.125)
+optimizar_dc <- function(POB,
+                                     Pi,
+                                     tolerancia = 0.05,
+                                     valor_objetivo,
+                                     salto_A = 0.025,
+                                     salto_B = 0.025,
+                                     n = 5) {
+
+  #___________________________________#
+  options(lazyLoad = FALSE)
+  # Comprobar si el paquete 'extraDistr' está disponible e instalarlo si no lo está
+  if (!requireNamespace("extraDistr", quietly = TRUE)) {
+    install.packages("extraDistr")
+  }
+  # Cargar el paquete
+  library(extraDistr)
+  library(ggplot2)  # Necesario para gráficos
+  #___________________________________#
+
+  # Validación de entrada
+  if (!is.numeric(POB) || !is.numeric(Pi) || !is.numeric(valor_objetivo)) {
+    stop("Todos los parámetros deben ser numéricos.")
+  }
+  if (POB <= 0 || valor_objetivo <= 0) {
+    stop("POB y valor_objetivo deben ser positivos.")
+  }
+  if (Pi <= 0) {
+    stop("'Pi' no puede ser igual o menor que 0.")
+  }
+  if (Pi > n) {
+    stop("'Pi' no puede ser superior a 'n'.")
+  }
+  if (valor_objetivo > POB) {
+    stop("El valor objetivo no puede ser mayor que la población.")
+  }
+
+  #___________________________________#
+
+  # Cálculo de la tolerancia
+  valor_objetivo <- valor_objetivo / POB
+  tolerancia <- valor_objetivo * tolerancia
+
+  # Definición de rangos para los parámetros
+  rangos_size <- seq(Pi, Pi + 3, 1)  # Rango para x (contactos)
+  rangos_prob1 <- seq(0.001, 1, salto_A)   # Rango para alpha
+  rangos_prob2 <- seq(0.001, 1, salto_B)   # Rango para beta
+
+  # Generar todas las combinaciones posibles de x, alpha y beta
+  combinaciones <- expand.grid(x = rangos_size,
+                               alpha = rangos_prob1,
+                               beta = rangos_prob2)
+
+  # Calcular probabilidades con vectorización usando mapply
+  probs <- mapply(function(x, alpha, beta) {
+    extraDistr::dbbinom(x = 0:n, size = n, alpha = alpha, beta = beta)
+  }, combinaciones$x, combinaciones$alpha, combinaciones$beta, SIMPLIFY = FALSE)
+
+  # Cálculo de probabilidades acumuladas
+  probs_acumuladas <- sapply(probs, function(prob_vector) {
+    sum(prob_vector[(Pi + 1):(n + 1)])
+  })
+
+  # Filtrar combinaciones que cumplen el criterio
+  indices <- which(abs(valor_objetivo - unlist(probs_acumuladas)) <= tolerancia)
+
+  # Resultados filtrados
+  mejores_combinaciones <- combinaciones[indices, ]
+
+  # Calcular R1 y R2 para cada combinación de alpha y beta
+  resultados <- mapply(function(alpha, beta) {
+    res <- calcular_R1_R2(A = alpha, B = beta)
+    return(c(R1 = res$R1, R2 = res$R2))
+  }, mejores_combinaciones$alpha, mejores_combinaciones$beta, SIMPLIFY = FALSE)
+
+  # Convertir lista de resultados a data frame
+  resultados_df <- do.call(rbind, resultados)
+  mejores_combinaciones <- cbind(mejores_combinaciones, resultados_df)
+
+  # Añadir un asterisco cuando R2 > 2 * R1
+  mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
+
+  # Asegurarse de que valor_objetivo esté en las mismas unidades que prob
+  valor_objetivo_poblacional <- valor_objetivo * POB  # Ajustamos el valor objetivo según la población
+
+  # Calcular la columna prob_acum
+  mejores_combinaciones$probs_acumuladas <- round(probs_acumuladas[indices] * POB, 0)
+
+  # Crear la columna de distancia con respecto al valor objetivo poblacional
+  mejores_combinaciones$distancia_objetivo <-
+    abs(valor_objetivo_poblacional - mejores_combinaciones$probs_acumuladas)
+
+  # Ordenar primero por la distancia al valor objetivo
+  mejores_combinaciones <- mejores_combinaciones[order(mejores_combinaciones$x,
+                                                       mejores_combinaciones$distancia_objetivo), ]
+
+  # Agregar probabilidades acumuladas a las mejores combinaciones
+  # mejores_combinaciones$probs_acumuladas <- unlist(probs_acumuladas)[indices]
+  # mejores_combinaciones
+
+  # Mostrar la tabla con las mejores combinaciones ordenadas
+  print(mejores_combinaciones)
+
+  # Añadir un pie de tabla como mensaje adicional
+  cat("\n* Indica que R2 es más del doble que R1, lo que sugiere que la propuesta no es viable.\n")
+
+  # Elegir la combinación principal (primera fila)
+  principal <- mejores_combinaciones[1, ]
+  alpha <- principal$alpha
+  beta <- principal$beta
+
+  # Calcular las probabilidades para la distribución beta binomial con la solución principal
+  distribucion <- extraDistr::dbbinom(0:n, size = n, alpha = alpha, beta = beta)
+
+  # Crear el dataframe con las probabilidades acumuladas de 1 a n, 2 a n, etc.
+  acumuladas <- sapply(1:n, function(k) sum(distribucion[(k + 1):(n + 1)]))
+
+  # Crear un dataframe para el gráfico
+  data <- data.frame(
+    inserciones = 1:n,
+    probabilidad = distribucion[2:(n + 1)],  # Probabilidades desde P(1) hasta P(n)
+    acumulada = acumuladas  # Acumulaciones correctas de 1 a n, 2 a n, etc.
+  )
+  data
+
+  # Graficar probabilidades y acumuladas
+  p <- ggplot(data, aes(x = inserciones)) +
+    geom_smooth(aes(y = probabilidad, color = "Probabilidad"), method = "loess", se = FALSE, linetype = "solid", size = 0.8) +  # Añadir suavizado
+    geom_smooth(aes(y = acumulada, color = "Acumulada"), method = "loess", se = FALSE, linetype = "dashed", size = 0.8) +  # Suavizado acumulado
+    labs(
+      title = "Distribución Beta Binomial y Acumulada con Suavizado",
+      x = "Número de inserciones",
+      y = "Probabilidad"
+    ) +
+    theme_minimal() +
+    theme(legend.position = "top") +
+    scale_color_manual(name = "Tipo", values = c("Probabilidad" = "blue", "Acumulada" = "red"))
+
+  # Mostrar el gráfico
+  print(p)
+
+  # Retornar la tabla final con los resultados
+  # return(mejores_combinaciones)
+}
