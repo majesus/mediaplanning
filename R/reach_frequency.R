@@ -121,8 +121,8 @@ optimizar_d <- function(POB,
 
   # Definición de rangos para los parámetros
   rangos_size <- seq(Pi, Pi + 3, 1)  # Rango para x (contactos)
-  rangos_prob1 <- seq(0.001, 1, salto_A)   # Rango para alpha
-  rangos_prob2 <- seq(0.001, 1, salto_B)   # Rango para beta
+  rangos_prob1 <- seq(0.001, 10, salto_A)   # Rango para alpha
+  rangos_prob2 <- seq(0.001, 10, salto_B)   # Rango para beta
 
   # Generar todas las combinaciones posibles de x, alpha y beta
   combinaciones <- expand.grid(x = rangos_size,
@@ -277,8 +277,8 @@ optimizar_dc <- function(POB,
 
   # Definición de rangos para los parámetros
   rangos_size <- seq(Pi, Pi + 3, 1)  # Rango para x (contactos)
-  rangos_prob1 <- seq(0.001, 1, salto_A)   # Rango para alpha
-  rangos_prob2 <- seq(0.001, 1, salto_B)   # Rango para beta
+  rangos_prob1 <- seq(0.001, 10, salto_A)   # Rango para alpha
+  rangos_prob2 <- seq(0.001, 10, salto_B)   # Rango para beta
 
   # Generar todas las combinaciones posibles de x, alpha y beta
   combinaciones <- expand.grid(x = rangos_size,
