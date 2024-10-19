@@ -66,9 +66,11 @@ calcular_R1_R2 <- function(A, B) {
 #' Esta función optimiza la distribución de contactos y calcula los valores de R1 y R2
 #' en función de los parámetros proporcionados.
 #'
-#' @param POB Numeric. Tamaño de la población objetivo.
-#' @param Pi Numeric. Valor objetivo de distribución de contactos Pi.
-#' @param valor_objetivo Numeric. Número de personas a alcanzar Pi veces.
+#' @param POB Numeric. Tamaño de la población.
+#' @param Pi Numeric. Valor objetivo de distribución de contactos acumulada.
+#' @param valor_objetivo Numeric. Número de personas a alcanzar al menos i veces.
+#' @param audiencia_objetivo Numeric. Audiencia del soporte objetivo.
+#' @param tolerancia Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i).
 #' @param salto_A Numeric. Paso para el rango de probabilidad alpha.
 #' @param salto_B Numeric. Paso para el rango de probabilidad beta.
 #'
@@ -79,9 +81,9 @@ calcular_R1_R2 <- function(A, B) {
 #' optimizar_y_calcular(POB = 1000000, Pi = 3, valor_objetivo = 0.043, salto_A = 0.125, salto_B = 0.125)
 optimizar_d <- function(POB,
                         Pi,
-                        tolerancia = 0.05,
                         valor_objetivo,
-                        Audiencia_objetivo,
+                        audiencia_objetivo,
+                        tolerancia = 0.05,
                         salto_A = 0.025,
                         salto_B = 0.025,
                         n = 5) {
@@ -170,9 +172,17 @@ optimizar_d <- function(POB,
   # Eliminar las filas donde la columna 'flag' tiene un asterisco
   mejores_combinaciones <- mejores_combinaciones[mejores_combinaciones$flag != "*", ]
 
-  # Mostrar la tabla con las mejores combinaciones ordenadas
-  print(mejores_combinaciones)
+  # Filtrar filas cuyo valor R1 esté cerca del valor objetivo especificado
+  R1_objetivo <- audiencia_objetivo / POB  # Valor objetivo de R1 para filtrar
+  mejores_combinaciones <- mejores_combinaciones[which(abs(mejores_combinaciones$R1 - R1_objetivo) <= tolerancia), ]
 
+  # Mostrar la tabla con las mejores combinaciones ordenadas
+  if (nrow(mejores_combinaciones) == 0) {
+    cat(">>>No se ha encontrado ninguna solución que se ajuste a los límites de tolerancia especificados. Se recomienda ampliar los límites de tolerancia para encontrar posibles soluciones.")
+  } else {
+    # Mostrar la tabla con las mejores combinaciones ordenadas
+    print(mejores_combinaciones)
+  }
 
   # Añadir un pie de tabla como mensaje adicional
   cat("\n* Indica que R2 es más del doble que R1, lo que sugiere que la propuesta no es viable.\n")
@@ -347,13 +357,11 @@ optimizar_dc <- function(POB,
 
   # Mostrar la tabla con las mejores combinaciones ordenadas
   if (nrow(mejores_combinaciones) == 0) {
-    cat("No se ha encontrado ninguna solución que se ajuste a los límites de tolerancia especificados. Se recomienda ampliar los límites de tolerancia para encontrar posibles soluciones.")
+    cat(">>>No se ha encontrado ninguna solución que se ajuste a los límites de tolerancia especificados. Se recomienda ampliar los límites de tolerancia para encontrar posibles soluciones.")
   } else {
+    # Mostrar la tabla con las mejores combinaciones ordenadas
     print(mejores_combinaciones)
   }
-
-  # Mostrar la tabla con las mejores combinaciones ordenadas
-  print(mejores_combinaciones)
 
   # Añadir un pie de tabla como mensaje adicional
   cat("\n* Indica que R2 es más del doble que R1, lo que sugiere que la propuesta no es viable.\n")
