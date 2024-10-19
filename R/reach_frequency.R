@@ -78,12 +78,13 @@ calcular_R1_R2 <- function(A, B) {
 #' @examples
 #' optimizar_y_calcular(POB = 1000000, Pi = 3, valor_objetivo = 0.043, salto_A = 0.125, salto_B = 0.125)
 optimizar_d <- function(POB,
-                                 Pi,
-                                 tolerancia = 0.05,
-                                 valor_objetivo,
-                                 salto_A = 0.025,
-                                 salto_B = 0.025,
-                                 n = 5) {
+                        Pi,
+                        tolerancia = 0.05,
+                        valor_objetivo,
+                        Audiencia_objetivo,
+                        salto_A = 0.025,
+                        salto_B = 0.025,
+                        n = 5) {
 
   #___________________________________#
   options(lazyLoad = FALSE)
@@ -222,24 +223,27 @@ optimizar_d <- function(POB,
 #' Esta función optimiza la distribución de contactos y calcula los valores de R1 y R2
 #' en función de los parámetros proporcionados.
 #'
-#' @param POB Numeric. Tamaño de la población objetivo.
-#' @param Pi Numeric. Valor objetivo de distribución de contactos Pi.
-#' @param valor_objetivo Numeric. Número de personas a alcanzar Pi veces.
+#' @param POB Numeric. Tamaño de la población.
+#' @param Pi Numeric. Valor objetivo de distribución de contactos acumulada.
+#' @param valor_objetivo Numeric. Número de personas a alcanzar al menos i veces.
+#' @param audiencia_objetivo Numeric. Audiencia del soporte objetivo.
+#' @param tolerancia Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i).
 #' @param salto_A Numeric. Paso para el rango de probabilidad alpha.
 #' @param salto_B Numeric. Paso para el rango de probabilidad beta.
 #'
-#' @return Data frame con las combinaciones óptimas de x, alpha, R1, R2, y prob.
+#' @return Data frame con las combinaciones óptimas de x, alpha, R1, R2, probs_acumuladas, distancia_objetivo.
 #' @export
 #'
 #' @examples
 #' optimizar_y_calcular(POB = 1000000, Pi = 3, valor_objetivo = 0.043, salto_A = 0.125, salto_B = 0.125)
 optimizar_dc <- function(POB,
-                                     Pi,
-                                     tolerancia = 0.05,
-                                     valor_objetivo,
-                                     salto_A = 0.025,
-                                     salto_B = 0.025,
-                                     n = 5) {
+                         Pi,
+                         valor_objetivo,
+                         audiencia_objetivo,
+                         tolerancia = 0.05,
+                         salto_A = 0.025,
+                         salto_B = 0.025,
+                         n = 5) {
 
   #___________________________________#
   options(lazyLoad = FALSE)
@@ -251,6 +255,12 @@ optimizar_dc <- function(POB,
   library(extraDistr)
   library(ggplot2)  # Necesario para gráficos
   #___________________________________#
+
+  # Cargar el paquete y mostrar ayuda de mi paquete
+  cat("Este script optimiza la distribución de contactos y calcula los valores de R1 y R2 en función de los parámetros proporcionados.")
+
+  #___________________________________#
+
 
   # Validación de entrada
   if (!is.numeric(POB) || !is.numeric(Pi) || !is.numeric(valor_objetivo)) {
@@ -330,7 +340,10 @@ optimizar_dc <- function(POB,
 
   # Agregar probabilidades acumuladas a las mejores combinaciones
   # mejores_combinaciones$probs_acumuladas <- unlist(probs_acumuladas)[indices]
-  # mejores_combinaciones
+
+  # Filtrar filas cuyo valor R1 esté cerca del valor objetivo especificado
+  R1_objetivo <- audiencia_objetivo / POB  # Valor objetivo de R1 para filtrar
+  mejores_combinaciones <- mejores_combinaciones[which(abs(mejores_combinaciones$R1 - R1_objetivo) <= tolerancia), ]
 
   # Mostrar la tabla con las mejores combinaciones ordenadas
   print(mejores_combinaciones)
