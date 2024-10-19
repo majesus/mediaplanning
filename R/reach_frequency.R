@@ -184,9 +184,6 @@ optimizar_d <- function(POB,
     print(mejores_combinaciones)
   }
 
-  # Añadir un pie de tabla como mensaje adicional
-  cat("\n* Indica que R2 es más del doble que R1, lo que sugiere que la propuesta no es viable.\n")
-
   # Elegir la combinación principal (primera fila)
   principal <- mejores_combinaciones[1, ]
   alpha <- principal$alpha
@@ -362,9 +359,6 @@ optimizar_dc <- function(POB,
     # Mostrar la tabla con las mejores combinaciones ordenadas
     print(mejores_combinaciones)
   }
-
-  # Añadir un pie de tabla como mensaje adicional
-  cat("\n* Indica que R2 es más del doble que R1, lo que sugiere que la propuesta no es viable.\n")
 
   # Elegir la combinación principal (primera fila)
   principal <- mejores_combinaciones[1, ]
