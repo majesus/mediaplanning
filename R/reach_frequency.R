@@ -110,7 +110,7 @@ imprimir_resultados <- function(data_ls) {
 #'   step_B = 0.025,
 #'   n = 5
 #' )
-optimizar_d <- function(POB,
+optimizar_d <- function(Pob,
                         FE,
                         cob_efectiva,
                         A1,
