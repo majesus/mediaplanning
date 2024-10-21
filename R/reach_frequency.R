@@ -150,8 +150,8 @@ Para mayor información:
   if (!is.numeric(Pob) || !is.numeric(FE) || !is.numeric(cob_efectiva)) {
     stop("Todos los parámetros deben ser numéricos.")
   }
-  if (POB <= 0 || cob_efectiva <= 0) {
-    stop("POB y cob_efectiva deben ser positivos.")
+  if (Pob <= 0 || cob_efectiva <= 0) {
+    stop("Pob y cob_efectiva deben ser positivos.")
   }
   if (FE <= 0) {
     stop("'FE' no puede ser igual o menor que 0.")
