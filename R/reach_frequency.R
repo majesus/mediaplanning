@@ -91,25 +91,32 @@ imprimir_resultados <- function(data_ls) {
 
 #__________________________________________________________#
 
-#' Optimiza la distribución de contactos y calcula R1 y R2
+#' Optimiza parámetros para el modelo de distribución de contactos
 #'
-#' Esta función optimiza la distribución de contactos y calcula los valores de R1 y R2
-#' en función de los parámetros proporcionados.
+#' @param Pob Población total objetivo
+#' @param FE Frecuencia efectiva objetivo
+#' @param cob_efectiva Cobertura efectiva objetivo
+#' @param A1 Audiencia primera inserción
+#' @param tolerancia Tolerancia permitida
+#' @param step_A Paso para búsqueda de alpha
+#' @param step_B Paso para búsqueda de beta
+#' @param n Número de inserciones
 #'
-#' @param Pob          Numeric. Tamaño de la población
-#' @param FE           Numeric. Frecuencia efectiva
-#' @param cob_efectiva Numeric. Número de personas a alcanzar al menos i veces
-#' @param A1           Numeric. Audiencia del soporte objetivo
-#' @param tolerancia   Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i)
-#' @param step_A       Numeric. Paso para el rango alpha
-#' @param step_B       Numeric. Paso para el rango beta
-#' @param n            Numeric. Número máximo de contactos
-#'
-#' @return Data frame con las combinaciones óptimas de x, alpha, R1, R2, probs_acumuladas, distancia_objetivo.
+#' @return Lista con parámetros optimizados
 #' @export
 #'
 #' @examples
-#' optimizar_y_calcular(POB = 1000000, FE = 3, cob_efectiva = 0.043, step_A = 0.125, step_B = 0.125)
+#' # Ejemplo de optimización con parámetros típicos
+#' resultado <- optimizar_d(
+#'   Pob = 1000000,
+#'   FE = 3,
+#'   cob_efectiva = 590000,
+#'   A1 = 500000,
+#'   tolerancia = 0.05,
+#'   step_A = 0.025,
+#'   step_B = 0.025,
+#'   n = 5
+#' )
 optimizar_d <- function(POB,
                         FE,
                         cob_efectiva,
@@ -280,25 +287,33 @@ Para mayor información:
 
 #__________________________________________________________#
 
-#' Optimiza la distribución de contactos y calcula R1 y R2
+#' Optimiza parámetros para el modelo de distribución de contactos acumulada
 #'
-#' Esta función optimiza la distribución de contactos y calcula los valores de R1 y R2
-#' en función de los parámetros proporcionados.
+#' @param Pob Población total objetivo
+#' @param FEM Frecuencia efectiva mínima
+#' @param cob_efectiva Cobertura efectiva objetivo
+#' @param A1 Audiencia primera inserción
+#' @param tolerancia Tolerancia permitida
+#' @param step_A Paso para búsqueda de alpha
+#' @param step_B Paso para búsqueda de beta
+#' @param n Número de inserciones
 #'
-#' @param Pob          Numeric. Tamaño de la población
-#' @param FEM          Numeric. Frecuencia efectiva mínima
-#' @param cob_efectiva Numeric. Número de personas a alcanzar al menos i veces
-#' @param A1           Numeric. Audiencia del soporte objetivo
-#' @param tolerancia   Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i)
-#' @param step_A       Numeric. Paso para el rango alpha
-#' @param step_B       Numeric. Paso para el rango beta
-#' @param n            Numeric. Número máximo de contactos
-#'
-#' @return Data frame con las combinaciones óptimas de x, alpha, R1, R2, probs_acumuladas, distancia_objetivo.
+#' @return Lista con parámetros optimizados
 #' @export
 #'
 #' @examples
-#' optimizar_y_calcular(Pob = 1000000, FEM = 3, cob_efectiva = 590000, A1 = 500000, tolerancia = 0.05, step_A = 0.025, step_B = 0.025, n = 5)
+#' # Ejemplo de optimización de distribución y cobertura
+#' resultado <- optimizar_dc(
+#'   Pob = 1000000,
+#'   FEM = 3,
+#'   cob_efectiva = 590000,
+#'   A1 = 500000,
+#'   tolerancia = 0.05,
+#'   step_A = 0.025,
+#'   step_B = 0.025,
+#'   n = 5
+#' )
+
 optimizar_dc <- function(Pob,
                          FEM,
                          cob_efectiva,
