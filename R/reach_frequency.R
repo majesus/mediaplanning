@@ -24,45 +24,39 @@ reach_frequency <- function(impresiones, audiencia) {
 
 #__________________________________________________________#
 
-#' Calcula R1 y R2 a partir de los parámetros A y B
+#' Calcula R1 y R2 a partir de parámetros alpha y beta
 #'
-#' @param A Numeric. Valor del parámetro A.
-#' @param B Numeric. Valor del parámetro B.
+#' @param A Parámetro alpha
+#' @param B Parámetro beta
+#' @return Lista con valores R1 y R2 calculados
+#' @keywords internal
 #'
-#' @return Una lista con los valores de R1 y R2.
-#' @export
-#'
-#' @examples
-#' calcular_R1_R2(A = 0.5, B = 0.3)
 calcular_R1_R2 <- function(A, B) {
-
-  # Validar que A y B sean numéricos y positivos
   if (!is.numeric(A) || !is.numeric(B) || A <= 0 || B <= 0) {
     stop("A y B deben ser numéricos y positivos.")
   }
 
-  # Despejar R1 de la segunda ecuación
   R1 <- A / (A + B)
 
-  # Función objetivo para encontrar R2 numéricamente
   objetivo_R2 <- function(R2) {
     (A - (R1 * (R2 - R1)) / (2 * R1 - R1^2 - R2))^2
   }
 
-  # Encontrar el valor de R2 que minimiza el error
-  resultado <- optimize(objetivo_R2, c(0, 1))
-
-  # Obtener el valor de R2
+  resultado <- stats::optimize(objetivo_R2, c(0, 1))
   R2 <- resultado$minimum
 
-  # Retornar los valores de R1 y R2
   return(list(R1 = R1, R2 = R2))
 }
 
+
 #__________________________________________________________#
 
+#' Imprime resultados detallados del análisis
+#'
+#' @param data_ls Lista con los resultados del análisis
+#' @keywords internal
+#'
 imprimir_resultados <- function(data_ls) {
-  # Definir nombres descriptivos para los resultados 2 al 5
   nombres_resultados <- c(
     "Combinaciones más relevantes",
     "Distribución de contactos",
@@ -72,11 +66,9 @@ imprimir_resultados <- function(data_ls) {
 
   cat("\n=== RESULTADOS DEL ANÁLISIS ===\n")
 
-  # Iterar sobre los componentes 2 al 5
   for (i in 2:5) {
     cat(sprintf("\n%s:\n", nombres_resultados[i-1]))
 
-    # Formatear la salida según el tipo de dato
     if (is.data.frame(data_ls[[i]])) {
       print(data_ls[[i]], row.names = FALSE)
     } else if (is.numeric(data_ls[[i]])) {
@@ -85,9 +77,10 @@ imprimir_resultados <- function(data_ls) {
       print(data_ls[[i]])
     }
 
-    cat("\n", paste(rep("-", 50), collapse = ""), "\n")  # Corregido aquí
+    cat("\n", paste(rep("-", 50), collapse = ""), "\n")
   }
 }
+
 
 #__________________________________________________________#
 
@@ -287,33 +280,43 @@ Para mayor información:
 
 #__________________________________________________________#
 
-#' Optimiza parámetros para el modelo de distribución de contactos acumulada
+#' Optimiza la distribución de contactos y calcula valores R1 y R2
 #'
-#' @param Pob Población total objetivo
-#' @param FEM Frecuencia efectiva mínima
-#' @param cob_efectiva Cobertura efectiva objetivo
-#' @param A1 Audiencia primera inserción
-#' @param tolerancia Tolerancia permitida
-#' @param step_A Paso para búsqueda de alpha
-#' @param step_B Paso para búsqueda de beta
-#' @param n Número de inserciones
+#' @param Pob Numeric. Tamaño de la población
+#' @param FEM Numeric. Frecuencia efectiva mínima
+#' @param cob_efectiva Numeric. Número de personas a alcanzar al menos i veces
+#' @param A1 Numeric. Audiencia del soporte objetivo
+#' @param tolerancia Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i)
+#' @param step_A Numeric. Paso para el rango alpha
+#' @param step_B Numeric. Paso para el rango beta
+#' @param n Numeric. Número máximo de contactos
 #'
-#' @return Lista con parámetros optimizados
+#' @return Lista con los siguientes elementos:
+#' \itemize{
+#'   \item mejores_combinaciones: Data frame con todas las combinaciones válidas
+#'   \item mejores_combinaciones_top_10: Top 10 mejores combinaciones
+#'   \item data: Data frame con distribución de probabilidades
+#'   \item alpha: Valor alpha seleccionado
+#'   \item beta: Valor beta seleccionado
+#' }
 #' @export
 #'
+#' @importFrom ggplot2 ggplot aes geom_smooth labs theme_minimal theme
+#'             scale_color_manual
+#' @importFrom extraDistr dbbinom
+#' @importFrom stats optimize
+#'
 #' @examples
-#' # Ejemplo de optimización de distribución y cobertura
 #' resultado <- optimizar_dc(
 #'   Pob = 1000000,
 #'   FEM = 3,
-#'   cob_efectiva = 590000,
+#'   cob_efectiva = 547657,
 #'   A1 = 500000,
 #'   tolerancia = 0.05,
-#'   step_A = 0.025,
-#'   step_B = 0.025,
+#'   step_A = 0.25,
+#'   step_B = 0.25,
 #'   n = 5
 #' )
-
 optimizar_dc <- function(Pob,
                          FEM,
                          cob_efectiva,
