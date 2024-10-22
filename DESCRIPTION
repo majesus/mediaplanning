@@ -1,6 +1,6 @@
 Package: mediaPlanR
 Title: Optimización de Distribución de Contactos en Media Planning
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Manuel", "Sánchez-Franco", email = "majesus@us.es", role = c("aut", "cre"))
 Description: Herramientas para optimizar la distribución de contactos y calcular
     valores R1 y R2 en planificación de medios.
