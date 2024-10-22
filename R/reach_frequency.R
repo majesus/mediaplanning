@@ -1,6 +1,6 @@
 #__________________________________________________________#
 
-#' Calcula el alcance y la frecuencia
+#' Alcance y frecuencia
 #'
 #' Esta función calcula el alcance y la frecuencia de una campaña publicitaria
 #' basándose en el número de impresiones y el tamaño de la audiencia.
@@ -24,7 +24,9 @@ reach_frequency <- function(impresiones, audiencia) {
 
 #__________________________________________________________#
 
-#' Calcula R1 y R2 a partir de parámetros alpha y beta
+#' R1 y R2 a partir de parámetros alpha y beta
+#'
+#' Esta función calcula R1 y R2 a partir de los parámetros alpha y beta
 #'
 #' @param A Parámetro alpha, debe ser numérico y positivo
 #' @param B Parámetro beta, debe ser numérico y positivo
@@ -62,12 +64,7 @@ calcular_R1_R2 <- function(A, B) {
 #' @export
 #'
 #' @examples
-#' data_ls <- list(
-#'   resultados = data.frame(x = 1:3, y = 4:6),
-#'   distribucion = data.frame(cont = 1:3, prob = c(0.3, 0.4, 0.3)),
-#'   alpha = 0.5,
-#'   beta = 0.3
-#' )
+#' data_ls <- list(resultados = data.frame(x = 1:3, y = 4:6), distribucion = data.frame(cont = 1:3, prob = c(0.3, 0.4, 0.3)), alpha = 0.5, beta = 0.3)
 imprimir_resultados <- function(data_ls) {
   nombres_resultados <- c(
     "Combinaciones más relevantes",
