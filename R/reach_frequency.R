@@ -56,15 +56,28 @@ calcular_R1_R2 <- function(A, B) {
 
 #' Imprime resultados del análisis
 #'
-#' Esta función imprime en consola los resultados del análisis incluyendo
+#' @title Impresión de resultados
+#' @description Esta función imprime en consola los resultados del análisis incluyendo
 #' combinaciones, distribución y parámetros seleccionados.
 #'
-#' @param data_ls Lista que contiene resultados, distribución y parámetros del análisis
+#' @param data_ls Lista que contiene:
+#'   \item{resultados}{Data frame con resultados}
+#'   \item{distribucion}{Data frame con distribución}
+#'   \item{alpha}{Valor del parámetro alpha}
+#'   \item{beta}{Valor del parámetro beta}
+#'
 #' @return No retorna valor, imprime los resultados en consola
-#' @export
 #'
 #' @examples
-#' data_ls <- list(resultados = data.frame(x = 1:3, y = 4:6), distribucion = data.frame(cont = 1:3, prob = c(0.3, 0.4, 0.3)), alpha = 0.5, beta = 0.3)
+#' data_ls <- list(
+#'   resultados = data.frame(x = 1:3, y = 4:6),
+#'   distribucion = data.frame(cont = 1:3, prob = c(0.3, 0.4, 0.3)),
+#'   alpha = 0.5,
+#'   beta = 0.3
+#' )
+#' imprimir_resultados(data_ls)
+#'
+#' @export
 imprimir_resultados <- function(data_ls) {
   nombres_resultados <- c(
     "Combinaciones más relevantes",
@@ -92,48 +105,43 @@ imprimir_resultados <- function(data_ls) {
 
 #__________________________________________________________#
 
-#' Optimiza parámetros para el modelo de distribución de contactos
+#' Optimiza parámetros para distribución de contactos
 #'
-#' @description
-#' Esta función optimiza la distribución de contactos y calcula los valores
-#' de R1 y R2 en función de los parámetros proporcionados. Utiliza una
-#' distribución beta binomial para modelar los contactos publicitarios.
+#' @title Optimización de distribución de contactos
+#' @description Esta función optimiza la distribución de contactos y calcula los valores
+#' de R1 y R2 usando una distribución beta binomial para modelar contactos publicitarios.
 #'
-#' @param Pob Numeric. Tamaño de la población objetivo
-#' @param FE Numeric. Frecuencia efectiva objetivo
-#' @param cob_efectiva Numeric. Número de personas a alcanzar al menos i veces
-#' @param A1 Numeric. Audiencia primera inserción
-#' @param tolerancia Numeric. Tolerancia permitida para las soluciones (default: 0.05)
-#' @param step_A Numeric. Paso para búsqueda de alpha (default: 0.025)
-#' @param step_B Numeric. Paso para búsqueda de beta (default: 0.025)
-#' @param n Numeric. Número de inserciones (default: 5)
+#' @param Pob Tamaño de la población objetivo
+#' @param FE Frecuencia efectiva objetivo
+#' @param cob_efectiva Número de personas a alcanzar al menos i veces
+#' @param A1 Audiencia primera inserción
+#' @param tolerancia Tolerancia permitida para las soluciones (default: 0.05)
+#' @param step_A Paso para búsqueda de alpha (default: 0.025)
+#' @param step_B Paso para búsqueda de beta (default: 0.025)
+#' @param n Número de inserciones (default: 5)
 #'
-#' @return Una lista con los siguientes elementos:
-#' \itemize{
-#'   \item mejores_combinaciones: Data frame con todas las combinaciones válidas
-#'   \item mejores_combinaciones_top_10: Las 10 mejores combinaciones
-#'   \item data: Data frame con distribución de contactos
-#'   \item alpha: Valor alpha seleccionado
-#'   \item beta: Valor beta seleccionado
-#' }
+#' @return Una lista con los siguientes componentes:
+#'   \item{mejores_combinaciones}{Data frame con todas las combinaciones válidas}
+#'   \item{mejores_combinaciones_top_10}{Las 10 mejores combinaciones}
+#'   \item{data}{Data frame con distribución de contactos}
+#'   \item{alpha}{Valor alpha seleccionado}
+#'   \item{beta}{Valor beta seleccionado}
 #'
 #' @import ggplot2
 #' @import extraDistr
 #' @importFrom stats optimize
 #'
-#' @export
-#'
 #' @examples
+#' \dontrun{
 #' resultado <- optimizar_d(
 #'   Pob = 1000000,
 #'   FE = 3,
 #'   cob_efectiva = 590000,
-#'   A1 = 500000,
-#'   tolerancia = 0.05,
-#'   step_A = 0.025,
-#'   step_B = 0.025,
-#'   n = 5
+#'   A1 = 500000
 #' )
+#' }
+#'
+#' @export
 optimizar_d <- function(Pob,
                         FE,
                         cob_efectiva,
@@ -304,58 +312,53 @@ Para mayor información:
 
 #__________________________________________________________#
 
-#' #' Optimiza la distribución de contactos acumulada
+#' Optimiza distribución de contactos acumulada
 #'
-#' @description
-#' Esta función optimiza la distribución de contactos acumulada y calcula
-#' los valores de R1 y R2 considerando una frecuencia efectiva mínima (FEM).
-#' Utiliza una distribución beta binomial para modelar los contactos.
+#' @title Optimización de distribución de contactos acumulada
+#' @description Esta función optimiza la distribución de contactos acumulada considerando
+#' una frecuencia efectiva mínima (FEM) y calcula R1 y R2.
 #'
-#' @param Pob Numeric. Tamaño de la población objetivo
-#' @param FEM Numeric. Frecuencia efectiva mínima requerida
-#' @param cob_efectiva Numeric. Número de personas a alcanzar al menos i veces
-#' @param A1 Numeric. Audiencia del soporte objetivo
-#' @param tolerancia Numeric. Tolerancia permitida para las soluciones (default: 0.05)
-#' @param step_A Numeric. Paso para rango alpha (default: 0.025)
-#' @param step_B Numeric. Paso para rango beta (default: 0.025)
-#' @param n Numeric. Número máximo de contactos (default: 5)
-#'
-#' @return Una lista con los siguientes elementos:
-#' \itemize{
-#'   \item mejores_combinaciones: Data frame con todas las combinaciones válidas
-#'   \item mejores_combinaciones_top_10: Las 10 mejores combinaciones
-#'   \item data: Data frame con distribución de probabilidades
-#'   \item alpha: Valor alpha seleccionado
-#'   \item beta: Valor beta seleccionado
-#' }
+#' @param Pob Tamaño de la población objetivo
+#' @param FEM Frecuencia efectiva mínima requerida
+#' @param cob_efectiva Número de personas a alcanzar al menos i veces
+#' @param A1 Audiencia del soporte objetivo
+#' @param tolerancia Tolerancia permitida para soluciones (default: 0.05)
+#' @param step_A Paso para rango alpha (default: 0.025)
+#' @param step_B Paso para rango beta (default: 0.025)
+#' @param n Número máximo de contactos (default: 5)
 #'
 #' @details
-#' La función realiza las siguientes operaciones principales:
-#' \itemize{
-#'   \item Valida los parámetros de entrada
-#'   \item Calcula distribuciones beta binomiales para diferentes combinaciones de parámetros
-#'   \item Filtra las combinaciones que cumplen con los criterios especificados
-#'   \item Calcula métricas R1 y R2 para las combinaciones válidas
-#'   \item Genera visualizaciones de la distribución resultante
-#' }
+#' La función realiza las siguientes operaciones:
+#'   \itemize{
+#'     \item Valida los parámetros de entrada
+#'     \item Calcula distribuciones beta binomiales
+#'     \item Filtra combinaciones que cumplen criterios
+#'     \item Calcula métricas R1 y R2
+#'     \item Genera visualizaciones
+#'   }
+#'
+#' @return Una lista con los siguientes componentes:
+#'   \item{mejores_combinaciones}{Data frame con combinaciones válidas}
+#'   \item{mejores_combinaciones_top_10}{10 mejores combinaciones}
+#'   \item{data}{Data frame con distribución de probabilidades}
+#'   \item{alpha}{Valor alpha seleccionado}
+#'   \item{beta}{Valor beta seleccionado}
 #'
 #' @import ggplot2
 #' @import extraDistr
 #' @importFrom stats optimize
 #'
-#' @export
-#'
 #' @examples
+#' \dontrun{
 #' resultado <- optimizar_dc(
 #'   Pob = 1000000,
 #'   FEM = 3,
 #'   cob_efectiva = 547657,
-#'   A1 = 500000,
-#'   tolerancia = 0.05,
-#'   step_A = 0.25,
-#'   step_B = 0.25,
-#'   n = 5
+#'   A1 = 500000
 #' )
+#' }
+#'
+#' @export
 optimizar_dc <- function(Pob,
                          FEM,
                          cob_efectiva,
