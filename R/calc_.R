@@ -1,8 +1,8 @@
+#__________________________________________________________#
 #' Calcula el reach usando el modelo de Sainsbury
 #'
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param poblacion_total Número total de la población objetivo
-#'
 #' @return Una lista con los siguientes elementos:
 #' \itemize{
 #'   \item reach$porcentaje: Reach total en porcentaje
@@ -76,12 +76,11 @@ calc_sainsbury <- function(audiencias, poblacion_total) {
     )
   ), class = "reach_sainsbury"))
 }
-
+#__________________________________________________________#
 #' Calcula el reach usando el modelo Binomial
 #'
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param poblacion_total Número total de la población objetivo
-#'
 #' @return Una lista con los siguientes elementos:
 #' \itemize{
 #'   \item reach$porcentaje: Reach total en porcentaje
@@ -147,14 +146,13 @@ calc_binomial <- function(audiencias, poblacion_total) {
     probabilidad_media = p
   ), class = "reach_binomial"))
 }
-
+#__________________________________________________________#
 #' Calcula el reach usando el modelo Beta-Binomial
 #'
 #' @param A1 Numeric. Audiencia tras la primera inserción
 #' @param A2 Numeric. Audiencia tras la segunda inserción
 #' @param P Numeric. Población total objetivo
 #' @param n Integer. Número de inserciones totales
-#'
 #' @return Una lista con los siguientes elementos:
 #' \itemize{
 #'   \item reach$porcentaje: Reach total en porcentaje
