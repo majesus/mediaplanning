@@ -1,9 +1,4 @@
-#' Calcula el reach y distribuciones usando el modelo de Sainsbury
-#'
-#' @title Cálculo de Reach y Distribución de Sainsbury
-#' @description Implementa el modelo de Sainsbury para calcular el reach y las distribuciones
-#' de contactos en una campaña publicitaria con múltiples soportes. Este modelo considera
-#' la duplicación de audiencias entre soportes.
+#' Calcula el reach usando el modelo de Sainsbury
 #'
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param poblacion_total Número total de la población objetivo
@@ -17,23 +12,12 @@
 #'   \item acumulada$porcentaje: Vector con la distribución acumulada en porcentaje
 #'   \item acumulada$personas: Vector con la distribución acumulada en personas
 #' }
-#'
-#' @details
-#' El modelo de Sainsbury es un método clásico para calcular la cobertura y
-#' distribución de contactos en planificación de medios. Considera todas las
-#' posibles combinaciones de exposición entre los diferentes soportes.
+#' @export
 #'
 #' @examples
-#' # Calcular reach para tres soportes
 #' audiencias <- c(300000, 400000, 200000)
 #' poblacion_total <- 1000000
 #' resultado <- calc_sainsbury(audiencias, poblacion_total)
-#'
-#' # Acceder a los resultados
-#' print(resultado)
-#'
-#' @export
-
 calc_sainsbury <- function(audiencias, poblacion_total) {
   # Validación de inputs
   if (!is.numeric(audiencias) || !is.numeric(poblacion_total)) {
@@ -93,11 +77,7 @@ calc_sainsbury <- function(audiencias, poblacion_total) {
   ), class = "reach_sainsbury"))
 }
 
-#' Calcula el reach y distribuciones usando el modelo Binomial
-#'
-#' @title Cálculo de Reach y Distribución Binomial
-#' @description Calcula el reach y las distribuciones de contactos usando el modelo Binomial
-#' para una campaña publicitaria con múltiples soportes.
+#' Calcula el reach usando el modelo Binomial
 #'
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param poblacion_total Número total de la población objetivo
@@ -112,13 +92,12 @@ calc_sainsbury <- function(audiencias, poblacion_total) {
 #'   \item acumulada$personas: Vector con la distribución acumulada en personas
 #'   \item probabilidad_media: Probabilidad media calculada
 #' }
+#' @export
 #'
 #' @examples
 #' audiencias <- c(300000, 400000, 200000)
 #' poblacion_total <- 1000000
 #' resultado <- calc_binomial(audiencias, poblacion_total)
-#'
-#' @export
 calc_binomial <- function(audiencias, poblacion_total) {
   # Validación de inputs
   if (!is.numeric(audiencias) || !is.numeric(poblacion_total)) {
@@ -169,19 +148,14 @@ calc_binomial <- function(audiencias, poblacion_total) {
   ), class = "reach_binomial"))
 }
 
-#' #' Calcula el reach y distribuciones usando el modelo Beta-Binomial
+#' Calcula el reach usando el modelo Beta-Binomial
 #'
-#' @title Cálculo de Reach y Distribución Beta-Binomial
-#' @description Implementa el modelo Beta-Binomial para calcular el reach y las distribuciones
-#' de contactos en una campaña publicitaria. Este modelo es especialmente útil cuando se
-#' tienen datos de audiencia acumulada tras dos inserciones.
-#'
-#' @param A1 Numeric. Audiencia tras la primera inserción (número de personas)
-#' @param A2 Numeric. Audiencia tras la segunda inserción (número de personas)
+#' @param A1 Numeric. Audiencia tras la primera inserción
+#' @param A2 Numeric. Audiencia tras la segunda inserción
 #' @param P Numeric. Población total objetivo
-#' @param n Integer. Número total de inserciones a considerar
+#' @param n Integer. Número de inserciones totales
 #'
-#' @return Una lista con clase 'reach_beta_binomial' que contiene:
+#' @return Una lista con los siguientes elementos:
 #' \itemize{
 #'   \item reach$porcentaje: Reach total en porcentaje
 #'   \item reach$personas: Reach total en número de personas
@@ -189,38 +163,17 @@ calc_binomial <- function(audiencias, poblacion_total) {
 #'   \item distribucion$personas: Vector con la distribución de contactos en personas
 #'   \item acumulada$porcentaje: Vector con la distribución acumulada en porcentaje
 #'   \item acumulada$personas: Vector con la distribución acumulada en personas
-#'   \item parametros: Lista con los parámetros alpha, beta y probabilidad de cero contactos
+#'   \item parametros: Lista con parámetros alpha, beta y probabilidad de cero contactos
 #' }
-#'
-#' @details
-#' El modelo Beta-Binomial es una extensión del modelo Binomial que permite modelar
-#' la heterogeneidad en la probabilidad de exposición. Los parámetros alpha y beta
-#' se estiman a partir de los datos de audiencia acumulada tras dos inserciones.
-#' Este modelo es particularmente útil cuando:
-#' \itemize{
-#'   \item Se dispone de datos de audiencia acumulada
-#'   \item Existe heterogeneidad en la probabilidad de exposición
-#'   \item Se necesita modelar la distribución de contactos más allá de las dos primeras inserciones
-#' }
+#' @export
 #'
 #' @examples
-#' # Calcular reach y distribución para una campaña con 5 inserciones
 #' resultado <- calc_beta_binomial(
-#'   A1 = 500000,  # Audiencia primera inserción
-#'   A2 = 550000,  # Audiencia acumulada segunda inserción
-#'   P = 1000000,  # Población total
-#'   n = 5         # Número de inserciones
+#'   A1 = 500000,
+#'   A2 = 550000,
+#'   P = 1000000,
+#'   n = 5
 #' )
-#'
-#' # Mostrar resultados
-#' print(resultado)
-#'
-#' # Acceder a componentes específicos
-#' resultado$reach$porcentaje  # Reach en porcentaje
-#' resultado$parametros$alpha  # Parámetro alpha estimado
-#'
-#' @export
-
 calc_beta_binomial <- function(A1, A2, P, n) {
   # Validación de inputs
   if (!all(is.numeric(c(A1, A2, P, n)))) {
