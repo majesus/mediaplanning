@@ -50,14 +50,14 @@ calcular_R1_R2 <- function(A, B) {
   return(list(R1 = R1, R2 = R2))
 }
 
-
 #__________________________________________________________#
 
-#' Imprime resultados detallados del análisis
+#' Imprime resultados del análisis
 #'
-#' @param data_ls Lista con los resultados del análisis que debe contener:
-#'        combinaciones más relevantes, distribución de contactos,
-#'        valor Alpha seleccionado, valor Beta seleccionado
+#' Esta función imprime en consola los resultados del análisis incluyendo
+#' combinaciones, distribución y parámetros seleccionados.
+#'
+#' @param data_ls Lista que contiene resultados, distribución y parámetros del análisis
 #' @return No retorna valor, imprime los resultados en consola
 #' @export
 #'
@@ -93,7 +93,6 @@ imprimir_resultados <- function(data_ls) {
     cat("\n", paste(rep("-", 50), collapse = ""), "\n")
   }
 }
-
 
 #__________________________________________________________#
 
@@ -552,3 +551,6 @@ optimizar_dc <- function(Pob,
 }
 
 #__________________________________________________________#
+
+
+
