@@ -16,13 +16,3 @@ Suggests:
     testthat (>= 3.0.0),
     crayon
 Config/testthat/edition: 3
-Exports:
-    calc_sainsbury,
-    calc_binomial,
-    calc_beta_binomial,
-    print.reach_sainsbury,
-    print.reach_binomial,
-    print.reach_beta_binomial,
-    optimizar_d,
-    optimizar_dc,
-    reach_frequency
