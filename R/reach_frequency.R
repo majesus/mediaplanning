@@ -68,7 +68,6 @@ calcular_R1_R2 <- function(A, B) {
 #'   alpha = 0.5,
 #'   beta = 0.3
 #' )
-#' imprimir_resultados(data_ls)
 imprimir_resultados <- function(data_ls) {
   nombres_resultados <- c(
     "Combinaciones más relevantes",
@@ -128,7 +127,6 @@ imprimir_resultados <- function(data_ls) {
 #' @export
 #'
 #' @examples
-#' \dontrun{
 #' resultado <- optimizar_d(
 #'   Pob = 1000000,
 #'   FE = 3,
@@ -139,7 +137,6 @@ imprimir_resultados <- function(data_ls) {
 #'   step_B = 0.025,
 #'   n = 5
 #' )
-#' }
 optimizar_d <- function(Pob,
                         FE,
                         cob_efectiva,
@@ -352,7 +349,6 @@ Para mayor información:
 #' @export
 #'
 #' @examples
-#' \dontrun{
 #' resultado <- optimizar_dc(
 #'   Pob = 1000000,
 #'   FEM = 3,
@@ -363,7 +359,6 @@ Para mayor información:
 #'   step_B = 0.25,
 #'   n = 5
 #' )
-#' }
 optimizar_dc <- function(Pob,
                          FEM,
                          cob_efectiva,
@@ -551,6 +546,3 @@ optimizar_dc <- function(Pob,
 }
 
 #__________________________________________________________#
-
-
-
