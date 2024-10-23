@@ -1,40 +1,55 @@
-#__________________________________________________________#
-
-#' Alcance y frecuencia
-#'
-#' Esta función calcula el alcance y la frecuencia de una campaña publicitaria
-#' basándose en el número de impresiones y el tamaño de la audiencia.
-#'
-#' @param impresiones Número total de impresiones de la campaña
-#' @param audiencia Tamaño total de la audiencia objetivo
-#' @return Una lista con el alcance (en porcentaje) y la frecuencia media
-#' @export
-#'
-#' @examples
-#' reach_frequency(1000000, 500000)
-reach_frequency <- function(impresiones, audiencia) {
-  alcance <- 1 - exp(-impresiones / audiencia)
-  frecuencia <- impresiones / (alcance * audiencia)
-
-  return(list(
-    alcance = alcance * 100,  # Convertir a porcentaje
-    frecuencia = frecuencia
-  ))
-}
 
 #__________________________________________________________#
 
-#' R1 y R2 a partir de parámetros alpha y beta
+#' @encoding UTF-8
+#' @title Cálculo de os valores R1 y R2 (modelo: Beta-Binomial)
+#' @name calcular_R1_R2
 #'
-#' Esta función calcula R1 y R2 a partir de los parámetros alpha y beta
+#' @description Calcula los valores R1 y R2 a partir de los
+#' parámetros de forma alpha y beta del modelo de audiencia neta acumulada Beta-Binomial.
+#' Los valores son clave para evaluar la audiencia neta y la distribución de contactos.
+#' Si la probabilidad de éxito se distribuye según una beta de parámetros alpha y beta,
+#' la distribución de contactos, sigue una distribución compuesta: la beta binomial.
 #'
 #' @param A Parámetro alpha, debe ser numérico y positivo
 #' @param B Parámetro beta, debe ser numérico y positivo
-#' @return Lista con valores R1 y R2 calculados
-#' @export
+#'
+#' @details
+#' Los coeficientes R1 y R2 son medidas de la duplicación de audiencias:
+#' \itemize{
+#'   \item R1 mide el tanto por uno de personas alcanzadas tras la primera inserción en el soporte
+#'   \item R2 mide el tanto por uno de personas alcanzadas tras la segunda inserción en el soporte
+#' }
+#'
+#' El proceso de cálculo:
+#' \enumerate{
+#'   \item Calcula R1 directamente como A/(A+B)
+#'   \item Optimiza R2 mediante un proceso iterativo
+#'   \item Verifica que los valores estén en el rango [0,1]
+#' }
+#'
+#' @return Una lista con dos componentes:
+#' \itemize{
+#'   \item R1: Coeficiente de audiencia acumulada tras la primera inserción
+#'   \item R2: Coeficiente de audiencia acumulada tras la segunda inserción
+#' }
 #'
 #' @examples
-#' calcular_R1_R2(0.5, 0.3)
+#' # Calcular R1 y R2 para alpha=0.5 y beta=0.3
+#' resultados <- calcular_R1_R2(0.5, 0.3)
+#'
+#' # Ver resultados
+#' print(paste("R1:", round(resultados$R1, 4)))
+#' print(paste("R2:", round(resultados$R2, 4)))
+#'
+#' # Verificar que los valores están en el rango esperado
+#' stopifnot(resultados$R1 >= 0, resultados$R1 <= 1)
+#' stopifnot(resultados$R2 >= 0, resultados$R2 <= 1)
+#'
+#' @export
+#' @seealso
+#' \code{\link{calc_beta_binomial}} para uso de estos coeficientes
+#' \code{\link{calc_sainsbury}} para cálculos alternativos de duplicación
 calcular_R1_R2 <- function(A, B) {
   if (!is.numeric(A) || !is.numeric(B) || A <= 0 || B <= 0) {
     stop("A y B deben ser numéricos y positivos.")
@@ -54,34 +69,55 @@ calcular_R1_R2 <- function(A, B) {
 
 #__________________________________________________________#
 
-#' Imprime resultados del análisis
+#' @encoding UTF-8
+#' @title Impresión formateada de resultados del análisis de medios
+#' @description Imprime en consola un resumen estructurado de los resultados del análisis
+#' de medios, incluyendo combinaciones de soportes, distribución de contactos y
+#' los parámetros alpha y beta utilizados.
 #'
-#' @title Impresión de resultados del análisis
-#' @description Esta función imprime en consola los resultados del análisis incluyendo
-#' combinaciones, distribución y parámetros seleccionados.
-#'
-#' @param data_ls Una lista que contiene:
+#' @param data_ls Una lista que debe contener los siguientes elementos:
 #' \itemize{
-#'   \item resultados - Data frame con resultados
-#'   \item distribucion - Data frame con la distribución
-#'   \item alpha - Valor del parámetro alpha
-#'   \item beta - Valor del parámetro beta
+#'   \item resultados: Data frame con las combinaciones más relevantes de soportes
+#'   \item distribucion: Data frame con la distribución de contactos, incluyendo:
+#'     \itemize{
+#'       \item cont: Número de contactos
+#'       \item prob: Probabilidad asociada
+#'     }
+#'   \item alpha: Valor del parámetro alpha utilizado en el análisis
+#'   \item beta: Valor del parámetro beta utilizado en el análisis
 #' }
 #'
-#' @return No retorna valor, imprime los resultados en consola
+#' @return No retorna valor. Imprime en consola una visualización estructurada de:
+#' \itemize{
+#'   \item Combinaciones más relevantes de soportes
+#'   \item Distribución de contactos y sus probabilidades
+#'   \item Valores de los parámetros alpha y beta utilizados
+#' }
 #'
 #' @examples
+#' # Crear datos de ejemplo
 #' data_ls <- list(
-#'   resultados = data.frame(x = 1:3, y = 4:6),
-#'   distribucion = data.frame(cont = 1:3, prob = c(0.3, 0.4, 0.3)),
+#'   resultados = data.frame(
+#'     soporte = c("TV", "Radio", "Digital"),
+#'     audiencia = c(1000, 800, 600)
+#'   ),
+#'   distribucion = data.frame(
+#'     cont = 0:3,
+#'     prob = c(0.2, 0.3, 0.3, 0.2)
+#'   ),
 #'   alpha = 0.5,
 #'   beta = 0.3
 #' )
+#'
+#' # Imprimir resultados
 #' \dontrun{
 #' imprimir_resultados(data_ls)
 #' }
 #'
 #' @export
+#' @seealso
+#' \code{\link{reach_frequency}} para cálculos de alcance y frecuencia
+#' \code{\link{calcular_R1_R2}} para cálculos de coeficientes de duplicación
 imprimir_resultados <- function(data_ls) {
   nombres_resultados <- c(
     "Combinaciones más relevantes",
@@ -109,28 +145,55 @@ imprimir_resultados <- function(data_ls) {
 
 #__________________________________________________________#
 
-#' Optimiza parámetros para distribución de contactos
+#' @encoding UTF-8
+#' @title Optimización de distribución de contactos mediante modelo Beta-Binomial
+#' @description Esta función optimiza la distribución de contactos publicitarios y calcula
+#' los coeficientes de duplicación (R1 y R2) utilizando un modelo Beta-Binomial.
+#' El proceso busca la mejor combinación de parámetros alpha y beta que satisfaga
+#' los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados.
 #'
-#' @title Optimización de distribución de contactos
-#' @description Esta función optimiza la distribución de contactos y calcula los valores
-#' de R1 y R2 usando una distribución beta binomial para modelar contactos publicitarios.
-#'
-#' @param Pob Tamaño de la población objetivo
-#' @param FE Frecuencia efectiva objetivo
-#' @param cob_efectiva Número de personas a alcanzar al menos i veces
-#' @param A1 Audiencia primera inserción
-#' @param tolerancia Tolerancia permitida para las soluciones (default: 0.05)
-#' @param step_A Paso para búsqueda de alpha (default: 0.025)
-#' @param step_B Paso para búsqueda de beta (default: 0.025)
-#' @param n Número de inserciones (default: 5)
+#' @param Pob Tamaño total de la población
+#' @param FE Frecuencia efectiva (número objetivo de impactos por persona)
+#' @param cob_efectiva Número objetivo de personas a alcanzar con FE contactos
+#' @param A1 Audiencia de la primera inserción
+#' @param tolerancia Margen de error permitido en las soluciones (default: 0.05)
+#' @param step_A Incremento para búsqueda del parámetro alpha (default: 0.025)
+#' @param step_B Incremento para búsqueda del parámetro beta (default: 0.025)
+#' @param n Número máximo de inserciones a considerar (default: 5)
 #'
 #' @return Una lista con los siguientes componentes:
 #' \itemize{
-#'   \item mejores_combinaciones - Data frame con todas las combinaciones válidas
-#'   \item mejores_combinaciones_top_10 - Las 10 mejores combinaciones
-#'   \item data - Data frame con distribución de contactos
-#'   \item alpha - Valor alpha seleccionado
-#'   \item beta - Valor beta seleccionado
+#'   \item mejores_combinaciones: Data frame con todas las combinaciones válidas de
+#'         parámetros, incluyendo:
+#'         \itemize{
+#'           \item x: Número de contactos
+#'           \item alpha: Parámetro alpha del modelo
+#'           \item beta: Parámetro beta del modelo
+#'           \item R1: Coeficiente de duplicación de primer orden
+#'           \item R2: Coeficiente de duplicación de segundo orden
+#'           \item prob: Probabilidad asociada
+#'         }
+#'   \item mejores_combinaciones_top_10: Las 10 mejores combinaciones según criterios
+#'   \item data: Data frame con la distribución de contactos y probabilidades acumuladas
+#'   \item alpha: Valor óptimo seleccionado para alpha
+#'   \item beta: Valor óptimo seleccionado para beta
+#' }
+#'
+#' @details
+#' La función realiza los siguientes pasos:
+#' \enumerate{
+#'   \item Genera combinaciones de parámetros (alpha, beta) dentro de rangos especificados
+#'   \item Calcula distribuciones Beta-Binomiales para cada combinación
+#'   \item Filtra resultados según criterios de cobertura y frecuencia
+#'   \item Calcula coeficientes de duplicación R1 y R2
+#'   \item Genera visualizaciones de la distribución resultante
+#' }
+#'
+#' @note
+#' Los parámetros alpha y beta controlan la forma de la distribución Beta-Binomial:
+#' \itemize{
+#'   \item alpha: Cuando el valor de alpha aumenta (manteniendo beta constante), se produce una asimetría hacia valores más altos de p (es decir, el éxito es más probable). Esto implica que alfa efectivamente influye en la asimetría, pero en combinación con beta.
+#'   \item beta: Cuando beta aumenta (y alpha se mantiene constante), se produce una asimetría hacia valores más bajos de p. En este sentido, beta también afecta la asimetría de la distribución beta.
 #' }
 #'
 #' @import ggplot2
@@ -139,15 +202,23 @@ imprimir_resultados <- function(data_ls) {
 #'
 #' @examples
 #' \dontrun{
+#' # Ejemplo básico
 #' resultado <- optimizar_d(
-#'   Pob = 1000000,
-#'   FE = 3,
-#'   cob_efectiva = 590000,
-#'   A1 = 500000
+#'   Pob = 1000000,      # Población de 1 millón
+#'   FE = 3,             # Frecuencia efectiva de 3 contactos
+#'   cob_efectiva = 590000,  # Objetivo: alcanzar 590,000 personas
+#'   A1 = 500000         # Audiencia primera inserción: 500,000
 #' )
+#'
+#' # Examinar resultados
+#' print(head(resultado$mejores_combinaciones))
+#' print(resultado$data)
 #' }
 #'
 #' @export
+#' @seealso
+#' \code{\link{calcular_R1_R2}} para los cálculos de coeficientes de duplicación
+#' \code{\link{imprimir_resultados}} para visualizar los resultados
 optimizar_d <- function(Pob,
                         FE,
                         cob_efectiva,
@@ -241,7 +312,6 @@ Para mayor información:
   # Añadir un asterisco cuando R2 > 2 * R1
   mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
 
-
   # Asegurarse de que cob_efectiva esté en las mismas unidades que prob
   cob_efectiva_poblacional <- cob_efectiva * Pob  # Ajustamos el valor objetivo según la población
 
@@ -263,10 +333,9 @@ Para mayor información:
 
   # Mostrar la tabla con las mejores combinaciones ordenadas
   if (nrow(mejores_combinaciones) == 0) {
-    cat(">>>No se ha encontrado ninguna solución que se ajuste a los límites de tolerancia especificados. Se recomienda ampliar los límites de tolerancia para encontrar posibles soluciones.")
-  } else {
-    # Mostrar la tabla con las mejores combinaciones ordenadas
-    print(mejores_combinaciones)
+    cat(">>> No se ha encontrado ninguna solución que se ajuste a los límites de tolerancia especificados.",
+        "Se recomienda ampliar los límites de tolerancia para encontrar posibles soluciones.")
+    return(NULL)
   }
 
   # Elegir la combinación principal (primera fila)
@@ -318,38 +387,67 @@ Para mayor información:
 
 #__________________________________________________________#
 
-#' Optimiza distribución de contactos acumulada
+#' @encoding UTF-8
+#' @title Optimización de distribución de contactos acumulada mediante modelo Beta-Binomial
+#' @description Optimiza la distribución de contactos acumulada considerando una
+#' frecuencia efectiva mínima (FEM) y calcula los coeficientes de duplicación R1 y R2.
+#' La función se enfoca en la distribución acumulada de contactos, lo que permite
+#' evaluar el alcance para diferentes niveles mínimos de exposición.
 #'
-#' @title Optimización de distribución de contactos acumulada
-#' @description Esta función optimiza la distribución de contactos acumulada considerando
-#' una frecuencia efectiva mínima (FEM) y calcula R1 y R2.
-#'
-#' @param Pob Tamaño de la población objetivo
-#' @param FEM Frecuencia efectiva mínima requerida
-#' @param cob_efectiva Número de personas a alcanzar al menos i veces
-#' @param A1 Audiencia del soporte objetivo
-#' @param tolerancia Tolerancia permitida para soluciones (default: 0.05)
-#' @param step_A Paso para rango alpha (default: 0.025)
-#' @param step_B Paso para rango beta (default: 0.025)
-#' @param n Número máximo de contactos (default: 5)
+#' @param Pob Tamaño total de la población
+#' @param FEM Frecuencia efectiva mínima requerida (número mínimo de contactos)
+#' @param cob_efectiva Número objetivo de personas a alcanzar al menos FEM
+#' @param A1 Audiencia del soporte con la primera inserción
+#' @param tolerancia Margen de error permitido para las soluciones (default: 0.05)
+#' @param step_A Incremento para la búsqueda del parámetro alpha (default: 0.025)
+#' @param step_B Incremento para la búsqueda del parámetro beta (default: 0.025)
+#' @param n Número máximo de contactos a considerar (default: 5)
 #'
 #' @details
-#' La función realiza las siguientes operaciones:
-#' \itemize{
-#'   \item Valida los parámetros de entrada
-#'   \item Calcula distribuciones beta binomiales
-#'   \item Filtra combinaciones que cumplen criterios
-#'   \item Calcula métricas R1 y R2
-#'   \item Genera visualizaciones
+#' El proceso de optimización sigue estos pasos:
+#' \enumerate{
+#'   \item Validación de parámetros de entrada y normalización
+#'   \item Generación de combinaciones de parámetros (alpha, beta)
+#'   \item Cálculo de distribuciones Beta-Binomiales
+#'   \item Evaluación de probabilidades acumuladas
+#'   \item Filtrado de soluciones según criterios específicos:
+#'     \itemize{
+#'       \item Cumplimiento de la cobertura efectiva
+#'       \item Validación de los coeficientes R1 y R2
+#'       \item Ajuste a la audiencia objetivo del primer soporte
+#'     }
+#'   \item Generación de visualizaciones y resultados
 #' }
 #'
 #' @return Una lista con los siguientes componentes:
 #' \itemize{
-#'   \item mejores_combinaciones - Data frame con combinaciones válidas
-#'   \item mejores_combinaciones_top_10 - 10 mejores combinaciones
-#'   \item data - Data frame con distribución de probabilidades
-#'   \item alpha - Valor alpha seleccionado
-#'   \item beta - Valor beta seleccionado
+#'   \item mejores_combinaciones: Data frame con todas las combinaciones válidas, incluyendo:
+#'     \itemize{
+#'       \item x: Número de contactos
+#'       \item alpha: Parámetro alpha del modelo
+#'       \item beta: Parámetro beta del modelo
+#'       \item R1: Coeficiente de duplicación de primer orden
+#'       \item R2: Coeficiente de duplicación de segundo orden
+#'       \item probs_acumuladas: Probabilidades acumuladas
+#'     }
+#'   \item mejores_combinaciones_top_10: Las 10 mejores combinaciones
+#'   \item data: Data frame con:
+#'     \itemize{
+#'       \item inserciones: Número de contactos
+#'       \item d_probabilidad: Probabilidad individual
+#'       \item dc_probabilidad: Probabilidad acumulada
+#'     }
+#'   \item alpha: Valor óptimo seleccionado para alpha
+#'   \item beta: Valor óptimo seleccionado para beta
+#' }
+#'
+#' @note
+#' La función considera la distribución acumulada de contactos, lo que la hace
+#' especialmente útil para:
+#' \itemize{
+#'   \item Planificación de campañas con objetivos de frecuencia mínima
+#'   \item Evaluación de cobertura efectiva en diferentes niveles de exposición
+#'   \item Optimización de planes de medios con requisitos de frecuencia específicos
 #' }
 #'
 #' @import ggplot2
@@ -358,15 +456,28 @@ Para mayor información:
 #'
 #' @examples
 #' \dontrun{
+#' # Ejemplo de optimización para una campaña
 #' resultado <- optimizar_dc(
-#'   Pob = 1000000,
-#'   FEM = 3,
-#'   cob_efectiva = 547657,
-#'   A1 = 500000
+#'   Pob = 1000000,      # Población de 1 millón
+#'   FEM = 3,            # Mínimo 3 contactos
+#'   cob_efectiva = 547657,  # Objetivo: alcanzar 547,657 personas
+#'   A1 = 500000         # Audiencia primera inserción: 500,000
 #' )
+#'
+#' # Examinar los resultados
+#' print(head(resultado$mejores_combinaciones))
+#' print(resultado$data)
+#'
+#' # Ver parámetros óptimos
+#' cat("Alpha óptimo:", resultado$alpha, "\n")
+#' cat("Beta óptimo:", resultado$beta, "\n")
 #' }
 #'
 #' @export
+#' @seealso
+#' \code{\link{optimizar_d}} para optimización de distribución simple
+#' \code{\link{calcular_R1_R2}} para cálculos de coeficientes de duplicación
+#' \code{\link{imprimir_resultados}} para visualización de resultados
 optimizar_dc <- function(Pob,
                          FEM,
                          cob_efectiva,
