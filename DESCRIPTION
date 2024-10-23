@@ -1,11 +1,9 @@
 Package: mediaPlanR
-Title: Optimización de Distribución de Contactos en Media Planning
+Title: Planificación de medios publicitarios
 Version: 0.1.1
 Authors@R: person("Manuel", "Sánchez-Franco", email = "majesus@us.es", role = c("aut", "cre"))
-Description: Herramientas para optimizar la distribución de contactos y calcular
-    valores R1 y R2 en planificación de medios.
+Description: Herramientas para la determinación de la cobertura y la distribución de medios en media planning.
 License: MIT + file LICENSE
-Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
 Imports: 
@@ -16,3 +14,4 @@ Suggests:
     testthat (>= 3.0.0),
     crayon
 Config/testthat/edition: 3
+Encoding: UTF-8
