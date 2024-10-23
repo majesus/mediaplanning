@@ -56,15 +56,17 @@ calcular_R1_R2 <- function(A, B) {
 
 #' Imprime resultados del análisis
 #'
-#' @title Impresión de resultados
+#' @title Impresión de resultados del análisis
 #' @description Esta función imprime en consola los resultados del análisis incluyendo
 #' combinaciones, distribución y parámetros seleccionados.
 #'
-#' @param data_ls Lista que contiene:
-#'   \item{resultados}{Data frame con resultados}
-#'   \item{distribucion}{Data frame con distribución}
-#'   \item{alpha}{Valor del parámetro alpha}
-#'   \item{beta}{Valor del parámetro beta}
+#' @param data_ls Una lista que contiene:
+#' \itemize{
+#'   \item resultados - Data frame con resultados
+#'   \item distribucion - Data frame con la distribución
+#'   \item alpha - Valor del parámetro alpha
+#'   \item beta - Valor del parámetro beta
+#' }
 #'
 #' @return No retorna valor, imprime los resultados en consola
 #'
@@ -75,7 +77,9 @@ calcular_R1_R2 <- function(A, B) {
 #'   alpha = 0.5,
 #'   beta = 0.3
 #' )
+#' \dontrun{
 #' imprimir_resultados(data_ls)
+#' }
 #'
 #' @export
 imprimir_resultados <- function(data_ls) {
@@ -121,11 +125,13 @@ imprimir_resultados <- function(data_ls) {
 #' @param n Número de inserciones (default: 5)
 #'
 #' @return Una lista con los siguientes componentes:
-#'   \item{mejores_combinaciones}{Data frame con todas las combinaciones válidas}
-#'   \item{mejores_combinaciones_top_10}{Las 10 mejores combinaciones}
-#'   \item{data}{Data frame con distribución de contactos}
-#'   \item{alpha}{Valor alpha seleccionado}
-#'   \item{beta}{Valor beta seleccionado}
+#' \itemize{
+#'   \item mejores_combinaciones - Data frame con todas las combinaciones válidas
+#'   \item mejores_combinaciones_top_10 - Las 10 mejores combinaciones
+#'   \item data - Data frame con distribución de contactos
+#'   \item alpha - Valor alpha seleccionado
+#'   \item beta - Valor beta seleccionado
+#' }
 #'
 #' @import ggplot2
 #' @import extraDistr
@@ -329,20 +335,22 @@ Para mayor información:
 #'
 #' @details
 #' La función realiza las siguientes operaciones:
-#'   \itemize{
-#'     \item Valida los parámetros de entrada
-#'     \item Calcula distribuciones beta binomiales
-#'     \item Filtra combinaciones que cumplen criterios
-#'     \item Calcula métricas R1 y R2
-#'     \item Genera visualizaciones
-#'   }
+#' \itemize{
+#'   \item Valida los parámetros de entrada
+#'   \item Calcula distribuciones beta binomiales
+#'   \item Filtra combinaciones que cumplen criterios
+#'   \item Calcula métricas R1 y R2
+#'   \item Genera visualizaciones
+#' }
 #'
 #' @return Una lista con los siguientes componentes:
-#'   \item{mejores_combinaciones}{Data frame con combinaciones válidas}
-#'   \item{mejores_combinaciones_top_10}{10 mejores combinaciones}
-#'   \item{data}{Data frame con distribución de probabilidades}
-#'   \item{alpha}{Valor alpha seleccionado}
-#'   \item{beta}{Valor beta seleccionado}
+#' \itemize{
+#'   \item mejores_combinaciones - Data frame con combinaciones válidas
+#'   \item mejores_combinaciones_top_10 - 10 mejores combinaciones
+#'   \item data - Data frame con distribución de probabilidades
+#'   \item alpha - Valor alpha seleccionado
+#'   \item beta - Valor beta seleccionado
+#' }
 #'
 #' @import ggplot2
 #' @import extraDistr
