@@ -3,7 +3,7 @@
 \encoding{UTF-8}
 \name{imprimir_resultados}
 \alias{imprimir_resultados}
-\title{Impresión formateada de resultados del análisis de medios}
+\title{Impresión editada de resultados del análisis de medios}
 \usage{
 imprimir_resultados(data_ls)
 }

@@ -3,32 +3,32 @@
 \encoding{UTF-8}
 \name{calc_sainsbury}
 \alias{calc_sainsbury}
-\title{Cálculo de cobertura y distribución de contactos (y acumulada) según Sainsbury}
+\title{Cálculo de cobertura y distribución de contactos (y acumulada) según modelo de Sainsbury}
 \usage{
 calc_sainsbury(audiencias, pob_total)
 }
 \arguments{
 \item{audiencias}{Vector numérico con las audiencias individuales de cada soporte}
 
-\item{pob_total}{Tamaño total de la población}
+\item{pob_total}{Tamaño de la población}
 }
 \value{
-Una lista con clase "reach_sainsbury" conteniendo:
+Una lista "reach_sainsbury" conteniendo:
 \itemize{
-\item reach: Lista con la cobertura total:
+\item reach: Lista con la cobertura:
 \itemize{
-\item porcentaje: Cobertura total en porcentaje
-\item personas: Cobertura total en número de personas
+\item porcentaje: Cobertura en porcentaje
+\item personas: Cobertura en número de personas
 }
 \item distribucion: Lista con la distribución de contactos:
 \itemize{
-\item porcentaje: Vector con probabilidad de cada número de contactos
-\item personas: Vector con número de personas para cada frecuencia
+\item porcentaje: Vector con probabilidad de cada número de exposiciones
+\item personas: Vector con número de personas para cada número de exposiciones
 }
 \item acumulada: Lista con la distribución acumulada:
 \itemize{
 \item porcentaje: Vector con probabilidades acumuladas
-\item personas: Vector con número de personas acumulado
+\item personas: Vector con número de personas acumuladas al menos i veces
 }
 }
 }
@@ -46,7 +46,7 @@ El modelo de Sainsbury simplificado calcula:
 \enumerate{
 \item Cobertura considerando la duplicación entre soportes como el producto de las probabilidades individuales
 \item Distribución de contactos para cada nivel de exposición
-\item Distribución acumulada de contactos (al menos i exposiciones)
+\item Distribución de contactos acumulada (expuestos al menos i veces)
 }
 
 El proceso incluye:
@@ -54,15 +54,7 @@ El proceso incluye:
 \item Conversión de audiencias a probabilidades
 \item Cálculo de todas las posibles combinaciones de soportes
 \item Estimación de probabilidades conjuntas
-\item Agregación de resultados en distribuciones
-}
-}
-\note{
-El modelo de Sainsbury es especialmente útil cuando:
-\itemize{
-\item Se necesita una estimación precisa de la duplicación
-\item El número de soportes es moderado (menor o igual a 10)
-\item Se requiere la distribución exacta de contactos
+\item Agregación de resultados: distribución de contactos (y acumulada)
 }
 }
 \examples{
@@ -84,6 +76,6 @@ resultado <- calc_sainsbury(audiencias_invalidas, pob_total)
 
 }
 \seealso{
-\code{\link{calc_binomial}} para un modelo alternativo de distribución
-\code{\link{calc_beta_binomial}} para estimaciones con Beta-Binomial
+\code{\link{calc_binomial}} para estimaciones con la distribución Binomial
+\code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
 }

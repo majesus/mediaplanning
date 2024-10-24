@@ -19,11 +19,11 @@ optimizar_dc(
 \arguments{
 \item{Pob}{Tamaño total de la población}
 
-\item{FEM}{Frecuencia efectiva mínima requerida (número mínimo de contactos)}
+\item{FEM}{Frecuencia efectiva mínima requerida (FEM, número mínimo de contactos)}
 
 \item{cob_efectiva}{Número objetivo de personas a alcanzar al menos FEM}
 
-\item{A1}{Audiencia del soporte con la primera inserción}
+\item{A1}{Audiencia del soporte tras la primera inserción}
 
 \item{tolerancia}{Margen de error permitido para las soluciones (default: 0.05)}
 
@@ -31,7 +31,7 @@ optimizar_dc(
 
 \item{step_B}{Incremento para la búsqueda del parámetro beta (default: 0.025)}
 
-\item{n}{Número máximo de contactos a considerar (default: 5)}
+\item{n}{Número de inserciones a considerar (default: 5)}
 }
 \value{
 Una lista con los siguientes componentes:
@@ -41,8 +41,8 @@ Una lista con los siguientes componentes:
 \item x: Número de contactos
 \item alpha: Parámetro alpha del modelo
 \item beta: Parámetro beta del modelo
-\item R1: Coeficiente de duplicación de primer orden
-\item R2: Coeficiente de duplicación de segundo orden
+\item R1: Proporción de personas alcanzadas tras la primera inserción
+\item R2: Proporción de personas alcanzadas tras la segunda inserción
 \item probs_acumuladas: Probabilidades acumuladas
 }
 \item mejores_combinaciones_top_10: Las 10 mejores combinaciones
@@ -52,8 +52,8 @@ Una lista con los siguientes componentes:
 \item d_probabilidad: Probabilidad individual
 \item dc_probabilidad: Probabilidad acumulada
 }
-\item alpha: Valor óptimo seleccionado para alpha
-\item beta: Valor óptimo seleccionado para beta
+\item alpha: Valor seleccionado para alpha
+\item beta: Valor seleccionado para beta
 }
 }
 \description{
@@ -82,9 +82,9 @@ El proceso de optimización sigue estos pasos:
 La función considera la distribución acumulada de contactos, lo que la hace
 especialmente útil para:
 \itemize{
-\item Planificación de campañas con objetivos de frecuencia mínima
+\item Planificación de campañas con objetivos de frecuencia efectiva mínima
 \item Evaluación de cobertura efectiva en diferentes niveles de exposición
-\item Optimización de planes de medios con requisitos de frecuencia específicos
+\item Optimización de planes de medios con requisitos de frecuencia efectiva mínima específicos
 }
 }
 \examples{
@@ -108,7 +108,6 @@ cat("Beta óptimo:", resultado$beta, "\n")
 
 }
 \seealso{
-\code{\link{optimizar_d}} para optimización de distribución simple
-\code{\link{calcular_R1_R2}} para cálculos de coeficientes de duplicación
-\code{\link{imprimir_resultados}} para visualización de resultados
+\code{\link{optimizar_d}} para optimización de distribución de contactos
+\code{\link{calcular_R1_R2}} para los cálculos de R1 y R2
 }

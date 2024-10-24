@@ -17,22 +17,22 @@ calc_beta_binomial(A1, A2, P, n)
 \item{n}{Número total de inserciones planificadas (debe ser entero positivo)}
 }
 \value{
-Una lista con clase "reach_beta_binomial" conteniendo:
+Una lista "reach_beta_binomial" conteniendo:
 \itemize{
-\item reach: Lista con la cobertura total:
+\item reach: Lista con la cobertura:
 \itemize{
-\item porcentaje: Cobertura total en porcentaje
-\item personas: Cobertura total en número de personas
+\item porcentaje: Cobertura en porcentaje
+\item personas: Cobertura en número de personas
 }
 \item distribucion: Lista con la distribución de contactos:
 \itemize{
-\item porcentaje: Vector con probabilidad de cada número de contactos
-\item personas: Vector con número de personas por frecuencia
+\item porcentaje: Vector con probabilidad de cada número de exposiciones
+\item personas: Vector con número de personas para cada número de exposiciones
 }
 \item acumulada: Lista con la distribución acumulada:
 \itemize{
 \item porcentaje: Vector con probabilidades acumuladas
-\item personas: Vector con número de personas acumulado
+\item personas: Vector con número de personas acumuladas al menos i veces
 }
 \item parametros: Lista con parámetros del modelo:
 \itemize{
@@ -65,7 +65,7 @@ El proceso incluye:
 \item Estimación de coeficientes de duplicación R1 y R2
 \item Cálculo de parámetros alpha y beta del modelo
 \item Generación de distribución de contactos
-\item Cálculo de distribuciones acumuladas
+\item Cálculo de la distribución de contactos (y acumuladas)
 }
 }
 \note{
@@ -73,8 +73,6 @@ El modelo Beta-Binomial es especialmente adecuado cuando:
 \itemize{
 \item Existe heterogeneidad significativa en la exposición
 \item Se dispone de datos de audiencias acumuladas (A1 y A2)
-\item Se requiere una estimación más precisa que el modelo Binomial
-\item La audiencia varía significativamente entre exposiciones
 }
 }
 \examples{
@@ -87,7 +85,7 @@ resultado <- calc_beta_binomial(
 )
 
 # Examinar resultados
-print(paste("Cobertura total:", round(resultado$reach$porcentaje, 2), "\%"))
+print(paste("Cobertura:", round(resultado$reach$porcentaje, 2), "\%"))
 print(paste("Alpha:", round(resultado$parametros$alpha, 4)))
 print(paste("Beta:", round(resultado$parametros$beta, 4)))
 
@@ -100,7 +98,7 @@ print(paste("Suma distribución:", round(sum_dist +
 
 }
 \seealso{
-\code{\link{calc_sainsbury}} para un modelo alternativo con duplicación exacta
-\code{\link{calc_binomial}} para un modelo más simple
+\code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
+\code{\link{calc_binomial}} para estimaciones con la distribución Binomial
 \code{\link{calcular_R1_R2}} para el cálculo de coeficientes de duplicación
 }

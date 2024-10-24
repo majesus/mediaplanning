@@ -3,41 +3,41 @@
 \encoding{UTF-8}
 \name{calcular_R1_R2}
 \alias{calcular_R1_R2}
-\title{Cálculo de os valores R1 y R2 (modelo: Beta-Binomial)}
+\title{Cálculo de los valores R1 y R2 (modelo: Beta-Binomial)}
 \usage{
 calcular_R1_R2(A, B)
 }
 \arguments{
-\item{A}{Parámetro alpha, debe ser numérico y positivo}
+\item{A}{Parámetro de forma alpha, debe ser numérico y positivo}
 
-\item{B}{Parámetro beta, debe ser numérico y positivo}
+\item{B}{Parámetro de forma beta, debe ser numérico y positivo}
 }
 \value{
 Una lista con dos componentes:
 \itemize{
-\item R1: Coeficiente de audiencia acumulada tras la primera inserción
-\item R2: Coeficiente de audiencia acumulada tras la segunda inserción
+\item R1: Coeficiente (tanto por uno) de audiencia acumulada tras la primera inserción
+\item R2: Coeficiente (tanto por uno) de audiencia acumulada tras la segunda inserción
 }
 }
 \description{
 Calcula los valores R1 y R2 a partir de los
 parámetros de forma alpha y beta del modelo de audiencia neta acumulada Beta-Binomial.
-Los valores son clave para evaluar la audiencia neta y la distribución de contactos.
-Si la probabilidad de éxito se distribuye según una beta de parámetros alpha y beta,
-la distribución de contactos, sigue una distribución compuesta: la beta binomial.
+Los valores son clave para evaluar la audiencia neta y la distribución de contactos (y acumulada).
+Si la probabilidad de éxito se distribuye según una distribución beta de parámetros alpha y beta,
+la distribución de contactos, es una distribución compuesta: la distribución beta binomial.
 }
 \details{
 Los coeficientes R1 y R2 son medidas de la duplicación de audiencias:
 \itemize{
-\item R1 mide el tanto por uno de personas alcanzadas tras la primera inserción en el soporte
-\item R2 mide el tanto por uno de personas alcanzadas tras la segunda inserción en el soporte
+\item R1 mide el tanto por uno de personas alcanzadas tras la primera inserción en el soporte elegido
+\item R2 mide el tanto por uno de personas alcanzadas tras la segunda inserción en el soporte elegido
 }
 
 El proceso de cálculo:
 \enumerate{
 \item Calcula R1 directamente como A/(A+B)
 \item Optimiza R2 mediante un proceso iterativo
-\item Verifica que los valores estén en el rango \link{0,1}
+\item Verifica que los valores R1 y R2 estén en el rango \link{0,1}
 }
 }
 \examples{
@@ -54,6 +54,6 @@ stopifnot(resultados$R2 >= 0, resultados$R2 <= 1)
 
 }
 \seealso{
-\code{\link{calc_beta_binomial}} para uso de estos coeficientes
-\code{\link{calc_sainsbury}} para cálculos alternativos de duplicación
+\code{\link{calc_beta_binomial}} para estimaciones con el modelo Binomial
+\code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
 }

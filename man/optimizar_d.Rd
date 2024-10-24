@@ -17,13 +17,13 @@ optimizar_d(
 )
 }
 \arguments{
-\item{Pob}{Tamaño total de la población}
+\item{Pob}{Tamaño de la población}
 
-\item{FE}{Frecuencia efectiva (número objetivo de impactos por persona)}
+\item{FE}{Frecuencia efectiva (FE, número objetivo de impactos por persona)}
 
 \item{cob_efectiva}{Número objetivo de personas a alcanzar con FE contactos}
 
-\item{A1}{Audiencia de la primera inserción}
+\item{A1}{Audiencia tras la primera inserción}
 
 \item{tolerancia}{Margen de error permitido en las soluciones (default: 0.05)}
 
@@ -31,7 +31,7 @@ optimizar_d(
 
 \item{step_B}{Incremento para búsqueda del parámetro beta (default: 0.025)}
 
-\item{n}{Número máximo de inserciones a considerar (default: 5)}
+\item{n}{Número de inserciones a considerar (default: 5)}
 }
 \value{
 Una lista con los siguientes componentes:
@@ -42,21 +42,21 @@ parámetros, incluyendo:
 \item x: Número de contactos
 \item alpha: Parámetro alpha del modelo
 \item beta: Parámetro beta del modelo
-\item R1: Coeficiente de duplicación de primer orden
-\item R2: Coeficiente de duplicación de segundo orden
+\item R1: Proporción de personas alcanzadas tras la primera inserción
+\item R2: Proporción de personas alcanzadas tras la segunda inserción
 \item prob: Probabilidad asociada
 }
-\item mejores_combinaciones_top_10: Las 10 mejores combinaciones según criterios
-\item data: Data frame con la distribución de contactos y probabilidades acumuladas
-\item alpha: Valor óptimo seleccionado para alpha
-\item beta: Valor óptimo seleccionado para beta
+\item mejores_combinaciones_top_10: Las 10 mejores combinaciones según criterios y valores establecidos
+\item data: Data frame con la distribución de contactos
+\item alpha: Valor seleccionado para alpha
+\item beta: Valor seleccionado para beta
 }
 }
 \description{
 Esta función optimiza la distribución de contactos publicitarios y calcula
-los coeficientes de duplicación (R1 y R2) utilizando un modelo Beta-Binomial.
+los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial.
 El proceso busca la mejor combinación de parámetros alpha y beta que satisfaga
-los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados.
+los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 }
 \details{
 La función realiza los siguientes pasos:
@@ -64,14 +64,14 @@ La función realiza los siguientes pasos:
 \item Genera combinaciones de parámetros (alpha, beta) dentro de rangos especificados
 \item Calcula distribuciones Beta-Binomiales para cada combinación
 \item Filtra resultados según criterios de cobertura y frecuencia
-\item Calcula coeficientes de duplicación R1 y R2
+\item Calcula coeficientes R1 y R2
 \item Genera visualizaciones de la distribución resultante
 }
 }
 \note{
 Los parámetros alpha y beta controlan la forma de la distribución Beta-Binomial:
 \itemize{
-\item alpha: Cuando el valor de alpha aumenta (manteniendo beta constante), se produce una asimetría hacia valores más altos de p (es decir, el éxito es más probable). Esto implica que alfa efectivamente influye en la asimetría, pero en combinación con beta.
+\item alpha: Cuando el valor de alpha aumenta (manteniendo beta constante), se produce una asimetría hacia valores más altos de p (es decir, el éxito es más probable). Esto implica que alpha efectivamente influye en la asimetría, pero en combinación con beta.
 \item beta: Cuando beta aumenta (y alpha se mantiene constante), se produce una asimetría hacia valores más bajos de p. En este sentido, beta también afecta la asimetría de la distribución beta.
 }
 }
@@ -92,6 +92,5 @@ print(resultado$data)
 
 }
 \seealso{
-\code{\link{calcular_R1_R2}} para los cálculos de coeficientes de duplicación
-\code{\link{imprimir_resultados}} para visualizar los resultados
+\code{\link{calcular_R1_R2}} para los cálculos de R1 y R2
 }

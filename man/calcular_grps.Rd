@@ -3,7 +3,7 @@
 \encoding{UTF-8}
 \name{calcular_grps}
 \alias{calcular_grps}
-\title{Cálculo de GRPs mediante cobertura y frecuencia media, o impresiones}
+\title{Cálculo de GRPs mediante la cobertura y frecuencia media, o el cálculo de las impresiones totales}
 \usage{
 calcular_grps(
   audiencias,
@@ -18,7 +18,7 @@ calcular_grps(
 
 \item{inserciones}{Vector numérico del número de inserciones por soporte}
 
-\item{pob_total}{Tamaño total de la población}
+\item{pob_total}{Tamaño de la población}
 
 \item{cobertura}{Opcional. Cobertura en porcentaje (si se conoce)}
 
@@ -62,8 +62,9 @@ El cálculo se puede realizar mediante dos métodos:
 Los GRPs son una medida de presión publicitaria que:
 \itemize{
 \item Pueden superar el 100\%
-\item Indican el número de impactos por cada 100 personas del target
-\item Son útiles para comparar campañas de diferentes tamaños
+\item Indican el número de impactos por cada 100 personas de la población
+\item Son útiles para comparar campañas de publicidad
+\item Su debilidad reside en que campañas con diferentes valores de cobertura \% y frecuencia media pueden arrojar un mismo nivel de GRPs
 }
 }
 \examples{
@@ -85,5 +86,5 @@ grps2 <- calcular_grps(
 
 }
 \seealso{
-\code{\link{calcular_cpm}} para cálculo de costes por mil
+\code{\link{calcular_cpm}} para cálculo de costes por mil (CPM)
 }

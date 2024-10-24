@@ -10,44 +10,44 @@ calc_binomial(audiencias, pob_total)
 \arguments{
 \item{audiencias}{Vector numérico con las audiencias individuales de cada soporte}
 
-\item{pob_total}{Tamaño total de la población}
+\item{pob_total}{Tamaño de la población}
 }
 \value{
-Una lista con clase "reach_binomial" conteniendo:
+Una lista "reach_binomial" conteniendo:
 \itemize{
-\item reach: Lista con la cobertura total:
+\item reach: Lista con la cobertura:
 \itemize{
-\item porcentaje: Cobertura total en porcentaje
-\item personas: Cobertura total en número de personas
+\item porcentaje: Cobertura en porcentaje
+\item personas: Cobertura en número de personas
 }
 \item distribucion: Lista con la distribución de contactos:
 \itemize{
-\item porcentaje: Vector con probabilidad de cada número de contactos
-\item personas: Vector con número de personas por frecuencia
+\item porcentaje: Vector con probabilidad de cada número de exposiciones
+\item personas: Vector con número de personas para cada número de exposiciones
 }
 \item acumulada: Lista con la distribución acumulada:
 \itemize{
 \item porcentaje: Vector con probabilidades acumuladas
-\item personas: Vector con número de personas acumulado
+\item personas: Vector con número de personas acumuladas al menos i veces
 }
-\item probabilidad_media: Probabilidad media de exposición calculada
 }
 }
 \description{
 Implementa un modelo Binomial para calcular la cobertura y
 distribución de contactos (y acumulada) en un plan de medios. Este modelo asume independencia
 entre soportes (duplicación aleatoria), y homogeneidad de los soportes e individuos, y
-utiliza una probabilidad media de exposición (p). La acumulación de las audiencias es, también,
-un suceso aleatorio.Finalmente, las probabilidades de exposición son estacionarias respecto al tiempo.
+utiliza una probabilidad media de exposición (p). La acumulación de las audiencias es
+un suceso aleatorio. Finalmente, las probabilidades de exposición son estacionarias respecto al tiempo.
 Las hipótesis aquí expuestas, llevan pues a que la probabilidad de exposición a distintas inserciones en diferentes soportes,
-sea equivalente a la de distintas inserciones en un soporte “promedio” cuya audiencia sea la media simple de todos ellos
+sea equivalente a la de distintas inserciones en un soporte hipotético “promedio” cuya audiencia sea
+la media simple de las audiencias de cada soporte.
 }
 \details{
-El modelo Binomial calcula:
+El modelo Bnomial calcula:
 \enumerate{
-\item Probabilidad media de exposición a partir de las audiencias
-\item Distribución de contactos según la distribución Binomial
-\item Cobertura total y distribuciones acumuladas
+\item Cobertura considerando un soporte hipotético “promedio” cuya audiencia es la media simple de las audiencias de cada soporte
+\item Distribución de contactos para cada nivel de exposición
+\item Distribución de contactos acumulada (expuestos al menos i veces)
 }
 
 La metodología incluye:
@@ -55,16 +55,7 @@ La metodología incluye:
 \item Conversión de audiencias a probabilidades individuales
 \item Cálculo de probabilidad media de exposición
 \item Aplicación del modelo Binomial para n inserciones
-\item Cálculo de distribuciones de frecuencia y acumuladas
-}
-}
-\note{
-El modelo Binomial es especialmente útil cuando:
-\itemize{
-\item Los soportes tienen audiencias similares
-\item La duplicación entre soportes es relativamente constante
-\item Se necesita una estimación rápida y simple
-\item El número de soportes es grande
+\item Cálculo de distribuciones de contactos (y acumulada)
 }
 }
 \examples{
@@ -85,6 +76,6 @@ print(paste("Suma distribución:", round(sum_dist, 4)))
 
 }
 \seealso{
-\code{\link{calc_sainsbury}} para un modelo más preciso con duplicación
-\code{\link{calc_beta_binomial}} para casos con heterogeneidad en la exposición
+\code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
+\code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
 }
