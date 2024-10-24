@@ -1,7 +1,7 @@
 #__________________________________________________________#
 
 #' @encoding UTF-8
-#' @title Cálculo de cobertura y distribución de contactos (y acumulada) según Sainsbury
+#' @title Cálculo de cobertura y distribución de contactos (y acumulada) según modelo de Sainsbury
 #' @description Implementa el modelo de Sainsbury simplificado para calcular la cobertura
 #' y la distribución de contactos para un conjunto de soportes publicitarios.
 #' Este modelo considera la independencia de los soportes (duplicación aleatoria), la homogeneidad de los individuos y
@@ -11,14 +11,14 @@
 #' pero con diferentes probabilidadades de exposición en cada soporte.
 #'
 #' @param audiencias Vector numérico con las audiencias individuales de cada soporte
-#' @param pob_total Tamaño total de la población
+#' @param pob_total Tamaño de la población
 #'
 #' @details
 #' El modelo de Sainsbury simplificado calcula:
 #' \enumerate{
 #'   \item Cobertura considerando la duplicación entre soportes como el producto de las probabilidades individuales
 #'   \item Distribución de contactos para cada nivel de exposición
-#'   \item Distribución acumulada de contactos (al menos i exposiciones)
+#'   \item Distribución de contactos acumulada (expuestos al menos i veces)
 #' }
 #'
 #' El proceso incluye:
@@ -26,34 +26,26 @@
 #'   \item Conversión de audiencias a probabilidades
 #'   \item Cálculo de todas las posibles combinaciones de soportes
 #'   \item Estimación de probabilidades conjuntas
-#'   \item Agregación de resultados en distribuciones
+#'   \item Agregación de resultados: distribución de contactos (y acumulada)
 #' }
 #'
-#' @return Una lista con clase "reach_sainsbury" conteniendo:
+#' @return Una lista "reach_sainsbury" conteniendo:
 #' \itemize{
-#'   \item reach: Lista con la cobertura total:
+#'   \item reach: Lista con la cobertura:
 #'     \itemize{
-#'       \item porcentaje: Cobertura total en porcentaje
-#'       \item personas: Cobertura total en número de personas
+#'       \item porcentaje: Cobertura en porcentaje
+#'       \item personas: Cobertura en número de personas
 #'     }
 #'   \item distribucion: Lista con la distribución de contactos:
 #'     \itemize{
-#'       \item porcentaje: Vector con probabilidad de cada número de contactos
-#'       \item personas: Vector con número de personas para cada frecuencia
+#'       \item porcentaje: Vector con probabilidad de cada número de exposiciones
+#'       \item personas: Vector con número de personas para cada número de exposiciones
 #'     }
 #'   \item acumulada: Lista con la distribución acumulada:
 #'     \itemize{
 #'       \item porcentaje: Vector con probabilidades acumuladas
-#'       \item personas: Vector con número de personas acumulado
+#'       \item personas: Vector con número de personas acumuladas al menos i veces
 #'     }
-#' }
-#'
-#' @note
-#' El modelo de Sainsbury es especialmente útil cuando:
-#' \itemize{
-#'   \item Se necesita una estimación precisa de la duplicación
-#'   \item El número de soportes es moderado (menor o igual a 10)
-#'   \item Se requiere la distribución exacta de contactos
 #' }
 #'
 #' @examples
@@ -75,18 +67,18 @@
 #'
 #' @export
 #' @seealso
-#' \code{\link{calc_binomial}} para un modelo alternativo de distribución
-#' \code{\link{calc_beta_binomial}} para estimaciones con Beta-Binomial
+#' \code{\link{calc_binomial}} para estimaciones con la distribución Binomial
+#' \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
 calc_sainsbury <- function(audiencias, pob_total) {
   # Validación de inputs
   if (!is.numeric(audiencias) || !is.numeric(pob_total)) {
     stop("Los argumentos deben ser numéricos")
   }
   if (any(audiencias < 0) || any(audiencias > pob_total)) {
-    stop("Las audiencias deben ser positivas y menores que la población total")
+    stop("Las audiencias deben ser positivas y menores que la población")
   }
   if (pob_total <= 0) {
-    stop("La población total debe ser positiva")
+    stop("La población debe ser positiva")
   }
 
   # Convertir audiencias a probabilidades
@@ -143,20 +135,21 @@ calc_sainsbury <- function(audiencias, pob_total) {
 #' @description Implementa un modelo Binomial para calcular la cobertura y
 #' distribución de contactos (y acumulada) en un plan de medios. Este modelo asume independencia
 #' entre soportes (duplicación aleatoria), y homogeneidad de los soportes e individuos, y
-#' utiliza una probabilidad media de exposición (p). La acumulación de las audiencias es, también,
-#' un suceso aleatorio.Finalmente, las probabilidades de exposición son estacionarias respecto al tiempo.
+#' utiliza una probabilidad media de exposición (p). La acumulación de las audiencias es
+#' un suceso aleatorio. Finalmente, las probabilidades de exposición son estacionarias respecto al tiempo.
 #' Las hipótesis aquí expuestas, llevan pues a que la probabilidad de exposición a distintas inserciones en diferentes soportes,
-#' sea equivalente a la de distintas inserciones en un soporte “promedio” cuya audiencia sea la media simple de todos ellos
+#' sea equivalente a la de distintas inserciones en un soporte hipotético “promedio” cuya audiencia sea
+#' la media simple de las audiencias de cada soporte.
 #'
 #' @param audiencias Vector numérico con las audiencias individuales de cada soporte
-#' @param pob_total Tamaño total de la población
+#' @param pob_total Tamaño de la población
 #'
 #' @details
-#' El modelo Binomial calcula:
+#' El modelo Bnomial calcula:
 #' \enumerate{
-#'   \item Probabilidad media de exposición a partir de las audiencias
-#'   \item Distribución de contactos según la distribución Binomial
-#'   \item Cobertura total y distribuciones acumuladas
+#'   \item Cobertura considerando un soporte hipotético “promedio” cuya audiencia es la media simple de las audiencias de cada soporte
+#'   \item Distribución de contactos para cada nivel de exposición
+#'   \item Distribución de contactos acumulada (expuestos al menos i veces)
 #' }
 #'
 #' La metodología incluye:
@@ -164,36 +157,26 @@ calc_sainsbury <- function(audiencias, pob_total) {
 #'   \item Conversión de audiencias a probabilidades individuales
 #'   \item Cálculo de probabilidad media de exposición
 #'   \item Aplicación del modelo Binomial para n inserciones
-#'   \item Cálculo de distribuciones de frecuencia y acumuladas
+#'   \item Cálculo de distribuciones de contactos (y acumulada)
 #' }
 #'
-#' @return Una lista con clase "reach_binomial" conteniendo:
+#' @return Una lista "reach_binomial" conteniendo:
 #' \itemize{
-#'   \item reach: Lista con la cobertura total:
+#'   \item reach: Lista con la cobertura:
 #'     \itemize{
-#'       \item porcentaje: Cobertura total en porcentaje
-#'       \item personas: Cobertura total en número de personas
+#'       \item porcentaje: Cobertura en porcentaje
+#'       \item personas: Cobertura en número de personas
 #'     }
 #'   \item distribucion: Lista con la distribución de contactos:
 #'     \itemize{
-#'       \item porcentaje: Vector con probabilidad de cada número de contactos
-#'       \item personas: Vector con número de personas por frecuencia
+#'       \item porcentaje: Vector con probabilidad de cada número de exposiciones
+#'       \item personas: Vector con número de personas para cada número de exposiciones
 #'     }
 #'   \item acumulada: Lista con la distribución acumulada:
 #'     \itemize{
 #'       \item porcentaje: Vector con probabilidades acumuladas
-#'       \item personas: Vector con número de personas acumulado
+#'       \item personas: Vector con número de personas acumuladas al menos i veces
 #'     }
-#'   \item probabilidad_media: Probabilidad media de exposición calculada
-#' }
-#'
-#' @note
-#' El modelo Binomial es especialmente útil cuando:
-#' \itemize{
-#'   \item Los soportes tienen audiencias similares
-#'   \item La duplicación entre soportes es relativamente constante
-#'   \item Se necesita una estimación rápida y simple
-#'   \item El número de soportes es grande
 #' }
 #'
 #' @examples
@@ -214,8 +197,8 @@ calc_sainsbury <- function(audiencias, pob_total) {
 #'
 #' @export
 #' @seealso
-#' \code{\link{calc_sainsbury}} para un modelo más preciso con duplicación
-#' \code{\link{calc_beta_binomial}} para casos con heterogeneidad en la exposición
+#' \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
+#' \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
 calc_binomial <- function(audiencias, pob_total) {
   # Validación de inputs
   if (!is.numeric(audiencias) || !is.numeric(pob_total)) {
@@ -297,25 +280,25 @@ calc_binomial <- function(audiencias, pob_total) {
 #'   \item Estimación de coeficientes de duplicación R1 y R2
 #'   \item Cálculo de parámetros alpha y beta del modelo
 #'   \item Generación de distribución de contactos
-#'   \item Cálculo de distribuciones acumuladas
+#'   \item Cálculo de la distribución de contactos (y acumuladas)
 #' }
 #'
-#' @return Una lista con clase "reach_beta_binomial" conteniendo:
+#' @return Una lista "reach_beta_binomial" conteniendo:
 #' \itemize{
-#'   \item reach: Lista con la cobertura total:
+#'   \item reach: Lista con la cobertura:
 #'     \itemize{
-#'       \item porcentaje: Cobertura total en porcentaje
-#'       \item personas: Cobertura total en número de personas
+#'       \item porcentaje: Cobertura en porcentaje
+#'       \item personas: Cobertura en número de personas
 #'     }
 #'   \item distribucion: Lista con la distribución de contactos:
 #'     \itemize{
-#'       \item porcentaje: Vector con probabilidad de cada número de contactos
-#'       \item personas: Vector con número de personas por frecuencia
+#'       \item porcentaje: Vector con probabilidad de cada número de exposiciones
+#'       \item personas: Vector con número de personas para cada número de exposiciones
 #'     }
 #'   \item acumulada: Lista con la distribución acumulada:
 #'     \itemize{
 #'       \item porcentaje: Vector con probabilidades acumuladas
-#'       \item personas: Vector con número de personas acumulado
+#'       \item personas: Vector con número de personas acumuladas al menos i veces
 #'     }
 #'   \item parametros: Lista con parámetros del modelo:
 #'     \itemize{
@@ -330,8 +313,6 @@ calc_binomial <- function(audiencias, pob_total) {
 #' \itemize{
 #'   \item Existe heterogeneidad significativa en la exposición
 #'   \item Se dispone de datos de audiencias acumuladas (A1 y A2)
-#'   \item Se requiere una estimación más precisa que el modelo Binomial
-#'   \item La audiencia varía significativamente entre exposiciones
 #' }
 #'
 #' @examples
@@ -344,7 +325,7 @@ calc_binomial <- function(audiencias, pob_total) {
 #' )
 #'
 #' # Examinar resultados
-#' print(paste("Cobertura total:", round(resultado$reach$porcentaje, 2), "%"))
+#' print(paste("Cobertura:", round(resultado$reach$porcentaje, 2), "%"))
 #' print(paste("Alpha:", round(resultado$parametros$alpha, 4)))
 #' print(paste("Beta:", round(resultado$parametros$beta, 4)))
 #'
@@ -357,8 +338,8 @@ calc_binomial <- function(audiencias, pob_total) {
 #'
 #' @export
 #' @seealso
-#' \code{\link{calc_sainsbury}} para un modelo alternativo con duplicación exacta
-#' \code{\link{calc_binomial}} para un modelo más simple
+#' \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
+#' \code{\link{calc_binomial}} para estimaciones con la distribución Binomial
 #' \code{\link{calcular_R1_R2}} para el cálculo de coeficientes de duplicación
 calc_beta_binomial <- function(A1, A2, P, n) {
   # Validación de inputs
