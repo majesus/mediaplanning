@@ -73,7 +73,7 @@
 #'
 #' @export
 #' @seealso
-#' \code{\link{calcular_R1_R2}} para los cálculos de R1 y R2
+#' \code{\link{calc_R1_R2}} para los cálculos de R1 y R2
 optimizar_d <- function(Pob,
                         FE,
                         cob_efectiva,
@@ -156,7 +156,7 @@ Para mayor información:
 
   # Calcular R1 y R2 para cada combinación de alpha y beta
   resultados <- mapply(function(alpha, beta) {
-    res <- calcular_R1_R2(A = alpha, B = beta)
+    res <- calc_R1_R2(A = alpha, B = beta)
     return(c(R1 = res$R1, R2 = res$R2))
   }, mejores_combinaciones$alpha, mejores_combinaciones$beta, SIMPLIFY = FALSE)
 
@@ -331,7 +331,7 @@ Para mayor información:
 #' @export
 #' @seealso
 #' \code{\link{optimizar_d}} para optimización de distribución de contactos
-#' \code{\link{calcular_R1_R2}} para los cálculos de R1 y R2
+#' \code{\link{calc_R1_R2}} para los cálculos de R1 y R2
 optimizar_dc <- function(Pob,
                          FEM,
                          cob_efectiva,
@@ -421,7 +421,7 @@ optimizar_dc <- function(Pob,
   # Calculate R1 and R2 for each combination
   resultados <- mapply(
     function(alpha, beta) {
-      res <- calcular_R1_R2(A = alpha, B = beta)
+      res <- calc_R1_R2(A = alpha, B = beta)
       return(c(R1 = res$R1, R2 = res$R2))
     },
     mejores_combinaciones$alpha,
