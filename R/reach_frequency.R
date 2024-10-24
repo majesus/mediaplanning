@@ -309,7 +309,7 @@ Para mayor información:
   mejores_combinaciones <- cbind(mejores_combinaciones, resultados_df)
 
   # Añadir un asterisco cuando R2 > 2 * R1
-  mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
+  # mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
 
   # Asegurarse de que cob_efectiva esté en las mismas unidades que prob
   cob_efectiva_poblacional <- cob_efectiva * Pob  # Ajustamos el valor objetivo según la población
@@ -324,7 +324,7 @@ Para mayor información:
   mejores_combinaciones <- mejores_combinaciones[order(mejores_combinaciones$x, mejores_combinaciones$distancia_objetivo), ]
 
   # Eliminar las filas donde la columna 'flag' tiene un asterisco
-  mejores_combinaciones <- mejores_combinaciones[mejores_combinaciones$flag != "*", ]
+  # mejores_combinaciones <- mejores_combinaciones[mejores_combinaciones$flag != "*", ]
 
   # Filtrar filas cuyo valor R1 esté cerca del valor objetivo especificado
   R1_objetivo <- A1 / Pob  # Valor objetivo de R1 para filtrar
@@ -351,8 +351,8 @@ Para mayor información:
   # Crear un dataframe para el gráfico
   data <- data.frame(
     inserciones = 1:n,
-    probabilidad = distribucion[2:(n + 1)],  # Probabilidades desde P(1) hasta P(n)
-    acumulada = acumuladas  # Acumulaciones correctas de 1 a n, 2 a n, etc.
+    d_probabilidad = distribucion[2:(n + 1)],  # Probabilidades desde P(1) hasta P(n)
+    dc_acumulada = acumuladas  # Acumulaciones correctas de 1 a n, 2 a n, etc.
   )
   data
 
@@ -369,8 +369,8 @@ Para mayor información:
 
   # Graficar probabilidades y acumuladas
   p <- ggplot(data, aes(x = inserciones)) +
-    geom_smooth(aes(y = probabilidad, color = "Probabilidad"), method = "loess", se = FALSE, linetype = "solid", size = 0.8) +  # Añadir suavizado
-    geom_smooth(aes(y = acumulada, color = "Acumulada"), method = "loess", se = FALSE, linetype = "dashed", size = 0.8) +  # Suavizado acumulado
+    geom_smooth(aes(y = d_probabilidad, color = "d_probabilidad"), method = "loess", se = FALSE, linetype = "solid", size = 0.8) +  # Añadir suavizado
+    geom_smooth(aes(y = dc_acumulada, color = "dc_acumulada"), method = "loess", se = FALSE, linetype = "dashed", size = 0.8) +  # Suavizado acumulado
     labs(
       title = "Distribución Beta Binomial y Acumulada con Suavizado",
       x = "Número de inserciones",
@@ -378,7 +378,7 @@ Para mayor información:
     ) +
     theme_minimal() +
     theme(legend.position = "top") +
-    scale_color_manual(name = "Tipo", values = c("Probabilidad" = "blue", "Acumulada" = "red"))
+    scale_color_manual(name = "Tipo", values = c("d_probabilidad" = "blue", "dc_acumulada" = "red"))
 
   print(p)
   return(invisible(data_ls))
@@ -576,11 +576,10 @@ optimizar_dc <- function(Pob,
   # Convert results to data frame and process
   resultados_df <- do.call(rbind, resultados)
   mejores_combinaciones <- cbind(mejores_combinaciones, resultados_df)
-  mejores_combinaciones$flag <- ifelse(
-    mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1,
-    "*",
-    ""
-  )
+  # mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
+
+  # Calculate GRPs values
+  mejores_combinaciones$GRP <- (mejores_combinaciones$R1 * Pob * n) * 100 / Pob
 
   # Calculate population-level metrics
   cob_efectiva_poblacional <- cob_efectiva * Pob
@@ -637,12 +636,12 @@ optimizar_dc <- function(Pob,
   # Create visualization
   p <- ggplot(data, aes(x = inserciones)) +
     geom_smooth(
-      aes(y = d_probabilidad, color = "Probabilidad"),
+      aes(y = d_probabilidad, color = "d_probabilidad"),
       linetype = "solid",
       size = 0.8
     ) +
     geom_smooth(
-      aes(y = dc_probabilidad, color = "Acumulada"),
+      aes(y = dc_probabilidad, color = "dc_acumulada"),
       linetype = "dashed",
       size = 0.8
     ) +
@@ -655,11 +654,29 @@ optimizar_dc <- function(Pob,
     theme(legend.position = "top") +
     scale_color_manual(
       name = "Tipo",
-      values = c("Probabilidad" = "blue", "Acumulada" = "red")
+      values = c("d_probabilidad" = "blue", "dc_acumulada" = "red")
     )
 
   print(p)
   return(invisible(data_ls))
 }
+
+resultado_d <- optimizar_d(Pob = 1000000,
+                         FE = 3,
+                         cob_efectiva = 43000,
+                         A1 = 500000,
+                         tolerancia = 0.1,
+                         step_A = 0.025,
+                         step_B = 0.025,
+                         n = 5)
+
+resultado_dc <- optimizar_dc(Pob = 1000000,
+                          FEM = 3,
+                          cob_efectiva = 580000,
+                          A1 = 500000,
+                          tolerancia = 0.1,
+                          step_A = 0.05,
+                          step_B = 0.05,
+                          n = 5)
 
 #__________________________________________________________#
