@@ -3,11 +3,13 @@
 \encoding{UTF-8}
 \name{run_beta_binomial_explorer}
 \alias{run_beta_binomial_explorer}
-\title{Explorador de la Distribución Beta-Binomial}
+\title{Función de Masa de Probabilidad Beta-Binomial}
 \usage{
 run_beta_binomial_explorer()
 }
+\value{
+Una aplicación Shiny
+}
 \description{
-Aplicación Shiny que permite explorar y visualizar la
-distribución beta-binomial de manera interactiva.
+Ejecuta la aplicación Shiny del explorador Beta Binomial
 }
