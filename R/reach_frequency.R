@@ -661,22 +661,5 @@ optimizar_dc <- function(Pob,
   return(invisible(data_ls))
 }
 
-resultado_d <- optimizar_d(Pob = 1000000,
-                         FE = 3,
-                         cob_efectiva = 43000,
-                         A1 = 500000,
-                         tolerancia = 0.1,
-                         step_A = 0.025,
-                         step_B = 0.025,
-                         n = 5)
-
-resultado_dc <- optimizar_dc(Pob = 1000000,
-                          FEM = 3,
-                          cob_efectiva = 580000,
-                          A1 = 500000,
-                          tolerancia = 0.1,
-                          step_A = 0.05,
-                          step_B = 0.05,
-                          n = 5)
 
 #__________________________________________________________#
