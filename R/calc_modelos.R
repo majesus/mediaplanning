@@ -415,61 +415,145 @@ calc_beta_binomial <- function(A1, A2, P, n) {
 
 #' @export
 print.reach_sainsbury <- function(x, ...) {
-  cat("Modelo Sainsbury\n")
-  cat("---------------\n")
-  cat(sprintf("Reach: %.2f%% (%.0f personas)\n",
+  cat("MODELO SAINSBURY\n")
+  cat("================\n")
+  cat("Descripción: Modelo que considera independencia entre soportes y heterogeneidad de soportes\n\n")
+
+  # Métricas principales
+  cat("MÉTRICAS PRINCIPALES:\n")
+  cat("--------------------\n")
+  cat(sprintf("Cobertura total: %.2f%% (%.0f personas)\n",
               x$reach$porcentaje, x$reach$personas))
-  cat("\nDistribución de contactos:\n")
+
+  # Distribución de contactos
+  cat("\nDISTRIBUCIÓN DE CONTACTOS:\n")
+  cat("-------------------------\n")
+  cat("(Porcentaje de población que recibe exactamente N contactos)\n")
   for(i in seq_along(x$distribucion$porcentaje)) {
-    cat(sprintf("%d contactos: %.2f%% (%.0f personas)\n",
-                i, x$distribucion$porcentaje[i], x$distribucion$personas[i]))
+    cat(sprintf("%d contacto%s: %.2f%% (%.0f personas)\n",
+                i, ifelse(i == 1, "", "s"),
+                x$distribucion$porcentaje[i],
+                x$distribucion$personas[i]))
   }
-  cat("\nDistribución acumulada:\n")
+
+  # Distribución acumulada
+  cat("\nDISTRIBUCIÓN ACUMULADA:\n")
+  cat("----------------------\n")
+  cat("(Porcentaje de población que recibe N o más contactos)\n")
   for(i in seq_along(x$acumulada$porcentaje)) {
-    cat(sprintf("%d o más contactos: %.2f%% (%.0f personas)\n",
-                i, x$acumulada$porcentaje[i], x$acumulada$personas[i]))
+    cat(sprintf("≥ %d contacto%s: %.2f%% (%.0f personas)\n",
+                i, ifelse(i == 1, "", "s"),
+                x$acumulada$porcentaje[i],
+                x$acumulada$personas[i]))
   }
+
+  # Resumen estadístico
+  total_contactos <- sum(seq_along(x$distribucion$porcentaje) *
+                           x$distribucion$personas)
+  contactos_promedio <- total_contactos / sum(x$distribucion$personas)
+  cat("\nRESUMEN ESTADÍSTICO:\n")
+  cat("-------------------\n")
+  cat(sprintf("Promedio de contactos por individuo alcanzado: %.2f\n",
+              contactos_promedio))
 }
 
 #' @export
 print.reach_binomial <- function(x, ...) {
-  cat("Modelo Binomial\n")
-  cat("--------------\n")
-  cat(sprintf("Reach: %.2f%% (%.0f personas)\n",
+  cat("MODELO BINOMIAL\n")
+  cat("===============\n")
+  cat("Descripción: Modelo que asume independencia entre soportes y homogeneidad\n\n")
+
+  # Métricas principales
+  cat("MÉTRICAS PRINCIPALES:\n")
+  cat("--------------------\n")
+  cat(sprintf("Cobertura total: %.2f%% (%.0f personas)\n",
               x$reach$porcentaje, x$reach$personas))
-  cat(sprintf("Probabilidad media: %.3f\n", x$probabilidad_media))
-  cat("\nDistribución de contactos:\n")
+  cat(sprintf("Probabilidad media de exposición: %.3f\n", x$probabilidad_media))
+
+  # Distribución de contactos
+  cat("\nDISTRIBUCIÓN DE CONTACTOS:\n")
+  cat("-------------------------\n")
+  cat("(Porcentaje de población que recibe exactamente N contactos)\n")
   for(i in seq_along(x$distribucion$porcentaje)) {
-    cat(sprintf("%d contactos: %.2f%% (%.0f personas)\n",
-                i, x$distribucion$porcentaje[i], x$distribucion$personas[i]))
+    cat(sprintf("%d contacto%s: %.2f%% (%.0f personas)\n",
+                i, ifelse(i == 1, "", "s"),
+                x$distribucion$porcentaje[i],
+                x$distribucion$personas[i]))
   }
-  cat("\nDistribución acumulada:\n")
+
+  # Distribución acumulada
+  cat("\nDISTRIBUCIÓN ACUMULADA:\n")
+  cat("----------------------\n")
+  cat("(Porcentaje de población que recibe N o más contactos)\n")
   for(i in seq_along(x$acumulada$porcentaje)) {
-    cat(sprintf("%d o más contactos: %.2f%% (%.0f personas)\n",
-                i, x$acumulada$porcentaje[i], x$acumulada$personas[i]))
+    cat(sprintf("≥ %d contacto%s: %.2f%% (%.0f personas)\n",
+                i, ifelse(i == 1, "", "s"),
+                x$acumulada$porcentaje[i],
+                x$acumulada$personas[i]))
   }
+
+  # Resumen estadístico
+  total_contactos <- sum(seq_along(x$distribucion$porcentaje) *
+                           x$distribucion$personas)
+  contactos_promedio <- total_contactos / sum(x$distribucion$personas)
+  cat("\nRESUMEN ESTADÍSTICO:\n")
+  cat("-------------------\n")
+  cat(sprintf("Promedio de contactos por individuo alcanzado: %.2f\n",
+              contactos_promedio))
 }
 
 #' @export
 print.reach_beta_binomial <- function(x, ...) {
-  cat("Modelo Beta-Binomial\n")
-  cat("-------------------\n")
-  cat(sprintf("Reach: %.2f%% (%.0f personas)\n",
+  cat("MODELO BETA-BINOMIAL\n")
+  cat("===================\n")
+  cat("Descripción: Modelo que considera heterogeneidad en la población\n\n")
+
+  # Métricas principales
+  cat("MÉTRICAS PRINCIPALES:\n")
+  cat("--------------------\n")
+  cat(sprintf("Cobertura total: %.2f%% (%.0f personas)\n",
               x$reach$porcentaje, x$reach$personas))
-  cat(sprintf("Parámetros: alpha=%.3f, beta=%.3f\n",
-              x$parametros$alpha, x$parametros$beta))
+
+  # Parámetros del modelo
+  cat("\nPARÁMETROS DEL MODELO:\n")
+  cat("---------------------\n")
+  cat(sprintf("Alpha: %.3f (forma de la distribución beta)\n", x$parametros$alpha))
+  cat(sprintf("Beta: %.3f (forma de la distribución beta)\n", x$parametros$beta))
   cat(sprintf("Probabilidad de 0 contactos: %.2f%%\n",
               x$parametros$prob_cero_contactos))
-  cat("\nDistribución de contactos:\n")
+
+  # Distribución de contactos
+  cat("\nDISTRIBUCIÓN DE CONTACTOS:\n")
+  cat("-------------------------\n")
+  cat("(Porcentaje de población que recibe exactamente N contactos)\n")
   for(i in seq_along(x$distribucion$porcentaje)) {
-    cat(sprintf("%d contactos: %.2f%% (%.0f personas)\n",
-                i, x$distribucion$porcentaje[i], x$distribucion$personas[i]))
+    cat(sprintf("%d contacto%s: %.2f%% (%.0f personas)\n",
+                i, ifelse(i == 1, "", "s"),
+                x$distribucion$porcentaje[i],
+                x$distribucion$personas[i]))
   }
-  cat("\nDistribución acumulada:\n")
+
+  # Distribución acumulada
+  cat("\nDISTRIBUCIÓN ACUMULADA:\n")
+  cat("----------------------\n")
+  cat("(Porcentaje de población que recibe N o más contactos)\n")
   for(i in seq_along(x$acumulada$porcentaje)) {
-    cat(sprintf("%d o más contactos: %.2f%% (%.0f personas)\n",
-                i, x$acumulada$porcentaje[i], x$acumulada$personas[i]))
+    cat(sprintf("≥ %d contacto%s: %.2f%% (%.0f personas)\n",
+                i, ifelse(i == 1, "", "s"),
+                x$acumulada$porcentaje[i],
+                x$acumulada$personas[i]))
   }
+
+  # Resumen estadístico
+  total_contactos <- sum(seq_along(x$distribucion$porcentaje) *
+                           x$distribucion$personas)
+  contactos_promedio <- total_contactos / sum(x$distribucion$personas)
+  cat("\nRESUMEN ESTADÍSTICO:\n")
+  cat("-------------------\n")
+  cat(sprintf("Promedio de contactos por individuo alcanzado: %.2f\n",
+              contactos_promedio))
+  cat(sprintf("Media teórica de la distribución beta: %.3f\n",
+              x$parametros$alpha / (x$parametros$alpha + x$parametros$beta)))
 }
 
 #__________________________________________________________#
@@ -630,25 +714,44 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
   ))
 }
 
-# Datos de ejemplo
-audiencias <- c(1500000, 800000, 1200000, 900000)  # Audiencias por soporte
-inserciones <- c(4, 3, 5, 2)  # Número de inserciones por soporte
+#' @export
+print.reach_metheringham <- function(x, ...) {
+  cat("Modelo de Metheringham\n")
+  cat("---------------------\n")
 
-# Vector de duplicación (valores para matriz triangular superior)
-# Para 4 soportes necesitamos 10 valores de duplicación:
-# [1,1] [1,2] [1,3] [1,4]
-# [2,2] [2,3] [2,4]
-# [3,3] [3,4]
-# [4,4]
-vector_duplicacion <- c(
-  150000,  # [1,1]
-  200000,  # [1,2]
-  180000,  # [1,3]
-  160000,  # [1,4]
-  120000,  # [2,2]
-  140000,  # [2,3]
-  130000,  # [2,4]
-  170000,  # [3,3]
-  150000,  # [3,4]
-  110000   # [4,4]
-)
+  # Audiencia media (A1)
+  cat("\nAUDIENCIA MEDIA (A1):\n")
+  cat(sprintf("%.0f personas\n", x$audiencia_media))
+  cat("Interpretación: Audiencia media por inserción del soporte hipotético promedio\n")
+
+  # Duplicación media (D)
+  cat("\nDUPLICACIÓN MEDIA (D):\n")
+  cat(sprintf("%.0f personas\n", x$duplicacion_media))
+  cat("Interpretación: Número medio de personas que ven dos inserciones cualesquiera\n")
+
+  # Audiencia segunda inserción (A2)
+  cat("\nAUDIENCIA SEGUNDA INSERCIÓN (A2):\n")
+  cat(sprintf("%.0f personas\n", x$audiencia_segunda))
+  cat("Interpretación: Audiencia acumulada tras dos inserciones (personas expuestas al menos una vez)\n")
+
+  # Matriz de oportunidades
+  cat("\nMATRIZ DE OPORTUNIDADES DE CONTACTO:\n")
+  print(x$matriz_oportunidades)
+  cat("Interpretación: Número de pares de inserciones posibles entre soportes\n")
+  cat("- Diagonal: Oportunidades de contacto dentro del mismo soporte\n")
+  cat("- Fuera diagonal: Oportunidades de contacto entre diferentes soportes\n")
+
+  # Vector de oportunidades
+  cat("\nVECTOR DE OPORTUNIDADES:\n")
+  print(x$vector_oportunidades)
+  cat("Interpretación: Versión linealizada de la matriz de oportunidades\n")
+  cat("Orden: [1,1], [1,2], [2,2], [1,3], [2,3], [3,3], ...\n")
+
+  # Resumen de hallazgos clave
+  cat("\nHALLAZGOS CLAVE:\n")
+  cat(sprintf("- Audiencia promedio por inserción: %.0f personas\n", x$audiencia_media))
+  cat(sprintf("- Duplicación promedio: %.1f%%\n",
+              (x$duplicacion_media / x$audiencia_media) * 100))
+  cat(sprintf("- Incremento en segunda inserción: %.1f%%\n",
+              ((x$audiencia_segunda - x$audiencia_media) / x$audiencia_media) * 100))
+}
