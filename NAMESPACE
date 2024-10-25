@@ -2,6 +2,7 @@
 
 S3method(print,reach_beta_binomial)
 S3method(print,reach_binomial)
+S3method(print,reach_metheringham)
 S3method(print,reach_sainsbury)
 export(calc_R1_R2)
 export(calc_beta_binomial)

@@ -1,12 +1,14 @@
 Package: mediaPlanR
-Title: Herramientas para Planificación de Medios (por Manuel J. Sánchez-Franco)
+Type: Package
 Version: 0.1.1
-Authors@R: 
-    person(given = "Manuel",
-           family = "Sánchez-Franco",
-           role = c("aut", "cre"),
-           email = "majesus@us.es")
-Description: Conjunto de funciones y aplicaciones para planificación de medios.
+Date: 2024-10-25
+Title: Herramientas para la Planificación de Medios Publicitarios
+Description: Indicadores, modelos y aplicaciones para la planificación de medios.
+Author: 
+    Manuel J. Sánchez-Franco [aut, cre] [<https://orcid.org/0000-0002-8042-3550>]
+Maintainer: Manuel J. Sánchez-Franco <majesus@us.es>
+Repository: GitHub
+URL: <https://github.com/majesus/mediaPlanR>
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
