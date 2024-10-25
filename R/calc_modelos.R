@@ -658,7 +658,9 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
        audiencias <- c(1500, 800, 1200)
        inserciones <- c(4, 3, 5)
        vector_duplicacion <- c(150, 200, 180, 120, 140, 170)
-    ")
+    \n\n")  # Añadimos dos saltos de línea extra
+
+    cat("========== COMENZANDO CÁLCULOS ==========\n\n")  # Separador visual
   }
 
   # Validación de inputs
