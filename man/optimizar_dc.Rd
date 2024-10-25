@@ -109,5 +109,5 @@ cat("Beta óptimo:", resultado$beta, "\n")
 }
 \seealso{
 \code{\link{optimizar_d}} para optimización de distribución de contactos
-\code{\link{calcular_R1_R2}} para los cálculos de R1 y R2
+\code{\link{calc_R1_R2}} para los cálculos de R1 y R2
 }

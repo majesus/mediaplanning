@@ -14,6 +14,13 @@ mediaPlanR: Herramientas para Planificación de Medios
 \references{
 \href{https://cran.r-project.org/package=mediaPlanR}{CRAN}
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{<https://github.com/majesus/mediaPlanR>}
+}
+
+}
 \author{
 Manuel Sánchez-Franco \email{majesus@us.es}
 }
