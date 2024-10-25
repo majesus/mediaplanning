@@ -641,12 +641,10 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
   if(ayuda) {
     cat("
     GUÍA PARA INTRODUCIR DATOS DE AUDIENCIA Y DUPLICACIÓN
-
     1. FORMATO DE ENTRADA:
        - audiencias: Vector numérico con la audiencia de cada soporte
        - inserciones: Vector numérico con número de inserciones por soporte
        - vector_duplicacion: Vector con valores de duplicación entre soportes
-
     2. TAMAÑO DEL VECTOR DE DUPLICACIÓN:
        Para n soportes, necesitas n*(n+1)/2 valores de duplicación.
        Ejemplo:
@@ -654,28 +652,19 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
        - 3 soportes → 6 valores
        - 4 soportes → 10 valores
        - 5 soportes → 15 valores
-
     3. ORDEN DEL VECTOR DE DUPLICACIÓN:
-       Para 3 soportes, el orden sería:
-       [1,1] [1,2] [1,3]
-       [2,2] [2,3]
-       [3,3]
-
+       Para 3 soportes el orden es: c(d11, d12, d13, d22, d23, d33)
     4. EJEMPLO DE USO:
-       audiencias <- c(1500000, 800000, 1200000)
+       audiencias <- c(1500, 800, 1200)
        inserciones <- c(4, 3, 5)
-       vector_duplicacion <- c(150000, 200000, 180000,
-                              120000, 140000,
-                              170000)
+       vector_duplicacion <- c(150, 200, 180, 120, 140, 170)
     ")
-    return(invisible(NULL))
   }
 
   # Validación de inputs
   if (length(audiencias) != length(inserciones)) {
     stop("Los vectores de audiencias e inserciones deben tener la misma longitud")
   }
-
   n_elementos_duplicacion <- length(audiencias) * (length(audiencias) + 1) / 2
   if (length(vector_duplicacion) != n_elementos_duplicacion) {
     stop("La longitud del vector de duplicación no coincide con el número esperado de elementos")
@@ -699,7 +688,6 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
   # Cálculos principales
   matriz_oportunidades <- calcular_matriz_oportunidades(inserciones)
   vector_oportunidades <- matriz_a_vector(matriz_oportunidades)
-
   A1 <- sum(audiencias * inserciones) / sum(inserciones)
   D <- sum(vector_duplicacion * vector_oportunidades) / sum(vector_oportunidades)
   A2 <- 2 * A1 - D
