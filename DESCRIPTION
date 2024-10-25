@@ -4,6 +4,7 @@ Version: 0.1.1
 Date: 2024-10-25
 Title: Herramientas para la Planificación de Medios Publicitarios
 Description: Indicadores, modelos y aplicaciones para la planificación de medios.
+Manual: <https://github.com/majesus/mediaPlanR/mediaPlanR_manual.pdf>
 Author: 
     Manuel J. Sánchez-Franco [aut, cre] [<https://orcid.org/0000-0002-8042-3550>]
 Maintainer: Manuel J. Sánchez-Franco <majesus@us.es>
