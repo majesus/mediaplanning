@@ -22,6 +22,9 @@
     "\n   help(\"calc_sainsbury\")",
     "\n   help(\"optimizar_d\")",
     "\n",
+    "\nDocumentación completa disponible en:",
+    "\n   https://github.com/majesus/mediaPlanR/mediaPlanR_manual.pdf",
+    "\n",
     "\nVersión: ", utils::packageVersion(pkgname), "\n",
     "\n=================================================\n"
   )
