@@ -5,7 +5,7 @@
 #' @title Optimización de distribución de contactos mediante modelo Beta-Binomial
 #' @description Esta función optimiza la distribución de contactos publicitarios y calcula
 #' los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial.
-#' El proceso busca la mejor combinación de parámetros alpha y beta que satisfaga
+#' El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga
 #' los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 #'
 #' @param Pob Tamaño de la población
@@ -253,10 +253,10 @@ Para mayor información:
 
 #' @encoding UTF-8
 #' @title Optimización de distribución de contactos acumulada mediante modelo Beta-Binomial
-#' @description Optimiza la distribución de contactos acumulada considerando una
-#' frecuencia efectiva mínima (FEM) y calcula los coeficientes de duplicación R1 y R2.
-#' La función se enfoca en la distribución acumulada de contactos, lo que permite
-#' evaluar el alcance para diferentes niveles mínimos de exposición.
+#' @description Esta función optimiza la distribución de contactos publicitarios y calcula
+#' los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial.
+#' El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga
+#' los criterios de cobertura efectiva y frecuencia efectiva mínima (FEM) especificados por el usuario.
 #'
 #' @param Pob Tamaño total de la población
 #' @param FEM Frecuencia efectiva mínima requerida (FEM, número mínimo de contactos)
