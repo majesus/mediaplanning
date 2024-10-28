@@ -55,7 +55,7 @@ parámetros, incluyendo:
 \description{
 Esta función optimiza la distribución de contactos publicitarios y calcula
 los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial.
-El proceso busca la mejor combinación de parámetros alpha y beta que satisfaga
+El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga
 los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 }
 \details{

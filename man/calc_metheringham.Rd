@@ -85,6 +85,10 @@ calc_metheringham(
   ayuda = TRUE
 )
 
+#' @references
+Hofmans, P. (1966). Measuring the Cumulative Net Coverage of Any Combination of Media.
+Journal of Marketing Research, 3(3), 269-278.
+
 }
 \seealso{
 \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
