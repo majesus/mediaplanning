@@ -14,7 +14,7 @@ calc_metheringham(audiencias, inserciones, vector_duplicacion, ayuda = TRUE)
 
 \item{vector_duplicacion}{Vector numérico con valores de duplicación entre soportes}
 
-\item{ayuda}{Lógico. Si TRUE, muestra una guía de uso detallada (default: TRUE)}
+\item{ayuda}{Logical. Si TRUE, muestra una guía de uso detallada (default: TRUE)}
 }
 \value{
 Una lista conteniendo:
@@ -22,8 +22,8 @@ Una lista conteniendo:
 \item audiencia_media: Media ponderada de audiencias (A1)
 \item duplicacion_media: Media ponderada de duplicaciones (D)
 \item audiencia_segunda: Audiencia tras la segunda inserción (A2)
-\item matriz_oportunidades: Matriz de oportunidades de contacto
-\item vector_oportunidades: Vector de oportunidades de contacto
+\item vector_oportunidades: Vector que contiene el número de oportunidades de contacto
+entre pares de inserciones, siguiendo el mismo orden que el vector_duplicacion
 }
 }
 \description{
@@ -84,10 +84,6 @@ calc_metheringham(
   vector_duplicacion = NULL,
   ayuda = TRUE
 )
-
-#' @references
-Hofmans, P. (1966). Measuring the Cumulative Net Coverage of Any Combination of Media.
-Journal of Marketing Research, 3(3), 269-278.
 
 }
 \seealso{
