@@ -10,10 +10,10 @@ optimizar_dc(
   FEM,
   cob_efectiva,
   A1,
+  max_inserciones,
   tolerancia = 0.05,
   step_A = 0.025,
-  step_B = 0.025,
-  n = 5
+  step_B = 0.025
 )
 }
 \arguments{
@@ -25,13 +25,13 @@ optimizar_dc(
 
 \item{A1}{Audiencia del soporte tras la primera inserción}
 
+\item{max_inserciones}{Número de inserciones máximo a considerar (default: 5)}
+
 \item{tolerancia}{Margen de error permitido para las soluciones (default: 0.05)}
 
 \item{step_A}{Incremento para la búsqueda del parámetro alpha (default: 0.025)}
 
 \item{step_B}{Incremento para la búsqueda del parámetro beta (default: 0.025)}
-
-\item{n}{Número de inserciones a considerar (default: 5)}
 }
 \value{
 Una lista con los siguientes componentes:
@@ -91,10 +91,11 @@ especialmente útil para:
 \dontrun{
 # Ejemplo de optimización para una campaña
 resultado <- optimizar_dc(
-  Pob = 1000000,      # Población de 1 millón
-  FEM = 3,            # Mínimo 3 contactos
-  cob_efectiva = 547657,  # Objetivo: alcanzar 547,657 personas
-  A1 = 500000         # Audiencia primera inserción: 500,000
+  Pob = 1000000,           # Población de 1 millón
+  FEM = 3,                 # Mínimo 3 contactos
+  cob_efectiva = 547657,   # Objetivo: alcanzar 547,657 personas
+  A1 = 500000,             # Audiencia primera inserción: 500,000
+  max_inserciones = 5      # Número de inserciones máximo a considerar: 5
 )
 
 # Examinar los resultados

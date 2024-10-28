@@ -10,10 +10,10 @@ optimizar_d(
   FE,
   cob_efectiva,
   A1,
+  max_inserciones,
   tolerancia = 0.05,
   step_A = 0.025,
-  step_B = 0.025,
-  n = 5
+  step_B = 0.025
 )
 }
 \arguments{
@@ -25,13 +25,13 @@ optimizar_d(
 
 \item{A1}{Audiencia tras la primera inserción}
 
+\item{max_inserciones}{Número de inserciones máximo a considerar (default: 5)}
+
 \item{tolerancia}{Margen de error permitido en las soluciones (default: 0.05)}
 
 \item{step_A}{Incremento para búsqueda del parámetro alpha (default: 0.025)}
 
 \item{step_B}{Incremento para búsqueda del parámetro beta (default: 0.025)}
-
-\item{n}{Número de inserciones a considerar (default: 5)}
 }
 \value{
 Una lista con los siguientes componentes:
@@ -79,10 +79,11 @@ Los parámetros alpha y beta controlan la forma de la distribución Beta-Binomia
 \dontrun{
 # Ejemplo básico
 resultado <- optimizar_d(
-  Pob = 1000000,      # Población de 1 millón
-  FE = 3,             # Frecuencia efectiva de 3 contactos
-  cob_efectiva = 590000,  # Objetivo: alcanzar 590,000 personas
-  A1 = 500000         # Audiencia primera inserción: 500,000
+  Pob = 1000000,           # Población de 1 millón
+  FE = 3,                  # Frecuencia efectiva de 3 contactos
+  cob_efectiva = 590000,   # Objetivo: alcanzar 590,000 personas
+  A1 = 500000,             # Audiencia primera inserción: 500,000
+  max_inserciones = 5      # Número de inserciones máximo a considerar: 5
 )
 
 # Examinar resultados
