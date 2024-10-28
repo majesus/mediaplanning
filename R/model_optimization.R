@@ -12,10 +12,10 @@
 #' @param FE Frecuencia efectiva (FE, número objetivo de impactos por persona)
 #' @param cob_efectiva Número objetivo de personas a alcanzar con FE contactos
 #' @param A1 Audiencia tras la primera inserción
+#' @param max_inserciones Número de inserciones máximo a considerar (default: 5)
 #' @param tolerancia Margen de error permitido en las soluciones (default: 0.05)
 #' @param step_A Incremento para búsqueda del parámetro alpha (default: 0.025)
 #' @param step_B Incremento para búsqueda del parámetro beta (default: 0.025)
-#' @param n Número de inserciones a considerar (default: 5)
 #'
 #' @return Una lista con los siguientes componentes:
 #' \itemize{
@@ -60,10 +60,11 @@
 #' \dontrun{
 #' # Ejemplo básico
 #' resultado <- optimizar_d(
-#'   Pob = 1000000,      # Población de 1 millón
-#'   FE = 3,             # Frecuencia efectiva de 3 contactos
-#'   cob_efectiva = 590000,  # Objetivo: alcanzar 590,000 personas
-#'   A1 = 500000         # Audiencia primera inserción: 500,000
+#'   Pob = 1000000,           # Población de 1 millón
+#'   FE = 3,                  # Frecuencia efectiva de 3 contactos
+#'   cob_efectiva = 590000,   # Objetivo: alcanzar 590,000 personas
+#'   A1 = 500000,             # Audiencia primera inserción: 500,000
+#'   max_inserciones = 5      # Número de inserciones máximo a considerar: 5
 #' )
 #'
 #' # Examinar resultados
@@ -78,40 +79,37 @@ optimizar_d <- function(Pob,
                         FE,
                         cob_efectiva,
                         A1,
+                        max_inserciones,
                         tolerancia = 0.05,
                         step_A = 0.025,
-                        step_B = 0.025,
-                        n = 5) {
+                        step_B = 0.025) {
 
   #___________________________________#
   options(lazyLoad = FALSE)
-  # Comprobar si el paquete 'extraDistr' está disponible e instalarlo si no lo está
   if (!requireNamespace("extraDistr", quietly = TRUE)) {
     install.packages("extraDistr")
   }
-  # Cargar el paquete
   library(extraDistr)
-  library(ggplot2)  # Necesario para gráficos
+  library(ggplot2)
   #___________________________________#
 
-  # Cargar el paquete y mostrar ayuda de mi paquete
-  cat("Este script optimiza la distribución de contactos y calcula los valores de R1 y R2 en función de los parámetros proporcionados.
+  cat("Este script optimiza la distribución de contactos y calcula los valores de R1 y R2.
 
 Para mayor información:
-@param Pob Numeric. Tamaño de la población.
-@param FE Numeric. Valor objetivo de distribución de contactos.
-@param cob_efectiva Numeric. Número de personas a alcanzar al menos i veces.
-@param A1 Numeric. Audiencia del soporte objetivo.
-@param tolerancia Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i).
-@param step_A Numeric. Paso para el rango de probabilidad alpha.
-@param step_B Numeric. Paso para el rango de probabilidad beta.
-
+@param Pob              Numeric. Tamaño de la población
+@param FE               Numeric. Valor objetivo de distribución de contactos
+@param cob_efectiva     Numeric. Número de personas a alcanzar al menos i veces
+@param A1               Numeric. Audiencia del soporte objetivo
+@param max_inserciones  Numeric. Número máximo de inserciones a probar
+@param tolerancia       Numeric. Tolerancia +/- de las soluciones propuestas
+@param step_A           Numeric. Paso para el rango alpha
+@param step_B           Numeric. Paso para el rango beta
 ")
 
   #___________________________________#
 
   # Validación de entrada
-  if (!is.numeric(Pob) || !is.numeric(FE) || !is.numeric(cob_efectiva)) {
+  if (!is.numeric(Pob) || !is.numeric(FE) || !is.numeric(cob_efectiva) || !is.numeric(max_inserciones)) {
     stop("Todos los parámetros deben ser numéricos.")
   }
   if (Pob <= 0 || cob_efectiva <= 0) {
@@ -120,8 +118,8 @@ Para mayor información:
   if (FE <= 0) {
     stop("'FE' no puede ser igual o menor que 0.")
   }
-  if (FE > n) {
-    stop("'FE' no puede ser superior a 'n'.")
+  if (FE > max_inserciones) {
+    stop("'FE' no puede ser superior a 'max_inserciones'.")
   }
   if (cob_efectiva > Pob) {
     stop("El valor objetivo no puede ser mayor que la población.")
@@ -134,27 +132,28 @@ Para mayor información:
   tolerancia <- cob_efectiva * tolerancia
 
   # Definición de rangos para los parámetros
-  rangos_size <- seq(FE, FE + 3, 1)  # Rango para x (contactos)
+  rangos_n <- seq(FE, max_inserciones, 1)  # Rango para n
   rangos_prob1 <- seq(0.001, 10, step_A)   # Rango para alpha
   rangos_prob2 <- seq(0.001, 10, step_B)   # Rango para beta
 
-  # Generar todas las combinaciones posibles de x, alpha y beta
-  combinaciones <- expand.grid(x = rangos_size,
-                               alpha = rangos_prob1,
-                               beta = rangos_prob2)
+  # Generar todas las combinaciones posibles
+  combinaciones <- expand.grid(
+    n = rangos_n,
+    x = FE,  # Mantenemos x fijo en FE
+    alpha = rangos_prob1,
+    beta = rangos_prob2
+  )
 
   # Calcular probabilidades con vectorización usando mapply
-  probs <- mapply(function(x, alpha, beta) {
+  probs <- mapply(function(n, x, alpha, beta) {
     extraDistr::dbbinom(x = x, size = n, alpha = alpha, beta = beta)
-  }, combinaciones$x, combinaciones$alpha, combinaciones$beta)
+  }, combinaciones$n, combinaciones$x, combinaciones$alpha, combinaciones$beta)
 
   # Filtrar combinaciones que cumplen el criterio
   indices <- which(abs(cob_efectiva - probs) <= tolerancia)
-
-  # Resultados filtrados
   mejores_combinaciones <- combinaciones[indices, ]
 
-  # Calcular R1 y R2 para cada combinación de alpha y beta
+  # Calcular R1 y R2 para cada combinación
   resultados <- mapply(function(alpha, beta) {
     res <- calc_R1_R2(A = alpha, B = beta)
     return(c(R1 = res$R1, R2 = res$R2))
@@ -164,69 +163,76 @@ Para mayor información:
   resultados_df <- do.call(rbind, resultados)
   mejores_combinaciones <- cbind(mejores_combinaciones, resultados_df)
 
-  # Añadir un asterisco cuando R2 > 2 * R1
-  # mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
-
-  # Asegurarse de que cob_efectiva esté en las mismas unidades que prob
-  cob_efectiva_poblacional <- cob_efectiva * Pob  # Ajustamos el valor objetivo según la población
-
-  # Calcular la columna prob
+  # Calcular métricas a nivel población
+  cob_efectiva_poblacional <- cob_efectiva * Pob
   mejores_combinaciones$prob <- round(probs[indices] * Pob, 0)
-
-  # Crear la columna de distancia con respecto al valor objetivo poblacional
   mejores_combinaciones$distancia_objetivo <- abs(cob_efectiva_poblacional - mejores_combinaciones$prob)
 
-  # Ordenar primero por el número de inserciones (x) y luego por la distancia al valor objetivo
-  mejores_combinaciones <- mejores_combinaciones[order(mejores_combinaciones$x, mejores_combinaciones$distancia_objetivo), ]
+  # Ordenar por distancia al objetivo y número de inserciones
+  mejores_combinaciones <- mejores_combinaciones[
+    order(mejores_combinaciones$distancia_objetivo, mejores_combinaciones$n),
+  ]
 
-  # Eliminar las filas donde la columna 'flag' tiene un asterisco
-  # mejores_combinaciones <- mejores_combinaciones[mejores_combinaciones$flag != "*", ]
+  # Filtrar por R1 objetivo
+  R1_objetivo <- A1 / Pob
+  mejores_combinaciones <- mejores_combinaciones[
+    which(abs(mejores_combinaciones$R1 - R1_objetivo) <= tolerancia),
+  ]
 
-  # Filtrar filas cuyo valor R1 esté cerca del valor objetivo especificado
-  R1_objetivo <- A1 / Pob  # Valor objetivo de R1 para filtrar
-  mejores_combinaciones <- mejores_combinaciones[which(abs(mejores_combinaciones$R1 - R1_objetivo) <= tolerancia), ]
-
-  # Mostrar la tabla con las mejores combinaciones ordenadas
+  # Verificar si hay soluciones
   if (nrow(mejores_combinaciones) == 0) {
     cat(">>> No se ha encontrado ninguna solución que se ajuste a los límites de tolerancia especificados.",
         "Se recomienda ampliar los límites de tolerancia para encontrar posibles soluciones.")
     return(NULL)
   }
 
-  # Elegir la combinación principal (primera fila)
+  # Procesar solución principal
   principal <- mejores_combinaciones[1, ]
   alpha <- principal$alpha
   beta <- principal$beta
+  n_optimo <- principal$n
 
-  # Calcular las probabilidades para la distribución beta binomial con la solución principal
-  distribucion <- extraDistr::dbbinom(0:n, size = n, alpha = alpha, beta = beta)
+  # Calcular distribución con parámetros óptimos
+  distribucion <- extraDistr::dbbinom(0:n_optimo, size = n_optimo, alpha = alpha, beta = beta)
 
-  # Crear el dataframe con las probabilidades acumuladas de 1 a n, 2 a n, etc.
-  acumuladas <- sapply(1:n, function(k) sum(distribucion[(k + 1):(n + 1)]))
+  # Calcular probabilidades acumuladas
+  acumuladas <- sapply(1:n_optimo, function(k) sum(distribucion[(k + 1):(n_optimo + 1)]))
 
-  # Crear un dataframe para el gráfico
+  # Crear dataframe para visualización
   data <- data.frame(
-    inserciones = 1:n,
-    d_probabilidad = distribucion[2:(n + 1)],  # Probabilidades desde P(1) hasta P(n)
-    dc_acumulada = acumuladas  # Acumulaciones correctas de 1 a n, 2 a n, etc.
+    inserciones = 1:n_optimo,
+    d_probabilidad = distribucion[2:(n_optimo + 1)],
+    dc_acumulada = acumuladas
   )
-  data
 
-  # Prepare results
+  # Preparar resultados
   data_ls <- list(
     mejores_combinaciones = mejores_combinaciones,
     mejores_combinaciones_top_10 = head(mejores_combinaciones, 10),
-    data = head(data, n = 5),
+    data = head(data, n = n_optimo),
     alpha = alpha,
-    beta = beta
+    beta = beta,
+    n_optimo = n_optimo
   )
 
   imprimir_resultados(data_ls)
 
-  # Graficar probabilidades y acumuladas
+  # Crear visualización
   p <- ggplot(data, aes(x = inserciones)) +
-    geom_smooth(aes(y = d_probabilidad, color = "d_probabilidad"), method = "loess", se = FALSE, linetype = "solid", size = 0.8) +  # Añadir suavizado
-    geom_smooth(aes(y = dc_acumulada, color = "dc_acumulada"), method = "loess", se = FALSE, linetype = "dashed", size = 0.8) +  # Suavizado acumulado
+    geom_smooth(
+      aes(y = d_probabilidad, color = "d_probabilidad"),
+      method = "loess",
+      se = FALSE,
+      linetype = "solid",
+      size = 0.8
+    ) +
+    geom_smooth(
+      aes(y = dc_acumulada, color = "dc_acumulada"),
+      method = "loess",
+      se = FALSE,
+      linetype = "dashed",
+      size = 0.8
+    ) +
     labs(
       title = "Distribución Beta Binomial y Acumulada con Suavizado",
       x = "Número de inserciones",
@@ -234,7 +240,10 @@ Para mayor información:
     ) +
     theme_minimal() +
     theme(legend.position = "top") +
-    scale_color_manual(name = "Tipo", values = c("d_probabilidad" = "blue", "dc_acumulada" = "red"))
+    scale_color_manual(
+      name = "Tipo",
+      values = c("d_probabilidad" = "blue", "dc_acumulada" = "red")
+    )
 
   print(p)
   return(invisible(data_ls))
@@ -253,10 +262,10 @@ Para mayor información:
 #' @param FEM Frecuencia efectiva mínima requerida (FEM, número mínimo de contactos)
 #' @param cob_efectiva Número objetivo de personas a alcanzar al menos FEM
 #' @param A1 Audiencia del soporte tras la primera inserción
+#' @param max_inserciones Número de inserciones máximo a considerar (default: 5)
 #' @param tolerancia Margen de error permitido para las soluciones (default: 0.05)
 #' @param step_A Incremento para la búsqueda del parámetro alpha (default: 0.025)
 #' @param step_B Incremento para la búsqueda del parámetro beta (default: 0.025)
-#' @param n Número de inserciones a considerar (default: 5)
 #'
 #' @details
 #' El proceso de optimización sigue estos pasos:
@@ -313,10 +322,11 @@ Para mayor información:
 #' \dontrun{
 #' # Ejemplo de optimización para una campaña
 #' resultado <- optimizar_dc(
-#'   Pob = 1000000,      # Población de 1 millón
-#'   FEM = 3,            # Mínimo 3 contactos
-#'   cob_efectiva = 547657,  # Objetivo: alcanzar 547,657 personas
-#'   A1 = 500000         # Audiencia primera inserción: 500,000
+#'   Pob = 1000000,           # Población de 1 millón
+#'   FEM = 3,                 # Mínimo 3 contactos
+#'   cob_efectiva = 547657,   # Objetivo: alcanzar 547,657 personas
+#'   A1 = 500000,             # Audiencia primera inserción: 500,000
+#'   max_inserciones = 5      # Número de inserciones máximo a considerar: 5
 #' )
 #'
 #' # Examinar los resultados
@@ -336,10 +346,10 @@ optimizar_dc <- function(Pob,
                          FEM,
                          cob_efectiva,
                          A1,
+                         max_inserciones,
                          tolerancia = 0.05,
                          step_A = 0.025,
-                         step_B = 0.025,
-                         n = 5) {
+                         step_B = 0.025) {
 
   # Package dependencies check and loading
   if (!requireNamespace("extraDistr", quietly = TRUE)) {
@@ -355,18 +365,18 @@ optimizar_dc <- function(Pob,
 
     Parámetros:
     -----------
-    @param Pob          Numeric. Tamaño de la población
-    @param FEM          Numeric. Frecuencia efectiva mínima
-    @param cob_efectiva Numeric. Número de personas a alcanzar al menos i veces
-    @param A1           Numeric. Audiencia del soporte objetivo
-    @param tolerancia   Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i)
-    @param step_A       Numeric. Paso para el rango alpha
-    @param step_B       Numeric. Paso para el rango beta
-    @param n            Numeric. Número máximo de contactos
+    @param Pob              Numeric. Tamaño de la población
+    @param FEM              Numeric. Frecuencia efectiva mínima
+    @param cob_efectiva     Numeric. Número de personas a alcanzar al menos i veces
+    @param A1               Numeric. Audiencia del soporte objetivo
+    @param max_inserciones  Numeric. Número máximo de inserciones a probar
+    @param tolerancia       Numeric. Tolerancia +/- de las soluciones propuestas (Ri y A1i)
+    @param step_A           Numeric. Paso para el rango alpha
+    @param step_B           Numeric. Paso para el rango beta
   ")
 
   # Input validation
-  if (!is.numeric(Pob) || !is.numeric(FEM) || !is.numeric(cob_efectiva)) {
+  if (!is.numeric(Pob) || !is.numeric(FEM) || !is.numeric(cob_efectiva) || !is.numeric(max_inserciones)) {
     stop("Todos los parámetros deben ser numéricos.")
   }
   if (Pob <= 0 || cob_efectiva <= 0) {
@@ -375,8 +385,8 @@ optimizar_dc <- function(Pob,
   if (FEM <= 0) {
     stop("'FEM' no puede ser igual o menor que 0.")
   }
-  if (FEM > n) {
-    stop("'FEM' no puede ser superior a 'n'.")
+  if (FEM > max_inserciones) {
+    stop("'FEM' no puede ser superior a 'max_inserciones'.")
   }
   if (cob_efectiva > Pob) {
     stop("La cobertura efectiva no puede ser mayor que la población.")
@@ -387,32 +397,37 @@ optimizar_dc <- function(Pob,
   tolerancia <- cob_efectiva * tolerancia
 
   # Define parameter ranges
-  rangos_size <- seq(FEM, FEM + 3, 1)
+  rangos_n <- seq(FEM, max_inserciones, 1)  # Rango de valores para n
   rangos_prob1 <- seq(0.001, 10, step_A)
   rangos_prob2 <- seq(0.001, 10, step_B)
 
   # Generate all possible combinations
   combinaciones <- expand.grid(
-    x = rangos_size,
+    n = rangos_n,          # Agregamos n a las combinaciones
     alpha = rangos_prob1,
     beta = rangos_prob2
   )
 
   # Calculate probabilities using vectorization
   probs <- mapply(
-    function(x, alpha, beta) {
+    function(n, alpha, beta) {
       extraDistr::dbbinom(x = 0:n, size = n, alpha = alpha, beta = beta)
     },
-    combinaciones$x,
+    combinaciones$n,       # Usamos n de las combinaciones
     combinaciones$alpha,
     combinaciones$beta,
     SIMPLIFY = FALSE
   )
 
   # Calculate cumulative probabilities
-  probs_acumuladas <- sapply(probs, function(prob_vector) {
-    sum(prob_vector[(FEM + 1):(n + 1)])
-  })
+  probs_acumuladas <- mapply(
+    function(prob_vector, n) {
+      sum(prob_vector[(FEM + 1):(n + 1)])
+    },
+    probs,
+    combinaciones$n,       # Pasamos n para cada cálculo
+    SIMPLIFY = TRUE
+  )
 
   # Filter combinations meeting criteria
   indices <- which(abs(cob_efectiva - unlist(probs_acumuladas)) <= tolerancia)
@@ -432,10 +447,9 @@ optimizar_dc <- function(Pob,
   # Convert results to data frame and process
   resultados_df <- do.call(rbind, resultados)
   mejores_combinaciones <- cbind(mejores_combinaciones, resultados_df)
-  # mejores_combinaciones$flag <- ifelse(mejores_combinaciones$R2 > 2 * mejores_combinaciones$R1, "*", "")
 
-  # Calculate GRPs values
-  mejores_combinaciones$GRP <- (mejores_combinaciones$R1 * Pob * n) * 100 / Pob
+  # Calculate GRPs values - ahora usando n variable
+  mejores_combinaciones$GRP <- (mejores_combinaciones$R1 * Pob * mejores_combinaciones$n) * 100 / Pob
 
   # Calculate population-level metrics
   cob_efectiva_poblacional <- cob_efectiva * Pob
@@ -446,7 +460,7 @@ optimizar_dc <- function(Pob,
 
   # Sort results
   mejores_combinaciones <- mejores_combinaciones[
-    order(mejores_combinaciones$x, mejores_combinaciones$distancia_objetivo),
+    order(mejores_combinaciones$distancia_objetivo, mejores_combinaciones$n),
   ]
 
   # Filter by R1 target
@@ -466,15 +480,16 @@ optimizar_dc <- function(Pob,
   principal <- mejores_combinaciones[1, ]
   alpha <- principal$alpha
   beta <- principal$beta
-  distribucion <- extraDistr::dbbinom(0:n, size = n, alpha = alpha, beta = beta)
+  n_optimo <- principal$n    # Usamos el n óptimo encontrado
+  distribucion <- extraDistr::dbbinom(0:n_optimo, size = n_optimo, alpha = alpha, beta = beta)
 
   # Calculate accumulated probabilities
-  acumuladas <- sapply(1:n, function(k) sum(distribucion[(k + 1):(n + 1)]))
+  acumuladas <- sapply(1:n_optimo, function(k) sum(distribucion[(k + 1):(n_optimo + 1)]))
 
   # Create visualization data
   data <- data.frame(
-    inserciones = 1:n,
-    d_probabilidad = distribucion[2:(n + 1)],
+    inserciones = 1:n_optimo,
+    d_probabilidad = distribucion[2:(n_optimo + 1)],
     dc_probabilidad = acumuladas
   )
 
@@ -482,9 +497,10 @@ optimizar_dc <- function(Pob,
   data_ls <- list(
     mejores_combinaciones = mejores_combinaciones,
     mejores_combinaciones_top_10 = head(mejores_combinaciones, 10),
-    data = head(data, n = 5),
+    data = head(data, n = n_optimo),
     alpha = alpha,
-    beta = beta
+    beta = beta,
+    n_optimo = n_optimo    # Incluimos el n óptimo en los resultados
   )
 
   imprimir_resultados(data_ls)
