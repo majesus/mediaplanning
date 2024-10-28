@@ -1,14 +1,14 @@
 
 #' @encoding UTF-8
-#' @title Cálculo de audiencia acumulada según el modelo de acumulación de Hofmans
+#' @title Cálculo de audiencia acumulada según el modelo de audiencia acumulada de Hofmans
 #' @description Implementa el modelo de Hofmans (1966) para calcular la audiencia acumulada
 #' de un plan de medios con múltiples inserciones en un soporte. El modelo considera
-#' la duplicación entre inserciones y utiliza un parámetro de ajuste (alpha) para mejorar
-#' la estimación de coberturas para números elevados de inserciones.
+#' la duplicación entre inserciones, y utiliza un parámetro de ajuste (alpha) para mejorar
+#' la estimación de las audiencias acumuladas.
 #'
-#' @param R1 Numérico. Cobertura de la primera inserción (como proporción entre 0 y 1)
-#' @param R2 Numérico. Cobertura de la segunda inserción (como proporción entre 0 y 1)
-#' @param N Entero. Número de inserciones para las que calcular la cobertura
+#' @param R1 Numérico. Cobertura tras la primera inserción (como proporción entre 0 y 1)
+#' @param R2 Numérico. Cobertura tras la segunda inserción (como proporción entre 0 y 1)
+#' @param N Entero. Número de inserciones para las que calcular la audiencia acumulada
 #' @param show_steps Lógico. Si TRUE muestra los pasos intermedios del cálculo
 #'
 #' @details
@@ -21,7 +21,7 @@
 #'     }
 #'   \item Para N>3 aplica una formulación mejorada que incorpora un parámetro alpha:
 #'     \itemize{
-#'       \item RN = (NR1)^2 / [NR1 + k*(N-1)^α*(N/2)*d]
+#'       \item RN = (NR1)^2 / [NR1 + k*(N-1)^a*(N/2)*d]
 #'       \item donde alpha se calcula usando R3
 #'       \item y d = 2R1-R2 es la duplicación entre inserciones
 #'     }
@@ -31,7 +31,7 @@
 #' \itemize{
 #'   \item Audiencia constante para todas las inserciones
 #'   \item Duplicación constante entre pares de inserciones
-#'   \item Comportamiento no lineal de la acumulación para N>3
+#'   \item Comportamiento no lineal de la acumulación para N > 3
 #' }
 #'
 #' @return Una lista "hofmans_reach" conteniendo:
@@ -70,7 +70,9 @@
 #' @export
 #' @seealso
 #' \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
-#' \code{\link{calc_sainsbury}} para estimaciones con duplicación entre soportes
+#' \code{\link{calc_sainsbury}} para estimaciones el modelo de Sainsbury
+#' \code{\link{calc_binomial}} para estimaciones con el modelo Binomial
+#' \code{\link{calc_metheringham}} para estimaciones con el modelo de Metheringham
 hofmans_model <- function(R1, R2, N, show_steps=TRUE) {
   # Validación de inputs
   if(any(c(R1, R2) > 1 | c(R1, R2) < 0)) {
