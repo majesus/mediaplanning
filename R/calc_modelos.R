@@ -573,7 +573,7 @@ print.reach_beta_binomial <- function(x, ...) {
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param inserciones Vector numérico con el número de inserciones por soporte
 #' @param vector_duplicacion Vector numérico con valores de duplicación entre soportes
-#' @param ayuda Lógico. Si TRUE, muestra una guía de uso detallada (default: TRUE)
+#' @param ayuda Logical. Si TRUE, muestra una guía de uso detallada (default: TRUE)
 #'
 #' @details
 #' La función realiza los siguientes cálculos principales:
@@ -600,8 +600,8 @@ print.reach_beta_binomial <- function(x, ...) {
 #'   \item audiencia_media: Media ponderada de audiencias (A1)
 #'   \item duplicacion_media: Media ponderada de duplicaciones (D)
 #'   \item audiencia_segunda: Audiencia tras la segunda inserción (A2)
-#'   \item matriz_oportunidades: Matriz de oportunidades de contacto
-#'   \item vector_oportunidades: Vector de oportunidades de contacto
+#'   \item vector_oportunidades: Vector que contiene el número de oportunidades de contacto
+#'         entre pares de inserciones, siguiendo el mismo orden que el vector_duplicacion
 #' }
 #'
 #' @note
@@ -631,10 +631,6 @@ print.reach_beta_binomial <- function(x, ...) {
 #'   vector_duplicacion = NULL,
 #'   ayuda = TRUE
 #' )
-#'
-#' #' @references
-#' Hofmans, P. (1966). Measuring the Cumulative Net Coverage of Any Combination of Media.
-#' Journal of Marketing Research, 3(3), 269-278.
 #'
 #' @export
 #' @seealso

@@ -1,3 +1,5 @@
+
+
 #' @encoding UTF-8
 #' @title Cálculo de audiencia acumulada según el modelo de acumulación de Hofmans
 #' @description Implementa el modelo de Hofmans (1966) para calcular la audiencia acumulada
@@ -65,10 +67,6 @@
 #' resultado <- calc_hofmans(R1_invalido, R2, N=5)
 #' # Generará un error por cobertura inválida
 #' }
-#'
-#' @references
-#' Hofmans, P. (1966). Measuring the Cumulative Net Coverage of Any Combination of Media.
-#' Journal of Marketing Research, 3(3), 269-278.
 #'
 #' @export
 #' @seealso
