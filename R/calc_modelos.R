@@ -632,6 +632,10 @@ print.reach_beta_binomial <- function(x, ...) {
 #'   ayuda = TRUE
 #' )
 #'
+#' #' @references
+#' Hofmans, P. (1966). Measuring the Cumulative Net Coverage of Any Combination of Media.
+#' Journal of Marketing Research, 3(3), 269-278.
+#'
 #' @export
 #' @seealso
 #' \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
@@ -658,9 +662,8 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
        audiencias <- c(1500, 800, 1200)
        inserciones <- c(4, 3, 5)
        vector_duplicacion <- c(150, 200, 180, 120, 140, 170)
-    \n\n")  # Añadimos dos saltos de línea extra
-
-    cat("========== COMENZANDO CÁLCULOS ==========\n\n")  # Separador visual
+    \n\n")
+    cat("========== COMENZANDO CÁLCULOS ==========\n\n")
   }
 
   # Validación de inputs
@@ -672,34 +675,36 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
     stop("La longitud del vector de duplicación no coincide con el número esperado de elementos")
   }
 
-  # Funciones auxiliares internas
-  matriz_a_vector <- function(matriz) {
-    matriz[upper.tri(matriz, diag = TRUE)]
-  }
-
-  calcular_matriz_oportunidades <- function(ins) {
+  # Función para calcular directamente el vector de oportunidades
+  calcular_vector_oportunidades <- function(ins) {
     n <- length(ins)
-    matriz <- matrix(0, n, n)
-    matriz[upper.tri(matriz, diag = TRUE)] <- c(
-      choose(ins, 2),
-      outer(ins, ins, "*")[upper.tri(matriz)]
-    )
-    matriz
+    valores <- numeric()
+
+    for(i in 1:n) {
+      # Diagonal: choose(ni,2)
+      valores <- c(valores, choose(ins[i], 2))
+
+      # Productos con soportes restantes
+      if(i < n) {
+        for(j in (i+1):n) {
+          valores <- c(valores, ins[i] * ins[j])
+        }
+      }
+    }
+    return(valores)
   }
 
   # Cálculos principales
-  matriz_oportunidades <- calcular_matriz_oportunidades(inserciones)
-  vector_oportunidades <- matriz_a_vector(matriz_oportunidades)
+  vector_oportunidades <- calcular_vector_oportunidades(inserciones)
   A1 <- sum(audiencias * inserciones) / sum(inserciones)
   D <- sum(vector_duplicacion * vector_oportunidades) / sum(vector_oportunidades)
   A2 <- 2 * A1 - D
 
-  # Resultados
+  # Resultados (ya no incluimos la matriz)
   return(list(
     audiencia_media = A1,
     duplicacion_media = D,
     audiencia_segunda = A2,
-    matriz_oportunidades = matriz_oportunidades,
     vector_oportunidades = vector_oportunidades
   ))
 }
