@@ -1,5 +1,4 @@
 
-
 #' @encoding UTF-8
 #' @title Cálculo de audiencia acumulada según el modelo de acumulación de Hofmans
 #' @description Implementa el modelo de Hofmans (1966) para calcular la audiencia acumulada
@@ -168,10 +167,3 @@ hofmans_model <- function(R1, R2, N, show_steps=TRUE) {
     plot = plot
   ))
 }
-
-# Ejemplo de uso
-R1 <- 0.500   # 6% alcance primera inserción
-R2 <- 0.550    # 10.3% alcance segunda inserción
-N <- 10        # Calcular hasta la décima inserción
-
-result <- hofmans_model(R1, R2, N)
