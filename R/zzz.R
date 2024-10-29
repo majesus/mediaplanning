@@ -13,6 +13,7 @@
     "\n   - calc_beta_binomial(): Modelo Beta-Binomial para un soporte y n inserciones",
     "\n   - calc_metheringham(): Modelo Metheringham para m soportes y ni inserciones/soporte",
     "\n   - calc_hofmans(): Modelo Hofmans para un soporte y n inserciones",
+    "\n   - calc_MBBD(): Modelo MBBD para m soportes y ni inserciones",
     "\n",
     "\n3. Optimización de Distribución de Contactos (d) y Acumulada (dc):",
     "\n   - optimizar_d(): Optimiza parámetros alpha y beta y n de la distribución de contactos",
