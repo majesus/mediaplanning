@@ -37,7 +37,7 @@ El proceso de cálculo:
 \enumerate{
 \item Calcula R1 directamente como A/(A+B)
 \item Optimiza R2 mediante un proceso iterativo
-\item Verifica que los valores R1 y R2 estén en el rango \link{0,1}
+\item Verifica que los valores R1 y R2 estén en el rango (0,1)
 }
 }
 \examples{
