@@ -46,13 +46,11 @@ Una lista "reach_beta_binomial" conteniendo:
 Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada
 y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la
 heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos:
-\enumerate{
-\item modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos
-los datos necesarios para su estimación; 2) emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta)
+modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos
+los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta)
 para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de
 éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten
 ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
-}
 }
 \details{
 El modelo Beta-Binomial:
@@ -105,7 +103,8 @@ Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distri
 contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 }
 \seealso{
-\code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
-\code{\link{calc_binomial}} para estimaciones con la distribución Binomial
-\code{\link{calc_R1_R2}} para el cálculo de coeficientes de duplicación
+\code{\link{calc_sainsbury}} para estimaciones con la distribución Binomial
+\code{\link{calc_binomial}} para estimaciones con la distribución Beta-Binomial
+\code{\link{calc_metheringham}} para estimaciones con la distribución de Metheringham
+\code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
 }

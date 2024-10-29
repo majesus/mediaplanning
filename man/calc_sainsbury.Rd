@@ -82,4 +82,6 @@ contactos en la planificación de medios publicitarios impresos. Tesis doctoral,
 \seealso{
 \code{\link{calc_binomial}} para estimaciones con la distribución Binomial
 \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
+\code{\link{calc_metheringham}} para estimaciones con la distribución de Metheringham
+\code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
 }
