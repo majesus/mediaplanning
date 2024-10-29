@@ -20,12 +20,12 @@
 #' \enumerate{
 #'   \item Utiliza una primera formulación para calcular R3:
 #'     \itemize{
-#'       \item R3 = (3R1)^2 / [3R1 + k(2R1-R2)(3 choose 2)]
+#'       \item R3 = (3R1)^2 / (3R1 + k(2R1-R2)(3 choose 2))
 #'       \item donde k = 2R1/R2
 #'     }
 #'   \item Para N>3 aplica una formulación mejorada que incorpora un parámetro alpha:
 #'     \itemize{
-#'       \item RN = (NR1)^2 / [NR1 + k*(N-1)^a*(N/2)*d]
+#'       \item RN = (NR1)^2 / (NR1 + k*(N-1)^a*(N/2)*d)
 #'       \item donde alpha se calcula usando R3
 #'       \item y d = 2R1-R2 es la duplicación entre inserciones
 #'     }

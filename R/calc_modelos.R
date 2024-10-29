@@ -755,7 +755,7 @@ print.reach_metheringham <- function(x, ...) {
   cat("\nVECTOR DE OPORTUNIDADES:\n")
   print(x$vector_oportunidades)
   cat("Interpretación: Versión linealizada de la matriz de oportunidades\n")
-  cat("Orden: [1,1], [1,2], [2,2], [1,3], [2,3], [3,3], ...\n")
+  cat("Orden: (1,1), (1,2), (2,2), (1,3), (2,3), (3,3), ...\n")
 
   # Resumen de hallazgos clave
   cat("\nHALLAZGOS CLAVE:\n")
