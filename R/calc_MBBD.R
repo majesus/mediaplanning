@@ -273,18 +273,3 @@ print.MBBD <- function(x, ...) {
   cat(sprintf("\nModa = %d", which.max(x$contact_distribution) - 1))
   cat("\n\n")
 }
-
-result <- calc_MBBD(m = 3,
-                    insertions = c(5, 7, 4),
-                    audiences = c(500000, 550000, 600000),
-                    universe = 1000000,
-                    RM = 550000,
-                    A0 = 0.125,
-                    precision = 100,
-                    max_iter = 1000,
-                    adjustment_factor = 0.01)
-result
-
-
-
-
