@@ -60,7 +60,7 @@ El vector de duplicación debe seguir un orden específico:
 \item Para n soportes, se requieren n*(n+1)/2 valores
 \item Los valores se ordenan por filas de la matriz triangular superior
 \item Incluye la duplicación de cada soporte consigo mismo
-\item El orden sigue el patrón: \link{1,1}, \link{1,2}, \link{1,3}, \link{2,2}, \link{2,3}, \link{3,3}
+\item El orden sigue el patrón: (1,1), (1,2), (1,3), (2,2), (2,3), (3,3)
 }
 }
 \examples{
