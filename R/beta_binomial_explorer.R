@@ -221,5 +221,33 @@ server <- function(input, output, session) {
 #' @return Una aplicación Shiny
 #' @export
 run_beta_binomial_explorer <- function() {
+
+  # Verificar y cargar dependencias
+  required_packages <- c("shiny", "bslib", "ggplot2")
+
+  # Función para verificar si un paquete está instalado
+  is_installed <- function(pkg) {
+    return(pkg %in% rownames(installed.packages()))
+  }
+
+  # Verificar si todos los paquetes necesarios están instalados
+  missing_packages <- required_packages[!sapply(required_packages, is_installed)]
+  if (length(missing_packages) > 0) {
+    stop(paste("Los siguientes paquetes son necesarios pero no están instalados:",
+               paste(missing_packages, collapse = ", "),
+               "\nPor favor, instálalos usando: install.packages(c('",
+               paste(missing_packages, collapse = "', '"), "'))"))
+  }
+
+  # Cargar los paquetes necesarios
+  for (pkg in required_packages) {
+    if (!pkg %in% (.packages())) {
+      suppressPackageStartupMessages(
+        library(pkg, character.only = TRUE)
+      )
+    }
+  }
+
+
   shinyApp(ui = ui, server = server)
 }
