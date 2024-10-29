@@ -628,7 +628,7 @@ print.reach_beta_binomial <- function(x, ...) {
 #'   \item Para n soportes, se requieren n*(n+1)/2 valores
 #'   \item Los valores se ordenan por filas de la matriz triangular superior
 #'   \item Incluye la duplicación de cada soporte consigo mismo
-#'   \item El orden sigue el patrón: [1,1], [1,2], [1,3], [2,2], [2,3], [3,3]
+#'   \item El orden sigue el patrón: (1,1), (1,2), (1,3), (2,2), (2,3), (3,3)
 #' }
 #'
 #' @examples
