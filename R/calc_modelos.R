@@ -73,6 +73,8 @@
 #' @seealso
 #' \code{\link{calc_binomial}} para estimaciones con la distribución Binomial
 #' \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
+#' \code{\link{calc_metheringham}} para estimaciones con la distribución de Metheringham
+#' \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
 calc_sainsbury <- function(audiencias, pob_total) {
   # Validación de inputs
   if (!is.numeric(audiencias) || !is.numeric(pob_total)) {
@@ -204,8 +206,10 @@ calc_sainsbury <- function(audiencias, pob_total) {
 #'
 #' @export
 #' @seealso
-#' \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
+#' \code{\link{calc_sainsbury}} para estimaciones con la distribución Binomial
 #' \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
+#' \code{\link{calc_metheringham}} para estimaciones con la distribución de Metheringham
+#' \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
 calc_binomial <- function(audiencias, pob_total) {
   # Validación de inputs
   if (!is.numeric(audiencias) || !is.numeric(pob_total)) {
@@ -263,8 +267,8 @@ calc_binomial <- function(audiencias, pob_total) {
 #' @description Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada
 #' y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la
 #' heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos:
-#' 1) modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos
-#' los datos necesarios para su estimación; 2) emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta)
+#' modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos
+#' los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta)
 #' para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de
 #' éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten
 #' ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
@@ -350,9 +354,10 @@ calc_binomial <- function(audiencias, pob_total) {
 #'
 #' @export
 #' @seealso
-#' \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
-#' \code{\link{calc_binomial}} para estimaciones con la distribución Binomial
-#' \code{\link{calc_R1_R2}} para el cálculo de coeficientes de duplicación
+#' \code{\link{calc_sainsbury}} para estimaciones con la distribución Binomial
+#' \code{\link{calc_binomial}} para estimaciones con la distribución Beta-Binomial
+#' \code{\link{calc_metheringham}} para estimaciones con la distribución de Metheringham
+#' \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
 calc_beta_binomial <- function(A1, A2, P, n) {
   # Validación de inputs
   if (!all(is.numeric(c(A1, A2, P, n)))) {
@@ -647,9 +652,10 @@ print.reach_beta_binomial <- function(x, ...) {
 #'
 #' @export
 #' @seealso
-#' \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
-#' \code{\link{calc_binomial}} para estimaciones con el modelo Binomial
-#' \code{\link{calc_beta_binomial}} para estimaciones con el modelo Beta-Binomial
+#' \code{\link{calc_sainsbury}} para estimaciones con la distribución Binomial
+#' \code{\link{calc_binomial}} para estimaciones con la distribución Beta-Binomial
+#' \code{\link{calc_beta_binomial}} para estimaciones con la distribución de Metheringham
+#' \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
 calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda = TRUE) {
   if(ayuda) {
     cat("

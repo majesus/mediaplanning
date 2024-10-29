@@ -77,7 +77,7 @@
 #' \code{\link{calc_sainsbury}} para estimaciones el modelo de Sainsbury
 #' \code{\link{calc_binomial}} para estimaciones con el modelo Binomial
 #' \code{\link{calc_metheringham}} para estimaciones con el modelo de Metheringham
-hofmans_model <- function(R1, R2, N, show_steps=TRUE) {
+calc_hofmans <- function(R1, R2, N, show_steps=TRUE) {
   # Validación de inputs
   if(any(c(R1, R2) > 1 | c(R1, R2) < 0)) {
     stop("R1 y R2 deben estar entre 0 y 1")
@@ -99,7 +99,7 @@ hofmans_model <- function(R1, R2, N, show_steps=TRUE) {
     cat("\n- d = 2R1-R2 =", round(d,4))
   }
 
-  # Calcular R3 usando la fórmula [3.11]
+  # Calcular R3 usando la fórmula [3.11, Aldás-Manzano, 1998]
   n3 <- 3
   numerator3 <- (n3 * R1)^2
   denominator3 <- n3 * R1 + k * (2*R1-R2) * choose(n3,2)
