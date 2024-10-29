@@ -62,18 +62,18 @@
 #' }
 #'
 #' @examples
-#' # Ejemplo básico
+#' Ejemplo básico
 #' m <- 3
 #' insertions <- c(5, 7, 4)
 #' audiences <- c(500000, 550000, 600000)
 #' RM <- 550000
-#' resultado <- calc_MBBD(m, insertions, audiences, RM, A0=0.1)
+#' universe <- 1000000  # Añadimos el parámetro universe que faltaba
+#' resultado <- calc_MBBD(m, insertions, audiences, RM, universe, A0=0.1)
 #'
 #' # Examinar resultados
 #' print(resultado)
 #'
 #' @export
-#' @importFrom extraDistr dbbinom
 #' @seealso
 #' \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
 #' \code{\link{calc_sainsbury}} para estimaciones el modelo de Sainsbury
