@@ -2,13 +2,17 @@
 
 #' @encoding UTF-8
 #' @title Cálculo de cobertura y distribución de contactos (y acumulada) según modelo de Sainsbury
-#' @description Implementa el modelo de Sainsbury simplificado para calcular la cobertura
-#' y la distribución de contactos para un conjunto de soportes publicitarios.
-#' Este modelo considera la independencia de los soportes (duplicación aleatoria), la homogeneidad de los individuos y
-#' la heterogeneidad de los soportes para una estimación más precisa de la cobertura total y la frecuencia de contactos.
-#' La probabilidad de que un individuo resulte expuesto al soporte i, vendrá dado por la audiencia del soportei dividido por la población.
-#' Mientras que por la hipótesis de duplicación aleatoria, la probabilidad de exposición continuará siendo una variable bemouilli,
-#' pero con diferentes probabilidadades de exposición en cada soporte.
+#' @description Implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange,
+#' para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte.
+#' El modelo considera la duplicación aleatoria, las probabilidades individuales de exposición homogéneas, y las probabilidades de
+#' exposición del soporte heterogéneas para una estimación más precisa de la cobertura y la distribución de contactos (y acumulada).
+#' De las dos últimas hipótesis se deriva que la probabilidad de que un individuo resulte expuesto al soporte i vendrá dado por
+#' el cociente entre la audiencia del soporte i (casos favorables) y la población (casos totales). Por su parte, de la asunción de la duplicación aleatoria se deriva que
+#' la probabilidad de exposición continuará siendo una variable Bernouilli con diferentes probabilidadades de exposición en cada soporte.
+#'
+#' @references
+#' Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+#' contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 #'
 #' @param audiencias Vector numérico con las audiencias individuales de cada soporte
 #' @param pob_total Tamaño de la población
@@ -17,14 +21,14 @@
 #' El modelo de Sainsbury simplificado calcula:
 #' \enumerate{
 #'   \item Cobertura considerando la duplicación entre soportes como el producto de las probabilidades individuales
-#'   \item Distribución de contactos para cada nivel de exposición
+#'   \item Distribución de contactos para cada nivel de exposición i
 #'   \item Distribución de contactos acumulada (expuestos al menos i veces)
 #' }
 #'
 #' El proceso incluye:
 #' \itemize{
 #'   \item Conversión de audiencias a probabilidades
-#'   \item Cálculo de todas las posibles combinaciones de soportes
+#'   \item Cálculo de las posibles combinaciones de soportes
 #'   \item Estimación de probabilidades conjuntas
 #'   \item Agregación de resultados: distribución de contactos (y acumulada)
 #' }
@@ -131,15 +135,18 @@ calc_sainsbury <- function(audiencias, pob_total) {
 #__________________________________________________________#
 
 #' @encoding UTF-8
-#' @title Cálculo de cobertura y distribución de contactos (y acumulada) usando modelo Binomial
-#' @description Implementa un modelo Binomial para calcular la cobertura y
-#' distribución de contactos (y acumulada) en un plan de medios. Este modelo asume independencia
-#' entre soportes (duplicación aleatoria), y homogeneidad de los soportes e individuos, y
-#' utiliza una probabilidad media de exposición (p). La acumulación de las audiencias es
-#' un suceso aleatorio. Finalmente, las probabilidades de exposición son estacionarias respecto al tiempo.
-#' Las hipótesis aquí expuestas, llevan pues a que la probabilidad de exposición a distintas inserciones en diferentes soportes,
-#' sea equivalente a la de distintas inserciones en un soporte hipotético “promedio” cuya audiencia sea
-#' la media simple de las audiencias de cada soporte.
+#' @title Cálculo de cobertura y distribución de contactos (y acumulada) según modelo Binomial
+#' @description Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y
+#' distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte.
+#' El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica
+#' la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y
+#' las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de
+#' cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte.
+#' Las probabilidades de exposición son estacionarias respecto al tiempo.
+#'
+#' @references
+#' Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+#' contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 #'
 #' @param audiencias Vector numérico con las audiencias individuales de cada soporte
 #' @param pob_total Tamaño de la población
@@ -253,13 +260,18 @@ calc_binomial <- function(audiencias, pob_total) {
 
 #' @encoding UTF-8
 #' @title Cálculo de la cobertura y distribución de contactos (y acumulada) usando modelo Beta-Binomial
-#' @description Implementa el modelo Beta-Binomial para calcular la cobertura
-#' y distribución de contactos (y acumulada) en planes de medios. Este modelo considera la
-#' heterogeneidad en la probabilidad de exposición entre individuos. la Beta-Binomial mezcla estos dos pasos:
-#' primero modela la probabilidad de éxito usando la distribución beta de parámetros alpha y beta, y luego utiliza esa probabilidad en
-#' una distribución binomial para contar cuántos éxitos se obtienen. Esto es útil cuando la probabilidad de
-#' éxito no es conocida de antemano y puede variar entre los individuos. Los parámetros alpha y beta nos permiten
-#' ajustar la forma de la distribución para que refleje mejor la incertidumbre que tenemos sobre la probabilidad de éxito.
+#' @description Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada
+#' y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la
+#' heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos:
+#' 1) modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos
+#' los datos necesarios para su estimación; 2) emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta)
+#' para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de
+#' éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten
+#' ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
+#'
+#' @references
+#' Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+#' contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 #'
 #' @param A1 Audiencia del soporte tras la primera inserción
 #' @param A2 Audiencia del soporte tras la segunda inserción
@@ -561,14 +573,15 @@ print.reach_beta_binomial <- function(x, ...) {
 #' @encoding UTF-8
 #' @title Cálculo de métricas según el modelo de Metheringham
 #' @description Calcula métricas fundamentales para la aplicación del modelo de Metheringham,
-#' incluyendo la audiencia media (A1), duplicación media (D) y audiencia tras la segunda exposición (A2)
-#' del hipotético soporte medio. El modelo de Metheringham (1964) se basa en que
-#' los individuos tienen probabilidades heterogéneas e independientes de exposición a los soportes,
-#' siguiendo una distribución beta; esto convierte la exposición en un proceso de Bernoulli.
-#' Además, asume que los soportes son homogéneos, por lo que usa la media de las audiencias para
-#' modelar la exposición. La duplicación de audiencias no se considera aleatoria,
-#' y al tratar los soportes como homogéneos, la acumulación de m inserciones se modela como
-#' una distribución beta-binomial, simplificando el problema de duplicación entre soportes.
+#' incluyendo la audiencia media (A1), duplicación media (D) y audiencia tras la segunda exposición en
+#' el hipotético soporte promedio (A2). El modelo de Metheringham (1964) se basa en que
+#' los individuos tienen probabilidades heterogéneas que se distribuyen como una distribución Beta para el conjunto.
+#' Los soportes son homogéneos (a saber, todos los soportes acaban con la misma distribución Beta de probabilidades de exposición).
+#' La acumulación y duplicación de audiencias se promedian entre los soportes para diseñar un soporte hipotético promedio.
+#'
+#' @references
+#' Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+#' contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 #'
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param inserciones Vector numérico con el número de inserciones por soporte

@@ -6,6 +6,10 @@
 #' la duplicación entre inserciones, y utiliza un parámetro de ajuste (alpha) para mejorar
 #' la estimación de las audiencias acumuladas.
 #'
+#' @references
+#' Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+#' contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
+#'
 #' @param R1 Numérico. Cobertura tras la primera inserción (como proporción entre 0 y 1)
 #' @param R2 Numérico. Cobertura tras la segunda inserción (como proporción entre 0 y 1)
 #' @param N Entero. Número de inserciones para las que calcular la audiencia acumulada
