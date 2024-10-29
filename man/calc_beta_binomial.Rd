@@ -43,13 +43,16 @@ Una lista "reach_beta_binomial" conteniendo:
 }
 }
 \description{
-Implementa el modelo Beta-Binomial para calcular la cobertura
-y distribución de contactos (y acumulada) en planes de medios. Este modelo considera la
-heterogeneidad en la probabilidad de exposición entre individuos. la Beta-Binomial mezcla estos dos pasos:
-primero modela la probabilidad de éxito usando la distribución beta de parámetros alpha y beta, y luego utiliza esa probabilidad en
-una distribución binomial para contar cuántos éxitos se obtienen. Esto es útil cuando la probabilidad de
-éxito no es conocida de antemano y puede variar entre los individuos. Los parámetros alpha y beta nos permiten
-ajustar la forma de la distribución para que refleje mejor la incertidumbre que tenemos sobre la probabilidad de éxito.
+Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada
+y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la
+heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos:
+\enumerate{
+\item modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos
+los datos necesarios para su estimación; 2) emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta)
+para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de
+éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten
+ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
+}
 }
 \details{
 El modelo Beta-Binomial:
@@ -96,6 +99,10 @@ print(paste("Suma distribución:", round(sum_dist +
             resultado$parametros$prob_cero_contactos/100, 4)))
 }
 
+}
+\references{
+Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 }
 \seealso{
 \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury

@@ -80,6 +80,10 @@ resultado <- calc_hofmans(R1_invalido, R2, N=5)
 }
 
 }
+\references{
+Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
+}
 \seealso{
 \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
 \code{\link{calc_sainsbury}} para estimaciones el modelo de Sainsbury

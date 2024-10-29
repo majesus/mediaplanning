@@ -28,14 +28,11 @@ entre pares de inserciones, siguiendo el mismo orden que el vector_duplicacion
 }
 \description{
 Calcula métricas fundamentales para la aplicación del modelo de Metheringham,
-incluyendo la audiencia media (A1), duplicación media (D) y audiencia tras la segunda exposición (A2)
-del hipotético soporte medio. El modelo de Metheringham (1964) se basa en que
-los individuos tienen probabilidades heterogéneas e independientes de exposición a los soportes,
-siguiendo una distribución beta; esto convierte la exposición en un proceso de Bernoulli.
-Además, asume que los soportes son homogéneos, por lo que usa la media de las audiencias para
-modelar la exposición. La duplicación de audiencias no se considera aleatoria,
-y al tratar los soportes como homogéneos, la acumulación de m inserciones se modela como
-una distribución beta-binomial, simplificando el problema de duplicación entre soportes.
+incluyendo la audiencia media (A1), duplicación media (D) y audiencia tras la segunda exposición en
+el hipotético soporte promedio (A2). El modelo de Metheringham (1964) se basa en que
+los individuos tienen probabilidades heterogéneas que se distribuyen como una distribución Beta para el conjunto.
+Los soportes son homogéneos (a saber, todos los soportes acaban con la misma distribución Beta de probabilidades de exposición).
+La acumulación y duplicación de audiencias se promedian entre los soportes para diseñar un soporte hipotético promedio.
 }
 \details{
 La función realiza los siguientes cálculos principales:
@@ -85,6 +82,10 @@ calc_metheringham(
   ayuda = TRUE
 )
 
+}
+\references{
+Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 }
 \seealso{
 \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury

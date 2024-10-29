@@ -3,7 +3,7 @@
 \encoding{UTF-8}
 \name{calc_binomial}
 \alias{calc_binomial}
-\title{Cálculo de cobertura y distribución de contactos (y acumulada) usando modelo Binomial}
+\title{Cálculo de cobertura y distribución de contactos (y acumulada) según modelo Binomial}
 \usage{
 calc_binomial(audiencias, pob_total)
 }
@@ -33,14 +33,13 @@ Una lista "reach_binomial" conteniendo:
 }
 }
 \description{
-Implementa un modelo Binomial para calcular la cobertura y
-distribución de contactos (y acumulada) en un plan de medios. Este modelo asume independencia
-entre soportes (duplicación aleatoria), y homogeneidad de los soportes e individuos, y
-utiliza una probabilidad media de exposición (p). La acumulación de las audiencias es
-un suceso aleatorio. Finalmente, las probabilidades de exposición son estacionarias respecto al tiempo.
-Las hipótesis aquí expuestas, llevan pues a que la probabilidad de exposición a distintas inserciones en diferentes soportes,
-sea equivalente a la de distintas inserciones en un soporte hipotético “promedio” cuya audiencia sea
-la media simple de las audiencias de cada soporte.
+Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y
+distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte.
+El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica
+la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y
+las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de
+cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte.
+Las probabilidades de exposición son estacionarias respecto al tiempo.
 }
 \details{
 El modelo Bnomial calcula:
@@ -74,6 +73,10 @@ sum_dist <- sum(resultado$distribucion$porcentaje)/100
 print(paste("Suma distribución:", round(sum_dist, 4)))
 }
 
+}
+\references{
+Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
+contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 }
 \seealso{
 \code{\link{calc_sainsbury}} para estimaciones con el modelo de Sainsbury
