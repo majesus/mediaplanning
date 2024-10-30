@@ -45,7 +45,7 @@ calculate_contact_distribution <- function(alpha, beta, n, max_contacts) {
   if (is.na(max_contacts) || max_contacts < 1) {
     return(numeric(0))  # Retorna vector vacío si no es válido
   }
-  
+
   dist <- numeric(max_contacts)
   for(k in 1:max_contacts) {
     if (alpha + k > 0 && beta + n - k > 0) {
@@ -82,11 +82,6 @@ calculate_contact_distribution <- function(alpha, beta, n, max_contacts) {
 #' }
 #'
 #' @export
-#'
-#' @examples
-#' \dontrun{
-#'   run_reach_converg_explorer()
-#' }
 
 run_reach_converg_explorer <- function() {
   ui <- page_sidebar(
@@ -115,21 +110,21 @@ run_reach_converg_explorer <- function() {
       tableOutput("resumen_table")
     )
   )
-  
+
   server <- function(input, output, session) {
     observe({
       updateNumericInput(session, "max_contacts", max = input$n_inserciones)
     })
-    
+
     datos_calculados <- eventReactive(input$calcular, {
       coverage <- calculate_coverage(input$alpha, input$beta, input$n_inserciones)
       incremental <- calculate_incremental(coverage)
       convergencia <- check_convergencia(incremental, input$threshold)
       punto_convergencia <- which(incremental <= input$threshold)[1]
-      
+
       dist_contactos <- calculate_contact_distribution(input$alpha, input$beta, input$n_inserciones, input$max_contacts)
       dist_acumulada <- rev(cumsum(rev(dist_contactos)))
-      
+
       list(
         coverage = coverage,
         incremental = incremental,
@@ -139,7 +134,7 @@ run_reach_converg_explorer <- function() {
         punto_convergencia = punto_convergencia
       )
     })
-    
+
     output$convergencia_plot <- renderPlot({
       req(datos_calculados())
       datos <- data.frame(
@@ -147,7 +142,7 @@ run_reach_converg_explorer <- function() {
         cobertura = datos_calculados()$coverage,
         absolutos = datos_calculados()$coverage * input$poblacion
       )
-      
+
       p <- ggplot(datos, aes(x = insercion, y = cobertura)) +
         geom_line(color = "blue") +
         geom_point() +
@@ -159,7 +154,7 @@ run_reach_converg_explorer <- function() {
           sec.axis = sec_axis(~.*input$poblacion, name = "Personas alcanzadas",
                               labels = scales::comma)
         )
-      
+
       # Añadir marcador del punto de convergencia si existe
       if (!is.na(datos_calculados()$punto_convergencia)) {
         p <- p +
@@ -174,10 +169,10 @@ run_reach_converg_explorer <- function() {
                    hjust = -0.1,
                    color = "darkred")
       }
-      
+
       p
     })
-    
+
     output$incremental_plot <- renderPlot({
       req(datos_calculados())
       datos <- data.frame(
@@ -185,7 +180,7 @@ run_reach_converg_explorer <- function() {
         incremental = datos_calculados()$incremental,
         absolutos = datos_calculados()$incremental * input$poblacion
       )
-      
+
       p <- ggplot(datos, aes(x = insercion, y = incremental)) +
         geom_bar(stat = "identity", fill = "skyblue") +
         geom_hline(yintercept = input$threshold, color = "red", linetype = "dashed") +
@@ -199,7 +194,7 @@ run_reach_converg_explorer <- function() {
                               name = "Personas alcanzadas (incremento)",
                               labels = scales::comma)
         )
-      
+
       # Añadir marcador del punto de convergencia si existe
       if (!is.na(datos_calculados()$punto_convergencia)) {
         p <- p +
@@ -214,20 +209,20 @@ run_reach_converg_explorer <- function() {
                    hjust = -0.1,
                    color = "darkred")
       }
-      
+
       p
     })
-    
+
     output$dist_contactos_plot <- renderPlot({
       req(datos_calculados())
       req(input$max_contacts > 0)  # Asegurar que max_contacts es válido
-      
+
       datos <- data.frame(
         contactos = 1:length(datos_calculados()$dist_contactos),
         probabilidad = datos_calculados()$dist_contactos,
         absolutos = datos_calculados()$dist_contactos * input$poblacion
       )
-      
+
       if (nrow(datos) == 0 || all(is.na(datos$probabilidad))) {
         # Mostrar mensaje de error en lugar de gráfico vacío
         plot.new()
@@ -245,17 +240,17 @@ run_reach_converg_explorer <- function() {
           scale_x_continuous(breaks = 1:input$max_contacts)
       }
     })
-    
+
     output$dist_acumulada_plot <- renderPlot({
       req(datos_calculados())
       req(input$max_contacts > 0)  # Asegurar que max_contacts es válido
-      
+
       datos <- data.frame(
         contactos = 1:length(datos_calculados()$dist_acumulada),
         probabilidad = datos_calculados()$dist_acumulada,
         absolutos = datos_calculados()$dist_acumulada * input$poblacion
       )
-      
+
       if (nrow(datos) == 0 || all(is.na(datos$probabilidad))) {
         # Mostrar mensaje de error en lugar de gráfico vacío
         plot.new()
@@ -274,15 +269,15 @@ run_reach_converg_explorer <- function() {
           scale_x_continuous(breaks = 1:input$max_contacts)
       }
     })
-    
+
     output$resumen_table <- renderTable({
       req(datos_calculados())
-      
+
       cobertura_final <- tail(datos_calculados()$coverage, 1)
       ultimo_incremento <- tail(datos_calculados()$incremental, 1)
       prob_1_contacto <- datos_calculados()$dist_contactos[1]
       prob_2_mas_contactos <- sum(datos_calculados()$dist_contactos[2:length(datos_calculados()$dist_contactos)], na.rm = TRUE)
-      
+
       data.frame(
         Métrica = c("Alpha (α)", "Beta (β)", "Cobertura final", "Último incremento", "1 contacto exacto", "2 o más contactos"),
         Porcentaje = c(
@@ -304,7 +299,9 @@ run_reach_converg_explorer <- function() {
       )
     })
   }
-  
+
   # Lanzamos la aplicación Shiny
   shinyApp(ui = ui, server = server)
 }
+
+run_reach_converg_explorer()

@@ -30,8 +30,3 @@ La aplicación permite:
 }
 }
 
-\examples{
-\dontrun{
-  run_aud_util_explorer()
-}
-}

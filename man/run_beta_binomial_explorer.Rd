@@ -7,9 +7,20 @@
 \usage{
 run_beta_binomial_explorer()
 }
-\value{
-Una aplicación Shiny
+\arguments{
+\item{x}{Número de éxitos}
+
+\item{n}{Número de ensayos}
+
+\item{alpha}{Parámetro de forma alpha de la distribución beta}
+
+\item{beta}{Parámetro de forma beta de la distribución beta}
 }
 \description{
-Ejecuta la aplicación Shiny del explorador Beta Binomial
+Calcula la función de masa de probabilidad de la distribución
+beta-binomial para un conjunto dado de parámetros.
+}
+\details{
+La función implementa la fórmula:
+\deqn{P(X = k) = \binom{n}{k} \frac{B(k+\alpha, n-k+\beta)}{B(\alpha, \beta)}}
 }

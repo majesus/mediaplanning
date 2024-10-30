@@ -18,7 +18,7 @@ Imports:
     stats,
     extraDistr,
     shiny,
-    bslib (>= 0.5.0),
+    bslib,
     ggplot2,
     dplyr,
     readxl,
@@ -29,7 +29,8 @@ Imports:
     factoextra,
     microbenchmark,
     Deriv,
-    doBy
+    doBy,
+    scales
 Suggests:
     knitr,
     rmarkdown,

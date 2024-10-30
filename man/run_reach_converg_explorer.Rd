@@ -30,8 +30,3 @@ La aplicación permite:
 }
 }
 
-\examples{
-\dontrun{
-  run_reach_converg_explorer()
-}
-}

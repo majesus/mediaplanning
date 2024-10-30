@@ -41,11 +41,6 @@ library(scales)
 #' }
 #'
 #' @export
-#'
-#' @examples
-#' \dontrun{
-#'   run_aud_util_explorer()
-#' }
 
 run_aud_util_explorer <- function() {
   ui <- page_fluid(
@@ -332,4 +327,4 @@ run_aud_util_explorer <- function() {
 }
 
 
-#run_aud_util_explorer()
+run_aud_util_explorer()
