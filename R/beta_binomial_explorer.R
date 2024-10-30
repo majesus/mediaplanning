@@ -1,3 +1,17 @@
+# Lista de paquetes necesarios
+paquetes_requeridos <- c("shiny", "bslib", "ggplot2")
+
+# Función para verificar e instalar paquetes
+instalar_si_falta <- function(paquete) {
+  if (!requireNamespace(paquete, quietly = TRUE)) {
+    install.packages(paquete)
+  }
+}
+
+# Aplicar la función a cada paquete
+invisible(sapply(paquetes_requeridos, instalar_si_falta))
+
+# Cargar los paquetes
 library(shiny)
 library(bslib)
 library(ggplot2)
@@ -212,7 +226,6 @@ server <- function(input, output, session) {
 
   })
 
-
 }
 
 #' @encoding UTF-8
@@ -222,32 +235,8 @@ server <- function(input, output, session) {
 #' @export
 run_beta_binomial_explorer <- function() {
 
-  # Verificar y cargar dependencias
-  required_packages <- c("shiny", "bslib", "ggplot2")
-
-  # Función para verificar si un paquete está instalado
-  is_installed <- function(pkg) {
-    return(pkg %in% rownames(installed.packages()))
-  }
-
-  # Verificar si todos los paquetes necesarios están instalados
-  missing_packages <- required_packages[!sapply(required_packages, is_installed)]
-  if (length(missing_packages) > 0) {
-    stop(paste("Los siguientes paquetes son necesarios pero no están instalados:",
-               paste(missing_packages, collapse = ", "),
-               "\nPor favor, instálalos usando: install.packages(c('",
-               paste(missing_packages, collapse = "', '"), "'))"))
-  }
-
-  # Cargar los paquetes necesarios
-  for (pkg in required_packages) {
-    if (!pkg %in% (.packages())) {
-      suppressPackageStartupMessages(
-        library(pkg, character.only = TRUE)
-      )
-    }
-  }
-
+  # Obtener la aplicación
+  # app <- beta_binomial_app()
 
   shinyApp(ui = ui, server = server)
 }
