@@ -113,8 +113,7 @@ optimize_media_plan <- function(
     tam_batch = 5,
     soportes_vetados = NULL,
     modelo = c("sainsbury", "binomial"),
-    usar_audiencia_util = FALSE
-) {
+    usar_audiencia_util = FALSE) {
   # Validar modelo
   modelo <- match.arg(modelo)
 

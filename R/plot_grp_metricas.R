@@ -86,12 +86,4 @@ plot_grp_metricas <- function(audiencias, inserciones, precios, nombres,
     )
 }
 
-plot_grp_metricas(
-  audiencias = c(300000, 400000, 200000),
-  inserciones = c(3, 2, 4),
-  precios = c(1000, 1500, 800),
-  nombres = c("Marca", "As", "20 Minutos"),
-  pob_total = 1000000,
-  titulo = "Análisis de Soportes Deportivos"
-)
 

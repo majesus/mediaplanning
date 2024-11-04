@@ -438,6 +438,7 @@ optimizar_d <- function(Pob,
 #' Current Issues and Research in Advertising, 7(1), 1-24.
 #'
 #' @export
+
 optimizar_dc <- function(Pob,
                          FEM,
                          cob_efectiva,
