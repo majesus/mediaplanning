@@ -68,7 +68,7 @@
 #' @importFrom stats optimize
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' # Ejemplo 1: Caso básico con población pequeña
 #' resultado1 <- optimizar_d(
 #'   Pob = 100000,          # Población de 100 mil
@@ -404,7 +404,7 @@ optimizar_d <- function(Pob,
 #' @importFrom stats optimize
 #'
 #' @examples
-#' \dontrun{
+#' \donttest{
 #' # Ejemplo 1: Optimización para cobertura acumulada
 #' resultado1 <- optimizar_dc(
 #'   Pob = 1000000,         # Población de 1 millón
