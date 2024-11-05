@@ -94,7 +94,7 @@ La función utiliza procesamiento por lotes para optimizar el uso de memoria
 y proporciona información de progreso durante la ejecución.
 }
 \examples{
-\dontrun{
+\donttest{
 # Ejemplo 1: Caso básico con población pequeña
 resultado1 <- optimizar_d(
   Pob = 100000,          # Población de 100 mil

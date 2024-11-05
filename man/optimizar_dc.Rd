@@ -98,7 +98,7 @@ Esta función difiere de optimizar_d en que:
 }
 }
 \examples{
-\dontrun{
+\donttest{
 # Ejemplo 1: Optimización para cobertura acumulada
 resultado1 <- optimizar_dc(
   Pob = 1000000,         # Población de 1 millón
