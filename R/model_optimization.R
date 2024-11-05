@@ -175,11 +175,14 @@ optimizar_d <- function(Pob,
 
   # Información inicial
   total_combinaciones <- length(rangos_n) * length(rangos_prob1) * length(rangos_prob2)
-  cat(sprintf("\nTotal de combinaciones a probar: %d", total_combinaciones))
-  cat(sprintf("\n- Valores n: %d (de %d a %d)", length(rangos_n), min(rangos_n), max(rangos_n)))
-  cat(sprintf("\n- Valores alpha: %d (de %.2f a %.2f, step %.3f)", length(rangos_prob1), min(rangos_prob1), max(rangos_prob1), step_A))
-  cat(sprintf("\n- Valores beta: %d (de %.2f a %.2f, step %.3f)", length(rangos_prob2), min(rangos_prob2), max(rangos_prob2), step_B))
-  cat(sprintf("\n- Criterios de parada: %d soluciones con error < %.1f%%\n\n", min_soluciones, error_aceptable * 100))
+
+  if (!isTRUE(getOption('knitr.in.progress'))) {
+    cat(sprintf("\nTotal de combinaciones a probar: %d", total_combinaciones))
+    cat(sprintf("\n- Valores n: %d (de %d a %d)", length(rangos_n), min(rangos_n), max(rangos_n)))
+    cat(sprintf("\n- Valores alpha: %d (de %.2f a %.2f, step %.3f)", length(rangos_prob1), min(rangos_prob1), max(rangos_prob1), step_A))
+    cat(sprintf("\n- Valores beta: %d (de %.2f a %.2f, step %.3f)", length(rangos_prob2), min(rangos_prob2), max(rangos_prob2), step_B))
+    cat(sprintf("\n- Criterios de parada: %d soluciones con error < %.1f%%\n\n", min_soluciones, error_aceptable * 100))
+  }
 
   # Variables para progreso
   contador <- 0
@@ -210,7 +213,8 @@ optimizar_d <- function(Pob,
         probs <- mapply(function(n, x, alpha, beta) {
           contador <<- contador + 1
 
-          if (difftime(Sys.time(), ultima_actualizacion, units="secs") > 0.1) {
+          if (difftime(Sys.time(), ultima_actualizacion, units="secs") > 0.1 &&
+              !isTRUE(getOption('knitr.in.progress'))) {
             prob <- extraDistr::dbbinom(x = x, size = n, alpha = alpha, beta = beta)
             mejor_prob <<- min(mejor_prob, abs(cob_efectiva_norm - prob))
 
@@ -295,10 +299,12 @@ optimizar_d <- function(Pob,
   beta <- principal$beta
   n_optimo <- principal$n
 
-  cat("\nMejor solución encontrada:\n")
-  cat(sprintf("n = %d, α = %.3f, β = %.3f\n", n_optimo, alpha, beta))
-  cat(sprintf("R1 = %.4f (objetivo: %.4f)\n", principal$R1, R1_objetivo))
-  cat(sprintf("Cobertura = %.0f (objetivo: %.0f)\n", principal$prob, cob_efectiva))
+  if (!isTRUE(getOption('knitr.in.progress'))) {
+    cat("\nMejor solución encontrada:\n")
+    cat(sprintf("n = %d, α = %.3f, β = %.3f\n", n_optimo, alpha, beta))
+    cat(sprintf("R1 = %.4f (objetivo: %.4f)\n", principal$R1, R1_objetivo))
+    cat(sprintf("Cobertura = %.0f (objetivo: %.0f)\n", principal$prob, cob_efectiva))
+  }
 
   # Calcular distribución final
   distribucion <- extraDistr::dbbinom(0:n_optimo, size = n_optimo, alpha = alpha, beta = beta)
@@ -509,11 +515,14 @@ optimizar_dc <- function(Pob,
 
   # Información inicial
   total_combinaciones <- length(rangos_n) * length(rangos_prob1) * length(rangos_prob2)
-  cat(sprintf("\nTotal de combinaciones a probar: %d", total_combinaciones))
-  cat(sprintf("\n- Valores n: %d (de %d a %d)", length(rangos_n), min(rangos_n), max(rangos_n)))
-  cat(sprintf("\n- Valores alpha: %d (de %.2f a %.2f, step %.3f)", length(rangos_prob1), min(rangos_prob1), max(rangos_prob1), step_A))
-  cat(sprintf("\n- Valores beta: %d (de %.2f a %.2f, step %.3f)", length(rangos_prob2), min(rangos_prob2), max(rangos_prob2), step_B))
-  cat(sprintf("\n- Criterios de parada: %d soluciones con error < %.1f%%\n\n", min_soluciones, error_aceptable * 100))
+
+  if (!isTRUE(getOption('knitr.in.progress'))) {
+    cat(sprintf("\nTotal de combinaciones a probar: %d", total_combinaciones))
+    cat(sprintf("\n- Valores n: %d (de %d a %d)", length(rangos_n), min(rangos_n), max(rangos_n)))
+    cat(sprintf("\n- Valores alpha: %d (de %.2f a %.2f, step %.3f)", length(rangos_prob1), min(rangos_prob1), max(rangos_prob1), step_A))
+    cat(sprintf("\n- Valores beta: %d (de %.2f a %.2f, step %.3f)", length(rangos_prob2), min(rangos_prob2), max(rangos_prob2), step_B))
+    cat(sprintf("\n- Criterios de parada: %d soluciones con error < %.1f%%\n\n", min_soluciones, error_aceptable * 100))
+  }
 
   # Variables para progreso
   contador <- 0
@@ -544,9 +553,9 @@ optimizar_dc <- function(Pob,
         probs <- mapply(function(n, x, alpha, beta) {
           contador <<- contador + 1
 
-          if (difftime(Sys.time(), ultima_actualizacion, units="secs") > 0.1) {
-            prob_vector <- extraDistr::dbbinom(x = 0:n, size = n, alpha = alpha, beta = beta)
-            prob <- sum(prob_vector[(FEM + 1):(n + 1)])
+          if (difftime(Sys.time(), ultima_actualizacion, units="secs") > 0.1 &&
+              !isTRUE(getOption('knitr.in.progress'))) {
+            prob <- extraDistr::dbbinom(x = x, size = n, alpha = alpha, beta = beta)
             mejor_prob <<- min(mejor_prob, abs(cob_efectiva_norm - prob))
 
             cat(sprintf("\rProgreso: %.2f%% | n=%d, α=%.3f, β=%.3f, prob=%.6f, mejor_diff=%.6f",
@@ -626,15 +635,18 @@ optimizar_dc <- function(Pob,
   mejores_combinaciones <- mejores_combinaciones[R1_filtradas,]
 
   # Procesar mejor solución
+  # Procesar mejor solución
   principal <- mejores_combinaciones[1,]
   alpha <- principal$alpha
   beta <- principal$beta
   n_optimo <- principal$n
 
-  cat("\nMejor solución encontrada:\n")
-  cat(sprintf("n = %d, α = %.3f, β = %.3f\n", n_optimo, alpha, beta))
-  cat(sprintf("R1 = %.4f (objetivo: %.4f)\n", principal$R1, R1_objetivo))
-  cat(sprintf("Cobertura acumulada = %.0f (objetivo: %.0f)\n", principal$prob, cob_efectiva))
+  if (!isTRUE(getOption('knitr.in.progress'))) {
+    cat("\nMejor solución encontrada:\n")
+    cat(sprintf("n = %d, α = %.3f, β = %.3f\n", n_optimo, alpha, beta))
+    cat(sprintf("R1 = %.4f (objetivo: %.4f)\n", principal$R1, R1_objetivo))
+    cat(sprintf("Cobertura = %.0f (objetivo: %.0f)\n", principal$prob, cob_efectiva))
+  }
 
   # Calcular distribución final
   distribucion <- extraDistr::dbbinom(0:n_optimo, size = n_optimo, alpha = alpha, beta = beta)
