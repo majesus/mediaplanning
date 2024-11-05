@@ -58,7 +58,7 @@
 #' # Ejemplo básico con 5 inserciones
 #' R1 <- 0.06    # 6% de cobertura primera inserción
 #' R2 <- 0.103   # 10.3% de cobertura segunda inserción
-#' resultado <- calc_hofmans(R1, R2, N=5)
+#' resultado <- calc_hofmans(R1, R2, N = 5)
 #'
 #' # Examinar los resultados
 #' print(resultado$resultados)
@@ -67,7 +67,7 @@
 #' # Ejemplo con validación de datos
 #' \dontrun{
 #' R1_invalido <- 1.2  # >100% cobertura
-#' resultado <- calc_hofmans(R1_invalido, R2, N=5)
+#' resultado <- calc_hofmans(R1_invalido, R2, N = 5)
 #' # Generará un error por cobertura inválida
 #' }
 #'

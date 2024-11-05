@@ -5,14 +5,14 @@
 \alias{calc_metheringham}
 \title{Cálculo de métricas según el modelo de Metheringham}
 \usage{
-calc_metheringham(audiencias, inserciones, vector_duplicacion, ayuda = TRUE)
+calc_metheringham(audiencias, inserciones, vec_duplicacion, ayuda = TRUE)
 }
 \arguments{
 \item{audiencias}{Vector numérico con las audiencias de cada soporte}
 
 \item{inserciones}{Vector numérico con el número de inserciones por soporte}
 
-\item{vector_duplicacion}{Vector numérico con valores de duplicación entre soportes}
+\item{vec_duplicacion}{Vector numérico con valores de duplicación entre soportes}
 
 \item{ayuda}{Logical. Si TRUE, muestra una guía de uso detallada (default: TRUE)}
 }
@@ -23,7 +23,7 @@ Una lista conteniendo:
 \item duplicacion_media: Media ponderada de duplicaciones (D)
 \item audiencia_segunda: Audiencia tras la segunda inserción (A2)
 \item vector_oportunidades: Vector que contiene el número de oportunidades de contacto
-entre pares de inserciones, siguiendo el mismo orden que el vector_duplicacion
+entre pares de inserciones, siguiendo el mismo orden que el vec_duplicacion
 }
 }
 \description{
@@ -68,7 +68,7 @@ El vector de duplicación debe seguir un orden específico:
 metricas <- calc_metheringham(
   audiencias = c(1500000, 800000, 1200000),
   inserciones = c(4, 3, 5),
-  vector_duplicacion = c(150000, 200000, 180000,
+  vec_duplicacion = c(150000, 200000, 180000,
                         120000, 140000,
                         170000),
   ayuda = FALSE
@@ -78,7 +78,7 @@ metricas <- calc_metheringham(
 calc_metheringham(
   audiencias = NULL,
   inserciones = NULL,
-  vector_duplicacion = NULL,
+  vec_duplicacion = NULL,
   ayuda = TRUE
 )
 

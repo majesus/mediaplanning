@@ -1,6 +1,6 @@
 #' @encoding UTF-8
-#' @title Cálculo de métricas de medios para un plan publicitario
-#' @description Calcula varias métricas de un plan de medios aceptando tanto datos
+#' @title Cálculo de métricas de soportes para un plan publicitario
+#' @description Calcula métricas de un plan de medios aceptando tanto datos
 #' desde CSV como vectores directamente, permitiendo sobrescribir valores específicos
 #' del CSV con vectores. Las métricas calculadas incluyen:
 #' \enumerate{
@@ -15,7 +15,7 @@
 #' @param soportes Vector de nombres o nombre de la columna en CSV
 #' @param audiencias Vector numérico o nombre de la columna en CSV
 #' @param tarifas Vector numérico o nombre de la columna en CSV
-#' @param indices_utilidad Vector numérico o nombre de la columna en CSV
+#' @param ind_utilidad Vector numérico o nombre de la columna en CSV
 #' @param inserciones Vector numérico o nombre de la columna en CSV (opcional)
 #' @param pob_total Tamaño de la población objetivo
 #' @param file Ruta al archivo CSV (opcional)
@@ -42,7 +42,7 @@
 #'   soportes = c("El País", "El Mundo"),
 #'   audiencias = c(1520000, 780000),
 #'   tarifas = c(39800, 35600),
-#'   indices_utilidad = c(1.2, 1.1),
+#'   ind_utilidad = c(1.2, 1.1),
 #'   pob_total = 39500000
 #' )
 #'
@@ -53,7 +53,7 @@
 #'   soportes = "soportes",
 #'   audiencias = "audiencias",
 #'   tarifas = "tarifas",
-#'   indices_utilidad = "indices_utilidad",
+#'   ind_utilidad = "ind_utilidad",
 #'   pob_total = 39500000
 #' )
 #'
@@ -63,7 +63,7 @@
 #'   soportes = "soportes",
 #'   audiencias = "audiencias",
 #'   tarifas = "tarifas",
-#'   indices_utilidad = "indices_utilidad",
+#'   ind_utilidad = "ind_utilidad",
 #'   inserciones = c(2, 3, 1, 2),  # Sobrescribe las inserciones del CSV
 #'   pob_total = 39500000
 #' )
@@ -76,7 +76,7 @@
 calcular_metricas_medios <- function(soportes = NULL,
                                      audiencias = NULL,
                                      tarifas = NULL,
-                                     indices_utilidad = NULL,
+                                     ind_utilidad = NULL,
                                      inserciones = NULL,
                                      pob_total,
                                      file = NULL,
@@ -94,7 +94,7 @@ calcular_metricas_medios <- function(soportes = NULL,
       soportes = soportes,
       audiencias = audiencias,
       tarifas = tarifas,
-      indices_utilidad = indices_utilidad,
+      ind_utilidad = ind_utilidad,
       inserciones = inserciones
     )
     # Para cada campo, usar el vector si se proporciona, si no, intentar leer del CSV
@@ -113,7 +113,7 @@ calcular_metricas_medios <- function(soportes = NULL,
             stop("La columna '", valor, "' no existe en el CSV")
           }
         } else {
-          datos_finales[[nombre]] <- if(nombre %in% c("audiencias", "tarifas", "indices_utilidad", "inserciones")) {
+          datos_finales[[nombre]] <- if(nombre %in% c("audiencias", "tarifas", "ind_utilidad", "inserciones")) {
             as.numeric(datos[[valor]])
           } else {
             datos[[valor]]
@@ -149,12 +149,12 @@ calcular_metricas_medios <- function(soportes = NULL,
       soportes = soportes,
       audiencias = audiencias,
       tarifas = tarifas,
-      indices_utilidad = indices_utilidad,
+      ind_utilidad = ind_utilidad,
       inserciones = if(is.null(inserciones)) rep(1, length(soportes)) else inserciones
     )
   }
   # Validar que tenemos todos los datos necesarios
-  if (any(sapply(datos_finales[c("soportes", "audiencias", "tarifas", "indices_utilidad")], is.null))) {
+  if (any(sapply(datos_finales[c("soportes", "audiencias", "tarifas", "ind_utilidad")], is.null))) {
     stop("Faltan datos requeridos. Proporciona todos los vectores o nombres de columnas válidos")
   }
   # Validar longitudes iguales
@@ -168,7 +168,7 @@ calcular_metricas_medios <- function(soportes = NULL,
   SOV <- (RP / GRP_total) * 100
   CPM <- (datos_finales$tarifas / datos_finales$audiencias) * 1000
   CRP <- datos_finales$tarifas / RP
-  audiencia_util <- datos_finales$indices_utilidad * datos_finales$audiencias
+  audiencia_util <- datos_finales$ind_utilidad * datos_finales$audiencias
   coste_contacto_util <- datos_finales$tarifas / audiencia_util
   # Crear el data.frame de salida
   tabla_medios <- data.frame(
@@ -180,7 +180,7 @@ calcular_metricas_medios <- function(soportes = NULL,
     Tarifa_Pag_Color = datos_finales$tarifas,
     CPM = round(CPM, 2),
     C_RP = round(CRP, 2),
-    Indice_Utilidad = datos_finales$indices_utilidad,
+    Indice_Utilidad = datos_finales$ind_utilidad,
     Audiencia_Util_miles = round(audiencia_util, 0),
     Coste_Contacto_Util = round(coste_contacto_util, 2)
   )

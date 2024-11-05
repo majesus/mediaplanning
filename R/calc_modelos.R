@@ -590,7 +590,7 @@ print.reach_beta_binomial <- function(x, ...) {
 #'
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param inserciones Vector numérico con el número de inserciones por soporte
-#' @param vector_duplicacion Vector numérico con valores de duplicación entre soportes
+#' @param vec_duplicacion Vector numérico con valores de duplicación entre soportes
 #' @param ayuda Logical. Si TRUE, muestra una guía de uso detallada (default: TRUE)
 #'
 #' @details
@@ -619,7 +619,7 @@ print.reach_beta_binomial <- function(x, ...) {
 #'   \item duplicacion_media: Media ponderada de duplicaciones (D)
 #'   \item audiencia_segunda: Audiencia tras la segunda inserción (A2)
 #'   \item vector_oportunidades: Vector que contiene el número de oportunidades de contacto
-#'         entre pares de inserciones, siguiendo el mismo orden que el vector_duplicacion
+#'         entre pares de inserciones, siguiendo el mismo orden que el vec_duplicacion
 #' }
 #'
 #' @note
@@ -636,7 +636,7 @@ print.reach_beta_binomial <- function(x, ...) {
 #' metricas <- calc_metheringham(
 #'   audiencias = c(1500000, 800000, 1200000),
 #'   inserciones = c(4, 3, 5),
-#'   vector_duplicacion = c(150000, 200000, 180000,
+#'   vec_duplicacion = c(150000, 200000, 180000,
 #'                         120000, 140000,
 #'                         170000),
 #'   ayuda = FALSE
@@ -646,7 +646,7 @@ print.reach_beta_binomial <- function(x, ...) {
 #' calc_metheringham(
 #'   audiencias = NULL,
 #'   inserciones = NULL,
-#'   vector_duplicacion = NULL,
+#'   vec_duplicacion = NULL,
 #'   ayuda = TRUE
 #' )
 #'
@@ -656,14 +656,14 @@ print.reach_beta_binomial <- function(x, ...) {
 #' \code{\link{calc_binomial}} para estimaciones con la distribución Beta-Binomial
 #' \code{\link{calc_beta_binomial}} para estimaciones con la distribución de Metheringham
 #' \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
-calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda = TRUE) {
+calc_metheringham <- function(audiencias, inserciones, vec_duplicacion, ayuda = TRUE) {
   if(ayuda) {
     cat("
     GUÍA PARA INTRODUCIR DATOS DE AUDIENCIA Y DUPLICACIÓN
     1. FORMATO DE ENTRADA:
        - audiencias: Vector numérico con la audiencia de cada soporte
        - inserciones: Vector numérico con número de inserciones por soporte
-       - vector_duplicacion: Vector con valores de duplicación entre soportes
+       - vec_duplicacion: Vector con valores de duplicación entre soportes
     2. TAMAÑO DEL VECTOR DE DUPLICACIÓN:
        Para n soportes, necesitas n*(n+1)/2 valores de duplicación.
        Ejemplo:
@@ -676,7 +676,7 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
     4. EJEMPLO DE USO:
        audiencias <- c(1500, 800, 1200)
        inserciones <- c(4, 3, 5)
-       vector_duplicacion <- c(150, 200, 180, 120, 140, 170)
+       vec_duplicacion <- c(150, 200, 180, 120, 140, 170)
     \n\n")
     cat("========== COMENZANDO CÁLCULOS ==========\n\n")
   }
@@ -686,7 +686,7 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
     stop("Los vectores de audiencias e inserciones deben tener la misma longitud")
   }
   n_elementos_duplicacion <- length(audiencias) * (length(audiencias) + 1) / 2
-  if (length(vector_duplicacion) != n_elementos_duplicacion) {
+  if (length(vec_duplicacion) != n_elementos_duplicacion) {
     stop("La longitud del vector de duplicación no coincide con el número esperado de elementos")
   }
 
@@ -712,7 +712,7 @@ calc_metheringham <- function(audiencias, inserciones, vector_duplicacion, ayuda
   # Cálculos principales
   vector_oportunidades <- calcular_vector_oportunidades(inserciones)
   A1 <- sum(audiencias * inserciones) / sum(inserciones)
-  D <- sum(vector_duplicacion * vector_oportunidades) / sum(vector_oportunidades)
+  D <- sum(vec_duplicacion * vector_oportunidades) / sum(vector_oportunidades)
   A2 <- 2 * A1 - D
 
   # Resultados (ya no incluimos la matriz)

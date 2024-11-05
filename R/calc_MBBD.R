@@ -16,7 +16,7 @@
 #' @param A0 Numérico. Valor inicial del parámetro A (entre 0 y 10)
 #' @param precision Numérico. Criterio de convergencia en personas. Por defecto 100
 #' @param max_iter Entero. Número máximo de iteraciones permitidas. Por defecto 100
-#' @param adjustment_factor Numérico. Factor de ajuste para el parámetro A. Por defecto 0.01
+#' @param adj_factor Numérico. Factor de ajuste para el parámetro A. Por defecto 0.01
 #'
 #' @details
 #' El modelo MBBD ajusta iterativamente los parámetros de una distribución beta binomial
@@ -85,7 +85,7 @@
 calc_MBBD <- function(m, insertions, audiences, RM, universe, A0,
                       precision = 100,
                       max_iter = 100,
-                      adjustment_factor = 0.01) {
+                      adj_factor = 0.01) {
 
   # Input validation
   if(!is.numeric(m) || m <= 0 || m != round(m)) {
@@ -155,9 +155,9 @@ calc_MBBD <- function(m, insertions, audiences, RM, universe, A0,
 
     # Update parameters
     if(difference > 0) {  # Si BBD > RM, DISMINUIR A
-      current_A <- current_A * (1 - adjustment_factor)
+      current_A <- current_A * (1 - adj_factor)
     } else {  # Si BBD < RM, AUMENTAR A
-      current_A <- current_A * (1 + adjustment_factor)
+      current_A <- current_A * (1 + adj_factor)
     }
 
     # Recalculate B

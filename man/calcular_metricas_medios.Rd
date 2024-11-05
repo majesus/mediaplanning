@@ -3,13 +3,13 @@
 \encoding{UTF-8}
 \name{calcular_metricas_medios}
 \alias{calcular_metricas_medios}
-\title{Cálculo de métricas de medios para un plan publicitario}
+\title{Cálculo de métricas de soportes para un plan publicitario}
 \usage{
 calcular_metricas_medios(
   soportes = NULL,
   audiencias = NULL,
   tarifas = NULL,
-  indices_utilidad = NULL,
+  ind_utilidad = NULL,
   inserciones = NULL,
   pob_total,
   file = NULL,
@@ -23,7 +23,7 @@ calcular_metricas_medios(
 
 \item{tarifas}{Vector numérico o nombre de la columna en CSV}
 
-\item{indices_utilidad}{Vector numérico o nombre de la columna en CSV}
+\item{ind_utilidad}{Vector numérico o nombre de la columna en CSV}
 
 \item{inserciones}{Vector numérico o nombre de la columna en CSV (opcional)}
 
@@ -50,7 +50,7 @@ Un data.frame con las siguientes columnas:
 }
 }
 \description{
-Calcula varias métricas de un plan de medios aceptando tanto datos
+Calcula métricas de un plan de medios aceptando tanto datos
 desde CSV como vectores directamente, permitiendo sobrescribir valores específicos
 del CSV con vectores. Las métricas calculadas incluyen:
 \enumerate{
@@ -68,7 +68,7 @@ resultado <- calcular_metricas_medios(
   soportes = c("El País", "El Mundo"),
   audiencias = c(1520000, 780000),
   tarifas = c(39800, 35600),
-  indices_utilidad = c(1.2, 1.1),
+  ind_utilidad = c(1.2, 1.1),
   pob_total = 39500000
 )
 
@@ -79,7 +79,7 @@ resultado <- calcular_metricas_medios(
   soportes = "soportes",
   audiencias = "audiencias",
   tarifas = "tarifas",
-  indices_utilidad = "indices_utilidad",
+  ind_utilidad = "ind_utilidad",
   pob_total = 39500000
 )
 
@@ -89,7 +89,7 @@ resultado <- calcular_metricas_medios(
   soportes = "soportes",
   audiencias = "audiencias",
   tarifas = "tarifas",
-  indices_utilidad = "indices_utilidad",
+  ind_utilidad = "ind_utilidad",
   inserciones = c(2, 3, 1, 2),  # Sobrescribe las inserciones del CSV
   pob_total = 39500000
 )

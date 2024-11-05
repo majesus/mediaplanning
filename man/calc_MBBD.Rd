@@ -14,7 +14,7 @@ calc_MBBD(
   A0,
   precision = 100,
   max_iter = 100,
-  adjustment_factor = 0.01
+  adj_factor = 0.01
 )
 }
 \arguments{
@@ -34,7 +34,7 @@ calc_MBBD(
 
 \item{max_iter}{Entero. Número máximo de iteraciones permitidas. Por defecto 100}
 
-\item{adjustment_factor}{Numérico. Factor de ajuste para el parámetro A. Por defecto 0.01}
+\item{adj_factor}{Numérico. Factor de ajuste para el parámetro A. Por defecto 0.01}
 }
 \value{
 Una lista de clase "MBBD" conteniendo:
