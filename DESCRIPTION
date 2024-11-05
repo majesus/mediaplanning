@@ -4,12 +4,16 @@ Version: 0.1.1
 Date: 2024-10-25
 Title: Herramientas para la Planificación de Medios Publicitarios
 Description: Indicadores, modelos y aplicaciones para la planificación de medios.
+    Incluye herramientas para análisis beta-binomial, utilidad de audiencia y 
+    convergencia de alcance. Proporciona interfaces interactivas para la 
+    exploración y análisis de datos de medios publicitarios.
 Manual: <https://github.com/majesus/mediaPlanR>
 Author: 
     Manuel J. Sánchez-Franco [aut, cre] [<https://orcid.org/0000-0002-8042-3550>]
 Maintainer: Manuel J. Sánchez-Franco <majesus@us.es>
 Repository: GitHub
 URL: <https://github.com/majesus/mediaPlanR>
+BugReports: https://github.com/majesus/mediaPlanR/issues
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -17,10 +21,10 @@ RoxygenNote: 7.3.2
 Imports:
     stats,
     extraDistr,
-    shiny,
-    bslib,
-    ggplot2,
-    dplyr,
+    shiny (>= 1.7.0),
+    bslib (>= 0.4.0),
+    ggplot2 (>= 3.4.0),
+    dplyr (>= 1.0.0),
     readxl,
     readr,
     DT,
@@ -31,11 +35,16 @@ Imports:
     Deriv,
     doBy,
     scales,
-    ggrepel
+    tidyr,
+    tibble,
+    purrr,
+    magrittr,
+    plotly
 Suggests:
     knitr,
     rmarkdown,
-    testthat (>= 3.0.0)
+    testthat (>= 3.0.0),
+    devtools
 Config/testthat/edition: 3
 Depends: 
     R (>= 2.10)
