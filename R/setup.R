@@ -11,6 +11,11 @@ setup_mediaPlanR <- function() {
   options(install.packages.compile.from.source = "never")
   options(pkgType = "win.binary")
 
+  # Evitar cualquier prompt de actualización interactivo
+  suppressMessages({
+    update.packages(ask = FALSE, checkBuilt = TRUE, type = "win.binary")
+  })
+
   # Paquetes necesarios
   pkgs <- c("shiny", "bslib", "ggplot2", "dplyr", "plotly")
 
@@ -22,7 +27,8 @@ setup_mediaPlanR <- function() {
     install.packages(missing_pkgs,
                      type = "win.binary",
                      quiet = TRUE,
-                     dependencies = FALSE)
+                     dependencies = FALSE,
+                     ask = FALSE)  # Clave: evitar cualquier interacción
   }
 
   # Cargar los paquetes necesarios

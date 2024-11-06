@@ -26,7 +26,7 @@ library(ggplot2)
 #' @export
 
 run_beta_binomial_explorer <- function() {
-  ui <- page_fluid(
+  ui <- shiny::page_fluid(
     theme = bs_theme(version = 5, bootswatch = "flatly"),
 
     titlePanel("Explorador de la Distribución Beta-Binomial"),
