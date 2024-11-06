@@ -292,7 +292,9 @@ Donde:
 * El primer producto corresponde a las probabilidades de exposición a los soportes i
 * El segundo producto corresponde a las probabilidades de no exposición a los soportes j
 
-Proponemos un ejemplo:
+***
+
+Proponemos un ejemplo de estimación de la cobertura (o alcance) neta:
 
 **_Tu_ (hipotética campaña de ropa)**
 
