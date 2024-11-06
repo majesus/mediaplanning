@@ -193,10 +193,10 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 **Tabla de comparación de Opciones Publicitarias**
 
-| Opción | Descripción | Coste | Alcance | CPM | CPPR |
-|--------|-------------|--------|----------|-----|------|
-| Campaña en Redes Sociales | Anuncios segmentados en plataformas populares de redes sociales | 5.000€ | 100.000 jóvenes adultos | 50€ (calculado como 5.000€ / (100.000 / 1.000)) | 100€ (calculado como 5.000€ / (100.000 / 500.000 * 100)) |
-| Cuña de Radio Local | Anuncio de 30 segundos en una emisora de radio popular entre jóvenes adultos | 2.500€ | 25.000 jóvenes adultos (estimado 5% de la audiencia objetivo = 5 puntos de rating) | 100€ (calculado como 2.500€ / (25.000 / 1.000)) | 500€ (calculado como 2.500€ / 5) |
+| Opción | Coste | Alcance | CPM | CPPR |
+|--------|--------|----------|-----|------|
+| Campaña en Redes Sociales | 5.000€ | 100.000 jóvenes adultos | 50€ (calculado como 5.000€ / (100.000 / 1.000)) | 100€ (a saber, 5.000€ / (100.000 / 500.000 * 100)) |
+| Cuña de Radio Local | 2.500€ | 25.000 jóvenes adultos (estimado 5% de la audiencia objetivo = 5 puntos de rating) | 100€ (a saber, 2.500€ / (25.000 / 1.000)) | 500€ (calculado como 2.500€ / 5) |
 
 Notas:
 - Población = 500.000 personas
