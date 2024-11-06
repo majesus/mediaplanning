@@ -208,7 +208,9 @@ Notas:
 
 ***
 
-La función **calcular_metricas_medios()** del paquete mediaPlanR me permite estimar la tabla resumen del conjunto de soportes elegidos. Te muestro un breve ejemplo de cómo aplicarla.
+La función **calcular_metricas_medios()** del paquete mediaPlanR me permite estimar la tabla resumen del conjunto de soportes elegidos.
+
+#### Aplicación de la función:
 
 ```R
 resultado <- calcular_metricas_medios(
@@ -291,6 +293,8 @@ Donde:
 * El segundo producto corresponde a las probabilidades de no exposición a los soportes j
 
 ***
+
+#### Aplicación de la función:
 
 ```R
 audiencias <- c(300000, 400000, 200000)  
