@@ -31,6 +31,9 @@ La planificación de medios es el proceso de encontrar la combinación ideal de 
 
 Un planificador de medios debe abordar una serie de preguntas fundamentales para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
 
+
+<details>
+<summary>**Desarrollo**</summary>
 **1. Conocimiento del Mercado y de la Audiencia**
 
 ¿Cuál es el tamaño del mercado y la demanda del producto?: El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño actual y futuro del mercado, la segmentación, las cuotas de mercado y las tendencias de la demanda.
@@ -80,6 +83,7 @@ Definir objetivos de manera SMART: Es fundamental que los objetivos de la campa�
 ¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio?: El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
 
 En resumen, el planificador de medios debe ser un estratega capaz de analizar información compleja, tomar decisiones informadas y adaptarse a un entorno en constante evolución. Su objetivo primordial es conectar eficazmente la marca con su audiencia, maximizando el retorno de la inversión y contribuyendo al logro de los objetivos de marketing de manera eficiente y efectiva.
+</details>
 
 ***
 
