@@ -25,23 +25,26 @@ setup_mediaPlanR()
 
 ## Todas las funciones:
 
-[1] calc_beta_binomial()        
-[2] calc_binomial()             
-[3] calc_cpm()                  
-[4] calc_grps()                 
-[5] calc_hofmans()              
-[6] calc_MBBD()                 
-[7] calc_metheringham()         
-[8] calc_R1_R2()                
-[9] calc_sainsbury()            
-[10] calcular_metricas_medios()  
-[13] optimizar_d()               
-[14] optimizar_dc()              
-[15] optimize_media_plan()       
-[16] plot_grp_metricas()         
-[17] run_aud_util_explorer()     
-[18] run_beta_binomial_explorer()
-[19] run_reach_converg_explorer()
+- calc_sainsbury() 
+- calc_beta_binomial()     
+- calc_binomial() 
+- calc_hofmans()           
+- calc_MBBD()             
+- calc_metheringham() 
+- calc_R1_R2() 
+
+- calcular_metricas_medios() 
+- calc_cpm()                  
+- calc_grps()  
+- plot_grp_metricas()  
+ 
+- optimizar_d()               
+- optimizar_dc()              
+- optimize_media_plan() 
+
+- run_aud_util_explorer()     
+- run_beta_binomial_explorer() 
+- run_reach_converg_explorer()
 
 ## Funciones Principales
 
