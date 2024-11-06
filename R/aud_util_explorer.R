@@ -31,7 +31,7 @@ library(scales)
 #' @export
 
 run_aud_util_explorer <- function() {
-  ui <- bslib::fluidPage(
+  ui <- bslib::page_fluid(
     theme = bs_theme(version = 5, bootswatch = "flatly"),
 
     titlePanel("Explorador de la Audiencia Útil"),
