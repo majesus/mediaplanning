@@ -71,7 +71,7 @@ calculate_contact_distribution <- function(alpha, beta, n, max_contacts) {
 #' @export
 
 run_reach_converg_explorer <- function() {
-  ui <- shiny::page_sidebar(
+  ui <- bslib::page_sidebar(
     title = "Análisis de Convergencia - Modelo Beta Binomial",
     sidebar = sidebar(
       numericInput("poblacion", "Población objetivo:", value = 1000000, min = 1000, max = 100000000),
