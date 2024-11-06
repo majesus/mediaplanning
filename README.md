@@ -14,7 +14,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 }
 
 # Instalar mediaPlanR
-devtools::install_github("majesus/mediaPlanR")
+devtools::install_github("majesus/mediaPlanR", force = TRUE)
 
 # Cargar el paquete
 library(mediaPlanR)
@@ -25,7 +25,7 @@ setup_mediaPlanR()
 
 ## Uso
 
-Hay dos formas de usar las aplicaciones:
+Hay dos formas de usar las aplicaciones Shiny:
 
 ### Forma Directa
 ```r
