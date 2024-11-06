@@ -58,12 +58,54 @@ Aplicaciones Shiny:
 
 ### Calcular métricas soportes
 
+Calcula las principales métricas de un conjunto de soportes:
+
+- **Audiencia (000)**: Número total de personas, expresado en miles, que están expuestas a un anuncio o campaña publicitaria, es decir, las persaonas que se exponen regularmente a un soporte. Es una medida de alcance numérico. Se puede calcular en función de la circulación de una publicación impresa, las estimaciones de audiencia de una emisión o las visitas únicas a un sitio web.
+
+- **Inserciones**: Se refiere al número de veces que se publica un anuncio en un medio determinado. Por ejemplo, si se publica un anuncio tres veces en una revista, se habla de tres inserciones.
+
+- **RP**: Abreviatura de _Rating Point_, que significa "Punto de Rating". Un punto de rating representa el 1% del público. Por ejemplo, un programa de televisión con un rating del 10% significa que el 10% del público lo vio.
+
+- **SOV**: Abreviatura de _Share of Voice_, que significa "Cuota de Voz". Es una medida de la presencia de una marca en el mercado en comparación con sus competidores. Se calcula como el porcentaje de las impresiones totales de la categoría que recibe una marca. Por ejemplo, si una marca tiene un SOV del 20%, significa que recibe el 20% de todas las impresiones de la categoría.
+
+- **Tarifa_Pag_Color**: Se refiere al coste de publicar un anuncio en color en una publicación impresa. Este coste suele ser mayor que el de un anuncio en blanco y negro.
+
+- **CPM**: Abreviatura de "Coste por Mil," que significa _Cost per Thousand_ en inglés. Es una medida de la eficiencia de un medio publicitario. Se calcula como el coste de llegar a 1.000 personas del público con un anuncio. Por ejemplo, si un anuncio cuesta 100 € y llega a 1.000 personas, su CPM es de (100 €/1.000 personas) * 1.000. El CPM se utiliza para comparar la eficiencia de diferentes medios y vehículos publicitarios.
+
+- **C/RP**: Asumiendo que te refieres a CPP, es la abreviatura de "Coste por Punto", que significa _Cost per Point_ en inglés. Se utiliza principalmente en la planificación de medios de difusión, como la televisión y la radio. El CPP compara los vehículos de difusión en base a cuánto cuesta alcanzar el 1% de la audiencia, es decir, un punto de rating.
+
+- **Indice de Utilidad**: Representa el tanto por uno de la audiencia (o audiencia bruta) que es población objetivo.
+
+- **Audiencia Útil (000)**: Se refiere al número de personas de la audiencia de un soporte que es público objetivo.
+
+- **Coste por Contacto Útil**: Se refiere al coste de llegar a una persona de la audiencia útil. Se puede calcular dividiendo el coste total de la campaña por el número de personas de la audiencia útil.
+
+***
+
+**Tabla de principales métricas**
 
 | Soporte  | Audiencia_miles | Inserciones | RP | SOV   | Tarifa_Pag_Color | CPM    | C_RP     | Indice_Utilidad | Audiencia_Util_miles | Coste_Contacto_Util |
 |----------|----------------|-------------|----|---------|--------------------|--------|----------|----------------|-------------------|-------------------|
 | Diario 1 | 1500          | 1           | 0  | 40.54  | 500               | 333.33 | 131666.7 | 0.30           | 450               | 1.11              |
 | Diario 2 | 1000          | 1           | 0  | 27.03  | 250               | 250.00 | 98750.0  | 0.20           | 200               | 1.25              |
 | Diario 3 | 1200          | 1           | 0  | 32.43  | 400               | 333.33 | 131666.7 | 0.25           | 300               | 1.33              |
+
+***
+
+**Tabla de comparación de Opciones Publicitarias**
+
+| Opción | Descripción | Coste | Alcance | CPM | CPPR |
+|--------|-------------|--------|----------|-----|------|
+| Campaña en Redes Sociales | Anuncios segmentados en plataformas populares de redes sociales | 5.000€ | 100.000 jóvenes adultos | 50€ (calculado como 5.000€ / (100.000 / 1.000)) | 100€ (calculado como 5.000€ / (100.000 / 500.000 * 100)) |
+| Cuña de Radio Local | Anuncio de 30 segundos en una emisora de radio popular entre jóvenes adultos | 2.500€ | 25.000 jóvenes adultos (estimado 5% de la audiencia objetivo = 5 puntos de rating) | 100€ (calculado como 2.500€ / (25.000 / 1.000)) | 500€ (calculado como 2.500€ / 5) |
+
+Notas:
+- CPM = Coste Por Mil impresiones
+- CPPR = Coste Por Punto de Rating
+- Todos los costes están expresados en euros
+- Los cálculos se muestran entre paréntesis para mayor transparencia
+- El alcance se mide en número de jóvenes adultos impactados
+
 
 ### 1. Modelo de Sainsbury (`calc_sainsbury`)
 
