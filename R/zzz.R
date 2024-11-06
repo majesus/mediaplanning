@@ -1,0 +1,33 @@
+.onAttach <- function(libname, pkgname) {
+  packageStartupMessage(
+    "\n",
+    "=== mediaPlanR: Planificación de Medios Publicitarios ===\n",
+    "\nFunciones principales:\n",
+    "\n1. Indicadores básicos:",
+    "\n   - calc_grps(): Calcula el volumen de GRPs",
+    "\n   - calc_cpm(): Calcula el nivel de CPM",
+    "\n",
+    "\n2. Análisis de Cobertura y Frecuencia:",
+    "\n   - calc_sainsbury(): Modelo Sainsbury para múltiples soportes, una inserción por soporte",
+    "\n   - calc_binomial(): Modelo Binomial para múltiples soportes, una inserción por soporte",
+    "\n   - calc_beta_binomial(): Modelo Beta-Binomial para un soporte y n inserciones",
+    "\n   - calc_metheringham(): Modelo Metheringham para m soportes y ni inserciones/soporte",
+    "\n   - calc_hofmans(): Modelo Hofmans para un soporte y n inserciones",
+    "\n   - calc_MBBD(): Modelo MBBD para m soportes y ni inserciones",
+    "\n",
+    "\n3. Optimización de Distribución de Contactos (d) y Acumulada (dc):",
+    "\n   - optimizar_d(): Optimiza parámetros alpha y beta y n de la distribución de contactos",
+    "\n   - optimizar_dc(): Optimiza parámetros alpha y beta y n de la distribución de contactos acumulada",
+    "\n",
+    "\nPara ver ejemplos de uso:",
+    "\n   help(\"calc_grps\")",
+    "\n   help(\"calc_sainsbury\")",
+    "\n   help(\"optimizar_d\")",
+    "\n",
+    "\nDocumentación completa disponible en:",
+    "\n   https://github.com/majesus/mediaPlanR/mediaPlanR_manual.pdf",
+    "\n",
+    "\nVersión: ", utils::packageVersion(pkgname), "\n",
+    "\n=================================================\n"
+  )
+}
