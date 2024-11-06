@@ -23,8 +23,11 @@ library(mediaPlanR)
 setup_mediaPlanR()
 ```
 
+***
+
 ## Todas las funciones:
 
+Modelos:
 - calc_sainsbury() 
 - calc_beta_binomial()     
 - calc_binomial() 
@@ -33,18 +36,23 @@ setup_mediaPlanR()
 - calc_metheringham() 
 - calc_R1_R2() 
 
+Métricas:
 - calcular_metricas_medios() 
 - calc_cpm()                  
 - calc_grps()  
 - plot_grp_metricas()  
- 
+
+Optimización:
 - optimizar_d()               
 - optimizar_dc()              
 - optimize_media_plan() 
 
+Aplicaciones Shiny:
 - run_aud_util_explorer()     
 - run_beta_binomial_explorer() 
 - run_reach_converg_explorer()
+
+***
 
 ## Funciones Principales
 
