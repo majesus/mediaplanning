@@ -19,15 +19,10 @@ setup_mediaPlanR <- function() {
 
   if(length(missing_pkgs) > 0) {
     message("Instalando paquetes faltantes...")
-    for(pkg in missing_pkgs) {
-      message("Instalando ", pkg, "...")
-      install.packages(pkg,
-                       type = "win.binary",
-                       quiet = TRUE,
-                       dependencies = FALSE,
-                       ask = FALSE,
-                       checkBuilt = TRUE)
-    }
+    install.packages(missing_pkgs,
+                     type = "win.binary",
+                     quiet = TRUE,
+                     dependencies = FALSE)
   }
 
   # Cargar los paquetes necesarios
