@@ -292,6 +292,26 @@ Donde:
 * El primer producto corresponde a las probabilidades de exposición a los soportes i
 * El segundo producto corresponde a las probabilidades de no exposición a los soportes j
 
+Proponemos un ejemplo:
+
+**_Tu_ (hipotética campaña de ropa)**
+
+| Canal de Medios        | Alcance Estimado             |
+|------------------------|------------------------------|
+| Anuncios en Instagram  | 30% del público objetivo     |
+| Anuncios de Audio en Spotify | 20% del público objetivo |
+| Carteles en la Universidad   | 15% del público objetivo  |
+
+**Modo de calcular la cobertura neta**
+
+| Paso                                                | Cálculo                  | Resultado |
+|-----------------------------------------------------|--------------------------|-----------|
+| 1. Alcance Bruto Combinado                                | 30% + 20% + 15%          | 65%       |
+| 2. Restar Duplicaciones                   | 65% - 5% - 3% - 2%       | 55%       |
+| 3. Añadir la Triplicación (se restó tres veces) | 55% + 1% | 56%       |
+
+Así pues, la fórmula Sainsbury estima el alcance neto de esta campaña en un 56%, y no en el 65% inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar sobrestimar su impacto.
+
 ***
 
 #### Aplicación de la función:
