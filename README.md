@@ -195,8 +195,8 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 | Opción | Coste | Alcance | CPM | CPPR |
 |--------|--------|----------|-----|------|
-| Campaña en Redes Sociales | 5.000€ | 100.000 jóvenes adultos | 50€ (calculado como 5.000€ / (100.000 / 1.000)) | 100€ (a saber, 5.000€ / (100.000 / 500.000 * 100)) |
-| Cuña de Radio Local | 2.500€ | 25.000 jóvenes adultos (estimado 5% de la audiencia objetivo = 5 puntos de rating) | 100€ (a saber, 2.500€ / (25.000 / 1.000)) | 500€ (calculado como 2.500€ / 5) |
+| Campaña en Redes Sociales | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 * 100)) |
+| Cuña de Radio Local | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (calculado como 2.500€ / 5) |
 
 Notas:
 - Población = 500.000 personas
