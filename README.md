@@ -252,9 +252,19 @@ print(paste("Suma distribución:", round(sum_dist +
 Implementa el modelo de Hofmans para calcular audiencia acumulada con múltiples inserciones en un soporte.
 
 #### Características:
-- Considera duplicación constante entre pares de inserciones
-- Utiliza parámetro de ajuste alpha
-- Ideal para múltiples inserciones en mismo soporte
+
+Objetivo del modelo:
+
+* Calcular la audiencia acumulada de múltiples inserciones en un ÚNICO soporte
+
+Supuestos fundamentales:
+
+* La audiencia de un soporte es constante para todos sus números
+* La duplicación entre dos inserciones cualesquiera es constante e igual a d
+* La duplicación no depende de qué par de inserciones estemos considerando
+* Para N = 3: Usa una formulación directa
+* Para N > 3: Incorpora el parámetro alpha para ajustar el comportamiento no lineal
+* alpha es un parámetro de ajuste que mejora la precisión del modelo para un número de inserciones mayor que 3, corrigiendo la suposición inicial errónea de que k era constante.
 
 ***
 
