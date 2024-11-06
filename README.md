@@ -56,17 +56,15 @@ Aplicaciones Shiny:
 
 ## Funciones Principales
 
-### Calcular métricas soportes
+### Métricas relativas a la población:
 
-**Valores relativos a la población**:
-
-**BDi / CDI**
+**BDI / CDI**
 
 El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. 
 
-- BDI: Este índice mide la fuerza de las ventas de una marca en un mercado específico en relación con el tamaño de la población de ese mercado. Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. Un BDI de 100 significa que las ventas de la marca en ese mercado reflejan la población. Si el índice es inferior a 100, la marca no se consume al nivel per cápita; si el BDI es superior a 100, el consumo es mayor que el nivel per cápita. 
+- **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico en relación con el tamaño de la población de ese mercado. Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. Un BDI de 100 significa que las ventas de la marca en ese mercado reflejan la población. Si el índice es inferior a 100, la marca no se consume al nivel per cápita; si el BDI es superior a 100, el consumo es mayor que el nivel per cápita. 
 
-- CDI: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico en relación con el tamaño de la población de ese mercado. Al igual que el BDI, se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
+- **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico en relación con el tamaño de la población de ese mercado. Al igual que el BDI, se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
 
 | Métrica | Definición | Cálculo | Interpretación |
@@ -84,7 +82,7 @@ El análisis BDI/CDI se utiliza para identificar los mercados donde una marca ti
 
 - Cuadrante III (Bajo BDI, Alto CDI): La categoría es más fuerte que la marca en este mercado. Esta es el área de oportunidad.
 
-- Cuadrante IV (Bajo BDI, Bajo CDI): Tanto la marca como la categoría son débiles en este mercado. Esta es un área donde se evitaría gastar dinero en publicidad.
+- Cuadrante IV (Bajo BDI, Bajo CDI): Tanto la marca como la categoría son débiles en este mercado. Esta es un área donde se evitaría invertir en publicidad.
 
 Además del gráfico de cuadrantes, se puede utilizar el índice de oportunidad de marca (BOI) para identificar mercados con potencial de crecimiento. El BOI se calcula dividiendo el CDI por el BDI. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
 
@@ -104,25 +102,11 @@ El coeficiente de afinidad mide la propensión de un grupo específico (segmento
 
 | Paso | Descripción | Ejemplo |
 |------|-------------|----------|
-| 1 | Determinar el porcentaje del público objetivo que usa/consume el producto o ve el canal de medios | 20% de los adolescentes (público objetivo) ven un programa específico de cocina |
-| 2 | Determinar el porcentaje de la población total que usa/consume el producto o ve el canal de medios | 10% de la población total ve el mismo programa de cocina |
-| 3 | Dividir el porcentaje del público objetivo entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
+| 1 | Determinar el porcentaje del segmento o clase que usa/consume el producto | 20% de los adolescentes (segmento o clase) ven un programa específico de cocina |
+| 2 | Determinar el porcentaje de la población total que usa/consume el producto | 10% de la población total ve el mismo programa de cocina |
+| 3 | Dividir el porcentaje del segmento o clase entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
 
 **Interpretación del resultado:**
-- En este ejemplo, el Índice de Afinidad es 200, lo que significa que los adolescentes tienen el doble de probabilidad de ver este programa de cocina que la persona promedio
-- Un Índice de Afinidad de 100 significa que el público objetivo consume al mismo ritmo que la población total
-- Valores superiores a 100 muestran una mayor afinidad
-- Valores inferiores a 100 indican una menor afinidad
-
-**Cálculo del Índice de Afinidad**
-
-| Paso | Descripción | Ejemplo |
-|------|-------------|----------|
-| 1 | Determinar el porcentaje del público objetivo que usa/consume el producto o ve el canal de medios | 20% de los adolescentes (público objetivo) ven un programa específico de cocina |
-| 2 | Determinar el porcentaje de la población total que usa/consume el producto o ve el canal de medios | 10% de la población total ve el mismo programa de cocina |
-| 3 | Dividir el porcentaje del público objetivo entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
-
-Interpretación del resultado:
 
 - Valores superiores a 100: Sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la media poblacional. Esto puede indicar que el producto es especialmente atractivo o relevante para ese grupo específico.
 
@@ -130,7 +114,7 @@ Interpretación del resultado:
 
 ***
 
-**Valores relativos a la audiencia de un soporte**:
+### Métricas relativas a los soportes:
 
 - **Audiencia (000)**: Número total de personas, expresado en miles, que están expuestas a un anuncio o campaña publicitaria, es decir, las persaonas que se exponen regularmente a un soporte. Es una medida de alcance numérico. Se puede calcular en función de la circulación de una publicación impresa, las estimaciones de audiencia de una emisión o las visitas únicas a un sitio web.
 
