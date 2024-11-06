@@ -33,7 +33,10 @@ Un planificador de medios debe abordar una serie de preguntas fundamentales para
 
 
 <details>
-<summary>**Desarrollo**</summary>
+<summary>Haz clic para mayor desarrollo</summary>
+
+***
+
 **1. Conocimiento del Mercado y de la Audiencia**
 
 ¿Cuál es el tamaño del mercado y la demanda del producto?: El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño actual y futuro del mercado, la segmentación, las cuotas de mercado y las tendencias de la demanda.
@@ -103,8 +106,8 @@ El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de cat
 
 | Métrica | Definición | Cálculo | Interpretación |
 |---------|------------|---------|----------------|
-| BDI (Índice de Desarrollo de Marca) | Mide la fortaleza de las ventas de una marca en un mercado en relación con el tamaño de la población del mercado. | (% de Ventas de la Marca en el Mercado / % de Población en el Mercado) x 100 | BDI > 100: Alta cuota de mercado<br>BDI = 100: Ventas de marca proporcionales a la población del mercado<br>BDI < 100: Baja cuota de mercado |
-| CDI (Índice de Desarrollo de Categoría) | Mide la fortaleza de las ventas de una categoría de producto en un mercado en relación con el tamaño de la población del mercado. | (% de Ventas de la Categoría en el Mercado / % de Población en el Mercado) x 100 | CDI > 100: Alto potencial de ventas de la categoría<br>CDI = 100: Ventas de categoría proporcionales al mercado<br>CDI < 100: Bajo potencial de ventas de la categoría |
+| BDI (Índice de Desarrollo de Marca) | Mide la fortaleza de las ventas de una marca en un mercado (en %) en relación con el tamaño de la población del mercado (en %). | (% de Ventas de la Marca en el Mercado / % de Población en el Mercado) x 100 | BDI > 100: Alta cuota de mercado<br>BDI = 100: Ventas de marca proporcionales a la población del mercado<br>BDI < 100: Baja cuota de mercado |
+| CDI (Índice de Desarrollo de Categoría) | Mide la fortaleza de las ventas de una categoría de producto en un mercado (en %) en relación con el tamaño de la población del mercado (en %). | (% de Ventas de la Categoría en el Mercado / % de Población en el Mercado) x 100 | CDI > 100: Alto potencial de ventas de la categoría<br>CDI = 100: Ventas de categoría proporcionales al mercado<br>CDI < 100: Bajo potencial de ventas de la categoría |
 
 **Uso del BDI / CDI**
 
