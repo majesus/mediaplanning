@@ -112,6 +112,8 @@ print(paste("Probabilidad media:", resultado$probabilidad_media))
 
 Implementa el modelo Beta-Binomial para calcular audiencia neta acumulada y distribución de contactos.
 
+![Beta-Binomial PMF](https://latex.codecogs.com/png.image?P(X=k|n,\alpha,\beta)=\binom{n}{k}\frac{B(k+\alpha,n-k+\beta)}{B(\alpha,\beta)})
+
 #### Características:
 - Modela heterogeneidad en probabilidades de exposición
 - Requiere datos de audiencias acumuladas (A1 y A2)
