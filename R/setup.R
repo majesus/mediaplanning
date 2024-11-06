@@ -8,6 +8,8 @@ setup_mediaPlanR <- function() {
 
   # Evitar instalación desde source si la versión binaria es más antigua
   options(install.packages.check.source = "no")
+  options(install.packages.compile.from.source = "never")
+  options(pkgType = "win.binary")
 
   # Paquetes necesarios
   pkgs <- c("shiny", "bslib", "ggplot2", "dplyr", "plotly")
@@ -22,7 +24,9 @@ setup_mediaPlanR <- function() {
       install.packages(pkg,
                        type = "win.binary",
                        quiet = TRUE,
-                       dependencies = FALSE)
+                       dependencies = FALSE,
+                       ask = FALSE,
+                       checkBuilt = TRUE)
     }
   }
 
