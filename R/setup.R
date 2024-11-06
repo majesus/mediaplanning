@@ -20,26 +20,32 @@ setup_mediaPlanR <- function() {
     "devtools"
   )
 
+  # Configurar opciones de instalación para forzar binarios y evitar preguntas
+  old_options <- options()
+  on.exit(options(old_options))  # Restaurar opciones al salir
+
+  options(
+    install.packages.check.source = "no",
+    install.packages.compile.from.source = "never",
+    pkgType = "binary"
+  )
+
   # Verificar y actualizar paquetes
   for(pkg in required_packages) {
     if(!requireNamespace(pkg, quietly = TRUE)) {
-      message("Instalando ", pkg, "...")
-      # Forzar instalación binaria
-      options(install.packages.check.source = "no")
+      message("Instalando ", pkg, " (versión binaria)...")
       tryCatch({
+        # Instalar solo versión binaria
         install.packages(pkg,
                          type = "binary",
                          dependencies = TRUE,
-                         quiet = TRUE)
+                         quiet = TRUE,
+                         ask = FALSE,
+                         force = TRUE)
       }, error = function(e) {
-        # Si falla la instalación binaria, intentar con source como respaldo
-        message("No se pudo instalar versión binaria de ", pkg, ". Intentando con source...")
-        install.packages(pkg,
-                         type = "source",
-                         dependencies = TRUE,
-                         quiet = TRUE)
+        warning("No se pudo instalar la versión binaria de ", pkg,
+                ". Error: ", e$message)
       })
-      options(install.packages.check.source = "both")
     }
   }
 
