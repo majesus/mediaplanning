@@ -249,7 +249,11 @@ print(paste("Suma distribución:", round(sum_dist +
 
 ### 6. Modelo de Hofmans (`calc_hofmans`)
 
-Implementa el modelo de Hofmans para calcular audiencia acumulada con múltiples inserciones en un soporte.
+El modelo de Hofmans (1966) aborda específicamente el problema de la acumulación de audiencias para múltiples inserciones en un mismo soporte. Su aportación fundamental radica en adaptar la formulación de Agostini (1961), diseñada originalmente para el cálculo de cobertura entre diferentes soportes, al caso de inserciones sucesivas en un único soporte.
+
+El modelo se basa en dos supuestos simplificadores fundamentales: la constancia de la audiencia del soporte para todas sus inserciones, y la existencia de una duplicación constante entre cualquier par de inserciones. Su principal innovación es el reconocimiento y corrección del comportamiento no lineal de la acumulación de audiencias mediante la introducción de un parámetro de ajuste (α) que modifica el factor de acumulación según el número de inserciones.
+
+Para su aplicación práctica, el modelo requiere únicamente conocer las coberturas de las tres primeras inserciones, permitiendo estimar la cobertura para cualquier número posterior de inserciones. Esta estructura lo hace especialmente útil para la planificación de campañas con múltiples inserciones en un mismo soporte, ofreciendo una estimación más precisa del comportamiento real de la acumulación de audiencias a medio y largo plazo.
 
 #### Características:
 
@@ -265,6 +269,18 @@ Supuestos fundamentales:
 * Para N = 3: Usa una formulación directa
 * Para N > 3: Incorpora el parámetro alpha para ajustar el comportamiento no lineal
 * alpha es un parámetro de ajuste que mejora la precisión del modelo para un número de inserciones mayor que 3, corrigiendo la suposición inicial errónea de que k era constante.
+
+Datos de partida:
+
+* R1: Cobertura de la primera inserción (proporción entre 0 y 1)
+* R2: Cobertura acumulada tras la segunda inserción (proporción entre 0 y 1)
+* N ≥ 3: Número de inserciones para las que queremos calcular la cobertura
+
+El modelo calculará como datos adicionales:
+
+* k = 2 * R1 / R2   
+* d = 2 * R1 - R2 
+* alpha         
 
 ***
 
@@ -299,20 +315,6 @@ Donde:
 * d sería entonces: 2(100,000) - 140,000 = 60,000 lectores duplicados
 
 Esta constante d se utiliza luego en la fórmula para calcular la cobertura para N inserciones, asumiendo que la duplicación entre cualquier par de días será siempre la misma.
-
-***
-
-Datos de partida:
-
-* R1: Cobertura de la primera inserción (proporción entre 0 y 1)
-* R2: Cobertura acumulada tras la segunda inserción (proporción entre 0 y 1)
-* N ≥ 3: Número de inserciones para las que queremos calcular la cobertura
-
-El modelo calculará como datos adicionales:
-
-* k = 2 * R1 / R2   
-* d = 2 * R1 - R2 
-* alpha         
 
 ***
 
