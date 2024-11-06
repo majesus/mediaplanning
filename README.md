@@ -58,7 +58,7 @@ Aplicaciones Shiny:
 
 ### Métricas relativas a la población:
 
-**BDI / CDI**
+#### BDI / CDI
 
 El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. 
 
@@ -66,13 +66,14 @@ El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de cat
 
 - **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico en relación con el tamaño de la población de ese mercado. Al igual que el BDI, se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
+**Cálculo del BDI / CDI**
 
 | Métrica | Definición | Cálculo | Interpretación |
 |---------|------------|---------|----------------|
 | BDI (Índice de Desarrollo de Marca) | Mide la fortaleza de las ventas de una marca en un mercado en relación con el tamaño de la población del mercado. | (% de Ventas de la Marca en el Mercado / % de Población en el Mercado) x 100 | BDI > 100: Alta cuota de mercado<br>BDI = 100: Ventas de marca proporcionales a la población del mercado<br>BDI < 100: Baja cuota de mercado |
 | CDI (Índice de Desarrollo de Categoría) | Mide la fortaleza de las ventas de una categoría de producto en un mercado en relación con el tamaño de la población del mercado. | (% de Ventas de la Categoría en el Mercado / % de Población en el Mercado) x 100 | CDI > 100: Alto potencial de ventas de la categoría<br>CDI = 100: Ventas de categoría proporcionales al mercado<br>CDI < 100: Bajo potencial de ventas de la categoría |
 
-**Uso del BDI y CDI**
+**Uso del BDI / CDI**
 
 El análisis BDI/CDI se utiliza para identificar los mercados donde una marca tiene un buen rendimiento y dónde hay potencial de crecimiento. Se suele representar gráficamente en un gráfico de cuadrantes, donde cada cuadrante refleja una relación diferente entre la marca y la categoría:
 
@@ -94,7 +95,7 @@ En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimi
 
 ***
 
-**Coeficiente de afinidad**
+#### Coeficiente de afinidad
 
 El coeficiente de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con el resto de la población. Este índice es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
 
