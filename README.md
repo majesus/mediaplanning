@@ -35,13 +35,19 @@ Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-B
 - Genera distribución de contactos completa
 - Permite ajustar tolerancia y criterios de convergencia
 
+***
+
 ```R
-resultado <- optimizar_d(
-  Pob = 100000,          # Tamaño de la población
-  FE = 3,                # Frecuencia efectiva
-  cob_efectiva = 59000,  # Cobertura objetivo
-  A1 = 50000,            # Audiencia primera inserción
-  max_inserciones = 5    # Máximo de inserciones
+resultado2 <- optimizar_d(
+  Pob = 1000000,
+  FE = 4,
+  cob_efectiva = 600000,
+  A1 = 450000,
+  max_inserciones = 8,
+  tolerancia = 0.03,     
+  step_A = 0.01,         
+  step_B = 0.01,
+  min_soluciones = 20    
 )
 
 # Examinar resultados
@@ -53,10 +59,18 @@ print(resultado$data)
 
 Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (FEM) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio FEM o más veces.
 
+#### Características principales:
+- Calcula parámetros óptimos alpha y beta
+- Determina número óptimo de inserciones
+- Genera distribución de contactos completa
+- Permite ajustar tolerancia y criterios de convergencia
+
+***
+
 ```R
 resultado <- optimizar_dc(
   Pob = 500000,
-  FEM = 4,               # Frecuencia efectiva mínima
+  FEM = 4,               
   cob_efectiva = 250000,
   A1 = 200000,
   max_inserciones = 10,
@@ -69,9 +83,18 @@ resultado <- optimizar_dc(
 
 ### 3. Modelo de Sainsbury (`calc_sainsbury`)
 
-Implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange, para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte. El modelo considera la duplicación aleatoria, las probabilidades individuales de exposición homogéneas, y las probabilidades de exposición del soporte heterogéneas para una estimación más precisa de la cobertura y la distribución de contactos (y acumulada). De las dos últimas hipótesis se deriva que la probabilidad de que un individuo resulte expuesto al soporte i vendrá dado por el cociente entre la audiencia del soporte i (casos favorables) y la población (casos totales). Por su parte, de la asunción de la duplicación aleatoria se deriva que la probabilidad de exposición continuará siendo una variable Bernouilli con diferentes probabilidadades de exposición en cada soporte.
+Implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange, para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte. 
+
+El modelo considera la duplicación aleatoria, las probabilidades individuales de exposición homogéneas, y las probabilidades de exposición del soporte heterogéneas para una estimación más precisa de la cobertura y la distribución de contactos (y acumulada). De las dos últimas hipótesis se deriva que la probabilidad de que un individuo resulte expuesto al soporte i vendrá dado por el cociente entre la audiencia del soporte i (casos favorables) y la población (casos totales). Por su parte, de la asunción de la duplicación aleatoria se deriva que la probabilidad de exposición continuará siendo una variable Bernouilli con diferentes probabilidadades de exposición en cada soporte.
+
+#### Características:
+- Considera la independencia entre soportes, es decir, la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro (duplicación aleatoria)
+- Asume que las probabilidades de exposición individuales son homogéneas
+- Las probabilidades de exposición edl soporte son heterogéneas
 
 ***
+
+Cobertura neta (probabilida de al menos 1 contacto):
 
 ![Sainsbury Coverage Extended](https://latex.codecogs.com/png.image?C=1-\prod_{i=1}^{n}(1-\frac{A_i}{P}))
 
@@ -84,21 +107,18 @@ Donde:
 
 ***
 
+Distribución de contactos (probabilidad de exactamente k contactos):
+
 ![Sainsbury Distribution](https://latex.codecogs.com/png.image?P(X=k)=\sum_{|S|=k}\prod_{i\in%20S}p_i\prod_{j\notin%20S}(1-p_j))
 
 Donde:
 
 * |S| = k significa que sumamos sobre todas las combinaciones posibles de k soportes
 * pi es la probabilidad de exposición al soporte i (Ai/P)
-* El primer producto es sobre los soportes incluidos en la combinación
-* El segundo producto es sobre los soportes no incluidos
+* El primer producto corresponde a las probabilidades de exposición a los soportes i
+* El segundo producto corresponde a las probabilidades de no exposición a los soportes j
 
 ***
-
-#### Características:
-- Considera la independencia entre soportes, es decir, la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro (duplicación aleatoria)
-- Asume que las probabilidades de exposición individuales son homogéneas
-- Las probabilidades de exposición edl soporte son heterogéneas
 
 ```R
 audiencias <- c(300000, 400000, 200000)  # Audiencias individuales
@@ -124,6 +144,33 @@ Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la
 - La duplicación de las audiencias es un suceso aleatorio
 - Las probabilidades de exposición son estacionarias
 
+***
+
+Cobertura neta (probabilidad de al menos 1 contacto):
+
+![Average Probability](https://latex.codecogs.com/png.image?p=\frac{1}{n}\sum_{i=1}^{n}\frac{A_i}{P})
+
+Donde:
+
+p es la probabilidad media
+n es el número de soportes
+Ai es la audiencia del soporte i
+P es la población total
+
+***
+
+Distribución de contactos (probabilidad de exactamente k contactos):
+
+![Binomial Distribution](https://latex.codecogs.com/png.image?P(X=k)=\binom{n}{k}p^k(1-p)^{n-k})
+
+Donde:
+
+k es el número de contactos
+n es el número de soportes
+p es la probabilidad media calculada anteriormente
+
+***
+
 ```R
 audiencias <- c(300000, 400000, 200000)
 pob_total <- 1000000
@@ -138,7 +185,17 @@ print(paste("Probabilidad media:", resultado$probabilidad_media))
 Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. 
 Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
 
+
+#### Características:
+- Modela heterogeneidad de la población en sus probabilidades de exposición
+- La acumulación de audiencias no es aleatoria
+- Asume la estacionariedad (estabilidad en el tiempo) de las probabilidades de exposición respecto a los individuos o a las inserciones
+- Requiere datos de audiencias acumuladas (A1 y A2)
+- Mayor precisión para poblaciones heterogéneas
+
 ***
+
+Distribución de contactos ((probabilidad de exactamente k contactos))
 
 ![Beta-Binomial PMF](https://latex.codecogs.com/png.image?P(X=k|n,\alpha,\beta)=\binom{n}{k}\frac{B(k+\alpha,n-k+\beta)}{B(\alpha,\beta)})
 
@@ -152,14 +209,8 @@ Combina dos pasos: modela la probabilidad de éxito aplicando la distribución B
 ![Alpha](https://latex.codecogs.com/png.image?\alpha=\frac{R_1(R_2-R_1)}{2R_1-R_1^2-R_2})
 
 ![Beta](https://latex.codecogs.com/png.image?\beta=\alpha\frac{1-R_1}{R_1})
-***
 
-#### Características:
-- Modela heterogeneidad de la población en sus probabilidades de exposición
-- La acumulación de audiencias no es aleatoria
-- Asume la estacionariedad (estabilidad en el tiempo) de las probabilidades de exposición respecto a los individuos o a las inserciones
-- Requiere datos de audiencias acumuladas (A1 y A2)
-- Mayor precisión para poblaciones heterogéneas
+***
 
 ```R
 resultado <- calc_beta_binomial(
@@ -187,6 +238,8 @@ Implementa el modelo de Hofmans para calcular audiencia acumulada con múltiples
 - Considera duplicación constante entre pares de inserciones
 - Utiliza parámetro de ajuste alpha
 - Ideal para múltiples inserciones en mismo soporte
+
+***
 
 ```R
 R1 <- 0.06    # 6% cobertura primera inserción
