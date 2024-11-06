@@ -183,7 +183,7 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 **Tabla de principales métricas**
 
-| Soporte  | Audiencia_miles | Inserciones | RP | SOV   | Tarifa_Pag_Color | CPM    | C_RP     | Indice_Utilidad | Audiencia_Util_miles | Coste_Contacto_Util |
+| Soporte  | Audiencia_miles | Inserciones | RP | SOV   | Tarifa_Pag_Color | CPM    | C/RP     | Indice_Utilidad | Audiencia_Util_miles | Coste_Contacto_Util |
 |----------|----------------|-------------|----|---------|--------------------|--------|----------|----------------|-------------------|-------------------|
 | Diario 1 | 1500          | 1           | 0  | 40.54  | 500               | 333.33 | 131666.7 | 0.30           | 450               | 1.11              |
 | Diario 2 | 1000          | 1           | 0  | 27.03  | 250               | 250.00 | 98750.0  | 0.20           | 200               | 1.25              |
@@ -193,7 +193,7 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 **Tabla de comparación de Opciones Publicitarias**
 
-| Opción | Coste | Alcance | CPM | CPPR |
+| Opción | Coste | Alcance | CPM | C/RP |
 |--------|--------|----------|-----|------|
 | Campaña en Redes Sociales | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 * 100)) |
 | Cuña de Radio Local | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
@@ -201,7 +201,7 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 Notas:
 - Población = 500.000 personas
 - CPM = Coste Por Mil impresiones
-- CPPR = Coste Por Punto de Rating
+- C/RP = Coste Por Punto de Rating
 - Todos los costes están expresados en euros
 - Los cálculos se muestran entre paréntesis para mayor transparencia
 - El alcance se mide en número de jóvenes adultos impactados
