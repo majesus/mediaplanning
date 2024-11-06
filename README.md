@@ -196,7 +196,7 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 | Opción | Coste | Alcance | CPM | CPPR |
 |--------|--------|----------|-----|------|
 | Campaña en Redes Sociales | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 * 100)) |
-| Cuña de Radio Local | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (calculado como 2.500€ / 5) |
+| Cuña de Radio Local | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
 
 Notas:
 - Población = 500.000 personas
@@ -208,6 +208,8 @@ Notas:
 
 ***
 
+La función **calcular_metricas_medios()** del paquete mediaPlanR me permite estimar la tabla resumen del conjunto de soportes elegidos. Te muestro un breve ejemplo de cómo aplicarla.
+
 ```R
 resultado <- calcular_metricas_medios(
   soportes = c("Diario 1", "Diario 2", "Diario 3"),
@@ -217,6 +219,8 @@ resultado <- calcular_metricas_medios(
   pob_total = 39500000)
 head(resultado)
 ```
+
+A continuación, te muestro las principales funciones del paquete mediaPlanR.
 
 ## Funciones de mediaPlanR
 
@@ -339,6 +343,8 @@ Donde:
 
 ***
 
+#### Aplicación de la función:
+
 ```R
 audiencias <- c(300000, 400000, 200000)
 pob_total <- 1000000
@@ -396,6 +402,8 @@ Donde:
 * β (beta) controla la asimetría hacia valores bajos de probabilidad
 
 ***
+
+#### Aplicación de la función:
 
 ```R
 resultado <- calc_beta_binomial(
@@ -486,6 +494,8 @@ Esta constante d se utiliza luego en la fórmula para calcular la cobertura para
 
 ***
 
+#### Aplicación de la función:
+
 ```R
 R1 <- 0.06    
 R2 <- 0.103   
@@ -529,6 +539,8 @@ Este modelo se basa en el procedimiento seguido por Leckenby y Boyd  (1984a) en 
 
 ***
 
+#### Aplicación de la función:
+
 ```R
 resultado <- calc_MBBD(
   m = 3,                          
@@ -551,6 +563,8 @@ Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-B
 - Permite ajustar tolerancia y criterios de convergencia
 
 ***
+
+#### Aplicación de la función:
 
 ```R
 resultado2 <- optimizar_d(
@@ -582,6 +596,8 @@ Esta función optimiza la distribución de contactos publicitarios y calcula los
 
 ***
 
+#### Aplicación de la función:
+
 ```R
 resultado <- optimizar_dc(
   Pob = 500000,
@@ -605,6 +621,10 @@ Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 - Maneja restricciones presupuestarias
 - Permite exclusión de soportes específicos
 - Trabaja con audiencias brutas o útiles
+
+***
+
+#### Aplicación de la función:
 
 ```R
 # Ejemplo con audiencia bruta y modelo Sainsbury
@@ -664,6 +684,7 @@ El paquete incluye validación de entrada y manejo de errores:
 
 Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 Díez de Castro, E.C., Sánchez-Franco, M.J., y Martín Armario, E. (2011). Comunicaciones de marketing. Planificación y Control. Pirámide, España.
+Kelley, L. D., Jugenheimer, D. W., y Sheehan, K. B. (2015). Advertising Media Planning: A Brand Management Approach (4ª ed.). Routledge.
 
 ## Contacto y Soporte
 
