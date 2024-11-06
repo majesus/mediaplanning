@@ -98,24 +98,9 @@ En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimi
 
 **Coeficiente de afinidad**
 
-El Índice de Afinidad mide la probabilidad de que un público objetivo específico consuma un producto o una marca en comparación con la población general. Se expresa en tanto por uno o %.
+El coeficiente de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con el resto de la población. Este índice es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
 
-# Cálculo del Índice de Afinidad
-
-| Paso | Descripción | Ejemplo |
-|------|-------------|----------|
-| 1 | Determinar el porcentaje del público objetivo que usa/consume el producto o ve el canal de medios | 20% de los adolescentes (público objetivo) ven un programa específico de cocina |
-| 2 | Determinar el porcentaje de la población total que usa/consume el producto o ve el canal de medios | 10% de la población total ve el mismo programa de cocina |
-| 3 | Dividir el porcentaje del público objetivo entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
-
-**Interpretación del resultado:**
-- En este ejemplo, el Índice de Afinidad es 200, lo que significa que los adolescentes tienen el doble de probabilidad de ver este programa de cocina que la persona promedio
-- Un Índice de Afinidad de 100 significa que el público objetivo consume al mismo ritmo que la población total
-- Valores superiores a 100 muestran una mayor afinidad
-- Valores inferiores a 100 indican una menor afinidad
-
-```markdown
-# Cálculo del Índice de Afinidad
+**Cálculo del Índice de Afinidad**
 
 | Paso | Descripción | Ejemplo |
 |------|-------------|----------|
@@ -128,7 +113,20 @@ El Índice de Afinidad mide la probabilidad de que un público objetivo específ
 - Un Índice de Afinidad de 100 significa que el público objetivo consume al mismo ritmo que la población total
 - Valores superiores a 100 muestran una mayor afinidad
 - Valores inferiores a 100 indican una menor afinidad
-```
+
+**Cálculo del Índice de Afinidad**
+
+| Paso | Descripción | Ejemplo |
+|------|-------------|----------|
+| 1 | Determinar el porcentaje del público objetivo que usa/consume el producto o ve el canal de medios | 20% de los adolescentes (público objetivo) ven un programa específico de cocina |
+| 2 | Determinar el porcentaje de la población total que usa/consume el producto o ve el canal de medios | 10% de la población total ve el mismo programa de cocina |
+| 3 | Dividir el porcentaje del público objetivo entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
+
+Interpretación del resultado:
+
+- Valores superiores a 100: Sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la media poblacional. Esto puede indicar que el producto es especialmente atractivo o relevante para ese grupo específico.
+
+- Valores inferiores a 100: Señalan una menor afinidad de la subpoblación respecto al producto, lo que podría sugerir que el producto tiene menos relevancia o penetración en ese grupo en particular.
 
 ***
 
