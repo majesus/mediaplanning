@@ -1,16 +1,3 @@
-# Lista de paquetes necesarios
-paquetes_requeridos <- c("shiny", "bslib", "ggplot2")
-
-# Función para verificar e instalar paquetes
-instalar_si_falta <- function(paquete) {
-  if (!requireNamespace(paquete, quietly = TRUE)) {
-    install.packages(paquete)
-  }
-}
-
-# Aplicar la función a cada paquete
-invisible(sapply(paquetes_requeridos, instalar_si_falta))
-
 # Function to calculate beta-binomial probability mass function
 
 dbetabinom <- function(x, n, alpha, beta) {
