@@ -199,16 +199,33 @@ Distribución de contactos ((probabilidad de exactamente k contactos))
 
 ![Beta-Binomial PMF](https://latex.codecogs.com/png.image?P(X=k|n,\alpha,\beta)=\binom{n}{k}\frac{B(k+\alpha,n-k+\beta)}{B(\alpha,\beta)})
 
+Donde:
+
+* k es el número de contactos
+* n es el número de inserciones
+* α (alpha) y β (beta) son los parámetros de forma
+* B(alpha, beta) es la función beta
+
 ***
 
 ![R1](https://latex.codecogs.com/png.image?R_1=\frac{\alpha}{\alpha+\beta})
 
 ![R2](https://latex.codecogs.com/png.image?R_2=\frac{\alpha(\alpha+1)}{(\alpha+\beta)(\alpha+\beta+1)})
 
+Donde:
+
+* R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
+* R2 es la proporción de audiencia alcanzada (al menos 1 vez) tras la segunda inserción
+
 ***
 ![Alpha](https://latex.codecogs.com/png.image?\alpha=\frac{R_1(R_2-R_1)}{2R_1-R_1^2-R_2})
 
 ![Beta](https://latex.codecogs.com/png.image?\beta=\alpha\frac{1-R_1}{R_1})
+
+Donde:
+
+* α (alpha) controla la asimetría hacia valores altos de probabilidad
+* β (beta) controla la asimetría hacia valores bajos de probabilidad
 
 ***
 
@@ -227,7 +244,7 @@ print(paste("Beta:", round(resultado$parametros$beta, 4)))
 # Verificar consistencia
 sum_dist <- sum(resultado$distribucion$porcentaje)/100
 print(paste("Suma distribución:", round(sum_dist +
-                                          resultado$parametros$prob_cero_contactos/100, 4)))
+                                        resultado$parametros$prob_cero_contactos/100, 4)))
 ```
 
 ### 6. Modelo de Hofmans (`calc_hofmans`)
@@ -238,6 +255,54 @@ Implementa el modelo de Hofmans para calcular audiencia acumulada con múltiples
 - Considera duplicación constante entre pares de inserciones
 - Utiliza parámetro de ajuste alpha
 - Ideal para múltiples inserciones en mismo soporte
+
+***
+
+Imagina un periódico que tiene estas audiencias:
+
+* Lunes: 100,000 lectores
+* Martes: 100,000 lectores
+* Miércoles: 100,000 lectores
+
+La duplicación constante significa que el número de personas que leen DOS DÍAS CUALESQUIERA es siempre el mismo. Por ejemplo:
+
+* Entre lunes y martes: 60,000 leen ambos días
+* Entre martes y miércoles: 60,000 leen ambos días
+* Entre lunes y miércoles: 60,000 leen ambos días
+
+Es decir, d = 60,000 para cualquier par de días.
+
+Si NO fuera constante, podría ser:
+
+* Entre lunes y martes: 60,000 leen ambos días
+* Entre martes y miércoles: 55,000 leen ambos días
+* Entre lunes y miércoles: 40,000 leen ambos días
+
+En el modelo de Hofmans, esta simplificación (duplicación constante) permite calcular:
+
+d = 2R1 - R2
+
+Donde:
+
+* R1 es la cobertura de un día (por ejemplo 100,000)
+* R2 es la cobertura acumulada de dos días (por ejemplo 140,000)
+* d sería entonces: 2(100,000) - 140,000 = 60,000 lectores duplicados
+
+Esta constante d se utiliza luego en la fórmula para calcular la cobertura para N inserciones, asumiendo que la duplicación entre cualquier par de días será siempre la misma.
+
+***
+
+Datos de partida:
+
+* R1: Cobertura de la primera inserción (proporción entre 0 y 1)
+* R2: Cobertura acumulada tras la segunda inserción (proporción entre 0 y 1)
+* N ≥ 3: Número de inserciones para las que queremos calcular la cobertura
+
+El modelo calculará como datos adicionales:
+
+* k = 2 * R1 / R2   
+* d = 2 * R1 - R2 
+* alpha         
 
 ***
 
