@@ -3,48 +3,62 @@
 setup_mediaPlanR <- function() {
   message("Iniciando configuración de MediaPlanR...")
 
-  # Desactivar las actualizaciones automáticas
-  if(!requireNamespace("remotes", quietly = TRUE)) {
-    install.packages("remotes", type = "binary", dependencies = FALSE, quiet = TRUE)
+  # Guardar opciones originales
+  old <- options()
+  on.exit(options(old))
+
+  # Forzar CRAN espejo específico y binarios
+  options(repos = getOption("repos")["CRAN"])
+  if (is.na(options()$repos["CRAN"])) {
+    options(repos = c(CRAN = "https://cran.rstudio.com/"))
   }
 
-  # Instalar versiones específicas de los paquetes de dependencia
-  suppressWarnings({
-    remotes::install_version("fastmap", version = "1.1.1", type = "binary", dependencies = FALSE, quiet = TRUE)
-    remotes::install_version("cachem", version = "1.0.8", type = "binary", dependencies = FALSE, quiet = TRUE)
-    remotes::install_version("shiny", version = "1.7.5", type = "binary", dependencies = FALSE, quiet = TRUE)
-  })
+  # Desactivar TODAS las actualizaciones y preguntas
+  options(install.packages.compile.from.source = "never")
+  options(install.packages.check.source = FALSE)
+  options(checkBuilt = FALSE)
+  options(askYesNo = FALSE)
+  options(menu = FALSE)
 
-  # Lista del resto de paquetes con versiones específicas
-  pkg_versions <- c(
-    "bslib" = "0.5.1",
-    "ggplot2" = "3.4.4",
-    "dplyr" = "1.1.3",
-    "plotly" = "4.10.3",
-    "tidyr" = "1.3.0",
-    "tibble" = "3.2.1",
-    "purrr" = "1.0.2",
-    "magrittr" = "2.0.3",
-    "scales" = "1.2.1",
-    "DT" = "0.31",
-    "readr" = "2.1.4"
+  # Lista de paquetes necesarios con sus dependencias explícitas
+  pkg_deps <- list(
+    fastmap = "1.1.1",
+    cachem = "1.0.8",
+    shiny = "1.7.5",
+    bslib = "0.5.1",
+    ggplot2 = "3.4.4",
+    dplyr = "1.1.3",
+    plotly = "4.10.3"
   )
 
-  # Instalar cada paquete solo si no está instalado
-  for(pkg in names(pkg_versions)) {
+  # Instalar cada paquete individualmente con sus versiones específicas
+  for(pkg in names(pkg_deps)) {
     if(!requireNamespace(pkg, quietly = TRUE)) {
-      message("Instalando ", pkg, " versión ", pkg_versions[pkg], "...")
-      suppressWarnings({
-        remotes::install_version(pkg,
-                                 version = pkg_versions[pkg],
-                                 type = "binary",
-                                 dependencies = FALSE,
-                                 quiet = TRUE)
-      })
+      message(sprintf("Instalando %s versión %s ...", pkg, pkg_deps[[pkg]]))
+      try({
+        utils::install.packages(
+          pkg,
+          type = "binary",
+          quiet = TRUE,
+          dependencies = TRUE,
+          ask = FALSE,
+          checkBuilt = FALSE,
+          INSTALL_opts = c("--no-docs", "--no-demo", "--no-test-load")
+        )
+      }, silent = TRUE)
     }
   }
 
-  # Cargar paquetes principales
+  # Verificar instalaciones
+  missing <- names(pkg_deps)[!sapply(names(pkg_deps), requireNamespace, quietly = TRUE)]
+  if(length(missing) > 0) {
+    stop("No se pudieron instalar los siguientes paquetes: ",
+         paste(missing, collapse = ", "))
+  }
+
+  message("Configuración completada exitosamente.")
+
+  # Cargar paquetes principales sin mensajes
   suppressMessages({
     library(shiny)
     library(bslib)
@@ -52,19 +66,23 @@ setup_mediaPlanR <- function() {
     library(dplyr)
     library(plotly)
   })
-
-  message("Configuración completada. MediaPlanR está listo para usar.")
 }
 
-#' @export
-run_mediaPlanR <- function(app = c("beta", "aud", "reach")) {
-  app <- match.arg(app)
-  if(!requireNamespace("shiny", quietly = TRUE) ||
-     !requireNamespace("bslib", quietly = TRUE)) {
-    setup_mediaPlanR()
-  }
-  switch(app,
-         "beta" = run_beta_binomial_explorer(),
-         "aud" = run_aud_util_explorer(),
-         "reach" = run_reach_converg_explorer())
+# Para instalar manualmente un solo paquete sin prompts:
+install_package_no_prompt <- function(pkg) {
+  options(install.packages.compile.from.source = "never",
+          install.packages.check.source = FALSE,
+          checkBuilt = FALSE,
+          askYesNo = FALSE,
+          menu = FALSE)
+
+  utils::install.packages(
+    pkg,
+    type = "binary",
+    quiet = TRUE,
+    dependencies = TRUE,
+    ask = FALSE,
+    checkBuilt = FALSE,
+    INSTALL_opts = c("--no-docs", "--no-demo", "--no-test-load")
+  )
 }
