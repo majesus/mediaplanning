@@ -58,7 +58,81 @@ Aplicaciones Shiny:
 
 ### Calcular métricas soportes
 
-Calcula las principales métricas de un conjunto de soportes:
+**Valores relativos a la población**:
+
+**BDi / CDI**
+
+El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. 
+
+- BDI: Este índice mide la fuerza de las ventas de una marca en un mercado específico en relación con el tamaño de la población de ese mercado. Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. Un BDI de 100 significa que las ventas de la marca en ese mercado reflejan la población. Si el índice es inferior a 100, la marca no se consume al nivel per cápita; si el BDI es superior a 100, el consumo es mayor que el nivel per cápita. 
+
+- CDI: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico en relación con el tamaño de la población de ese mercado. Al igual que el BDI, se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
+
+
+| Métrica | Definición | Cálculo | Interpretación |
+|---------|------------|---------|----------------|
+| BDI (Índice de Desarrollo de Marca) | Mide la fortaleza de las ventas de una marca en un mercado en relación con el tamaño de la población del mercado. | (% de Ventas de la Marca en el Mercado / % de Población en el Mercado) x 100 | BDI > 100: Alta cuota de mercado<br>BDI = 100: Ventas de marca proporcionales a la población del mercado<br>BDI < 100: Baja cuota de mercado |
+| CDI (Índice de Desarrollo de Categoría) | Mide la fortaleza de las ventas de una categoría de producto en un mercado en relación con el tamaño de la población del mercado. | (% de Ventas de la Categoría en el Mercado / % de Población en el Mercado) x 100 | CDI > 100: Alto potencial de ventas de la categoría<br>CDI = 100: Ventas de categoría proporcionales al mercado<br>CDI < 100: Bajo potencial de ventas de la categoría |
+
+**Uso del BDI y CDI**
+
+El análisis BDI/CDI se utiliza para identificar los mercados donde una marca tiene un buen rendimiento y dónde hay potencial de crecimiento. Se suele representar gráficamente en un gráfico de cuadrantes, donde cada cuadrante refleja una relación diferente entre la marca y la categoría:
+
+- Cuadrante I (Alto BDI, Alto CDI): Tanto la marca como la categoría son fuertes en este mercado. Esta es una buena área para defender.
+
+- Cuadrante II (Alto BDI, Bajo CDI): El BDI es mucho más fuerte que el CDI, lo que significa que el único crecimiento de la marca en este mercado estaría limitado al crecimiento de la categoría.
+
+- Cuadrante III (Bajo BDI, Alto CDI): La categoría es más fuerte que la marca en este mercado. Esta es el área de oportunidad.
+
+- Cuadrante IV (Bajo BDI, Bajo CDI): Tanto la marca como la categoría son débiles en este mercado. Esta es un área donde se evitaría gastar dinero en publicidad.
+
+Además del gráfico de cuadrantes, se puede utilizar el índice de oportunidad de marca (BOI) para identificar mercados con potencial de crecimiento. El BOI se calcula dividiendo el CDI por el BDI. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
+
+**Factores adicionales**
+
+Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a considerar en la planificación geográfica. La distribución también juega un papel fundamental. Una marca puede tener un BDI bajo en un mercado debido a una distribución limitada. En estos casos, se recomienda realizar un análisis de ventas por punto de distribución para evaluar el rendimiento de la marca en los puntos de venta donde está disponible.
+
+En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
+
+***
+
+**Coeficiente de afinidad**
+
+El Índice de Afinidad mide la probabilidad de que un público objetivo específico consuma un producto o una marca en comparación con la población general. Se expresa en tanto por uno o %.
+
+# Cálculo del Índice de Afinidad
+
+| Paso | Descripción | Ejemplo |
+|------|-------------|----------|
+| 1 | Determinar el porcentaje del público objetivo que usa/consume el producto o ve el canal de medios | 20% de los adolescentes (público objetivo) ven un programa específico de cocina |
+| 2 | Determinar el porcentaje de la población total que usa/consume el producto o ve el canal de medios | 10% de la población total ve el mismo programa de cocina |
+| 3 | Dividir el porcentaje del público objetivo entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
+
+**Interpretación del resultado:**
+- En este ejemplo, el Índice de Afinidad es 200, lo que significa que los adolescentes tienen el doble de probabilidad de ver este programa de cocina que la persona promedio
+- Un Índice de Afinidad de 100 significa que el público objetivo consume al mismo ritmo que la población total
+- Valores superiores a 100 muestran una mayor afinidad
+- Valores inferiores a 100 indican una menor afinidad
+
+```markdown
+# Cálculo del Índice de Afinidad
+
+| Paso | Descripción | Ejemplo |
+|------|-------------|----------|
+| 1 | Determinar el porcentaje del público objetivo que usa/consume el producto o ve el canal de medios | 20% de los adolescentes (público objetivo) ven un programa específico de cocina |
+| 2 | Determinar el porcentaje de la población total que usa/consume el producto o ve el canal de medios | 10% de la población total ve el mismo programa de cocina |
+| 3 | Dividir el porcentaje del público objetivo entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
+
+**Interpretación del resultado:**
+- En este ejemplo, el Índice de Afinidad es 200, lo que significa que los adolescentes tienen el doble de probabilidad de ver este programa de cocina que la persona promedio
+- Un Índice de Afinidad de 100 significa que el público objetivo consume al mismo ritmo que la población total
+- Valores superiores a 100 muestran una mayor afinidad
+- Valores inferiores a 100 indican una menor afinidad
+```
+
+***
+
+**Valores relativos a la audiencia de un soporte**:
 
 - **Audiencia (000)**: Número total de personas, expresado en miles, que están expuestas a un anuncio o campaña publicitaria, es decir, las persaonas que se exponen regularmente a un soporte. Es una medida de alcance numérico. Se puede calcular en función de la circulación de una publicación impresa, las estimaciones de audiencia de una emisión o las visitas únicas a un sitio web.
 
@@ -100,12 +174,24 @@ Calcula las principales métricas de un conjunto de soportes:
 | Cuña de Radio Local | Anuncio de 30 segundos en una emisora de radio popular entre jóvenes adultos | 2.500€ | 25.000 jóvenes adultos (estimado 5% de la audiencia objetivo = 5 puntos de rating) | 100€ (calculado como 2.500€ / (25.000 / 1.000)) | 500€ (calculado como 2.500€ / 5) |
 
 Notas:
+- Población = 500.000 personas
 - CPM = Coste Por Mil impresiones
 - CPPR = Coste Por Punto de Rating
 - Todos los costes están expresados en euros
 - Los cálculos se muestran entre paréntesis para mayor transparencia
 - El alcance se mide en número de jóvenes adultos impactados
 
+***
+
+```R
+resultado <- calcular_metricas_medios(
+  soportes = c("Diario 1", "Diario 2", "Diario 3"),
+  audiencias = c(1500, 1000, 1200),
+  tarifas = c(500, 250, 400),
+  ind_utilidad = c(0.3, 0.20, 0.25),
+  pob_total = 39500000)
+head(resultado)
+```
 
 ### 1. Modelo de Sainsbury (`calc_sainsbury`)
 
