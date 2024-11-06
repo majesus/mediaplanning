@@ -1,4 +1,4 @@
-# Herramientas de Optimización de Planificación de Medios
+# Herramientas para la Planificación de Medios Publicitarios
 
 ## Descripción General
 Este paquete R proporciona un conjunto completo de herramientas para la optimización de la planificación de medios, implementando diversos modelos para calcular cobertura, distribución de contactos y acumulación de audiencia. El paquete incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham y Hofmans.
@@ -25,9 +25,9 @@ setup_mediaPlanR()
 
 ## Funciones Principales
 
-### 1. Optimización de Distribución Beta-Binomial (`optimizar_d`)
+### 1. Optimización de Distribución de Contactos (`optimizar_d`)
 
-Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Calcula los coeficientes de duplicación (R1 y R2) y encuentra la combinación óptima de parámetros alpha y beta.
+Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 
 #### Características principales:
 - Calcula parámetros óptimos alpha y beta
@@ -51,7 +51,7 @@ print(resultado$data)
 
 ### 2. Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
 
-Similar a `optimizar_d` pero enfocado en distribución de contactos acumulada, trabajando con frecuencia efectiva mínima (FEM).
+Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (FEM) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio FEM o más veces.
 
 ```R
 resultado <- optimizar_dc(
@@ -69,7 +69,7 @@ resultado <- optimizar_dc(
 
 ### 3. Modelo de Sainsbury (`calc_sainsbury`)
 
-Implementa el modelo de Sainsbury para calcular la cobertura y la distribución de contactos para medios publicitarios con una única inserción por soporte.
+Implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange, para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte. El modelo considera la duplicación aleatoria, las probabilidades individuales de exposición homogéneas, y las probabilidades de exposición del soporte heterogéneas para una estimación más precisa de la cobertura y la distribución de contactos (y acumulada). De las dos últimas hipótesis se deriva que la probabilidad de que un individuo resulte expuesto al soporte i vendrá dado por el cociente entre la audiencia del soporte i (casos favorables) y la población (casos totales). Por su parte, de la asunción de la duplicación aleatoria se deriva que la probabilidad de exposición continuará siendo una variable Bernouilli con diferentes probabilidadades de exposición en cada soporte.
 
 ***
 
@@ -96,9 +96,9 @@ Donde:
 ***
 
 #### Características:
-- Considera independencia entre soportes
-- Calcula duplicación como producto de probabilidades
-- Genera distribución de contactos exacta
+- Considera la independencia entre soportes, es decir, la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro (duplicación aleatoria)
+- Asume que las probabilidades de exposición individuales son homogéneas
+- Las probabilidades de exposición edl soporte son heterogéneas
 
 ```R
 audiencias <- c(300000, 400000, 200000)  # Audiencias individuales
@@ -116,12 +116,13 @@ print(paste("Suma distribución:", round(sum_dist, 4)))
 
 ### 4. Modelo Binomial (`calc_binomial`)
 
-Implementa el modelo Binomial para calcular cobertura y distribución de contactos, asumiendo probabilidades homogéneas.
+Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte. El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte. Las probabilidades de exposición son estacionarias respecto al tiempo.
 
 #### Características:
-- Asume duplicación aleatoria
-- Utiliza probabilidad media de exposición
-- Ideal para planes simples con soportes similares
+- Cada individuo de la población tiene la misma probabilidad de exposición a un soporte i
+- La probabilidad de exposición a cada soporte es la misma para cada uno de ellos
+- La duplicación de las audiencias es un suceso aleatorio
+- Las probabilidades de exposición son estacionarias
 
 ```R
 audiencias <- c(300000, 400000, 200000)
@@ -134,7 +135,8 @@ print(paste("Probabilidad media:", resultado$probabilidad_media))
 
 ### 5. Modelo Beta-Binomial (`calc_beta_binomial`)
 
-Implementa el modelo Beta-Binomial para calcular audiencia neta acumulada y distribución de contactos.
+Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. 
+Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
 
 ***
 
@@ -153,7 +155,9 @@ Implementa el modelo Beta-Binomial para calcular audiencia neta acumulada y dist
 ***
 
 #### Características:
-- Modela heterogeneidad en probabilidades de exposición
+- Modela heterogeneidad de la población en sus probabilidades de exposición
+- La acumulación de audiencias no es aleatoria
+- Asume la estacionariedad (estabilidad en el tiempo) de las probabilidades de exposición respecto a los individuos o a las inserciones
 - Requiere datos de audiencias acumuladas (A1 y A2)
 - Mayor precisión para poblaciones heterogéneas
 
