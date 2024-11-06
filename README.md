@@ -54,6 +54,64 @@ Aplicaciones Shiny:
 
 ***
 
+## Planificación de medios
+
+La planificación de medios es el proceso de encontrar la combinación ideal de canales de comunicación para llegar a la audiencia objetivo de una marca de manera efectiva y eficiente. No se trata solo de alcanzar la mayor cantidad de personas, sino de conectar con las personas correctas, aquellas que tienen más probabilidades de estar interesadas en el producto o servicio que se ofrece. Este proceso busca maximizar el impacto del mensaje publicitario y optimizar el retorno de la inversión (ROI).
+
+Un planificador de medios debe abordar una serie de preguntas fundamentales para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
+
+**1. Conocimiento del Mercado y de la Audiencia**
+
+¿Cuál es el tamaño del mercado y la demanda del producto?: El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño actual y futuro del mercado, la segmentación, las cuotas de mercado y las tendencias de la demanda.
+
+¿Quién es el público objetivo?: Es esencial tener un conocimiento profundo del perfil del consumidor al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, comportamiento de compra, fuentes de información y las influencias personales y familiares que recibe.
+
+¿Cuáles son sus hábitos de consumo de medios?: Es fundamental comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como digitales.
+
+¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?: El análisis de la competencia y sus actividades publicitarias resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
+
+**2. Objetivos y Estrategia de la Campaña**
+
+Definir objetivos de manera SMART: Es fundamental que los objetivos de la campaña estén definidos de forma SMART, es decir, específicos, medibles, alcanzables, relevantes y temporales. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
+
+¿Cuáles son los objetivos de marketing y comunicación de la marca?: Los objetivos de la planificación de medios deben estar alineados con los objetivos globales de marketing y comunicación de la marca.
+
+¿Qué se quiere lograr con la campaña publicitaria?: Se deben definir objetivos específicos, como aumentar la notoriedad, cambiar las percepciones del producto, generar respuestas emocionales o incitar a la acción.
+
+¿Cuál es el presupuesto disponible para la campaña?: El presupuesto disponible influye directamente en las decisiones del planificador de medios. Es importante establecer si este presupuesto es fijo o si existe cierta flexibilidad.
+
+¿Qué mensaje se quiere comunicar y qué estrategia creativa se utilizará?: La estrategia creativa del mensaje debe estar en sintonía con los medios seleccionados. El planificador debe evaluar cómo dicha estrategia impacta en la elección de los medios y viceversa.
+
+**3. Selección de Medios y Canales**
+
+¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?: Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión (ROI) y mediciones de impacto para cada medio seleccionado.
+
+¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?: La selección de medios se debe basar en un análisis exhaustivo de la audiencia objetivo, sus hábitos de consumo, las características de cada medio y la estrategia creativa.
+
+¿Qué combinación de medios tradicionales y digitales será la más efectiva?: Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que maximice el impacto de la campaña.
+
+¿Cuál es la cobertura y frecuencia óptimas para la campaña?: El planificador debe definir la cobertura (cuántas personas serán alcanzadas por la campaña) y la frecuencia (cuántas veces serán expuestas al mensaje) óptimas para alcanzar los objetivos.
+
+**4. Implementación, Monitoreo y Evaluación**
+
+¿Cómo se garantizará la evaluación continua durante la campaña?: Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs) a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.
+
+¿Cómo se implementará el plan de medios?: Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
+
+¿Cómo se medirá la efectividad del plan?: Se deben establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y otros indicadores relevantes.
+
+**5. Consideraciones Adicionales**
+
+¿Cómo se integrará la planificación de medios con otras áreas del marketing?: La planificación de medios debe estar alineada con una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha con áreas como ventas, relaciones públicas y promociones, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca.
+
+¿Cómo se integrará la planificación de medios con otras áreas del marketing?: La planificación de medios debe estar alineada con una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto.
+
+¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio?: El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
+
+En resumen, el planificador de medios debe ser un estratega capaz de analizar información compleja, tomar decisiones informadas y adaptarse a un entorno en constante evolución. Su objetivo primordial es conectar eficazmente la marca con su audiencia, maximizando el retorno de la inversión y contribuyendo al logro de los objetivos de marketing de manera eficiente y efectiva.
+
+***
+
 ## Funciones Principales
 
 ### Métricas relativas a la población:
@@ -99,7 +157,9 @@ En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimi
 
 El coeficiente de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con el resto de la población. Este índice es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
 
-**Cálculo del Índice de Afinidad**
+En particular, el Coeficiente de Afinidad proporciona información basada en datos que ayuda a seleccionar los canales de medios más relevantes para tu campaña. No se trata solo de llegar a una gran audiencia, sino de llegar a la audiencia adecuada. Esto asegura que el mensaje _resuene_ con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña y un mayor retorno de la inversión.
+
+**Cálculo del Coeficiente de afinidad**
 
 | Paso | Descripción | Ejemplo |
 |------|-------------|----------|
@@ -176,7 +236,7 @@ resultado <- calcular_metricas_medios(
 head(resultado)
 ```
 
-### 1. Modelo de Sainsbury (`calc_sainsbury`)
+### Modelo de Sainsbury (`calc_sainsbury`)
 
 Implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange, para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte. 
 
@@ -229,7 +289,7 @@ sum_dist <- sum(resultado$distribucion$porcentaje)/100
 print(paste("Suma distribución:", round(sum_dist, 4)))
 ```
 
-### 2. Modelo Binomial (`calc_binomial`)
+### Modelo Binomial (`calc_binomial`)
 
 Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte. El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte. Las probabilidades de exposición son estacionarias respecto al tiempo.
 
@@ -275,7 +335,7 @@ print(paste("Cobertura total:", resultado$reach$porcentaje, "%"))
 print(paste("Probabilidad media:", resultado$probabilidad_media))
 ```
 
-### 3. Modelo Beta-Binomial (`calc_beta_binomial`)
+### Modelo Beta-Binomial (`calc_beta_binomial`)
 
 Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. 
 Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
@@ -342,7 +402,7 @@ print(paste("Suma distribución:", round(sum_dist +
                                         resultado$parametros$prob_cero_contactos/100, 4)))
 ```
 
-### 4. Modelo de Hofmans (`calc_hofmans`)
+### Modelo de Hofmans (`calc_hofmans`)
 
 El modelo de Hofmans (1966) aborda específicamente el problema de la acumulación de audiencias para múltiples inserciones en un mismo soporte. Su aportación fundamental radica en adaptar la formulación de Agostini (1961), diseñada originalmente para el cálculo de cobertura entre diferentes soportes, al caso de inserciones sucesivas en un único soporte.
 
@@ -422,7 +482,7 @@ print(resultado$results)
 print(resultado$parametros)
 ```
 
-### 5. Modelo MBBD (Morgensztern Beta Binomial Distribution)
+### Modelo MBBD (Morgensztern Beta Binomial Distribution)
 
 Este modelo se basa en el procedimiento seguido por Leckenby y Boyd  (1984a) en el desarrollo del modelo Hofmans beta binomial, con la salvedad ya  señalada de que la cobertura se estimaría mediante la fórmula propuesta por  Morgensztem (1970). 
 
@@ -467,7 +527,7 @@ resultado <- calc_MBBD(
 )
 ```
 
-### 6. Optimización de Distribución de Contactos (`optimizar_d`)
+### Optimización de Distribución de Contactos (`optimizar_d`)
 
 Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 
@@ -497,7 +557,7 @@ print(head(resultado$mejores_combinaciones))
 print(resultado$data)
 ```
 
-### 7. Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
+### Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
 
 Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (FEM) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio FEM o más veces.
 
@@ -523,7 +583,7 @@ resultado <- optimizar_dc(
 )
 ```
 
-### 8. Optimización de Plan de Medios (`optimize_media_plan`)
+### Optimización de Plan de Medios (`optimize_media_plan`)
 
 Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
@@ -590,6 +650,7 @@ El paquete incluye validación de entrada y manejo de errores:
 ## Referencias
 
 Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
+Díez de Castro, E.C., Sánchez-Franco, M.J., y Martín Armario, E. (2011). Comunicaciones de marketing. Planificación y Control. Pirámide, España.
 
 ## Contacto y Soporte
 
