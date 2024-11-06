@@ -71,6 +71,30 @@ resultado <- optimizar_dc(
 
 Implementa el modelo de Sainsbury para calcular la cobertura y la distribución de contactos para medios publicitarios con una única inserción por soporte.
 
+***
+
+![Sainsbury Coverage Extended](https://latex.codecogs.com/png.image?C=1-\prod_{i=1}^{n}(1-\frac{A_i}{P}))
+
+Donde:
+
+* C es la cobertura
+* n es el número de soportes
+* Ai es la audiencia del soporte i
+* P es la población total
+
+***
+
+![Sainsbury Distribution](https://latex.codecogs.com/png.image?P(X=k)=\sum_{|S|=k}\prod_{i\in%20S}p_i\prod_{j\notin%20S}(1-p_j))
+
+Donde:
+
+* |S| = k significa que sumamos sobre todas las combinaciones posibles de k soportes
+* pi es la probabilidad de exposición al soporte i (Ai/P)
+* El primer producto es sobre los soportes incluidos en la combinación
+* El segundo producto es sobre los soportes no incluidos
+
+***
+
 #### Características:
 - Considera independencia entre soportes
 - Calcula duplicación como producto de probabilidades
@@ -112,7 +136,21 @@ print(paste("Probabilidad media:", resultado$probabilidad_media))
 
 Implementa el modelo Beta-Binomial para calcular audiencia neta acumulada y distribución de contactos.
 
+***
+
 ![Beta-Binomial PMF](https://latex.codecogs.com/png.image?P(X=k|n,\alpha,\beta)=\binom{n}{k}\frac{B(k+\alpha,n-k+\beta)}{B(\alpha,\beta)})
+
+***
+
+![R1](https://latex.codecogs.com/png.image?R_1=\frac{\alpha}{\alpha+\beta})
+
+![R2](https://latex.codecogs.com/png.image?R_2=\frac{\alpha(\alpha+1)}{(\alpha+\beta)(\alpha+\beta+1)})
+
+***
+![Alpha](https://latex.codecogs.com/png.image?\alpha=\frac{R_1(R_2-R_1)}{2R_1-R_1^2-R_2})
+
+![Beta](https://latex.codecogs.com/png.image?\beta=\alpha\frac{1-R_1}{R_1})
+***
 
 #### Características:
 - Modela heterogeneidad en probabilidades de exposición
