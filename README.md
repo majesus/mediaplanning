@@ -152,10 +152,10 @@ Cobertura neta (probabilidad de al menos 1 contacto):
 
 Donde:
 
-p es la probabilidad media
-n es el número de soportes
-Ai es la audiencia del soporte i
-P es la población total
+* p es la probabilidad media
+* n es el número de soportes
+* Ai es la audiencia del soporte i
+* P es la población total
 
 ***
 
@@ -165,9 +165,9 @@ Distribución de contactos (probabilidad de exactamente k contactos):
 
 Donde:
 
-k es el número de contactos
-n es el número de soportes
-p es la probabilidad media calculada anteriormente
+* k es el número de contactos
+* n es el número de soportes
+* p es la probabilidad media calculada anteriormente
 
 ***
 
