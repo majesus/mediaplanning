@@ -125,8 +125,8 @@ El análisis BDI/CDI se utiliza para identificar los mercados donde una marca ti
 
 Además del gráfico de cuadrantes, se puede utilizar el índice de oportunidad de marca (BOI) para identificar mercados con potencial de crecimiento. El BOI se calcula dividiendo el CDI por el BDI. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
 
-![BDI/CDI](https://github.com/majesus/mediaPlanR/img/grafico-bdi-cdi.svg)
-![BDI/CDI](https://github.com/majesus/mediaPlanR/img/img_bdi_cdi.png)
+![BDI/CDI](./img/grafico-bdi-cdi.svg)
+![BDI/CDI](./img/img_bdi_cdi.png)
 
 **Factores adicionales**
 
