@@ -25,63 +25,7 @@ setup_mediaPlanR()
 
 ## Funciones Principales
 
-### 1. Optimización de Distribución de Contactos (`optimizar_d`)
-
-Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
-
-#### Características principales:
-- Calcula parámetros óptimos alpha y beta
-- Determina número óptimo de inserciones
-- Genera distribución de contactos completa
-- Permite ajustar tolerancia y criterios de convergencia
-
-***
-
-```R
-resultado2 <- optimizar_d(
-  Pob = 1000000,
-  FE = 4,
-  cob_efectiva = 600000,
-  A1 = 450000,
-  max_inserciones = 8,
-  tolerancia = 0.03,     
-  step_A = 0.01,         
-  step_B = 0.01,
-  min_soluciones = 20    
-)
-
-# Examinar resultados
-print(head(resultado$mejores_combinaciones))
-print(resultado$data)
-```
-
-### 2. Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
-
-Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (FEM) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio FEM o más veces.
-
-#### Características principales:
-- Calcula parámetros óptimos alpha y beta
-- Determina número óptimo de inserciones
-- Genera distribución de contactos completa
-- Permite ajustar tolerancia y criterios de convergencia
-
-***
-
-```R
-resultado <- optimizar_dc(
-  Pob = 500000,
-  FEM = 4,               
-  cob_efectiva = 250000,
-  A1 = 200000,
-  max_inserciones = 10,
-  tolerancia = 0.03,
-  step_A = 0.05,
-  step_B = 0.05,
-  min_soluciones = 15
-)
-```
-
-### 3. Modelo de Sainsbury (`calc_sainsbury`)
+### 1. Modelo de Sainsbury (`calc_sainsbury`)
 
 Implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange, para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte. 
 
@@ -121,20 +65,20 @@ Donde:
 ***
 
 ```R
-audiencias <- c(300000, 400000, 200000)  # Audiencias individuales
-pob_total <- 1000000                     # Población total
+audiencias <- c(300000, 400000, 200000)  
+pob_total <- 1000000                     
 resultado <- calc_sainsbury(audiencias, pob_total)
 
 # Examinar resultados
 print(paste("Cobertura total:", resultado$reach$porcentaje, "%"))
-print(resultado$distribucion$personas)    # Personas por número de contactos
+print(resultado$distribucion$personas)    
 
 # Verificar suma de distribuciones
 sum_dist <- sum(resultado$distribucion$porcentaje)/100
 print(paste("Suma distribución:", round(sum_dist, 4)))
 ```
 
-### 4. Modelo Binomial (`calc_binomial`)
+### 2. Modelo Binomial (`calc_binomial`)
 
 Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte. El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte. Las probabilidades de exposición son estacionarias respecto al tiempo.
 
@@ -180,7 +124,7 @@ print(paste("Cobertura total:", resultado$reach$porcentaje, "%"))
 print(paste("Probabilidad media:", resultado$probabilidad_media))
 ```
 
-### 5. Modelo Beta-Binomial (`calc_beta_binomial`)
+### 3. Modelo Beta-Binomial (`calc_beta_binomial`)
 
 Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. 
 Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
@@ -231,10 +175,10 @@ Donde:
 
 ```R
 resultado <- calc_beta_binomial(
-  A1 = 500000,    # Primera audiencia
-  A2 = 550000,    # Segunda audiencia
-  P = 1000000,    # Población total
-  n = 5           # Número de inserciones
+  A1 = 500000,    
+  A2 = 550000,    
+  P = 1000000,    
+  n = 5           
 )
 
 print(paste("Cobertura:", round(resultado$reach$porcentaje, 2), "%"))
@@ -247,7 +191,7 @@ print(paste("Suma distribución:", round(sum_dist +
                                         resultado$parametros$prob_cero_contactos/100, 4)))
 ```
 
-### 6. Modelo de Hofmans (`calc_hofmans`)
+### 4. Modelo de Hofmans (`calc_hofmans`)
 
 El modelo de Hofmans (1966) aborda específicamente el problema de la acumulación de audiencias para múltiples inserciones en un mismo soporte. Su aportación fundamental radica en adaptar la formulación de Agostini (1961), diseñada originalmente para el cálculo de cobertura entre diferentes soportes, al caso de inserciones sucesivas en un único soporte.
 
@@ -319,15 +263,116 @@ Esta constante d se utiliza luego en la fórmula para calcular la cobertura para
 ***
 
 ```R
-R1 <- 0.06    # 6% cobertura primera inserción
-R2 <- 0.103   # 10.3% cobertura segunda inserción
+R1 <- 0.06    
+R2 <- 0.103   
 resultado <- calc_hofmans(R1, R2, N = 5)
 
 print(resultado$results)
 print(resultado$parametros)
 ```
 
-### 7. Optimización de Plan de Medios (`optimize_media_plan`)
+### 5. Modelo MBBD (Morgensztern Beta Binomial Distribution)
+
+Este modelo se basa en el procedimiento seguido por Leckenby y Boyd  (1984a) en el desarrollo del modelo Hofmans beta binomial, con la salvedad ya  señalada de que la cobertura se estimaría mediante la fórmula propuesta por  Morgensztem (1970). 
+
+#### Características:
+
+1. Estimación Iterativa de los Parámetros A y B:
+
+- El código comienza con un valor arbitrario A₀ y calcula un valor inicial B₀ siguiendo el método MBBD
+- Se realiza un ajuste de A basado en la diferencia entre la cobertura BBD y la cobertura de Morgenstern (RM)
+- Se utiliza un factor de ajuste (adj_factor) para refinar el valor de A
+
+2. Cálculo de la Cobertura BBD:
+
+- El código emplea la función 'dbbinom' de la librería de distribuciones extraDistr
+- Calcula la probabilidad de cero exposiciones (p_zero)
+- La cobertura BBD se obtiene como (1 - p_zero)
+
+3. Proceso Iterativo:
+
+- La iteración continúa hasta que la cobertura calculada por BBD se aproxime lo suficiente a RM
+- Esta convergencia es un aspecto fundamental en el ajuste del MBBD
+
+4. Distribución de Contactos Final:
+
+- Al finalizar la iteración, se calcula la distribución de contactos usando los valores finales de A y B (AF y BF)
+- Esto permite modelar la distribución de contactos para distintas exposiciones según los requerimientos del modelo MBBD
+
+5. Nota Importante sobre RM:
+
+- El valor RM debe calcularse previamente usando la fórmula de  Morgensztern
+
+***
+
+```R
+resultado <- calc_MBBD(
+  m = 3,                          
+  insertions = c(5, 7, 4),        
+  audiences = c(500000, 550000, 600000),  
+  RM = 550000,                    
+  universe = 1000000,             
+  A0 = 0.1                        
+)
+```
+
+### 6. Optimización de Distribución de Contactos (`optimizar_d`)
+
+Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
+
+#### Características principales:
+- Calcula parámetros óptimos alpha y beta
+- Determina número óptimo de inserciones
+- Genera distribución de contactos completa
+- Permite ajustar tolerancia y criterios de convergencia
+
+***
+
+```R
+resultado2 <- optimizar_d(
+  Pob = 1000000,
+  FE = 4,
+  cob_efectiva = 600000,
+  A1 = 450000,
+  max_inserciones = 8,
+  tolerancia = 0.03,     
+  step_A = 0.01,         
+  step_B = 0.01,
+  min_soluciones = 20    
+)
+
+# Examinar resultados
+print(head(resultado$mejores_combinaciones))
+print(resultado$data)
+```
+
+### 7. Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
+
+Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (FEM) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio FEM o más veces.
+
+#### Características principales:
+- Calcula parámetros óptimos alpha y beta
+- Determina número óptimo de inserciones
+- Genera distribución de contactos completa
+- Permite ajustar tolerancia y criterios de convergencia
+
+***
+
+```R
+resultado <- optimizar_dc(
+  Pob = 500000,
+  FEM = 4,               
+  cob_efectiva = 250000,
+  A1 = 200000,
+  max_inserciones = 10,
+  tolerancia = 0.03,
+  step_A = 0.05,
+  step_B = 0.05,
+  min_soluciones = 15
+)
+```
+
+### 8. Optimización de Plan de Medios (`optimize_media_plan`)
 
 Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
@@ -372,26 +417,6 @@ resultado_util <- optimize_media_plan(
 )
 ```
 
-### 8. Modelo MBBD (Morgensztern Beta Binomial Distribution)
-
-Implementa el modelo MBBD para calcular la distribución de contactos de un plan de medios.
-
-#### Características:
-- Combina estimación Morgensztern con distribución Beta-Binomial
-- Ajuste iterativo de parámetros
-- Ideal para planes complejos
-
-```R
-resultado <- calc_MBBD(
-  m = 3,                          # Número de soportes
-  insertions = c(5, 7, 4),        # Inserciones por soporte
-  audiences = c(500000, 550000, 600000),  # Audiencias
-  RM = 550000,                    # Estimación Morgensztern
-  universe = 1000000,             # Universo total
-  A0 = 0.1                        # Valor inicial de A
-)
-```
-
 ## Características Generales del Paquete
 
 - Múltiples modelos de cobertura y frecuencia
@@ -402,56 +427,11 @@ resultado <- calc_MBBD(
 - Validación y manejo de errores integrado
 - Seguimiento de progreso para operaciones largas
 
-## Detalles de los Modelos
-
-### Modelo de Sainsbury
-- Considera independencia entre medios y heterogeneidad
-- Calcula duplicación entre inserciones como producto de probabilidades
-- Adecuado para una inserción por medio
-
-### Modelo Binomial
-- Asume duplicación aleatoria y probabilidades homogéneas
-- Usa probabilidad media para todos los medios
-- Más simple computacionalmente pero puede ser menos preciso
-
-### Modelo Beta-Binomial
-- Modela heterogeneidad usando distribución Beta
-- Combina con distribución Binomial
-- Requiere solo dos parámetros (alpha, beta)
-- Más preciso para poblaciones heterogéneas
-
-### Modelo de Hofmans
-- Diseñado específicamente para audiencia acumulada
-- Usa parámetro de ajuste (alpha)
-- Adecuado para múltiples inserciones en mismo medio
-
-### Modelo MBBD
-- Combina estimación Morgensztern con Beta-Binomial
-- Ajuste iterativo de parámetros
-- Maneja cobertura y distribución de contactos
-- Ideal para planes complejos
-
-## Notas de Uso
-
-### Parámetros de Optimización
-- `FE/FEM`: Frecuencia efectiva (contactos mínimos por persona)
-- `cob_efectiva`: Cobertura objetivo
-- `tolerancia`: Margen de error permitido
-- `batch_size`: Tamaño de lote para procesamiento
-- `presupuesto_max`: Restricción presupuestaria
-
-### Mejores Prácticas
-1. Comenzar con objetivos realistas de cobertura y frecuencia
-2. Usar índices de utilidad cuando varíe la calidad de audiencia
-3. Monitorear convergencia en procesos de optimización
-4. Elegir modelo apropiado según caso específico:
-  - Sainsbury: Medios independientes
-- Beta-Binomial: Población heterogénea
-- Hofmans: Múltiples inserciones en mismo medio
 
 ### Manejo de Errores
 El paquete incluye validación de entrada y manejo de errores:
-  - Validación de rangos de parámetros
+
+- Validación de rangos de parámetros
 - Verificaciones de consistencia
 - Mensajes de error descriptivos
 - Seguimiento de progreso
