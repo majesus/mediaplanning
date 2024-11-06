@@ -25,35 +25,6 @@ setup_mediaPlanR()
 
 ***
 
-## Todas las funciones:
-
-Modelos:
-- calc_sainsbury() 
-- calc_beta_binomial()     
-- calc_binomial() 
-- calc_hofmans()           
-- calc_MBBD()             
-- calc_metheringham() 
-- calc_R1_R2() 
-
-Métricas:
-- calcular_metricas_medios() 
-- calc_cpm()                  
-- calc_grps()  
-- plot_grp_metricas()  
-
-Optimización:
-- optimizar_d()               
-- optimizar_dc()              
-- optimize_media_plan() 
-
-Aplicaciones Shiny:
-- run_aud_util_explorer()     
-- run_beta_binomial_explorer() 
-- run_reach_converg_explorer()
-
-***
-
 ## Planificación de medios
 
 La planificación de medios es el proceso de encontrar la combinación ideal de canales de comunicación para llegar a la audiencia objetivo de una marca de manera efectiva y eficiente. No se trata solo de alcanzar la mayor cantidad de personas, sino de conectar con las personas correctas, aquellas que tienen más probabilidades de estar interesadas en el producto o servicio que se ofrece. Este proceso busca maximizar el impacto del mensaje publicitario y optimizar el retorno de la inversión (ROI).
@@ -112,7 +83,7 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 ***
 
-## Funciones Principales
+## Conceptos básicos
 
 ### Métricas relativas a la población:
 
@@ -235,6 +206,37 @@ resultado <- calcular_metricas_medios(
   pob_total = 39500000)
 head(resultado)
 ```
+
+## Funciones de mediaPlanR
+
+Modelos:
+- calc_sainsbury() 
+- calc_beta_binomial()     
+- calc_binomial() 
+- calc_hofmans()           
+- calc_MBBD()             
+- calc_metheringham() 
+- calc_R1_R2() 
+
+Métricas:
+- calcular_metricas_medios() 
+- calc_cpm()                  
+- calc_grps()  
+- plot_grp_metricas()  
+
+Optimización:
+- optimizar_d()               
+- optimizar_dc()              
+- optimize_media_plan() 
+
+Aplicaciones Shiny:
+- run_aud_util_explorer()     
+- run_beta_binomial_explorer() 
+- run_reach_converg_explorer()
+
+***
+
+## Funciones principales de mediaPlanR
 
 ### Modelo de Sainsbury (`calc_sainsbury`)
 
