@@ -56,6 +56,16 @@ Aplicaciones Shiny:
 
 ## Funciones Principales
 
+### Calcular métricas soportes
+
+
+| Soporte | Audiencia (miles) | Inserciones | RP | SOV (%) | Tarifa |
+  |----------|-----------------|-------------|-----|---------|---------|
+  | Marca | 965525.0 | 1 | 2.44 | 10.70 | 269111 |
+  | El País | 797863.0 | 1 | 2.02 | 8.84 | 222096 |
+  | El Mundo | 794822.2 | 1 | 2.01 | 8.81 | 212525 |
+  | As | 417843.0 | 1 | 1.06 | 4.63 | 119916 |
+
 ### 1. Modelo de Sainsbury (`calc_sainsbury`)
 
 Implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange, para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte. 
