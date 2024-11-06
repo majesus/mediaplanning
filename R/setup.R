@@ -1,5 +1,3 @@
-#' Configurar MediaPlanR
-#' @export
 setup_mediaPlanR <- function() {
   message("Iniciando configuración de MediaPlanR...")
 
@@ -8,7 +6,10 @@ setup_mediaPlanR <- function() {
     options(repos = c(CRAN = "https://cran.rstudio.com/"))
   }
 
-  # Paquetes necesarios (solo los esenciales)
+  # Evitar instalación desde source si la versión binaria es más antigua
+  options(install.packages.check.source = "no")
+
+  # Paquetes necesarios
   pkgs <- c("shiny", "bslib", "ggplot2", "dplyr", "plotly")
 
   # Instalar solo los que faltan
@@ -19,9 +20,9 @@ setup_mediaPlanR <- function() {
     for(pkg in missing_pkgs) {
       message("Instalando ", pkg, "...")
       install.packages(pkg,
-                       type = "binary",
+                       type = "win.binary",
                        quiet = TRUE,
-                       dependencies = FALSE)  # Clave: dependencies = FALSE
+                       dependencies = FALSE)
     }
   }
 
