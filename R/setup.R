@@ -1,59 +1,40 @@
 #' Configurar MediaPlanR
 #' @export
-setup_mediaPlanR <- function() {
+setup_mediaPlanR <- function(load_packages = FALSE) {
   message("Iniciando configuración de MediaPlanR...")
 
-  # Guardar opciones originales
-  old_opts <- options()
-  on.exit(options(old_opts))
+  # Desactivar actualizaciones
+  options(repos = NULL)
 
-  # Configurar opciones para forzar binarios y evitar actualizaciones
-  options(
-    repos = c(CRAN = "https://cran.rstudio.com/"),
-    install.packages.check.source = "no",
-    install.packages.compile.from.source = "never",
-    pkgType = "win.binary",
-    menu.graphics = FALSE,
-    askYesNo = FALSE
-  )
-
-  # Paquetes necesarios
+  # Lista de paquetes necesarios
   pkgs <- c("shiny", "bslib", "ggplot2", "dplyr", "plotly")
 
-  # Instalar SOLO los paquetes que faltan (sin actualizar los existentes)
-  missing_pkgs <- pkgs[!sapply(pkgs, requireNamespace, quietly = TRUE)]
+  # Verificar qué paquetes faltan
+  missing <- pkgs[!sapply(pkgs, requireNamespace, quietly = TRUE)]
 
-  if(length(missing_pkgs) > 0) {
-    message("Instalando paquetes faltantes: ", paste(missing_pkgs, collapse = ", "))
-    for(pkg in missing_pkgs) {
-      tryCatch({
-        utils::install.packages(pkg,
-                                type = "win.binary",
-                                quiet = TRUE,
-                                dependencies = FALSE,  # No instalar dependencias extras
-                                ask = FALSE,          # No preguntar nada
-                                force = FALSE)        # No forzar reinstalación
-      }, error = function(e) {
-        warning("No se pudo instalar ", pkg, ": ", e$message)
-      })
-    }
+  if(length(missing) > 0) {
+    message("Se necesitan instalar los siguientes paquetes: ",
+            paste(missing, collapse = ", "))
+    message("\nPor favor:")
+    message("1. Guarde su trabajo")
+    message("2. Reinicie R (Session > Restart R)")
+    message("3. Ejecute: install.packages(c('", paste(missing, collapse = "', '"),
+            "'), repos = 'https://cran.rstudio.com/', type = 'win.binary')")
+    message("4. Vuelva a ejecutar setup_mediaPlanR()")
+    return(FALSE)
   }
 
-  # Verificar que tenemos todos los paquetes necesarios
-  still_missing <- pkgs[!sapply(pkgs, requireNamespace, quietly = TRUE)]
-  if(length(still_missing) > 0) {
-    stop("No se pudieron instalar los siguientes paquetes: ",
-         paste(still_missing, collapse = ", "))
+  if(load_packages) {
+    # Cargar paquetes solo si se solicita explícitamente
+    suppressMessages({
+      library(shiny)
+      library(bslib)
+      library(ggplot2)
+      library(dplyr)
+      library(plotly)
+    })
   }
 
-  # Cargar los paquetes sin mensajes
-  suppressMessages({
-    library(shiny)
-    library(bslib)
-    library(ggplot2)
-    library(dplyr)
-    library(plotly)
-  })
-
-  message("Configuración completada exitosamente.")
+  message("Configuración completada.")
+  return(TRUE)
 }
