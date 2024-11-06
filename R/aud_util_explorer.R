@@ -1,11 +1,4 @@
 
-# Cargar los paquetes
-library(shiny)
-library(bslib)
-library(dplyr)
-library(ggplot2)
-library(scales)
-
 #' @encoding UTF-8
 #' @title Explorador de Audiencia Útil
 #' @description Aplicación Shiny para el análisis de audiencias brutas y útiles
@@ -31,6 +24,24 @@ library(scales)
 #' @export
 
 run_aud_util_explorer <- function() {
+
+  # Verificar y cargar las dependencias necesarias
+  if (!requireNamespace("bslib", quietly = TRUE)) {
+    message("Instalando bslib...")
+    install.packages("bslib", type = "binary", dependencies = TRUE)
+  }
+  if (!requireNamespace("ggplot2", quietly = TRUE)) {
+    message("Instalando ggplot2...")
+    install.packages("ggplot2", type = "binary", dependencies = TRUE)
+  }
+
+  # Cargar los paquetes
+  library(shiny)
+  library(bslib)
+  library(dplyr)
+  library(ggplot2)
+  library(scales)
+
   ui <- bslib::page_fluid(
     theme = bslib::bs_theme(version = 5, bootswatch = "flatly"),
 

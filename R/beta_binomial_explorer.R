@@ -4,11 +4,6 @@ dbetabinom <- function(x, n, alpha, beta) {
   choose(n, x) * beta(x + alpha, n - x + beta) / beta(alpha, beta)
 }
 
-# Cargar los paquetes
-library(shiny)
-library(bslib)
-library(ggplot2)
-
 #' @encoding UTF-8
 #' @title Función de Masa de Probabilidad Beta-Binomial
 #' @description Calcula la función de masa de probabilidad de la distribución
@@ -26,6 +21,22 @@ library(ggplot2)
 #' @export
 
 run_beta_binomial_explorer <- function() {
+
+  # Verificar y cargar las dependencias necesarias
+  if (!requireNamespace("bslib", quietly = TRUE)) {
+    message("Instalando bslib...")
+    install.packages("bslib", type = "binary", dependencies = TRUE)
+  }
+  if (!requireNamespace("ggplot2", quietly = TRUE)) {
+    message("Instalando ggplot2...")
+    install.packages("ggplot2", type = "binary", dependencies = TRUE)
+  }
+
+  # Cargar los paquetes
+  library(shiny)
+  library(bslib)
+  library(ggplot2)
+
   ui <- bslib::page_fluid(
     theme = bslib::bs_theme(version = 5, bootswatch = "flatly"),
 

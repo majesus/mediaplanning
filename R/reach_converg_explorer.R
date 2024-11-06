@@ -1,9 +1,3 @@
-# Cargar los paquetes
-library(shiny)
-library(bslib)
-library(dplyr)
-library(ggplot2)
-library(scales)
 
 # Corrección en la función calculate_coverage
 calculate_coverage <- function(alpha, beta, n) {
@@ -71,6 +65,24 @@ calculate_contact_distribution <- function(alpha, beta, n, max_contacts) {
 #' @export
 
 run_reach_converg_explorer <- function() {
+
+  # Verificar y cargar las dependencias necesarias
+  if (!requireNamespace("bslib", quietly = TRUE)) {
+    message("Instalando bslib...")
+    install.packages("bslib", type = "binary", dependencies = TRUE)
+  }
+  if (!requireNamespace("ggplot2", quietly = TRUE)) {
+    message("Instalando ggplot2...")
+    install.packages("ggplot2", type = "binary", dependencies = TRUE)
+  }
+
+  # Cargar los paquetes
+  library(shiny)
+  library(bslib)
+  library(dplyr)
+  library(ggplot2)
+  library(scales)
+
   ui <- bslib::page_sidebar(
     title = "Análisis de Convergencia - Modelo Beta Binomial",
     sidebar = sidebar(
