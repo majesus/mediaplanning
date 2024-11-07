@@ -418,6 +418,10 @@ Donde:
 * Ai es la audiencia del soporte i
 * P es la población total
 
+Aplicando la función de Sainsbury (simplificado) a los datos anteriormente expuestos, este sería el valor de la cobertura neta:
+
+$Cobertura_{neta} = 1 - (1-0.30) \times (1-0.20) \times (1-0.15) = 0.524$
+
 ***
 
 Distribución de contactos (probabilidad de exactamente k contactos):
