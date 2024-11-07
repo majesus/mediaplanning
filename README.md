@@ -276,7 +276,7 @@ Es el número promedio de veces que un individuo se expone al anuncio durante un
 
 #### Distribución de contactos
 
-Se refiere al número de personas de la cobertura que se exponen **exclusivamente i veces**. Describe pues cómo se distribuyen las exposiciones a un anuncio entre la cobertura. La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones (Pi), o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
+Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante la campaña publicitaria. Describe pues cómo se distribuyen las exposiciones a un anuncio entre la población (o la cobertura). La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones (Pi), o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
 
 Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva.
 
