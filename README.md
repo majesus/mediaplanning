@@ -242,6 +242,63 @@ Es el número de veces que la cobertura efectiva debe exponerse a la campaña pa
 
 Es el número mínimo de veces que la cobertura efectiva debe exponerse a la campaña para que el logro de los objetivos de comunicación (publicitarios) superen un determinado nivel crítico.
 
+***
+
+<details>
+<summary>Haz clic para mayor desarrollo</summary>
+
+Cobertura (Reach)
+
+Es la proporción del público objetivo que tiene al menos una exposición al mensaje publicitario durante un período específico. Según Rossiter y Percy, la cobertura forma parte de una cadena probabilística de respuesta del consumidor que incluye: exposición → procesamiento del anuncio → efectos de comunicación de marca → compra.
+
+Frecuencia Media (Frequency)
+
+Representa el número promedio de exposiciones que una persona del público objetivo tiene al mensaje publicitario durante la campaña. La frecuencia óptima varía según:
+
+- El tipo de mensaje (informacional vs transformacional)
+- La complejidad del mensaje
+- El nivel de involucramiento en la decisión de compra
+
+**Escenarios de Priorización Estratégica**
+
+**Priorización de Cobertura**
+
+a) Lanzamientos y Nuevos Productos
+
+  - Necesario para generar reconocimiento inicial de marca
+  - Crítico en las primeras etapas del ciclo de vida del producto
+  - Fundamental para establecer presencia en nuevos mercados
+
+b) Campañas Temporales
+
+  - Eficaz para promociones de corta duración
+  - Permite maximizar el alcance en períodos limitados
+  - Esencial cuando el tiempo es un factor crítico
+
+c) Mercados con Baja Notoriedad
+
+  - Ayuda a establecer presencia de marca
+  - Facilita la construcción de reconocimiento
+  - Permite llegar a segmentos no expuestos previamente
+
+**Priorización de Frecuencia**
+
+a) Productos de Alta Competencia
+
+  - Necesaria para reforzar el posicionamiento
+  - Ayuda a mantener la diferenciación
+  - Crucial en categorías con baja lealtad
+
+b) Mensajes Complejos
+
+  - Permite la asimilación gradual de información
+  - Facilita la comprensión de beneficios elaborados
+  - Mejora la retención del mensaje
+
+</details>
+
+***
+
 ### Resultados (esperados) del plan de medios
 
 #### Cobertura
@@ -304,65 +361,6 @@ En la campaña de ropa _TU_, la distribución de contactos acumulada fue la sigu
 +2 veces: 60.000 personas
 
 +3 veces: 30,000 personas
-
-***
-
-<details>
-<summary>Haz clic para mayor desarrollo</summary>
-
-***
-
-Cobertura (Reach)
-
-Es la proporción del público objetivo que tiene al menos una exposición al mensaje publicitario durante un período específico. Según Rossiter y Percy, la cobertura forma parte de una cadena probabilística de respuesta del consumidor que incluye: exposición → procesamiento del anuncio → efectos de comunicación de marca → compra.
-
-Frecuencia Media (Frequency)
-
-Representa el número promedio de exposiciones que una persona del público objetivo tiene al mensaje publicitario durante la campaña. La frecuencia óptima varía según:
-
-- El tipo de mensaje (informacional vs transformacional)
-- La complejidad del mensaje
-- El nivel de involucramiento en la decisión de compra
-
-**Escenarios de Priorización Estratégica**
-
-**Priorización de Cobertura**
-
-a) Lanzamientos y Nuevos Productos
-
-  - Necesario para generar reconocimiento inicial de marca
-  - Crítico en las primeras etapas del ciclo de vida del producto
-  - Fundamental para establecer presencia en nuevos mercados
-
-b) Campañas Temporales
-
-  - Eficaz para promociones de corta duración
-  - Permite maximizar el alcance en períodos limitados
-  - Esencial cuando el tiempo es un factor crítico
-
-c) Mercados con Baja Notoriedad
-
-  - Ayuda a establecer presencia de marca
-  - Facilita la construcción de reconocimiento
-  - Permite llegar a segmentos no expuestos previamente
-
-**Priorización de Frecuencia**
-
-a) Productos de Alta Competencia
-
-  - Necesaria para reforzar el posicionamiento
-  - Ayuda a mantener la diferenciación
-  - Crucial en categorías con baja lealtad
-
-b) Mensajes Complejos
-
-  - Permite la asimilación gradual de información
-  - Facilita la comprensión de beneficios elaborados
-  - Mejora la retención del mensaje
-
-***
-
-</details>
 
 ***
 
