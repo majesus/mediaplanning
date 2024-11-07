@@ -334,11 +334,13 @@ En la campaña anterior, se estimó una duplicación del 5% entre Instagram y Sp
 
 #### Frecuencia media
 
-Es el número promedio de veces que un individuo se expone al anuncio durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. 
+Es el número promedio de veces que un individuo se expone al anuncio durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura.
+
+La expresión matemática para el cálculo de la frecuencia media es la siguiente:
 
 $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
-Si la campaña anterior generó 280.000 impactos y alcanzó (al menos una vez) a 100.000 personas, la frecuencia media sería igual a 2,8 veces/persona de la cobertura.
+Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (al menos una vez) a 100.000 personas, la frecuencia media sería igual a 2,8 veces/persona de la cobertura.
 
 #### Distribución de contactos
 
