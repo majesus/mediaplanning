@@ -238,14 +238,16 @@ Se refiere al número de personas de la población (objetivo) que debe exponerse
 
 Es el número de veces que la cobertura efectiva debe exponerse a la campaña para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento).
 
-La frecuencia efectiva varía según:
+En general, la frecuencia efectiva varía según:
 
 - El tipo de mensaje (informacional vs transformacional)
-- La complejidad del mensaje, y las vías de recuperación de la memoria ()
+- La complejidad del mensaje, y las vías de recuperación de la memoria (recuerdo y reconocimiento)
 - El nivel de implicación en la decisión de compra
 - El nivel de lealtad del consumidor o usuario
 - El medio elegido para la difusión del mensaje publicitario
 - La frecuencia efectiva del principal competidor/es
+
+A continuación, precisameos con mayor detalle los escenarios principales relacionados con los **factores de marketing, _copy_ y medios** que determinan los nivles de frecuencia efectiva a propuesta de Ostrow (1982).
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
 
@@ -258,7 +260,7 @@ Es el número mínimo de veces que la cobertura efectiva debe exponerse a la cam
 
 ***
 
-**Escenarios de Priorización Estratégica**
+**Escenarios de priorización estratégica: Cobertura versus Frecuencia efectiva**
 
 **Priorización de Cobertura**
 
@@ -834,6 +836,7 @@ El paquete incluye validación de entrada y manejo de errores:
 Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 Díez de Castro, E.C., Sánchez-Franco, M.J., y Martín Armario, E. (2011). Comunicaciones de marketing. Planificación y Control. Pirámide, España.
 Kelley, L. D., Jugenheimer, D. W., y Sheehan, K. B. (2015). Advertising Media Planning: A Brand Management Approach (4ª ed.). Routledge.
+Ostrow , J. W. (1982) Setting Frequency Levels. In Effective Frequency: The State of the Art. New York: Advertising Research Foundation, Key Issues Workshop.
 
 ## Contacto y Soporte
 
