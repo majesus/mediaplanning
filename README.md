@@ -26,7 +26,7 @@ A continuación, hacemos un breve resumen de los conceptos clave de la planifica
 
 ## Planificación de medios
 
-La planificación de medios es el proceso de encontrar la combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicaciòn y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS).
+La planificación de medios es el proceso de encontrar la combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicaciòn y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS _Return On Ad Spend_).
 
 A continuación, se muestra una descripción de cinco componentes clave que intervienen en la planificación de medios publicitarios, incluyendo ejemplos prácticos y consideraciones tácticas para cada elemento.
 
@@ -100,21 +100,21 @@ Definir objetivos de manera SMART: Es fundamental que los objetivos de la campa�
 ¿Cómo se optimizará el rendimiento del presupuesto? Se debe establecer un sistema de control y optimización que incluya:
 
 - Métricas de eficiencia: CPM, CPC, CPL, ROAS
-- KPIs financieros: ROI, ROAS ( _Return On Ad Spend_ ), margen sobre inversión publicitaria
+- KPIs financieros: ROI, ROAS, margen sobre inversión publicitaria
 - Control de costes: producción, espacios, implementación
 - Flexibilidad para ajustes según resultados
 
 ¿Qué consideraciones adicionales afectan al presupuesto?
 
 - Estacionalidad del negocio y del consumo mediático
-- Presión competitiva y share of voice (SOV) deseado
+- Presión competitiva y _share of voice_ (SOV) deseado
 - Costes de producción y adaptación de materiales
 - Reserva para contingencias y oportunidades
 - Economías de escala y negociación con medios
 
 ¿Cómo se evaluará la eficiencia presupuestaria? Es necesario establecer:
 
-- Sistema de reporting financiero regular
+- Sistema de _reporting_ financiero regular
 - Análisis de desviaciones y causas
 - Medición de retorno por canal y campaña
 - Benchmarks de eficiencia por medio y formato
@@ -140,13 +140,11 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 #### BDI / CDI
 
-El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. 
+El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
 - **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado. Un BDI de 100 significa que las ventas de la marca en ese mercado reflejan la población. Si el índice es inferior a 100, la marca no se consume o usa al nivel per cápita en términos relativos; si el BDI es superior a 100, el consumo es mayor que el nivel per cápita en términos relativos. 
 
 - **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado. 
-
-El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
 **Cálculo del BDI / CDI**
 
@@ -154,6 +152,13 @@ El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de
 |---------|---------|----------------|
 | BDI (Índice de Desarrollo de Marca) | (% de Ventas de la Marca en el Mercado / % de Población en el Mercado) x 100 | BDI > 100: Alta cuota de mercado<br>BDI = 100: Ventas de marca proporcionales a la población del mercado<br>BDI < 100: Baja cuota de mercado |
 | CDI (Índice de Desarrollo de Categoría) | (% de Ventas de la Categoría en el Mercado / % de Población en el Mercado) x 100 | CDI > 100: Alto potencial de ventas de la categoría<br>CDI = 100: Ventas de categoría proporcionales al mercado<br>CDI < 100: Bajo potencial de ventas de la categoría |
+
+***
+
+<details>
+<summary>Haz clic para mayor desarrollo</summary>
+
+***
 
 **Uso del BDI / CDI**
 
@@ -176,6 +181,8 @@ Además del gráfico de cuadrantes, se puede utilizar el **índice de oportunida
 Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a considerar en la planificación geográfica. La distribución también juega un papel fundamental. Una marca puede tener un BDI bajo en un mercado debido a una distribución limitada. En estos casos, se recomienda realizar un análisis de ventas por punto de distribución para evaluar el rendimiento de la marca en los puntos donde está disponible.
 
 En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento y rentabilidad en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
+
+</details>
 
 ***
 
@@ -244,8 +251,7 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 | D 4 | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 * 100)) |
 | D 5 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
 
-Notas:
-- Población = 500.000 personas
+Población = 500.000 personas
 
 ***
 
@@ -271,7 +277,7 @@ head(resultado)
 
 #### Cobertura efectiva
 
-Se refiere al número de personas de la población (objetivo) que debe exponerse a la campaña publicitaria para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento, actitud o intención).
+Se refiere al número de personas de la población (objetivo) que debe exponerse a la campaña publicitaria para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento, actitud o intención). Es decir, la cobertura expuesta al menos la frecuencia efectiva (mínima).
 
 #### Frecuencia efectiva
 
