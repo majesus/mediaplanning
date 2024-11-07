@@ -420,7 +420,7 @@ Donde:
 
 Aplicando la función de Sainsbury (simplificado) a los datos anteriormente expuestos, este sería el valor de la cobertura neta:
 
-$Cobertura_{neta} = 1 - (1-0.30) \times (1-0.20) \times (1-0.15) = 0.524$
+$Cobertura_{neta} = 1 - (1-0,30) \times (1-0,20) \times (1-0,15) = 0,524$
 
 ***
 
