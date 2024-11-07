@@ -355,13 +355,13 @@ Se refiere al número de personas expuestas durante una oleada o campaña public
 
 Proponemos un ejemplo de estimación de la cobertura (o alcance):
 
-**_Tu_ (hipotética campaña de ropa)**
+**_Tu_ (hipotética campaña de ropa), una inserción por soporte**
 
-| Canal de medios        | Alcance estimado             |
+| Soportes        | Alcance estimado             |
 |------------------------|------------------------------|
-| Anuncios en Instagram  | 30% del público     |
-| Anuncios de Audio en Spotify | 20% del público |
-| Carteles en la Universidad   | 15% del público  |
+| Instagram  | 30% del público     |
+| Audio en Spotify | 20% del público |
+| Exterior en la Universidad   | 15% del público  |
 
 **Modo de calcular la cobertura conociendo las n-plicaciones**
 
