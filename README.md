@@ -1,11 +1,11 @@
 # Herramientas para la Planificación de Medios Publicitarios
 
 ## Descripción General
-Este paquete R proporciona un conjunto completo de herramientas para la optimización de la planificación de medios, implementando diversos modelos para calcular cobertura, distribución de contactos y acumulación de audiencia. El paquete incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham y Hofmans.
+Este paquete R proporciona un conjunto completo de herramientas para la planificación de medios publicitarios, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia. El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios tradicinales.
 
 ## Instalación
 
-La forma más fácil de instalar y configurar mediaPlanR es usando las siguientes instrucciones:
+La forma más sencilla de instalar y configurar **mediaPlanR** es usando las siguientes instrucciones:
 
 ```R
 # Instalar el paquete devtools si no está instalado
@@ -16,76 +16,75 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 # Instalar mediaPlanR
 devtools::install_github("majesus/mediaPlanR", force = TRUE)
 
-# Cargar el paquete
+# Cargar el paquete mediaPlanR
 library(mediaPlanR)
-
-# Configurar todo lo necesario (instala y carga todas las dependencias)
-setup_mediaPlanR()
 ```
+
+A continuación, hacemos un breve resumen de los conceptos clave de la planificación de medios tradicionales.
 
 ***
 
 ## Planificación de medios
 
-La planificación de medios es el proceso de encontrar la combinación ideal de canales de comunicación para llegar a la audiencia objetivo de una marca de manera efectiva y eficiente. No se trata solo de alcanzar la mayor cantidad de personas, sino de conectar con las personas correctas, aquellas que tienen más probabilidades de estar interesadas en el producto o servicio que se ofrece. Este proceso busca maximizar el impacto del mensaje publicitario y optimizar el retorno de la inversión (ROI).
-
-Un planificador de medios debe abordar una serie de preguntas fundamentales para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
-
+La planificación de medios es el proceso de encontrar la combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente. No se trata de alcanzar la mayor cantidad de personas, sino de conectar con las personas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicaciòn y marketing diseñados, y optimice el retorno de la inversión (ROI).
 
 <details>
 <summary>Haz clic para mayor desarrollo</summary>
 
 ***
 
+Un planificador de medios debe abordar una serie de preguntas fundamentales para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
+
 **1. Conocimiento del Mercado y de la Audiencia**
 
-¿Cuál es el tamaño del mercado y la demanda del producto?: El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño actual y futuro del mercado, la segmentación, las cuotas de mercado y las tendencias de la demanda.
+¿Cuál es el tamaño del mercado y la demanda del producto? El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño actual y futuro del mercado, la segmentación, las cuotas de mercado y las tendencias de la demanda.
 
-¿Quién es el público objetivo?: Es esencial tener un conocimiento profundo del perfil del consumidor al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, comportamiento de compra, fuentes de información y las influencias personales y familiares que recibe.
+¿Quién es el público objetivo? Es esencial tener un conocimiento profundo del perfil del consumidor al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, comportamiento de compra, fuentes de información y las influencias personales o familiares que recibe.
 
-¿Cuáles son sus hábitos de consumo de medios?: Es fundamental comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como digitales.
+¿Cuáles son sus hábitos de consumo de medios? Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como digitales.
 
-¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?: El análisis de la competencia y sus actividades publicitarias resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
+¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación? El análisis de la competencia y sus actividades publicitarias resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
 **2. Objetivos y Estrategia de la Campaña**
 
-Definir objetivos de manera SMART: Es fundamental que los objetivos de la campaña estén definidos de forma SMART, es decir, específicos, medibles, alcanzables, relevantes y temporales. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
+Definir objetivos de manera SMART: Es fundamental que los objetivos de la campaña estén definidos de forma SMART, es decir, _específicos, medibles, alcanzables, relevantes y temporales_. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
 
-¿Cuáles son los objetivos de marketing y comunicación de la marca?: Los objetivos de la planificación de medios deben estar alineados con los objetivos globales de marketing y comunicación de la marca.
+¿Cuáles son los objetivos de marketing y comunicación de la marca? Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) con los objetivos globales de marketing y otros  objetivos de comunicación de la marca.
 
-¿Qué se quiere lograr con la campaña publicitaria?: Se deben definir objetivos específicos, como aumentar la notoriedad, cambiar las percepciones del producto, generar respuestas emocionales o incitar a la acción.
+¿Qué se quiere lograr con la campaña publicitaria? Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del producto o servicio (actitud), o incitar a la acción.
 
-¿Cuál es el presupuesto disponible para la campaña?: El presupuesto disponible influye directamente en las decisiones del planificador de medios. Es importante establecer si este presupuesto es fijo o si existe cierta flexibilidad.
+¿Cuál es el presupuesto disponible para la campaña?
 
-¿Qué mensaje se quiere comunicar y qué estrategia creativa se utilizará?: La estrategia creativa del mensaje debe estar en sintonía con los medios seleccionados. El planificador debe evaluar cómo dicha estrategia impacta en la elección de los medios y viceversa.
+¿Qué mensaje se quiere comunicar y qué estrategia creativa se utilizará? La estrategia creativa del mensaje debe estar en sintonía con los medios seleccionados. El planificador debe evaluar cómo dicha estrategia impacta en la elección de los medios y viceversa.
 
 **3. Selección de Medios y Canales**
 
-¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?: Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión (ROI) y mediciones de impacto para cada medio seleccionado.
+¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos? Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión (ROI) y mediciones de impacto para cada medio seleccionado.
 
-¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?: La selección de medios se debe basar en un análisis exhaustivo de la audiencia objetivo, sus hábitos de consumo, las características de cada medio y la estrategia creativa.
+¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña? La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados.
 
-¿Qué combinación de medios tradicionales y digitales será la más efectiva?: Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que maximice el impacto de la campaña.
+¿Qué combinación de medios tradicionales y digitales será la más efectiva? Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que maximice el impacto de la campaña.
 
-¿Cuál es la cobertura y frecuencia óptimas para la campaña?: El planificador debe definir la cobertura (cuántas personas serán alcanzadas por la campaña) y la frecuencia (cuántas veces serán expuestas al mensaje) óptimas para alcanzar los objetivos.
+¿Cuál es la cobertura y frecuencia óptimas para la campaña? El planificador debe definir la cobertura efectiva (cuántas personas deben ser alcanzadas por la campaña) y la frecuencia efectiva (cuántas veces deben exponerse al mensaje) para alcanzar los objetivos.
 
 **4. Implementación, Monitoreo y Evaluación**
 
-¿Cómo se garantizará la evaluación continua durante la campaña?: Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs) a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.
+¿Cómo se garantizará la evaluación continua durante la campaña? Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs) a antes (pre-test) y a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.
 
-¿Cómo se implementará el plan de medios?: Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
+¿Cómo se implementará el plan de medios? Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
 
-¿Cómo se medirá la efectividad del plan?: Se deben establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y otros indicadores relevantes.
+¿Cómo se medirá la efectividad del plan? Se deben establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y rentabilidad así como en los objetivos publicitarios definidos, y otros indicadores relevantes.
 
 **5. Consideraciones Adicionales**
 
-¿Cómo se integrará la planificación de medios con otras áreas del marketing?: La planificación de medios debe estar alineada con una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha con áreas como ventas, relaciones públicas y promociones, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca.
+¿Cómo se integrará la planificación de medios con otras áreas del marketing? La planificación de medios debe estar subordinada a una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
 
-¿Cómo se integrará la planificación de medios con otras áreas del marketing?: La planificación de medios debe estar alineada con una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto.
+¿Cómo se integrará la planificación de medios con otras áreas del marketing? La planificación de medios debe estar alineada con una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto.
 
-¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio?: El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
+¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio? El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
 
-En resumen, el planificador de medios debe ser un estratega capaz de analizar información compleja, tomar decisiones informadas y adaptarse a un entorno en constante evolución. Su objetivo primordial es conectar eficazmente la marca con su audiencia, maximizando el retorno de la inversión y contribuyendo al logro de los objetivos de marketing de manera eficiente y efectiva.
+En resumen, el planificador de medios debe ser un estratega capaz de analizar información compleja, tomar decisiones informadas y adaptarse a un entorno en constante evolución. Su objetivo primordial es conectar eficazmente la marca con su público, maximizando el retorno de la inversión y contribuyendo al logro de los objetivos de marketing de manera eficiente.
+
 </details>
 
 ***
@@ -98,13 +97,13 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. 
 
-- **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. Un BDI de 100 significa que las ventas de la marca en ese mercado reflejan la población. Si el índice es inferior a 100, la marca no se consume al nivel per cápita; si el BDI es superior a 100, el consumo es mayor que el nivel per cápita. 
+- **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. Un BDI de 100 significa que las ventas de la marca en ese mercado reflejan la población. Si el índice es inferior a 100, la marca no se consume o usa al nivel per cápita en términos relativos; si el BDI es superior a 100, el consumo es mayor que el nivel per cápita en términos relativos. 
 
-- **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
+- **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado, multiplicado por 100. 
+
+El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
 **Cálculo del BDI / CDI**
-
-Aquí está la tabla sin la columna "Definición":
 
 | Métrica | Cálculo | Interpretación |
 |---------|---------|----------------|
@@ -123,23 +122,23 @@ El análisis BDI/CDI se utiliza para identificar los mercados donde una marca ti
 
 - Cuadrante IV (Bajo BDI, Bajo CDI): Tanto la marca como la categoría son débiles en este mercado. Esta es un área donde se evitaría invertir en publicidad.
 
-Además del gráfico de cuadrantes, se puede utilizar el índice de oportunidad de marca (BOI) para identificar mercados con potencial de crecimiento. El BOI se calcula dividiendo el CDI por el BDI. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
+Además del gráfico de cuadrantes, se puede utilizar el **índice de oportunidad de marca (BOI)** para identificar mercados con potencial de crecimiento. El BOI se calcula dividiendo el CDI por el BDI. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
 
 ![BDI/CDI](./img/grafico-bdi-cdi.svg)
 
 **Factores adicionales**
 
-Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a considerar en la planificación geográfica. La distribución también juega un papel fundamental. Una marca puede tener un BDI bajo en un mercado debido a una distribución limitada. En estos casos, se recomienda realizar un análisis de ventas por punto de distribución para evaluar el rendimiento de la marca en los puntos de venta donde está disponible.
+Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a considerar en la planificación geográfica. La distribución también juega un papel fundamental. Una marca puede tener un BDI bajo en un mercado debido a una distribución limitada. En estos casos, se recomienda realizar un análisis de ventas por punto de distribución para evaluar el rendimiento de la marca en los puntos donde está disponible.
 
-En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
+En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento y rentabilidad en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
 
 ***
 
 #### Coeficiente (índice) de afinidad
 
-El coeficiente de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con el resto de la población. Este índice es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
+El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con el resto de la población. Este índice es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
 
-En particular, el Coeficiente de Afinidad proporciona información basada en datos que ayuda a seleccionar los canales de medios más relevantes para tu campaña. No se trata solo de llegar a una gran audiencia, sino de llegar a la audiencia adecuada. Esto asegura que el mensaje _resuene_ con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña y un mayor retorno de la inversión.
+En particular, en el ámbito de la planificación de medios el coeficiente de afinidad proporciona información basada en datos que ayuda a seleccionar los canales de medios más relevantes para tu campaña. No se trata solo de llegar a una gran audiencia, sino de llegar a la audiencia adecuada. Esto asegura que el mensaje _resuene_ con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña.
 
 **Cálculo del coeficiente (índice) de afinidad**
 
@@ -159,27 +158,27 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 ### Métricas relativas a los soportes:
 
-- **Audiencia, o audiencia bruta**: Número total de personas, expresado en ocasiones en miles (000), que están expuestas a un anuncio o campaña publicitaria, es decir, las persaonas que se exponen regularmente a un soporte. Es una medida de alcance numérico. Se puede calcular en función de la circulación de una publicación impresa, las estimaciones de audiencia de una emisión o las visitas únicas a un sitio web.
+- **Audiencia, o audiencia bruta**: Número total de personas, expresado en ocasiones en miles (000), que se exponen regularmente a un soporte. Es una medida de alcance numérico. Se puede calcular en función de la circulación de una publicación impresa, las estimaciones de audiencia de una emisión radiofónica o las visitas únicas a un sitio web.
 
-- **Impacto**: Un impacto en una campaña publicitaria se refiere a una exposición individual de un miembro del público (objetivo) al anuncio publicitario. En otras palabras, cada vez que una persona ve, escucha o experimenta un anuncio, se cuenta como un impacto.
+- **Impacto**: Un impacto en una campaña publicitaria se refiere a una exposición individual de un miembro del público (objetivo) al anuncio publicitario. En otras palabras, cada vez que una persona ve, escucha o experimenta un anuncio, se cuenta como un impacto. Se denominan también _oportunidades de ver_ (OTS).
 
-- **Inserciones**: Se refiere al número de veces que se publica un anuncio en un medio determinado. Por ejemplo, si se publica un anuncio tres veces en una revista, se habla de tres inserciones.
+- **Inserciones**: Se refiere al número de veces que se inserta un anuncio en un medio determinado. Por ejemplo, si se publica un anuncio tres veces en una revista, se habla de tres inserciones.
 
-- **RP**: Abreviatura de _Rating Point_, que significa "Punto de Rating". Un punto de rating representa el 1% del público. Por ejemplo, un programa de televisión con un rating del 10% significa que el 10% del público lo vio.
+- **RP**: Abreviatura de _Rating Point_, que significa "Punto de Rating". Un punto de rating representa el 1% del público. Por ejemplo, un programa de televisión con un rating del 10% significa que el 10% del público se expone.
 
-- **SOV**: Abreviatura de _Share of Voice_, que significa "Cuota de Voz". Es una medida de la presencia de una marca en el mercado en comparación con sus competidores. Se calcula como el porcentaje de las impresiones totales de la categoría que recibe una marca. Por ejemplo, si una marca tiene un SOV del 20%, significa que recibe el 20% de todas las impresiones de la categoría.
+- **SOV**: Abreviatura de _Share of Voice_, que significa "Cuota de Voz". Es una medida de la presencia de una marca en el mercado en comparación con sus competidores. Se calcula como el porcentaje de los impactos totales que recibe una marca. Por ejemplo, si una marca tiene un SOV del 20%, significa que recibe el 20% de los impactos de la categoría. También puede aplicarse por soportes.
 
 - **Tarifa_Pag_Color**: Se refiere al coste de publicar un anuncio en color en una publicación impresa. Este coste suele ser mayor que el de un anuncio en blanco y negro.
 
-- **CPM**: Abreviatura de "Coste por Mil," que significa _Cost per Thousand_ en inglés. Es una medida de la eficiencia de un medio publicitario. Se calcula como el coste de llegar a 1.000 personas del público con un anuncio. Por ejemplo, si un anuncio cuesta 100 € y llega a 1.000 personas, su CPM es de (100 €/1.000 personas) * 1.000. El CPM se utiliza para comparar la eficiencia de diferentes medios y vehículos publicitarios.
+- **CPM**: Abreviatura de "Coste por Mil," que significa _Cost per Thousand_ en inglés. Es una medida de la eficiencia de un medio publicitario. Se calcula como el coste de llegar a 1.000 personas del público que se expone regularme a un soporte (o a una campaña). Por ejemplo, si un anuncio cuesta 100 € y llega regularmente a 1.000 personas, su CPM es de (100 €/1.000 personas) * 1.000. El CPM se utiliza para comparar la eficiencia de diferentes medios y soportes publicitarios.
 
-- **C/RP**: Asumiendo que te refieres a C/RP, es la abreviatura de "Coste por Punto", que significa _Cost per Point_ en inglés. Se utiliza principalmente en la planificación de medios de difusión, como la televisión y la radio. El C/RP compara los vehículos de difusión en base a cuánto cuesta alcanzar el 1% de la audiencia, es decir, un punto de rating.
+- **C/RP**: Es la abreviatura de "Coste por Punto de Rating", que significa _Cost per Rating Point_. Se utiliza principalmente en la planificación de medios de difusión, como la televisión y la radio. El C/RP compara los vehículos de difusión en base a cuánto cuesta alcanzar el 1% de la audiencia, es decir, un punto de rating.
 
-- **Indice de utilidad**: Representa el tanto por uno de la audiencia (o audiencia bruta) que es población objetivo.
+- **Indice de utilidad**: Representa el tanto por uno de la audiencia de un soporte (o audiencia bruta) que es población objetivo.
 
 - **Audiencia útil (000)**: Se refiere al número de personas de la audiencia de un soporte que es público objetivo.
 
-- **Coste por contacto útil**: Se refiere al coste de llegar a una persona de la audiencia útil. Se puede calcular dividiendo el coste total de la campaña por el número de personas de la audiencia útil.
+- **Coste por contacto útil**: Se refiere al coste de llegar a una persona de la audiencia útil. Se calcula dividiendo el coste total de una inserción por el número de personas que componen la audiencia útil.
 
 ***
 
@@ -187,30 +186,30 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 | Soporte  | Audiencia_miles | Inserciones | RP | SOV   | Tarifa_Pag_Color | CPM    | C/RP     | Indice_Utilidad | Audiencia_Util_miles | Coste_Contacto_Util |
 |----------|----------------|-------------|----|---------|--------------------|--------|----------|----------------|-------------------|-------------------|
-| Diario 1 | 1500          | 1           | 0  | 40,54  | 500               | 333.33 | 131.666,7 | 0.30           | 450               | 1,11              |
-| Diario 2 | 1000          | 1           | 0  | 27,03  | 250               | 250.00 | 98.750,0  | 0.20           | 200               | 1,25              |
-| Diario 3 | 1200          | 1           | 0  | 32,43  | 400               | 333.33 | 131.666,7 | 0.25           | 300               | 1,33              |
+| Diario 1 | 1500          | 1           | 0  | 40,54  | 500               | 333.33 | 131.666,7 | 0,30           | 450               | 1,11              |
+| Diario 2 | 1000          | 1           | 0  | 27,03  | 250               | 250.00 | 98.750,0  | 0,20           | 200               | 1,25              |
+| Diario 3 | 1200          | 1           | 0  | 32,43  | 400               | 333.33 | 131.666,7 | 0,25           | 300               | 1,33              |
 
 ***
 
-**Tabla de comparación de Opciones Publicitarias**
+**Tabla de comparación de opciones publicitarias**
 
 | Opción | Coste | Alcance | CPM | C/RP |
 |--------|--------|----------|-----|------|
-| Campaña en Redes Sociales | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 * 100)) |
-| Cuña de Radio Local | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
+| Diario 1 | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 * 100)) |
+| Diario 2 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
 
 Notas:
 - Población = 500.000 personas
-- CPM = Coste Por Mil impresiones
+- CPM = Coste Por Mil 
 - C/RP = Coste Por Punto de Rating
-- Todos los costes están expresados en euros
+- Los costes están expresados en euros
 - Los cálculos se muestran entre paréntesis para mayor transparencia
 - El alcance se mide en número de jóvenes adultos impactados
 
 ***
 
-La función **calcular_metricas_medios()** del paquete mediaPlanR me permite estimar la tabla resumen del conjunto de soportes elegidos.
+La función **calcular_metricas_medios()** del paquete mediaPlanR permite estimar la tabla resumen del conjunto de soportes elegidos.
 
 #### Aplicación de la función:
 
@@ -304,17 +303,17 @@ b) Mensajes Complejos
 
 #### Cobertura
 
-Se refiere al número de personas expuestas durante una oleada o campaña publicitaria **al menos una vez dentro** de un período de tiempo específico. En otras palabras, la cobertura mide el alcance de la campaña, es decir, cuántas personas tienen la oportunidad de ver, leer o escuchar el anuncio.
+Se refiere al número de personas expuestas durante una oleada o campaña publicitaria **al menos una vez dentro** de un período de tiempo específico. En otras palabras, la cobertura mide el alcance ( _reach_ ), es decir, cuántas personas tienen la oportunidad de ver, leer o escuchar el anuncio.
 
-Proponemos un ejemplo de estimación de la cobertura (o alcance, _reach_):
+Proponemos un ejemplo de estimación de la cobertura (o alcance):
 
 **_Tu_ (hipotética campaña de ropa)**
 
 | Canal de medios        | Alcance estimado             |
 |------------------------|------------------------------|
-| Anuncios en Instagram  | 30% del público objetivo     |
-| Anuncios de Audio en Spotify | 20% del público objetivo |
-| Carteles en la Universidad   | 15% del público objetivo  |
+| Anuncios en Instagram  | 30% del público     |
+| Anuncios de Audio en Spotify | 20% del público |
+| Carteles en la Universidad   | 15% del público  |
 
 **Modo de calcular la cobertura conociendo las n-plicaciones**
 
@@ -328,23 +327,23 @@ Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65%
 
 #### Duplicación
 
-La duplicación ocurre cuando una misma persona se expone (o _tiene la oportunidad de ver_, OTS) más de una vez al anuncio durante una campaña publicitaria. La audiencia duplicada se define pues como aquellas personas que están expuestas más de una vez a un anuncio en una campaña. 
+La duplicación ocurre cuando una misma persona se expone (o _tiene la oportunidad de ver_, OTS) más de una vez al anuncio durante una campaña publicitaria (en el mismo soporte o en distinto soporte). La audiencia duplicada se define pues como aquellas personas que están expuestas más de una vez a un anuncio en una campaña. 
 
 En la campaña anterior, se estimó una duplicación del 5% entre Instagram y Spotify, un 3% entre Instagram y carteles, y un 2% entre Spotify y carteles.
 
 #### Frecuencia media
 
-Es el número promedio de veces que un individuo se expone al anuncio durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura.
+Es el número promedio de veces que un individuo se expone durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (al menos una vez) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades _de ver el anuncio_ por persona de la cobertura.
 
 La expresión matemática para el cálculo de la frecuencia media es la siguiente:
 
 $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
-Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (al menos una vez) a 100.000 personas, la frecuencia media sería igual a 2,8 veces/persona de la cobertura.
-
 #### Distribución de contactos
 
-Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante la campaña publicitaria. Describe pues cómo se distribuyen las exposiciones a un anuncio entre la población (o la cobertura). La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones (Pi), o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva.
+Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante la campaña publicitaria. Describe pues cómo se distribuyen las exposiciones entre la población (o la cobertura). La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones, o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
+
+Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva.
 
 En la campaña de ropa _TU_, la distribución de contactos fue la siguiente:
 
