@@ -135,13 +135,13 @@ En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimi
 
 ***
 
-#### Coeficiente de afinidad
+#### Coeficiente (índice) de afinidad
 
 El coeficiente de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con el resto de la población. Este índice es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
 
 En particular, el Coeficiente de Afinidad proporciona información basada en datos que ayuda a seleccionar los canales de medios más relevantes para tu campaña. No se trata solo de llegar a una gran audiencia, sino de llegar a la audiencia adecuada. Esto asegura que el mensaje _resuene_ con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña y un mayor retorno de la inversión.
 
-**Cálculo del Coeficiente de afinidad**
+**Cálculo del coeficiente (índice) de afinidad**
 
 | Paso | Descripción | Ejemplo |
 |------|-------------|----------|
@@ -175,11 +175,11 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 - **C/RP**: Asumiendo que te refieres a C/RP, es la abreviatura de "Coste por Punto", que significa _Cost per Point_ en inglés. Se utiliza principalmente en la planificación de medios de difusión, como la televisión y la radio. El C/RP compara los vehículos de difusión en base a cuánto cuesta alcanzar el 1% de la audiencia, es decir, un punto de rating.
 
-- **Indice de Utilidad**: Representa el tanto por uno de la audiencia (o audiencia bruta) que es población objetivo.
+- **Indice de utilidad**: Representa el tanto por uno de la audiencia (o audiencia bruta) que es población objetivo.
 
-- **Audiencia Útil (000)**: Se refiere al número de personas de la audiencia de un soporte que es público objetivo.
+- **Audiencia útil (000)**: Se refiere al número de personas de la audiencia de un soporte que es público objetivo.
 
-- **Coste por Contacto Útil**: Se refiere al coste de llegar a una persona de la audiencia útil. Se puede calcular dividiendo el coste total de la campaña por el número de personas de la audiencia útil.
+- **Coste por contacto útil**: Se refiere al coste de llegar a una persona de la audiencia útil. Se puede calcular dividiendo el coste total de la campaña por el número de personas de la audiencia útil.
 
 ***
 
@@ -304,6 +304,65 @@ En la campaña de ropa _TU_, la distribución de contactos acumulada fue la sigu
 +2 veces: 60.000 personas
 
 +3 veces: 30,000 personas
+
+***
+
+<details>
+<summary>Haz clic para mayor desarrollo</summary>
+
+***
+
+Cobertura (Reach)
+
+Es la proporción del público objetivo que tiene al menos una exposición al mensaje publicitario durante un período específico. Según Rossiter y Percy, la cobertura forma parte de una cadena probabilística de respuesta del consumidor que incluye: exposición → procesamiento del anuncio → efectos de comunicación de marca → compra.
+
+Frecuencia Media (Frequency)
+
+Representa el número promedio de exposiciones que una persona del público objetivo tiene al mensaje publicitario durante la campaña. La frecuencia óptima varía según:
+
+- El tipo de mensaje (informacional vs transformacional)
+- La complejidad del mensaje
+- El nivel de involucramiento en la decisión de compra
+
+**Escenarios de Priorización Estratégica**
+
+**Priorización de Cobertura**
+
+a) Lanzamientos y Nuevos Productos
+
+  - Necesario para generar reconocimiento inicial de marca
+  - Crítico en las primeras etapas del ciclo de vida del producto
+  - Fundamental para establecer presencia en nuevos mercados
+
+b) Campañas Temporales
+
+  - Eficaz para promociones de corta duración
+  - Permite maximizar el alcance en períodos limitados
+  - Esencial cuando el tiempo es un factor crítico
+
+c) Mercados con Baja Notoriedad
+
+  - Ayuda a establecer presencia de marca
+  - Facilita la construcción de reconocimiento
+  - Permite llegar a segmentos no expuestos previamente
+
+**Priorización de Frecuencia**
+
+a) Productos de Alta Competencia
+
+  - Necesaria para reforzar el posicionamiento
+  - Ayuda a mantener la diferenciación
+  - Crucial en categorías con baja lealtad
+
+b) Mensajes Complejos
+
+  - Permite la asimilación gradual de información
+  - Facilita la comprensión de beneficios elaborados
+  - Mejora la retención del mensaje
+
+***
+
+</details>
 
 ***
 
