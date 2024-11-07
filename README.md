@@ -247,7 +247,7 @@ En general, la frecuencia efectiva varía según:
 - El medio elegido para la difusión del mensaje publicitario
 - La frecuencia efectiva del principal competidor/es
 
-A continuación, precisameos con mayor detalle los escenarios principales relacionados con los **factores de marketing, _copy_ y medios** que determinan los nivles de frecuencia efectiva a propuesta de Ostrow (1982).
+A continuación, precisamos con mayor detalle los escenarios principales relacionados con los **factores de marketing, _copy_ y medios** que determinan los nivles de frecuencia efectiva a propuesta de Ostrow (1982).
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
 
@@ -310,21 +310,21 @@ Proponemos un ejemplo de estimación de la cobertura (o alcance, _reach_):
 
 **_Tu_ (hipotética campaña de ropa)**
 
-| Canal de Medios        | Alcance Estimado             |
+| Canal de medios        | Alcance estimado             |
 |------------------------|------------------------------|
 | Anuncios en Instagram  | 30% del público objetivo     |
 | Anuncios de Audio en Spotify | 20% del público objetivo |
 | Carteles en la Universidad   | 15% del público objetivo  |
 
-**Modo de calcular la cobertura**
+**Modo de calcular la cobertura conociendo las n-plicaciones**
 
 | Paso                                                | Cálculo                  | Resultado |
 |-----------------------------------------------------|--------------------------|-----------|
-| 1. Alcance Bruto Combinado                                | 30% + 20% + 15%          | 65%       |
-| 2. Restar Duplicaciones                   | 65% - 5% - 3% - 2%       | 55%       |
-| 3. Añadir la Triplicación (se restó tres veces) | 55% + 1% | 56%       |
+| 1. Alcance bruto combinado                                | 30% + 20% + 15%          | 65%       |
+| 2. Restar duplicaciones                   | 65% - 5% - 3% - 2%       | 55%       |
+| 3. Añadir la triplicación (se restó tres veces) | 55% + 1% | 56%       |
 
-Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65% inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar sobrestimar su impacto.
+Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65% _bruto combinado_ inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar sobrestimar su impacto.
 
 #### Duplicación
 
@@ -335,6 +335,8 @@ En la campaña anterior, se estimó una duplicación del 5% entre Instagram y Sp
 #### Frecuencia media
 
 Es el número promedio de veces que un individuo se expone al anuncio durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. 
+
+$Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
 Si la campaña anterior generó 280.000 impactos y alcanzó (al menos una vez) a 100.000 personas, la frecuencia media sería igual a 2,8 veces/persona de la cobertura.
 
