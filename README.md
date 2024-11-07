@@ -247,6 +247,8 @@ La frecuencia efectiva varía según:
 - El medio elegido para la difusión del mensaje publicitario
 - La frecuencia efectiva del principal competidor/es
 
+![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
+
 #### Frecuencia efectiva mínima
 
 Es el número mínimo de veces que la cobertura efectiva debe exponerse a la campaña para que el logro de los objetivos de comunicación (publicitarios) superen un determinado nivel crítico.
@@ -418,7 +420,7 @@ Donde:
 * Ai es la audiencia del soporte i
 * P es la población total
 
-Aplicando la función de Sainsbury (simplificado) a los datos anteriormente expuestos, este sería el valor de la cobertura neta:
+Aplicando la función de Sainsbury (simplificado) a los datos anteriormente expuestos, este sería el valor (en tanto por uno) de la cobertura neta:
 
 $Cobertura_{neta} = 1 - (1-0,30) \times (1-0,20) \times (1-0,15) = 0,524$
 
