@@ -38,21 +38,6 @@ A continuación, se muestra una descripción de cinco componentes clave que inte
 | Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>*Estrategia*: Selección basada en:<br>- Alcance<br>- Frecuencia<br>- Afinidad con target<br>- Costo por impacto<br>- Capacidad de segmentación |
 | Programación | **Planificación temporal estratégica**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos de consumo del target<br>  * Actividad competitiva<br>  * Eventos relevantes del mercado<br><br>*Consideraciones tácticas*:<br>- Momentos de mayor demanda<br>- Períodos de compra<br>- Eventos especiales<br>- Fechas comerciales clave<br>- Horarios de mayor consumo mediático del target |
 
-
-
-1. Tabla Ejecutiva de Componentes Clave
-[*Visión rápida para consulta y referencia*]
-
-| Componente | Aspectos Fundamentales | Consideraciones Prácticas | Ejemplos |
-|------------|----------------------|--------------------------|-----------|
-| **Público Objetivo** | - Análisis demográfico<br>- Psicografía<br>- Hábitos de consumo<br>- Comportamiento de compra | - Edad, género, ubicación<br>- Valores e intereses<br>- Patrones de consumo<br>- Customer journey | Marca fitness → millennials y Gen Z:<br>- Activos en RRSS<br>- Interés en salud<br>- Alta adopción digital |
-| **Objetivos** | - Brand awareness<br>- Tráfico web<br>- Generación leads<br>- Conversión | - Definición SMART<br>- Alineación marketing<br>- KPIs específicos<br>- Temporalidad | Awareness → TV + video online<br>Ventas → Search + segmentación |
-| **Presupuesto** | - Costos por canal<br>- ROI esperado<br>- Distribución recursos<br>- Escalabilidad | - TV: alto costo/alcance<br>- Digital: eficiencia/segmentación<br>- Impresos: variables<br>- Exterior: fijos | Campaña nacional:<br>- 40% TV<br>- 35% Digital<br>- 15% Radio<br>- 10% Exterior |
-| **Canales** | - Tradicionales<br>- Digitales<br>- Exterior<br>- Integración | - Alcance y frecuencia<br>- Afinidad target<br>- Costo-impacto<br>- Segmentación | Mix óptimo:<br>- RRSS para engagement<br>- TV para cobertura<br>- Search para conversión |
-| **Programación** | - Estacionalidad<br>- Hábitos target<br>- Competencia<br>- Eventos clave | - Picos de demanda<br>- Ciclos de compra<br>- Momentos especiales<br>- Prime times | Retail navideño:<br>- Awareness: Oct-Nov<br>- Promo: Nov-Dic<br>- Sales: Dic-Ene |
-
-
-
 ***
 
 <details>
