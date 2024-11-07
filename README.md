@@ -159,7 +159,9 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 ### Métricas relativas a los soportes:
 
-- **Audiencia (000)**: Número total de personas, expresado en miles, que están expuestas a un anuncio o campaña publicitaria, es decir, las persaonas que se exponen regularmente a un soporte. Es una medida de alcance numérico. Se puede calcular en función de la circulación de una publicación impresa, las estimaciones de audiencia de una emisión o las visitas únicas a un sitio web.
+- **Audiencia, o audiencia bruta**: Número total de personas, expresado en ocasiones en miles (000), que están expuestas a un anuncio o campaña publicitaria, es decir, las persaonas que se exponen regularmente a un soporte. Es una medida de alcance numérico. Se puede calcular en función de la circulación de una publicación impresa, las estimaciones de audiencia de una emisión o las visitas únicas a un sitio web.
+
+- **Impacto**: Un impacto en una campaña publicitaria se refiere a una exposición individual de un miembro del público (objetivo) al anuncio publicitario. En otras palabras, cada vez que una persona ve, escucha o experimenta un anuncio, se cuenta como un impacto.
 
 - **Inserciones**: Se refiere al número de veces que se publica un anuncio en un medio determinado. Por ejemplo, si se publica un anuncio tres veces en una revista, se habla de tres inserciones.
 
@@ -171,7 +173,7 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 - **CPM**: Abreviatura de "Coste por Mil," que significa _Cost per Thousand_ en inglés. Es una medida de la eficiencia de un medio publicitario. Se calcula como el coste de llegar a 1.000 personas del público con un anuncio. Por ejemplo, si un anuncio cuesta 100 € y llega a 1.000 personas, su CPM es de (100 €/1.000 personas) * 1.000. El CPM se utiliza para comparar la eficiencia de diferentes medios y vehículos publicitarios.
 
-- **C/RP**: Asumiendo que te refieres a CPP, es la abreviatura de "Coste por Punto", que significa _Cost per Point_ en inglés. Se utiliza principalmente en la planificación de medios de difusión, como la televisión y la radio. El CPP compara los vehículos de difusión en base a cuánto cuesta alcanzar el 1% de la audiencia, es decir, un punto de rating.
+- **C/RP**: Asumiendo que te refieres a C/RP, es la abreviatura de "Coste por Punto", que significa _Cost per Point_ en inglés. Se utiliza principalmente en la planificación de medios de difusión, como la televisión y la radio. El C/RP compara los vehículos de difusión en base a cuánto cuesta alcanzar el 1% de la audiencia, es decir, un punto de rating.
 
 - **Indice de Utilidad**: Representa el tanto por uno de la audiencia (o audiencia bruta) que es población objetivo.
 
@@ -270,19 +272,38 @@ Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65%
 
 La duplicación ocurre cuando una misma persona se expone (o _tiene la oportunidad de ver_, OTS) más de una vez al anuncio durante una campaña publicitaria. La audiencia duplicada se define pues como aquellas personas que están expuestas más de una vez a un anuncio en una campaña. 
 
+En la campaña anterior, se estimó una duplicación del 5% entre Instagram y Spotify, un 3% entre Instagram y carteles, y un 2% entre Spotify y carteles.
+
 #### Frecuencia media
 
 Es el número promedio de veces que un individuo se expone al anuncio durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. 
 
+Si la campaña anterior generó 280,000 impactos y alcanzó (al menos una vez) a 100,000 personas, la frecuencia media sería igual a 2.8 veces/persona de la cobertura.
+
 #### Distribución de contactos
 
-Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante la campaña publicitaria. Describe pues cómo se distribuyen las exposiciones a un anuncio entre la población (o la cobertura). La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones (Pi), o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
+Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante la campaña publicitaria. Describe pues cómo se distribuyen las exposiciones a un anuncio entre la población (o la cobertura). La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones (Pi), o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva.
 
-Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva.
+En la campaña de ropa _TU_, la distribución de contactos fue la siguiente:
+
+Exclus. 1 vez: 40,000 personas
+
+Exclus. 2 veces: 30,000 personas
+
+Exclus. 3 veces: 30,000 personas
+
 
 #### Distribución de contactos acumulada
 
 Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, durante la campaña publicitaria. La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de su frecuencia media efectiva.
+
+En la campaña de ropa _TU_, la distribución de contactos acumulada fue la siguiente:
+
++1 vez: 100.000 personas
+
++2 veces: 60.000 personas
+
++3 veces: 30,000 personas
 
 ***
 
