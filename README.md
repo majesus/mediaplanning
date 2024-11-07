@@ -226,11 +226,11 @@ head(resultado)
 
 ### Métricas relativas al plan de medios:
 
-#### Objetivos del plan de medios
+### Objetivos del plan de medios
 
 #### Cobertura efectiva
 
-Se refiere al número de personas de la población (objetivo) que debe exponerse a la campaña publicitaria para alcanzar los objetivos de marketing (crecimieno o rentabilidad).
+Se refiere al número de personas de la población (objetivo) que debe exponerse a la campaña publicitaria para alcanzar los objetivos de marketing (crecimiento o rentabilidad).
 
 #### Frecuencia efectiva
 
@@ -240,7 +240,7 @@ Es el número de veces que la cobertura efectiva debe exponerse a la campaña pa
 
 Es el número mínimo de veces que la cobertura efectiva debe exponerse a la campaña para que el logro de los objetivos de comunicación (publicitarios) superen un determinado nivel crítico.
 
-#### Resultados (esperados) del plan de medios
+### Resultados (esperados) del plan de medios
 
 #### Cobertura
 
@@ -276,13 +276,13 @@ Es el número promedio de veces que un individuo se expone al anuncio durante un
 
 #### Distribución de contactos
 
-Describe cómo se distribuyen las exposiciones a un anuncio entre la cobertura. La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones (Pi), o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
+Se refiere al número de personas de la cobertura que se exponen **exclusivamente i veces**. Describe pues cómo se distribuyen las exposiciones a un anuncio entre la cobertura. La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones (Pi), o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
 
 Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva.
 
 #### Distribución de contactos acumulada
 
-Muestra el número total de personas que han sido expuestas a un anuncio al menos una vez, dos veces, tres veces, etc., durante la campaña publicitaria. La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de su frecuencia media efectiva.
+Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, durante la campaña publicitaria. La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de su frecuencia media efectiva.
 
 ***
 
