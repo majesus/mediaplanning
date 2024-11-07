@@ -222,6 +222,70 @@ resultado <- calcular_metricas_medios(
 head(resultado)
 ```
 
+***
+
+### Métricas relativas al plan de medios:
+
+#### Objetivos del plan de medios
+
+#### Cobertura efectiva
+
+Se refiere al número de personas de la población (objetivo) que debe exponerse a la campaña publicitaria para alcanzar los objetivos de marketing (crecimieno o rentabilidad).
+
+#### Frecuencia efectiva
+
+Es el número de veces que la cobertura efectiva debe exponerse a la campaña para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento).
+
+#### Frecuencia efectiva mínima
+
+Es el número mínimo de veces que la cobertura efectiva debe exponerse a la campaña para que el logro de los objetivos de comunicación (publicitarios) superen un determinado nivel crítico.
+
+#### Resultados (esperados) del plan de medios
+
+#### Cobertura
+
+Se refiere al número de personas expuestas durante una oleada o campaña publicitaria **al menos una vez dentro** de un período de tiempo específico. En otras palabras, la cobertura mide el alcance de la campaña, es decir, cuántas personas tienen la oportunidad de ver, leer o escuchar el anuncio.
+
+Proponemos un ejemplo de estimación de la cobertura (o alcance, _reach_):
+
+**_Tu_ (hipotética campaña de ropa)**
+
+| Canal de Medios        | Alcance Estimado             |
+|------------------------|------------------------------|
+| Anuncios en Instagram  | 30% del público objetivo     |
+| Anuncios de Audio en Spotify | 20% del público objetivo |
+| Carteles en la Universidad   | 15% del público objetivo  |
+
+**Modo de calcular la cobertura**
+
+| Paso                                                | Cálculo                  | Resultado |
+|-----------------------------------------------------|--------------------------|-----------|
+| 1. Alcance Bruto Combinado                                | 30% + 20% + 15%          | 65%       |
+| 2. Restar Duplicaciones                   | 65% - 5% - 3% - 2%       | 55%       |
+| 3. Añadir la Triplicación (se restó tres veces) | 55% + 1% | 56%       |
+
+Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65% inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar sobrestimar su impacto.
+
+#### Duplicación
+
+La duplicación ocurre cuando una misma persona se expone (o _tiene la oportunidad de ver_, OTS) más de una vez al anuncio durante una campaña publicitaria. La audiencia duplicada se define pues como aquellas personas que están expuestas más de una vez a un anuncio en una campaña. 
+
+#### Frecuencia media
+
+Es el número promedio de veces que un individuo se expone al anuncio durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. 
+
+#### Distribución de contactos
+
+Describe cómo se distribuyen las exposiciones a un anuncio entre la cobertura. La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones (Pi), o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
+
+Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva.
+
+#### Distribución de contactos acumulada
+
+Muestra el número total de personas que han sido expuestas a un anuncio al menos una vez, dos veces, tres veces, etc., durante la campaña publicitaria. La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de su frecuencia media efectiva.
+
+***
+
 A continuación, te muestro las principales funciones del paquete mediaPlanR.
 
 ## Funciones de mediaPlanR
@@ -291,28 +355,6 @@ Donde:
 * pi es la probabilidad de exposición al soporte i (Ai/P)
 * El primer producto corresponde a las probabilidades de exposición a los soportes i
 * El segundo producto corresponde a las probabilidades de no exposición a los soportes j
-
-***
-
-Proponemos un ejemplo de estimación de la cobertura (o alcance) neta:
-
-**_Tu_ (hipotética campaña de ropa)**
-
-| Canal de Medios        | Alcance Estimado             |
-|------------------------|------------------------------|
-| Anuncios en Instagram  | 30% del público objetivo     |
-| Anuncios de Audio en Spotify | 20% del público objetivo |
-| Carteles en la Universidad   | 15% del público objetivo  |
-
-**Modo de calcular la cobertura neta**
-
-| Paso                                                | Cálculo                  | Resultado |
-|-----------------------------------------------------|--------------------------|-----------|
-| 1. Alcance Bruto Combinado                                | 30% + 20% + 15%          | 65%       |
-| 2. Restar Duplicaciones                   | 65% - 5% - 3% - 2%       | 55%       |
-| 3. Añadir la Triplicación (se restó tres veces) | 55% + 1% | 56%       |
-
-Así pues, la fórmula Sainsbury estima el alcance neto de esta campaña en un 56%, y no en el 65% inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar sobrestimar su impacto.
 
 ***
 
