@@ -26,7 +26,7 @@ A continuación, hacemos un breve resumen de los conceptos clave de la planifica
 
 ## Planificación de medios
 
-La planificación de medios es el proceso de encontrar la combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicaciòn y marketing diseñados, y optimice el retorno de la inversión (ROI).
+La planificación de medios es el proceso de encontrar la combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicaciòn y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS).
 
 A continuación, se muestra una descripción de cinco componentes clave que intervienen en la planificación de medios publicitarios, incluyendo ejemplos prácticos y consideraciones tácticas para cada elemento.
 
@@ -34,7 +34,7 @@ A continuación, se muestra una descripción de cinco componentes clave que inte
 |------------|---------------------|
 | Público Objetivo | **Base fundamental del plan de medios** <br>- Análisis demográfico: edad, género, ubicación, nivel de ingresos<br>- Psicografía: valores, intereses, estilo de vida<br>- Hábitos de consumo de medios<br>- Comportamiento de compra<br><br>*Ejemplo*: Una marca de fitness que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
 | Objetivos | **Metas claramente definidas y medibles**<br>- Awareness: aumentar reconocimiento de marca<br>- Tráfico web: incrementar visitas al sitio<br>- Generación de leads: captación de potenciales clientes<br>- Conversión: ventas directas<br><br>*Ejemplo*: Si el objetivo es brand awareness, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
-| Presupuesto | **Planificación financiera estratégica**<br>- Evaluación de costos por canal<br>- ROI esperado por medio<br>- Distribución eficiente de recursos<br>- Escalabilidad del presupuesto<br><br>*Consideraciones*:<br>- TV: alto costo, gran alcance<br>- Digital: más asequible, mejor segmentación<br>- Medios impresos: costos variables según alcance<br>- Exterior: costos fijos con exposición prolongada |
+| Presupuesto | **Planificación financiera estratégica**<br>- Evaluación de costos por canal<br>- ROI / ROAS esperado por medio<br>- Distribución eficiente de recursos<br>- Escalabilidad del presupuesto<br><br>*Consideraciones*:<br>- TV: alto costo, gran alcance<br>- Digital: más asequible, mejor segmentación<br>- Medios impresos: costos variables según alcance<br>- Exterior: costos fijos con exposición prolongada |
 | Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>*Estrategia*: Selección basada en:<br>- Alcance<br>- Frecuencia<br>- Afinidad con target<br>- Costo por impacto<br>- Capacidad de segmentación |
 | Programación | **Planificación temporal estratégica**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos de consumo del target<br>  * Actividad competitiva<br>  * Eventos relevantes del mercado<br><br>*Consideraciones tácticas*:<br>- Momentos de mayor demanda<br>- Períodos de compra<br>- Eventos especiales<br>- Fechas comerciales clave<br>- Horarios de mayor consumo mediático del target |
 
@@ -45,7 +45,7 @@ A continuación, se muestra una descripción de cinco componentes clave que inte
 
 ***
 
-Más aún, un planificador de medios debe abordar una serie de preguntas fundamentales para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
+De modo más detallado, un planificador de medios debe abordar una serie de preguntas fundamentales para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
 
 **1. Conocimiento del Mercado y de la Audiencia**
 
@@ -71,7 +71,7 @@ Definir objetivos de manera SMART: Es fundamental que los objetivos de la campa�
 
 **3. Selección de Medios y Canales**
 
-¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos? Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión (ROI) y mediciones de impacto para cada medio seleccionado.
+¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos? Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión (ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
 
 ¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña? La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados.
 
@@ -87,7 +87,40 @@ Definir objetivos de manera SMART: Es fundamental que los objetivos de la campa�
 
 ¿Cómo se medirá la efectividad del plan? Se deben establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y rentabilidad así como en los objetivos publicitarios definidos, y otros indicadores relevantes.
 
-**5. Consideraciones Adicionales**
+**5. Presupuesto y Gestión Financiera de la Campaña**
+
+¿Cómo se determinará el presupuesto publicitario? El planificador debe establecer el presupuesto considerando diferentes métodos: porcentaje sobre ventas, paridad competitiva, objetivos y tareas, o histórico ajustado. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo y los objetivos de marketing.
+¿Cuál es la distribución óptima del presupuesto entre medios? Es fundamental determinar la asignación presupuestaria entre los diferentes canales, considerando, por ejemplo:
+
+- Medio principal (40-50%): canal con mayor impacto para objetivos primarios
+- Medios de apoyo (20-30%): complementan y refuerzan el mensaje
+- Medios tácticos (10-20%): acciones específicas y oportunidades
+- Innovación y pruebas (5-10%): nuevos formatos y canales
+
+¿Cómo se optimizará el rendimiento del presupuesto? Se debe establecer un sistema de control y optimización que incluya:
+
+- Métricas de eficiencia: CPM, CPC, CPL, ROAS
+- KPIs financieros: ROI, ROAS ( _Return On Ad Spend_ ), margen sobre inversión publicitaria
+- Control de costes: producción, espacios, implementación
+- Flexibilidad para ajustes según resultados
+
+¿Qué consideraciones adicionales afectan al presupuesto?
+
+- Estacionalidad del negocio y del consumo mediático
+- Presión competitiva y share of voice (SOV) deseado
+- Costes de producción y adaptación de materiales
+- Reserva para contingencias y oportunidades
+- Economías de escala y negociación con medios
+
+¿Cómo se evaluará la eficiencia presupuestaria? Es necesario establecer:
+
+- Sistema de reporting financiero regular
+- Análisis de desviaciones y causas
+- Medición de retorno por canal y campaña
+- Benchmarks de eficiencia por medio y formato
+- Optimización continua de la inversión
+
+**6. Consideraciones Adicionales**
 
 ¿Cómo se integrará la planificación de medios con otras áreas del marketing? La planificación de medios debe estar subordinada a una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
 
