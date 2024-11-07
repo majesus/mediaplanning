@@ -186,26 +186,21 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 
 | Soporte  | Audiencia_miles | Inserciones | RP | SOV   | Tarifa_Pag_Color | CPM    | C/RP     | Indice_Utilidad | Audiencia_Util_miles | Coste_Contacto_Util |
 |----------|----------------|-------------|----|---------|--------------------|--------|----------|----------------|-------------------|-------------------|
-| Diario 1 | 1500          | 1           | 0  | 40,54  | 500               | 333.33 | 131.666,7 | 0,30           | 450               | 1,11              |
-| Diario 2 | 1000          | 1           | 0  | 27,03  | 250               | 250.00 | 98.750,0  | 0,20           | 200               | 1,25              |
-| Diario 3 | 1200          | 1           | 0  | 32,43  | 400               | 333.33 | 131.666,7 | 0,25           | 300               | 1,33              |
+| D 1 | 1500          | 1           | 0  | 40,54  | 500               | 333.33 | 131.666,7 | 0,30           | 450               | 1,11              |
+| D 2 | 1000          | 1           | 0  | 27,03  | 250               | 250.00 | 98.750,0  | 0,20           | 200               | 1,25              |
+| D 3 | 1200          | 1           | 0  | 32,43  | 400               | 333.33 | 131.666,7 | 0,25           | 300               | 1,33              |
 
 ***
 
-**Tabla de comparación de opciones publicitarias**
+**Tabla de comparación de opciones publicitarias en función del coste relativo**
 
 | Opción | Coste | Alcance | CPM | C/RP |
 |--------|--------|----------|-----|------|
-| Diario 1 | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 * 100)) |
-| Diario 2 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
+| D 4 | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 * 100)) |
+| D 5 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
 
 Notas:
 - Población = 500.000 personas
-- CPM = Coste Por Mil 
-- C/RP = Coste Por Punto de Rating
-- Los costes están expresados en euros
-- Los cálculos se muestran entre paréntesis para mayor transparencia
-- El alcance se mide en número de jóvenes adultos impactados
 
 ***
 
@@ -215,7 +210,7 @@ La función **calcular_metricas_medios()** del paquete mediaPlanR permite estima
 
 ```R
 resultado <- calcular_metricas_medios(
-  soportes = c("Diario 1", "Diario 2", "Diario 3"),
+  soportes = c("D 1", "D 2", "D 3"),
   audiencias = c(1500, 1000, 1200),
   tarifas = c(500, 250, 400),
   ind_utilidad = c(0.3, 0.20, 0.25),
@@ -231,11 +226,11 @@ head(resultado)
 
 #### Cobertura efectiva
 
-Se refiere al número de personas de la población (objetivo) que debe exponerse a la campaña publicitaria para alcanzar los objetivos de marketing (crecimiento o rentabilidad).
+Se refiere al número de personas de la población (objetivo) que debe exponerse a la campaña publicitaria para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento, actitud o intención).
 
 #### Frecuencia efectiva
 
-Es el número de veces que la cobertura efectiva debe exponerse a la campaña para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento).
+Es el número de veces que la cobertura efectiva debe exponerse a la campaña para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento, actitud o intención).
 
 En general, la frecuencia efectiva varía según:
 
@@ -246,13 +241,15 @@ En general, la frecuencia efectiva varía según:
 - El medio elegido para la difusión del mensaje publicitario
 - La frecuencia efectiva del principal competidor/es
 
-A continuación, precisamos con mayor detalle los escenarios principales relacionados con los **factores de marketing, _copy_ y medios** que determinan los nivles de frecuencia efectiva a propuesta de Ostrow (1982).
-
-![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
-
 #### Frecuencia efectiva mínima
 
 Es el número mínimo de veces que la cobertura efectiva debe exponerse a la campaña para que el logro de los objetivos de comunicación (publicitarios) superen un determinado nivel crítico.
+
+***
+
+A continuación, precisamos con mayor detalle los escenarios principales relacionados con los **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva a propuesta de Ostrow (1982). El extracto procede del artículo citado en el pie de la tabla.
+
+![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
 
 <details>
 <summary>Haz clic para mayor desarrollo</summary>
