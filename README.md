@@ -238,6 +238,15 @@ Se refiere al número de personas de la población (objetivo) que debe exponerse
 
 Es el número de veces que la cobertura efectiva debe exponerse a la campaña para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento).
 
+La frecuencia efectiva varía según:
+
+- El tipo de mensaje (informacional vs transformacional)
+- La complejidad del mensaje, y las vías de recuperación de la memoria ()
+- El nivel de implicación en la decisión de compra
+- El nivel de lealtad del consumidor o usuario
+- El medio elegido para la difusión del mensaje publicitario
+- La frecuencia efectiva del principal competidor/es
+
 #### Frecuencia efectiva mínima
 
 Es el número mínimo de veces que la cobertura efectiva debe exponerse a la campaña para que el logro de los objetivos de comunicación (publicitarios) superen un determinado nivel crítico.
@@ -246,18 +255,6 @@ Es el número mínimo de veces que la cobertura efectiva debe exponerse a la cam
 
 <details>
 <summary>Haz clic para mayor desarrollo</summary>
-
-Cobertura (Reach)
-
-Es la proporción del público objetivo que tiene al menos una exposición al mensaje publicitario durante un período específico. Según Rossiter y Percy, la cobertura forma parte de una cadena probabilística de respuesta del consumidor que incluye: exposición → procesamiento del anuncio → efectos de comunicación de marca → compra.
-
-Frecuencia Media (Frequency)
-
-Representa el número promedio de exposiciones que una persona del público objetivo tiene al mensaje publicitario durante la campaña. La frecuencia óptima varía según:
-
-- El tipo de mensaje (informacional vs transformacional)
-- La complejidad del mensaje
-- El nivel de involucramiento en la decisión de compra
 
 **Escenarios de Priorización Estratégica**
 
