@@ -187,9 +187,9 @@ En particular, el Coeficiente de Afinidad proporciona información basada en dat
 
 | Soporte  | Audiencia_miles | Inserciones | RP | SOV   | Tarifa_Pag_Color | CPM    | C/RP     | Indice_Utilidad | Audiencia_Util_miles | Coste_Contacto_Util |
 |----------|----------------|-------------|----|---------|--------------------|--------|----------|----------------|-------------------|-------------------|
-| Diario 1 | 1500          | 1           | 0  | 40.54  | 500               | 333.33 | 131666.7 | 0.30           | 450               | 1.11              |
-| Diario 2 | 1000          | 1           | 0  | 27.03  | 250               | 250.00 | 98750.0  | 0.20           | 200               | 1.25              |
-| Diario 3 | 1200          | 1           | 0  | 32.43  | 400               | 333.33 | 131666.7 | 0.25           | 300               | 1.33              |
+| Diario 1 | 1500          | 1           | 0  | 40,54  | 500               | 333.33 | 131.666,7 | 0.30           | 450               | 1,11              |
+| Diario 2 | 1000          | 1           | 0  | 27,03  | 250               | 250.00 | 98.750,0  | 0.20           | 200               | 1,25              |
+| Diario 3 | 1200          | 1           | 0  | 32,43  | 400               | 333.33 | 131.666,7 | 0.25           | 300               | 1,33              |
 
 ***
 
@@ -251,10 +251,10 @@ La frecuencia efectiva varía según:
 
 Es el número mínimo de veces que la cobertura efectiva debe exponerse a la campaña para que el logro de los objetivos de comunicación (publicitarios) superen un determinado nivel crítico.
 
-***
-
 <details>
 <summary>Haz clic para mayor desarrollo</summary>
+
+***
 
 **Escenarios de Priorización Estratégica**
 
@@ -332,7 +332,7 @@ En la campaña anterior, se estimó una duplicación del 5% entre Instagram y Sp
 
 Es el número promedio de veces que un individuo se expone al anuncio durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. 
 
-Si la campaña anterior generó 280,000 impactos y alcanzó (al menos una vez) a 100,000 personas, la frecuencia media sería igual a 2.8 veces/persona de la cobertura.
+Si la campaña anterior generó 280.000 impactos y alcanzó (al menos una vez) a 100.000 personas, la frecuencia media sería igual a 2,8 veces/persona de la cobertura.
 
 #### Distribución de contactos
 
@@ -340,11 +340,11 @@ Se refiere al número de personas de la población (o la cobertura) que se expon
 
 En la campaña de ropa _TU_, la distribución de contactos fue la siguiente:
 
-Exclus. 1 vez: 40,000 personas
+Exclus. 1 vez: 40.000 personas
 
-Exclus. 2 veces: 30,000 personas
+Exclus. 2 veces: 30.000 personas
 
-Exclus. 3 veces: 30,000 personas
+Exclus. 3 veces: 30.000 personas
 
 
 #### Distribución de contactos acumulada
@@ -357,7 +357,7 @@ En la campaña de ropa _TU_, la distribución de contactos acumulada fue la sigu
 
 +2 veces: 60.000 personas
 
-+3 veces: 30,000 personas
++3 veces: 30.000 personas
 
 ***
 
