@@ -28,7 +28,7 @@ A continuación, hacemos un breve resumen de los conceptos clave de la planifica
 
 La planificación de medios es el proceso de encontrar la combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicaciòn y marketing diseñados, y optimice el retorno de la inversión (ROI).
 
-Aquí tienes una tabla markdown ampliada y revisada en castellano con un contenido más detallado de los componentes de planificación de medios:
+A continuación, se muestra una descripción de cinco componentes clave que intervienen en la planificación de medios publicitarios, incluyendo ejemplos prácticos y consideraciones tácticas para cada elemento.
 
 | Componente | Descripción Detallada |
 |------------|---------------------|
