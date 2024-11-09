@@ -30,7 +30,7 @@ library(mediaPlanR)
 
 ***
 
-Antes de aplicar mediaPlanR, hacemos un breve resumen de los conceptos clave de la planificación en medios tradicionales.
+Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de la planificación en medios tradicionales.
 
 ***
 
@@ -38,12 +38,12 @@ Antes de aplicar mediaPlanR, hacemos un breve resumen de los conceptos clave de 
 
 La planificación de medios es el proceso de encontrar la **combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente**. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS _Return On Ad Spend_).
 
-A continuación, se muestra una descripción de cinco bloques clave que intervienen en la planificación de medios publicitarios, incluyendo ejemplos prácticos y consideraciones tácticas para cada bloque.
+Para el logro de los objetivos de exposición o de planificación de medios (cobertura y frecuencia efectivas) es preciso reflexionar en torno a cinco bloques clave EN la siguiente tabla se muestran además ejemplos prácticos y consideraciones tácticas.
 
 | Componente | Descripción Detallada (ejemplos) |
 |------------|---------------------|
 | Público Objetivo | **Base fundamental del plan de medios** <br>- Análisis demográfico: edad, género, ubicación, nivel de ingresos<br>- Psicografía: valores, intereses, estilo de vida<br>- Hábitos de consumo de medios<br>- Comportamiento de compra<br><br>*Ejemplo*: Una marca de fitness que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
-| Objetivos | **Metas claramente definidas y medibles**<br>- Awareness: aumentar reconocimiento de marca<br>- Actitud: mejorar la valoración del uso de la marca<br>- Predisposición a la compra: aumentar la intención de compra<br>- Tráfico web: incrementar visitas al sitio<br>- Generación de leads: captación de potenciales clientes<br>- Conversión: ventas directas<br><br>*Ejemplo*: Si el objetivo es brand awareness, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
+| Objetivos | **Metas claramente definidas y medibles**<br>- Awareness: aumentar reconocimiento de marca<br>- Actitud: mejorar la valoración del uso de la marca<br>- Predisposición a la compra: aumentar la intención de compra<br><br>*Ejemplo*: Si el objetivo es brand awareness, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
 | Presupuesto | **Planificación financiera estratégica**<br>- Evaluación de costos por canal<br>- ROI / ROAS esperado por medio<br>- Distribución eficiente de recursos<br>- Escalabilidad del presupuesto<br><br> - Consideraciones:<br>- TV: alto costo, gran alcance<br>- Digital: más asequible, mejor segmentación<br>- Medios impresos: costos variables según alcance<br>- Exterior: costos fijos con exposición prolongada |
 | Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>  * Cine<br><br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br><br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>**Métricas**: <br>  * Alcance<br>  * Frecuencia<br>  * Afinidad con target<br>  * Coste por impacto<br>  * Capacidad de segmentación |
 | Programación | **Planificación temporal**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos de consumo del target<br>  * Actividad competitiva<br>  * Eventos relevantes del mercado<br><br>- Consideraciones tácticas:<br>  * Momentos de mayor demanda<br>  * Períodos de compra<br>  *Eventos especiales<br>  * Fechas comerciales clave<br>  * Horarios de mayor consumo mediático del target |
