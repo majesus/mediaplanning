@@ -491,7 +491,9 @@ $$
 
 ![FE_Ostrow_1982](./img/img_FEM_table.png)
 
-( _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._ )
+NOta: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
+
+***
 
 Los factores que determinan el nivel de la MEF son:
 
@@ -521,7 +523,7 @@ Los factores que determinan el nivel de la MEF son:
 
 ***
 
-A continuación, te ofrecemos una propuesta alternativa de Ostrow (1982) basada en **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva.
+Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva. La imagen se toma del artículo citado al pie de la tabla.
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
 
@@ -533,7 +535,7 @@ Los patrones de alcance constituyen el fundamento de la planificación estratég
 
 _Las imágenes han sido tomadas de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
 
-#### Patrones para Productos Nuevos**
+#### Patrones para Productos Nuevos
 
 **_Blitz_: Máxima Intensidad Inicial**
 
@@ -637,6 +639,8 @@ La efectividad de cada patrón depende de su correcta aplicación según el tipo
 <summary>Haz clic para mayor desarrollo</summary>
 
 ***
+
+En este bloque mostramos ejemplos que ilustran los modelos anteriores así como aspectos estratégicos y tácticos de interés para la implementación de las estrategias de cobertura y distribución de exposición descritas.
 
 ### 1. BLITZ PATTERN
 
@@ -859,52 +863,15 @@ La efectividad de cada patrón depende de su correcta aplicación según el tipo
 - Necesidad de presencia continua
 - Eficiencia en mantenimiento de marca
 
-### CONSIDERACIONES OPERATIVAS PARA TODOS LOS PATRONES
-
-**1. Factores Cuantitativos:**
-- Cálculo MEF específico del patrón
-- Determinación MaxEF para evitar desgaste
-- Métricas VA por medio
-- GRPs/TRPs necesarios
-- SOV objetivo vs. competencia
-
-**2. Factores Cualitativos:**
-- Características del TA
-- Objetivos BA/BATT
-- Rol de PI según categoría
-- Contexto competitivo
-- Estacionalidad
-
-**3. Aspectos Presupuestarios:**
-- Distribución temporal
-- Cost per Point por medio
-- Eficiencia en negociación
-- Flexibilidad para ajustes
-- Reserva para oportunidades
-
-**4. Sistema de Medición:**
-- KPIs específicos por patrón
-- Herramientas de tracking
-- Métricas de respuesta
-- Indicadores de eficiencia
-- Sistemas de optimización
-
-**5. Criterios de Corrección:**
-- Umbrales de ajuste
-- Timing de evaluación
-- Mecanismos de compensación
-- Flexibilidad táctica
-- Protocolos de crisis
-
 </details>
 
 ***
 
-# Guía de Media Planning por Patrón de Alcance
+### Guía de Media Planning por Patrón de Alcance
 
-## PLANIFICACIÓN PARA PRODUCTOS NUEVOS
+### PLANIFICACIÓN PARA PRODUCTOS NUEVOS
 
-### 1. Plan de Medios - Patrón Blitz
+#### 1. Plan de Medios - Patrón Blitz
 
 **Objetivo:** 100% de alcance con frecuencia sostenida durante un año completo.
 
@@ -921,7 +888,7 @@ La efectividad de cada patrón depende de su correcta aplicación según el tipo
 - Calendario intensivo y constante
 - No se contemplan períodos de hiatus
 
-### 2. Plan de Medios - Patrón Wedge
+#### 2. Plan de Medios - Patrón Wedge
 
 **Objetivo:** Alto impacto inicial con reducción gradual manteniendo alcance.
 
@@ -935,7 +902,7 @@ La efectividad de cada patrón depende de su correcta aplicación según el tipo
 - Para new brands regulares: primer año
 - Para promociones introductorias: primeros 6 meses
 
-### 3. Plan de Medios - Patrón Reverse-Wedge/PI
+#### 3. Plan de Medios - Patrón Reverse-Wedge/PI
 
 **Objetivo:** Construir adopción gradual a través de influenciadores.
 
@@ -949,7 +916,7 @@ La efectividad de cada patrón depende de su correcta aplicación según el tipo
 - Mantener 100% de alcance en el grupo objetivo de cada fase
 - Enfoque en medios que faciliten la influencia personal
 
-### 4. Plan de Medios - Patrón Short Fad
+#### 4. Plan de Medios - Patrón Short Fad
 
 **Objetivo:** Máximo impacto en período corto.
 
@@ -958,9 +925,9 @@ La efectividad de cada patrón depende de su correcta aplicación según el tipo
 - Fase crecimiento: sostener intensidad
 - Duración total: según ciclo del producto
 
-## PLANIFICACIÓN PARA PRODUCTOS ESTABLECIDOS
+### PLANIFICACIÓN PARA PRODUCTOS ESTABLECIDOS
 
-### 5. Plan de Medios - Regular Purchase Cycle
+#### 5. Plan de Medios - Regular Purchase Cycle
 
 **Objetivo:** Sincronización con ciclos de compra.
 
@@ -972,7 +939,7 @@ La efectividad de cada patrón depende de su correcta aplicación según el tipo
   * Papel higiénico: 20 días
   * Mantequilla de cacahuete: 48 días
 
-### 6. Plan de Medios - Awareness
+#### 6. Plan de Medios - Awareness
 
 **Objetivo:** Mantener disposición de compra en ciclos largos.
 
@@ -988,7 +955,7 @@ Comisión de Turismo Australiana:
 - Números 800 para respuesta
 - Integración con sitio web
 
-### 7. Plan de Medios - Shifting Reach
+#### 7. Plan de Medios - Shifting Reach
 
 **Objetivo:** Alcance rotativo de diferentes segmentos.
 
@@ -1005,7 +972,7 @@ Comisión de Turismo Australiana:
 - Ciclo 4: Programación nocturna
 - Rotación de medios por ciclo
 
-### 8. Plan de Medios - Seasonal Priming
+#### 8. Plan de Medios - Seasonal Priming
 
 **Objetivo:** Preparación y maximización de temporada alta.
 
@@ -1038,7 +1005,7 @@ Comisión de Turismo Australiana:
 
 ***
 
-### Resultados (esperados) del plan de medios
+### Control (resultados esperados) del plan de medios
 
 #### Cobertura
 
@@ -1107,9 +1074,7 @@ En la campaña de ropa _TU_, la distribución de contactos acumulada fue la sigu
 
 ***
 
-A continuación, te muestro las principales funciones del paquete mediaPlanR.
-
-## Funciones de mediaPlanR
+## mediaPlanR: Funciones de mediaPlanR
 
 Modelos:
 - calc_sainsbury() 
@@ -1241,7 +1206,7 @@ La comprensión de estos aspectos permite una elección informada que optimiza e
 
 ***
 
-## Funciones principales de mediaPlanR
+## Modelos de estimación de la cobertura y distribución de exposición
 
 ### Modelo de Sainsbury (`calc_sainsbury`)
 
@@ -1464,17 +1429,17 @@ Imagina un periódico que tiene estas audiencias:
 
 La duplicación constante significa que el número de personas que leen DOS DÍAS CUALESQUIERA es siempre el mismo. Por ejemplo:
 
-* Entre lunes y martes: 60,000 leen ambos días
-* Entre martes y miércoles: 60,000 leen ambos días
-* Entre lunes y miércoles: 60,000 leen ambos días
+* Entre lunes y martes: 60.000 leen ambos días
+* Entre martes y miércoles: 60.000 leen ambos días
+* Entre lunes y miércoles: 60.000 leen ambos días
 
 Es decir, d = 60,000 para cualquier par de días.
 
 Si NO fuera constante, podría ser:
 
-* Entre lunes y martes: 60,000 leen ambos días
-* Entre martes y miércoles: 55,000 leen ambos días
-* Entre lunes y miércoles: 40,000 leen ambos días
+* Entre lunes y martes: 60.000 leen ambos días
+* Entre martes y miércoles: 55.000 leen ambos días
+* Entre lunes y miércoles: 40.000 leen ambos días
 
 En el modelo de Hofmans, esta simplificación (duplicación constante) permite calcular:
 
@@ -1482,9 +1447,9 @@ d = 2R1 - R2
 
 Donde:
 
-* R1 es la cobertura de un día (por ejemplo 100,000)
-* R2 es la cobertura acumulada de dos días (por ejemplo 140,000)
-* d sería entonces: 2(100,000) - 140,000 = 60,000 lectores duplicados
+* R1 es la cobertura de un día (por ejemplo 100.000)
+* R2 es la cobertura acumulada de dos días (por ejemplo 140.000)
+* d sería entonces: 2(100.000) - 140.000 = 60.000 lectores duplicados
 
 Esta constante d se utiliza luego en la fórmula para calcular la cobertura para N inserciones, asumiendo que la duplicación entre cualquier par de días será siempre la misma.
 
