@@ -254,11 +254,6 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 
 ### Métricas relativas a los soportes:
 
-<details>
-<summary>Haz clic para mayor desarrollo</summary>
-
-***
-
 #### Glosario de Conceptos de Planificación de Medios
 
 #### Conceptos Básicos de Audiencia y Exposición
@@ -442,8 +437,6 @@ Estrategia donde la frecuencia MEF/c se establece deliberadamente por encima de 
 - Busca establecer presencia superior
 - Es especialmente relevante en momentos críticos del mercado
 
-</details>
-
 ***
 
 **Tabla de principales métricas**
@@ -482,8 +475,6 @@ head(resultado)
 ```
 
 ***
-
-### Métricas relativas al plan de medios:
 
 ### Objetivos del Plan de Medios
 
@@ -567,7 +558,10 @@ Los factores que determinan el nivel de la MEF son:
 
 A continuación, precisamos con mayor detalle los escenarios principales relacionados con los **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva a propuesta de Ostrow (1982). El extracto procede del artículo citado en el pie de la tabla.
 
-![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png){width=75%}
+![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
+
+<details>
+<summary>Haz clic para mayor desarrollo</summary>
 
 ***
 
@@ -660,7 +654,8 @@ Productos de alto riesgo:
 #### Conclusión
 La efectividad de cada patrón depende de su correcta aplicación según el tipo de producto, ciclo de compra y comportamiento del consumidor. La clave está en seleccionar el patrón que mejor se ajuste a estos factores, considerando siempre el presupuesto disponible y los objetivos de marketing.
 
-***
+</details>
+
 ***
 
 # Guía de Media Planning por Patrón de Alcance
@@ -798,7 +793,7 @@ Comisión de Turismo Australiana:
 - Competencia en categoría
 - Objetivos específicos de marketing
 - Ciclos de compra documentados
-</details>
+
 ***
 
 ### Resultados (esperados) del plan de medios
