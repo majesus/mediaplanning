@@ -36,7 +36,9 @@ Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de 
 
 ## Planificación de medios
 
-La planificación de medios es el proceso de encontrar la **combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente**. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS _Return On Ad Spend_).
+> La planificación de medios es el proceso de encontrar la **combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente**. 
+
+La planificación de medios no busca alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS _Return On Ad Spend_).
 
 Para el logro de los objetivos es preciso reflexionar en torno a cinco bloques clave. Véase la siguiente tabla.
 
