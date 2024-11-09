@@ -291,7 +291,7 @@ Distribución de frecuencia de exposiciones en un ciclo publicitario, expresada 
 - Porcentaje con exclusivamente 2 exposiciones
 - Y así sucesivamente
 
-También se calcula la distribución de exposiciòn acumulada, es decir, al menos i exposiciones por personal de la población (o cobertura)
+También se calcula la distribución de exposiciòn acumulada, es decir, al menos i exposiciones por persona de la población (o cobertura)
 
 **Rating Point (RP)**  
 Representa el 1% de la población alcanzada en caso de realizar una inserción en el soporte publicitario. Características:
@@ -440,7 +440,7 @@ head(resultado)
 
 #### Cobertura efectiva
 
-Se refiere al porcentaje o número absoluto de individuos del público objetivo que deben estar expuestos al mensaje publicitario con una frecuencia igual o superior a la frecuencia efectiva mínima. El objetivo es lograr que la disposición hacia la compra supere un determinado nivel crítico, considerando tres elementos fundamentales:
+Se refiere al porcentaje o número absoluto de individuos del público objetivo que deben estar expuestos al mensaje publicitario con una frecuencia igual o superior a la frecuencia efectiva mínima. El objetivo es lograr que la disposición hacia la compra supere un determinado nivel crítico, considerando tres elementos fundamentales que no necesariamente deben darse en este orden:
 
 - Brand awareness (notoriedad de marca, memoria)
 - Brand attitude (actitud de marca, hacie el uso de la marca)
@@ -449,6 +449,21 @@ Se refiere al porcentaje o número absoluto de individuos del público objetivo 
 #### Frecuencia efectiva
 
 Es el número de veces ( _oportunidades de ver_ ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre **disponer al individuo hacia la compra de la marca**. 
+
+La frecuencia efectiva se define en el contexto de dos conceptos principales:
+
+1. Frecuencia Efectiva Mínima (MEF/c):
+
+  * Es el número mínimo de exposiciones necesarias durante un ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra
+  * Representa el umbral mínimo necesario para generar una disposición de compra al menor costo
+  * Se busca encontrar este nivel porque por debajo de él la publicidad no será efectiva para generar la acción deseada
+
+2. Frecuencia Efectiva Máxima (MaxEF/c):
+
+  * Es el límite superior de exposiciones recomendado por ciclo
+  * Las exposiciones adicionales pueden ser un _desperdicio_ de presupuesto
+  * En algunos casos puede haber un efecto negativo (desgaste publicitario)
+  * La disposición de compra se vuelve una línea horizontal o incluso puede decrecer
 
 #### Frecuencia Efectiva Mínima (FEM)
 
