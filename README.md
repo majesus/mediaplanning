@@ -5,6 +5,8 @@ output:
 ---
 # Herramientas para la Planificación de Medios Publicitarios
 
+Autor: Manuel J. Sánchez Franco
+
 ## Descripción General
 
 **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia. El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios tradicinales.
@@ -26,73 +28,30 @@ devtools::install_github("majesus/mediaPlanR", force = TRUE)
 library(mediaPlanR)
 ```
 
-A continuación, hacemos un breve resumen de los conceptos clave de la planificación en medios tradicionales.
+***
+
+Antes de aplicar mediaPlanR, hacemos un breve resumen de los conceptos clave de la planificación en medios tradicionales.
 
 ***
 
 ## Planificación de medios
 
-La planificación de medios es el proceso de encontrar la combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS _Return On Ad Spend_).
+La planificación de medios es el proceso de encontrar la **combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente**. No se trata de alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS _Return On Ad Spend_).
 
 A continuación, se muestra una descripción de cinco bloques clave que intervienen en la planificación de medios publicitarios, incluyendo ejemplos prácticos y consideraciones tácticas para cada bloque.
 
 | Componente | Descripción Detallada (ejemplos) |
 |------------|---------------------|
 | Público Objetivo | **Base fundamental del plan de medios** <br>- Análisis demográfico: edad, género, ubicación, nivel de ingresos<br>- Psicografía: valores, intereses, estilo de vida<br>- Hábitos de consumo de medios<br>- Comportamiento de compra<br><br>*Ejemplo*: Una marca de fitness que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
-| Objetivos | **Metas claramente definidas y medibles**<br>- Awareness: aumentar reconocimiento de marca<br>- Tráfico web: incrementar visitas al sitio<br>- Generación de leads: captación de potenciales clientes<br>- Conversión: ventas directas<br><br>*Ejemplo*: Si el objetivo es brand awareness, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
+| Objetivos | **Metas claramente definidas y medibles**<br>- Awareness: aumentar reconocimiento de marca<br>- Actitud: mejorar la valoración del uso de la marca<br>- Predisposición a la compra: aumentar la intención de compra<br>- Tráfico web: incrementar visitas al sitio<br>- Generación de leads: captación de potenciales clientes<br>- Conversión: ventas directas<br><br>*Ejemplo*: Si el objetivo es brand awareness, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
 | Presupuesto | **Planificación financiera estratégica**<br>- Evaluación de costos por canal<br>- ROI / ROAS esperado por medio<br>- Distribución eficiente de recursos<br>- Escalabilidad del presupuesto<br><br> - Consideraciones:<br>- TV: alto costo, gran alcance<br>- Digital: más asequible, mejor segmentación<br>- Medios impresos: costos variables según alcance<br>- Exterior: costos fijos con exposición prolongada |
-| Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br><br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br><br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>- Estrategia: <br>  * Alcance<br>  * Frecuencia<br>  * Afinidad con target<br>  * Coste por impacto<br>  * Capacidad de segmentación |
-| Programación | **Planificación temporal**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos de consumo del target<br>  * Actividad competitiva<br>  * Eventos relevantes del mercado<br><br>- Consideraciones tácticas:<br>- Momentos de mayor demanda<br>- Períodos de compra<br>- Eventos especiales<br>- Fechas comerciales clave<br>- Horarios de mayor consumo mediático del target |
+| Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>  * Cine<br><br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br><br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>**Métricas**: <br>  * Alcance<br>  * Frecuencia<br>  * Afinidad con target<br>  * Coste por impacto<br>  * Capacidad de segmentación |
+| Programación | **Planificación temporal**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos de consumo del target<br>  * Actividad competitiva<br>  * Eventos relevantes del mercado<br><br>- Consideraciones tácticas:<br>  * Momentos de mayor demanda<br>  * Períodos de compra<br>  *Eventos especiales<br>  * Fechas comerciales clave<br>  * Horarios de mayor consumo mediático del target |
 
-
-<details>
-<summary>Haz clic para mayor desarrollo</summary>
 
 ***
 
-**Escenarios de priorización estratégica: Cobertura versus Frecuencia efectiva**
-
-**Priorización de Cobertura**
-
-a) Lanzamientos y Nuevos Productos
-
-  - Necesario para generar reconocimiento inicial de marca
-  - Crítico en las primeras etapas del ciclo de vida del producto
-  - Fundamental para establecer presencia en nuevos mercados
-
-b) Campañas Temporales
-
-  - Eficaz para promociones de corta duración
-  - Permite maximizar el alcance en períodos limitados
-  - Esencial cuando el tiempo es un factor crítico
-
-c) Mercados con Baja Notoriedad
-
-  - Ayuda a establecer presencia de marca
-  - Facilita la construcción de reconocimiento
-  - Permite llegar a segmentos no expuestos previamente
-
-**Priorización de Frecuencia**
-
-a) Productos de Alta Competencia
-
-  - Necesaria para reforzar el posicionamiento
-  - Ayuda a mantener la diferenciación
-  - Crucial en categorías con baja lealtad
-
-b) Mensajes Complejos
-
-  - Permite la asimilación gradual de información
-  - Facilita la comprensión de beneficios elaborados
-  - Mejora la retención del mensaje
-
-</details>
-
-***
-
-## Preguntas clave
-
-Un planificador de medios debe abordar una serie de preguntas clave para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
+En este contexto, un planificador de medios debe pues abordar una serie de preguntas clave para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
 
 **1. Conocimiento del Mercado y de la Audiencia**
 
@@ -483,25 +442,25 @@ head(resultado)
 
 Se refiere al porcentaje o número absoluto de individuos del público objetivo que deben estar expuestos al mensaje publicitario con una frecuencia igual o superior a la frecuencia efectiva mínima. El objetivo es lograr que la disposición hacia la compra supere un determinado nivel crítico, considerando tres elementos fundamentales:
 
-- Brand awareness )
-- Brand attitude  
-- Brand purchase intention 
+- Brand awareness (notoriedad de marca, memoria)
+- Brand attitude (actitud de marca, hacie el uso de la marca)
+- Brand purchase intention (disposición a la compra, intención)
 
 #### Frecuencia efectiva
 
-Es el número de veces que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. 
+Es el número de veces ( _oportunidades de ver_ ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre **disponer al individuo hacia la compra de la marca**. 
 
 #### Frecuencia Efectiva Mínima (FEM)
 
 Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activará el comportamiento deseado. Este umbral varía según el tipo de publicidad:
 
-1. Low risk/informacional: Para productos/servicios de bajo riesgo donde el mensaje es principalmente informativo. Por ejemplo, productos de conveniencia o compra frecuente como detergentes o productos de limpieza, donde la comunicación se centra en características funcionales y beneficios directos del producto.
+1. _Low risk/informacional_: Para productos/servicios de bajo riesgo donde el mensaje es principalmente informativo. Por ejemplo, productos de conveniencia o compra frecuente como detergentes o productos de limpieza, donde la comunicación se centra en características funcionales y beneficios directos del producto.
 
-2. Low risk/transformacional: Para productos/servicios de bajo riesgo donde el mensaje busca transformar percepciones/actitudes. Por ejemplo, snacks, refrescos o productos de cuidado personal donde la comunicación se centra en aspectos emocionales, estilo de vida o beneficios experienciales.
+2. _Low risk/transformacional_: Para productos/servicios de bajo riesgo donde el mensaje busca transformar percepciones/actitudes. Por ejemplo, snacks, refrescos o productos de cuidado personal donde la comunicación se centra en aspectos emocionales, estilo de vida o beneficios experienciales.
 
-3. High risk/informacional: Para productos/servicios de alto riesgo donde el mensaje es principalmente informativo. Por ejemplo, seguros o servicios financieros, donde el mensaje se centra en explicar características específicas, condiciones y beneficios concretos del servicio.
+3. _High risk/informacional_: Para productos/servicios de alto riesgo donde el mensaje es principalmente informativo. Por ejemplo, seguros o servicios financieros, donde el mensaje se centra en explicar características específicas, condiciones y beneficios concretos del servicio.
 
-4. High risk/transformacional: Para productos/servicios de alto riesgo donde el mensaje busca transformar percepciones/actitudes. Por ejemplo, automóviles de lujo o joyería de alta gama, donde la comunicación busca crear una conexión emocional y transformar la percepción de estatus o estilo de vida del consumidor.
+4. _High risk/transformacional_: Para productos/servicios de alto riesgo donde el mensaje busca transformar percepciones/actitudes. Por ejemplo, automóviles de lujo o joyería de alta gama, donde la comunicación busca crear una conexión emocional y transformar la percepción de estatus o estilo de vida del consumidor.
 
 La determinación precisa de estos parámetros es fundamental para:
 
@@ -510,7 +469,6 @@ La determinación precisa de estos parámetros es fundamental para:
 - Evitar tanto la infraexposición (por debajo del umbral) como la sobreexposición (que puede generar desgaste publicitario)
 
 ***
-
 ### Guía de cálculo de la frecuencia efectiva mínima
 
 La frecuencia efectiva mínima (MEF) se determina mediante la fórmula:
