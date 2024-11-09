@@ -567,7 +567,7 @@ Los factores que determinan el nivel de la MEF son:
 
 A continuación, precisamos con mayor detalle los escenarios principales relacionados con los **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva a propuesta de Ostrow (1982). El extracto procede del artículo citado en el pie de la tabla.
 
-![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
+![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png){width=75%}
 
 ***
 
@@ -583,14 +583,14 @@ Un blitz publicitario representa la estrategia más intensiva de entrada al merc
 
 Para implementar un blitz efectivo, los productos informativos requieren entre 2 y 4 ejecuciones publicitarias diferentes, mientras que los productos transformacionales necesitan de 4 a 6 ejecuciones para mantener el impacto sin generar desgaste.
 
-![FE_Ostrow_1982](./img/img_blitz_pattern.png)
+![FE_Ostrow_1982](./img/img_blitz_pattern.png){width=75%}
 
 **_Wedge_: La Estrategia de la Cuña**
 El wedge pattern representa el enfoque más común para lanzamientos. Su estructura es distintiva: comienza con una alta intensidad (400 GRPs semanales) que se reduce gradualmente (hasta 100 GRPs), manteniendo el alcance pero ajustando la frecuencia.
 
 Este patrón se adapta especialmente bien a productos de compra regular. Los datos Nielsen nos muestran ejemplos concretos de ciclos de compra: margarina (19 días), papel higiénico (20 días) y mantequilla de cacahuete (48 días). La estrategia acompaña estos ciclos naturales de compra.
 
-![FE_Ostrow_1982](./img/img_wedge_pattern.png)
+![FE_Ostrow_1982](./img/img_wedge_pattern.png){width=75%}
 
 **_Reverse-Wedge/PI_: La Estrategia del Contagio**
 El reverse-wedge aprovecha la influencia personal (PI) como catalizador de la adopción. Comienza con un alcance limitado que se expande progresivamente. Un caso ejemplar fue Toohey's Brewery en Australia, cuyo éxito llevó a que otras marcas replicaran la estrategia.
@@ -600,7 +600,7 @@ Este patrón resulta particularmente efectivo para:
 - Productos que requieren aprendizaje
 - Situaciones donde la influencia personal es crucial para la adopción
 
-![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png)
+![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png){width=75%}
 
 **_Short Fad_: La Estrategia del Momento**
 Diseñado para productos con ciclo de vida corto, el short fad actúa como un blitz condensado. Se aplica en:
@@ -610,7 +610,7 @@ Diseñado para productos con ciclo de vida corto, el short fad actúa como un bl
 - Juguetes y juegos
 - Productos "get-fit"
 
-![FE_Ostrow_1982](./img/img_short_fad_pattern.png)
+![FE_Ostrow_1982](./img/img_short_fad_pattern.png){width=75%}
 
 #### Patrones para Productos Establecidos
 
@@ -622,7 +622,7 @@ Los ciclos de compra varían según el producto. Nielsen documenta ciclos espec�
 - Papel higiénico: 20 días
 - Mantequilla de cacahuete: 48 días
 
-![FE_Ostrow_1982](./img/img_regular_pattern.png)
+![FE_Ostrow_1982](./img/img_regular_pattern.png){width=75%}
 
 **_Awareness_: Mantener la Presencia**
 Diseñado para productos con ciclos de compra extensos y decisiones prolongadas, como:
@@ -632,7 +632,7 @@ Diseñado para productos con ciclos de compra extensos y decisiones prolongadas,
 - Equipamiento industrial
 - Servicios de consultoría
 
-![FE_Ostrow_1982](./img/img_awareness_pattern.png)
+![FE_Ostrow_1982](./img/img_awareness_pattern.png){width=75%}
 
 **_Shifting Reach_: Movimiento Estratégico**
 Esta estrategia se mueve entre diferentes segmentos del mercado, alcanzando aproximadamente 12% en cada ciclo. Es ideal para servicios como:
@@ -641,7 +641,7 @@ Esta estrategia se mueve entre diferentes segmentos del mercado, alcanzando apro
 - Servicios de emergencia
 - Servicios de mantenimiento
 
-![FE_Ostrow_1982](./img/img_shifting_pattern.png)
+![FE_Ostrow_1982](./img/img_shifting_pattern.png){width=75%}
 
 **_Seasonal Priming_: Anticipación y Temporalidad**
 Se aplica a productos con marcada estacionalidad. Distingue entre:
@@ -655,7 +655,7 @@ Productos de alto riesgo:
 - Piscinas residenciales
 - Servicios de consultoría fiscal
 
-![FE_Ostrow_1982](./img/img_seasonal_pattern.png)
+![FE_Ostrow_1982](./img/img_seasonal_pattern.png){width=75%}
 
 #### Conclusión
 La efectividad de cada patrón depende de su correcta aplicación según el tipo de producto, ciclo de compra y comportamiento del consumidor. La clave está en seleccionar el patrón que mejor se ajuste a estos factores, considerando siempre el presupuesto disponible y los objetivos de marketing.
