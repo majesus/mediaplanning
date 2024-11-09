@@ -489,7 +489,9 @@ $$
 \end{aligned}
 $$
 
-![FE_Ostrow_1982](./img/img_FEM_table.png){width=75%}
+![FE_Ostrow_1982](./img/img_FEM_table.png)
+
+( _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._ )
 
 Los factores que determinan el nivel de la MEF son:
 
@@ -539,7 +541,7 @@ Un blitz publicitario representa la estrategia más intensiva de entrada al merc
 
 Para implementar un blitz efectivo, los productos informativos requieren entre 2 y 4 ejecuciones publicitarias diferentes, mientras que los productos transformacionales necesitan de 4 a 6 ejecuciones para mantener el impacto sin generar desgaste.
 
-![FE_Ostrow_1982](./img/img_blitz_pattern.png){width=75%}
+![FE_Ostrow_1982](./img/img_blitz_pattern.png)
 
 **_Wedge_: La Estrategia de la Cuña**
 
@@ -547,7 +549,7 @@ El wedge pattern representa el enfoque más común para lanzamientos. Su estruct
 
 Este patrón se adapta especialmente bien a productos de compra regular. Los datos Nielsen nos muestran ejemplos concretos de ciclos de compra: margarina (19 días), papel higiénico (20 días) y mantequilla de cacahuete (48 días). La estrategia acompaña estos ciclos naturales de compra.
 
-![FE_Ostrow_1982](./img/img_wedge_pattern.png){width=75%}
+![FE_Ostrow_1982](./img/img_wedge_pattern.png)
 
 **_Reverse-Wedge/PI_: La Estrategia del Contagio**
 
@@ -559,7 +561,7 @@ Este patrón resulta particularmente efectivo para:
 - Productos que requieren aprendizaje
 - Situaciones donde la influencia personal es crucial para la adopción
 
-![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png){width=75%}
+![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png)
 
 **_Short Fad_: La Estrategia del Momento**
 
@@ -571,7 +573,7 @@ Diseñado para productos con ciclo de vida corto, el short fad actúa como un bl
 - Juguetes y juegos
 - Productos "get-fit"
 
-![FE_Ostrow_1982](./img/img_short_fad_pattern.png){width=75%}
+![FE_Ostrow_1982](./img/img_short_fad_pattern.png)
 
 #### Patrones para Productos Establecidos
 
@@ -584,7 +586,7 @@ Los ciclos de compra varían según el producto. Nielsen documenta ciclos espec�
 - Papel higiénico: 20 días
 - Mantequilla de cacahuete: 48 días
 
-![FE_Ostrow_1982](./img/img_regular_pattern.png){width=75%}
+![FE_Ostrow_1982](./img/img_regular_pattern.png)
 
 **_Awareness_: Mantener la Presencia**
 
@@ -596,7 +598,7 @@ Diseñado para productos con ciclos de compra extensos y decisiones prolongadas,
 - Equipamiento industrial
 - Servicios de consultoría
 
-![FE_Ostrow_1982](./img/img_awareness_pattern.png){width=75%}
+![FE_Ostrow_1982](./img/img_awareness_pattern.png)
 
 **_Shifting Reach_: Movimiento Estratégico**
 
@@ -607,7 +609,7 @@ Esta estrategia se mueve entre diferentes segmentos del mercado, alcanzando apro
 - Servicios de emergencia
 - Servicios de mantenimiento
 
-![FE_Ostrow_1982](./img/img_shifting_pattern.png){width=75%}
+![FE_Ostrow_1982](./img/img_shifting_pattern.png)
 
 **_Seasonal Priming_: Anticipación y Temporalidad**
 
@@ -624,7 +626,7 @@ Productos de alto riesgo:
 - Piscinas residenciales
 - Servicios de consultoría fiscal
 
-![FE_Ostrow_1982](./img/img_seasonal_pattern.png){width=75%}
+![FE_Ostrow_1982](./img/img_seasonal_pattern.png)
 
 #### Conclusión
 
