@@ -1,3 +1,8 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Herramientas para la Planificación de Medios Publicitarios
 
 ## Descripción General
@@ -38,10 +43,49 @@ A continuación, se muestra una descripción de cinco componentes clave que inte
 | Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>*Estrategia*: Selección basada en:<br>- Alcance<br>- Frecuencia<br>- Afinidad con target<br>- Costo por impacto<br>- Capacidad de segmentación |
 | Programación | **Planificación temporal estratégica**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos de consumo del target<br>  * Actividad competitiva<br>  * Eventos relevantes del mercado<br><br>*Consideraciones tácticas*:<br>- Momentos de mayor demanda<br>- Períodos de compra<br>- Eventos especiales<br>- Fechas comerciales clave<br>- Horarios de mayor consumo mediático del target |
 
-***
 
 <details>
 <summary>Haz clic para mayor desarrollo</summary>
+
+***
+
+**Escenarios de priorización estratégica: Cobertura versus Frecuencia efectiva**
+
+**Priorización de Cobertura**
+
+a) Lanzamientos y Nuevos Productos
+
+  - Necesario para generar reconocimiento inicial de marca
+  - Crítico en las primeras etapas del ciclo de vida del producto
+  - Fundamental para establecer presencia en nuevos mercados
+
+b) Campañas Temporales
+
+  - Eficaz para promociones de corta duración
+  - Permite maximizar el alcance en períodos limitados
+  - Esencial cuando el tiempo es un factor crítico
+
+c) Mercados con Baja Notoriedad
+
+  - Ayuda a establecer presencia de marca
+  - Facilita la construcción de reconocimiento
+  - Permite llegar a segmentos no expuestos previamente
+
+**Priorización de Frecuencia**
+
+a) Productos de Alta Competencia
+
+  - Necesaria para reforzar el posicionamiento
+  - Ayuda a mantener la diferenciación
+  - Crucial en categorías con baja lealtad
+
+b) Mensajes Complejos
+
+  - Permite la asimilación gradual de información
+  - Facilita la comprensión de beneficios elaborados
+  - Mejora la retención del mensaje
+
+</details>
 
 ***
 
@@ -210,27 +254,195 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 
 ### Métricas relativas a los soportes:
 
-- **Audiencia, o audiencia bruta**: Número total de personas, expresado en ocasiones en miles (000), que se exponen regularmente a un soporte. Es una medida de alcance numérico. Se puede calcular en función de la circulación de una publicación impresa, las estimaciones de audiencia de una emisión radiofónica o las visitas únicas a un sitio web.
+<details>
+<summary>Haz clic para mayor desarrollo</summary>
 
-- **Impacto**: Un impacto en una campaña publicitaria se refiere a una exposición individual de un miembro del público (objetivo) al anuncio publicitario. En otras palabras, cada vez que una persona ve, escucha o experimenta un anuncio, se cuenta como un impacto. Se denominan también _oportunidades de ver_ (OTS).
+***
 
-- **Inserciones**: Se refiere al número de veces que se inserta un anuncio en un medio determinado. Por ejemplo, si se publica un anuncio tres veces en una revista, se habla de tres inserciones.
+#### Glosario de Conceptos de Planificación de Medios
 
-- **RP**: Abreviatura de _Rating Point_, que significa "Punto de Rating". Un punto de rating representa el 1% del público. Por ejemplo, un programa de televisión con un rating del 10% significa que el 10% del público se expone.
+#### Conceptos Básicos de Audiencia y Exposición
 
-- **SOV**: Abreviatura de _Share of Voice_, que significa "Cuota de Voz". Es una medida de la presencia de una marca en el mercado en comparación con sus competidores. Se calcula como el porcentaje de los impactos totales que recibe una marca. Por ejemplo, si una marca tiene un SOV del 20%, significa que recibe el 20% de los impactos de la categoría. También puede aplicarse por soportes.
+**Audiencia o Audiencia Bruta**  
+Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil.
 
-- **Tarifa_Pag_Color**: Se refiere al coste de publicar un anuncio en color en una publicación impresa. Este coste suele ser mayor que el de un anuncio en blanco y negro.
+**Audiencia Útil**  
+Número de personas de la audiencia de un soporte que pertenece específicamente al público objetivo. Refina la audiencia bruta para centrar los esfuerzos de marketing en el público relevante o target para la campaña publicitaria.
 
-- **CPM**: Abreviatura de "Coste por Mil," que significa _Cost per Thousand_ en inglés. Es una medida de la eficiencia de un medio publicitario. Se calcula como el coste de llegar a 1.000 personas del público que se expone regularme a un soporte (o a una campaña). Por ejemplo, si un anuncio cuesta 100 € y llega regularmente a 1.000 personas, su CPM es de (100 €/1.000 personas) * 1.000. El CPM se utiliza para comparar la eficiencia de diferentes medios y soportes publicitarios.
+**Índice de Utilidad**  
+Expresa el tanto por uno de la audiencia de un soporte que corresponde a la población objetivo. Permite evaluar la eficacia del soporte en términos de su capacidad para alcanzar específicamente al público deseado.
 
-- **C/RP**: Es la abreviatura de "Coste por Punto de Rating", que significa _Cost per Rating Point_. Se utiliza principalmente en la planificación de medios de difusión, como la televisión y la radio. El C/RP compara los vehículos de difusión en base a cuánto cuesta alcanzar el 1% de la audiencia, es decir, un punto de rating.
+**Vehículo de Medios (Media Vehicle)**  
+Soporte específico dentro de un medio publicitario que transporta el mensaje al público objetivo. Características:
 
-- **Indice de utilidad**: Representa el tanto por uno de la audiencia de un soporte (o audiencia bruta) que es población objetivo.
+- Es el canal específico de transmisión del mensaje
+- Puede ser un programa, una publicación, una web específica, etc.
+- Su selección afecta directamente a la efectividad del mensaje
+- Determina el contexto de exposición al mensaje
 
-- **Audiencia útil (000)**: Se refiere al número de personas de la audiencia de un soporte que es público objetivo.
+**Inserción**  
+Colocación física o digital de un anuncio en un soporte publicitario específico. Representa la acción de situar el anuncio o mensaje en el vehículo de medios. Aspectos clave:
 
-- **Coste por contacto útil**: Se refiere al coste de llegar a una persona de la audiencia útil. Se calcula dividiendo el coste total de una inserción por el número de personas que componen la audiencia útil.
+- Es el acto de colocación del anuncio en el medio
+- Genera oportunidades de ver (OTS) para la audiencia del soporte
+- No garantiza la exposición efectiva
+- Su efectividad depende de factores como ubicación, formato y contexto
+
+**OTS (Opportunity To See)**  
+Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Características fundamentales:
+
+- En singular: representa una única oportunidad de contacto con el mensaje
+- En plural: equivale a la frecuencia de exposición
+- Representa una oportunidad de atención, no la atención efectiva
+- Es la unidad básica para medir la intensidad de una campaña
+
+#### Métricas de Cobertura y Frecuencia
+
+**Alcance o Cobertura (Reach)**  
+Número absoluto (o relativo) de individuos del público objetivo expuestos al menos una vez a un mensaje publicitario durante un ciclo específico. Características clave:
+
+- Es uno de los tres parámetros básicos del plan de medios
+- Se centra en individuos únicos, no en exposiciones acumuladas
+- Puede expresarse en términos absolutos o porcentuales
+- Es la base para el cálculo del alcance efectivo
+
+**Patrón de Alcance (Reach Pattern)**  
+Distribución de la continuidad individual sobre el público objetivo para alcanzar el alcance efectivo durante el período de planificación. Tipos principales:
+
+- Patrones para Nuevos Productos (4):
+
+  - Blitz Pattern (patrón blitz)
+  - Wedge Pattern (patrón cuña)
+  - Reverse-wedge/PI Pattern (patrón cuña inversa/PI)
+  - Short Fad Pattern (patrón moda corta)
+
+- Patrones para Productos Establecidos (4):
+
+  - Regular Purchase Cycle Pattern (patrón de ciclo de compra regular)
+  - Awareness Pattern (patrón de conciencia)
+  - Shifting Reach Pattern (patrón de alcance cambiante)
+  - Seasonal Priming Pattern (patrón de preparación estacional)
+
+**Frecuencia**  
+Número medio de exposiciones por individuo del público objetivo en un ciclo publicitario. Aspectos relevantes:
+
+- Es un promedio de exposiciones por individuo alcanzado
+- Debe analizarse junto con su distribución de exposición (o contactos)
+- Es uno de los tres parámetros básicos del plan de medios junto con la cobertura y la distribución de exposición
+
+**Distribución de Exposición (o Contactos)**  
+Distribución de frecuencia de exposiciones en un ciclo publicitario, expresada como porcentajes del público objetivo. Incluye:
+
+- Porcentaje no alcanzado (0 exposiciones)
+- Porcentaje con exclusivamente 1 exposición
+- Porcentaje con exclusivamente 2 exposiciones
+- Y así sucesivamente
+
+También se calcula la distribución de exposiciòn acumulada, es decir, al menos i exposiciones por personal de la población (o cobertura)
+
+**Rating Point (RP)**  
+Representa el 1% de la población alcanzada en caso de realizar una inserción en el soporte publicitario. Características:
+
+- Es una medida estándar en medios publicitarios de difusión
+- Facilita la comparación entre diferentes soportes y campañas
+- Base para el cálculo de GRPs
+
+**GRPs (Gross Rating Points)**  
+- Es una estimación del total de oportunidades de exposición promedio por cada 100 individuos de la población (o target). Características principales:
+
+- 1 GRP significa que el plan de medios y soportes alcanza al 1% del público (o target)
+- Se calcula también multiplicando la cobertura en % por la frecuencia media
+
+#### Métricas de Eficiencia y Costes
+
+**CPM (Coste Por Mil)**  
+Coste de alcanzar a mil personas de la audiencia o de la cobertura alcanzada. Características:
+
+- Permite comparar eficiencia entre soportes o planes de medios o soportes
+- Para el target específico se denomina CPMT
+
+**Coste por Contacto Útil**  
+Representa el coste de alcanzar a una persona de la audiencia útil. Características:
+
+- Se calcula dividiendo el coste total de una inserción entre el número de personas de la audiencia útil
+- Proporciona una medida más precisa que el CPM
+- Considera específicamente el público objetivo
+
+**CPERP (Coste Por Punto de Alcance Efectivo)**  
+Coste por porcentaje de alcance efectivo.
+
+**SOV (Share of Voice)**  
+Representa la cuota de voz o presencia publicitaria de una marca en comparación con sus competidores. Características:
+
+- Se calcula como porcentaje de impactos totales o GRPs
+- Indica la dominancia relativa en el mercado publicitario
+- Permite comparar la presencia mediática entre competidores o medios en que se programa
+- Es un indicador clave del esfuerzo publicitario relativo
+
+#### Conceptos Avanzados de Planificación
+
+**Ciclo Publicitario**  
+Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
+
+- Una exposición continua durante todo el período
+- Ciclos discontinuos con duraciones variables ( _flighting o pulsing_ )
+
+**Ciclo de Compra (Purchase Cycle)**  
+Intervalo medio de tiempo entre compras sucesivas en una categoría de producto o servicio. También conocido como:
+
+- IPT ( _Inter-Purchase Time_ ): tiempo entre compras
+- IPI ( _Inter-Purchase Interval_ ): intervalo entre compras
+
+Es fundamental para:
+- Determinar momentos óptimos de comunicación
+- Establecer la frecuencia efectiva (mínima) de exposición
+- Diseñar patrones de alcance efectivos
+- Sincronizar la comunicación con el comportamiento de compra
+
+**Timing**  
+Táctica que busca sincronizar la comunicación con momentos de máxima receptividad del público objetivo. Implica:
+
+- Selección estratégica de momentos de contacto
+- Consideración de ciclos de compra y activaciones del reconocimiento de la necesidad de la categoría
+- Optimización de la efectividad del mensaje
+
+**Frecuencia Efectiva**  
+Número de exposiciones, en un ciclo publicitario, necesario para maximizar la disposición de compra del público objetivo. Se expresa como:
+
+- MEF (Minimum Effective Frequency): nivel mínimo necesario
+- MaxEF (Maximum Effective Frequency): nivel máximo antes de generar desgaste
+
+**Alcance Efectivo**  
+Número de individuos del público objetivo alcanzados al nivel de frecuencia efectiva (MEF o superior) en un ciclo publicitario. Características:
+
+- Combina alcance y frecuencia efectiva
+- Se define dentro del rango [MEF-MaxEF]
+- Es un parámetro clave para evaluar planes de medios
+
+**Carryover Publicitario (Advertising Carryover)**  
+Persistencia de la disposición de compra generada por las exposiciones publicitarias. Aspectos clave:
+
+- Es el efecto posterior al ciclo publicitario
+- La falta de persistencia se considera _decay_ publicitario
+- Es especialmente relevante en exposiciones espaciadas en el tiempo
+- Afecta directamente al alcance efectivo activo
+- Es más significativo cuando hay continuidad en la comunicación
+
+**Alcance Efectivo Activo**  
+Número de individuos del público objetivo que mantienen al menos el nivel de frecuencia efectiva mínima (MEF) después del ciclo publicitario. Características:
+
+- Mide la persistencia del efecto publicitario
+- Considera el fenómeno de _carryover_
+- Es clave para evaluar la efectividad a largo plazo
+- Depende de la tasa de decaimiento ( _decay_ ) de los efectos publicitarios
+
+**Dominancia**  
+Estrategia donde la frecuencia MEF/c se establece deliberadamente por encima de la competencia principal (LC + 1). Características:
+
+- Busca establecer presencia superior
+- Es especialmente relevante en momentos críticos del mercado
+
+</details>
 
 ***
 
@@ -273,28 +485,83 @@ head(resultado)
 
 ### Métricas relativas al plan de medios:
 
-### Objetivos del plan de medios
+### Objetivos del Plan de Medios
 
 #### Cobertura efectiva
 
-Se refiere al número de personas de la población (objetivo) que debe exponerse a la campaña publicitaria para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento, actitud o intención). Es decir, la cobertura expuesta al menos la frecuencia efectiva (mínima).
+Se refiere al porcentaje o número absoluto de individuos del público objetivo que deben estar expuestos al mensaje publicitario con una frecuencia igual o superior a la frecuencia efectiva mínima. El objetivo es lograr que la disposición hacia la compra supere un determinado nivel crítico, considerando tres elementos fundamentales:
+
+- Brand awareness )
+- Brand attitude  
+- Brand purchase intention 
 
 #### Frecuencia efectiva
 
-Es el número de veces que la cobertura efectiva debe exponerse a la campaña para alcanzar los objetivos de comunicación (por ejemplo, recuerdo o reconocimiento, actitud o intención).
+Es el número de veces que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. 
 
-En general, la frecuencia efectiva varía según:
+#### Frecuencia Efectiva Mínima (FEM)
 
-- El tipo de mensaje (informacional vs transformacional)
-- La complejidad del mensaje, y las vías de recuperación de la memoria (recuerdo y reconocimiento)
-- El nivel de implicación en la decisión de compra
-- El nivel de lealtad del consumidor o usuario
-- El medio elegido para la difusión del mensaje publicitario
-- La frecuencia efectiva del principal competidor/es
+Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activará el comportamiento deseado. Este umbral varía según el tipo de publicidad:
 
-#### Frecuencia efectiva mínima
+1. Low risk/informacional: Para productos/servicios de bajo riesgo donde el mensaje es principalmente informativo. Por ejemplo, productos de conveniencia o compra frecuente como detergentes o productos de limpieza, donde la comunicación se centra en características funcionales y beneficios directos del producto.
 
-Es el número mínimo de veces que la cobertura efectiva debe exponerse a la campaña para que el logro de los objetivos de comunicación (publicitarios) superen un determinado nivel crítico.
+2. Low risk/transformacional: Para productos/servicios de bajo riesgo donde el mensaje busca transformar percepciones/actitudes. Por ejemplo, snacks, refrescos o productos de cuidado personal donde la comunicación se centra en aspectos emocionales, estilo de vida o beneficios experienciales.
+
+3. High risk/informacional: Para productos/servicios de alto riesgo donde el mensaje es principalmente informativo. Por ejemplo, seguros o servicios financieros, donde el mensaje se centra en explicar características específicas, condiciones y beneficios concretos del servicio.
+
+4. High risk/transformacional: Para productos/servicios de alto riesgo donde el mensaje busca transformar percepciones/actitudes. Por ejemplo, automóviles de lujo o joyería de alta gama, donde la comunicación busca crear una conexión emocional y transformar la percepción de estatus o estilo de vida del consumidor.
+
+La determinación precisa de estos parámetros es fundamental para:
+
+- Optimizar la inversión publicitaria
+- Lograr los objetivos de comunicación de forma eficiente
+- Evitar tanto la infraexposición (por debajo del umbral) como la sobreexposición (que puede generar desgaste publicitario)
+
+En particular, la frecuencia efectiva mínima (MEF) se determina mediante la fórmula:
+
+La frecuencia efectiva mínima se calcula como:
+
+$$
+\text{MEF/c} = 1 + \text{VA} \times (\text{TA} + \text{BA} + \text{BATT} + \text{PI})
+$$
+
+Donde:
+
+$$
+\begin{aligned}
+\text{VA} & = \text{Vehicle Attention (Atención al medio)} \\
+\text{TA} & = \text{Target Audience (Audiencia objetivo)} \\
+\text{BA} & = \text{Brand Awareness} \\
+\text{BATT} & = \text{Brand Attitude} \\
+\text{PI} & = \text{Personal Influence (Influencia personal)}
+\end{aligned}
+$$
+
+Los factores que determinan el nivel de la MEF son:
+
+1. Atención al vehículo publicitario:
+
+  - Medios de alta atención (TV prime time, revistas principales)
+  - Medios de baja atención (otros horarios TV, radio)
+
+2. Tipo de audiencia objetivo:
+
+  - Leales a la marca 
+  - Switchers de marca
+  - Usuarios de otras marcas
+  - Nuevos usuarios de categoría
+
+3. Objetivos de comunicación:
+
+  - Reconocimiento 
+  - Recuerdo  
+  - Estrategia de marca informativa 
+  - Estrategia de marca transformativa 
+
+4. Influencia personal:
+
+- Alta (reduce la frecuencia necesaria)
+- Baja (requiere mayor frecuencia publicitaria)
 
 ***
 
@@ -302,49 +569,236 @@ A continuación, precisamos con mayor detalle los escenarios principales relacio
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
 
-<details>
-<summary>Haz clic para mayor desarrollo</summary>
-
 ***
 
-**Escenarios de priorización estratégica: Cobertura versus Frecuencia efectiva**
+#### Guía de Patrones de Alcance Publicitario: Fundamentos y Aplicaciones
 
-**Priorización de Cobertura**
+#### Introducción
+Los patrones de alcance constituyen el fundamento de la planificación estratégica en medios publicitarios. Se dividen en dos grandes categorías según la etapa del producto en el mercado: patrones para productos nuevos y patrones para productos establecidos. Cada patrón responde a necesidades específicas de comunicación y objetivos de marketing.
 
-a) Lanzamientos y Nuevos Productos
+#### Patrones para Productos Nuevos**
 
-  - Necesario para generar reconocimiento inicial de marca
-  - Crítico en las primeras etapas del ciclo de vida del producto
-  - Fundamental para establecer presencia en nuevos mercados
+**_Blitz_: Máxima Intensidad Inicial**
+Un blitz publicitario representa la estrategia más intensiva de entrada al mercado. Mantiene un alcance del 100% del público objetivo durante todo un año, con al menos 50 exposiciones semanales por consumidor. Su objetivo es maximizar la ventaja del first-mover en el mercado.
 
-b) Campañas Temporales
+Para implementar un blitz efectivo, los productos informativos requieren entre 2 y 4 ejecuciones publicitarias diferentes, mientras que los productos transformacionales necesitan de 4 a 6 ejecuciones para mantener el impacto sin generar desgaste.
 
-  - Eficaz para promociones de corta duración
-  - Permite maximizar el alcance en períodos limitados
-  - Esencial cuando el tiempo es un factor crítico
+![FE_Ostrow_1982](./img/img_blitz_pattern.png)
 
-c) Mercados con Baja Notoriedad
+**_Wedge_: La Estrategia de la Cuña**
+El wedge pattern representa el enfoque más común para lanzamientos. Su estructura es distintiva: comienza con una alta intensidad (400 GRPs semanales) que se reduce gradualmente (hasta 100 GRPs), manteniendo el alcance pero ajustando la frecuencia.
 
-  - Ayuda a establecer presencia de marca
-  - Facilita la construcción de reconocimiento
-  - Permite llegar a segmentos no expuestos previamente
+Este patrón se adapta especialmente bien a productos de compra regular. Los datos Nielsen nos muestran ejemplos concretos de ciclos de compra: margarina (19 días), papel higiénico (20 días) y mantequilla de cacahuete (48 días). La estrategia acompaña estos ciclos naturales de compra.
 
-**Priorización de Frecuencia**
+![FE_Ostrow_1982](./img/img_wedge_pattern.png)
 
-a) Productos de Alta Competencia
+**_Reverse-Wedge/PI_: La Estrategia del Contagio**
+El reverse-wedge aprovecha la influencia personal (PI) como catalizador de la adopción. Comienza con un alcance limitado que se expande progresivamente. Un caso ejemplar fue Toohey's Brewery en Australia, cuyo éxito llevó a que otras marcas replicaran la estrategia.
 
-  - Necesaria para reforzar el posicionamiento
-  - Ayuda a mantener la diferenciación
-  - Crucial en categorías con baja lealtad
+Este patrón resulta particularmente efectivo para:
+- Innovaciones industriales
+- Productos que requieren aprendizaje
+- Situaciones donde la influencia personal es crucial para la adopción
 
-b) Mensajes Complejos
+![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png)
 
-  - Permite la asimilación gradual de información
-  - Facilita la comprensión de beneficios elaborados
-  - Mejora la retención del mensaje
+**_Short Fad_: La Estrategia del Momento**
+Diseñado para productos con ciclo de vida corto, el short fad actúa como un blitz condensado. Se aplica en:
+- Lanzamientos de películas
+- Programas de pérdida de peso
+- Moda de temporada
+- Juguetes y juegos
+- Productos "get-fit"
 
+![FE_Ostrow_1982](./img/img_short_fad_pattern.png)
+
+#### Patrones para Productos Establecidos
+
+**_Regular Purchase Cycle_: Ritmo y Constancia**
+Este patrón sincroniza la publicidad con los ciclos naturales de compra. La clave está en alternar períodos de actividad publicitaria con hiatus, siguiendo el ritmo de compra del consumidor.
+
+Los ciclos de compra varían según el producto. Nielsen documenta ciclos específicos:
+- Margarina: 19 días
+- Papel higiénico: 20 días
+- Mantequilla de cacahuete: 48 días
+
+![FE_Ostrow_1982](./img/img_regular_pattern.png)
+
+**_Awareness_: Mantener la Presencia**
+Diseñado para productos con ciclos de compra extensos y decisiones prolongadas, como:
+- Viajes de larga distancia
+- Automóviles nuevos
+- Artículos de lujo
+- Equipamiento industrial
+- Servicios de consultoría
+
+![FE_Ostrow_1982](./img/img_awareness_pattern.png)
+
+**_Shifting Reach_: Movimiento Estratégico**
+Esta estrategia se mueve entre diferentes segmentos del mercado, alcanzando aproximadamente 12% en cada ciclo. Es ideal para servicios como:
+- Limpieza de alfombras domésticas
+- Remodelación de oficinas
+- Servicios de emergencia
+- Servicios de mantenimiento
+
+![FE_Ostrow_1982](./img/img_shifting_pattern.png)
+
+**_Seasonal Priming_: Anticipación y Temporalidad**
+Se aplica a productos con marcada estacionalidad. Distingue entre:
+
+Productos de bajo riesgo:
+- Remedios para resfriados
+- Condimentos para barbacoa
+
+Productos de alto riesgo:
+- Equipamiento de snowboard/ski
+- Piscinas residenciales
+- Servicios de consultoría fiscal
+
+![FE_Ostrow_1982](./img/img_seasonal_pattern.png)
+
+#### Conclusión
+La efectividad de cada patrón depende de su correcta aplicación según el tipo de producto, ciclo de compra y comportamiento del consumidor. La clave está en seleccionar el patrón que mejor se ajuste a estos factores, considerando siempre el presupuesto disponible y los objetivos de marketing.
+
+***
+***
+
+# Guía de Media Planning por Patrón de Alcance
+
+## PLANIFICACIÓN PARA PRODUCTOS NUEVOS
+
+### 1. Plan de Medios - Patrón Blitz
+
+**Objetivo:** 100% de alcance con frecuencia sostenida durante un año completo.
+
+**Estructura del Plan:**
+- Duración: 12 meses continuos
+- Frecuencia mínima: 50+ exposiciones semanales
+- Ejecuciones publicitarias:
+  * Productos informativos: 2-4 ejecuciones diferentes
+  * Productos transformacionales: 4-6 ejecuciones diferentes
+
+**Consideraciones de Planificación:**
+- Requiere "pool" amplio de piezas publicitarias
+- Mismo posicionamiento estratégico en todas las ejecuciones
+- Calendario intensivo y constante
+- No se contemplan períodos de hiatus
+
+### 2. Plan de Medios - Patrón Wedge
+
+**Objetivo:** Alto impacto inicial con reducción gradual manteniendo alcance.
+
+**Estructura del Plan:**
+- Primera fase: 400 GRPs semanales
+- Reducción gradual hasta: 100 GRPs semanales
+- Mantener alcance ajustando frecuencia
+
+**Consideraciones Temporales:**
+- Duración según categoría
+- Para new brands regulares: primer año
+- Para promociones introductorias: primeros 6 meses
+
+### 3. Plan de Medios - Patrón Reverse-Wedge/PI
+
+**Objetivo:** Construir adopción gradual a través de influenciadores.
+
+**Estructura del Plan:**
+- Fase 1: Alcance concentrado en innovadores
+- Fase 2: Expansión gradual
+- Fase 3: Alcance de mercado masivo
+
+**Medios y Frecuencia:**
+- Incremento progresivo de la frecuencia
+- Mantener 100% de alcance en el grupo objetivo de cada fase
+- Enfoque en medios que faciliten la influencia personal
+
+### 4. Plan de Medios - Patrón Short Fad
+
+**Objetivo:** Máximo impacto en período corto.
+
+**Estructura del Plan:**
+- Fase introducción: alta frecuencia y alcance amplio
+- Fase crecimiento: sostener intensidad
+- Duración total: según ciclo del producto
+
+## PLANIFICACIÓN PARA PRODUCTOS ESTABLECIDOS
+
+### 5. Plan de Medios - Regular Purchase Cycle
+
+**Objetivo:** Sincronización con ciclos de compra.
+
+**Estructura del Plan:**
+- Ciclos de 45 días de publicidad
+- Períodos de hiatus de 45 días
+- Alineación con ciclos de compra documentados:
+  * Margarina: 19 días
+  * Papel higiénico: 20 días
+  * Mantequilla de cacahuete: 48 días
+
+### 6. Plan de Medios - Awareness
+
+**Objetivo:** Mantener disposición de compra en ciclos largos.
+
+**Estructura del Plan:**
+- Alto alcance
+- Baja frecuencia
+- Intervalos amplios entre ciclos
+- Inclusión de elementos de respuesta directa
+
+**Ejemplo Documentado:**
+Comisión de Turismo Australiana:
+- Comerciales TV con doble función
+- Números 800 para respuesta
+- Integración con sitio web
+
+### 7. Plan de Medios - Shifting Reach
+
+**Objetivo:** Alcance rotativo de diferentes segmentos.
+
+**Estructura del Plan:**
+- 8 ciclos publicitarios
+- Cada ciclo: ~12% del mercado
+- Duración ciclo: aproximadamente 12%
+- Meta: 100% acumulado antes de repetir
+
+**Implementación Práctica:**
+- Ciclo 1: TV matutina
+- Ciclo 2: Series nocturnas
+- Ciclo 3: Prime time
+- Ciclo 4: Programación nocturna
+- Rotación de medios por ciclo
+
+### 8. Plan de Medios - Seasonal Priming
+
+**Objetivo:** Preparación y maximización de temporada alta.
+
+**Estructura del Plan:**
+- Fase Priming: 1-2 meses antes del pico
+  * Alto alcance
+  * Baja frecuencia
+- Fase Pico Estacional:
+  * Incremento de frecuencia
+  * Mantener alcance alto
+
+**Consideraciones Especiales:**
+- Productos pueden tener múltiples picos anuales
+- Priming debe considerar estado de necesidad de categoría
+- Interferencia competitiva alta en temporada
+
+## Notas de Implementación
+
+### Consideraciones Generales:
+1. MEF (Minimum Effective Frequency) debe ajustarse según patrón
+2. Carryover effects influyen en la planificación de hiatus
+3. La frecuencia se basa en el promedio del ciclo de compra
+4. El alcance se mantiene como prioridad en todos los patrones
+
+### Factores de Ajuste:
+- Presupuesto disponible
+- Competencia en categoría
+- Objetivos específicos de marketing
+- Ciclos de compra documentados
 </details>
-
 ***
 
 ### Resultados (esperados) del plan de medios
@@ -444,6 +898,109 @@ Aplicaciones Shiny:
 - run_aud_util_explorer()     
 - run_beta_binomial_explorer() 
 - run_reach_converg_explorer()
+
+***
+
+## Modelos de Estimación de Cobertura y Distribución
+
+### Fundamentos y Consideraciones Iniciales
+
+La elección de un modelo de estimación de cobertura y distribución requiere una comprensión profunda de las hipótesis subyacentes. Estas hipótesis, que simplifican la realidad para facilitar la modelización, tienen un impacto directo en la precisión de las estimaciones. En este capítulo, examinaremos las diferentes hipótesis y tipos de modelos disponibles.
+
+### Hipótesis sobre las Probabilidades de Exposición
+
+#### Estacionariedad de las Probabilidades de Exposición
+
+La hipótesis de estacionariedad asume que la probabilidad de exposición de un individuo a un soporte permanece constante a lo largo del tiempo. Esta hipótesis se puede desglosar en dos componentes:
+
+1. **Estacionariedad respecto a los individuos**: La probabilidad de exposición ($p_{ijk}$) de un individuo $j$ a la inserción $k$ en el soporte $i$ es constante para todas las inserciones $k$ en ese soporte.
+
+2. **Estacionariedad respecto a las inserciones**: La probabilidad de exposición ($p_{ijk}$) de un individuo $j$ a la inserción $k$ en el soporte $i$ es idéntica para todos los individuos $j$ que consumen ese soporte.
+
+#### Otras Hipótesis Fundamentales
+
+- **Homogeneidad de la Población**: Asume que todos los individuos de la población objetivo tienen igual probabilidad de exposición a un soporte.
+
+- **Homogeneidad de los Soportes**: Considera que todos los soportes del plan de medios tienen igual capacidad de generar exposición.
+
+- **Aleatoriedad de la Duplicación**: Establece que la probabilidad de exposición a dos soportes diferentes es independiente de la exposición a otros soportes.
+
+- **Aleatoriedad de la Acumulación**: Postula que la probabilidad de exposición a múltiples inserciones en un mismo soporte es independiente de la exposición a otras inserciones.
+
+### Taxonomía de Modelos según Soportes e Inserciones
+
+Los modelos se pueden clasificar en tres categorías principales según su aplicación:
+
+1. **Modelos de Acumulación de Audiencias**
+
+   - Diseñados para planes con $n$ inserciones en un único soporte
+   - Focalizados en el efecto acumulativo de exposiciones repetidas
+
+2. **Modelos de Duplicación de Audiencias**
+
+   - Aplicables a planes con una inserción en $n$ soportes diferentes
+   - Centrados en el efecto de la exposición a través de múltiples soportes
+
+3. **Modelos de Audiencia Neta Acumulada**
+
+   - Desarrollados para planes con $n$ inserciones en $m$ soportes diferentes
+   - Combinan los efectos de acumulación y duplicación
+
+### Clasificación según Enfoque Metodológico
+
+#### Modelos Empíricos (ad hoc)
+
+Estos modelos se caracterizan por:
+
+- Buscar funciones matemáticas que se ajusten a los datos de audiencia disponibles
+- No considerar la naturaleza probabilística de la exposición
+- Enfocarse en reproducir la evolución de la cobertura según el número de inserciones
+
+**Limitaciones principales**:
+
+- No proporcionan información sobre la distribución de contactos
+- No permiten determinar la campaña óptima al no considerar la frecuencia de exposición
+
+#### Modelos Estocásticos
+
+Estos modelos se distinguen por:
+
+- Representar los patrones de audiencia mediante distribuciones de probabilidad
+- Considerar la exposición como fenómeno aleatorio
+- Asumir probabilidades individuales de exposición
+
+**Características clave**:
+
+- Requieren hipótesis adicionales sobre la probabilidad individual
+- Las hipótesis específicas diferencian los distintos modelos estocásticos
+
+### Criterios para la Selección del Modelo
+
+La elección del modelo debe considerar múltiples factores:
+
+1. **Precisión de las Estimaciones**
+   - Evaluación del error en la estimación de cobertura
+   - Análisis del error en la distribución de contactos
+
+2. **Complejidad del Modelo**
+   - Balance entre simplicidad y precisión
+   - Evaluación del coste-beneficio de levantar hipótesis simplificadoras
+
+3. **Características del Plan de Medios**
+   - Audiencia bruta
+   - Niveles de acumulación y duplicación
+   - Tamaño relativo de los soportes
+
+### Conclusiones
+
+La selección del modelo de estimación debe basarse en un análisis riguroso que considere:
+
+- Las hipótesis subyacentes
+- El tipo de plan de medios a evaluar
+- La precisión requerida en las estimaciones
+- Los recursos disponibles para la implementación
+
+La comprensión de estos aspectos permite una elección informada que optimiza el balance entre precisión y complejidad del modelo.
 
 ***
 
@@ -888,6 +1445,7 @@ Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distri
 Díez de Castro, E.C., Sánchez-Franco, M.J., y Martín Armario, E. (2011). Comunicaciones de marketing. Planificación y Control. Pirámide, España.
 Kelley, L. D., Jugenheimer, D. W., y Sheehan, K. B. (2015). Advertising Media Planning: A Brand Management Approach (4ª ed.). Routledge.
 Ostrow , J. W. (1982) Setting Frequency Levels. In Effective Frequency: The State of the Art. New York: Advertising Research Foundation, Key Issues Workshop.
+Rossiter, J.R. y & Danaher, P.J. (1998). Advanced Media Planning. Kluwer Academic Publishers, MAS, USA.
 
 ## Contacto y Soporte
 
