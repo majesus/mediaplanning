@@ -35,12 +35,12 @@ La planificación de medios es el proceso de encontrar la combinación adecuada 
 
 A continuación, se muestra una descripción de cinco componentes clave que intervienen en la planificación de medios publicitarios, incluyendo ejemplos prácticos y consideraciones tácticas para cada elemento.
 
-| Componente | Descripción Detallada |
+| Componente | Descripción Detallada (ejemplos) |
 |------------|---------------------|
 | Público Objetivo | **Base fundamental del plan de medios** <br>- Análisis demográfico: edad, género, ubicación, nivel de ingresos<br>- Psicografía: valores, intereses, estilo de vida<br>- Hábitos de consumo de medios<br>- Comportamiento de compra<br><br>*Ejemplo*: Una marca de fitness que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
 | Objetivos | **Metas claramente definidas y medibles**<br>- Awareness: aumentar reconocimiento de marca<br>- Tráfico web: incrementar visitas al sitio<br>- Generación de leads: captación de potenciales clientes<br>- Conversión: ventas directas<br><br>*Ejemplo*: Si el objetivo es brand awareness, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
 | Presupuesto | **Planificación financiera estratégica**<br>- Evaluación de costos por canal<br>- ROI / ROAS esperado por medio<br>- Distribución eficiente de recursos<br>- Escalabilidad del presupuesto<br><br>*Consideraciones*:<br>- TV: alto costo, gran alcance<br>- Digital: más asequible, mejor segmentación<br>- Medios impresos: costos variables según alcance<br>- Exterior: costos fijos con exposición prolongada |
-| Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>*Estrategia*: Selección basada en:<br>- Alcance<br>- Frecuencia<br>- Afinidad con target<br>- Costo por impacto<br>- Capacidad de segmentación |
+| Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>- Estrategia: <br>- Alcance<br>- Frecuencia<br>- Afinidad con target<br>- Costo por impacto<br>- Capacidad de segmentación |
 | Programación | **Planificación temporal estratégica**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos de consumo del target<br>  * Actividad competitiva<br>  * Eventos relevantes del mercado<br><br>*Consideraciones tácticas*:<br>- Momentos de mayor demanda<br>- Períodos de compra<br>- Eventos especiales<br>- Fechas comerciales clave<br>- Horarios de mayor consumo mediático del target |
 
 
@@ -254,10 +254,6 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 
 ### Métricas relativas a los soportes:
 
-#### Glosario de Conceptos de Planificación de Medios
-
-#### Conceptos Básicos de Audiencia y Exposición
-
 **Audiencia o Audiencia Bruta**  
 Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil.
 
@@ -291,7 +287,7 @@ Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Caracter
 - Representa una oportunidad de atención, no la atención efectiva
 - Es la unidad básica para medir la intensidad de una campaña
 
-#### Métricas de Cobertura y Frecuencia
+### Métricas de cobertura y frecuencia
 
 **Alcance o Cobertura (Reach)**  
 Número absoluto (o relativo) de individuos del público objetivo expuestos al menos una vez a un mensaje publicitario durante un ciclo específico. Características clave:
@@ -348,7 +344,7 @@ Representa el 1% de la población alcanzada en caso de realizar una inserción e
 - 1 GRP significa que el plan de medios y soportes alcanza al 1% del público (o target)
 - Se calcula también multiplicando la cobertura en % por la frecuencia media
 
-#### Métricas de Eficiencia y Costes
+### Métricas de eficiencia y costes
 
 **CPM (Coste Por Mil)**  
 Coste de alcanzar a mil personas de la audiencia o de la cobertura alcanzada. Características:
@@ -374,7 +370,7 @@ Representa la cuota de voz o presencia publicitaria de una marca en comparación
 - Permite comparar la presencia mediática entre competidores o medios en que se programa
 - Es un indicador clave del esfuerzo publicitario relativo
 
-#### Conceptos Avanzados de Planificación
+### Conceptos avanzados de planificación
 
 **Ciclo Publicitario**  
 Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
@@ -438,6 +434,8 @@ Estrategia donde la frecuencia MEF/c se establece deliberadamente por encima de 
 - Es especialmente relevante en momentos críticos del mercado
 
 ***
+
+### Ejemplo de diversas métricas
 
 **Tabla de principales métricas**
 
@@ -560,12 +558,9 @@ A continuación, precisamos con mayor detalle los escenarios principales relacio
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
 
-<details>
-<summary>Haz clic para mayor desarrollo</summary>
-
 ***
 
-#### Guía de Patrones de Alcance Publicitario: Fundamentos y Aplicaciones
+### Guía de Patrones de Alcance Publicitario: Fundamentos y Aplicaciones
 
 #### Introducción
 Los patrones de alcance constituyen el fundamento de la planificación estratégica en medios publicitarios. Se dividen en dos grandes categorías según la etapa del producto en el mercado: patrones para productos nuevos y patrones para productos establecidos. Cada patrón responde a necesidades específicas de comunicación y objetivos de marketing.
@@ -653,6 +648,270 @@ Productos de alto riesgo:
 
 #### Conclusión
 La efectividad de cada patrón depende de su correcta aplicación según el tipo de producto, ciclo de compra y comportamiento del consumidor. La clave está en seleccionar el patrón que mejor se ajuste a estos factores, considerando siempre el presupuesto disponible y los objetivos de marketing.
+
+
+<details>
+<summary>Haz clic para mayor desarrollo</summary>
+
+***
+
+### 1. BLITZ PATTERN
+
+**Ejemplos de Productos/Categorías:**
+- Smartphones de nueva generación (ej: lanzamiento iPhone)
+- Nuevos modelos de automóviles
+- Plataformas de streaming al entrar en un mercado
+- Nuevas cadenas de retail
+- Servicios financieros innovadores
+
+**Características Estratégicas:**
+- Alcance continuo y elevado (100% target)
+- Frecuencia alta sostenida (mínimo 1 exposición semanal)
+- Sin ciclos/flighting - Presión continua
+- Duración típica: 1 año (puede requerir hasta 2 años)
+
+**Planificación Táctica:**
+1. Base creativa:
+   - Pool de 2-4 ejecuciones para mensajes informacionales
+   - 4-6 ejecuciones para mensajes transformacionales
+   - Rotación para evitar desgaste
+
+2. Mix de medios:
+   - Medios masivos de alta cobertura
+   - Complemento con medios de alta afinidad
+   - Sin huecos en la planificación
+
+3. Distribución de la presión:
+   - GRPs semanales estables y elevados
+   - Distribución homogénea de impactos
+
+**Justificación:**
+- Maximiza ventaja first-mover
+- Supera barreras de entrada en mercado
+- Maximiza tasa de prueba
+- Suprime efectos publicidad competitiva
+
+### 2. WEDGE PATTERN
+
+**Ejemplos de Productos/Categorías:**
+- Productos de cuidado personal innovadores
+- Nuevas marcas de alimentación
+- Servicios de suscripción
+- Apps y servicios digitales
+- Productos de limpieza con nueva tecnología
+
+**Características Estratégicas:**
+- Intensidad decreciente en el tiempo
+- Frecuencia alta inicial que decrece
+- Alcance mantenido con menor frecuencia
+- Patrón más común en lanzamientos
+
+**Planificación Táctica:**
+1. Fases:
+   - Fase 1: Blitz inicial (alta inversión)
+   - Fase 2: Reducción gradual de presión
+   - Fase 3: Mantenimiento
+
+2. Mix de medios:
+   - Inicio: Medios masivos + alta afinidad
+   - Evolución: Optimización hacia medios eficientes
+   - Final: Foco en medios de mantenimiento
+
+3. Distribución de presión:
+   - GRPs decrecientes por fase
+   - Mantenimiento de cobertura neta
+   - Optimización de frecuencia efectiva
+
+**Justificación:**
+- Eficiente para productos de compra regular
+- Early adopters requieren menor frecuencia posterior
+- Permite optimización presupuestaria
+- Adecuado cuando hay lealtad post-prueba
+
+### 3. REVERSE-WEDGE/PI PATTERN
+
+**Ejemplos de Productos/Categorías:**
+- Software empresarial
+- Equipamiento industrial innovador
+- Nuevas tecnologías B2B
+- Servicios profesionales especializados
+- Soluciones de energía renovable
+
+**Características Estratégicas:**
+- Frecuencia creciente en el tiempo
+- Alcance 100% con aumento de frecuencia
+- Expansión progresiva de target
+- Rol clave de influencia personal
+
+**Planificación Táctica:**
+1. Fases:
+   - Fase 1: Innovadores/early adopters
+   - Fase 2: Expansión a early majority
+   - Fase 3: Mercado masivo
+
+2. Mix de medios:
+   - Inicio: Medios segmentados/especializados
+   - Evolución: Incorporación medios masivos
+   - Final: Mix completo con alta presión
+
+3. Distribución de presión:
+   - GRPs crecientes por fase
+   - Expansión de cobertura
+   - Aumento progresivo de frecuencia
+
+**Justificación:**
+- Óptimo cuando influencia personal es clave
+- Efectivo para innovaciones industriales
+- Permite construcción gradual de mercado
+- Aprovecha difusión social
+
+### 4. SHORT FAD PATTERN
+
+**Ejemplos de Productos/Categorías:**
+- Películas y estrenos de cine
+- Videojuegos
+- Juguetes de temporada
+- Eventos y festivales
+- Colecciones de moda fast-fashion
+
+**Características Estratégicas:**
+- Concentración intensa y breve (máx. 6 meses)
+- Frecuencia muy alta en período corto
+- Similar a blitz pero concentrado
+- Sin tiempo para construcción gradual
+
+**Planificación Táctica:**
+1. Fases:
+   - Fase 1: Introducción intensiva
+   - Fase 2: Crecimiento acelerado
+   - Fase 3: Capitalización rápida
+
+2. Mix de medios:
+   - Medios de rápida construcción de cobertura
+   - Alta presión en todos los medios
+   - Optimización para velocidad vs. eficiencia
+
+3. Distribución de presión:
+   - GRPs muy elevados
+   - Máxima cobertura en mínimo tiempo
+   - Sin períodos de baja intensidad
+
+**Justificación:**
+- Para productos de ciclo corto
+- Necesidad de rápida penetración
+- Categorías de moda/tendencia
+- Productos estacionales cortos
+
+### 5. REGULAR PURCHASE CYCLE PATTERN
+
+**Ejemplos de Productos/Categorías:**
+- Productos de alimentación básica
+- Artículos de higiene personal
+- Productos de limpieza del hogar
+- Servicios de telecomunicaciones
+- Seguros y servicios bancarios básicos
+
+**Características Estratégicas:**
+- Ciclos sincronizados con compra
+- Alternancia actividad-hiatos planificada
+- Aprovechamiento de carryover
+- Adaptación a comportamiento real
+
+**Planificación Táctica:**
+1. Ciclos:
+   - Duración según ciclo de compra real
+   - Planificación por momento de compra
+   - Coordinación con distribución/promoción
+
+2. Mix de medios:
+   - Base en medios afines al ciclo
+   - Complemento con medios de continuidad
+   - Optimización por momento de compra
+
+3. Distribución de presión:
+   - GRPs alineados con ciclo
+   - Cobertura efectiva en momento clave
+   - Frecuencia efectiva por ciclo
+
+**Justificación:**
+- Eficiencia en timing
+- Optimización presupuestaria
+- Maximización de efectividad
+- Adaptación a comportamiento consumidor
+
+### 6. AWARENESS PATTERN
+
+**Ejemplos de Productos/Categorías:**
+- Bienes inmobiliarios
+- Vehículos de alta gama
+- Servicios educativos
+- Servicios financieros complejos
+- Turismo de lujo
+
+**Características Estratégicas:**
+- Ciclos regulares espaciados
+- Baja frecuencia por ciclo
+- Alta continuidad anual
+- Objetivo: recordación vs. acción inmediata
+
+**Planificación Táctica:**
+1. Ciclos:
+   - Regularidad en presencia
+   - Espaciado óptimo entre oleadas
+   - Mantenimiento de awareness
+
+2. Mix de medios:
+   - Combinación medios caros/económicos
+   - Prioridad a medios de construcción de marca
+   - Complemento con medios de mantenimiento
+
+3. Distribución de presión:
+   - GRPs moderados pero regulares
+   - Cobertura sostenida
+   - Frecuencia efectiva mínima por ciclo
+
+**Justificación:**
+- Productos de ciclo largo
+- Decisiones complejas/caras
+- Necesidad de presencia continua
+- Eficiencia en mantenimiento de marca
+
+### CONSIDERACIONES OPERATIVAS PARA TODOS LOS PATRONES
+
+**1. Factores Cuantitativos:**
+- Cálculo MEF específico del patrón
+- Determinación MaxEF para evitar desgaste
+- Métricas VA por medio
+- GRPs/TRPs necesarios
+- SOV objetivo vs. competencia
+
+**2. Factores Cualitativos:**
+- Características del TA
+- Objetivos BA/BATT
+- Rol de PI según categoría
+- Contexto competitivo
+- Estacionalidad
+
+**3. Aspectos Presupuestarios:**
+- Distribución temporal
+- Cost per Point por medio
+- Eficiencia en negociación
+- Flexibilidad para ajustes
+- Reserva para oportunidades
+
+**4. Sistema de Medición:**
+- KPIs específicos por patrón
+- Herramientas de tracking
+- Métricas de respuesta
+- Indicadores de eficiencia
+- Sistemas de optimización
+
+**5. Criterios de Corrección:**
+- Umbrales de ajuste
+- Timing de evaluación
+- Mecanismos de compensación
+- Flexibilidad táctica
+- Protocolos de crisis
 
 </details>
 
