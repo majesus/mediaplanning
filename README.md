@@ -509,9 +509,11 @@ La determinación precisa de estos parámetros es fundamental para:
 - Lograr los objetivos de comunicación de forma eficiente
 - Evitar tanto la infraexposición (por debajo del umbral) como la sobreexposición (que puede generar desgaste publicitario)
 
-En particular, la frecuencia efectiva mínima (MEF) se determina mediante la fórmula:
+***
 
-La frecuencia efectiva mínima se calcula como:
+### Guía de cálculo de la frecuencia efectiva mínima
+
+La frecuencia efectiva mínima (MEF) se determina mediante la fórmula:
 
 $$
 \text{MEF/c} = 1 + \text{VA} \times (\text{TA} + \text{BA} + \text{BATT} + \text{PI})
@@ -531,46 +533,50 @@ $$
 
 Los factores que determinan el nivel de la MEF son:
 
-1. Atención al vehículo publicitario:
+1. **Atención al vehículo publicitario**:
 
   - Medios de alta atención (TV prime time, revistas principales)
   - Medios de baja atención (otros horarios TV, radio)
 
-2. Tipo de audiencia objetivo:
+2. **Tipo de audiencia objetivo**:
 
   - Leales a la marca 
   - Switchers de marca
   - Usuarios de otras marcas
   - Nuevos usuarios de categoría
 
-3. Objetivos de comunicación:
+3. **Objetivos de comunicación**:
 
   - Reconocimiento 
   - Recuerdo  
   - Estrategia de marca informativa 
   - Estrategia de marca transformativa 
 
-4. Influencia personal:
+4. **Influencia personal**:
 
 - Alta (reduce la frecuencia necesaria)
 - Baja (requiere mayor frecuencia publicitaria)
 
 ***
 
-A continuación, precisamos con mayor detalle los escenarios principales relacionados con los **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva a propuesta de Ostrow (1982). El extracto procede del artículo citado en el pie de la tabla.
+A continuación, te ofrecemos una propuesta alternativa de Ostrow (1982) basada en **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva.
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
 
 ***
 
-### Guía de Patrones de Alcance Publicitario: Fundamentos y Aplicaciones
+### Guía de diseño del alcance y frecuencia efectivos
 
 #### Introducción
+
 Los patrones de alcance constituyen el fundamento de la planificación estratégica en medios publicitarios. Se dividen en dos grandes categorías según la etapa del producto en el mercado: patrones para productos nuevos y patrones para productos establecidos. Cada patrón responde a necesidades específicas de comunicación y objetivos de marketing.
+
+_Las imágenes han sido tomadas de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
 
 #### Patrones para Productos Nuevos**
 
 **_Blitz_: Máxima Intensidad Inicial**
+
 Un blitz publicitario representa la estrategia más intensiva de entrada al mercado. Mantiene un alcance del 100% del público objetivo durante todo un año, con al menos 50 exposiciones semanales por consumidor. Su objetivo es maximizar la ventaja del first-mover en el mercado.
 
 Para implementar un blitz efectivo, los productos informativos requieren entre 2 y 4 ejecuciones publicitarias diferentes, mientras que los productos transformacionales necesitan de 4 a 6 ejecuciones para mantener el impacto sin generar desgaste.
@@ -578,6 +584,7 @@ Para implementar un blitz efectivo, los productos informativos requieren entre 2
 ![FE_Ostrow_1982](./img/img_blitz_pattern.png){width=75%}
 
 **_Wedge_: La Estrategia de la Cuña**
+
 El wedge pattern representa el enfoque más común para lanzamientos. Su estructura es distintiva: comienza con una alta intensidad (400 GRPs semanales) que se reduce gradualmente (hasta 100 GRPs), manteniendo el alcance pero ajustando la frecuencia.
 
 Este patrón se adapta especialmente bien a productos de compra regular. Los datos Nielsen nos muestran ejemplos concretos de ciclos de compra: margarina (19 días), papel higiénico (20 días) y mantequilla de cacahuete (48 días). La estrategia acompaña estos ciclos naturales de compra.
@@ -585,9 +592,11 @@ Este patrón se adapta especialmente bien a productos de compra regular. Los dat
 ![FE_Ostrow_1982](./img/img_wedge_pattern.png){width=75%}
 
 **_Reverse-Wedge/PI_: La Estrategia del Contagio**
+
 El reverse-wedge aprovecha la influencia personal (PI) como catalizador de la adopción. Comienza con un alcance limitado que se expande progresivamente. Un caso ejemplar fue Toohey's Brewery en Australia, cuyo éxito llevó a que otras marcas replicaran la estrategia.
 
 Este patrón resulta particularmente efectivo para:
+
 - Innovaciones industriales
 - Productos que requieren aprendizaje
 - Situaciones donde la influencia personal es crucial para la adopción
@@ -595,7 +604,9 @@ Este patrón resulta particularmente efectivo para:
 ![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png){width=75%}
 
 **_Short Fad_: La Estrategia del Momento**
+
 Diseñado para productos con ciclo de vida corto, el short fad actúa como un blitz condensado. Se aplica en:
+
 - Lanzamientos de películas
 - Programas de pérdida de peso
 - Moda de temporada
@@ -610,6 +621,7 @@ Diseñado para productos con ciclo de vida corto, el short fad actúa como un bl
 Este patrón sincroniza la publicidad con los ciclos naturales de compra. La clave está en alternar períodos de actividad publicitaria con hiatus, siguiendo el ritmo de compra del consumidor.
 
 Los ciclos de compra varían según el producto. Nielsen documenta ciclos específicos:
+
 - Margarina: 19 días
 - Papel higiénico: 20 días
 - Mantequilla de cacahuete: 48 días
@@ -617,7 +629,9 @@ Los ciclos de compra varían según el producto. Nielsen documenta ciclos espec�
 ![FE_Ostrow_1982](./img/img_regular_pattern.png){width=75%}
 
 **_Awareness_: Mantener la Presencia**
+
 Diseñado para productos con ciclos de compra extensos y decisiones prolongadas, como:
+
 - Viajes de larga distancia
 - Automóviles nuevos
 - Artículos de lujo
@@ -627,7 +641,9 @@ Diseñado para productos con ciclos de compra extensos y decisiones prolongadas,
 ![FE_Ostrow_1982](./img/img_awareness_pattern.png){width=75%}
 
 **_Shifting Reach_: Movimiento Estratégico**
+
 Esta estrategia se mueve entre diferentes segmentos del mercado, alcanzando aproximadamente 12% en cada ciclo. Es ideal para servicios como:
+
 - Limpieza de alfombras domésticas
 - Remodelación de oficinas
 - Servicios de emergencia
@@ -636,13 +652,16 @@ Esta estrategia se mueve entre diferentes segmentos del mercado, alcanzando apro
 ![FE_Ostrow_1982](./img/img_shifting_pattern.png){width=75%}
 
 **_Seasonal Priming_: Anticipación y Temporalidad**
+
 Se aplica a productos con marcada estacionalidad. Distingue entre:
 
 Productos de bajo riesgo:
+
 - Remedios para resfriados
 - Condimentos para barbacoa
 
 Productos de alto riesgo:
+
 - Equipamiento de snowboard/ski
 - Piscinas residenciales
 - Servicios de consultoría fiscal
@@ -650,6 +669,7 @@ Productos de alto riesgo:
 ![FE_Ostrow_1982](./img/img_seasonal_pattern.png){width=75%}
 
 #### Conclusión
+
 La efectividad de cada patrón depende de su correcta aplicación según el tipo de producto, ciclo de compra y comportamiento del consumidor. La clave está en seleccionar el patrón que mejor se ajuste a estos factores, considerando siempre el presupuesto disponible y los objetivos de marketing.
 
 
@@ -1676,7 +1696,6 @@ resultado_util <- optimize_media_plan(
   usar_audiencia_util = TRUE
 )
 ```
-
 ## Características Generales del Paquete
 
 - Múltiples modelos de cobertura y frecuencia
@@ -1686,7 +1705,6 @@ resultado_util <- optimize_media_plan(
 - Salida detallada con distribuciones de contactos
 - Validación y manejo de errores integrado
 - Seguimiento de progreso para operaciones largas
-
 
 ### Manejo de Errores
 El paquete incluye validación de entrada y manejo de errores:
