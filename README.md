@@ -36,7 +36,7 @@ Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de 
 
 ***
 
-## :red_circle:Planificación de medios
+## :red_square:Planificación de medios
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo de una marca (o target) de manera eficaz y eficiente**. 
 
@@ -152,7 +152,7 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 ***
 
-## Conceptos básicos de la planificación de medios
+## :red_square:Conceptos básicos de la planificación de medios
 
 ### Métricas relativas a la población:
 
@@ -457,9 +457,9 @@ head(resultado)
 
 ***
 
-### Objetivos del Plan de Medios y Soportes
+## :red_square:Objetivos del Plan de Medios y Soportes
 
-#### A. Cobertura efectiva
+### A. Cobertura efectiva
 
 > Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF). 
 
@@ -469,7 +469,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 - Brand attitude (asociación entre una marca y su uso y un valor, actitud hacia la marca)
 - Brand purchase intention (disposición a la compra, intención)
 
-#### B. Frecuencia efectiva
+### B. Frecuencia efectiva
 
 > Se refiere al número de veces ( _oportunidades de ver_ ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. 
 
@@ -579,11 +579,11 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 
 ***
 
-### Estrategias de cobertura y distribución de exposición
+## :red_square:Estrategias de cobertura y distribución de exposición
 
 Los patrones de alcance constituyen el fundamento de la planificación estratégica en medios publicitarios. Se dividen en dos grandes categorías según la etapa del producto en el mercado: patrones para productos nuevos y patrones para productos establecidos. Cada patrón responde a necesidades específicas de comunicación y objetivos de marketing.
 
-#### Patrones para marcas nuevas
+### Patrones para marcas nuevas
 
 #### A. El Patrón Blitz en la Planificación de Medios
 
@@ -768,7 +768,7 @@ Este patrón exige una comprensión profunda tanto de las dinámicas del mercado
 
 ***
 
-#### Patrones para marcas establecidas
+### Patrones para marcas establecidas
 
 #### El Patrón Regular Purchase Cycle en la Planificación de Medios
 
@@ -1111,9 +1111,9 @@ La flexibilidad para adaptar la intensidad y duración del priming según la cat
 
 ***
 
-### Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
+## :red_square:Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
 
-#### Cobertura
+### Cobertura
 
 > Número de personas expuestas durante un ciclo publicitario **al menos una vez**.
 
@@ -1137,13 +1137,13 @@ Proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alca
 
 Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65% _bruto combinado_ inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar estimar en exceso su impacto.
 
-#### Duplicación
+### Duplicación
 
 > La duplicación ocurre cuando una misma persona se expone (o _tiene la oportunidad de ver_, OTS) más de una vez al anuncio durante un ciclo publicitario (en el mismo soporte o en distinto soporte). 
 
 En la campaña _Tu_, se estimó una duplicación del 5% entre Instagram y Spotify, un 3% entre Instagram y carteles, y un 2% entre Spotify y carteles.
 
-#### Frecuencia media
+### Frecuencia media
 
 > Es el número promedio de veces que un individuo alcanzado se expone durante una campaña publicitaria. 
 
@@ -1153,7 +1153,7 @@ La expresión matemática para el cálculo de la frecuencia media es la siguient
 
 $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
-#### Distribución de contactos
+### Distribución de contactos
 
 > Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante el ciclo publicitario. 
 
@@ -1168,7 +1168,7 @@ Exclus. 2 veces: 30.000 personas
 Exclus. 3 veces: 30.000 personas
 
 
-#### Distribución de contactos acumulada
+### Distribución de contactos acumulada
 
 > Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, durante la campaña publicitaria. 
 
@@ -1184,7 +1184,7 @@ En la campaña de ropa _TU_, la distribución de contactos acumulada fue la sigu
 
 ***
 
-## mediaPlanR: Funciones de mediaPlanR
+## :red_square:mediaPlanR: Funciones de mediaPlanR
 
 Modelos:
 - calc_sainsbury() 
@@ -1213,7 +1213,7 @@ Aplicaciones Shiny:
 
 ***
 
-## Estimación de Cobertura y Distribución
+## :red_square:Estimación de Cobertura y Distribución
 
 ### Fundamentos y Consideraciones Iniciales
 
