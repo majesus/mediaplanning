@@ -603,6 +603,7 @@ La ejecución efectiva del patrón Blitz requiere una planificación meticulosa 
 La estrategia de medios debe fundamentarse en vehículos masivos de alta cobertura, complementados estratégicamente con medios de alta afinidad. Un aspecto crucial es la eliminación total de períodos de hiatus: la presión publicitaria debe mantenerse constante, con GRPs (Gross Rating Points) semanales estables y elevados, asegurando una distribución homogénea de impactos a lo largo de toda la campaña.
 
 ![FE_Ostrow_1982](./img/img_blitz_pattern.png)
+~Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._~
 
 **Aplicaciones y Contextos Óptimos**
 
