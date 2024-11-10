@@ -457,38 +457,30 @@ head(resultado)
 
 ***
 
-### Objetivos del Plan de Medios
+### Objetivos del Plan de Medios y Soportes
 
 #### Cobertura efectiva
 
 Se refiere al porcentaje o número absoluto de individuos del público objetivo que deben estar expuestos al mensaje publicitario con una frecuencia igual o superior a la frecuencia efectiva mínima. El objetivo es lograr que la disposición hacia la compra supere un determinado nivel crítico, considerando tres elementos fundamentales que no necesariamente deben darse en este orden:
 
 - Brand awareness (notoriedad de marca, memoria)
-- Brand attitude (actitud de marca, hacie el uso de la marca)
+- Brand attitude (asociación entre una marca y su uso y un valor, actitud hacia la marca)
 - Brand purchase intention (disposición a la compra, intención)
 
 #### Frecuencia efectiva
 
 Es el número de veces ( _oportunidades de ver_ ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre **disponer al individuo hacia la compra de la marca**. 
 
-La frecuencia efectiva se define en el contexto de dos conceptos principales:
+La frecuencia efectiva se define en el contexto de dos conceptos principales, a saber, Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF).
 
-1. Frecuencia Efectiva Mínima (MEF/c):
+#### Frecuencia Efectiva Mínima (MEF)
 
-  * Es el número mínimo de exposiciones necesarias durante un ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra
-  * Representa el umbral mínimo necesario para generar una disposición de compra al menor costo
-  * Se busca encontrar este nivel porque por debajo de él la publicidad no será efectiva para generar la acción deseada
+Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activará el comportamiento deseado.
 
-2. Frecuencia Efectiva Máxima (MaxEF/c):
+* Representa el umbral mínimo necesario para generar una disposición de compra al menor costo
+* Se busca encontrar este nivel porque por debajo de él la publicidad no será efectiva para generar la acción deseada
 
-  * Es el límite superior de exposiciones recomendado por ciclo
-  * Las exposiciones adicionales pueden ser un _desperdicio_ de presupuesto
-  * En algunos casos puede haber un efecto negativo (desgaste publicitario)
-  * La disposición de compra se vuelve una línea horizontal o incluso puede decrecer
-
-#### Frecuencia Efectiva Mínima (FEM)
-
-Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activará el comportamiento deseado. Este umbral varía según el tipo de publicidad:
+Este umbral varía según el tipo de publicidad:
 
 1. _Low risk/informacional_: Para productos/servicios de bajo riesgo donde el mensaje es principalmente informativo. Por ejemplo, productos de conveniencia o compra frecuente como detergentes o productos de limpieza, donde la comunicación se centra en características funcionales y beneficios directos del producto.
 
@@ -504,10 +496,19 @@ La determinación precisa de estos parámetros es fundamental para:
 - Lograr los objetivos de comunicación de forma eficiente
 - Evitar tanto la infraexposición (por debajo del umbral) como la sobreexposición (que puede generar desgaste publicitario)
 
-***
-### Guía de cálculo de la frecuencia efectiva mínima
+#### Frecuencia Efectiva Máxima (MaxEF)
 
-La frecuencia efectiva mínima (MEF) se determina mediante la fórmula:
+La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo:
+
+  * Las exposiciones adicionales pueden ser un _desperdicio_ de presupuesto
+  * En algunos casos puede haber un efecto negativo (desgaste publicitario o _wearout_)
+  * La disposición de compra se vuelve una línea horizontal o incluso puede decrecer
+
+***
+
+### Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
+
+La frecuencia efectiva mínima (MEF) se puede determinar mediante la fórmula:
 
 $$
 \text{MEF/c} = 1 + \text{VA} \times (\text{TA} + \text{BA} + \text{BATT} + \text{PI})
