@@ -87,7 +87,7 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 
 **¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que maximice el impacto de la campaña.
 
-**¿Cuál es la cobertura y frecuencia efectivas para la campaña?** El planificador debe definir cuántas personas deben ser alcanzadas por la campaña al menos la frecuencia efectiva mínima para alcanzar los objetivos, por ejemplo, la disposición a la compra del producto, servicio o marca.
+**¿Cuál es la cobertura y frecuencia efectivas para la campaña?** El planificador debe definir cuántas personas deben ser alcanzadas por la campaña al menos la frecuencia efectiva mínima (MEF) para alcanzar los objetivos, por ejemplo, la disposición a la compra del producto, servicio o marca.
 
 **4. Implementación, Monitoreo y Evaluación**
 
@@ -533,9 +533,7 @@ $$
 $$
 
 ![FE_Ostrow_1982](./img/img_FEM_table.png)
-
-Nota: _Las imágenes han sido tomadas de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
-
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 Es importante tener presente que:
 
@@ -577,6 +575,7 @@ La influencia personal representa el componente social en la difusión de los me
 Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva. La imagen se toma del artículo citado al pie de la tabla.
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 ***
 
@@ -636,6 +635,7 @@ El desarrollo del Wedge Pattern se estructura típicamente en tres fases princip
 La planificación de medios evoluciona con cada fase. Por ejemplo, se podría comenzar con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que priorice los medios más eficientes en términos de costo-beneficio. Esta evolución debe mantener la cobertura neta mientras se ajusta la frecuencia de manera estratégica.
 
 ![FE_Ostrow_1982](./img/img_wedge_pattern.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 **Categorías y Aplicaciones**
 
@@ -679,6 +679,7 @@ El desarrollo del patrón se estructura en tres fases claramente diferenciadas, 
 3. La tercera fase amplía la comunicación hacia el mercado masivo, aprovechando el momentum generado por las fases anteriores. En este punto, la estrategia puede incorporar medios masivos tradicionales, pero siempre manteniendo la coherencia con el mensaje y la credibilidad establecida inicialmente.
 
 ![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 **Aplicaciones Óptimas**
 
@@ -728,6 +729,7 @@ La ejecución del Short Fad Pattern se estructura típicamente en tres fases com
 - La fase de capitalización rápida busca maximizar las ventas antes de que el interés decline. Esta fase es crucial para extraer el máximo valor del período de relevancia del producto.
 
 ![FE_Ostrow_1982](./img/img_short_fad_pattern.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 **Aplicaciones Óptimas**
 
@@ -791,6 +793,7 @@ La planificación debe considerar tres elementos fundamentales:
 3. Tercero, la continuidad de la comunicación debe mantener un equilibrio entre la necesidad de estar presente en el momento crítico y la eficiencia en la inversión publicitaria.
 
 ![FE_Ostrow_1982](./img/img_regular_pattern.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 **Consideraciones Tácticas**
 
@@ -848,6 +851,7 @@ Los intervalos entre ciclos deben ser lo suficientemente cortos para mantener la
 La comunicación debe combinar elementos de construcción de marca con mecanismos de respuesta directa. Esta dualidad permite mantener la presencia de marca mientras se facilita la acción cuando el consumidor está listo para avanzar en su proceso de decisión.
 
 ![FE_Ostrow_1982](./img/img_awareness_pattern.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 **Integración de Respuesta Directa**
 
@@ -921,6 +925,7 @@ La ejecución del Shifting Reach Pattern se estructura típicamente en ciclos pu
 El primer ciclo podría concentrarse en programación matutina de televisión para alcanzar un segmento específico. El segundo ciclo podría trasladarse a series nocturnas para captar otra audiencia. El tercer ciclo podría enfocarse en prime time, y así sucesivamente. Esta rotación de medios y horarios permite maximizar la eficiencia al dirigir el mensaje al momento y contexto más relevante para cada segmento.
 
 ![FE_Ostrow_1982](./img/img_shifting_pattern.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 **Consideraciones Tácticas**
 
@@ -1041,6 +1046,7 @@ La ejecución del Seasonal Priming Pattern se estructura típicamente en tres fa
   - Preparación para el siguiente ciclo
 
 ![FE_Ostrow_1982](./img/img_seasonal_pattern.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 **Consideraciones Tácticas**
 
@@ -1107,13 +1113,13 @@ La flexibilidad para adaptar la intensidad y duración del priming según la cat
 
 ***
 
-### Control (resultados esperados) del plan de medios
+### Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
 
 #### Cobertura
 
-Se refiere al número de personas expuestas durante una oleada o campaña publicitaria **al menos una vez dentro** de un período de tiempo específico. En otras palabras, la cobertura mide el alcance ( _reach_ ), es decir, cuántas personas tienen la oportunidad de ver, leer o escuchar el anuncio.
+> Número de personas expuestas durante un ciclo publicitario **al menos una vez**.
 
-Proponemos un ejemplo de estimación de la cobertura (o alcance):
+Proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alcance):
 
 **_Tu_ (hipotética campaña de ropa), una inserción por soporte**
 
@@ -1131,17 +1137,19 @@ Proponemos un ejemplo de estimación de la cobertura (o alcance):
 | 2. Restar duplicaciones                   | 65% - 5% - 3% - 2%       | 55%       |
 | 3. Añadir la triplicación (se restó tres veces) | 55% + 1% | 56%       |
 
-Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65% _bruto combinado_ inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar sobrestimar su impacto.
+Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65% _bruto combinado_ inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar estimar en exceso su impacto.
 
 #### Duplicación
 
-La duplicación ocurre cuando una misma persona se expone (o _tiene la oportunidad de ver_, OTS) más de una vez al anuncio durante una campaña publicitaria (en el mismo soporte o en distinto soporte). La audiencia duplicada se define pues como aquellas personas que están expuestas más de una vez a un anuncio en una campaña. 
+> La duplicación ocurre cuando una misma persona se expone (o _tiene la oportunidad de ver_, OTS) más de una vez al anuncio durante un ciclo publicitario (en el mismo soporte o en distinto soporte). 
 
-En la campaña anterior, se estimó una duplicación del 5% entre Instagram y Spotify, un 3% entre Instagram y carteles, y un 2% entre Spotify y carteles.
+En la campaña _Tu_, se estimó una duplicación del 5% entre Instagram y Spotify, un 3% entre Instagram y carteles, y un 2% entre Spotify y carteles.
 
 #### Frecuencia media
 
-Es el número promedio de veces que un individuo se expone durante una campaña publicitaria. La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (al menos una vez) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades _de ver el anuncio_ por persona de la cobertura.
+> Es el número promedio de veces que un individuo alcanzado se expone durante una campaña publicitaria. 
+
+La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (≥ 1 OTS) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades _de ver el anuncio_ por persona de la cobertura.
 
 La expresión matemática para el cálculo de la frecuencia media es la siguiente:
 
@@ -1149,11 +1157,11 @@ $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
 #### Distribución de contactos
 
-Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante la campaña publicitaria. Describe pues cómo se distribuyen las exposiciones entre la población (o la cobertura). La distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones, o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
+> Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante el ciclo publicitario. 
 
-Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva.
+Describe pues cómo se distribuyen las exposiciones entre la población (o la cobertura). Por ejemplo, la distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones, o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
 
-En la campaña de ropa _TU_, la distribución de contactos fue la siguiente:
+Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva. En la campaña de ropa _TU_, la distribución de contactos fue la siguiente:
 
 Exclus. 1 vez: 40.000 personas
 
@@ -1164,7 +1172,9 @@ Exclus. 3 veces: 30.000 personas
 
 #### Distribución de contactos acumulada
 
-Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, durante la campaña publicitaria. La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de su frecuencia media efectiva.
+> Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, durante la campaña publicitaria. 
+
+La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de su frecuencia media efectiva.
 
 En la campaña de ropa _TU_, la distribución de contactos acumulada fue la siguiente:
 
@@ -1205,7 +1215,7 @@ Aplicaciones Shiny:
 
 ***
 
-## Modelos de Estimación de Cobertura y Distribución
+## Estimación de Cobertura y Distribución
 
 ### Fundamentos y Consideraciones Iniciales
 
@@ -1308,7 +1318,7 @@ La comprensión de estos aspectos permite una elección informada que optimiza e
 
 ***
 
-## Modelos de estimación de la cobertura y distribución de exposición
+### Modelos de estimación de la cobertura y distribución de exposición
 
 ### Modelo de Sainsbury (`calc_sainsbury`)
 
@@ -1649,7 +1659,7 @@ print(resultado$data)
 
 ### Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
 
-Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (FEM) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio FEM o más veces.
+Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (MEF) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio MEF o más veces.
 
 #### Características principales:
 - Calcula parámetros óptimos alpha y beta
