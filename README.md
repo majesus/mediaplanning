@@ -63,7 +63,7 @@ A partir de estas consideraciones, un planificador de medios debe pues plantears
 
 **¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, comportamiento de compra, fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
 
-**¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([_cf._ inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
+**¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([_cf._ Inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
 
 **¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
@@ -71,7 +71,7 @@ A partir de estas consideraciones, un planificador de medios debe pues plantears
 
 Es fundamental que los objetivos de la campaña estén definidos de forma _SMART_, es decir, _specific, measurable, achiavable, realistic, time-bound_. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
 
-**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos globales de marketing ([_cf._ _Integrated Marketing Communications_](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC))
+**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos globales de marketing.
 
 **¿Qué se quiere lograr con la campaña publicitaria?** Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del producto o servicio (actitud), o incitar a la acción.
 
@@ -142,7 +142,7 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 
 **6. Consideraciones Adicionales**
 
-**¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar subordinada a una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
+**¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar subordinada a una estrategia de [_Integrated Marketing Communications_](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC)), coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
 
 **¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio?** El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
 
@@ -158,7 +158,7 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 #### BDI / CDI
 
-El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
+> El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
 - **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado. Un BDI de 100 significa que las ventas de la marca en ese mercado reflejan la población. Si el índice es inferior a 100, la marca no se consume o usa al nivel per cápita en términos relativos; si el BDI es superior a 100, el consumo es mayor que el nivel per cápita en términos relativos. 
 
@@ -182,23 +182,21 @@ El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de cat
 
 El análisis BDI/CDI se utiliza para identificar los mercados donde una marca tiene un buen rendimiento y dónde hay potencial de crecimiento. Se suele representar gráficamente en un gráfico de cuadrantes, donde cada cuadrante refleja una relación diferente entre la marca y la categoría:
 
-- Cuadrante I (Alto BDI, Alto CDI): Tanto la marca como la categoría son fuertes en este mercado. Esta es una buena área para defender.
+- Cuadrante A (Alto BDI, Alto CDI): Tanto la marca como la categoría son fuertes en este mercado. Esta es una buena área para defender.
 
-- Cuadrante II (Alto BDI, Bajo CDI): El BDI es mucho más fuerte que el CDI, lo que significa que el único crecimiento de la marca en este mercado estaría limitado al crecimiento de la categoría.
+- Cuadrante B (Alto BDI, Bajo CDI): El BDI es mucho más fuerte que el CDI, lo que significa que el único crecimiento de la marca en este mercado estaría limitado al crecimiento de la categoría.
 
-- Cuadrante III (Bajo BDI, Alto CDI): La categoría es más fuerte que la marca en este mercado. Esta es el área de oportunidad.
+- Cuadrante C (Bajo BDI, Alto CDI): La categoría es más fuerte que la marca en este mercado. Esta es el área de oportunidad.
 
-- Cuadrante IV (Bajo BDI, Bajo CDI): Tanto la marca como la categoría son débiles en este mercado. Esta es un área donde se evitaría invertir en publicidad.
-
-Además del gráfico de cuadrantes, se puede utilizar el **índice de oportunidad de marca (BOI)** para identificar mercados con potencial de crecimiento. El BOI se calcula dividiendo el CDI por el BDI. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
+- Cuadrante D (Bajo BDI, Bajo CDI): Tanto la marca como la categoría son débiles en este mercado. Esta es un área donde se evitaría invertir en publicidad.
 
 ![BDI/CDI](./img/grafico-bdi-cdi.svg)
 
+Se añade adicionalmente el **índice de oportunidad de marca (BOI)** para identificar mercados con potencial de crecimiento. El BOI se calcula dividiendo el CDI por el BDI. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
+
 **Factores adicionales**
 
-Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a considerar en la planificación geográfica. La distribución también juega un papel fundamental. Una marca puede tener un BDI bajo en un mercado debido a una distribución limitada. En estos casos, se recomienda realizar un análisis de ventas por punto de distribución para evaluar el rendimiento de la marca en los puntos donde está disponible.
-
-En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento y rentabilidad en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
+Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a considerar en la planificación geográfica. La distribución también juega un papel fundamental. Una marca puede tener un BDI bajo en un mercado debido a una distribución limitada. El BDI y el CDI son pues herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento y rentabilidad en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
 
 </details>
 
@@ -206,39 +204,41 @@ En resumen, el BDI y el CDI son herramientas valiosas para comprender el rendimi
 
 #### Coeficiente (índice) de afinidad
 
-El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con el resto de la población. Este índice es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
+> El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con la población considerada en su conjunto. 
 
-En particular, en el ámbito de la planificación de medios el coeficiente de afinidad proporciona información basada en datos que ayuda a seleccionar los canales de medios más relevantes para tu campaña. No se trata solo de llegar a una gran audiencia, sino de llegar a la audiencia adecuada. Esto asegura que el mensaje _resuene_ con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña.
+El coeficiente de afinidad es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
+
+En particular, en el ámbito de la planificación de medios el coeficiente de afinidad proporciona información basada en datos que también ayuda a seleccionar los canales de medios más relevantes (o afines) para una campaña. No se trata solo de llegar a una audiencia (bruta), sino de llegar a la audiencia adecuada (útil). Esto asegura que el mensaje _resuene_ con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña.
 
 **Cálculo del coeficiente (índice) de afinidad**
 
 | Paso | Descripción | Ejemplo |
 |------|-------------|----------|
-| 1 | Determinar el porcentaje del segmento o clase que usa/consume el producto | 20% de los adolescentes (segmento o clase) ven un programa específico de cocina |
-| 2 | Determinar el porcentaje de la población total que usa/consume el producto | 10% de la población total ve el mismo programa de cocina |
+| 1 | Determinar el porcentaje del segmento o clase que usa/consume el producto o servicio | 20% de los adolescentes ven un programa específico de cocina |
+| 2 | Determinar el porcentaje de la población total que usa/consume el producto os ervicio | 10% de la población ve el mismo programa de cocina |
 | 3 | Dividir el porcentaje del segmento o clase entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
 
 **Interpretación del resultado:**
 
-- Valores superiores a 100: Sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la media poblacional. Esto puede indicar que el producto es especialmente atractivo o relevante para ese grupo específico.
+- Valores superiores a 100: Sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la población. Es un indicador aproximado de que el producto es especialmente atractivo o relevante para ese grupo específico.
 
-- Valores inferiores a 100: Señalan una menor afinidad de la subpoblación respecto al producto, lo que podría sugerir que el producto tiene menos relevancia o penetración en ese grupo en particular.
+- Valores inferiores a 100: Señalan una menor afinidad del grupo objetivo respecto al producto.
 
 ***
 
 ### Métricas relativas a los soportes:
 
 **Audiencia o Audiencia Bruta**  
-Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil.
+Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil o la cobertura.
+
+**Índice de Utilidad**  
+Expresa el tanto por uno de la audiencia (bruta) de un soporte que corresponde a la población objetivo. Permite evaluar la eficacia del soporte en términos de su capacidad para alcanzar específicamente al público deseado.
 
 **Audiencia Útil**  
 Número de personas de la audiencia de un soporte que pertenece específicamente al público objetivo. Refina la audiencia bruta para centrar los esfuerzos de marketing en el público relevante o target para la campaña publicitaria.
 
-**Índice de Utilidad**  
-Expresa el tanto por uno de la audiencia de un soporte que corresponde a la población objetivo. Permite evaluar la eficacia del soporte en términos de su capacidad para alcanzar específicamente al público deseado.
-
 **Vehículo de Medios (Media Vehicle)**  
-Soporte específico dentro de un medio publicitario que transporta el mensaje al público objetivo. Características:
+Soporte específico dentro de un [medio publicitario](https://www.infoadex.es/wp-content/uploads/2024/01/Resumen-Estudio-InfoAdex-2023.pdf) que _transporta_ o difunde el mensaje al público objetivo. Características:
 
 - Es el canal específico de transmisión del mensaje
 - Puede ser un programa, una publicación, una web específica, etc.
@@ -253,57 +253,56 @@ Colocación física o digital de un anuncio en un soporte publicitario específi
 - No garantiza la exposición efectiva
 - Su efectividad depende de factores como ubicación, formato y contexto
 
-**OTS (Opportunity To See)**  
+**OTS ( _Opportunity To See_ )**  
 Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Características fundamentales:
 
 - En singular: representa una única oportunidad de contacto con el mensaje
 - En plural: equivale a la frecuencia de exposición
-- Representa una oportunidad de atención, no la atención efectiva
+- Representa una oportunidad de _atención_, no la atención efectiva
 - Es la unidad básica para medir la intensidad de una campaña
 
 ### Métricas de cobertura y frecuencia
 
 **Alcance o Cobertura (Reach)**  
-Número absoluto (o relativo) de individuos del público objetivo expuestos al menos una vez a un mensaje publicitario durante un ciclo específico. Características clave:
+Número absoluto (o relativo) de individuos expuestos al menos una vez (≥ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
 
-- Es uno de los tres parámetros básicos del plan de medios
+- Es uno de los tres parámetros básicos del plan de medios, junto con la frecuencia y la distribución de exposición
 - Se centra en individuos únicos, no en exposiciones acumuladas
 - Puede expresarse en términos absolutos o porcentuales
 - Es la base para el cálculo del alcance efectivo
 
 **Patrón de Alcance (Reach Pattern)**  
-Distribución de la continuidad individual sobre el público objetivo para alcanzar el alcance efectivo durante el período de planificación. Tipos principales:
+Distribución de la continuidad (estrategias de _continuity_, _flighting_ o _pulsing_) de ciclos publicitarios para alcanzar el alcance efectivo durante el período de planificación. Tipos principales:
 
-- Patrones para Nuevos Productos (4):
+- Patrones para Nuevos Productos:
 
   - Blitz Pattern (patrón blitz)
   - Wedge Pattern (patrón cuña)
   - Reverse-wedge/PI Pattern (patrón cuña inversa/PI)
   - Short Fad Pattern (patrón moda corta)
 
-- Patrones para Productos Establecidos (4):
+- Patrones para Productos Establecidos:
 
   - Regular Purchase Cycle Pattern (patrón de ciclo de compra regular)
-  - Awareness Pattern (patrón de conciencia)
-  - Shifting Reach Pattern (patrón de alcance cambiante)
-  - Seasonal Priming Pattern (patrón de preparación estacional)
+  - Awareness Pattern (patrón de conciencia o notoriedad)
+  - Shifting Reach Pattern (patrón de alcance cambiante o acumulado)
+  - Seasonal Priming Pattern (patrón estacional)
 
 **Frecuencia**  
-Número medio de exposiciones por individuo del público objetivo en un ciclo publicitario. Aspectos relevantes:
+Número medio de exposiciones por individuo en un ciclo publicitario. Aspectos relevantes:
 
 - Es un promedio de exposiciones por individuo alcanzado
 - Debe analizarse junto con su distribución de exposición (o contactos)
-- Es uno de los tres parámetros básicos del plan de medios junto con la cobertura y la distribución de exposición
 
 **Distribución de Exposición (o Contactos)**  
-Distribución de frecuencia de exposiciones en un ciclo publicitario, expresada como porcentajes del público objetivo. Incluye:
+Distribución de frecuencia de exposiciones en un ciclo publicitario. Incluye:
 
 - Porcentaje no alcanzado (0 exposiciones)
 - Porcentaje con exclusivamente 1 exposición
 - Porcentaje con exclusivamente 2 exposiciones
-- Y así sucesivamente
+- ...
 
-También se calcula la distribución de exposiciòn acumulada, es decir, al menos i exposiciones por persona de la población (o cobertura)
+También se calcula la distribución de exposiciòn acumulada, es decir, al menos i exposiciones.
 
 **Rating Point (RP)**  
 Representa el 1% de la población alcanzada en caso de realizar una inserción en el soporte publicitario. Características:
@@ -313,7 +312,7 @@ Representa el 1% de la población alcanzada en caso de realizar una inserción e
 - Base para el cálculo de GRPs
 
 **GRPs (Gross Rating Points)**  
-- Es una estimación del total de oportunidades de exposición promedio por cada 100 individuos de la población (o target). Características principales:
+- Es una estimación del total de oportunidades de exposición promedio por cada 100 individuos de la población (o target). Características:
 
 - 1 GRP significa que el plan de medios y soportes alcanza al 1% del público (o target)
 - Se calcula también multiplicando la cobertura en % por la frecuencia media
@@ -334,7 +333,7 @@ Representa el coste de alcanzar a una persona de la audiencia útil. Caracterís
 - Considera específicamente el público objetivo
 
 **CPERP (Coste Por Punto de Alcance Efectivo)**  
-Coste por porcentaje de alcance efectivo.
+Coste por punto de alcance efectivo.
 
 **SOV (Share of Voice)**  
 Representa la cuota de voz o presencia publicitaria de una marca en comparación con sus competidores. Características:
@@ -350,7 +349,17 @@ Representa la cuota de voz o presencia publicitaria de una marca en comparación
 Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
 
 - Una exposición continua durante todo el período
-- Ciclos discontinuos con duraciones variables ( _flighting o pulsing_ )
+- Ciclos discontinuos con duraciones variables u oleadas ( _flighting o pulsing_ ).
+
+En particular, en lugar de mantener una presión publicitaria constante durante todo el ciclo, el _flighting o pulsing_ se basa en la idea de concentrar la inversión en momentos estratégicos, aprovechando el _carryover publicitario_, que es la persistencia del efecto de la publicidad después de que la exposición ha cesado. Ejemplos:
+- _Regular Purchase Cycle_: Este patrón se utiliza para productos con ciclos de compra regulares, como alimentos o productos de higiene personal. La publicidad se concentra en períodos que coinciden con los momentos de compra, con intervalos de pausa entre cada oleada.
+- _Awareness_: Se usa para productos con ciclos de compra largos, como bienes inmobiliarios o automóviles. La publicidad se implementa en ciclos espaciados, con una baja frecuencia por ciclo, pero manteniendo una continuidad anual para reforzar la presencia de marca.
+
+Las ventajas de usar oleadas en un ciclo publicitario:
+
+- Optimización del presupuesto: Permite concentrar la inversión en momentos de mayor impacto, evitando el desperdicio en períodos de menor receptividad.
+- Aprovechamiento del carryover: Se maximiza el efecto de la publicidad, ya que el impacto de las oleadas anteriores se mantiene durante los períodos de pausa.
+- Mayor flexibilidad: Permite adaptar la estrategia a las fluctuaciones del mercado, la estacionalidad o la actividad de la competencia.
 
 **Ciclo de Compra (Purchase Cycle)**  
 Intervalo medio de tiempo entre compras sucesivas en una categoría de producto o servicio. También conocido como:
@@ -377,13 +386,6 @@ Número de exposiciones, en un ciclo publicitario, necesario para maximizar la d
 - MEF (Minimum Effective Frequency): nivel mínimo necesario
 - MaxEF (Maximum Effective Frequency): nivel máximo antes de generar desgaste
 
-**Alcance Efectivo**  
-Número de individuos del público objetivo alcanzados al nivel de frecuencia efectiva (MEF o superior) en un ciclo publicitario. Características:
-
-- Combina alcance y frecuencia efectiva
-- Se define dentro del rango [MEF-MaxEF]
-- Es un parámetro clave para evaluar planes de medios
-
 **Carryover Publicitario (Advertising Carryover)**  
 Persistencia de la disposición de compra generada por las exposiciones publicitarias. Aspectos clave:
 
@@ -393,8 +395,15 @@ Persistencia de la disposición de compra generada por las exposiciones publicit
 - Afecta directamente al alcance efectivo activo
 - Es más significativo cuando hay continuidad en la comunicación
 
+**Alcance Efectivo**  
+Número de individuos del público objetivo alcanzados al nivel de MEF o superior en un ciclo publicitario. Características:
+
+- Combina alcance y frecuencia efectiva
+- Se define dentro del rango MEF <-> MaxEF
+- Es un parámetro clave para evaluar planes de medios
+
 **Alcance Efectivo Activo**  
-Número de individuos del público objetivo que mantienen al menos el nivel de frecuencia efectiva mínima (MEF) después del ciclo publicitario. Características:
+Alcance efectivo después del ciclo publicitario. Características:
 
 - Mide la persistencia del efecto publicitario
 - Considera el fenómeno de _carryover_
@@ -402,7 +411,7 @@ Número de individuos del público objetivo que mantienen al menos el nivel de f
 - Depende de la tasa de decaimiento ( _decay_ ) de los efectos publicitarios
 
 **Dominancia**  
-Estrategia donde la frecuencia MEF/c se establece deliberadamente por encima de la competencia principal (LC + 1). Características:
+Estrategia en que la frecuencia MEF se establece deliberadamente por encima de la competencia principal (LC + 1). Características:
 
 - Busca establecer presencia superior
 - Es especialmente relevante en momentos críticos del mercado
