@@ -461,7 +461,9 @@ head(resultado)
 
 #### Cobertura efectiva
 
-Se refiere al porcentaje o número absoluto de individuos del público objetivo que deben estar expuestos al mensaje publicitario con una frecuencia igual o superior a la frecuencia efectiva mínima. El objetivo es lograr que la disposición hacia la compra supere un determinado nivel crítico, considerando tres elementos fundamentales que no necesariamente deben darse en este orden:
+> Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF). 
+
+El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra supere un determinado nivel crítico, y considera para ello tres elementos clave:
 
 - Brand awareness (notoriedad de marca, memoria)
 - Brand attitude (asociación entre una marca y su uso y un valor, actitud hacia la marca)
@@ -469,18 +471,15 @@ Se refiere al porcentaje o número absoluto de individuos del público objetivo 
 
 #### Frecuencia efectiva
 
-Es el número de veces ( _oportunidades de ver_ ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre **disponer al individuo hacia la compra de la marca**. 
+> Se refiere al número de veces ( _oportunidades de ver_ ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. 
 
-La frecuencia efectiva se define en el contexto de dos conceptos principales, a saber, Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF).
+La frecuencia efectiva se define en el contexto de dos conceptos principales, a saber, **Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF)**.
 
 #### Frecuencia Efectiva Mínima (MEF)
 
-Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activará el comportamiento deseado.
+> Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activa el comportamiento deseado. Por debajo del valor MEF la publicidad no será efectiva, es decir, _no habrá merecido la pena_.
 
-* Representa el umbral mínimo necesario para generar una disposición de compra al menor costo
-* Se busca encontrar este nivel porque por debajo de él la publicidad no será efectiva para generar la acción deseada
-
-Este umbral varía según el tipo de publicidad:
+El vaklor MEF varía según el tipo de publicidad:
 
 1. _Low risk/informacional_: Para productos/servicios de bajo riesgo donde el mensaje es principalmente informativo. Por ejemplo, productos de conveniencia o compra frecuente como detergentes o productos de limpieza, donde la comunicación se centra en características funcionales y beneficios directos del producto.
 
@@ -490,19 +489,22 @@ Este umbral varía según el tipo de publicidad:
 
 4. _High risk/transformacional_: Para productos/servicios de alto riesgo donde el mensaje busca transformar percepciones/actitudes. Por ejemplo, automóviles de lujo o joyería de alta gama, donde la comunicación busca crear una conexión emocional y transformar la percepción de estatus o estilo de vida del consumidor.
 
-La determinación precisa de estos parámetros es fundamental para:
-
-- Optimizar la inversión publicitaria
-- Lograr los objetivos de comunicación de forma eficiente
-- Evitar tanto la infraexposición (por debajo del umbral) como la sobreexposición (que puede generar desgaste publicitario)
-
 #### Frecuencia Efectiva Máxima (MaxEF)
 
-La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo:
+> La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo.
+
+En este sentido, el valor MaxEF debe ser estimado en tanto que:
 
   * Las exposiciones adicionales pueden ser un _desperdicio_ de presupuesto
   * En algunos casos puede haber un efecto negativo (desgaste publicitario o _wearout_)
   * La disposición de compra se vuelve una línea horizontal o incluso puede decrecer
+
+En particular, el planificador de medios y soportes debe tener presente la probable generación del desgaste publicitario:
+
+- **Wear-in**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor recuerdo, una mejor comprensión del mensaje y una actitud más favorable hacia la marca.
+- **Wear-out*: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar una actitud negativa hacia la marca.
+
+En suma, la clave para una planificación de medios exitosa es encontrar el punto óptimo de frecuencia, es decir, el número de exposiciones que maximiza la efectividad del anuncio sin llegar al punto de saturación y generar "wear-out".
 
 ***
 
