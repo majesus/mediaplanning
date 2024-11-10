@@ -491,7 +491,9 @@ El valor MEF varía según el tipo de publicidad:
 
 #### B.2. Frecuencia Efectiva Máxima (MaxEF)
 
-> La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo.
+> La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo. El valor MaxEF se alcanza cuando las exposiciones adicionales ya no aumentan la probabilidad de compra.
+
+![FE_Ostrow_1982](./img/img_MEF_MaxEF.png)
 
 En este sentido, el valor MaxEF debe ser estimado en tanto que:
 
@@ -501,8 +503,8 @@ En este sentido, el valor MaxEF debe ser estimado en tanto que:
 
 En particular, el planificador de medios y soportes debe tener presente la probable generación del desgaste publicitario:
 
-- **Wear-in**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor recuerdo, una mejor comprensión del mensaje y una actitud más favorable hacia la marca.
-- **Wear-out*: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar una actitud negativa hacia la marca.
+- **_Wear-in_**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor recuerdo, una mejor comprensión del mensaje y una actitud más favorable hacia la marca.
+- **_Wear-out_**: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar una actitud negativa hacia la marca.
 
 En suma, la clave para una planificación de medios exitosa es encontrar el punto óptimo de frecuencia, es decir, el número de exposiciones que maximiza la efectividad del anuncio sin llegar al punto de saturación y generar "wear-out".
 
@@ -522,43 +524,50 @@ $$
 \begin{aligned}
 \text{VA} & = \text{Vehicle Attention (Atención al medio)} \\
 \text{TA} & = \text{Target Audience (Audiencia objetivo)} \\
-\text{BA} & = \text{Brand Awareness} \\
-\text{BATT} & = \text{Brand Attitude} \\
+\text{BA} & = \text{Brand Awareness (Notoriedad de marca, memoria)} \\
+\text{BATT} & = \text{Brand Attitude (Actitud hacia la marca, y su uso)} \\
 \text{PI} & = \text{Personal Influence (Influencia personal)}
 \end{aligned}
 $$
 
 ![FE_Ostrow_1982](./img/img_FEM_table.png)
 
-NOta: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
+Nota: _Las imágenes han sido tomadas de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
+
+<details>
+<summary>Haz clic para mayor desarrollo</summary>
 
 ***
 
-Los factores que determinan el nivel de la MEF son:
+### Componentes de la Fórmula de Frecuencia Efectiva (MEF/c = 1 + VA × (TA + BA + BATT + PI))
 
-1. **Atención al vehículo publicitario**:
+#### Atención al Vehículo (VA - Vehicle Attention)
 
-  - Medios de alta atención (TV prime time, revistas principales)
-  - Medios de baja atención (otros horarios TV, radio)
+La atención al vehículo representa el nivel de atención que el miembro típico de la audiencia presta a diferentes tipos de medios y vehículos mediáticos. Este componente actúa como una restricción en la exposición, ya que establece límites en la oportunidad de que el anuncio logre la atención deseada. Numerosos estudios han evaluado la atención a varios tipos de medios y vehículos utilizando métodos observacionales o medidas de autoinforme. La conclusión principal de estos estudios indica que los medios se pueden clasificar en dos categorías principales: vehículos de alta atención y vehículos de baja atención. Para los vehículos de alta atención, como la televisión en horario estelar y los periódicos de lectura primaria, se ha demostrado que pueden lograr una ponderación de frecuencia razonablemente precisa dividiendo los vehículos mediáticos en estas dos clases.
 
-2. **Tipo de audiencia objetivo**:
+#### Audiencia Objetivo (TA - Target Audience)
 
-  - Leales a la marca 
-  - Switchers de marca
-  - Usuarios de otras marcas
-  - Nuevos usuarios de categoría
+La audiencia objetivo se refiere a la necesidad de aprendizaje que diferentes audiencias tienen sobre la marca en comparación con otras. Los leales a la marca tienen poco o nada extra que aprender, por lo que no se necesitan exposiciones adicionales para este grupo. Los cambiantes de marca favorables requieren al menos 2 exposiciones en el ciclo publicitario antes de cambiar, según estudios basados en ciclos publicitarios de 2 semanas. Los cambiantes de otras marcas y los leales a otras marcas necesitan más exposiciones, asumiendo que se ha encontrado una estrategia de mensaje que promete ser efectiva con estas audiencias típicamente más negativas.
 
-3. **Objetivos de comunicación**:
+#### Conciencia de Marca (BA - Brand Awareness)
 
-  - Reconocimiento 
-  - Recuerdo  
-  - Estrategia de marca informativa 
-  - Estrategia de marca transformativa 
+La conciencia de marca es un factor fundamental que afecta la frecuencia efectiva en el plan de medios. Si el objetivo es el reconocimiento de marca, no se necesitará frecuencia adicional y no se agregan exposiciones extra. Sin embargo, si el objetivo es el recuerdo de marca, la frecuencia necesaria será relativamente alta, con énfasis en la "recencia". Es prácticamente imposible hacer que la frecuencia para el recuerdo de marca sea demasiado alta, según estudios de Singh y Rothschild, y Schultz y Block. El máximo nivel teórico de recuerdo de marca sería que toda la audiencia objetivo recordara la marca primero, algo que sucede solo para unas pocas marcas muy publicitadas.
 
-4. **Influencia personal**:
+#### Actitud hacia la Marca (BATT - Brand Attitude)
 
-- Alta (reduce la frecuencia necesaria)
-- Baja (requiere mayor frecuencia publicitaria)
+La estrategia de actitud hacia la marca es el otro factor de comunicación que afecta la frecuencia efectiva en el plan de medios. El componente de motivación de compra de la actitud de marca debe ser efectivo dentro de las primeras 1 o 2 exposiciones: la marca se percibe inmediatamente como solucionadora de problemas o como irrelevante. Para la publicidad informativa, no se recomienda ajuste. Una estrategia de actitud de marca transformacional, por el contrario, requiere una repetición intensa para la construcción y el refuerzo de la imagen o actitud de marca. La recomendación es ajustar LC+1 para la publicidad transformacional. Las campañas de reconocimiento/actitud informativa de marca no requieren exposiciones adicionales, mientras que una campaña de recuerdo/actitud transformacional de marca requeriría +4 o LC+2 exposiciones, observando que solo se agregan los +1 cuando se agrega LC+1. Los restaurantes de comida rápida y los establecimientos de alimentos serían dos ejemplos de categorías que normalmente utilizan campañas de recuerdo/actitud transformacional de marca, y las nuevas categorías se encuentran entre los anunciantes más frecuentes del país.
+
+#### Influencia Personal (PI - Personal Influence)
+
+La influencia personal representa el componente social en la difusión de los mensajes publicitarios. Orga (1960) propuso que la difusión social sirve como sustituto de parte del total de publicidad que de otro modo sería necesaria. Introdujo el concepto de coeficiente de contacto, basado en el número promedio de otras personas que hablan sobre el anuncio con el individuo promedio expuesto a él. A partir de la síntesis de los estudios disponibles sobre influencia interpersonal, se estima que un coeficiente de contacto de al menos 0,25 es necesario para reducir efectivamente la estimación de frecuencia en 1 exposición. Esto significa que por cada 4 personas alcanzadas por la publicidad, al menos 1 persona contacta con al menos 1 otra durante el ciclo publicitario. La influencia personal es efectiva porque el contacto boca a boca parece ser aproximadamente dos veces más efectivo que una exposición publicitaria, y puede funcionar para cualquier tipo de producto en cualquier etapa del ciclo de vida. Incluso una campaña publicitaria nueva, aunque sea para una marca establecida, puede desencadenar el boca a boca. Para coeficientes de contacto personal menores a 0,25, no se realiza ajuste en la fórmula.
+
+</details>
+
+Es importante tener presente que:
+
+- En el caso de ser líder, LC + 1 es igual a 2 en cada caso.
+- En situaciones donde el Competidor Más Grande (LC) aparece en un vehículo de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF: el valor del vehículo de atención debe corregirse de VA = 2 a VA = 1. Esta corrección es necesaria para evitar una "doble duplicación" en el cálculo, ya que se asume que el competidor dominante ya ha duplicado su frecuencia para compensar la naturaleza del vehículo de baja atención, haciendo redundante mantener el valor original de VA = 2 en la fórmula.
+- El valor del Competidor Más Grande (LC) se utiliza como base única en la fórmula y se ajusta posteriormente según los requerimientos de comunicación. Es importante destacar que el valor LC se incorpora solo una vez y no se duplica con cada ajuste. Por ejemplo, si una campaña requiere tanto recordación de marca como actitud transformacional, la fórmula sumará LC + 1 + 1, y no (LC+1) + (LC+1). Esta distinción es crucial para evitar una sobrestimación del efecto del competidor principal.
 
 ***
 
