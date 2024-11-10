@@ -231,6 +231,12 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 **Audiencia o Audiencia Bruta**  
 Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil o la cobertura.
 
+**Perfil de audiencia**
+El perfil de audiencia se refiere a la caracterización detallada de la audiencia de un medio o soporte publicitario. Esta caracterización va más allá de simples datos demográficos (edad, sexo, ubicación) e incluye, por ejemplo:
+- Hábitos de consumo de medios: Con qué frecuencia e intensidad consumen determinados medios (TV, radio, prensa, etc.).
+- Intereses y Estilo de vida: Qué tipo de contenido les atrae, sus aficiones, valores y actividades.
+- Nivel socioeconómico: Nivel de ingresos, educación, ocupación.
+
 **Índice de Utilidad**  
 Expresa el tanto por uno de la audiencia (bruta) de un soporte que corresponde a la población objetivo. Permite evaluar la eficacia del soporte en términos de su capacidad para alcanzar específicamente al público deseado.
 
@@ -567,6 +573,22 @@ La estrategia de actitud hacia la marca es el otro factor de comunicación que a
 #### Influencia Personal (PI - Personal Influence)
 
 La influencia personal representa el componente social en la difusión de los mensajes publicitarios. Orga (1960) propuso que la difusión social sirve como sustituto de parte del total de publicidad que de otro modo sería necesaria. Introdujo el concepto de coeficiente de contacto, basado en el número promedio de otras personas que hablan sobre el anuncio con el individuo promedio expuesto a él. A partir de la síntesis de los estudios disponibles sobre influencia interpersonal, se estima que un coeficiente de contacto de al menos 0,25 es necesario para reducir efectivamente la estimación de frecuencia en 1 exposición. Esto significa que por cada 4 personas alcanzadas por la publicidad, al menos 1 persona contacta con al menos 1 otra durante el ciclo publicitario. La influencia personal es efectiva porque el contacto boca a boca parece ser aproximadamente dos veces más efectivo que una exposición publicitaria, y puede funcionar para cualquier tipo de producto en cualquier etapa del ciclo de vida. Incluso una campaña publicitaria nueva, aunque sea para una marca establecida, puede desencadenar el boca a boca. Para coeficientes de contacto personal menores a 0,25, no se realiza ajuste en la fórmula.
+
+***
+
+#### Casos Prácticos de Cálculo de Frecuencia Efectiva Mínima (MEF)
+
+**Lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales**
+
+La empresa láctea NutriHealth se enfrenta al desafiante lanzamiento de VitaBiome+, un nuevo yogur probiótico premium, en un mercado altamente competitivo valorado en $2.500 millones anuales y con un crecimiento sostenido del 12%. El mercado actual está dominado por Activia, con un 45% de participación, seguido por Yakult con un 25%, mientras que el 30% restante está fragmentado entre diversos competidores menores. Esta estructura de mercado es crucial para nuestro cálculo del MEF, ya que Activia, como líder indiscutible, se convierte en nuestro "Largest Competitor" (LC).
+
+VitaBiome+ representa una innovación significativa en el segmento premium, respaldada por una cepa probiótica patentada y un contenido proteico 30% superior a la competencia. El producto se comercializará a $4.99 por unidad, posicionándose un 80% por encima del precio promedio del mercado. La distribución se realizará exclusivamente a través de cadenas premium y tiendas especializadas, apuntando a un consumidor educado y con alto poder adquisitivo.
+
+Los objetivos de marketing establecen alcanzar un 5% de participación de mercado en los primeros seis meses. Dado que competimos contra un líder establecido (Activia), necesitamos enfocarnos en brand recall más que en simple reconocimiento, ya que debemos superar la frecuencia del competidor líder para asegurar que nuestra marca sea recordada en el momento de la decisión de compra.
+
+La estrategia de medios se concentra principalmente en revistas de salud y bienestar, que recibirán el 60% del presupuesto total de $2.5 millones. Los suplementos dominicales recibirán un 25% del presupuesto, mientras que el 15% restante se destinará a revistas médicas profesionales. La campaña empleará principalmente formatos de páginas dobles a color, ys e extenderá durante los meses de duración del ciclo publicitario.
+
+Calcula el valor MEF: ______________ impactos / persona
 
 </details>
 
