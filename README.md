@@ -36,7 +36,7 @@ Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de 
 
 ***
 
-## Planificación de medios
+## :red_circle:Planificación de medios
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo de una marca (o target) de manera eficaz y eficiente**. 
 
@@ -582,8 +582,6 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 ### Estrategias de cobertura y distribución de exposición
 
 Los patrones de alcance constituyen el fundamento de la planificación estratégica en medios publicitarios. Se dividen en dos grandes categorías según la etapa del producto en el mercado: patrones para productos nuevos y patrones para productos establecidos. Cada patrón responde a necesidades específicas de comunicación y objetivos de marketing.
-
-_Las imágenes han sido tomadas de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
 
 #### Patrones para marcas nuevas
 
