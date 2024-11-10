@@ -9,7 +9,9 @@ Autor: Manuel J. Sánchez Franco
 
 ## Descripción General
 
-**mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia. El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios tradicinales.
+> **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia. 
+
+El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios tradicinales.
 
 ## Instalación
 
@@ -36,40 +38,40 @@ Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de 
 
 ## Planificación de medios
 
-> La planificación de medios es el proceso de encontrar la **combinación adecuada de medios publicitarios para llegar a la población objetivo de una marca de manera efectiva y eficiente**. 
+> La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo de una marca (o target) de manera eficaz y eficiente**. 
 
-La planificación de medios no busca alcanzar a la mayor cantidad de personas, sino de conectar con aquellas **_en el momento y lugar precisos_**. Este proceso busca que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (ROI, ROAS _Return On Ad Spend_).
+Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca _conectar_ con aquellas **_en el momento y lugar precisos_**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (por ejemplo, ROAS o _Return On Ad Spend_).
 
-Para el logro de los objetivos es preciso reflexionar en torno a cinco bloques clave. Véase la siguiente tabla.
+Para el logro de los objetivos y el retorno de la inversión se debe reflexionar en torno a cinco bloques clave. Véase la siguiente tabla.
 
 | Componente | Descripción Detallada (ejemplos) |
 |------------|---------------------|
-| Público Objetivo | **Base fundamental del plan de medios** <br>- Análisis demográfico: edad, género, ubicación, nivel de ingresos<br>- Psicografía: valores, intereses, estilo de vida<br>- Hábitos de consumo de medios<br>- Comportamiento de compra<br><br>*Ejemplo*: Una marca de fitness que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
-| Objetivos | **Metas claramente definidas y medibles**<br>- Awareness: aumentar reconocimiento de marca<br>- Actitud: mejorar la valoración del uso de la marca<br>- Predisposición a la compra: aumentar la intención de compra<br><br>*Ejemplo*: Si el objetivo es brand awareness, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
-| Presupuesto | **Planificación financiera estratégica**<br>- Evaluación de costos por canal<br>- ROI / ROAS esperado por medio<br>- Distribución eficiente de recursos<br>- Escalabilidad del presupuesto<br><br> - Consideraciones:<br>  * TV: alto costo, gran alcance<br>  * Digital: más asequible, mejor segmentación<br>  * Medios impresos: costos variables según alcance<br>  * Exterior: costos fijos con exposición prolongada |
-| Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>  * Cine<br><br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br><br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * Transit advertising<br><br>**Métricas**: <br>  * Alcance<br>  * Frecuencia<br>  * Afinidad con target<br>  * Coste por impacto<br>  * Capacidad de segmentación |
-| Programación | **Planificación temporal**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos de consumo del target<br>  * Actividad competitiva<br>  * Eventos relevantes del mercado<br><br>- Consideraciones tácticas:<br>  * Momentos de mayor demanda<br>  * Períodos de compra<br>  * Eventos especiales<br>  * Fechas comerciales clave<br>  * Horarios de mayor consumo mediático del target |
+| Público Objetivo | **Base del plan de medios** <br>- Análisis demográfico: edad, género, ubicación, nivel de ingresos<br>- Psicografía: valores, intereses, estilo de vida<br>- Hábitos de consumo de medios<br>- Comportamiento de compra<br>- ...<br><br>*Ejemplo*: Una marca de fitness que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
+| Objetivos | **Metas claramente definidas y medibles**<br>- Notoriedad (memoria): aumentar, por ejemplo, el reconocimiento de marca<br>- Actitud: mejorar la valoración del uso de la marca<br>- Predisposición a la compra: aumentar la intención de compra<br><br>*Ejemplo*: Si el objetivo es _brand awareness_, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
+| Presupuesto | **Planificación financiera estratégica**<br>- Evaluación de costes por soporte o plan<br>- ROI / ROAS esperado por soporte o plan<br>- Distribución eficiente de recursos<br>- Escalabilidad del presupuesto<br><br> - Consideraciones:<br>  * TV: alto coste, gran alcance<br>  * Digital: más asequible, mejor segmentación<br>  * Medios impresos: costes variables según alcance<br>  * Exterior: costes fijos con exposición prolongada |
+| Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>  * Cine<br><br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br><br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * _Transit advertising_<br><br>**Métricas**: <br>  * Alcance<br>  * Frecuencia<br>  * Afinidad con target<br>  * Coste por impacto<br>  * Capacidad de segmentación |
+| Programación | **Planificación temporal**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos/timing de consumo del target<br>  * Actividad de la competencia<br><br>- Consideraciones tácticas:<br>  * Momentos de mayor demanda<br>  * Períodos de compra<br>  * Eventos especiales<br>  * Fechas comerciales clave<br>  * Horarios de mayor consumo de medios del target |
 
 
 ***
 
-En este contexto, un planificador de medios debe pues abordar una serie de preguntas clave para garantizar el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
+A partir de estas consideraciones, un planificador de medios debe pues plantearse un conjunto de preguntas clave para promover el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
 
 **1. Conocimiento del Mercado y de la Audiencia**
 
-**¿Cuál es el tamaño del mercado y la demanda del producto?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño actual y futuro del mercado, la segmentación, las cuotas de mercado y las tendencias de la demanda.
+**¿Cuál es el tamaño del mercado y la demanda del producto?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño del mercado, la segmentación, las cuotas de mercado y las tendencias de la demanda.
 
-**¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, comportamiento de compra, fuentes de información y las influencias personales o familiares que recibe.
+**¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, comportamiento de compra, fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
 
-**¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como digitales.
+**¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([cf. inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
 
-**¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades publicitarias resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
+**¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
 **2. Objetivos y Estrategia de la Campaña**
 
-Es fundamental que los objetivos de la campaña estén definidos de forma SMART, es decir, _específicos, medibles, alcanzables, relevantes y temporales_. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
+Es fundamental que los objetivos de la campaña estén definidos de forma _SMART_, es decir, _specific, measurable, achiavable, realistic, time-bound_. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
 
-**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) con los objetivos globales de marketing y otros  objetivos de comunicación de la marca.
+**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos globales de marketing [cf. _Integrated Marketing Communications_](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC)
 
 **¿Qué se quiere lograr con la campaña publicitaria?** Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del producto o servicio (actitud), o incitar a la acción.
 
