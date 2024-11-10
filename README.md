@@ -602,6 +602,8 @@ La ejecución efectiva del patrón Blitz requiere una planificación meticulosa 
 
 La estrategia de medios debe fundamentarse en vehículos masivos de alta cobertura, complementados estratégicamente con medios de alta afinidad. Un aspecto crucial es la eliminación total de períodos de hiatus: la presión publicitaria debe mantenerse constante, con GRPs (Gross Rating Points) semanales estables y elevados, asegurando una distribución homogénea de impactos a lo largo de toda la campaña.
 
+![FE_Ostrow_1982](./img/img_blitz_pattern.png)
+
 **Aplicaciones y Contextos Óptimos**
 
 Este patrón resulta especialmente efectivo para el lanzamiento de productos tecnológicos de nueva generación, como smartphones innovadores o plataformas digitales disruptivas. También demuestra gran efectividad en el lanzamiento de nuevas cadenas de retail o servicios que pretenden redefinir una categoría de mercado. La clave del éxito reside en la capacidad de mantener una presencia dominante y consistente que permita establecer la marca como referente indiscutible de la categoría.
@@ -632,6 +634,8 @@ El desarrollo del Wedge Pattern se estructura típicamente en tres fases princip
 
 La planificación de medios evoluciona con cada fase. Por ejemplo, se podría comenzar con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que priorice los medios más eficientes en términos de costo-beneficio. Esta evolución debe mantener la cobertura neta mientras se ajusta la frecuencia de manera estratégica.
 
+![FE_Ostrow_1982](./img/img_wedge_pattern.png)
+
 **Categorías y Aplicaciones**
 
 Este patrón resulta especialmente efectivo para diversos tipos de productos y servicios, incluyendo:
@@ -661,7 +665,7 @@ El Wedge Pattern representa una aproximación sofisticada y eficiente a la intro
 
 El Reverse-Wedge Pattern, también conocido como PI (Personal Influence) Pattern, representa una estrategia de planificación de medios que capitaliza el poder de la influencia personal como catalizador para la adopción de productos o servicios. A diferencia del Wedge tradicional, este patrón comienza con un alcance limitado que se expande progresivamente, aprovechando el efecto multiplicador de la influencia social y la comunicación entre pares.
 
-## Estrategia y Principios
+**Estrategia y Principios**
 
 La esencia del Reverse-Wedge/PI radica en su comprensión sofisticada de cómo se difunden las innovaciones en el mercado. El patrón reconoce que, para ciertos productos y servicios, la adopción exitosa depende más de la influencia personal y la validación social que de la simple exposición publicitaria masiva. La estrategia construye deliberadamente una base de early adopters e influenciadores que, a su vez, facilitarán la expansión hacia el mercado masivo.
 
@@ -672,6 +676,8 @@ El desarrollo del patrón se estructura en tres fases claramente diferenciadas, 
 1. La primera fase se centra en los innovadores y early adopters, utilizando medios altamente segmentados y especializados. Por ejemplo, en el caso de una nueva tecnología empresarial, esta fase podría enfocarse en líderes de opinión del sector a través de medios profesionales específicos y eventos exclusivos.
 2. La segunda fase expande el alcance hacia la early majority, incorporando gradualmente medios más amplios mientras mantiene la credibilidad construida en la primera fase. En esta etapa, por ejemplo, la comunicación podría expandirse a publicaciones sectoriales más generales y plataformas digitales con mayor alcance, pero manteniendo un enfoque profesional.
 3. La tercera fase amplía la comunicación hacia el mercado masivo, aprovechando el momentum generado por las fases anteriores. En este punto, la estrategia puede incorporar medios masivos tradicionales, pero siempre manteniendo la coherencia con el mensaje y la credibilidad establecida inicialmente.
+
+![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png)
 
 **Aplicaciones Óptimas**
 
@@ -719,6 +725,8 @@ La ejecución del Short Fad Pattern se estructura típicamente en tres fases com
 - La fase de introducción intensiva debe generar un conocimiento explosivo del producto. Por ejemplo, se podría buscar alcanzar al 80% del público objetivo en las primeras dos semanas de campaña, con una frecuencia de exposición significativamente alta, que podría situarse en torno a las 15-20 exposiciones semanales, aunque estos números pueden ajustarse según los objetivos específicos y el mercado.
 - La fase de crecimiento acelerado debe mantener la presión publicitaria mientras facilita la conversión rápida. Durante este período, la estrategia debe equilibrar el mantenimiento del awareness con mensajes más orientados a la acción y la compra inmediata.
 - La fase de capitalización rápida busca maximizar las ventas antes de que el interés decline. Esta fase es crucial para extraer el máximo valor del período de relevancia del producto.
+
+![FE_Ostrow_1982](./img/img_short_fad_pattern.png)
 
 **Aplicaciones Óptimas**
 
@@ -781,6 +789,8 @@ La planificación debe considerar tres elementos fundamentales:
 2. Segundo, la intensidad de la comunicación debe adaptarse al proceso de decisión de compra. Los productos de baja implicación pueden requerir menos frecuencia que aquellos que involucran decisiones más complejas.
 3. Tercero, la continuidad de la comunicación debe mantener un equilibrio entre la necesidad de estar presente en el momento crítico y la eficiencia en la inversión publicitaria.
 
+![FE_Ostrow_1982](./img/img_regular_pattern.png)
+
 **Consideraciones Tácticas**
 
 La selección de medios debe priorizar aquellos que mejor se adapten al ciclo de compra identificado. Por ejemplo, para productos de compra frecuente, los medios digitales y punto de venta pueden ser especialmente relevantes por su capacidad de activación inmediata, mientras que los medios masivos tradicionales pueden cumplir un rol de mantenimiento de awareness.
@@ -835,6 +845,8 @@ La frecuencia por ciclo puede ser relativamente baja. Por ejemplo, se podría bu
 Los intervalos entre ciclos deben ser lo suficientemente cortos para mantener la continuidad en la mente del consumidor. Por ejemplo, en lugar de concentrar toda la inversión en un mes, podría distribuirse en exposiciones regulares a lo largo del año.
 
 La comunicación debe combinar elementos de construcción de marca con mecanismos de respuesta directa. Esta dualidad permite mantener la presencia de marca mientras se facilita la acción cuando el consumidor está listo para avanzar en su proceso de decisión.
+
+![FE_Ostrow_1982](./img/img_awareness_pattern.png)
 
 **Integración de Respuesta Directa**
 
@@ -906,6 +918,8 @@ La premisa fundamental del Shifting Reach Pattern se basa en la idea de que, par
 La ejecución del Shifting Reach Pattern se estructura típicamente en ciclos publicitarios secuenciales y bien definidos. Por ejemplo, se podría implementar una estrategia de ocho ciclos donde cada uno se enfoca en un segmento específico del mercado:
 
 El primer ciclo podría concentrarse en programación matutina de televisión para alcanzar un segmento específico. El segundo ciclo podría trasladarse a series nocturnas para captar otra audiencia. El tercer ciclo podría enfocarse en prime time, y así sucesivamente. Esta rotación de medios y horarios permite maximizar la eficiencia al dirigir el mensaje al momento y contexto más relevante para cada segmento.
+
+![FE_Ostrow_1982](./img/img_shifting_pattern.png)
 
 **Consideraciones Tácticas**
 
@@ -987,7 +1001,6 @@ La premisa fundamental del Seasonal Priming Pattern se basa en la comprensión d
 El patrón se adapta según el nivel de riesgo de la compra:
 
 **A. Productos de Bajo Riesgo**
-
   - Medicamentos para alergias estacionales
   - Productos para barbacoa y picnic
   - Protectores solares y bronceadores
@@ -997,7 +1010,6 @@ El patrón se adapta según el nivel de riesgo de la compra:
 Para estos productos, el período de priming puede ser relativamente corto, por ejemplo, 2-3 semanas antes del inicio de la temporada, con una intensidad moderada.
 
 **B. Productos de Alto Riesgo**
-
   - Equipamiento deportivo especializado (ski, snowboard)
   - Piscinas residenciales
   - Sistemas de climatización
@@ -1011,55 +1023,52 @@ Estos productos requieren un período de priming más extenso, por ejemplo, 2-3 
 La ejecución del Seasonal Priming Pattern se estructura típicamente en tres fases principales:
 
 **A. Fase de Pre-temporada (Priming)**
-
   - Alcance amplio pero frecuencia moderada
   - Énfasis en contenido educativo e informativo
   - Construcción de awareness y consideración
   - Por ejemplo, para un producto de temporada navideña, esta fase podría iniciarse en octubre
 
 **B. Fase de Temporada Alta**
-
   - Máxima intensidad publicitaria
   - Combinación de medios de alto impacto
   - Frecuencia elevada
   - Mensajes orientados a la acción y la compra inmediata
 
-
+**C. Fase de Post-temporada**
   - Intensidad reducida pero selectiva
   - Enfoque en ventas de oportunidad
   - Preparación para el siguiente ciclo
 
+![FE_Ostrow_1982](./img/img_seasonal_pattern.png)
+
 **Consideraciones Tácticas**
 
-**Selección de Medios**
-El mix de medios evoluciona con cada fase:
+**1. Selección de Medios**: El mix de medios evoluciona con cada fase:
 
-A. Pre-temporada:
-  - Medios de construcción de marca
-  - Canales digitales para contenido informativo
-  - PR y relaciones públicas
+  A. Pre-temporada:
+    - Medios de construcción de marca
+    - Canales digitales para contenido informativo
+    - PR y relaciones públicas
 
-B. Temporada alta:
-  - Medios masivos de alto impacto
-  - Activación en punto de venta
-  - Digital performance
-  - Promociones tácticas
+  B. Temporada alta:
+    - Medios masivos de alto impacto
+    - Activación en punto de venta
+    - Digital performance
+    - Promociones tácticas
 
-**Optimización y Medición**
+**2. Optimización y Medición**: La medición de efectividad debe considerar múltiples dimensiones:
 
-La medición de efectividad debe considerar múltiples dimensiones:
+  A. Indicadores de Priming:
+    - Awareness de temporada
+    - Intención de compra
+    - Búsquedas relacionadas
+    - Engagement con contenido preparatorio
 
-A. Indicadores de Priming:
-  - Awareness de temporada
-  - Intención de compra
-  - Búsquedas relacionadas
-  - Engagement con contenido preparatorio
-
-B. Indicadores de Temporada:
-  - Conversión a ventas
-  - Share of market durante el pico
-  - Eficiencia en costos de adquisición
-  - ROI publicitario
+  B. Indicadores de Temporada:
+    - Conversión a ventas
+    - Share of market durante el pico
+    - Eficiencia en costos de adquisición
+    - ROI publicitario
 
 **Casos Especiales: Múltiples Picos**
 
@@ -1081,7 +1090,7 @@ A. Timing y Anticipación**: El momento óptimo para iniciar el priming depende 
   - Nivel de inversión requerido
   - Competencia en el mercado
 
-**Intensidad del Priming**: La intensidad debe calibrarse considerando:
+B. Intensidad del Priming: La intensidad debe calibrarse considerando:
   - Estado de necesidad de la categoría
   - Nivel de educación requerido
   - Presión competitiva esperada
@@ -1095,13 +1104,7 @@ La clave está en encontrar el equilibrio correcto entre la construcción de awa
 
 La flexibilidad para adaptar la intensidad y duración del priming según la categoría, mientras se mantiene la eficiencia en la inversión publicitaria, es fundamental para el éxito de esta estrategia. El patrón debe verse como un marco adaptable que puede y debe ajustarse según las características específicas de cada producto y mercado.
 
-
 ***
-
-
-
-
-
 
 ### Control (resultados esperados) del plan de medios
 
