@@ -459,7 +459,7 @@ head(resultado)
 
 ### Objetivos del Plan de Medios y Soportes
 
-#### Cobertura efectiva
+#### A. Cobertura efectiva
 
 > Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF). 
 
@@ -469,17 +469,17 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 - Brand attitude (asociación entre una marca y su uso y un valor, actitud hacia la marca)
 - Brand purchase intention (disposición a la compra, intención)
 
-#### Frecuencia efectiva
+#### B. Frecuencia efectiva
 
 > Se refiere al número de veces ( _oportunidades de ver_ ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. 
 
 La frecuencia efectiva se define en el contexto de dos conceptos principales, a saber, **Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF)**.
 
-#### Frecuencia Efectiva Mínima (MEF)
+#### B.1. Frecuencia Efectiva Mínima (MEF)
 
 > Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activa el comportamiento deseado. Por debajo del valor MEF la publicidad no será efectiva, es decir, _no habrá merecido la pena_.
 
-El vaklor MEF varía según el tipo de publicidad:
+El valor MEF varía según el tipo de publicidad:
 
 1. _Low risk/informacional_: Para productos/servicios de bajo riesgo donde el mensaje es principalmente informativo. Por ejemplo, productos de conveniencia o compra frecuente como detergentes o productos de limpieza, donde la comunicación se centra en características funcionales y beneficios directos del producto.
 
@@ -489,7 +489,7 @@ El vaklor MEF varía según el tipo de publicidad:
 
 4. _High risk/transformacional_: Para productos/servicios de alto riesgo donde el mensaje busca transformar percepciones/actitudes. Por ejemplo, automóviles de lujo o joyería de alta gama, donde la comunicación busca crear una conexión emocional y transformar la percepción de estatus o estilo de vida del consumidor.
 
-#### Frecuencia Efectiva Máxima (MaxEF)
+#### B.2. Frecuencia Efectiva Máxima (MaxEF)
 
 > La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo.
 
