@@ -63,7 +63,7 @@ A partir de estas consideraciones, un planificador de medios debe pues plantears
 
 **¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, comportamiento de compra, fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
 
-**¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([cf. inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
+**¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([_cf._ inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
 
 **¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
@@ -71,7 +71,7 @@ A partir de estas consideraciones, un planificador de medios debe pues plantears
 
 Es fundamental que los objetivos de la campaña estén definidos de forma _SMART_, es decir, _specific, measurable, achiavable, realistic, time-bound_. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
 
-**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos globales de marketing [cf. _Integrated Marketing Communications_](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC)
+**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos globales de marketing ([_cf._ _Integrated Marketing Communications_](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC))
 
 **¿Qué se quiere lograr con la campaña publicitaria?** Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del producto o servicio (actitud), o incitar a la acción.
 
@@ -81,13 +81,13 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 
 **3. Selección de Medios y Canales**
 
-**¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión (ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
+**¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión ( _e.g._, ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
 
 **¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?** La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados.
 
 **¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que maximice el impacto de la campaña.
 
-**¿Cuál es la cobertura y frecuencia óptimas para la campaña?** El planificador debe definir la cobertura efectiva (cuántas personas deben ser alcanzadas por la campaña) y la frecuencia efectiva (cuántas veces deben exponerse al mensaje) para alcanzar los objetivos.
+**¿Cuál es la cobertura y frecuencia efectivas para la campaña?** El planificador debe definir cuántas personas deben ser alcanzadas por la campaña al menos la frecuencia efectiva mínima para alcanzar los objetivos, por ejemplo, la disposición a la compra del producto, servicio o marca.
 
 **4. Implementación, Monitoreo y Evaluación**
 
@@ -95,12 +95,22 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 
 **¿Cómo se implementará el plan de medios?** Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
 
-**¿Cómo se medirá la efectividad del plan?** Se deben establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y rentabilidad así como en los objetivos publicitarios definidos, y otros indicadores relevantes.
+**¿Cómo se medirá la efectividad del plan?** Se deben establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y rentabilidad así como en los objetivos publicitarios definidos, y otros indicadores relevantes. Por ejemplo:
+
+| Objetivo | Indicador Clave de Rendimiento | Descripción |
+|----------|--------------------------------|-------------|
+| Reconocimiento de Marca | Alcance | Número de personas únicas expuestas al mensaje publicitario. |
+| Reconocimiento de Marca | Impresiones | Cantidad total de veces que se muestra el mensaje publicitario. |
+| Participación | Tasa de Clics (CTR) | Porcentaje de personas que interactuaron mediante clic en el anuncio. |
+| Participación | Interacción en Redes Sociales (Me gusta, Compartidos, Comentarios) | Medición de la interacción del público objetivo con el contenido. |
+| Ventas | Conversiones | Cantidad de usuarios que completaron una acción deseada, como una compra o registro. |
+| Ventas | Retorno de la Inversión Publicitaria (ROAS) | Ingresos generados por cada unidad monetaria invertida en publicidad. |
 
 **5. Presupuesto y Gestión Financiera de la Campaña**
 
-**¿Cómo se determinará el presupuesto publicitario?** El planificador debe establecer el presupuesto considerando diferentes métodos: porcentaje sobre ventas, paridad competitiva, objetivos y tareas, o histórico ajustado. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo y los objetivos de marketing.
-**¿Cuál es la distribución óptima del presupuesto entre medios?** Es fundamental determinar la asignación presupuestaria entre los diferentes canales, considerando, por ejemplo:
+**¿Cómo se determinará el presupuesto publicitario?** El planificador debe establecer el presupuesto considerando diferentes métodos: objetivos y tareas, Peckham 1.5, IAF/5Q, Schroer, porcentaje sobre ventas, paridad competitiva, entre otros. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo y los objetivos de marketing.
+
+**¿Cuál es la distribución adecuada del presupuesto entre medios?** Es fundamental determinar la asignación presupuestaria entre los diferentes canales, considerando, por ejemplo:
 
 - Medio principal (40-50%): canal con mayor impacto para objetivos primarios
 - Medios de apoyo (20-30%): complementan y refuerzan el mensaje
@@ -127,14 +137,12 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 - Sistema de _reporting_ financiero regular
 - Análisis de desviaciones y causas
 - Medición de retorno por canal y campaña
-- Benchmarks de eficiencia por medio y formato
+- Benchmarks (o valores de referencia) de eficiencia por medio y formato
 - Optimización continua de la inversión
 
 **6. Consideraciones Adicionales**
 
 **¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar subordinada a una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
-
-**¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar alineada con una estrategia de comunicación integrada, coordinando todas las herramientas de marketing para maximizar la coherencia e impacto.
 
 **¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio?** El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
 
