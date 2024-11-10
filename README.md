@@ -607,7 +607,7 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 
 Los patrones de alcance constituyen el fundamento de la planificación estratégica en medios publicitarios. Se dividen en dos grandes categorías según la etapa del producto en el mercado: patrones para productos nuevos y patrones para productos establecidos. Cada patrón responde a necesidades específicas de comunicación y objetivos de marketing.
 
-![▶️ Escuchar audio resumen](./audio/Reach_patterns_Rossiter_Danaher.wav)
+[▶️ Escuchar audio resumen](./audio/Reach_patterns_Rossiter_Danaher.wav)
 
 ### Patrones para marcas nuevas
 
