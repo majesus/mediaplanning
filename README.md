@@ -174,7 +174,7 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 ***
 
 <details>
-<summary>Haz clic para mayor desarrollo</summary>
+<summary>:arrow_forward:Haz clic para mayor desarrollo</summary>
 
 ***
 
@@ -548,7 +548,7 @@ Es importante tener presente que:
 - El valor del Competidor Más Grande (LC) se utiliza como base única en la fórmula y se ajusta posteriormente según los requerimientos de comunicación. Es importante destacar que el valor LC se incorpora solo una vez y no se duplica con cada ajuste. Por ejemplo, si una campaña requiere tanto recordación de marca como actitud transformacional, la fórmula sumará LC + 1 + 1, y no (LC+1) + (LC+1). Esta distinción es crucial para evitar una sobrestimación del efecto del competidor principal.
 
 <details>
-<summary>Haz clic para mayor desarrollo</summary>
+<summary>:arrow_forward:Haz clic para mayor desarrollo</summary>
 
 ***
 
