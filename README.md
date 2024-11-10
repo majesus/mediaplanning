@@ -495,18 +495,20 @@ El valor MEF varía según el tipo de publicidad:
 
 ![FE_Ostrow_1982](./img/img_MEF_MaxEF.png)
 
-En este sentido, el valor MaxEF debe ser estimado en tanto que:
+Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
 
-  * Las exposiciones adicionales pueden ser un _desperdicio_ de presupuesto
-  * En algunos casos puede haber un efecto negativo (desgaste publicitario o _wearout_)
-  * La disposición de compra se vuelve una línea horizontal o incluso puede decrecer
+***
 
-En particular, el planificador de medios y soportes debe tener presente la probable generación del desgaste publicitario:
+En suma, el valor MaxEF debe ser estimado en tanto que:
 
-- **_Wear-in_**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor recuerdo, una mejor comprensión del mensaje y una actitud más favorable hacia la marca.
-- **_Wear-out_**: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar una actitud negativa hacia la marca.
+* Las exposiciones adicionales pueden ser un _desperdicio_ de presupuesto
 
-En suma, la clave para una planificación de medios exitosa es encontrar el punto óptimo de frecuencia, es decir, el número de exposiciones que maximiza la efectividad del anuncio sin llegar al punto de saturación y generar "wear-out".
+* En algunos casos puede haber un efecto negativo (desgaste publicitario o _wearout_):
+
+  - **_Wear-in_**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor recuerdo, una mejor comprensión del mensaje y una actitud más favorable hacia la marca.
+  - **_Wear-out_**: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar una actitud negativa hacia la marca.
+
+* La disposición de compra se vuelve una línea horizontal o incluso puede decrecer
 
 ***
 
@@ -533,6 +535,13 @@ $$
 ![FE_Ostrow_1982](./img/img_FEM_table.png)
 
 Nota: _Las imágenes han sido tomadas de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
+
+
+Es importante tener presente que:
+
+- En el caso de ser líder, LC + 1 es igual a 2 en cada caso.
+- En situaciones donde el Competidor Más Grande (LC) aparece en un vehículo de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF: el valor del vehículo de atención debe corregirse de VA = 2 a VA = 1. Esta corrección es necesaria para evitar una "doble duplicación" en el cálculo, ya que se asume que el competidor dominante ya ha duplicado su frecuencia para compensar la naturaleza del vehículo de baja atención, haciendo redundante mantener el valor original de VA = 2 en la fórmula.
+- El valor del Competidor Más Grande (LC) se utiliza como base única en la fórmula y se ajusta posteriormente según los requerimientos de comunicación. Es importante destacar que el valor LC se incorpora solo una vez y no se duplica con cada ajuste. Por ejemplo, si una campaña requiere tanto recordación de marca como actitud transformacional, la fórmula sumará LC + 1 + 1, y no (LC+1) + (LC+1). Esta distinción es crucial para evitar una sobrestimación del efecto del competidor principal.
 
 <details>
 <summary>Haz clic para mayor desarrollo</summary>
@@ -563,12 +572,6 @@ La influencia personal representa el componente social en la difusión de los me
 
 </details>
 
-Es importante tener presente que:
-
-- En el caso de ser líder, LC + 1 es igual a 2 en cada caso.
-- En situaciones donde el Competidor Más Grande (LC) aparece en un vehículo de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF: el valor del vehículo de atención debe corregirse de VA = 2 a VA = 1. Esta corrección es necesaria para evitar una "doble duplicación" en el cálculo, ya que se asume que el competidor dominante ya ha duplicado su frecuencia para compensar la naturaleza del vehículo de baja atención, haciendo redundante mantener el valor original de VA = 2 en la fórmula.
-- El valor del Competidor Más Grande (LC) se utiliza como base única en la fórmula y se ajusta posteriormente según los requerimientos de comunicación. Es importante destacar que el valor LC se incorpora solo una vez y no se duplica con cada ajuste. Por ejemplo, si una campaña requiere tanto recordación de marca como actitud transformacional, la fórmula sumará LC + 1 + 1, y no (LC+1) + (LC+1). Esta distinción es crucial para evitar una sobrestimación del efecto del competidor principal.
-
 ***
 
 Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **factores de marketing, _copy_ y medios** que determinan los niveles de frecuencia efectiva. La imagen se toma del artículo citado al pie de la tabla.
@@ -583,114 +586,11 @@ Los patrones de alcance constituyen el fundamento de la planificación estratég
 
 _Las imágenes han sido tomadas de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._
 
-#### Patrones para Productos Nuevos
+### Patrones para Productos Nuevos
 
-**_Blitz_: Máxima Intensidad Inicial**
+### **_Blitz_: Máxima Intensidad Inicial**
 
 Un blitz publicitario representa la estrategia más intensiva de entrada al mercado. Mantiene un alcance del 100% del público objetivo durante todo un año, con al menos 50 exposiciones semanales por consumidor. Su objetivo es maximizar la ventaja del first-mover en el mercado.
-
-Para implementar un blitz efectivo, los productos informativos requieren entre 2 y 4 ejecuciones publicitarias diferentes, mientras que los productos transformacionales necesitan de 4 a 6 ejecuciones para mantener el impacto sin generar desgaste.
-
-![FE_Ostrow_1982](./img/img_blitz_pattern.png)
-
-**_Wedge_: La Estrategia de la Cuña**
-
-El wedge pattern representa el enfoque más común para lanzamientos. Su estructura es distintiva: comienza con una alta intensidad (400 GRPs semanales) que se reduce gradualmente (hasta 100 GRPs), manteniendo el alcance pero ajustando la frecuencia.
-
-Este patrón se adapta especialmente bien a productos de compra regular. Los datos Nielsen nos muestran ejemplos concretos de ciclos de compra: margarina (19 días), papel higiénico (20 días) y mantequilla de cacahuete (48 días). La estrategia acompaña estos ciclos naturales de compra.
-
-![FE_Ostrow_1982](./img/img_wedge_pattern.png)
-
-**_Reverse-Wedge/PI_: La Estrategia del Contagio**
-
-El reverse-wedge aprovecha la influencia personal (PI) como catalizador de la adopción. Comienza con un alcance limitado que se expande progresivamente. Un caso ejemplar fue Toohey's Brewery en Australia, cuyo éxito llevó a que otras marcas replicaran la estrategia.
-
-Este patrón resulta particularmente efectivo para:
-
-- Innovaciones industriales
-- Productos que requieren aprendizaje
-- Situaciones donde la influencia personal es crucial para la adopción
-
-![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png)
-
-**_Short Fad_: La Estrategia del Momento**
-
-Diseñado para productos con ciclo de vida corto, el short fad actúa como un blitz condensado. Se aplica en:
-
-- Lanzamientos de películas
-- Programas de pérdida de peso
-- Moda de temporada
-- Juguetes y juegos
-- Productos "get-fit"
-
-![FE_Ostrow_1982](./img/img_short_fad_pattern.png)
-
-#### Patrones para Productos Establecidos
-
-**_Regular Purchase Cycle_: Ritmo y Constancia**
-Este patrón sincroniza la publicidad con los ciclos naturales de compra. La clave está en alternar períodos de actividad publicitaria con hiatus, siguiendo el ritmo de compra del consumidor.
-
-Los ciclos de compra varían según el producto. Nielsen documenta ciclos específicos:
-
-- Margarina: 19 días
-- Papel higiénico: 20 días
-- Mantequilla de cacahuete: 48 días
-
-![FE_Ostrow_1982](./img/img_regular_pattern.png)
-
-**_Awareness_: Mantener la Presencia**
-
-Diseñado para productos con ciclos de compra extensos y decisiones prolongadas, como:
-
-- Viajes de larga distancia
-- Automóviles nuevos
-- Artículos de lujo
-- Equipamiento industrial
-- Servicios de consultoría
-
-![FE_Ostrow_1982](./img/img_awareness_pattern.png)
-
-**_Shifting Reach_: Movimiento Estratégico**
-
-Esta estrategia se mueve entre diferentes segmentos del mercado, alcanzando aproximadamente 12% en cada ciclo. Es ideal para servicios como:
-
-- Limpieza de alfombras domésticas
-- Remodelación de oficinas
-- Servicios de emergencia
-- Servicios de mantenimiento
-
-![FE_Ostrow_1982](./img/img_shifting_pattern.png)
-
-**_Seasonal Priming_: Anticipación y Temporalidad**
-
-Se aplica a productos con marcada estacionalidad. Distingue entre:
-
-Productos de bajo riesgo:
-
-- Remedios para resfriados
-- Condimentos para barbacoa
-
-Productos de alto riesgo:
-
-- Equipamiento de snowboard/ski
-- Piscinas residenciales
-- Servicios de consultoría fiscal
-
-![FE_Ostrow_1982](./img/img_seasonal_pattern.png)
-
-#### Conclusión
-
-La efectividad de cada patrón depende de su correcta aplicación según el tipo de producto, ciclo de compra y comportamiento del consumidor. La clave está en seleccionar el patrón que mejor se ajuste a estos factores, considerando siempre el presupuesto disponible y los objetivos de marketing.
-
-
-<details>
-<summary>Haz clic para mayor desarrollo</summary>
-
-***
-
-En este bloque mostramos ejemplos que ilustran los modelos anteriores así como aspectos estratégicos y tácticos de interés para la implementación de las estrategias de cobertura y distribución de exposición descritas.
-
-### 1. BLITZ PATTERN
 
 **Ejemplos de Productos/Categorías:**
 - Smartphones de nueva generación (ej: lanzamiento iPhone)
@@ -726,7 +626,11 @@ En este bloque mostramos ejemplos que ilustran los modelos anteriores así como 
 - Maximiza tasa de prueba
 - Suprime efectos publicidad competitiva
 
-### 2. WEDGE PATTERN
+### **_Wedge_: La Estrategia de la Cuña**
+
+El wedge pattern representa el enfoque más común para lanzamientos. Su estructura es distintiva. Comienza con una alta intensidad (400 GRPs semanales) que se reduce gradualmente (hasta 100 GRPs), manteniendo el alcance pero ajustando la frecuencia.
+
+Este patrón se adapta especialmente bien a productos de compra regular. Los datos Nielsen muestran ejemplos concretos de ciclos de compra. La estrategia acompaña estos ciclos naturales de compra.
 
 **Ejemplos de Productos/Categorías:**
 - Productos de cuidado personal innovadores
@@ -763,7 +667,9 @@ En este bloque mostramos ejemplos que ilustran los modelos anteriores así como 
 - Permite optimización presupuestaria
 - Adecuado cuando hay lealtad post-prueba
 
-### 3. REVERSE-WEDGE/PI PATTERN
+### **_Reverse-Wedge/PI_: La Estrategia del Contagio**
+
+El reverse-wedge aprovecha la influencia personal (PI) como catalizador de la adopción. Comienza con un alcance limitado que se expande progresivamente.
 
 **Ejemplos de Productos/Categorías:**
 - Software empresarial
@@ -800,7 +706,9 @@ En este bloque mostramos ejemplos que ilustran los modelos anteriores así como 
 - Permite construcción gradual de mercado
 - Aprovecha difusión social
 
-### 4. SHORT FAD PATTERN
+### **_Short Fad_: La Estrategia del Momento**
+
+Diseñado para productos con ciclo de vida corto, el short fad actúa como un blitz condensado.
 
 **Ejemplos de Productos/Categorías:**
 - Películas y estrenos de cine
@@ -837,7 +745,16 @@ En este bloque mostramos ejemplos que ilustran los modelos anteriores así como 
 - Categorías de moda/tendencia
 - Productos estacionales cortos
 
-### 5. REGULAR PURCHASE CYCLE PATTERN
+### Patrones para Productos Establecidos
+
+### **_Regular Purchase Cycle_: Ritmo y Constancia**
+
+Este patrón sincroniza la publicidad con los ciclos naturales de compra. La clave está en alternar períodos de actividad publicitaria con hiatus, siguiendo el ritmo de compra del consumidor.
+
+Los ciclos de compra varían según el producto. Nielsen documenta ciclos específicos:
+- Margarina: 19 días
+- Papel higiénico: 20 días
+- Mantequilla de cacahuete: 48 días
 
 **Ejemplos de Productos/Categorías:**
 - Productos de alimentación básica
@@ -874,7 +791,9 @@ En este bloque mostramos ejemplos que ilustran los modelos anteriores así como 
 - Maximización de efectividad
 - Adaptación a comportamiento consumidor
 
-### 6. AWARENESS PATTERN
+### **_Awareness_: Mantener la Presencia**
+
+Diseñado para productos con ciclos de compra extensos y decisiones prolongadas.
 
 **Ejemplos de Productos/Categorías:**
 - Bienes inmobiliarios
@@ -911,7 +830,98 @@ En este bloque mostramos ejemplos que ilustran los modelos anteriores así como 
 - Necesidad de presencia continua
 - Eficiencia en mantenimiento de marca
 
-</details>
+### **_Shifting Reach_: Movimiento Estratégico**
+
+Esta estrategia se mueve entre diferentes segmentos del mercado, alcanzando aproximadamente 12% en cada ciclo.
+
+**Ejemplos de Productos/Categorías:**
+- Servicios de limpieza de alfombras
+- Remodelación de oficinas
+- Servicios de emergencia
+- Servicios de mantenimiento
+- Servicios profesionales por demanda
+
+**Características Estratégicas:**
+- Alcance rotativo por segmentos
+- Cobertura parcial pero eficiente
+- Optimización por momento de necesidad
+- Adaptación a demanda fragmentada
+
+**Planificación Táctica:**
+1. Ciclos:
+   - Rotación entre segmentos
+   - Concentración temporal por grupo
+   - Optimización de frecuencia por ciclo
+
+2. Mix de medios:
+   - Medios segmentados por ciclo
+   - Adaptación a cada target
+   - Flexibilidad en selección de medios
+
+3. Distribución de presión:
+   - GRPs concentrados por segmento
+   - Máxima eficiencia por ciclo
+   - Evitar dispersión de impactos
+
+**Justificación:**
+- Servicios de uso ocasional
+- Demanda dispersa en el tiempo
+- Optimización de recursos
+- Maximización de ROI por segmento
+
+### **_Seasonal Priming_: Anticipación y Temporalidad**
+
+Se aplica a productos con marcada estacionalidad.
+
+**Ejemplos de Productos/Categorías:**
+- Bajo riesgo:
+  - Medicamentos para alergias
+  - Productos para barbacoa
+  - Bronceadores
+  - Remedios para resfriados
+  - Bebidas estacionales
+
+- Alto riesgo:
+  - Equipos de ski/snowboard
+  - Piscinas residenciales
+  - Servicios de consultoría fiscal
+  - Sistemas de climatización
+  - Equipamiento de jardinería profesional
+
+**Características Estratégicas:**
+- Publicidad preparatoria pre-temporada
+- Intensificación durante pico estacional
+- Diferenciación por nivel de riesgo
+- Anticipación a períodos de alta demanda
+
+**Planificación Táctica:**
+1. Fases:
+   - Pre-temporada (construcción de awareness)
+   - Pico estacional (maximización de conversión)
+   - Post-temporada (mantenimiento selectivo)
+
+2. Mix de medios:
+   - Pre-temporada: medios de construcción de marca
+   - Temporada alta: mix completo con énfasis táctico
+   - Post-temporada: medios de mantenimiento
+
+3. Distribución de presión:
+   - GRPs escalonados según fase
+   - Máxima presión en temporada alta
+   - Optimización por tipo de producto
+
+**Justificación:**
+- Maximización de ventas estacionales
+- Construcción de ventaja competitiva
+- Optimización de presupuesto por temporada
+- Adaptación a ciclos naturales de compra
+
+#### Conclusión
+
+La efectividad de cada patrón depende de su correcta aplicación según el tipo de producto, ciclo de compra y comportamiento del consumidor. La clave está en seleccionar el patrón que mejor se ajuste a estos factores, considerando siempre el presupuesto disponible y los objetivos de marketing.
+
+<details>
+<summary>Haz clic para mayor desarrollo</summary>
 
 ***
 
@@ -1037,19 +1047,7 @@ Comisión de Turismo Australiana:
 - Priming debe considerar estado de necesidad de categoría
 - Interferencia competitiva alta en temporada
 
-## Notas de Implementación
-
-### Consideraciones Generales:
-1. MEF (Minimum Effective Frequency) debe ajustarse según patrón
-2. Carryover effects influyen en la planificación de hiatus
-3. La frecuencia se basa en el promedio del ciclo de compra
-4. El alcance se mantiene como prioridad en todos los patrones
-
-### Factores de Ajuste:
-- Presupuesto disponible
-- Competencia en categoría
-- Objetivos específicos de marketing
-- Ciclos de compra documentados
+</details>
 
 ***
 
