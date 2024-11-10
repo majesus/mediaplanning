@@ -547,6 +547,8 @@ Es importante tener presente que:
 - En situaciones donde el Competidor Más Grande (LC) aparece en un vehículo de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF: el valor del vehículo de atención debe corregirse de VA = 2 a VA = 1. Esta corrección es necesaria para evitar una "doble duplicación" en el cálculo, ya que se asume que el competidor dominante ya ha duplicado su frecuencia para compensar la naturaleza del vehículo de baja atención, haciendo redundante mantener el valor original de VA = 2 en la fórmula.
 - El valor del Competidor Más Grande (LC) se utiliza como base única en la fórmula y se ajusta posteriormente según los requerimientos de comunicación. Es importante destacar que el valor LC se incorpora solo una vez y no se duplica con cada ajuste. Por ejemplo, si una campaña requiere tanto recordación de marca como actitud transformacional, la fórmula sumará LC + 1 + 1, y no (LC+1) + (LC+1). Esta distinción es crucial para evitar una sobrestimación del efecto del competidor principal.
 
+***
+
 <details>
 <summary>:arrow_forward:Haz clic para mayor desarrollo</summary>
 
@@ -604,6 +606,8 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 ## :red_square:Estrategias de cobertura y distribución de exposición
 
 Los patrones de alcance constituyen el fundamento de la planificación estratégica en medios publicitarios. Se dividen en dos grandes categorías según la etapa del producto en el mercado: patrones para productos nuevos y patrones para productos establecidos. Cada patrón responde a necesidades específicas de comunicación y objetivos de marketing.
+
+[▶️ Escuchar audio resumen](./audio/Reach patterns - Rossiter y Danaher.wav)
 
 ### Patrones para marcas nuevas
 
