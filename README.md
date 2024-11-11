@@ -191,7 +191,7 @@ La presupuestación publicitaria constituye uno de los aspectos más críticos y
 
 El **método del porcentaje sobre ventas** representa uno de los enfoques más ampliamente utilizados en la práctica empresarial. Este método se puede implementar de dos formas fundamentales. 
 
-a. La primera modalidad se basa en las **ventas históricas**, donde el presupuesto publicitario se calcula aplicando un porcentaje predeterminado sobre las ventas del período anterior. Este enfoque se expresa mediante la fórmula A2 = f(S1), donde A2 representa el presupuesto publicitario para el próximo año, f es el porcentaje establecido y S1 las ventas del año anterior. Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones significativas al no considerar la interdependencia entre la publicidad y las ventas futuras, además de carecer de flexibilidad para adaptarse a cambios en el entorno de mercado.
+A. La primera modalidad se basa en las **ventas históricas**, donde el presupuesto publicitario se calcula aplicando un porcentaje predeterminado sobre las ventas del período anterior. Este enfoque se expresa mediante la fórmula Publicidad_2 = f(Ventas_1), donde Publicidad_2 representa el presupuesto publicitario para el próximo año, f es el porcentaje establecido y Ventas_1 las ventas del año anterior. Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones significativas al no considerar la interdependencia entre la publicidad y las ventas futuras, además de carecer de flexibilidad para adaptarse a cambios en el entorno de mercado.
 
 - Ventajas
 
@@ -203,12 +203,12 @@ a. La primera modalidad se basa en las **ventas históricas**, donde el presupue
 - Limitaciones
 
   - No considera la naturaleza dinámica de la relación publicidad-ventas
-  - Ignora la interdependencia entre inversión publicitaria y resultados comerciales
+  - Ignora la dependencia de los resultados comerciales de la inversión publicitaria, es decir, subvierte la relación natural: 'las ventas están en función de las inversiones en publicidad'
   - Carece de flexibilidad para adaptarse a cambios del mercado
   - Puede perpetuar situaciones de subinversión o sobreinversión
   - Basa decisiones futuras en datos históricos, lo que puede ser poco apropiado en mercados cambiantes
 
-b. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en las **ventas proyectadas**, expresada como A2 = f(S2), donde S2 representa las ventas previstas para el próximo período. Esta variante resulta más lógica desde una perspectiva de planificación, ya que vincula la inversión publicitaria con el período que pretende influenciar. Los porcentajes típicos en la industria oscilan entre el 2% y 5% de las ventas, aunque estos valores pueden variar significativamente según el sector y las condiciones del mercado.
+B. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en las **ventas proyectadas**, expresada como Publicidad_2 = f(Ventas_2), donde Ventas_2 representa las ventas previstas para el próximo período. Esta variante resulta más lógica desde una perspectiva de planificación, ya que vincula la inversión publicitaria con el período que pretende influenciar. Los porcentajes típicos en la industria oscilan entre el 2% y 5% de las ventas, aunque estos valores pueden variar significativamente según el sector y las condiciones del mercado.
 
 - Ventajas
 
@@ -222,9 +222,9 @@ b. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en 
   - Depende de la precisión de las proyecciones de ventas
   - Puede subestimar las necesidades publicitarias en mercados en crecimiento
   - No considera necesariamente los movimientos competitivos
-  - Mantiene una visión simplificada de la relación publicidad-ventas
+  - Mantiene una visión simplificada de la relación publicidad-ventas en tanto que ahce una proyección de las ventas sin precisar la inversión en publicidad
 
-La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria ("share of voice") y la participación de mercado. Peckham propone que las marcas nuevas deberían establecer su share of voice en un nivel 1.5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
+La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria (share of voice) y la participación de mercado (share of market). Peckham propone que las marcas nuevas deberían establecer su share of voice en un nivel 1,5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
 
 - Ventajas
 
@@ -240,7 +240,7 @@ La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar dato
   - La distribución temporal de la inversión puede afectar significativamente los resultados
   - Puede no ser aplicable en mercados muy dinámicos o emergentes
 
-El *método de paridad competitiva** introduce una perspectiva estratégica al establecer el presupuesto publicitario en relación con la participación de mercado y las acciones de la competencia. La fórmula del share of voice (ASV = AF/(AC + AF)) relaciona los gastos publicitarios de la empresa (AF) con los gastos de los competidores (AC). Este método resulta particularmente útil en mercados maduros con posiciones competitivas estables, aunque puede ignorar factores importantes como cambios en los hábitos de consumo y condiciones económicas generales.
+El **método de paridad competitiva** introduce una perspectiva estratégica al establecer el presupuesto publicitario en relación con la participación de mercado y las acciones de la competencia. La fórmula del share of voice (SOV = Inversión_Publicidad/(Inversion_Publicidad_otros + Inversión_Publicidad)) relaciona los gastos publicitarios de la empresa (AF) con los gastos de los competidores (AC). Este método resulta particularmente útil en mercados maduros con posiciones competitivas estables, aunque puede ignorar factores importantes como cambios en los hábitos de consumo y condiciones económicas generales.
 
 - Ventajas
 
@@ -257,7 +257,7 @@ El *método de paridad competitiva** introduce una perspectiva estratégica al e
   - Asume que los competidores toman decisiones racionales
   - Puede no ser apropiado para marcas que buscan cambiar su posición en el mercado
 
-El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costos asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
+El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costes asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
 
 Los objetivos pueden orientarse hacia los medios (como alcanzar ciertos niveles de alcance y frecuencia durante un período específico), hacia la publicidad/aprendizaje (memoria, actitud e intención) y hacia el marketing (como generar un determinado volumen de prueba de producto), o una combinación. 
 
@@ -278,9 +278,9 @@ La fortaleza y debilidad de este sistema están pues íntimamente relacionadas: 
   - Requiere objetivos muy bien definidos
   - La relación entre tareas y objetivos no siempre es clara o directa
 
-Finalmente, el **método de "todo lo que se pueda permitir"**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
+El **método de "todo lo que se pueda permitir"**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
 
-La selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing y los recursos disponibles. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
+En suma, la selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing y los recursos disponibles. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
 
 ***
 
@@ -810,7 +810,7 @@ Este patrón resulta especialmente efectivo para el lanzamiento de productos tec
 
 **Consideraciones Estratégicas y Evaluación**
 
-El éxito de una estrategia Blitz se mide principalmente a través del alcance efectivo, la frecuencia de exposición y la capacidad de suprimir el impacto de la publicidad competitiva. La inversión requerida es significativa, pero debe contemplarse como el costo necesario para asegurar una posición de liderazgo sostenible en el mercado. La duración típica de esta estrategia es de 12 meses, aunque en algunos casos puede extenderse hasta 24 meses, dependiendo de la complejidad de la categoría y la velocidad de respuesta del mercado.
+El éxito de una estrategia Blitz se mide principalmente a través del alcance efectivo, la frecuencia de exposición y la capacidad de suprimir el impacto de la publicidad competitiva. La inversión requerida es significativa, pero debe contemplarse como el coste necesario para asegurar una posición de liderazgo sostenible en el mercado. La duración típica de esta estrategia es de 12 meses, aunque en algunos casos puede extenderse hasta 24 meses, dependiendo de la complejidad de la categoría y la velocidad de respuesta del mercado.
 
 La transición posterior al período Blitz debe planificarse cuidadosamente para mantener las ventajas competitivas adquiridas. Esto implica un monitoreo constante de la efectividad de la campaña y la disposición para realizar ajustes tácticos en el mix de medios según sea necesario. La evaluación continua de la respuesta del mercado y el análisis de la efectividad por canal son fundamentales para optimizar el retorno sobre la inversión publicitaria.
 
@@ -832,7 +832,7 @@ La belleza de este patrón radica en su eficiencia: reconoce que los consumidore
 
 El desarrollo del Wedge Pattern se estructura típicamente en tres fases principales. La primera fase, similar a un blitz inicial pero de menor duración, establece una presencia contundente en el mercado. La segunda fase introduce una reducción gradual de la presión publicitaria, mientras que la tercera fase se centra en el mantenimiento estratégico de la presencia de marca.
 
-La planificación de medios evoluciona con cada fase. Por ejemplo, se podría comenzar con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que priorice los medios más eficientes en términos de costo-beneficio. Esta evolución debe mantener la cobertura neta mientras se ajusta la frecuencia de manera estratégica.
+La planificación de medios evoluciona con cada fase. Por ejemplo, se podría comenzar con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que priorice los medios más eficientes en términos de coste-beneficio. Esta evolución debe mantener la cobertura neta mientras se ajusta la frecuencia de manera estratégica.
 
 ![FE_Ostrow_1982](./img/img_wedge_pattern.png)
 <sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
@@ -943,7 +943,7 @@ Este patrón resulta especialmente efectivo para:
 
 **Consideraciones Estratégicas**
 
-La planificación de medios en el Short Fad Pattern debe priorizar la velocidad de construcción de cobertura sobre la eficiencia en costos. El mix de medios debe seleccionarse principalmente por su capacidad para generar awareness y respuesta inmediata. Por ejemplo, se podría destinar un porcentaje significativamente mayor del presupuesto a medios de alto impacto y respuesta rápida, complementados con tácticas de activación inmediata.
+La planificación de medios en el Short Fad Pattern debe priorizar la velocidad de construcción de cobertura sobre la eficiencia en costes. El mix de medios debe seleccionarse principalmente por su capacidad para generar awareness y respuesta inmediata. Por ejemplo, se podría destinar un porcentaje significativamente mayor del presupuesto a medios de alto impacto y respuesta rápida, complementados con tácticas de activación inmediata.
 
 La frecuencia de exposición debe ser notablemente más alta que en patrones tradicionales, reconociendo que el período para generar el efecto deseado es mucho más corto. Sin embargo, es crucial evitar la saturación que podría generar rechazo en el público objetivo.
 
@@ -1274,7 +1274,7 @@ La ejecución del Seasonal Priming Pattern se estructura típicamente en tres fa
   B. Indicadores de Temporada:
     - Conversión a ventas
     - Share of market durante el pico
-    - Eficiencia en costos de adquisición
+    - Eficiencia en costes de adquisición
     - ROI publicitario
 
 **Casos Especiales: Múltiples Picos**
@@ -1392,6 +1392,64 @@ En la campaña de ropa _TU_, la distribución de contactos acumulada fue la sigu
 +2 veces: 60.000 personas
 
 +3 veces: 30.000 personas
+
+<details>
+<summary>:arrow_forward:Ejemplo ilustrativo de distribución de exposición</summary>
+
+***
+
+El análisis presentado utiliza el paquete mediaPlanR en R para modelar la distribución de exposición (y acumulada). 
+
+La función calc_beta_binomial implementa un modelo Beta-Binomial con tres parámetros principales: una audiencia tras la primera inserción (FIR) de 500.000 personas, una audiencia acumulada tras la segunda inserción (SIR) de 650.000 y un universo total de 1.000.000 de individuos, distribuidos en 5 niveles de exposición.
+
+Los resultados muestran que la campaña alcanza una cobertura total del 80,21% del universo (802.083 personas), con una distribución relativamente uniforme de contactos entre 1 y 5 exposiciones. La distribución acumulada revela que el 50% de la población recibe 3 o más contactos, mientras que aproximadamente un 20% de la audiencia queda sin exposición. El modelo estima una frecuencia media de 3.12 contactos por individuo alcanzado.
+
+```R
+> library(mediaPlanR)
+> resultados <- calc_beta_binomial(500000, 650000, 1000000, 5)
+> resultados
+
+MODELO BETA-BINOMIAL
+===================
+Descripción: Modelo que considera heterogeneidad en la población
+
+MÉTRICAS PRINCIPALES:
+--------------------
+Cobertura total: 80.21% (802083 personas)
+
+PARÁMETROS DEL MODELO:
+---------------------
+Alpha: 0.750 (forma de la distribución beta)
+Beta: 0.750 (forma de la distribución beta)
+Probabilidad de 0 contactos: 19.79%
+
+DISTRIBUCIÓN DE CONTACTOS:
+-------------------------
+(Porcentaje de población que recibe exactamente N contactos)
+1 contacto: 15.63% (156250 personas)
+2 contactos: 14.58% (145833 personas)
+3 contactos: 14.58% (145833 personas)
+4 contactos: 15.63% (156250 personas)
+5 contactos: 19.79% (197917 personas)
+
+DISTRIBUCIÓN ACUMULADA:
+----------------------
+(Porcentaje de población que recibe N o más contactos)
+≥ 1 contacto: 80.21% (802083 personas)
+≥ 2 contactos: 64.58% (645833 personas)
+≥ 3 contactos: 50.00% (500000 personas)
+≥ 4 contactos: 35.42% (354167 personas)
+≥ 5 contactos: 19.79% (197917 personas)
+
+RESUMEN ESTADÍSTICO:
+-------------------
+Promedio de contactos por individuo alcanzado: 3.12
+Media teórica de la distribución beta: 0.500
+```R
+
+***
+
+</details>
 
 ***
 
