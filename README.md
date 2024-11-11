@@ -7,7 +7,7 @@ Autor: Manuel J. Sánchez Franco
 
 > **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia. 
 
-El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios tradicinales.
+El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios.
 
 ## Instalación
 
@@ -103,7 +103,7 @@ cobertura
 
 ***
 
-Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de la planificación en medios tradicionales.
+Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de la planificación.
 
 ***
 
