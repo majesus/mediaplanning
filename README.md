@@ -1355,9 +1355,14 @@ La expresión matemática para el cálculo de la frecuencia media es la siguient
 
 $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
-La principal limitación del concepto de frecuencia media en la planificación de medios es que las estimaciones de frecuencia proporcionadas por los programas de planificación son abstracciones estrictamente sin sentido práctico. Estas simplemente resumen una amplia distribución, donde pocos valores están realmente cercanos al "promedio". Por ejemplo, si especificamos una frecuencia promedio semanal de 5 OTS, el plan probablemente solo entregará 5 OTS en una minoría de los casos. Esto significa que la frecuencia media es un indicador poco fiable y potencialmente engañoso para la planificación de medios, ya que no refleja la realidad de la exposición que experimentará la mayoría de la audiencia. En otras palabras, usar promedios de frecuencia puede dar una falsa sensación de precisión en la planificación de medios, cuando en realidad estamos trabajando con una distribución mucho más dispersa y variable de exposiciones reales al mensaje publicitario.
+La principal limitación del concepto de frecuencia media en la planificación de medios es que las estimaciones de frecuencia proporcionadas por los programas de planificación son abstracciones estrictamente sin sentido práctico. Estas simplemente resumen una amplia distribución, donde pocos valores están realmente cercanos al "promedio". Por ejemplo, si especificamos una frecuencia promedio semanal de 5 OTS, el plan probablemente solo entregará 5 OTS en una minoría de los casos. 
+
+La frecuencia media es pues un indicador poco fiable y potencialmente engañoso para la planificación de medios. No refleja necesariamente la realidad de la exposición que experimentará la mayoría de la cobertura. 
+
+En suma, usar promedios de frecuencia puede dar una falsa sensación de precisión en la planificación de medios, cuando en realidad estamos trabajando con una distribución mucho más dispersa y variable de exposiciones reales al mensaje publicitario.
 
 ![FE_Ostrow_1982](./img/img_frequency_distribution.png)
+<sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
 ### Distribución de contactos
 
