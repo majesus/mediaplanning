@@ -183,7 +183,7 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 **¿Cómo se determinará el presupuesto publicitario?** El planificador debe establecer el presupuesto considerando diferentes métodos: objetivos y tareas, Peckham 1.5, IAF/5Q, Schroer, porcentaje sobre ventas, paridad competitiva, entre otros. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo y los objetivos de marketing.
 
 <details>
-<summary>:arrow_forward:Ejemplo ilustrativo</summary>
+<summary>:arrow_forward:Véanse algunos métodos de presupuestación</summary>
 
 ***
 
@@ -258,6 +258,10 @@ El *método de paridad competitiva** introduce una perspectiva estratégica al e
   - Puede no ser apropiado para marcas que buscan cambiar su posición en el mercado
 
 El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costos asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
+
+Los objetivos pueden orientarse hacia los medios (como alcanzar ciertos niveles de alcance y frecuencia durante un período específico), hacia la publicidad/aprendizaje (memoria, actitud e intención) y hacia el marketing (como generar un determinado volumen de prueba de producto), o una combinación. 
+
+La fortaleza y debilidad de este sistema están pues íntimamente relacionadas: cuando se conocen con precisión los niveles publicitarios requeridos para lograr una tarea específica, el sistema resulta sumamente efectivo. Sin embargo, en la práctica, esta certeza es poco común, lo que convierte al enfoque en altamente subjetivo y, por tanto, cuestionable. 
 
 - Ventajas
 
@@ -1350,6 +1354,8 @@ La frecuencia media se calcula sumando todas las exposiciones (impactos) y divid
 La expresión matemática para el cálculo de la frecuencia media es la siguiente:
 
 $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
+
+La principal limitación del concepto de frecuencia media en la planificación de medios es que las estimaciones de frecuencia proporcionadas por los programas de planificación son abstracciones estrictamente sin sentido práctico. Estas simplemente resumen una amplia distribución, donde pocos valores están realmente cercanos al "promedio". Por ejemplo, si especificamos una frecuencia promedio semanal de 5 OTS, el plan probablemente solo entregará 5 OTS en una minoría de los casos. Esto significa que la frecuencia media es un indicador poco fiable y potencialmente engañoso para la planificación de medios, ya que no refleja la realidad de la exposición que experimentará la mayoría de la audiencia. En otras palabras, usar promedios de frecuencia puede dar una falsa sensación de precisión en la planificación de medios, cuando en realidad estamos trabajando con una distribución mucho más dispersa y variable de exposiciones reales al mensaje publicitario.
 
 ### Distribución de contactos
 
