@@ -33,6 +33,7 @@ library(mediaPlanR)
 <details>
 <summary>:arrow_forward:Ejercicio de prueba</summary>
 
+```R
 #------------------------------------------------------------#
 # Primero instalamos tidyverse si no lo tienes instalado
 install.packages("tidyverse")
@@ -93,6 +94,7 @@ cobertura <- (1 - v) * 39500000
 cobertura
 
 #------------------------------------------------------------#
+```
 
 </details>
 
