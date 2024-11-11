@@ -149,8 +149,6 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 
 **¿Qué se quiere lograr con la campaña publicitaria?** Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del producto o servicio (actitud), o incitar a la acción.
 
-**¿Cuál es el presupuesto disponible para la campaña?**
-
 **¿Qué mensaje se quiere comunicar y qué estrategia creativa se utilizará?** La estrategia creativa del mensaje debe estar en sintonía con los medios seleccionados. El planificador debe evaluar cómo dicha estrategia impacta en la elección de los medios y viceversa.
 
 **3. Selección de Medios y Canales**
@@ -183,6 +181,106 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 **5. Presupuesto y Gestión Financiera de la Campaña**
 
 **¿Cómo se determinará el presupuesto publicitario?** El planificador debe establecer el presupuesto considerando diferentes métodos: objetivos y tareas, Peckham 1.5, IAF/5Q, Schroer, porcentaje sobre ventas, paridad competitiva, entre otros. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo y los objetivos de marketing.
+
+<details>
+<summary>:arrow_forward:Ejemplo ilustrativo</summary>
+
+***
+
+La presupuestación publicitaria constituye uno de los aspectos más críticos y complejos en la gestión de marketing. A lo largo de la historia de la publicidad, se han desarrollado diversos métodos para determinar la inversión publicitaria óptima, cada uno con sus propios fundamentos teóricos y aplicaciones prácticas.
+
+El **método del porcentaje sobre ventas** representa uno de los enfoques más ampliamente utilizados en la práctica empresarial. Este método se puede implementar de dos formas fundamentales. 
+
+a. La primera modalidad se basa en las **ventas históricas**, donde el presupuesto publicitario se calcula aplicando un porcentaje predeterminado sobre las ventas del período anterior. Este enfoque se expresa mediante la fórmula A2 = f(S1), donde A2 representa el presupuesto publicitario para el próximo año, f es el porcentaje establecido y S1 las ventas del año anterior. Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones significativas al no considerar la interdependencia entre la publicidad y las ventas futuras, además de carecer de flexibilidad para adaptarse a cambios en el entorno de mercado.
+
+- Ventajas
+
+  - Ofrece simplicidad y facilidad de implementación
+  - Proporciona una base estable para la planificación financiera
+  - Permite comparaciones con estándares de la industria
+  - Facilita la administración y control presupuestario
+
+- Limitaciones
+
+  - No considera la naturaleza dinámica de la relación publicidad-ventas
+  - Ignora la interdependencia entre inversión publicitaria y resultados comerciales
+  - Carece de flexibilidad para adaptarse a cambios del mercado
+  - Puede perpetuar situaciones de subinversión o sobreinversión
+  - Basa decisiones futuras en datos históricos, lo que puede ser poco apropiado en mercados cambiantes
+
+b. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en las **ventas proyectadas**, expresada como A2 = f(S2), donde S2 representa las ventas previstas para el próximo período. Esta variante resulta más lógica desde una perspectiva de planificación, ya que vincula la inversión publicitaria con el período que pretende influenciar. Los porcentajes típicos en la industria oscilan entre el 2% y 5% de las ventas, aunque estos valores pueden variar significativamente según el sector y las condiciones del mercado.
+
+- Ventajas
+
+  - Vincula la inversión con el período que pretende influenciar
+  - Permite una planificación más proactiva
+  - Considera las expectativas futuras del mercado
+  - Se alinea mejor con los objetivos de crecimiento
+
+- Limitaciones
+
+  - Depende de la precisión de las proyecciones de ventas
+  - Puede subestimar las necesidades publicitarias en mercados en crecimiento
+  - No considera necesariamente los movimientos competitivos
+  - Mantiene una visión simplificada de la relación publicidad-ventas
+
+La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria ("share of voice") y la participación de mercado. Peckham propone que las marcas nuevas deberían establecer su share of voice en un nivel 1.5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
+
+- Ventajas
+
+  - Basada en investigación empírica extensa
+  - Proporciona una guía específica para marcas nuevas
+  - Reconoce la relación entre share of voice y share de mercado
+  - Ofrece un marco cuantitativo para la toma de decisiones
+
+- Limitaciones
+
+  - Solo aplicable en categorías con correlación demostrable entre share of voice y share de mercado
+  - Requiere considerar el orden de entrada al mercado
+  - La distribución temporal de la inversión puede afectar significativamente los resultados
+  - Puede no ser aplicable en mercados muy dinámicos o emergentes
+
+El *método de paridad competitiva** introduce una perspectiva estratégica al establecer el presupuesto publicitario en relación con la participación de mercado y las acciones de la competencia. La fórmula del share of voice (ASV = AF/(AC + AF)) relaciona los gastos publicitarios de la empresa (AF) con los gastos de los competidores (AC). Este método resulta particularmente útil en mercados maduros con posiciones competitivas estables, aunque puede ignorar factores importantes como cambios en los hábitos de consumo y condiciones económicas generales.
+
+- Ventajas
+
+  - Considera el contexto competitivo
+  - Útil en mercados maduros y estables
+  - Proporciona un marco de referencia estratégico
+  - Ayuda a mantener posiciones competitivas establecidas
+
+- Limitaciones
+
+  - Ignora cambios en hábitos de consumo
+  - No considera condiciones económicas generales
+  - Puede perpetuar niveles de gasto ineficientes de la industria
+  - Asume que los competidores toman decisiones racionales
+  - Puede no ser apropiado para marcas que buscan cambiar su posición en el mercado
+
+El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costos asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
+
+- Ventajas
+
+  - Vincula directamente actividades con resultados esperados
+  - Enfoque sistemático y racional
+  - Favorece la planificación estratégica
+  - Permite mejor control y evaluación de resultados
+  - Preferido por grandes anunciantes por su rigor
+
+- Limitaciones
+
+  - Dificultad para establecer relaciones precisas entre exposición y efecto
+  - Puede resultar complejo y costoso de implementar
+  - Requiere objetivos muy bien definidos
+  - La relación entre tareas y objetivos no siempre es clara o directa
+
+Finalmente, el **método de "todo lo que se pueda permitir"**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
+
+La selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing y los recursos disponibles. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
+
+***
+
+</details>
 
 **¿Cuál es la distribución adecuada del presupuesto entre medios?** Es fundamental determinar la asignación presupuestaria entre los diferentes canales, considerando, por ejemplo:
 
