@@ -32,48 +32,6 @@ library(mediaPlanR)
 
 ***
 
-
-
-| Componente | Descripción Detallada |
-|------------|---------------------|
-| 1. Conocimiento del Mercado y Audiencia | - Análisis del tamaño del mercado y demanda del producto/servicio
-- Perfil detallado del público objetivo (demografía, psicografía)
-- Hábitos de consumo de medios del target
-- Análisis de competidores y sus estrategias
-- Presión competitiva del entorno |
-| 2. Objetivos y Estrategia | - Objetivos SMART de marketing y comunicación
-- Metas específicas de campaña (notoriedad, actitud, acción)
-- Alineación con objetivos globales de marketing
-- Estrategia creativa y mensaje
-- Share of Voice (SOV) deseado |
-| 3. Selección de Medios y Canales | - Evaluación de efectividad por medio
-- Análisis de audiencia útil
-- Combinación óptima de medios tradicionales y digitales
-- Cobertura y frecuencia efectiva mínima (MEF)
-- Características y limitaciones de cada medio
-- Definición de KPIs específicos por objetivo |
-| 4. Implementación y Evaluación | - Aspectos operativos de implementación
-- Monitoreo continuo
-- Medición pre-test y durante campaña
-- Evaluación de ROI y ROAS
-- Ajustes basados en resultados
-- Integración con IMC |
-| 5. Presupuesto y Gestión Financiera | - Métodos de determinación presupuestaria
-- Distribución entre medios (principal, apoyo, tácticos)
-- Métricas de eficiencia (CPM, CPC, CPL)
-- Control de costes y optimización
-- Sistema de reporting financiero
-- Análisis de economías de escala |
-
-
-
-
-
-
-
-
-
-
 Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de la planificación en medios tradicionales.
 
 ***
@@ -85,6 +43,14 @@ Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de 
 Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca _conectar_ con aquellas **_en el momento y lugar precisos_**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (por ejemplo, ROAS o _Return On Ad Spend_).
 
 Para el logro de los objetivos y el retorno de la inversión se debe reflexionar en torno a cinco bloques clave. Véase la siguiente tabla.
+
+| Componente | Descripción Detallada |
+|------------|---------------------|
+| Público Objetivo | **Base del plan de medios**: • Análisis demográfico: edad, género, ubicación, nivel de ingresos • Psicografía: valores, intereses, estilo de vida • Hábitos de consumo de medios • Comportamiento de compra • Análisis de mercado y presión competitiva |
+| Objetivos | **Metas claramente definidas y medibles (SMART)**: • Notoriedad (memoria): aumentar reconocimiento de marca • Actitud: mejorar valoración del uso de la marca • Predisposición a la compra: aumentar intención de compra • Alineación con objetivos globales de marketing |
+| Presupuesto | **Planificación financiera estratégica**: • Métodos de determinación (objetivos y tareas, Peckham, IAF/5Q) • Distribución entre medios (principal 40-50%, apoyo 20-30%) • ROI / ROAS esperado por soporte • Control de costes y optimización |
+| Canales de Medios | **Ecosistema de medios integrado**: • Tradicionales: TV, radio, prensa, cine • Digitales: redes sociales, search, display, email • Exterior: vallas, mobiliario urbano, transit • Métricas: alcance, frecuencia efectiva, afinidad, coste por impacto |
+| Programación | **Planificación temporal y evaluación**: • Estacionalidad del producto/servicio • Hábitos/timing de consumo del target • Actividad de la competencia • Implementación y monitoreo continuo • Medición de KPIs y ajustes • Evaluación pre-test y durante campaña |
 
 | Componente | Descripción Detallada (ejemplos) |
 |------------|---------------------|
