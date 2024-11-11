@@ -30,6 +30,72 @@ devtools::install_github("majesus/mediaPlanR", force = TRUE)
 library(mediaPlanR)
 ```
 
+<details>
+<summary>:arrow_forward:Ejercicio de prueba</summary>
+
+#------------------------------------------------------------#
+# Primero instalamos tidyverse si no lo tienes instalado
+install.packages("tidyverse")
+
+# Luego instalamos devtools si no lo tienes (necesario para instalar mediaPlanR)
+install.packages("devtools")
+
+# Finalmente instalamos mediaPlanR usando devtools
+devtools::install_github("Holdols/mediaPlanR")
+#------------------------------------------------------------#
+
+# Cargamos las bibliotecas
+library(tidyverse)
+library(mediaPlanR)
+
+datos <- readr::read_csv(file = "data/datos_medios.csv", show_col_types = FALSE)
+head(datos)
+names(datos)
+
+# Ejemplo 1: Usando solo vectores
+resultado <- calcular_metricas_medios(
+  soportes = c("El País", "El Mundo"),
+  audiencias = c(1520000, 780000),
+  tarifas = c(39800, 35600),
+  ind_utilidad = c(1.2, 1.1),
+  pob_total = 39500000
+)
+resultado
+
+# Ejemplo 2: Usando CSV con nombres de columnas por defecto
+resultado <- calcular_metricas_medios(
+  file = "data/datos_medios.csv",
+  soportes = "soportes",
+  audiencias = "audiencias",
+  tarifas = "tarifas",
+  ind_utilidad = "indices_utilidad",
+  pob_total = 39500000
+)
+resultado
+
+#------------------------------------------------------------#
+
+head(datos)
+?calc_sainsbury
+
+datos_filter <- datos %>%
+  filter(soportes %in% c("El Pais", "El Mundo", "As", "La Vanguardia")) %>%
+  glimpse()
+
+calc_sainsbury(datos_filter$audiencias, 39500000)
+
+# Comprobación:
+
+v <- c(797863.0, 794822.2, 417843.0, 542975.1) / 39500000
+v <- 1 - v
+v <- prod(v)
+cobertura <- (1 - v) * 39500000
+cobertura
+
+#------------------------------------------------------------#
+
+</details>
+
 ***
 
 Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de la planificación en medios tradicionales.
