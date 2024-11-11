@@ -1629,17 +1629,37 @@ Donde:
 #### Aplicación de la función:
 
 ```R
-audiencias <- c(300000, 400000, 200000)  
-pob_total <- 1000000                     
-resultado <- calc_sainsbury(audiencias, pob_total)
+> library(mediaPlanR)
+> audiencias <- c(300000, 400000, 200000)  
+> pob_total <- 1000000                     
+> resultado <- calc_sainsbury(audiencias, pob_total)
+> resultado
 
-# Examinar resultados
-print(paste("Cobertura total:", resultado$reach$porcentaje, "%"))
-print(resultado$distribucion$personas)    
+MODELO SAINSBURY
+================
+Descripción: Modelo que considera independencia entre soportes y heterogeneidad de soportes
 
-# Verificar suma de distribuciones
-sum_dist <- sum(resultado$distribucion$porcentaje)/100
-print(paste("Suma distribución:", round(sum_dist, 4)))
+MÉTRICAS PRINCIPALES:
+--------------------
+Cobertura total: 66.40% (664000 personas)
+
+DISTRIBUCIÓN DE CONTACTOS:
+-------------------------
+(Porcentaje de población que recibe exactamente N contactos)
+1 contacto: 45.20% (452000 personas)
+2 contactos: 18.80% (188000 personas)
+3 contactos: 2.40% (24000 personas)
+
+DISTRIBUCIÓN ACUMULADA:
+----------------------
+(Porcentaje de población que recibe N o más contactos)
+≥ 1 contacto: 66.40% (664000 personas)
+≥ 2 contactos: 21.20% (212000 personas)
+≥ 3 contactos: 2.40% (24000 personas)
+
+RESUMEN ESTADÍSTICO:
+-------------------
+Promedio de contactos por individuo alcanzado: 1.36
 ```
 
 ### Modelo Binomial (`calc_binomial`)
