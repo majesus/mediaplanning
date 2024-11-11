@@ -517,7 +517,7 @@ En suma, el valor MaxEF debe ser estimado en tanto que:
 
 ***
 
-### Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
+### C. Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
 
 La frecuencia efectiva mínima (MEF) se puede determinar mediante la fórmula:
 
