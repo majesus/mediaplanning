@@ -49,9 +49,7 @@ devtools::install_github("Holdols/mediaPlanR")
 library(tidyverse)
 library(mediaPlanR)
 
-datos <- readr::read_csv(file = "data/datos_medios.csv", show_col_types = FALSE)
-head(datos)
-names(datos)
+#------------------------------------------------------------#
 
 # Ejemplo 1: Usando solo vectores
 resultado <- calcular_metricas_medios(
@@ -64,6 +62,11 @@ resultado <- calcular_metricas_medios(
 resultado
 
 # Ejemplo 2: Usando CSV con nombres de columnas por defecto
+
+datos <- readr::read_csv(file = "data/datos_medios.csv", show_col_types = FALSE)
+head(datos)
+names(datos)
+
 resultado <- calcular_metricas_medios(
   file = "data/datos_medios.csv",
   soportes = "soportes",
@@ -76,6 +79,8 @@ head(resultado)
 
 #------------------------------------------------------------#
 
+# Ejemeplo 3: Aplicando Sainsbury simplificado
+
 head(datos)
 ?calc_sainsbury
 
@@ -85,7 +90,7 @@ datos_filter <- datos %>%
 
 calc_sainsbury(datos_filter$audiencias, 39500000)
 
-# Comprobación:
+# Comprobación 'a mano':
 
 v <- c(797863, 794822, 417843, 542975) / 39500000
 v <- 1 - v
