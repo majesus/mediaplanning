@@ -1,8 +1,4 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
+
 # Herramientas para la Planificación de Medios Publicitarios
 
 Autor: Manuel J. Sánchez Franco
