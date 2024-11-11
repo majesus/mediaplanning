@@ -1441,7 +1441,7 @@ RESUMEN ESTADÍSTICO:
 -------------------
 Promedio de contactos por individuo alcanzado: 3.12
 Media teórica de la distribución beta: 0.500
-```R
+```
 
 ***
 
