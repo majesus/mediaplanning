@@ -153,7 +153,7 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 ## :red_square:Conceptos básicos de la planificación de medios
 
-### :black_square_button:Métricas relativas a la población:
+### :red_square_button:Métricas relativas a la población:
 
 #### A. BDI / CDI
 
