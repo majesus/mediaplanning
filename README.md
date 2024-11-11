@@ -153,7 +153,7 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 ## :red_square:Conceptos básicos de la planificación de medios
 
-### :red_square_button:Métricas relativas a la población:
+### :o:Métricas relativas a la población:
 
 #### A. BDI / CDI
 
@@ -225,7 +225,7 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 
 ***
 
-### Métricas relativas a los soportes:
+### :o:Métricas relativas a los soportes:
 
 **Audiencia o Audiencia Bruta**  
 Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil o la cobertura.
@@ -266,7 +266,7 @@ Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Caracter
 - Representa una oportunidad de _atención_, no la atención efectiva
 - Es la unidad básica para medir la intensidad de una campaña
 
-### Métricas de cobertura y frecuencia
+### :o:Métricas de cobertura y frecuencia
 
 **Alcance o Cobertura (Reach)**  
 Número absoluto (o relativo) de individuos expuestos al menos una vez (≥ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
@@ -322,7 +322,7 @@ Representa el 1% de la población alcanzada en caso de realizar una inserción e
 - 1 GRP significa que el plan de medios y soportes alcanza al 1% del público (o target)
 - Se calcula también multiplicando la cobertura en % por la frecuencia media
 
-### Métricas de eficiencia y costes
+### :o:Métricas de eficiencia y costes
 
 **CPM (Coste Por Mil)**  
 Coste de alcanzar a mil personas de la audiencia o de la cobertura alcanzada. Características:
@@ -348,7 +348,7 @@ Representa la cuota de voz o presencia publicitaria de una marca en comparación
 - Permite comparar la presencia mediática entre competidores o medios en que se programa
 - Es un indicador clave del esfuerzo publicitario relativo
 
-### Conceptos avanzados de planificación
+### :o:Métricas avanzadas de planificación
 
 **Ciclo Publicitario**  
 Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
