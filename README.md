@@ -1702,12 +1702,38 @@ Donde:
 #### Aplicación de la función:
 
 ```R
-audiencias <- c(300000, 400000, 200000)
-pob_total <- 1000000
-resultado <- calc_binomial(audiencias, pob_total)
+> library(mediaPlanR)
+> audiencias <- c(300000, 400000, 200000)  
+> pob_total <- 1000000                     
+> resultado <- calc_binomial(audiencias, pob_total)
+> resultado
 
-print(paste("Cobertura total:", resultado$reach$porcentaje, "%"))
-print(paste("Probabilidad media:", resultado$probabilidad_media))
+MODELO BINOMIAL
+===============
+Descripción: Modelo que asume independencia entre soportes y homogeneidad
+
+MÉTRICAS PRINCIPALES:
+--------------------
+Cobertura total: 65.70% (657000 personas)
+Probabilidad media de exposición: 0.300
+
+DISTRIBUCIÓN DE CONTACTOS:
+-------------------------
+(Porcentaje de población que recibe exactamente N contactos)
+1 contacto: 44.10% (441000 personas)
+2 contactos: 18.90% (189000 personas)
+3 contactos: 2.70% (27000 personas)
+
+DISTRIBUCIÓN ACUMULADA:
+----------------------
+(Porcentaje de población que recibe N o más contactos)
+≥ 1 contacto: 65.70% (657000 personas)
+≥ 2 contactos: 21.60% (216000 personas)
+≥ 3 contactos: 2.70% (27000 personas)
+
+RESUMEN ESTADÍSTICO:
+-------------------
+Promedio de contactos por individuo alcanzado: 1.37
 ```
 
 ### Modelo Beta-Binomial (`calc_beta_binomial`)
