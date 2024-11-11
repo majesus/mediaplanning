@@ -153,9 +153,9 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 ## :red_square:Conceptos básicos de la planificación de medios
 
-### Métricas relativas a la población:
+### :black_square_button:Métricas relativas a la población:
 
-#### BDI / CDI
+#### A. BDI / CDI
 
 > El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
@@ -201,7 +201,7 @@ Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a 
 
 ***
 
-#### Coeficiente (índice) de afinidad
+#### B. Coeficiente (índice) de afinidad
 
 > El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con la población considerada en su conjunto. 
 
