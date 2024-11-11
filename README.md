@@ -1357,6 +1357,8 @@ $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
 La principal limitación del concepto de frecuencia media en la planificación de medios es que las estimaciones de frecuencia proporcionadas por los programas de planificación son abstracciones estrictamente sin sentido práctico. Estas simplemente resumen una amplia distribución, donde pocos valores están realmente cercanos al "promedio". Por ejemplo, si especificamos una frecuencia promedio semanal de 5 OTS, el plan probablemente solo entregará 5 OTS en una minoría de los casos. Esto significa que la frecuencia media es un indicador poco fiable y potencialmente engañoso para la planificación de medios, ya que no refleja la realidad de la exposición que experimentará la mayoría de la audiencia. En otras palabras, usar promedios de frecuencia puede dar una falsa sensación de precisión en la planificación de medios, cuando en realidad estamos trabajando con una distribución mucho más dispersa y variable de exposiciones reales al mensaje publicitario.
 
+![FE_Ostrow_1982](./img/img_frequency_distribution.png)
+
 ### Distribución de contactos
 
 > Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante el ciclo publicitario. 
