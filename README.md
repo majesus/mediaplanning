@@ -32,6 +32,48 @@ library(mediaPlanR)
 
 ***
 
+
+
+| Componente | Descripción Detallada |
+|------------|---------------------|
+| 1. Conocimiento del Mercado y Audiencia | - Análisis del tamaño del mercado y demanda del producto/servicio
+- Perfil detallado del público objetivo (demografía, psicografía)
+- Hábitos de consumo de medios del target
+- Análisis de competidores y sus estrategias
+- Presión competitiva del entorno |
+| 2. Objetivos y Estrategia | - Objetivos SMART de marketing y comunicación
+- Metas específicas de campaña (notoriedad, actitud, acción)
+- Alineación con objetivos globales de marketing
+- Estrategia creativa y mensaje
+- Share of Voice (SOV) deseado |
+| 3. Selección de Medios y Canales | - Evaluación de efectividad por medio
+- Análisis de audiencia útil
+- Combinación óptima de medios tradicionales y digitales
+- Cobertura y frecuencia efectiva mínima (MEF)
+- Características y limitaciones de cada medio
+- Definición de KPIs específicos por objetivo |
+| 4. Implementación y Evaluación | - Aspectos operativos de implementación
+- Monitoreo continuo
+- Medición pre-test y durante campaña
+- Evaluación de ROI y ROAS
+- Ajustes basados en resultados
+- Integración con IMC |
+| 5. Presupuesto y Gestión Financiera | - Métodos de determinación presupuestaria
+- Distribución entre medios (principal, apoyo, tácticos)
+- Métricas de eficiencia (CPM, CPC, CPL)
+- Control de costes y optimización
+- Sistema de reporting financiero
+- Análisis de economías de escala |
+
+
+
+
+
+
+
+
+
+
 Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de la planificación en medios tradicionales.
 
 ***
