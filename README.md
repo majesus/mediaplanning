@@ -72,7 +72,7 @@ resultado <- calcular_metricas_medios(
   ind_utilidad = "indices_utilidad",
   pob_total = 39500000
 )
-resultado
+head(resultado)
 
 #------------------------------------------------------------#
 
@@ -87,7 +87,7 @@ calc_sainsbury(datos_filter$audiencias, 39500000)
 
 # Comprobación:
 
-v <- c(797863.0, 794822.2, 417843.0, 542975.1) / 39500000
+v <- c(797863, 794822, 417843, 542975) / 39500000
 v <- 1 - v
 v <- prod(v)
 cobertura <- (1 - v) * 39500000
@@ -95,7 +95,6 @@ cobertura
 
 #------------------------------------------------------------#
 ```
-
 </details>
 
 ***
