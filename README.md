@@ -31,7 +31,7 @@ library(mediaPlanR)
 ```
 
 <details>
-<summary>:arrow_forward:Ejercicio de prueba</summary>
+<summary>:arrow_forward:Ejemplo ilustrativo</summary>
 
 ```R
 #------------------------------------------------------------#
