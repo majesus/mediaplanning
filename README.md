@@ -41,8 +41,11 @@ install.packages("tidyverse")
 # Luego instalamos devtools si no lo tienes (necesario para instalar mediaPlanR)
 install.packages("devtools")
 
+# Cargamos devtools
+library(devtools)
+
 # Finalmente instalamos mediaPlanR usando devtools
-devtools::install_github("Holdols/mediaPlanR")
+devtools::install_github("majesus/mediaPlanR")
 #------------------------------------------------------------#
 
 # Cargamos las bibliotecas
