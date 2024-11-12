@@ -323,7 +323,9 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
   - La suposición básica de una relación lineal directa entre publicidad y ventas podría no ser cierta
   - La presupuestación podría ser demasiado vulnerable a revisiones ya que la publicidad suele ser el elemento de coste más flexible
   
-![A_S_budget](./img/img_A_S_budget.png)
+<div align="center">
+<img src="./img/img_A_S_budget.png" />
+</div>
 
 El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costes asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
 
