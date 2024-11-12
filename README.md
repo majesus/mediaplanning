@@ -306,6 +306,25 @@ El **método de paridad competitiva** introduce una perspectiva estratégica al 
   - Asume que los competidores toman decisiones racionales
   - Puede no ser apropiado para marcas que buscan cambiar su posición en el mercado
 
+El **método ratio publicidad/ventas** representa el enfoque más utilizado para determinar presupuestos publicitarios. Este método considera los gastos publicitarios como parte integral del presupuesto de marketing de un producto, donde los fondos se establecen como un coste de hacer negocios. Los porcentajes típicos en la industria oscilan entre el 2% y 9% de las ventas, aunque estos valores pueden variar significativamente según el sector.
+
+- Ventajas
+
+  - Es auto-correctivo respecto al rendimiento de ventas y mantiene un margen de beneficio consistente para la marca
+  - Resulta relativamente fácil de gestionar la asignación presupuestaria
+  - La relación es fácilmente comprensible y generalmente satisface los intereses tanto del equipo financiero como de marketing
+  - Opera con un sistema de incentivos implícito donde el aumento de ventas genera fondos adicionales para publicidad agresiva, mientras que la marca se penaliza por ventas bajas
+
+- Limitaciones
+
+  - Los requerimientos para un programa publicitario no siempre siguen directamente a las ventas, particularmente   - cuando las ventas de la marca están disminuyendo
+  - Se requiere considerable información histórica para determinar el ratio correcto
+  - Se deberían usar ratios variables por área, lo que requiere análisis exhaustivos
+  - La suposición básica de una relación lineal directa entre publicidad y ventas podría no ser cierta
+  - La presupuestación podría ser demasiado vulnerable a revisiones ya que la publicidad suele ser el elemento de coste más flexible
+  
+![A_S_budget](./img/img_A_S_budget.png)
+
 El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costes asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
 
 Los objetivos pueden orientarse hacia los medios (como alcanzar ciertos niveles de alcance y frecuencia durante un período específico), hacia la publicidad/aprendizaje (memoria, actitud e intención) y hacia el marketing (como generar un determinado volumen de prueba de producto), o una combinación. 
@@ -1105,11 +1124,11 @@ La efectividad de este patrón radica en su alineación con el comportamiento re
 
 #### Implementación y Estructura
 
-La estructura básica del Regular Purchase Cycle Pattern alterna períodos de actividad publicitaria con períodos de _hiatus_. La planificación debe considerar tres elementos fundamentales. Primero, el timing de la actividad publicitaria debe anticiparse ligeramente al momento de compra típico, permitiendo influir en la decisión cuando el consumidor está comenzando a considerar la recompra. Segundo, la intensidad de la comunicación debe adaptarse al proceso de decisión de compra característico de la categoría. Tercero, la continuidad de la comunicación debe mantener un equilibrio entre la necesidad de estar presente en el momento crítico y la eficiencia en la inversión publicitaria.
+La estructura básica del Regular Purchase Cycle Pattern alterna períodos de actividad publicitaria con períodos de _hiatus_. La planificación debe considerar tres elementos fundamentales. Primero, el timing de la actividad publicitaria debe anticiparse ligeramente al momento de compra típico (reconocimiento de la necesidad), permitiendo influir en la decisión cuando el consumidor está comenzando a considerar la recompra. Segundo, la intensidad de la comunicación debe adaptarse al proceso de decisión de compra característico de la categoría. Tercero, la continuidad de la comunicación debe mantener un equilibrio entre la necesidad de estar presente en el momento crítico y la eficiencia en la inversión publicitaria.
 
 #### Consideraciones Tácticas y Carryover Effect
 
-Un elemento crucial en este patrón es el _carryover effect_ (efecto residual). Durante los períodos de _hiatus_, las ventas pueden mantenerse gracias al efecto residual de la publicidad anterior y al refuerzo que proporcionan las actividades promocionales en el punto de venta. Este fenómeno, conocido como "histéresis publicitaria", permite optimizar la inversión sin comprometer la efectividad.
+Un elemento crucial en este patrón es el _carryover effect_ (efecto residual). Durante los períodos de _hiatus_, las ventas pueden mantenerse gracias al efecto residual de la publicidad anterior y al refuerzo que proporcionan las actividades promocionales en el punto de venta. Este fenómeno, conocido como "histéresis publicitaria", permite optimizar la inversión sin comprometer la efectividad., en tanto que permite aprovechar la inercia de marca en tiempos de recortes presupuestarios, pues el "residuo" de campañas anteriores aún genera retorno a medio plazo.
 
 La selección de medios debe priorizar aquellos que mejor se adapten al ciclo de compra identificado. Para productos de compra frecuente, los medios digitales y punto de venta pueden ser especialmente relevantes por su capacidad de activación inmediata, mientras que los medios masivos tradicionales pueden cumplir un rol de mantenimiento de _awareness_.
 
@@ -1257,11 +1276,11 @@ Proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alca
 
 | Paso                                                | Cálculo                  | Resultado |
 |-----------------------------------------------------|--------------------------|-----------|
-| 1. Alcance bruto combinado                                | 30% + 20% + 15%          | 65%       |
+| 1. Alcance bruto combinado (impactos)                                | 30% + 20% + 15%          | 65%       |
 | 2. Restar duplicaciones                   | 65% - 5% - 3% - 2%       | 55%       |
 | 3. Añadir la triplicación (se restó tres veces) | 55% + 1% | 56%       |
 
-Así pues, se calcula el alcance neto de esta campaña en un 56%, y no en el 65% _bruto combinado_ inicial. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar estimar en exceso su impacto.
+Así pues, se calcula el alcance neto de esta campaña en un 56%. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar estimar en exceso su impacto.
 
 ### Duplicación
 
@@ -1271,7 +1290,7 @@ En la campaña _Tu_, se estimó una duplicación del 5% entre Instagram y Spotif
 
 ### Frecuencia media
 
-> Es el número promedio de veces que un individuo alcanzado se expone durante una campaña publicitaria. 
+> Es el número promedio de veces que un individuo alcanzado se expone durante un ciclo publicitario. 
 
 La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (≥ 1 OTS) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades _de ver el anuncio_ por persona de la cobertura.
 
@@ -1279,22 +1298,20 @@ La expresión matemática para el cálculo de la frecuencia media es la siguient
 
 $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
-La principal limitación del concepto de frecuencia media en la planificación de medios es que las estimaciones de frecuencia proporcionadas por los programas de planificación son abstracciones estrictamente sin sentido práctico. Estas simplemente resumen una amplia distribución, donde pocos valores están realmente cercanos al "promedio". Por ejemplo, si especificamos una frecuencia promedio semanal de 5 OTS, el plan probablemente solo entregará 5 OTS en una minoría de los casos. 
+La principal limitación del concepto de frecuencia media en la planificación de medios es que las estimaciones de frecuencia proporcionadas por los programas de planificación son abstracciones estrictamente sin sentido práctico. Estas simplemente resumen una amplia distribución, donde pocos valores están realmente cercanos al "promedio". Por ejemplo, si especificamos una frecuencia promedio semanal de 5 OTS, el plan pudiera entregar 5 OTS en una minoría de los casos. 
 
-La frecuencia media es pues un indicador poco fiable y potencialmente engañoso para la planificación de medios. No refleja necesariamente la realidad de la exposición que experimentará la mayoría de la cobertura. 
-
-En suma, usar promedios de frecuencia puede dar una falsa sensación de precisión en la planificación de medios, cuando en realidad estamos trabajando con una distribución mucho más dispersa y variable de exposiciones reales al mensaje publicitario.
+La frecuencia media es pues un indicador poco fiable y potencialmente engañoso para la planificación de medios. No refleja necesariamente la realidad de la exposición que experimentará la mayoría de la cobertura. En suma, usar promedios de frecuencia puede dar una falsa sensación de precisión en la planificación de medios, cuando en realidad estamos trabajando con una distribución mucho más dispersa y variable de exposiciones reales al mensaje publicitario.
 
 ![FE_Ostrow_1982](./img/img_frequency_distribution.png)
 <sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
-### Distribución de contactos
+### Distribución de exposición (o contactos)
 
 > Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante el ciclo publicitario. 
 
 Describe pues cómo se distribuyen las exposiciones entre la población (o la cobertura). Por ejemplo, la distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones, o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas. 
 
-Este concepto está relacionado con la frecuencia media; no obstante, la distribución de contactos proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva. En la campaña de ropa _TU_, la distribución de contactos fue la siguiente:
+Este concepto está relacionado con la frecuencia media. No obstante, la distribución de exposición proporciona una visión más detallada de cómo se alcanzan los niveles de frecuencia efectiva. En la campaña de ropa _TU_, la distribución de contactos fue la siguiente:
 
 Exclus. 1 vez: 40.000 personas
 
@@ -1303,11 +1320,11 @@ Exclus. 2 veces: 30.000 personas
 Exclus. 3 veces: 30.000 personas
 
 
-### Distribución de contactos acumulada
+### Distribución de exposición (o contactos) acumulada
 
-> Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, durante la campaña publicitaria. 
+> Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, es decir, ≥ i veces, durante la campaña publicitaria. 
 
-La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de su frecuencia media efectiva.
+La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de MEF.
 
 En la campaña de ropa _TU_, la distribución de contactos acumulada fue la siguiente:
 
@@ -1318,13 +1335,11 @@ En la campaña de ropa _TU_, la distribución de contactos acumulada fue la sigu
 +3 veces: 30.000 personas
 
 <details>
-<summary>:arrow_forward:Ejemplo ilustrativo de distribución de exposición</summary>
+<summary>:arrow_forward:Ejemplo ilustrativo de una distribución de exposición ficticia</summary>
 
 ***
 
-El análisis presentado utiliza el paquete mediaPlanR en R para modelar la distribución de exposición (y acumulada). 
-
-La función calc_beta_binomial implementa un modelo Beta-Binomial con tres parámetros principales: una audiencia tras la primera inserción (FIR) de 500.000 personas, una audiencia acumulada tras la segunda inserción (SIR) de 650.000 y un universo total de 1.000.000 de individuos, distribuidos en 5 niveles de exposición.
+El análisis presentado utiliza el paquete mediaPlanR en R para modelar la distribución de exposición (y acumulada). La función **calc_beta_binomial** implementa un modelo Beta-Binomial con tres parámetros principales: una audiencia tras la primera inserción (FIR) de 500.000 personas, una audiencia acumulada tras la segunda inserción (SIR) de 650.000 y un universo total de 1.000.000 de individuos, distribuidos en 5 niveles de exposición.
 
 Los resultados muestran que la campaña alcanza una cobertura total del 80,21% del universo (802.083 personas), con una distribución relativamente uniforme de contactos entre 1 y 5 exposiciones. La distribución acumulada revela que el 50% de la población recibe 3 o más contactos, mientras que aproximadamente un 20% de la audiencia queda sin exposición. El modelo estima una frecuencia media de 3.12 contactos por individuo alcanzado.
 
@@ -1371,15 +1386,13 @@ Promedio de contactos por individuo alcanzado: 3.12
 Media teórica de la distribución beta: 0.500
 ```
 
-***
-
 </details>
 
 ***
 
 ## :red_square:mediaPlanR: Funciones de mediaPlanR
 
-Modelos:
+**Modelos:**
 - calc_sainsbury() 
 - calc_beta_binomial()     
 - calc_binomial() 
@@ -1388,18 +1401,18 @@ Modelos:
 - calc_metheringham() 
 - calc_R1_R2() 
 
-Métricas:
+**Métricas:**
 - calcular_metricas_medios() 
 - calc_cpm()                  
 - calc_grps()  
 - plot_grp_metricas()  
 
-Optimización:
+**Optimización:**
 - optimizar_d()               
 - optimizar_dc()              
 - optimize_media_plan() 
 
-Aplicaciones Shiny:
+**Aplicaciones Shiny:**
 - run_aud_util_explorer()     
 - run_beta_binomial_explorer() 
 - run_reach_converg_explorer()
@@ -1410,7 +1423,7 @@ Aplicaciones Shiny:
 
 ### Fundamentos y Consideraciones Iniciales
 
-La elección de un modelo de estimación de cobertura y distribución requiere una comprensión profunda de las hipótesis subyacentes. Estas hipótesis, que simplifican la realidad para facilitar la modelización, tienen un impacto directo en la precisión de las estimaciones. En este capítulo, examinaremos las diferentes hipótesis y tipos de modelos disponibles.
+La elección de un modelo de estimación de cobertura y distribución de exposición requiere una comprensión de las hipótesis subyacentes. Estas hipótesis, que simplifican la realidad para facilitar la modelización, tienen un impacto directo en la precisión de las estimaciones. En este capítulo, examinaremos las diferentes hipótesis y tipos de modelos disponibles.
 
 ### Hipótesis sobre las Probabilidades de Exposición
 
@@ -1418,9 +1431,9 @@ La elección de un modelo de estimación de cobertura y distribución requiere u
 
 La hipótesis de estacionariedad asume que la probabilidad de exposición de un individuo a un soporte permanece constante a lo largo del tiempo. Esta hipótesis se puede desglosar en dos componentes:
 
-1. **Estacionariedad respecto a los individuos**: La probabilidad de exposición ($p_{ijk}$) de un individuo $j$ a la inserción $k$ en el soporte $i$ es constante para todas las inserciones $k$ en ese soporte.
+1. **Estacionariedad respecto a los individuos**: La probabilidad de que un individuo sea expuesto a una inserción publicitaria en particular no depende de si ha estado expuesto a inserciones anteriores en el mismo soporte.En otras palabras, para un individuo cualquiera, la exposición no varía según el contenido o momento dentro del mismo soporte. Por ejemplo, si una persona tiene una probabilidad del 20% de ver un anuncio en una revista, esa probabilidad será la misma independientemente de la página o número de anuncio en esa revista.
 
-2. **Estacionariedad respecto a las inserciones**: La probabilidad de exposición ($p_{ijk}$) de un individuo $j$ a la inserción $k$ en el soporte $i$ es idéntica para todos los individuos $j$ que consumen ese soporte.
+2. **Estacionariedad respecto a las inserciones**: La probabilidad de exposición de un individuo a una inserción no está influenciada por la probabilidad de exposición de otro individuo a la misma inserción. Esto significa que si una inserción tiene una probabilidad del 15% de ser vista por una persona, esa probabilidad será la misma para cualquier persona que consuma ese soporte, sin importar sus características individuales.
 
 #### Otras Hipótesis Fundamentales
 
@@ -1441,12 +1454,12 @@ Los modelos se pueden clasificar en tres categorías principales según su aplic
    - Diseñados para planes con $n$ inserciones en un único soporte
    - Focalizados en el efecto acumulativo de exposiciones repetidas
 
-2. **Modelos de Duplicación de Audiencias**
+2. **Modelos de Duplicación de Audiencias (o Cobertura neta)**
 
    - Aplicables a planes con una inserción en $n$ soportes diferentes
    - Centrados en el efecto de la exposición a través de múltiples soportes
 
-3. **Modelos de Audiencia Neta Acumulada**
+3. **Modelos de Cobertura Neta Acumulada**
 
    - Desarrollados para planes con $n$ inserciones en $m$ soportes diferentes
    - Combinan los efectos de acumulación y duplicación
@@ -1463,7 +1476,7 @@ Estos modelos se caracterizan por:
 
 **Limitaciones principales**:
 
-- No proporcionan información sobre la distribución de contactos
+- No proporcionan información sobre la distribución de exposición
 - No permiten determinar la campaña óptima al no considerar la frecuencia de exposición
 
 #### Modelos Estocásticos
@@ -1478,23 +1491,6 @@ Estos modelos se distinguen por:
 
 - Requieren hipótesis adicionales sobre la probabilidad individual
 - Las hipótesis específicas diferencian los distintos modelos estocásticos
-
-### Criterios para la Selección del Modelo
-
-La elección del modelo debe considerar múltiples factores:
-
-1. **Precisión de las Estimaciones**
-   - Evaluación del error en la estimación de cobertura
-   - Análisis del error en la distribución de contactos
-
-2. **Complejidad del Modelo**
-   - Balance entre simplicidad y precisión
-   - Evaluación del coste-beneficio de levantar hipótesis simplificadoras
-
-3. **Características del Plan de Medios**
-   - Audiencia bruta
-   - Niveles de acumulación y duplicación
-   - Tamaño relativo de los soportes
 
 ### Conclusiones
 
@@ -1513,7 +1509,9 @@ La comprensión de estos aspectos permite una elección informada que optimiza e
 
 ### Modelo de Sainsbury (`calc_sainsbury`)
 
-Implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange, para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte. 
+**Modelo de duplicación de audiencias o cobertura neta**
+
+La función calc_sainsbury() implementa el modelo de Sainsbury, desarrollado por E. J. Sansbury en la London Press Exchange, para calcular la cobertura y la distribución de contactos para un conjunto de soportes publicitarios y una única inserción por soporte. 
 
 El modelo considera la duplicación aleatoria, las probabilidades individuales de exposición homogéneas, y las probabilidades de exposición del soporte heterogéneas para una estimación más precisa de la cobertura y la distribución de contactos (y acumulada). De las dos últimas hipótesis se deriva que la probabilidad de que un individuo resulte expuesto al soporte i vendrá dado por el cociente entre la audiencia del soporte i (casos favorables) y la población (casos totales). Por su parte, de la asunción de la duplicación aleatoria se deriva que la probabilidad de exposición continuará siendo una variable Bernouilli con diferentes probabilidadades de exposición en cada soporte.
 
@@ -1592,7 +1590,9 @@ Promedio de contactos por individuo alcanzado: 1.36
 
 ### Modelo Binomial (`calc_binomial`)
 
-Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte. El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte. Las probabilidades de exposición son estacionarias respecto al tiempo.
+**Modelo de duplicación de audiencias o cobertura neta**
+
+La función calc_binomial() Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte. El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte. Las probabilidades de exposición son estacionarias respecto al tiempo.
 
 #### Características:
 - Cada individuo de la población tiene la misma probabilidad de exposición a un soporte i
@@ -1666,7 +1666,7 @@ Promedio de contactos por individuo alcanzado: 1.37
 
 ### Modelo Beta-Binomial (`calc_beta_binomial`)
 
-Implementa el modelo Beta-Binomial para calcular la audiencia neta acumulada y la distribución de contactos (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. 
+Implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y la distribución de exposición (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. 
 Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
 
 
