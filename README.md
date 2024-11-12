@@ -22,9 +22,6 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 
 # Instalar mediaPlanR
 devtools::install_github("majesus/mediaPlanR", force = TRUE)
-
-# Cargar el paquete mediaPlanR
-library(mediaPlanR)
 ```
 
 <details>
@@ -806,6 +803,8 @@ Los valores de corrección se presentan en la siguiente tabla. La tabla presenta
 ![FE_Ostrow_1982](./img/img_FEM_table.png)
 <sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
+***
+
 <details>
 <summary>:arrow_forward:Haz clic para mayor desarrollo del cálculo MEF</summary>
 
@@ -997,11 +996,11 @@ El patrón Blitz, aunque demandante en términos de recursos, representa una her
 
 #### Fundamentos y Aplicación
 
-El Wedge Pattern (Patrón de Cuña) representa el enfoque más común para el lanzamiento de nuevos productos, caracterizándose por una estrategia de intensidad decreciente que mantiene el alcance mientras ajusta la frecuencia. Es importante notar que este patrón se refiere específicamente al patrón de _expenditure_ (gasto) y no al patrón de alcance. La estrategia inicia con una alta intensidad publicitaria que se reduce gradualmente de manera estratégica.
+El Wedge Pattern (Patrón de Cuña) representa el enfoque más común para el lanzamiento de nuevos productos, caracterizándose por una estrategia de intensidad decreciente que mantiene el alcance mientras ajusta la frecuencia. Es importante notar que este patrón se refiere específicamente al patrón de _expenditure_ (gasto) y no al patrón de alcance.
 
 #### Estrategia y Desarrollo
 
-La lógica del Wedge Pattern se fundamenta en el comportamiento natural del consumidor frente a nuevos productos. La fase inicial de alta intensidad busca crear un fuerte conocimiento de marca (_brand awareness_) y facilitar el aprendizaje sobre los beneficios del producto (publicidad informacional) mientras se construye la imagen deseada (publicidad transformacional). Esta estrategia resulta particularmente efectiva para productos de compra regular, donde la prueba inicial puede conducir a la conversión de consumidores en _favorable brand switchers_ (consumidores que cambian favorablemente a la marca) o _brand loyals_ (consumidores leales a la marca).
+La lógica del Wedge Pattern se fundamenta en el comportamiento natural del consumidor frente a nuevos productos. La fase inicial de alta intensidad busca crear un fuerte conocimiento de marca (_brand awareness_) y facilitar el aprendizaje sobre los beneficios del producto (publicidad informacional) mientras se construye la imagen deseada (publicidad transformacional). Esta estrategia resulta particularmente efectiva para productos de compra regular, donde la prueba inicial puede conducir a la conversión de consumidores en _favorable brand switchers_ (consumidores favorables a la marca) o _brand loyals_ (consumidores leales a la marca).
 
 La eficiencia del patrón radica en reconocer que los consumidores que prueban y adoptan el producto en las fases iniciales requerirán menor frecuencia de exposición publicitaria en ciclos posteriores para mantener su estado de comunicación efectiva (_communication effects status_). Este principio permite una optimización natural de la inversión publicitaria a lo largo del tiempo.
 
@@ -1009,7 +1008,7 @@ La eficiencia del patrón radica en reconocer que los consumidores que prueban y
 
 El desarrollo del Wedge Pattern se estructura típicamente en tres fases principales. La primera fase establece una presencia contundente en el mercado, similar a un blitz inicial pero de menor duración. La segunda fase introduce una reducción gradual de la presión publicitaria, mientras que la tercera fase se centra en el mantenimiento estratégico de la presencia de marca.
 
-La planificación de medios evoluciona con cada fase, comenzando con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que prioriza los medios más eficientes en términos de coste-beneficio. Esta evolución debe mantener la cobertura neta mientras se ajusta la frecuencia de manera estratégica.
+La planificación de medios evoluciona con cada fase, comenzando con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que prioriza los medios más eficientes en términos de coste-beneficio. Esta evolución debe mantener la cobertura neta mientras se ajusta la frecuencia.
 
 #### Consideraciones Estratégicas
 
@@ -1031,6 +1030,8 @@ El Reverse-Wedge Pattern, también conocido como PI (Personal Influence) Pattern
 #### Estrategia y Principios
 
 La esencia del Reverse-Wedge/PI radica en su comprensión sofisticada de cómo se difunden las innovaciones en el mercado. El patrón reconoce que, para ciertos productos y servicios, la adopción exitosa depende más de la influencia personal y la validación social que de la simple exposición publicitaria masiva. La estrategia construye deliberadamente una base de _innovators_ (innovadores) y _early adopters_ (adoptadores tempranos) que, actuando como líderes de opinión, facilitarán la expansión hacia el mercado masivo.
+
+![FE_Ostrow_1982](./img/img_early_adopters.png)
 
 #### Implementación Práctica
 
