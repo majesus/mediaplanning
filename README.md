@@ -806,11 +806,101 @@ Los valores de corrección se presentan en la siguiente tabla. La tabla presenta
 ![FE_Ostrow_1982](./img/img_FEM_table.png)
 <sub>Nota: _La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos._</sub>
 
-Es importante tener presente que:
+<details>
+<summary>:arrow_forward:Haz clic para mayor desarrollo del cálculo MEF</summary>
 
-- En el caso de ser líder, LC + 1 es igual a 2 en cada caso.
-- En situaciones donde el competidor más grande (LC) aparece en un vehículo de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF: el valor del vehículo de atención debe corregirse de VA = 2 a VA = 1 en el caso de que nuestra marca también emplee un medio de baja atención. Esta corrección es necesaria para evitar una "doble duplicación" en el cálculo, ya que se asume que el competidor dominante ya ha duplicado su frecuencia para compensar la naturaleza del vehículo de baja atención, haciendo redundante mantener el valor original de VA = 2 en la fórmula. Otra opción es dividir por 2 el valor LC del competidor más grande.
-- El valor del competidor más grande (LC) se utiliza como base única en la fórmula y se ajusta posteriormente según los requerimientos de comunicación. Es importante destacar que el valor LC se incorpora solo una vez y no se duplica con cada ajuste. Por ejemplo, si una campaña requiere tanto recordación de marca como actitud transformacional, la fórmula sumará LC + 1 + 1, y no (LC+1) + (LC+1). Esta distinción es crucial para evitar una sobrestimación del efecto del competidor principal.
+***
+
+### Conceptos Clave en el Cálculo de MEF (Minimum Effective Frequency)
+
+### Vehicle Attention (VA)
+El concepto de atención al vehículo mediático se refiere al nivel de procesamiento cognitivo que un medio específico demanda de su audiencia. Se fundamenta en la capacidad del medio para captar y mantener la atención del espectador/lector/oyente.
+
+#### Medios de Alta Atención (VA=1)
+Son aquellos que requieren un compromiso activo y consciente del consumidor para su consumo:
+- TV en prime time
+- Revistas de lectura primaria (primary-reader magazines)
+- Periódicos de lectura primaria
+- Publicidad exterior estática (stationary outdoor)
+
+#### Medios de Baja Atención (VA=2)
+Son aquellos que típicamente se consumen de manera pasiva o como actividad secundaria:
+- TV fuera de prime time
+- Radio
+- Revistas y periódicos pass-along
+- Publicidad exterior móvil
+- Medios digitales de consumo rápido
+
+### Target Audience (TA)
+Se refiere a la clasificación de la audiencia según su relación actual con la marca y la categoría. Esta clasificación determina diferentes necesidades de exposición:
+
+#### Brand Loyals (BLs)
+- Son consumidores ya leales a la marca
+- No requieren ajuste adicional en la frecuencia
+- Su comportamiento de compra ya está establecido
+
+#### Favorable Brand Switchers (FBSs)
+- Son consumidores que alternan entre marcas pero tienen una actitud positiva hacia nuestra marca
+- Requieren al menos 2 exposiciones por ciclo
+- El objetivo es reforzar su preferencia existente
+
+#### Other-Brand Loyals (OBLs) y Other-Brand Switchers (OBSs)
+- Son consumidores leales a otras marcas o que alternan entre otras marcas
+- Requieren un ajuste adicional de +2 exposiciones
+- El objetivo es persuadirlos para cambiar sus preferencias actuales
+
+#### New Category Users (NCUs)
+- Son consumidores nuevos en la categoría
+- Requieren el máximo ajuste
+- Necesitan educación sobre la categoría y la marca
+
+### Communication Objectives (BA y BATT)
+Se refiere a los objetivos específicos de comunicación que la marca busca alcanzar:
+
+#### Brand Awareness (BA)
+- Reconocimiento de marca (brand recognition)
+- Es el nivel base de comunicación
+- Establece la familiaridad con la marca
+
+#### Brand Attitude (BATT)
+Se divide en dos tipos principales:
+
+##### Informational Brand Attitude
+- Busca comunicar beneficios funcionales
+- Requiere un ajuste adicional sobre el base
+- Se centra en aspectos racionales y características del producto
+
+##### Transformational Brand Attitude
+- Busca crear asociaciones emocionales y experienciales
+- Requiere el máximo ajuste
+- Se centra en aspectos psicológicos y sociales
+
+####  Personal Influence (PI)
+Se refiere al efecto multiplicador de la comunicación boca a boca y la influencia social:
+
+#### Alto Contacto (≥.25)
+- Significa que al menos una de cada cuatro personas expuestas comparte el mensaje
+- Reduce la necesidad de frecuencia publicitaria
+- Típico en productos con alto componente social
+
+#### Bajo Contacto (<.25)
+- Menor tasa de transmisión del mensaje entre personas
+- No permite reducir la frecuencia publicitaria
+- Típico en productos de consumo privado o bajo involucramiento social
+
+Consideraciones adicionales para el Cálculo del MEF:
+
+En la determinación del MEF (Minimum Effective Frequency), existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (Largest Competitor, LC) y los ajustes necesarios en diferentes contextos mediáticos.
+
+- Para marcas líderes del mercado, el cálculo debe considerar un ajuste de +2 exposiciones, es decir, la última columna es +2. Las marcas no líderes deben igualar la frecuencia del competidor más grande más una exposición adicional (LC + 1). Este ajuste varía según el contexto competitivo específico y no puede establecerse como un valor fijo.
+
+- En situaciones donde el competidor más grande utiliza vehículos de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF para evitar una "doble duplicación". En estos casos, existen dos opciones válidas: se puede corregir el valor del vehículo de atención de VA = 2 a VA = 1 cuando nuestra marca también emplea un medio de baja atención, o alternativamente, se puede dividir por 2 el valor LC del competidor más grande. Esta corrección es necesaria porque se asume que el competidor dominante ya ha duplicado su frecuencia para compensar la naturaleza del vehículo de baja atención.
+
+- El valor del competidor más grande (LC) funciona como base única en la fórmula y se ajusta posteriormente según los requerimientos específicos de comunicación. Es crucial entender que el valor LC se incorpora una sola vez y no se duplica con cada ajuste adicional. Por ejemplo, en una campaña que requiere tanto recordación de marca como actitud transformacional, la fórmula sumará LC + 1 + 1, evitando la duplicación errónea de (LC+1) + (LC+1). Esta distinción es fundamental para prevenir una sobrestimación del efecto del competidor principal en la frecuencia necesaria.
+
+La implementación correcta de estos ajustes requiere una comprensión profunda del contexto competitivo y los objetivos de comunicación específicos. La fórmula del MEF, con sus diversos componentes y ajustes, debe verse como una herramienta de planificación flexible que se adapta a las condiciones particulares de cada situación de mercado.
+
+</details>
 
 ***
 
@@ -819,19 +909,41 @@ Es importante tener presente que:
 
 ***
 
-#### Casos Prácticos de Cálculo de Frecuencia Efectiva Mínima (MEF)
+## Caso Práctico: Cálculo de Frecuencia Efectiva Mínima (MEF): Lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
 
-**Lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales**
+### Contexto de Mercado
 
-La empresa láctea NutriHealth se enfrenta al desafiante lanzamiento de **VitaBiome+**, un nuevo yogur probiótico premium, en un mercado altamente competitivo valorado en $2.500 millones anuales y con un crecimiento sostenido del 12%. El mercado actual está dominado por Activia, con un 45% de participación, seguido por Yakult con un 25%, mientras que el 30% restante está fragmentado entre diversos competidores menores. Esta estructura de mercado es crucial para nuestro cálculo del MEF, ya que Activia, como líder indiscutible, se convierte en nuestro "Largest Competitor" (LC).
+NutriHealth planea lanzar VitaBiome+, un yogur probiótico premium, en un mercado valorado en $2.500 millones anuales. El escenario competitivo muestra un claro dominio de Activia con un 45% de participación de mercado, seguido por Yakult con un 25%, mientras que el 30% restante se encuentra fragmentado entre diversos competidores menores.
 
-VitaBiome+ representa una innovación significativa en el segmento premium, respaldada por una cepa probiótica patentada y un contenido proteico 30% superior a la competencia. El producto se comercializará a $4.99 por unidad, posicionándose un 80% por encima del precio promedio del mercado. La distribución se realizará exclusivamente a través de cadenas premium y tiendas especializadas, apuntando a un consumidor educado y con alto poder adquisitivo.
+### Características del Producto y Estrategia
 
-Los objetivos de marketing establecen alcanzar un 5% de participación de mercado en los primeros seis meses. Dado que competimos contra un líder establecido (Activia), necesitamos enfocarnos en _brand recall_ más que en simple reconocimiento, ya que debemos superar la frecuencia del competidor líder para asegurar que nuestra marca sea recordada en el momento de la decisión de compra.
+VitaBiome+ se posiciona como un producto premium, respaldado por una cepa probiótica patentada y un contenido proteico 30% superior al mercado. Con un precio de $4.99, se ubica un 80% por encima del promedio del mercado, comercializándose exclusivamente a través de canales premium y tiendas especializadas. Esta estrategia apunta a un consumidor educado y con alto poder adquisitivo.
 
-La estrategia de medios se concentra principalmente en revistas de salud y bienestar, que recibirán el 60% del presupuesto total de $2.5 millones. Los suplementos dominicales recibirán un 25% del presupuesto, mientras que el 15% restante se destinará a revistas médicas profesionales. La campaña empleará principalmente formatos de páginas dobles a color, ys e extenderá durante los meses de duración del ciclo publicitario.
+### Plan de Medios
 
-Calcula el valor MEF: ______________ impactos / persona
+La inversión publicitaria total asciende a $2.5 millones, distribuidos estratégicamente en tres pilares principales: revistas de salud y bienestar, que constituyen el medio primario con un 60% del presupuesto; suplementos dominicales, que reciben un 25%; y revistas médicas profesionales, que completan el plan con un 15% de la inversión.
+
+### Información Clave para el Cálculo del MEF
+
+**Atención al Medio (Vehicle Attention)**
+
+El plan combina medios primarios especializados (revistas de salud y profesionales) con medios secundarios (suplementos dominicales), creando un mix que requiere una consideración cuidadosa del factor VA.
+
+**Audiencia Objetivo (Target Audience)**
+
+El mercado está compuesto principalmente por consumidores actuales de yogures funcionales, considerados Other Brand Loyals, con un perfil socioeconómico alto y educado. El objetivo es convertir a estos consumidores de marcas establecidas.
+
+**Objetivos de Comunicación**
+
+La estrategia requiere un enfoque dual: brand recall como objetivo principal, necesario para superar al líder del mercado, complementado con un componente transformacional para establecer el posicionamiento premium del producto.
+
+**Influencia Personal (Personal Influence)**
+
+La categoría de alimentos funcionales premium se caracteriza por un alto componente de recomendación y respaldo profesional, con un coeficiente de contacto documentado de 0.3 para productos similares.
+
+**Información Adicional Relevante**
+
+Activia, como competidor principal (LC), mantiene una frecuencia media de 3 impactos semanales en sus medios principales. El ciclo de compra típico en la categoría es quincenal, y los estudios de mercado indican una alta sensibilidad a la recomendación profesional.
 
 </details>
 
