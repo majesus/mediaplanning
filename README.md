@@ -2,6 +2,7 @@
 # Herramientas para la Planificación de Medios Publicitarios
 
 Autor: Manuel J. Sánchez Franco
+Email: <majesus@us.es>
 
 ## Descripción General
 
@@ -30,18 +31,6 @@ library(mediaPlanR)
 <summary>:arrow_forward:Ejemplo ilustrativo</summary>
 
 ```R
-#------------------------------------------------------------#
-# Primero instalamos tidyverse si no lo tienes instalado
-install.packages("tidyverse")
-
-# Luego instalamos devtools si no lo tienes (necesario para instalar mediaPlanR)
-install.packages("devtools")
-
-# Cargamos devtools
-library(devtools)
-
-# Finalmente instalamos mediaPlanR usando devtools
-devtools::install_github("majesus/mediaPlanR")
 #------------------------------------------------------------#
 
 # Cargamos las bibliotecas
@@ -103,25 +92,21 @@ cobertura
 
 ***
 
-Antes de aplicar mediaPlanR, haremos un breve resumen de los conceptos clave de la planificación.
+## :red_square:Planificación de medios: conceptos básicos
 
-***
+> La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo (o target) de una marca de manera eficaz y eficiente**. 
 
-## :red_square:Planificación de medios
+Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca _conectar_ con su público objetivo **_en el momento y lugar precisos_**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación (memoria, actitud e intención) y marketing (crecimiento y rentabilidad) diseñados, y optimice el retorno de la inversión (por ejemplo, _Return On Ad Spend_, ROAS).
 
-> La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo de una marca (o target) de manera eficaz y eficiente**. 
+Para el logro de los objetivos y el retorno de la inversión se debe pues reflexionar en torno a cinco bloques clave. Véase la siguiente tabla.
 
-Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca _conectar_ con aquellas **_en el momento y lugar precisos_**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación y marketing diseñados, y optimice el retorno de la inversión (por ejemplo, ROAS o _Return On Ad Spend_).
-
-Para el logro de los objetivos y el retorno de la inversión se debe reflexionar en torno a cinco bloques clave. Véase la siguiente tabla.
-
-| Componente | Descripción Detallada (ejemplos) |
+| Componente | Descripción (no exhaustiva) |
 |------------|---------------------|
-| Público Objetivo | **Base del plan de medios** <br>- Análisis demográfico: edad, género, ubicación, nivel de ingresos<br>- Psicografía: valores, intereses, estilo de vida<br>- Hábitos de consumo de medios<br>- Comportamiento de compra<br>- Análisis de mercado y presión competitiva<br><br>*Ejemplo*: Una marca de fitness que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
-| Objetivos | **Metas claramente definidas y medibles**<br>- Notoriedad (memoria): aumentar, por ejemplo, el reconocimiento de marca<br>- Actitud: mejorar la valoración del uso de la marca<br>- Predisposición a la compra: aumentar la intención de compra<br>- Alineación con objetivos globales de marketing<br><br>*Ejemplo*: Si el objetivo es _brand awareness_, se priorizarán canales de amplio alcance como TV o video online. Para ventas, se enfocará en search marketing y publicidad segmentada. |
-| Presupuesto | **Planificación financiera estratégica**<br>- Métodos de determinación (objetivos y tareas, Peckham, IAF/5Q)<br>- Distribución entre medios (e.g., principal 40-50%, apoyo 20-30%) <br>- ROI / ROAS esperado por soporte o plan<br>- Control de costes y optimización<br>- Escalabilidad del presupuesto<br><br> - Consideraciones:<br>  * TV: alto coste, gran alcance<br>  * Digital: más asequible, mejor segmentación<br>  * Medios impresos: costes variables según alcance<br>  * Exterior: costes fijos con exposición prolongada |
-| Canales de Medios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>  * Cine<br><br>- Digitales:<br>  * Redes sociales<br>  * Search engines<br>  * Display advertising<br>  * Email marketing<br><br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * _Transit advertising_<br><br>**Métricas**: <br>  * Alcance<br>  * Frecuencia<br>  * Afinidad con target<br>  * Coste por impacto<br>  * Capacidad de segmentación |
-| Programación | **Planificación temporal y evaluació**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos/timing de consumo del target<br>  * Actividad de la competencia<br><br>- Consideraciones tácticas:<br>  * Momentos de mayor demanda<br>  * Períodos de compra<br>  * Eventos especiales<br>  * Fechas comerciales clave<br>  * Horarios de mayor consumo de medios del target<br><br> - Implementación y monitoreo continuo: <br> * Medición de KPIs y ajustes<br> * Evaluación pre-test y durante campaña |
+| Público Objetivo | **Base del plan de medios** <br>- Análisis demográfico: edad, sexo, género, localización, nivel de ingresos, ...<br>- Psicografía: valores, intereses, estilo de vida, ...<br>- Hábitos de consumo y de medios<br>- Comportamiento de compra<br>- Presión competitiva<br><br>*Ejemplo*: Una marca de _fitness_ que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
+| Objetivos | **Metas claramente definidas y medibles**<br>- Notoriedad (memoria): mejorar, por ejemplo, el reconocimiento de marca<br>- Actitud: aumentar la valoración del uso de la marca<br>- Predisposición a la compra: aumentar la intención de compra<br>- Alineación (subordinación) con objetivos globales de marketing<br><br>*Ejemplo*: Si el objetivo es mejorar la notoriedad de la marca, se priorizarán canales de amplio alcance como TV o video online. Para aumentar la intención y ventas consecuentes, se enfocará en _search_ marketing y publicidad segmentada. |
+| Presupuesto | **Planificación financiera estratégica**<br>- Métodos de determinación (objetivos y tareas, por ejemplo)<br>- Distribución entre medios (principal 40-50%, apoyo 20-30%, por ejemplo) <br>- ROI / ROAS esperado por cada soporte y su combinación en un plan de medios<br>- Control de costes<br>- Escalabilidad del presupuesto<br><br> - Consideraciones:<br>  * TV: alto coste, gran alcance<br>  * Digital: más asequible, mejor segmentación<br>  * Medios impresos: costes variables según alcance<br>  * Exterior: costes fijos con exposición prolongada |
+| Medios publicitarios | **Ecosistema de medios integrado**<br>- Tradicionales:<br>  * Televisión<br>  * Radio<br>  * Prensa<br>  * Cine<br><br>- Digitales:<br>  * Redes sociales<br>  * _Search engines_<br>  * Display advertising<br>  * Email marketing<br><br>- Exterior:<br>  * Vallas publicitarias<br>  * Mobiliario urbano<br>  * _Transit advertising_<br><br>**Métricas**: <br>  * Alcance<br>  * Frecuencia<br>  * Afinidad con target<br>  * Coste por impacto<br>  * Capacidad de segmentación<br> * ... |
+| Programación | **Planificación temporal y evaluación**<br>- Factores clave:<br>  * Estacionalidad del producto/servicio<br>  * Hábitos/timing de consumo del target<br>  * Actividad de la competencia<br><br>- Consideraciones tácticas:<br>  * Momentos de mayor demanda<br>  * Períodos de compra<br>  * Eventos especiales<br>  * Fechas comerciales clave<br>  * Horarios de mayor consumo de medios del target<br><br> - Implementación y monitoreo continuo: <br> * Medición de KPIs y ajustes<br> * Evaluación pre-test y durante campaña |
 
 ***
 
@@ -129,13 +114,45 @@ A partir de estas consideraciones, un planificador de medios debe pues plantears
 
 **1. Conocimiento del Mercado y de la Audiencia**
 
-**¿Cuál es el tamaño del mercado y la demanda del producto?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño del mercado, la segmentación, las cuotas de mercado y las tendencias de la demanda.
+**¿Cuál es el tamaño del mercado y la demanda del producto o servicio?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño del mercado, su segmentación y opciones de posicionamiento, las cuotas de mercado y las tendencias de la demanda, entre otros factores.
 
-**¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, comportamiento de compra, fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
+**¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
 
 **¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([_cf._ Inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
 
 **¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
+
+<details>
+<summary>:arrow_forward:Véanse algunos métodos de presupuestación</summary>
+
+[![Mark Ritson on how Lidl used excess share of voice]](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa)
+
+Resumen de las acciones de Lidl:
+
+**1. Desafíos Iniciales**:
+
+- Percepción del Consumidor: Los compradores asociaban los precios bajos de Lidl con baja calidad, aunque los productos tenían una calidad similar o superior a la competencia.
+- Tamaño de Marca: Al ser una marca pequeña, Lidl tenía que aumentar su share of voice (SOV) para mantener y crecer su cuota de mercado, respaldado por el concepto de ESOV (excess share of voice) identificado por John Philip Jones.
+
+**2. Estrategia de Lidl en 2014:**
+
+- Objetivo General: Incrementar la penetración en el mercado.
+- Posicionamiento: Cambiar la percepción del consumidor, sorprendiendo con la calidad de sus productos.
+- Estrategia de Comunicación: Desmentir la idea de que precios bajos implican baja calidad.
+- Objetivo de Medios: Generar un ESOV significativo.
+
+**3. Implementación de la Campaña:**
+
+- Publicidad en televisión, medios impresos y redes sociales para mostrar la sorpresa de los consumidores sobre la calidad de los productos.
+- Ampliación del ESOV, logrando un aumento de la cuota de voz desde el 5% hasta el 19% en 2015.
+
+**4. Resultados:**
+
+- Cambio de Percepción: Lidl logró que la calidad percibida de sus productos fuera comparable a la de sus competidores.
+- Incremento en Cuota de Mercado: Lidl duplicó su cuota de mercado en cinco años, alcanzando un 6%.
+- Incremento en Ventas: La campaña generó ventas incrementales por 2700 millones de libras y un premio Effie de oro en 2017.
+
+</details>
 
 **2. Objetivos y Estrategia de la Campaña**
 
