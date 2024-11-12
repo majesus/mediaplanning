@@ -905,7 +905,7 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 ***
 
 <details>
-<summary>:arrow_forward:Haz clic para mayor desarrollo</summary>
+<summary>:arrow_forward:Caso práctico: VitaBiome+</summary>
 
 ***
 
