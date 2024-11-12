@@ -123,9 +123,11 @@ A partir de estas consideraciones, un planificador de medios debe pues plantears
 **¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
 <details>
-<summary>:arrow_forward:Véanse algunos métodos de presupuestación</summary>
+<summary>:arrow_forward:Véanse los conceptos SOV y SOM</summary>
 
-[![Mark Ritson on how Lidl used excess share of voice]](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa)
+***
+
+![Mark Ritson on how Lidl used excess share of voice](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa)
 
 Resumen de las acciones de Lidl:
 
