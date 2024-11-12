@@ -122,14 +122,18 @@ A partir de estas consideraciones, un planificador de medios debe pues plantears
 
 **¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
+En particular, los conceptos de Share of Voice (SOV) y Share of Market (SOM) son fundamentales en marketing para comprender la posición de una marca en el mercado y su potencial de crecimiento.
+
+- **Share of Market (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100,000 unidades de un producto en un mercado donde se venden un total de 1,000,000 unidades, su SOM sería del 10%.
+
+- **Share of Voice (SOV)**, por otro lado, mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, pero ahora también abarca la presencia en canales orgánicos como redes sociales y búsquedas.
+
 <details>
 <summary>:arrow_forward:Véanse los conceptos SOV y SOM</summary>
 
 ***
 
-![Mark Ritson on how Lidl used excess share of voice](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa)
-
-Resumen de las acciones de Lidl:
+[Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa):
 
 **1. Desafíos Iniciales**:
 
@@ -154,35 +158,65 @@ Resumen de las acciones de Lidl:
 - Incremento en Cuota de Mercado: Lidl duplicó su cuota de mercado en cinco años, alcanzando un 6%.
 - Incremento en Ventas: La campaña generó ventas incrementales por 2700 millones de libras y un premio Effie de oro en 2017.
 
+***
+
 </details>
 
 **2. Objetivos y Estrategia de la Campaña**
 
 Es fundamental que los objetivos de la campaña estén definidos de forma _SMART_, es decir, _specific, measurable, achiavable, realistic, time-bound_. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
 
-**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos globales de marketing.
+**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos de comunicación (memoria, actitud e intención) y globales de marketing (cercimiento y rentabilidad).
 
-**¿Qué se quiere lograr con la campaña publicitaria?** Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del producto o servicio (actitud), o incitar a la acción.
+**¿Qué se quiere lograr con la campaña publicitaria?** Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del uso del producto o servicio (actitud hacia el uso), o incitar a la acción.
 
 **¿Qué mensaje se quiere comunicar y qué estrategia creativa se utilizará?** La estrategia creativa del mensaje debe estar en sintonía con los medios seleccionados. El planificador debe evaluar cómo dicha estrategia impacta en la elección de los medios y viceversa.
 
 **3. Selección de Medios y Canales**
 
+**¿Cuál es la cobertura y frecuencia efectivas para la campaña?** El planificador debe definir cuántas personas deben ser alcanzadas por la campaña al menos la frecuencia efectiva mínima (MEF) para alcanzar los objetivos, por ejemplo, la disposición a la compra del producto, servicio o marca.
+
 **¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión ( _e.g._, ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
 
-**¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?** La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados.
+<details>
+<summary>:arrow_forward:Véanse los conceptos SOV y SOM</summary>
 
-**¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que maximice el impacto de la campaña.
+***
 
-**¿Cuál es la cobertura y frecuencia efectivas para la campaña?** El planificador debe definir cuántas personas deben ser alcanzadas por la campaña al menos la frecuencia efectiva mínima (MEF) para alcanzar los objetivos, por ejemplo, la disposición a la compra del producto, servicio o marca.
+El ROAS y el ROI son métricas relacionadas pero diferentes:
+
+**ROAS (Return on Ad Spend):**
+
+- Es simplemente: Ingresos / Gasto en publicidad
+- En el ejemplo anterior: 8500€ / 2000€ = 4,25€
+- Mide cuántos euros generas por cada euro gastado en publicidad
+- Es una métrica más simple y directa
+
+**ROI (Return on Investment):**
+
+- Fórmula: [(Ingresos - Costes totales) / Costes totales] × 100
+- Usando el mismo ejemplo pero añadiendo otros costes:
+
+  - Ingresos: 8500€
+  - Gasto en ads: 2000€
+  - Otros costes (producto, envío, personal): 4000€
+  - ROI = [(8500 - 6000) / 6000] × 100 = 41,67%
+
+En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiéndose con pérdidas aunque la publicidad sea eficiente en generar ventas.
+
+***
+
+</details>
+
+**¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?** La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados, entre otros factores.
+
+**¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que permita alcanzar los objetivos asociados a la campaña.
 
 **4. Implementación, Monitoreo y Evaluación**
 
-**¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs) a antes (pre-test) y a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.
-
 **¿Cómo se implementará el plan de medios?** Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
 
-**¿Cómo se medirá la efectividad del plan?** Se deben establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y rentabilidad así como en los objetivos publicitarios definidos, y otros indicadores relevantes. Por ejemplo:
+**¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs) a antes (pre-test) y a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos. Se deben pues establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y rentabilidad así como en los objetivos publicitarios definidos, y otros indicadores relevantes. Por ejemplo:
 
 | Objetivo | Indicador Clave de Rendimiento | Descripción |
 |----------|--------------------------------|-------------|
@@ -206,24 +240,28 @@ La presupuestación publicitaria constituye uno de los aspectos más críticos y
 
 El **método del porcentaje sobre ventas** representa uno de los enfoques más ampliamente utilizados en la práctica empresarial. Este método se puede implementar de dos formas fundamentales. 
 
-A. La primera modalidad se basa en las **ventas históricas**, donde el presupuesto publicitario se calcula aplicando un porcentaje predeterminado sobre las ventas del período anterior. Este enfoque se expresa mediante la fórmula Publicidad_2 = f(Ventas_1), donde Publicidad_2 representa el presupuesto publicitario para el próximo año, f es el porcentaje establecido y Ventas_1 las ventas del año anterior. Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones significativas al no considerar la interdependencia entre la publicidad y las ventas futuras, además de carecer de flexibilidad para adaptarse a cambios en el entorno de mercado.
+**A**. La primera modalidad se basa en las **ventas históricas**, donde el presupuesto publicitario se calcula aplicando un porcentaje predeterminado sobre las ventas del período anterior. Este enfoque se expresa mediante la fórmula _Publicidad_2 = f(Ventas_1)_, donde Publicidad_2 representa el presupuesto publicitario para el próximo año, f es el porcentaje establecido y Ventas_1 las ventas del año anterior. 
+
+Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones significativas al no considerar la rlación funcional entre la publicidad y las ventas futuras, además de carecer de flexibilidad para adaptarse a cambios en el entorno de mercado, es decir, no permite cambios acíclicos.
 
 - Ventajas
 
   - Ofrece simplicidad y facilidad de implementación
-  - Proporciona una base estable para la planificación financiera
+  - Proporciona una base aparentemente estable para la planificación financiera
   - Permite comparaciones con estándares de la industria
   - Facilita la administración y control presupuestario
 
 - Limitaciones
 
-  - No considera la naturaleza dinámica de la relación publicidad-ventas
-  - Ignora la dependencia de los resultados comerciales de la inversión publicitaria, es decir, subvierte la relación natural: 'las ventas están en función de las inversiones en publicidad'
+  - No considera la naturaleza dinámica de la relación publicidad y ventas
+  - Ignora la dependencia de los resultados comerciales de la inversión publicitaria, es decir, subvierte la relación natural: _las ventas están en función de las inversiones en publicidad_
   - Carece de flexibilidad para adaptarse a cambios del mercado
   - Puede perpetuar situaciones de subinversión o sobreinversión
   - Basa decisiones futuras en datos históricos, lo que puede ser poco apropiado en mercados cambiantes
 
-B. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en las **ventas proyectadas**, expresada como Publicidad_2 = f(Ventas_2), donde Ventas_2 representa las ventas previstas para el próximo período. Esta variante resulta más lógica desde una perspectiva de planificación, ya que vincula la inversión publicitaria con el período que pretende influenciar. Los porcentajes típicos en la industria oscilan entre el 2% y 5% de las ventas, aunque estos valores pueden variar significativamente según el sector y las condiciones del mercado.
+**B**. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en las **ventas proyectadas**, expresada como _Publicidad_2 = f(Ventas_2), donde Ventas_2_ representa las ventas previstas para el próximo período. 
+
+Esta variante resulta más lógica desde una perspectiva de planificación, ya que vincula la inversión publicitaria con el período que pretende influenciar. Los porcentajes típicos en la industria oscilan entre el 2% y 5% de las ventas, aunque estos valores pueden variar significativamente según el sector y las condiciones del mercado.
 
 - Ventajas
 
@@ -237,37 +275,36 @@ B. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en 
   - Depende de la precisión de las proyecciones de ventas
   - Puede subestimar las necesidades publicitarias en mercados en crecimiento
   - No considera necesariamente los movimientos competitivos
-  - Mantiene una visión simplificada de la relación publicidad-ventas en tanto que ahce una proyección de las ventas sin precisar la inversión en publicidad
+  - Mantiene una visión simplificada de la relación publicidad y ventas en tanto que hace una proyección previa de las ventas sin precisar la influencia de la inversión en publicidad
 
-La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria (share of voice) y la participación de mercado (share of market). Peckham propone que las marcas nuevas deberían establecer su share of voice en un nivel 1,5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
+La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria (share of voice, SOV) y la participación de mercado (share of market, SOM). Peckham propone que las marcas nuevas deberían establecer su share of voice en un nivel 1,5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
 
 - Ventajas
 
   - Basada en investigación empírica extensa
   - Proporciona una guía específica para marcas nuevas
-  - Reconoce la relación entre share of voice y share de mercado
+  - Reconoce la relación entre SOV y SOM
   - Ofrece un marco cuantitativo para la toma de decisiones
 
 - Limitaciones
 
-  - Solo aplicable en categorías con correlación demostrable entre share of voice y share de mercado
+  - Solo aplicable en categorías con correlación demostrable entre SOV y SOM
   - Requiere considerar el orden de entrada al mercado
   - La distribución temporal de la inversión puede afectar significativamente los resultados
   - Puede no ser aplicable en mercados muy dinámicos o emergentes
 
-El **método de paridad competitiva** introduce una perspectiva estratégica al establecer el presupuesto publicitario en relación con la participación de mercado y las acciones de la competencia. La fórmula del share of voice (SOV = Inversión_Publicidad/(Inversion_Publicidad_otros + Inversión_Publicidad)) relaciona los gastos publicitarios de la empresa (AF) con los gastos de los competidores (AC). Este método resulta particularmente útil en mercados maduros con posiciones competitivas estables, aunque puede ignorar factores importantes como cambios en los hábitos de consumo y condiciones económicas generales.
+El **método de paridad competitiva** introduce una perspectiva estratégica al establecer el presupuesto publicitario en relación con la participación de mercado y las acciones de la competencia. Este método resulta particularmente útil en mercados maduros con posiciones competitivas estables, aunque puede ignorar factores importantes como cambios en los hábitos de consumo y condiciones económicas generales.
 
 - Ventajas
 
   - Considera el contexto competitivo
   - Útil en mercados maduros y estables
-  - Proporciona un marco de referencia estratégico
+  - Proporciona un marco de referencia
   - Ayuda a mantener posiciones competitivas establecidas
 
 - Limitaciones
 
   - Ignora cambios en hábitos de consumo
-  - No considera condiciones económicas generales
   - Puede perpetuar niveles de gasto ineficientes de la industria
   - Asume que los competidores toman decisiones racionales
   - Puede no ser apropiado para marcas que buscan cambiar su posición en el mercado
@@ -284,7 +321,6 @@ La fortaleza y debilidad de este sistema están pues íntimamente relacionadas: 
   - Enfoque sistemático y racional
   - Favorece la planificación estratégica
   - Permite mejor control y evaluación de resultados
-  - Preferido por grandes anunciantes por su rigor
 
 - Limitaciones
 
@@ -293,9 +329,9 @@ La fortaleza y debilidad de este sistema están pues íntimamente relacionadas: 
   - Requiere objetivos muy bien definidos
   - La relación entre tareas y objetivos no siempre es clara o directa
 
-El **método de "todo lo que se pueda permitir"**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
+El **método _todo lo que se pueda permitir_**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
 
-En suma, la selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing y los recursos disponibles. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
+En suma, la selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing o los recursos disponibles, entre otros factores. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
 
 ***
 
@@ -333,7 +369,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 **6. Consideraciones Adicionales**
 
-**¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar subordinada a una estrategia de [_Integrated Marketing Communications_](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC)), coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
+**¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar subordinada a una estrategia de [_Integrated Marketing Communications_](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC), coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
 
 **¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio?** El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
 
