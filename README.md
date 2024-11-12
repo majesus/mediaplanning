@@ -129,7 +129,7 @@ En particular, los conceptos de Share of Voice (SOV) y Share of Market (SOM) son
 - **Share of Voice (SOV)**, por otro lado, mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, pero ahora también abarca la presencia en canales orgánicos como redes sociales y búsquedas.
 
 <details>
-<summary>:arrow_forward:Véanse los conceptos SOV y SOM</summary>
+<summary>:arrow_forward:Véase el concepto de ESOV</summary>
 
 ***
 
@@ -179,7 +179,7 @@ Es fundamental que los objetivos de la campaña estén definidos de forma _SMART
 **¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión ( _e.g._, ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
 
 <details>
-<summary>:arrow_forward:Véanse los conceptos SOV y SOM</summary>
+<summary>:arrow_forward:Véanse los conceptos ROAS y ROI</summary>
 
 ***
 
@@ -387,16 +387,9 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 > El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
-- **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado. Un BDI de 100 significa que las ventas de la marca en ese mercado reflejan la población. Si el índice es inferior a 100, la marca no se consume o usa al nivel per cápita en términos relativos; si el BDI es superior a 100, el consumo es mayor que el nivel per cápita en términos relativos. 
+- **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). **Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado**. Un BDI de 100 significa que el % de las ventas de la marca en ese mercado reflejan el % de la población. 
 
-- **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado. 
-
-**Cálculo del BDI / CDI**
-
-| Métrica | Cálculo | Interpretación |
-|---------|---------|----------------|
-| BDI (Índice de Desarrollo de Marca) | (% de Ventas de la Marca en el Mercado / % de Población en el Mercado) x 100 | BDI > 100: Alta cuota de mercado<br>BDI = 100: Ventas de marca proporcionales a la población del mercado<br>BDI < 100: Baja cuota de mercado |
-| CDI (Índice de Desarrollo de Categoría) | (% de Ventas de la Categoría en el Mercado / % de Población en el Mercado) x 100 | CDI > 100: Alto potencial de ventas de la categoría<br>CDI = 100: Ventas de categoría proporcionales al mercado<br>CDI < 100: Bajo potencial de ventas de la categoría |
+- **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, **se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado**. 
 
 ***
 
@@ -409,17 +402,33 @@ En resumen, el planificador de medios debe ser un estratega capaz de analizar in
 
 El análisis BDI/CDI se utiliza para identificar los mercados donde una marca tiene un buen rendimiento y dónde hay potencial de crecimiento. Se suele representar gráficamente en un gráfico de cuadrantes, donde cada cuadrante refleja una relación diferente entre la marca y la categoría:
 
-- Cuadrante A (Alto BDI, Alto CDI): Tanto la marca como la categoría son fuertes en este mercado. Esta es una buena área para defender.
+**Alto BDI, Alto CDI: Mercados a mantener**
 
-- Cuadrante B (Alto BDI, Bajo CDI): El BDI es mucho más fuerte que el CDI, lo que significa que el único crecimiento de la marca en este mercado estaría limitado al crecimiento de la categoría.
+- La marca y la categoría muestran fuerte presencia
+- Prioridad: Mantener posición y defender cuota de mercado
+- Estrategia defensiva recomendada
 
-- Cuadrante C (Bajo BDI, Alto CDI): La categoría es más fuerte que la marca en este mercado. Esta es el área de oportunidad.
+**Alto BDI, Bajo CDI: Mercados a potenciar**
 
-- Cuadrante D (Bajo BDI, Bajo CDI): Tanto la marca como la categoría son débiles en este mercado. Esta es un área donde se evitaría invertir en publicidad.
+- La marca tiene fuerte presencia pero la categoría es débil
+- El crecimiento está limitado por el bajo desarrollo de la categoría
+- Potencial de crecimiento condicionado a la evolución de la categoría
+
+**Bajo BDI, Alto CDI: Mercados a conquistar**
+
+- La categoría es fuerte pero la marca tiene presencia débil
+- Representa la mayor oportunidad de crecimiento
+- Área prioritaria para inversión y desarrollo
+
+**Bajo BDI, Bajo CDI: Mercados a desarrollar**
+
+- Tanto la marca como la categoría son débiles
+- Baja prioridad para inversión publicitaria
+- Requiere análisis adicional antes de cualquier inversión significativa
 
 ![BDI/CDI](./img/grafico-bdi-cdi.svg)
 
-Se añade adicionalmente el **índice de oportunidad de marca (BOI)** para identificar mercados con potencial de crecimiento. El BOI se calcula dividiendo el CDI por el BDI. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
+Se presenta adicionalmente el **índice de oportunidad de marca (BOI)** para identificar mercados a conquistar. **El BOI se calcula dividiendo el CDI por el BDI**. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
 
 **Factores adicionales**
 
@@ -433,7 +442,7 @@ Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a 
 
 > El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con la población considerada en su conjunto. 
 
-El coeficiente de afinidad es fundamental para evaluar qué tan relevante o atractivo es un producto para un grupo particular, ayudando a los especialistas en marketing a optimizar sus estrategias de segmentación y posicionamiento.
+El coeficiente de afinidad es fundamental para evaluar qué tan relevante o atractivo es un producto, servicio o marca para un grupo específico, ayudando a los especialistas en marketing a adaptar sus estrategias de segmentación y posicionamiento.
 
 En particular, en el ámbito de la planificación de medios el coeficiente de afinidad proporciona información basada en datos que también ayuda a seleccionar los canales de medios más relevantes (o afines) para una campaña. No se trata solo de llegar a una audiencia (bruta), sino de llegar a la audiencia adecuada (útil). Esto asegura que el mensaje _resuene_ con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña.
 
@@ -463,6 +472,7 @@ El perfil de audiencia se refiere a la caracterización detallada de la audienci
 - Hábitos de consumo de medios: Con qué frecuencia e intensidad consumen determinados medios (TV, radio, prensa, etc.).
 - Intereses y Estilo de vida: Qué tipo de contenido les atrae, sus aficiones, valores y actividades.
 - Nivel socioeconómico: Nivel de ingresos, educación, ocupación.
+- ...
 
 **Índice de Utilidad**  
 Expresa el tanto por uno de la audiencia (bruta) de un soporte que corresponde a la población objetivo. Permite evaluar la eficacia del soporte en términos de su capacidad para alcanzar específicamente al público deseado.
@@ -470,8 +480,8 @@ Expresa el tanto por uno de la audiencia (bruta) de un soporte que corresponde a
 **Audiencia Útil**  
 Número de personas de la audiencia de un soporte que pertenece específicamente al público objetivo. Refina la audiencia bruta para centrar los esfuerzos de marketing en el público relevante o target para la campaña publicitaria.
 
-**Vehículo de Medios (Media Vehicle)**  
-Soporte específico dentro de un [medio publicitario](https://www.infoadex.es/wp-content/uploads/2024/01/Resumen-Estudio-InfoAdex-2023.pdf) que _transporta_ o difunde el mensaje al público objetivo. Características:
+**Soporte**  
+_Vehículo_ dentro de un [medio publicitario](https://www.infoadex.es/wp-content/uploads/2024/01/Resumen-Estudio-InfoAdex-2023.pdf) que _transporta_ o difunde el mensaje al público objetivo. Características:
 
 - Es el canal específico de transmisión del mensaje
 - Puede ser un programa, una publicación, una web específica, etc.
@@ -484,14 +494,14 @@ Colocación física o digital de un anuncio en un soporte publicitario específi
 - Es el acto de colocación del anuncio en el medio
 - Genera oportunidades de ver (OTS) para la audiencia del soporte
 - No garantiza la exposición efectiva
-- Su efectividad depende de factores como ubicación, formato y contexto
+- Su efectividad depende de factores como ubicación, formato o contexto
 
 **OTS ( _Opportunity To See_ )**  
 Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Características fundamentales:
 
 - En singular: representa una única oportunidad de contacto con el mensaje
-- En plural: equivale a la frecuencia de exposición
-- Representa una oportunidad de _atención_, no la atención efectiva
+- En plural: equivale a la frecuencia promedio de exposición
+- Representa una oportunidad de ver, leer o escuchar el anuncio durante el ciclo publicitario, no la atención efectiva
 - Es la unidad básica para medir la intensidad de una campaña
 
 ### :o:Métricas de cobertura y frecuencia
@@ -500,7 +510,7 @@ Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Caracter
 Número absoluto (o relativo) de individuos expuestos al menos una vez (≥ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
 
 - Es uno de los tres parámetros básicos del plan de medios, junto con la frecuencia y la distribución de exposición
-- Se centra en individuos únicos, no en exposiciones acumuladas
+- Se centra en individuos únicos, no en exposiciones
 - Puede expresarse en términos absolutos o porcentuales
 - Es la base para el cálculo del alcance efectivo
 
@@ -535,7 +545,7 @@ Distribución de frecuencia de exposiciones en un ciclo publicitario. Incluye:
 - Porcentaje con exclusivamente 2 exposiciones
 - ...
 
-También se calcula la distribución de exposiciòn acumulada, es decir, al menos i exposiciones.
+También se calcula la distribución de exposiciòn acumulada, es decir, individuos expuestos al menos i exposiciones.
 
 **Rating Point (RP)**  
 Representa el 1% de la población alcanzada en caso de realizar una inserción en el soporte publicitario. Características:
@@ -545,10 +555,22 @@ Representa el 1% de la población alcanzada en caso de realizar una inserción e
 - Base para el cálculo de GRPs
 
 **GRPs (Gross Rating Points)**  
-- Es una estimación del total de oportunidades de exposición promedio por cada 100 individuos de la población (o target). Características:
+Es una estimación del total de oportunidades de exposición promedio por cada 100 individuos de la población (o target). Se calcula:
 
-- 1 GRP significa que el plan de medios y soportes alcanza al 1% del público (o target)
-- Se calcula también multiplicando la cobertura en % por la frecuencia media
+- Método básico (Cobertura × Frecuencia):
+
+  - _GRP = Cobertura (%) × Frecuencia media_
+  - Ejemplo: Si alcanzamos al 60% del público objetivo con una frecuencia media de 4 impactos, GRP = 60 × 4 = 240 GRPs
+
+- Método por impactos:
+
+  - _GRP = (Número total de impactos / Público objetivo) × 100_
+  - Ejemplo: Si generamos 1.500.000 impactos con un público objetivo de 500.000 personas, GRP = (1.500.000 / 500.000) × 100 = 300 GRPs
+
+- Método por audiencia por inserción:
+
+  - _GRP = Suma de las audiencias (%) de cada inserción_
+  - Ejemplo: Si tenemos 3 spots con audiencias de 20%, 15% y 25%, GRP = 20 + 15 + 25 = 60 GRPs
 
 ### :o:Métricas de eficiencia y costes
 
