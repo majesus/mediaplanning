@@ -354,26 +354,20 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
 - Se considera un "coste de hacer negocio"
 - Requiere ajustes porque:
 
-_Los requerimientos publicitarios no siempre siguen directamente a las ventas_
-
-_Deben usarse ratios P/V variables por área, lo que exige análisis exhaustivo_
+  * Los requerimientos publicitarios no siempre siguen directamente a las ventas
+  * Deben usarse ratios P/V variables por área, lo que exige análisis exhaustivo_
 
 **Advertencias**:
 
 - Necesidad de información competitiva precisa
 - Importancia de definir correctamente el mercado
 - No asumir relación directa publicidad-ventas
+- La competencia podría estar dictando tu presupuesto
 
-**PRESUPUESTO RECOMENDADO**:
+**Presupuesto**:
 
 - Base P/V (8,8%): 88.000€
 - Ajuste por lanzamiento (+50%): 132.000€
-
-**Justificación**:
-
-_"Si no se define correctamente el mercado competitivo, se calculará un presupuesto erróneo"_
-
-_"La competencia podría estar dictando tu presupuesto y llevarte a gastar a un ritio inadecuado"_
 
 ***
 
