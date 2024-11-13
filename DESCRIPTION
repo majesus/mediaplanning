@@ -4,8 +4,7 @@ Version: 0.1.1
 Date: 2024-10-25
 Title: Herramientas para la Planificación de Medios Publicitarios
 Description: Indicadores, modelos y aplicaciones para la planificación de medios.
-    Incluye herramientas para análisis beta-binomial, utilidad de audiencia y 
-    convergencia de alcance. Proporciona interfaces interactivas para la 
+    Proporciona interfaces interactivas para la 
     exploración y análisis de datos de medios publicitarios.
 Manual: <https://github.com/majesus/mediaPlanR>
 Author: 

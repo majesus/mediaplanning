@@ -31,7 +31,7 @@
 #'   \item Tarifa_Pag_Color: Tarifa página color
 #'   \item CPM: Coste por mil
 #'   \item C_RP: Coste por Rating Point
-#'   \item Indice_Utilidad: Índice de utilidad
+#'   \item Ind_Utilidad: Índice de utilidad
 #'   \item Audiencia_Util_miles: Audiencia útil en miles
 #'   \item Coste_Contacto_Util: Coste por contacto útil
 #' }
