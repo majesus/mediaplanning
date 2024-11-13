@@ -64,7 +64,7 @@ head(resultado)
 
 #------------------------------------------------------------#
 
-# Ejemeplo 3: Aplicando Sainsbury simplificado
+# Ejemplo 3: Aplicando Sainsbury simplificado
 
 head(datos)
 ?calc_sainsbury
@@ -84,6 +84,25 @@ cobertura <- (1 - v) * 39500000
 cobertura
 
 #------------------------------------------------------------#
+
+# Ejemplo 4: optimización con audiencia bruta y modelo Sainsbury
+
+?optimize_media_plan
+
+datos <- data.frame(
+  soportes = c("Medio1", "Medio2", "Medio3"),
+  audiencias = c(1000000, 800000, 600000),
+  tarifas = c(50000, 40000, 30000)
+)
+
+resultado_bruto <- optimize_media_plan(
+  soportes_df = datos,
+  fem = 2,
+  objetivo_cobertura = 50,
+  presupuesto_max = 100000,
+  modelo = "sainsbury",
+  usar_audiencia_util = FALSE
+)
 ```
 </details>
 
@@ -340,9 +359,9 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
 
 **Datos iniciales:**
 
-- Sector: Perfumería y cosmética
-- Ratio Publicidad/Ventas según tabla: 8,8%
-- Previsión ventas primer año: 1.000.000€
+- Sector: Perfumería y cosmética.
+- Ratio Publicidad/Ventas según tabla: 8,8%.
+- Previsión ventas primer año: 1.000.000€.
 
 **Cálculo base método P/V:**
 
@@ -350,8 +369,8 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
 
 **Consideraciones**:
 
-- Es el método más utilizado en el sector
-- Se considera un "coste de hacer negocio"
+- Es el método más utilizado en el sector.
+- Se considera un "coste de hacer negocio".
 - Requiere ajustes porque:
 
   * Los requerimientos publicitarios no siempre siguen directamente a las ventas
