@@ -322,15 +322,6 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
   - Se deberían usar ratios variables por área, lo que requiere análisis exhaustivos
   - La suposición básica de una relación lineal directa entre publicidad y ventas podría no ser cierta
   - La presupuestación podría ser demasiado vulnerable a revisiones ya que la publicidad suele ser el elemento de coste más flexible
-  
-<div align="center">
-<img src="./img/img_A_S_budget.png" />
-</div>
-
-<details>
-<summary>Caso práctico A/S</summary)
-
-***
 
 | Sector                           | Ratio P/V % | Sector                     | Ratio P/V % |
 |----------------------------------|-------------|----------------------------|-------------|
@@ -345,30 +336,29 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
 | Supermercados                    | 1.1         | Material deportivo         | 6.4         |
 | Hoteles y establecimientos turísticos| 3.6      | Emisoras de TV            | 3.2         |
 
-***
+**Caso práctico P/V: Lanzamiento de perfume de lujo**
 
-**CASO PRÁCTICO: Lanzamiento de perfume de lujo**
-
-**DATOS INICIALES:**
+**Datos iniciales:**
 
 - Sector: Perfumería y cosmética
 - Ratio Publicidad/Ventas según tabla: 8,8%
 - Previsión ventas primer año: 1.000.000€
 
-**CÁLCULO BASE MÉTODO P/V:**
+**Cálculo base método P/V:**
 
 - 1.000.000€ × 0,088 = 88.000€
 
-CONSIDERACIONES SEGÚN EL TEXTO:
+**Consideraciones**:
 
 - Es el método más utilizado en el sector
 - Se considera un "coste de hacer negocio"
 - Requiere ajustes porque:
 
 _Los requerimientos publicitarios no siempre siguen directamente a las ventas_
+
 _Deben usarse ratios P/V variables por área, lo que exige análisis exhaustivo_
 
-**ADVERTENCIAS**:
+**Advertencias**:
 
 - Necesidad de información competitiva precisa
 - Importancia de definir correctamente el mercado
@@ -379,27 +369,13 @@ _Deben usarse ratios P/V variables por área, lo que exige análisis exhaustivo_
 - Base P/V (8,8%): 88.000€
 - Ajuste por lanzamiento (+50%): 132.000€
 
-**JUSTIFICACIÓN**:
+**Justificación**:
 
 _"Si no se define correctamente el mercado competitivo, se calculará un presupuesto erróneo"_
+
 _"La competencia podría estar dictando tu presupuesto y llevarte a gastar a un ritio inadecuado"_
 
-**FORTALEZAS DE ESTE MÉTODO:**
-
-- Se autocorrige según el rendimiento de ventas
-- Mantiene margen de beneficio consistente
-- Fácil de gestionar en asignación presupuestaria
-- Entendible por departamentos financieros y marketing
-
-**DEBILIDADES:**
-
-- Requiere información histórica considerable
-- Necesita análisis exhaustivo por áreas
-- La relación lineal publicidad-ventas puede no ser cierta
-- Visión posiblemente limitada al no considerar otras herramientas promocionales
-
 ***
-</details>
 
 El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costes asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
 
