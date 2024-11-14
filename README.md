@@ -151,25 +151,72 @@ Para maximizar la efectividad de la comunicación informativa, se estructurarán
 
 **Frecuencia Efectiva Recomendada para una Marca Establecida con Mensaje Informativo**
 
-**Primera Oleada (Información)**:
+La presente planificación de medios establece una estrategia de comunicación para el relanzamiento de producto, orientada a alcanzar una cobertura del 25% sobre un universo de un millón de lectoras primarias. La campaña se estructura en tres oleadas estratégicas durante 18 semanas, con una frecuencia efectiva optimizada de 4 exposiciones por oleada.
 
--   Objetivo: Comunicar las mejoras del producto a la base de clientes leales y generar interés inicial.
--   Frecuencia recomendada: 3 exposiciones por revista.
--   Justificación: Al tratarse de una marca establecida y un público familiarizado, se requiere menor frecuencia para captar la atención y transmitir el mensaje informativo.
+**Objetivos y Alcance**
 
-**Segunda Oleada (Refuerzo):**
+- Público Objetivo: Base consolidada de clientes leales
+- Cobertura Objetivo: 25% del universo (población: 1 millón)
+- Duración: 18 semanas
+- Mensaje Principal: Comunicación de mejoras técnicas en la fórmula
 
--   Objetivo: Consolidar el conocimiento sobre las mejoras y beneficios del producto.
--   Frecuencia recomendada: 2 exposiciones por revista.
--   Justificación: El público objetivo ya está familiarizado con el mensaje inicial, por lo que se necesita menor frecuencia para mantener la presencia y reforzar la información.
+**Análisis de Frecuencia Efectiva**
 
-**Tercera Oleada (Recordatorio):**
+La determinación de la frecuencia efectiva se fundamenta parcialmente en el modelo de Ostrow:
 
--   Objetivo: Mantener la presencia y recordar los beneficios mejorados del producto.
--   Frecuencia recomendada: 1 exposiciones por revista.
--   Justificación: En esta fase final, una frecuencia menor es suficiente para mantener el mensaje presente en la mente del consumidor leal.
+_Factores de Ajuste:_
 
-Esta estructura permitirá mantener una comunicación efectiva con el público objetivo, asegurando que la información sobre las mejoras del producto llegue adecuadamente a los consumidores leales.
+  -Variables de Marketing (-0.2)
+    - Marca establecida (-0.4)
+    - Producto de uso diario (+0.2)
+    
+  - Factores del Mensaje (+0.4)
+    - Innovación en producto existente
+     
+  - Contexto Mediático (+0.4)
+    - Alto nivel de saturación publicitaria
+    - Estrategia de pulsing, ciclo de compra regular
+    - Limitaciones de repetición natural en el medio elegido (prensa)
+
+_Resultado_: Frecuencia efectiva de 4 exposiciones (Base 3 + Ajuste total +0.6)
+
+**Estructura de Campaña**
+
+**Primera Oleada (Semanas 1-5)**
+
+- Objetivo: Establecimiento del mensaje
+- Frecuencia: 4 exposiciones
+- Timing: Alineado con ciclos de compra (inicio de mes y quincena)
+- Hiatus: 2 semanas
+
+**Segunda Oleada (Semanas 8-12)**
+
+- Objetivo: Consolidación del mensaje técnico
+- Frecuencia: 4 exposiciones
+- Apoyo: Acciones promocionales complementarias
+- Hiatus: 2 semanas
+
+**Tercera Oleada (Semanas 15-18)**
+
+- Objetivo: Consolidación del mensaje y notoriedad
+- Frecuencia: 4 exposiciones
+
+**Justificación Estratégica**
+
+El mantenimiento de una frecuencia constante de ciclos de 4 exposiciones se fundamenta en:
+
+- Alta saturación publicitaria
+- Limitadas oportunidades de repetición natural en el medio elegido. Cuando se planifica en revistas, la frecuencia debe ser construida principalmente a través de inserciones pagadas, ya que no se puede contar significativamente con exposiciones adicionales naturales o espontáneas al mensaje.
+- Requerimiento de cobertura efectiva del 25%
+
+**Conclusiones**
+
+La estrategia planteada optimiza la inversión publicitaria mediante:
+
+- Sincronización con ciclos de compra y uso
+- Aprovechamiento del efecto residual entre oleadas
+- Mantención de intensidad necesaria para la comunicación de este tipo de producto (detergentes)
+- Estructura temporal alineada con tres ciclos completos de compra-uso
 
 ### Cálculo de Cobertura y Distribución de Contactos
 
@@ -2197,15 +2244,3 @@ Medios Publicitarios. R package version 0.1.1.
 https://github.com/majesus/mediaPlanR
 ```
 
-
-```r
-library(tidyverse)
-library(palmerpenguins)
-penguins |>                                      # <1>
-  mutate(                                        # <2>
-    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
-    bill_area  = bill_depth_mm * bill_length_mm  # <2>
-  )                                              # <2>
-```
-1. Take `penguins`, and then,
-2. add new columns for the bill ratio and bill area.
