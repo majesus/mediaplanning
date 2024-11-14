@@ -2196,3 +2196,16 @@ Sánchez-Franco, M. J. (2024). mediaPlanR: Herramientas para la Planificación d
 Medios Publicitarios. R package version 0.1.1.
 https://github.com/majesus/mediaPlanR
 ```
+
+
+```r
+library(tidyverse)
+library(palmerpenguins)
+penguins |>                                      # <1>
+  mutate(                                        # <2>
+    bill_ratio = bill_depth_mm / bill_length_mm, # <2>
+    bill_area  = bill_depth_mm * bill_length_mm  # <2>
+  )                                              # <2>
+```
+1. Take `penguins`, and then,
+2. add new columns for the bill ratio and bill area.
