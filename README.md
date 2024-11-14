@@ -23,7 +23,6 @@ devtools::install_github("majesus/mediaPlanR", force = TRUE)
 ```
 
 <details>
-
 <summary>:arrow_forward:Ejemplo ilustrativo</summary>
 
 ``` r
@@ -106,11 +105,9 @@ resultado_bruto <- optimize_media_plan(
 
 ------------------------------------------------------------------------
 
-A continuación, te presento un caso práctico que permite aplicar las funciones anteriores.
+### Caso Práctico P/V: Campaña Informativa de Detergente
 
-# Caso Práctico P/V: Campaña Informativa de Detergente
-
-## Contexto y Objetivo
+### Contexto y Objetivo
 
 Una marca establecida de **detergente** ha decidido lanzar una campaña informativa en el mercado español utilizando una **estrategia de tres oleadas en medios impresos**, con el objetivo de comunicar mejoras en su fórmula a su base de clientes leales. La campaña en medio impreso (revistas) busca mantener y reforzar la fidelidad de sus consumidores actuales, informando sobre los beneficios mejorados del producto, con una previsión de ventas de 5.000.000€. Basándose en el método Publicidad/Ventas (P/V) típico del sector de productos de limpieza para el hogar, debe establecer un **presupuesto inicial** que debe optimizarse para lograr una **cobertura del 25%** de la población objetivo (lectores/as primarios, 1.000.000), asegurando una **frecuencia efectiva** en cada fase de la campaña.
 
@@ -148,7 +145,7 @@ Explicación de las Columnas:
 -   Audiencia Útil: Audiencia bruta multiplicada por el índice de utilidad, reflejando la porción efectiva de la audiencia.
 -   Tarifa Página Completa Color (€): Precio estimado por inserción en una página completa a color en cada revista.
 
-## Estructura de la Campaña en Oleadas
+### Estructura de la Campaña en Oleadas
 
 Para maximizar la efectividad de la comunicación informativa, se estructurarán tres oleadas con inserciones en cada revista:
 
@@ -174,13 +171,13 @@ Para maximizar la efectividad de la comunicación informativa, se estructurarán
 
 Esta estructura permitirá mantener una comunicación efectiva con el público objetivo, asegurando que la información sobre las mejoras del producto llegue adecuadamente a los consumidores leales.
 
-## Cálculo de Cobertura y Distribución de Contactos
+### Cálculo de Cobertura y Distribución de Contactos
 
 Para evaluar la **cobertura acumulada** y la **distribución de contactos**, utilizaremos los modelos **Sainsbury** y **Binomial**. Estos modelos son útiles para estimar la **cobertura neta** en campañas publicitarias, pero es importante recalcar que **estos métodos solo consideran una inserción por soporte** y la **independencia de las audiencias**, por lo cual son útiles en fase preliminar, y solo a efectos orientativos.
 
 En suma, los resultados que obtendremos con los modelos Sainsbury y Binomial serán **preliminares y solo orientativos**. Estos resultados deberán necesariamente ser corregidos o ajustados mediante **modelos avanzados** como el **Canonical Expansion Model (CANEX)**, que permite un análisis más detallado.
 
-## Solución: primera oleada
+### Solución: primera oleada
 
 ```r
 library(mediaPlanR)
@@ -286,7 +283,7 @@ En particular, los conceptos de Share of Voice (SOV) y Share of Market (SOM) son
 
 ------------------------------------------------------------------------
 
-[Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa):
+[Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa)
 
 **1. Desafíos Iniciales**:
 
@@ -595,8 +592,6 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 **¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar subordinada a una estrategia de [*Integrated Marketing Communications*](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC), coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
 
 **¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio?** El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
-
-En resumen, el planificador de medios debe ser un estratega capaz de analizar información compleja, tomar decisiones informadas y adaptarse a un entorno en constante evolución. Su objetivo primordial es conectar eficazmente la marca con su público, maximizando el retorno de la inversión y contribuyendo al logro de los objetivos de marketing de manera eficiente.
 
 </details>
 
