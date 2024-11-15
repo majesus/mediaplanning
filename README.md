@@ -1809,7 +1809,7 @@ Datos de partida:
 
 El modelo calculará como datos adicionales:
 
--   k = 2 \* R1 / R2\
+-   k = 2 \* R1 / R2
 -   d = 2 \* R1 - R2
 -   alpha
 
@@ -1868,7 +1868,7 @@ Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en e
 
 1.  Estimación Iterativa de los Parámetros A y B:
 
--   El código comienza con un valor arbitrario A₀ y calcula un valor inicial B₀ siguiendo el método MBBD
+-   El código comienza con un valor arbitrario A₀ y calcula un valor inicial B₀
 -   Se realiza un ajuste de A basado en la diferencia entre la cobertura BBD y la cobertura de Morgenstern (RM)
 -   Se utiliza un factor de ajuste (adj_factor) para refinar el valor de A
 
