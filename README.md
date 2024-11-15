@@ -2025,7 +2025,7 @@ resultado_util <- optimize_media_plan(
 
 ### Contexto y Objetivo
 
-Una marca establecida de **detergente** ha decidido lanzar una campaña informativa en el mercado español utilizando una **estrategia de tres oleadas en medios impresos**, con el objetivo de comunicar mejoras en su fórmula a su base de clientes leales. La campaña en medio impreso (revistas) busca mantener y reforzar la fidelidad de sus consumidores actuales, informando sobre los beneficios mejorados del producto, con una previsión de ventas de 5.000.000€. Basándose en el método Publicidad/Ventas (P/V) típico del sector de productos de limpieza para el hogar, debe establecer un **presupuesto inicial** que debe optimizarse para lograr una **cobertura del 25%** de la población objetivo (lectores/as primarios, 1.000.000), asegurando una **frecuencia efectiva** en cada fase de la campaña.
+Una marca establecida de **detergente** ha decidido lanzar una campaña informativa en el mercado español utilizando una **estrategia de tres oleadas en medios impresos**, con el objetivo de comunicar mejoras en su fórmula a su base de clientes leales. La campaña en medio impreso (revistas) busca mantener y reforzar la fidelidad de sus consumidores actuales, informando sobre los beneficios mejorados del producto, con una previsión de ventas de 5.000.000€. Basándose en el método Publicidad/Ventas (P/V) típico del sector de productos de limpieza para el hogar, debe establecer un **presupuesto inicial** que debe optimizarse para lograr una **cobertura del 25%** de la población objetivo (1.000.000), asegurando una **frecuencia efectiva** en cada fase de la campaña.
 
 La campaña se desarrollará en **revistas orientadas al hogar y gestión familiar**, con alta afinidad con el perfil de compradoras habituales de productos de limpieza.
 
@@ -2052,13 +2052,13 @@ La campaña se desarrollará en **revistas orientadas al hogar y gestión famili
 | Telva Cocina | 195000 | 0.80 | 156000 | 7500 |
 | Saber Cocinar | 210000 | 0.75 | 157500 | 7000 |
 
-**Tabla de Revistas con Audiencias y Tarifas**
+**Tabla de Revistas con Audiencias y Tarifas (datos ficticios)**
 
 Explicación de las Columnas:
 
--   Audiencia Bruta: Audiencia general estimada para cada revista.
--   Índice de Utilidad: Proporción que representa la audiencia útil relevante para la campaña (lectoras primarias).
--   Audiencia Útil: Audiencia bruta multiplicada por el índice de utilidad, reflejando la porción efectiva de la audiencia.
+-   Audiencia Bruta: Audiencia ficticia para cada revista
+-   Índice de Utilidad: Proporción que representa la audiencia útil 
+-   Audiencia Útil: Audiencia bruta multiplicada por el índice de utilidad
 -   Tarifa Página Completa Color (€): Precio estimado por inserción en una página completa a color en cada revista.
 
 ### Estructura de la Campaña en Oleadas
@@ -2067,14 +2067,7 @@ Para maximizar la efectividad de la comunicación informativa, se estructurarán
 
 **Frecuencia Efectiva Recomendada para una Marca Establecida con Mensaje Informativo**
 
-La presente planificación de medios establece una estrategia de comunicación para el relanzamiento de producto, orientada a alcanzar una cobertura del 25% sobre un universo de un millón de lectoras primarias. La campaña se estructura en tres oleadas estratégicas durante 18 semanas, con una frecuencia efectiva optimizada de 4 exposiciones por oleada.
-
-**Objetivos y Alcance**
-
-- Público Objetivo: Base consolidada de clientes leales
-- Cobertura Objetivo: 25% del universo (población: 1 millón)
-- Duración: 18 semanas
-- Mensaje Principal: Comunicación de mejoras técnicas en la fórmula
+La presente planificación de medios establece una estrategia de comunicación (mensaje principal: comunicación de mejoras técnicas en la fórmula) orientada a alcanzar una cobertura del 25% sobre un universo de un millón de lectores/as primarios. La campaña se estructura en tres oleadas estratégicas durante 18 semanas, con una frecuencia efectiva mínima de 4 exposiciones por oleada.
 
 **Análisis de Frecuencia Efectiva**
 
@@ -2107,14 +2100,14 @@ _Resultado_: Frecuencia efectiva de 4 exposiciones (Base 3 + Ajuste total +0.6)
 
 **Segunda Oleada (Semanas 8-12)**
 
-- Objetivo: Consolidación del mensaje técnico
+- Objetivo: Consolidación del mensaje
 - Frecuencia: 4 exposiciones
 - Apoyo: Acciones promocionales complementarias
 - Hiatus: 2 semanas
 
 **Tercera Oleada (Semanas 15-18)**
 
-- Objetivo: Consolidación del mensaje y notoriedad
+- Objetivo: Consolidación del mensaje y alta notoriedad
 - Frecuencia: 4 exposiciones
 
 **Justificación Estratégica**
@@ -2130,7 +2123,7 @@ El mantenimiento de una frecuencia constante de ciclos de 4 exposiciones se fund
 La estrategia planteada optimiza la inversión publicitaria mediante:
 
 - Sincronización con ciclos de compra y uso
-- Aprovechamiento del efecto residual entre oleadas
+- Aprovechamiento del efecto residual entre oleadas ( _carryover effects_)
 - Mantención de intensidad necesaria para la comunicación de este tipo de producto (detergentes)
 - Estructura temporal alineada con tres ciclos completos de compra-uso
 
@@ -2202,7 +2195,7 @@ resultado_bruto <- optimize_media_plan(
 
 ***
 
-## Características Generales del Paquete
+## :red_square:Características Generales del Paquete
 
 -   Múltiples modelos de cobertura y frecuencia
 -   Optimización con restricciones presupuestarias
@@ -2212,7 +2205,7 @@ resultado_bruto <- optimize_media_plan(
 -   Validación y manejo de errores integrado
 -   Seguimiento de progreso para operaciones largas
 
-### Manejo de Errores
+## :red_square:Manejo de Errores
 
 El paquete incluye validación de entrada y manejo de errores:
 
@@ -2221,22 +2214,22 @@ El paquete incluye validación de entrada y manejo de errores:
 -   Mensajes de error descriptivos
 -   Seguimiento de progreso
 
-## Referencias
+## :red_square:Referencias
 
 Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España. Díez de Castro, E.C., Sánchez-Franco, M.J., y Martín Armario, E. (2011). Comunicaciones de marketing. Planificación y Control. Pirámide, España. Kelley, L. D., Jugenheimer, D. W., y Sheehan, K. B. (2015). Advertising Media Planning: A Brand Management Approach (4ª ed.). Routledge. Ostrow , J. W. (1982) Setting Frequency Levels. In Effective Frequency: The State of the Art. New York: Advertising Research Foundation, Key Issues Workshop. Rossiter, J.R. y Danaher, P.J. (1998). Advanced Media Planning. Kluwer Academic Publishers, MAS, USA. Rossiter, J. R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company.
 
-## Contacto y Soporte
+## :red_square:Contacto y Soporte
 
 -   **Autor**: Manuel J. Sánchez-Franco
 -   **ORCID**: [0000-0002-8042-3550](https://orcid.org/0000-0002-8042-3550)
 -   **Email**: [majesus\@us.es](mailto:majesus@us.es){.email}
 -   **Issues**: Para reportar problemas o sugerencias, usa la sección de [Issues](https://github.com/majesus/mediaPlanR/issues)
 
-## Licencia
+## :red_square:Licencia
 
 Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para más detalles.
 
-## Cómo Citar
+## :red_square:Cómo Citar
 
 Si utilizas mediaPlanR en tu investigación, por favor cítalo como:
 
