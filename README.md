@@ -103,190 +103,9 @@ resultado_bruto <- optimize_media_plan(
 )
 ```
 
-------------------------------------------------------------------------
-
-### Caso Práctico P/V: Campaña Informativa de Detergente
-
-### Contexto y Objetivo
-
-Una marca establecida de **detergente** ha decidido lanzar una campaña informativa en el mercado español utilizando una **estrategia de tres oleadas en medios impresos**, con el objetivo de comunicar mejoras en su fórmula a su base de clientes leales. La campaña en medio impreso (revistas) busca mantener y reforzar la fidelidad de sus consumidores actuales, informando sobre los beneficios mejorados del producto, con una previsión de ventas de 5.000.000€. Basándose en el método Publicidad/Ventas (P/V) típico del sector de productos de limpieza para el hogar, debe establecer un **presupuesto inicial** que debe optimizarse para lograr una **cobertura del 25%** de la población objetivo (lectores/as primarios, 1.000.000), asegurando una **frecuencia efectiva** en cada fase de la campaña.
-
-La campaña se desarrollará en **revistas orientadas al hogar y gestión familiar**, con alta afinidad con el perfil de compradoras habituales de productos de limpieza.
-
-| Revista | Audiencia Bruta | Índice de Utilidad | Audiencia Útil | Tarifa Página Completa Color (€) |
-|---------------|---------------|---------------|---------------|---------------|
-| Pronto | 320000 | 0.85 | 272000 | 12000 |
-| Lecturas | 290000 | 0.80 | 232000 | 11000 |
-| Semana | 310000 | 0.75 | 232500 | 10500 |
-| Mía | 280000 | 0.90 | 252000 | 9500 |
-| Clara | 250000 | 0.85 | 212500 | 9000 |
-| Saber Vivir | 400000 | 0.70 | 280000 | 8500 |
-| AR | 230000 | 0.65 | 149500 | 8000 |
-| Casa Fácil | 260000 | 0.80 | 208000 | 7500 |
-| Diez Minutos | 295000 | 0.75 | 221250 | 10000 |
-| ¡Hola! | 420000 | 0.65 | 273000 | 13500 |
-| Mi Casa | 245000 | 0.85 | 208250 | 8000 |
-| El Mueble | 275000 | 0.70 | 192500 | 9500 |
-| Nuevo Estilo | 220000 | 0.60 | 132000 | 9000 |
-| Cocina Fácil | 235000 | 0.80 | 188000 | 7000 |
-| Casa al Día | 185000 | 0.85 | 157250 | 6500 |
-| SuperTele | 280000 | 0.75 | 210000 | 8500 |
-| Cuore | 265000 | 0.65 | 172250 | 9500 |
-| Qué Me Dices | 255000 | 0.70 | 178500 | 8000 |
-| Telva Cocina | 195000 | 0.80 | 156000 | 7500 |
-| Saber Cocinar | 210000 | 0.75 | 157500 | 7000 |
-
-**Tabla de Revistas con Audiencias y Tarifas**
-
-Explicación de las Columnas:
-
--   Audiencia Bruta: Audiencia general estimada para cada revista.
--   Índice de Utilidad: Proporción que representa la audiencia útil relevante para la campaña (lectoras primarias).
--   Audiencia Útil: Audiencia bruta multiplicada por el índice de utilidad, reflejando la porción efectiva de la audiencia.
--   Tarifa Página Completa Color (€): Precio estimado por inserción en una página completa a color en cada revista.
-
-### Estructura de la Campaña en Oleadas
-
-Para maximizar la efectividad de la comunicación informativa, se estructurarán tres oleadas con inserciones en cada revista:
-
-**Frecuencia Efectiva Recomendada para una Marca Establecida con Mensaje Informativo**
-
-La presente planificación de medios establece una estrategia de comunicación para el relanzamiento de producto, orientada a alcanzar una cobertura del 25% sobre un universo de un millón de lectoras primarias. La campaña se estructura en tres oleadas estratégicas durante 18 semanas, con una frecuencia efectiva optimizada de 4 exposiciones por oleada.
-
-**Objetivos y Alcance**
-
-- Público Objetivo: Base consolidada de clientes leales
-- Cobertura Objetivo: 25% del universo (población: 1 millón)
-- Duración: 18 semanas
-- Mensaje Principal: Comunicación de mejoras técnicas en la fórmula
-
-**Análisis de Frecuencia Efectiva**
-
-La determinación de la frecuencia efectiva se fundamenta parcialmente en el modelo de Ostrow:
-
-_Factores de Ajuste:_
-
-  -Variables de Marketing (-0.2)
-    - Marca establecida (-0.4)
-    - Producto de uso diario (+0.2)
-    
-  - Factores del Mensaje (+0.4)
-    - Innovación en producto existente
-     
-  - Contexto Mediático (+0.4)
-    - Alto nivel de saturación publicitaria
-    - Estrategia de pulsing, ciclo de compra regular
-    - Limitaciones de repetición natural en el medio elegido (prensa)
-
-_Resultado_: Frecuencia efectiva de 4 exposiciones (Base 3 + Ajuste total +0.6)
-
-**Estructura de Campaña**
-
-**Primera Oleada (Semanas 1-5)**
-
-- Objetivo: Establecimiento del mensaje
-- Frecuencia: 4 exposiciones
-- Timing: Alineado con ciclos de compra (inicio de mes y quincena)
-- Hiatus: 2 semanas
-
-**Segunda Oleada (Semanas 8-12)**
-
-- Objetivo: Consolidación del mensaje técnico
-- Frecuencia: 4 exposiciones
-- Apoyo: Acciones promocionales complementarias
-- Hiatus: 2 semanas
-
-**Tercera Oleada (Semanas 15-18)**
-
-- Objetivo: Consolidación del mensaje y notoriedad
-- Frecuencia: 4 exposiciones
-
-**Justificación Estratégica**
-
-El mantenimiento de una frecuencia constante de ciclos de 4 exposiciones se fundamenta en:
-
-- Alta saturación publicitaria
-- Limitadas oportunidades de repetición natural en el medio elegido. Cuando se planifica en revistas, la frecuencia debe ser construida principalmente a través de inserciones pagadas, ya que no se puede contar significativamente con exposiciones adicionales naturales o espontáneas al mensaje.
-- Requerimiento de cobertura efectiva del 25%
-
-**Conclusiones**
-
-La estrategia planteada optimiza la inversión publicitaria mediante:
-
-- Sincronización con ciclos de compra y uso
-- Aprovechamiento del efecto residual entre oleadas
-- Mantención de intensidad necesaria para la comunicación de este tipo de producto (detergentes)
-- Estructura temporal alineada con tres ciclos completos de compra-uso
-
-### Cálculo de Cobertura y Distribución de Contactos
-
-Para evaluar la **cobertura acumulada** y la **distribución de contactos**, utilizaremos los modelos **Sainsbury** y **Binomial**. Estos modelos son útiles para estimar la **cobertura neta** en campañas publicitarias, pero es importante recalcar que **estos métodos solo consideran una inserción por soporte** y la **independencia de las audiencias**, por lo cual son útiles en fase preliminar, y solo a efectos orientativos.
-
-En suma, los resultados que obtendremos con los modelos Sainsbury y Binomial serán **preliminares y solo orientativos**. Estos resultados deberán necesariamente ser corregidos o ajustados mediante **modelos avanzados** como el **Canonical Expansion Model (CANEX)**, que permite un análisis más detallado.
-
-### Solución: primera oleada
-
-```r
-library(mediaPlanR)
-?mediaPlanR
-
-# Vector de nombres de revistas
-soportes <- c("Pronto", "Lecturas", "Semana", "Mía", "Clara", 
-              "Saber Vivir", "AR", "Casa Fácil", "Diez Minutos", 
-              "¡Hola!", "Mi Casa", "El Mueble", "Nuevo Estilo",
-              "Cocina Fácil", "Casa al Día", "SuperTele", "Cuore",
-              "Qué Me Dices", "Telva Cocina", "Saber Cocinar")
-
-# Vector de audiencias brutas
-audiencias <- c(320000, 290000, 310000, 280000, 250000, 
-                400000, 230000, 260000, 295000, 420000,
-                245000, 275000, 220000, 235000, 185000,
-                280000, 265000, 255000, 195000, 210000)
-
-# Vector de índices de utilidad
-indices_utilidad <- c(0.85, 0.80, 0.75, 0.90, 0.85,
-                      0.70, 0.65, 0.80, 0.75, 0.65,
-                      0.85, 0.70, 0.60, 0.80, 0.85,
-                      0.75, 0.65, 0.70, 0.80, 0.75)
-
-# Vector de audiencias útiles
-audiencias_utiles <- c(272000, 232000, 232500, 252000, 212500,
-                       280000, 149500, 208000, 221250, 273000,
-                       208250, 192500, 132000, 188000, 157250,
-                       210000, 172250, 178500, 156000, 157500)
-
-# Vector de tarifas
-tarifas <- c(12000, 11000, 10500, 9500, 9000,
-             8500, 8000, 7500, 10000, 13500,
-             8000, 9500, 9000, 7000, 6500,
-             8500, 9500, 8000, 7500, 7000)
-
-# Si quieres crear un data frame con todos estos datos
-datos <- data.frame(
-  soportes = soportes,
-  audiencias = audiencias,
-  indices_utilidad = indices_utilidad,
-  audiencias_utiles = audiencias_utiles,
-  tarifas = tarifas
-)
-
-# Para ver el data frame completo
-print(datos)
-
-resultado_bruto <- optimize_media_plan(
-  soportes_df = datos,
-  fem = 4,
-  objetivo_cobertura = 25,
-  poblacion_total = 1000000,
-  presupuesto_max = 1200000,
-  modelo = "binomial",
-  usar_audiencia_util = FALSE
-)
-```
-
 </details>
 
-------------------------------------------------------------------------
+***
 
 ## :red_square:Planificación de medios: conceptos básicos
 
@@ -2199,6 +2018,191 @@ resultado_util <- optimize_media_plan(
   usar_audiencia_util = TRUE
 )
 ```
+
+***
+
+***
+
+### Caso Práctico P/V: Campaña Informativa de Detergente
+
+### Contexto y Objetivo
+
+Una marca establecida de **detergente** ha decidido lanzar una campaña informativa en el mercado español utilizando una **estrategia de tres oleadas en medios impresos**, con el objetivo de comunicar mejoras en su fórmula a su base de clientes leales. La campaña en medio impreso (revistas) busca mantener y reforzar la fidelidad de sus consumidores actuales, informando sobre los beneficios mejorados del producto, con una previsión de ventas de 5.000.000€. Basándose en el método Publicidad/Ventas (P/V) típico del sector de productos de limpieza para el hogar, debe establecer un **presupuesto inicial** que debe optimizarse para lograr una **cobertura del 25%** de la población objetivo (lectores/as primarios, 1.000.000), asegurando una **frecuencia efectiva** en cada fase de la campaña.
+
+La campaña se desarrollará en **revistas orientadas al hogar y gestión familiar**, con alta afinidad con el perfil de compradoras habituales de productos de limpieza.
+
+| Revista | Audiencia Bruta | Índice de Utilidad | Audiencia Útil | Tarifa Página Completa Color (€) |
+|---------------|---------------|---------------|---------------|---------------|
+| Pronto | 320000 | 0.85 | 272000 | 12000 |
+| Lecturas | 290000 | 0.80 | 232000 | 11000 |
+| Semana | 310000 | 0.75 | 232500 | 10500 |
+| Mía | 280000 | 0.90 | 252000 | 9500 |
+| Clara | 250000 | 0.85 | 212500 | 9000 |
+| Saber Vivir | 400000 | 0.70 | 280000 | 8500 |
+| AR | 230000 | 0.65 | 149500 | 8000 |
+| Casa Fácil | 260000 | 0.80 | 208000 | 7500 |
+| Diez Minutos | 295000 | 0.75 | 221250 | 10000 |
+| ¡Hola! | 420000 | 0.65 | 273000 | 13500 |
+| Mi Casa | 245000 | 0.85 | 208250 | 8000 |
+| El Mueble | 275000 | 0.70 | 192500 | 9500 |
+| Nuevo Estilo | 220000 | 0.60 | 132000 | 9000 |
+| Cocina Fácil | 235000 | 0.80 | 188000 | 7000 |
+| Casa al Día | 185000 | 0.85 | 157250 | 6500 |
+| SuperTele | 280000 | 0.75 | 210000 | 8500 |
+| Cuore | 265000 | 0.65 | 172250 | 9500 |
+| Qué Me Dices | 255000 | 0.70 | 178500 | 8000 |
+| Telva Cocina | 195000 | 0.80 | 156000 | 7500 |
+| Saber Cocinar | 210000 | 0.75 | 157500 | 7000 |
+
+**Tabla de Revistas con Audiencias y Tarifas**
+
+Explicación de las Columnas:
+
+-   Audiencia Bruta: Audiencia general estimada para cada revista.
+-   Índice de Utilidad: Proporción que representa la audiencia útil relevante para la campaña (lectoras primarias).
+-   Audiencia Útil: Audiencia bruta multiplicada por el índice de utilidad, reflejando la porción efectiva de la audiencia.
+-   Tarifa Página Completa Color (€): Precio estimado por inserción en una página completa a color en cada revista.
+
+### Estructura de la Campaña en Oleadas
+
+Para maximizar la efectividad de la comunicación informativa, se estructurarán tres oleadas con inserciones en cada revista:
+
+**Frecuencia Efectiva Recomendada para una Marca Establecida con Mensaje Informativo**
+
+La presente planificación de medios establece una estrategia de comunicación para el relanzamiento de producto, orientada a alcanzar una cobertura del 25% sobre un universo de un millón de lectoras primarias. La campaña se estructura en tres oleadas estratégicas durante 18 semanas, con una frecuencia efectiva optimizada de 4 exposiciones por oleada.
+
+**Objetivos y Alcance**
+
+- Público Objetivo: Base consolidada de clientes leales
+- Cobertura Objetivo: 25% del universo (población: 1 millón)
+- Duración: 18 semanas
+- Mensaje Principal: Comunicación de mejoras técnicas en la fórmula
+
+**Análisis de Frecuencia Efectiva**
+
+La determinación de la frecuencia efectiva se fundamenta parcialmente en el modelo de Ostrow:
+
+_Factores de Ajuste:_
+
+  - Variables de Marketing (-0.2)
+    - Marca establecida (-0.4)
+    - Producto de uso diario (+0.2)
+    
+  - Factores del Mensaje (+0.4)
+    - Innovación en producto existente
+     
+  - Contexto Mediático (+0.4)
+    - Alto nivel de saturación publicitaria
+    - Estrategia de pulsing, ciclo de compra regular
+    - Limitaciones de repetición natural en el medio elegido (prensa)
+
+_Resultado_: Frecuencia efectiva de 4 exposiciones (Base 3 + Ajuste total +0.6)
+
+**Estructura de Campaña**
+
+**Primera Oleada (Semanas 1-5)**
+
+- Objetivo: Establecimiento del mensaje
+- Frecuencia: 4 exposiciones
+- Timing: Alineado con ciclos de compra (inicio de mes y quincena)
+- Hiatus: 2 semanas
+
+**Segunda Oleada (Semanas 8-12)**
+
+- Objetivo: Consolidación del mensaje técnico
+- Frecuencia: 4 exposiciones
+- Apoyo: Acciones promocionales complementarias
+- Hiatus: 2 semanas
+
+**Tercera Oleada (Semanas 15-18)**
+
+- Objetivo: Consolidación del mensaje y notoriedad
+- Frecuencia: 4 exposiciones
+
+**Justificación Estratégica**
+
+El mantenimiento de una frecuencia constante de ciclos de 4 exposiciones se fundamenta en:
+
+- Alta saturación publicitaria
+- Limitadas oportunidades de repetición natural en el medio elegido. Cuando se planifica en revistas, la frecuencia debe ser construida principalmente a través de inserciones pagadas, ya que no se puede contar significativamente con exposiciones adicionales naturales o espontáneas al mensaje.
+- Requerimiento de cobertura efectiva del 25%
+
+**Conclusiones**
+
+La estrategia planteada optimiza la inversión publicitaria mediante:
+
+- Sincronización con ciclos de compra y uso
+- Aprovechamiento del efecto residual entre oleadas
+- Mantención de intensidad necesaria para la comunicación de este tipo de producto (detergentes)
+- Estructura temporal alineada con tres ciclos completos de compra-uso
+
+### Cálculo de Cobertura y Distribución de Contactos
+
+Para evaluar la **cobertura acumulada** y la **distribución de contactos**, utilizaremos los modelos **Sainsbury** y **Binomial**. Estos modelos son útiles para estimar la **cobertura neta** en campañas publicitarias, pero es importante recalcar que **estos métodos solo consideran una inserción por soporte** y la **independencia de las audiencias**, por lo cual son útiles en fase preliminar, y solo a efectos orientativos.
+
+En suma, los resultados que obtendremos con los modelos Sainsbury y Binomial serán **preliminares y solo orientativos**. Estos resultados deberán necesariamente ser corregidos o ajustados mediante **modelos avanzados** como el **Canonical Expansion Model (CANEX)**, que permite un análisis más detallado.
+
+### Solución: primera oleada
+
+```r
+library(mediaPlanR)
+?mediaPlanR
+
+# Vector de nombres de revistas
+soportes <- c("Pronto", "Lecturas", "Semana", "Mía", "Clara", 
+              "Saber Vivir", "AR", "Casa Fácil", "Diez Minutos", 
+              "¡Hola!", "Mi Casa", "El Mueble", "Nuevo Estilo",
+              "Cocina Fácil", "Casa al Día", "SuperTele", "Cuore",
+              "Qué Me Dices", "Telva Cocina", "Saber Cocinar")
+
+# Vector de audiencias brutas
+audiencias <- c(320000, 290000, 310000, 280000, 250000, 
+                400000, 230000, 260000, 295000, 420000,
+                245000, 275000, 220000, 235000, 185000,
+                280000, 265000, 255000, 195000, 210000)
+
+# Vector de índices de utilidad
+indices_utilidad <- c(0.85, 0.80, 0.75, 0.90, 0.85,
+                      0.70, 0.65, 0.80, 0.75, 0.65,
+                      0.85, 0.70, 0.60, 0.80, 0.85,
+                      0.75, 0.65, 0.70, 0.80, 0.75)
+
+# Vector de audiencias útiles
+audiencias_utiles <- c(272000, 232000, 232500, 252000, 212500,
+                       280000, 149500, 208000, 221250, 273000,
+                       208250, 192500, 132000, 188000, 157250,
+                       210000, 172250, 178500, 156000, 157500)
+
+# Vector de tarifas
+tarifas <- c(12000, 11000, 10500, 9500, 9000,
+             8500, 8000, 7500, 10000, 13500,
+             8000, 9500, 9000, 7000, 6500,
+             8500, 9500, 8000, 7500, 7000)
+
+# Si quieres crear un data frame con todos estos datos
+datos <- data.frame(
+  soportes = soportes,
+  audiencias = audiencias,
+  indices_utilidad = indices_utilidad,
+  audiencias_utiles = audiencias_utiles,
+  tarifas = tarifas
+)
+
+# Para ver el data frame completo
+print(datos)
+
+resultado_bruto <- optimize_media_plan(
+  soportes_df = datos,
+  fem = 4,
+  objetivo_cobertura = 25,
+  poblacion_total = 1000000,
+  presupuesto_max = 1200000,
+  modelo = "binomial",
+  usar_audiencia_util = FALSE
+)
+```
+
+***
 
 ## Características Generales del Paquete
 
