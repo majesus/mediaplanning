@@ -2,13 +2,13 @@
 
 Autor: Manuel J. Sánchez Franco Email: [majesus\@us.es](mailto:majesus@us.es){.email}
 
-## Descripción General
+## :red_square:Descripción General
 
 > **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
 
 El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios.
 
-## Instalación
+## :red_square:Instalación
 
 La forma más sencilla de instalar y configurar **mediaPlanR** es usando las siguientes instrucciones:
 
@@ -2021,9 +2021,7 @@ resultado_util <- optimize_media_plan(
 
 ***
 
-***
-
-### Caso Práctico P/V: Campaña Informativa de Detergente
+## :red_square:Caso Práctico P/V: Campaña Informativa de Detergente
 
 ### Contexto y Objetivo
 
