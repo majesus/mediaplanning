@@ -2021,11 +2021,15 @@ resultado_util <- optimize_media_plan(
 
 ***
 
-## :red_square:Caso Práctico Audiencia útil
+## :red_square:Caso Práctico de Cálculo de la Audiencia útil
 
-- Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad de café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
+- Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad del producto café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
 - Haz uso del paquete **mediaPlanR**.
+
+![FE_Ostrow_1982](./img/img_EGM_indice_afinidad.png)
+
+___
 
 ![FE_Ostrow_1982](./img/img_EGM_audiencia_util.png)
 
