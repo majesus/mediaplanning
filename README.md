@@ -2021,6 +2021,14 @@ resultado_util <- optimize_media_plan(
 
 ***
 
+## :red_square:Caso Práctico Audiencia útil
+
+- Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad de café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
+- Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
+- Haz uso del paquete **mediaPlanR**.
+
+___
+
 ## :red_square:Caso Práctico P/V: Campaña Informativa de Detergente
 
 ### Contexto y Objetivo
@@ -2116,7 +2124,6 @@ El mantenimiento de una frecuencia constante de ciclos de 4 exposiciones se fund
 
 - Alta saturación publicitaria
 - Limitadas oportunidades de repetición natural en el medio elegido. Cuando se planifica en revistas, la frecuencia debe ser construida principalmente a través de inserciones pagadas, ya que no se puede contar significativamente con exposiciones adicionales naturales o espontáneas al mensaje.
-- Requerimiento de cobertura efectiva del 25%
 
 **Conclusiones**
 
