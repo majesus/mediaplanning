@@ -50,7 +50,7 @@ datos <- readr::read_csv(file = "https://raw.githubusercontent.com/majesus/media
 
 resultado_bruto <- optimize_media_plan(
   soportes_df = datos,
-  fem = 1,
+  FEM = 1,
   objetivo_cobertura = 10,
   presupuesto_max = 100000,
   poblacion = 1000000,
@@ -94,7 +94,7 @@ datos <- data.frame(
 
 resultado_bruto <- optimize_media_plan(
   soportes_df = datos,
-  fem = 2,
+  FEM = 2,
   objetivo_cobertura = 5,
   presupuesto_max = 100000,
   poblacion = 1000000,
@@ -1994,7 +1994,7 @@ datos <- data.frame(
 
 resultado_bruto <- optimize_media_plan(
   soportes_df = datos,
-  fem = 2,
+  FEM = 2,
   objetivo_cobertura = 50,
   presupuesto_max = 100000,
   modelo = "sainsbury",
@@ -2011,7 +2011,7 @@ datos_util <- data.frame(
 
 resultado_util <- optimize_media_plan(
   soportes_df = datos_util,
-  fem = 2,
+  FEM = 2,
   objetivo_cobertura = 50,
   presupuesto_max = 100000,
   modelo = "binomial",
@@ -2197,7 +2197,7 @@ print(datos)
 
 resultado_bruto <- optimize_media_plan(
   soportes_df = datos,
-  fem = 4,
+  FEM = 4,
   objetivo_cobertura = 25,
   poblacion_total = 1000000,
   presupuesto_max = 1200000,
@@ -2244,7 +2244,7 @@ Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para 
 
 ## :red_square:Cómo Citar
 
-Si utilizas mediaPlanR en tu investigación, por favor cítalo como:
+Si utilizas mediaPlanR en tu trabajo, por favor cítalo como:
 
 ```         
 Sánchez-Franco, M. J. (2024). mediaPlanR: Herramientas para la Planificación de
