@@ -2027,6 +2027,8 @@ resultado_util <- optimize_media_plan(
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
 - Haz uso del paquete **mediaPlanR**.
 
+![FE_Ostrow_1982](./img/img_EGM_audiencia_util.png)
+
 ___
 
 ## :red_square:Caso Práctico P/V: Campaña Informativa de Detergente
