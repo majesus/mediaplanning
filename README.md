@@ -39,24 +39,23 @@ resultado <- calcular_metricas_medios(
   soportes = c("El País", "El Mundo"),
   audiencias = c(1520000, 780000),
   tarifas = c(39800, 35600),
-  ind_utilidad = c(1.2, 1.1),
+  ind_utilidad = c(0.5, 0.6),
   pob_total = 39500000
 )
 resultado
 
 # Ejemplo 2: Usando CSV con nombres de columnas por defecto
 
-datos <- readr::read_csv(file = "data/datos_medios.csv", show_col_types = FALSE)
-head(datos)
-names(datos)
+datos <- readr::read_csv(file = "https://raw.githubusercontent.com/majesus/mediaPlanR/refs/heads/main/data/datos_medios.csv", show_col_types = FALSE)
 
-resultado <- calcular_metricas_medios(
-  file = "data/datos_medios.csv",
-  soportes = "soportes",
-  audiencias = "audiencias",
-  tarifas = "tarifas",
-  ind_utilidad = "indices_utilidad",
-  pob_total = 39500000
+resultado_bruto <- optimize_media_plan(
+  soportes_df = datos,
+  fem = 1,
+  objetivo_cobertura = 10,
+  presupuesto_max = 100000,
+  poblacion = 1000000,
+  modelo = "sainsbury",
+  usar_audiencia_util = FALSE
 )
 head(resultado)
 
@@ -89,15 +88,16 @@ cobertura
 
 datos <- data.frame(
   soportes = c("Medio1", "Medio2", "Medio3"),
-  audiencias = c(1000000, 800000, 600000),
+  audiencias = c(100000, 80000, 500000),
   tarifas = c(50000, 40000, 30000)
 )
 
 resultado_bruto <- optimize_media_plan(
   soportes_df = datos,
   fem = 2,
-  objetivo_cobertura = 50,
+  objetivo_cobertura = 5,
   presupuesto_max = 100000,
+  poblacion = 1000000,
   modelo = "sainsbury",
   usar_audiencia_util = FALSE
 )
