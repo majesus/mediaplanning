@@ -19,7 +19,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 }
 
 # Instalar mediaPlanR
-devtools::install_github("majesus/mediaPlanR", force = TRUE)
+devtools::install_github("majesus/mediaPlanR", force = TRUE, upgrade = "never")
 ```
 
 <details>
