@@ -73,7 +73,7 @@
 #'
 #' datos <- readr::read_csv(file = "data.csv", show_col_types = FALSE)
 #'
-#' resultado_bruto <- optimize_media_plan(
+#' resultado_bruto <- optimize_media_sb(
 #'   soportes_df = datos,
 #'   FEM = 2,
 #'   objetivo_cobertura = 50,
@@ -90,7 +90,7 @@
 #'   indices_utilidad = c(1.2, 1.1, 0.9)
 #' )
 #'
-#' resultado_util <- optimize_media_plan(
+#' resultado_util <- optimize_media_sb(
 #'   soportes_df = datos_util,
 #'   FEM = 2,
 #'   objetivo_cobertura = 50,
@@ -103,7 +103,7 @@
 #' @seealso
 #' \code{\link{calc_sainsbury}} para el modelo de Sainsbury
 #' \code{\link{calc_binomial}} para el modelo Binomial
-optimize_media_plan <- function(
+optimize_media_sb <- function(
     soportes_df,
     FEM,
     objetivo_cobertura,
