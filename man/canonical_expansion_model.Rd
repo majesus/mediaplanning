@@ -9,7 +9,7 @@ canonical_expansion_model(
   marginal_probs,
   correlations,
   insertions,
-  population = 1e+06,
+  population = 1e+07,
   truncation_order = 2,
   tolerance = 1e-10
 )
@@ -17,7 +17,7 @@ canonical_expansion_model(
 \arguments{
 \item{marginal_probs}{Vector numérico con las probabilidades marginales de exposición por vehículo}
 
-\item{correlations}{Matriz de correlaciones entre vehículos}
+\item{correlations}{Matriz numérica de correlaciones}
 
 \item{insertions}{Vector numérico con el número de inserciones por vehículo}
 
@@ -26,8 +26,9 @@ canonical_expansion_model(
 \item{truncation_order}{Orden de truncación para la expansión canónica (por defecto 2).
 Controla cuántos términos de la expansión se incluyen en el cálculo.}
 
-\item{tolerance}{Tolerancia numérica para validaciones (por defecto 1e-10).
-Define la precisión de las validaciones numéricas y cálculos.}
+\item{tolerance}{Tolerancia numérica para validaciones}
+
+\item{vehicle_data}{DataFrame con datos de vehículos}
 }
 \value{
 Una lista de clase "reach_canonical" conteniendo:
@@ -57,6 +58,21 @@ Una lista de clase "reach_canonical" conteniendo:
 \item bbd_params: Parámetros de las distribuciones Beta-Binomial para cada soporte
 }
 }
+
+Lista con validación y DataFrame de correlaciones únicas
+Validación y ordenamiento de inputs principales
+
+Lista con datos validados y ordenados
+Cálculo de parámetros BBD
+
+Lista de parámetros BBD por vehículo
+Cálculo de matriz canónica
+
+Matriz de variables canónicas normalizadas
+Cálculo de probabilidad conjunta
+
+Probabilidad conjunta para un patrón de exposición
+Genera todos los patrones posibles de exposición
 }
 \description{
 Implementa el modelo de expansión canónica desarrollado por Danaher (1991) para
@@ -162,4 +178,5 @@ A generalization of the Duplication of Viewing Law. Journal of Marketing Researc
 \code{\link{calc_beta_binomial}} para estimaciones con la distribución Beta-Binomial
 \code{\link{calc_metheringham}} para estimaciones con la distribución de Metheringham
 \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
+Valida y extrae correlaciones únicas de una matriz de correlaciones
 }
