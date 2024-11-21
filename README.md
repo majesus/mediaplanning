@@ -1728,18 +1728,13 @@ Distribución de contactos ((probabilidad de exactamente k contactos))
 
 Se desarrolla del modo siguiente:
 
-![Beta-Binomial PMF](https://latex.codecogs.com/png.image?\dpi{150}P_i=\binom{N}{i}\frac{(A+i-1)(A+i-2)...(A)(B+N-i-1)(B+N-i-2)...(B)}{(A+B+N-1)(A+B+N-2)...(A+B)})
-
-
-
-![FE_Ostrow_1982](./img/img_formula_beta.png)
+![Beta-Binomial PMF](https://latex.codecogs.com/png.image?\dpi{150}P_i=\binom{n}{i}\frac{(alpha+i-1)(alpha+i-2)...(alpha)(beta+n-i-1)(beta+n-i-2)...(beta)}{(alpha+beta+n-1)(alpha+beta+n-2)...(alpha+beta)})
 
 Donde:
 
--   k es el número de contactos
+-   i es el número de contactos
 -   n es el número de inserciones
--   α (alpha) y β (beta) son los parámetros de forma
--   B(alpha, beta) es la función beta
+-   alpha (α) y beta (β) son los parámetros de forma
 
 ------------------------------------------------------------------------
 
