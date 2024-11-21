@@ -1764,6 +1764,11 @@ Donde:
 -   α (alpha) controla la asimetría hacia valores altos de probabilidad
 -   β (beta) controla la asimetría hacia valores bajos de probabilidad
 
+
+![FE_Ostrow_1982](./img/img_bb_alpha_alto.png)
+![FE_Ostrow_1982](./img/img_bb_beta_alto.png)
+
+
 ------------------------------------------------------------------------
 
 #### Aplicación de la función:
