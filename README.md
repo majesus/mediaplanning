@@ -1740,7 +1740,7 @@ Donde:
 
 ![R1](https://latex.codecogs.com/png.image?R_1=\frac%7B\alpha%7D%7B\alpha+\beta%7D)
 
-![Pi](https://latex.codecogs.com/png.image?P_i=%5Cleft%5B%20%5Cbinom%7BN%7D%7Bi%7D%20%5Cfrac%7B%28A%2Bi-1%29%28A%2Bi-2%29%5Ccdots%20A%20%5Ctimes%20%28B%2BN-i-1%29%28B%2BN-i-2%29%5Ccdots%20B%7D%7B%28A%2BB%2BN-1%29%28A%2BB%2BN-2%
+P_i = \binom{N}{i} \frac{(A+i-1)! (B+N-i-1)!}{(A+B+N-1)!} \frac{(A-1)! (B-1)!}{(A+B-1)!}
 
 
 Donde:
