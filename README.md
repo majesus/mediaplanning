@@ -1726,6 +1726,28 @@ Distribución de contactos ((probabilidad de exactamente k contactos))
 
 ![Beta-Binomial PMF](https://latex.codecogs.com/png.image?P(X=k%7Cn,\alpha,\beta)=\binom%7Bn%7D%7Bk%7D\frac%7BB(k+\alpha,n-k+\beta)%7D%7BB(\alpha,\beta)%7D)
 
+<details>
+<summary>Mayor detalle</summary>
+
+***
+
+**¿Qué modela la distribución beta en este contexto?** La distribución beta modela la heterogeneidad de las probabilidades individuales de exposición (p) en la población. No es una distribución para cada individuo, sino una única distribución que describe cómo varían las probabilidades entre individuos.
+
+**¿Cómo se asignan las probabilidades individuales?** Cada individuo "extrae" su probabilidad p de la distribución beta común Beta(α,β). Una vez asignada, esta p se mantiene constante para ese individuo (estacionariedad).
+
+**¿Cómo funciona el proceso de exposición?** Para cada individuo con su p fija:
+
+* La probabilidad p proviene de Beta(α,β)
+* Las exposiciones siguen Binomial(n,p)
+
+Matemáticamente: P(X=k) = C(n,k)B(α+k,β+n-k)/B(α,β)
+
+**¿Por qué no es aleatoria la acumulación?** Porque las probabilidades individuales son persistentes y provienen de una distribución que modela la heterogeneidad poblacional, no de un proceso puramente aleatorio.
+
+***
+
+</details>
+
 Se desarrolla del modo siguiente:
 
 <br>
@@ -1768,6 +1790,11 @@ Donde:
 ![FE_Ostrow_1982](./img/img_bb_alpha_alto.png)
 ![FE_Ostrow_1982](./img/img_bb_beta_alto.png)
 
+Cuando **α** y **β** son pequeños, como en este caso:
+
+* La **distribución beta** se concentra cerca de los extremos \( p = 0 \) y \( p = 1 \). Esto refleja una población con **alta heterogeneidad**:
+  - Muchos individuos tienen una probabilidad cercana a \( p \approx 0 \) (casi nunca se exponen).
+  - Otros tienen \( p \approx 1 \) (casi siempre se exponen).
 
 ------------------------------------------------------------------------
 
