@@ -1775,56 +1775,46 @@ resultado <- calc_beta_binomial(
   P = 1000000,    
   n = 5           
 )
-
-```
-
-Solución:
+resultado
 
 # MODELO BETA-BINOMIAL
+# ===================
+# Descripción: Modelo que considera heterogeneidad en la población
 
-## Descripción
-Modelo que considera heterogeneidad en la población
+# MÉTRICAS PRINCIPALES:
+# --------------------
+# Cobertura total: 60.34% (603365 personas)
 
-## MÉTRICAS PRINCIPALES
-| Métrica | Valor |
-|---|---|
-| Cobertura total | 60.34% (603365 personas) |
+# PARÁMETROS DEL MODELO:
+# ---------------------
+# Alpha: 0.125 (forma de la distribución beta)
+# Beta: 0.125 (forma de la distribución beta)
+# Probabilidad de 0 contactos: 39.66%
 
-## PARÁMETROS DEL MODELO
-| Parámetro | Valor |
-|---|---|
-| Alpha | 0.125 |
-| Beta | 0.125 |
-| Probabilidad de 0 contactos | 39.66% |
+# DISTRIBUCIÓN DE CONTACTOS:
+# -------------------------
+# (Porcentaje de población que recibe exactamente N contactos)
+# 1 contacto: 6.01% (60096 personas)
+# 2 contactos: 4.33% (43269 personas)
+# 3 contactos: 4.33% (43269 personas)
+# 4 contactos: 6.01% (60096 personas)
+# 5 contactos: 39.66% (396635 personas)
 
-## DISTRIBUCIÓN DE CONTACTOS
-(Porcentaje de población que recibe exactamente N contactos)
+# DISTRIBUCIÓN ACUMULADA:
+# ----------------------
+# (Porcentaje de población que recibe N o más contactos)
+# ≥ 1 contacto: 60.34% (603365 personas)
+# ≥ 2 contactos: 54.33% (543269 personas)
+# ≥ 3 contactos: 50.00% (500000 personas)
+# ≥ 4 contactos: 45.67% (456731 personas)
+# ≥ 5 contactos: 39.66% (396635 personas)
 
-| Número de contactos | Porcentaje | Número de personas |
-|---|---|---|
-| 1 | 6.01% | 60096 |
-| 2 | 4.33% | 43269 |
-| 3 | 4.33% | 43269 |
-| 4 | 6.01% | 60096 |
-| 5 | 39.66% | 396635 |
+# RESUMEN ESTADÍSTICO:
+# -------------------
+# Promedio de contactos por individuo alcanzado: 4.14
+# Media teórica de la distribución beta: 0.500
 
-## DISTRIBUCIÓN ACUMULADA
-(Porcentaje de población que recibe N o más contactos)
-
-| Número de contactos | Porcentaje | Número de personas |
-|---|---|---|
-| ≥ 1 | 60.34% | 603365 |
-| ≥ 2 | 54.33% | 543269 |
-| ≥ 3 | 50.00% | 500000 |
-| ≥ 4 | 45.67% | 456731 |
-| ≥ 5 | 39.66% | 396635 |
-
-## RESUMEN ESTADÍSTICO
-| Métrica | Valor |
-|---|---|
-| Promedio de contactos por individuo alcanzado | 4.14 |
-| Media teórica de la distribución beta | 0.500 |
-
+```
 
 ### Modelo de Hofmans (`calc_hofmans`)
 
