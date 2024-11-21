@@ -19,7 +19,6 @@
     "\n3. Optimización de Distribución de Contactos (d) y Acumulada (dc):",
     "\n   - optimizar_d(): Optimiza parámetros alpha y beta y n de la distribución de contactos",
     "\n   - optimizar_dc(): Optimiza parámetros alpha y beta y n de la distribución de contactos acumulada",
-    "\n   - optimize_media_plan: Optimización de planes de medios con restricciones",
     "\n",
     "\nPara ver ejemplos de uso:",
     "\n   help(\"calc_grps\")",
