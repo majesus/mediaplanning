@@ -1727,6 +1727,9 @@ Distribución de contactos ((probabilidad de exactamente k contactos))
 
 ![Beta-Binomial PMF](https://latex.codecogs.com/png.image?P(X=k%7Cn,\alpha,\beta)=\binom%7Bn%7D%7Bk%7D\frac%7BB(k+\alpha,n-k+\beta)%7D%7BB(\alpha,\beta)%7D)
 
+![Beta-Binomial PMF]P_0 = \left[ \frac{(B+N-1)(B+N-2)\cdots (B)}{(A+B+N-1)(A+B+N-2)\cdots (A+B)} \right] P_t
+
+
 Donde:
 
 -   k es el número de contactos
