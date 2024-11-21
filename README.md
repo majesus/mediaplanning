@@ -1728,16 +1728,15 @@ Distribución de contactos ((probabilidad de exactamente k contactos))
 
 Se desarrolla del modo siguiente:
 
-<br><br>
-
+<br>
 
 ![Beta-Binomial PMF](https://latex.codecogs.com/png.image?\dpi{150}P_i=\binom{n}{i}\left[\frac{\prod_{j=1}^{i}(\alpha+i-j)\times\prod_{j=1}^{n-i}(\beta+n-i-j)}{\prod_{j=1}^{n}(\alpha+\beta+n-j)}\right])
 
-<br>br>
+<br><br>
 
 ![Beta-Binomial PMF](https://latex.codecogs.com/png.image?\dpi{150}P_i=\binom{n}{i}\frac{(\alpha+i-1)(\alpha+i-2)...(\alpha)(\beta+n-i-1)(\beta+n-i-2)...(\beta)}{(\alpha+\beta+n-1)(\alpha+\beta+n-2)...(\alpha+\beta)})
 
-<br><br>
+<br>
 
 Donde:
 
