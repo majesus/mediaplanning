@@ -1740,7 +1740,8 @@ Donde:
 
 ![R1](https://latex.codecogs.com/png.image?R_1=\frac%7B\alpha%7D%7B\alpha+\beta%7D)
 
-![BB](https://latex.codecogs.com/png.image?P_0=%5Cleft%5B%5Cfrac%7B(B%2BN-1)(B%2BN-2)%5Ccdots(B)%7D%7B(A%2BB%2BN-1)(A%2BB%2BN-2)%5Ccdots(A%2BB)%7D%5Cright%5D%20P_t)
+![Pi](https://latex.codecogs.com/png.image?P_i=%5Cleft%5B%5Cbinom%7BN%7D%7Bi%7D%5Cfrac%7B(A%2Bi-1)(A%2Bi-2)%5Ccdots(A)(B%2BN-i-1)(B%2BN-i-2)%5Ccdots(B)%7D%7B(A%2BB%2BN-1)(A%2BB%2BN-2)%5Ccdots(A%2BB)%7D%5Cright%5D%20P_t)
+
 
 
 
