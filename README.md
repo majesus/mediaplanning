@@ -1740,9 +1740,8 @@ Donde:
 
 ![R1](https://latex.codecogs.com/png.image?R_1=\frac%7B\alpha%7D%7B\alpha+\beta%7D)
 
-$$
-P_0 = \left[ \frac{(B+N-1)(B+N-2)\cdots (B)}{(A+B+N-1)(A+B+N-2)\cdots (A+B)} \right] P_t
-$$
+![BB](https://latex.codecogs.com/png.image?P_0=%5Cleft%5B%5Cfrac%7B(B%2BN-1)(B%2BN-2)%5Ccdots(B)%7D%7B(A%2BB%2BN-1)(A%2BB%2BN-2)%5Ccdots(A%2BB)%7D%5Cright%5D%20P_t)
+
 
 
 Donde:
