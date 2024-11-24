@@ -2115,7 +2115,7 @@ El Director de Marketing, Carlos Ruiz, se enfrenta al reto de elegir el mercado 
 
 #### Análisis de Mercado
 
-La empresa ha realizado un estudio de mercado en tres regiones diferentes, obteniendo los siguientes índices relativos a su marca:
+La empresa ha realizado un estudio de mercado en tres regiones diferentes, obteniendo los siguientes índices relativos aplicables a la categoría y a su marca:
 
   | Región        | CDI  | BDI  |
   |---------------|------|------|
@@ -2127,7 +2127,7 @@ La empresa ha realizado un estudio de mercado en tres regiones diferentes, obten
 
 Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes de prensa con los siguientes datos:
 
-| Soporte               | Mercado | Audiencia (000) | Audiencia 2ª inserción (000) | Tarifa página color (€) |
+| Soporte               | Mercado | Aud. útil (000) | Aud. útil 2ª inserción (000) | Tarifa página color (€) |
 |----------------------|---------|-----------------|----------------------------|----------------------|
 | Norte Noticias       | Norte   | 595            | 620                        | 12.500              |
 | La Gaceta del Norte  | Norte   | 504            | 720                        | 10.800              |
@@ -2143,7 +2143,7 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
 
 - Cobertura efectiva mínima: 25% de la población objetivo
 - Frecuencia efectiva mínima: 5+ impactos
-- Presupuesto máximo: 100.000€
+- Restricción presupuestaria: 100.000€
 - Duración de campaña: 3 meses
 
 #### Tareas a Realizar
