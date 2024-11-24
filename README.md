@@ -1,6 +1,6 @@
 # Herramientas tradicionales para la Planificación de Medios Publicitarios
 
-Autor: Manuel J. Sánchez Franco Email: [majesus\@us.es](mailto:majesus@us.es){.email}
+Autor: Manuel J. Sánchez Franco
 
 ## :red_square:Descripción General
 
