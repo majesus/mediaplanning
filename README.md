@@ -2105,7 +2105,7 @@ ___
 
 ___
 
-## Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
+## :red_square:Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
 
 #### Contexto Empresarial
 
