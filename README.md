@@ -1,10 +1,10 @@
-# Herramientas para la Planificación de Medios Publicitarios
+# Herramientas tradicionales para la Planificación de Medios Publicitarios
 
 Autor: Manuel J. Sánchez Franco Email: [majesus\@us.es](mailto:majesus@us.es){.email}
 
 ## :red_square:Descripción General
 
-> **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
+> **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios -preferentemente en prensa-, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
 
 El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios.
 
@@ -2103,6 +2103,82 @@ ___
 
 ![FE_Ostrow_1982](./img/img_EGM_audiencia_util.png)
 
+___
+
+## Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
+
+#### Contexto Empresarial
+
+MediCare, una innovadora empresa del sector salud, está a punto de lanzar al mercado español una nueva línea de productos de autocuidado y bienestar. La compañía ha desarrollado una gama de suplementos vitamínicos _premium_ que combina ingredientes naturales con tecnología de absorción avanzada.
+
+El Director de Marketing, Carlos Ruiz, se enfrenta al reto de elegir el mercado regional más apropiado para el lanzamiento inicial y desarrollar una estrategia de medios efectiva que maximice el impacto entre una población consumidora de esta categoría de productos con un presupuesto limitado.
+
+#### Análisis de Mercado
+
+La empresa ha realizado un estudio de mercado en tres regiones diferentes, obteniendo los siguientes índices relativos a su marca:
+
+  | Región        | CDI  | BDI  |
+  |---------------|------|------|
+  | Norte         | 112  | 95   |
+  | Centro        | 108  | 115  |
+  | Levante       | 85   | 98   |
+
+#### Medios Disponibles
+
+Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes de prensa con los siguientes datos:
+
+| Soporte               | Mercado | Audiencia (000) | Audiencia 2ª inserción (000) | Tarifa página color (€) |
+|----------------------|---------|-----------------|----------------------------|----------------------|
+| Norte Noticias       | Norte   | 595            | 620                        | 12.500              |
+| La Gaceta del Norte  | Norte   | 504            | 720                        | 10.800              |
+| El Eco del Norte     | Norte   | 315            | 450                        | 7.200               |
+| Centro Diario        | Centro  | 546            | 780                        | 11.800              |
+| La Voz de Madrid     | Centro  | 476            | 680                        | 10.200              |
+| El Heraldo Central   | Centro  | 294            | 420                        | 6.900               |
+| Levante Express      | Levante | 406            | 580                        | 9.500               |
+| El Mediterráneo      | Levante | 343            | 490                        | 8.200               |
+| Diario de Levante    | Levante | 245            | 350                        | 5.800               |
+
+#### Objetivos de Campaña
+
+- Cobertura efectiva mínima: 25% de la población objetivo
+- Frecuencia efectiva mínima: 5+ impactos
+- Presupuesto máximo: 100.000€
+- Duración de campaña: 3 meses
+
+#### Tareas a Realizar
+
+1. **Selección de Mercado**
+- Analizar los índices CDI y BDI para cada región
+- Justificar la elección del mercado con mayor oportunidad de marca
+
+2. **Planificación de Medios**
+- Desarrollar un plan de inserciones utilizando los soportes disponibles
+- El plan debe contener un único soporte
+- Calcular para cada plan:
+  * Cobertura
+  * Frecuencia media
+  * Distribución de exposición
+  * Distribución de exposición acumulada
+  * GRPs del plan
+  * CPM del plan
+  * Coste por punto porcentual de población efectivamente alcanzada
+
+3. **Análisis con Modelo Beta Binomial**
+- Realizar un único cálculo manual para un plan básico de n inserciones
+- Utilizar MediaPlanR para resto de planes con n inserciones
+- Comparar resultados y eficiencia
+
+4. **Diagnóstico y Recomendaciones**
+- Evaluar si se cumplen los objetivos de cobertura y frecuencia
+- Proponer ajustes si fuera necesario
+
+#### Datos Adicionales para el Cálculo
+
+- Población objetivo en cada región:
+  * Norte: 8.5 millones
+  * Centro: 11.2 millones
+  * Levante: 6.8 millones
 ___
 
 ## :red_square:Caso Práctico P/V: Campaña Informativa de Detergente
