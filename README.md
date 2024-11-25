@@ -1444,21 +1444,32 @@ Media teórica de la distribución beta: 0.500
 
 ## :red_square:mediaPlanR: Funciones de mediaPlanR
 
-**Modelos:** - calc_sainsbury() - calc_beta_binomial()\
-- calc_binomial() - calc_hofmans()\
-- calc_MBBD()\
-- calc_metheringham() - calc_R1_R2()
+**Modelos:** 
 
-**Métricas:** - calcular_metricas_medios() - calc_cpm()\
-- calc_grps()\
+- calc_sainsbury() 
+- calc_beta_binomial()
+- calc_binomial() 
+- calc_hofmans()
+- calc_MBBD()
+- calc_metheringham() 
+- calc_R1_R2()
+
+**Métricas:** 
+
+- calcular_metricas_medios() 
+- calc_cpm()
+- calc_grps()
 - plot_grp_metricas()
 
-**Optimización:** - optimizar_d()\
-- optimizar_dc()\
+**Optimización:** 
+- optimizar_d()
+- optimizar_dc()
 - optimize_media_plan()
 
-**Aplicaciones Shiny:** - run_aud_util_explorer()\
-- run_beta_binomial_explorer() - run_reach_converg_explorer()
+**Aplicaciones Shiny:** 
+- run_aud_util_explorer()
+- run_beta_binomial_explorer() 
+- run_reach_converg_explorer()
 
 ------------------------------------------------------------------------
 
@@ -2141,7 +2152,7 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
 
 #### Objetivos de Campaña
 
-- Cobertura efectiva mínima: 25% de la población objetivo
+- Cobertura efectiva mínima: 7% de la población objetivo
 - Frecuencia efectiva mínima: 5+ impactos
 - Restricción presupuestaria: 100.000€
 - Duración de campaña: 3 meses
