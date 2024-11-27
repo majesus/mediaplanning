@@ -1795,11 +1795,6 @@ Donde:
 ![FE_Ostrow_1982](./img/img_bb_alpha_alto.png)
 ![FE_Ostrow_1982](./img/img_bb_beta_alto.png)
 
-Cuando **α** y **β** son pequeños, como en este caso, la **distribución beta** se concentra cerca de los extremos (p = 0) y (p = 1). Esto refleja una población con **alta heterogeneidad**:
-
-- Muchos individuos tienen una probabilidad cercana a 0 (casi nunca se exponen).
-- Otros tienen una probabilidad cercana a 1 (casi siempre se exponen).
-
 ------------------------------------------------------------------------
 
 #### Aplicación de la función:
