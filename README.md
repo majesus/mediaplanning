@@ -1775,7 +1775,8 @@ Donde:
 
 -   i es el número de contactos
 -   n es el número de inserciones
--   alpha (α) y beta (β) son los parámetros de forma
+-   α (alpha) controla la asimetría hacia valores altos de probabilidad
+-   β (beta) controla la asimetría hacia valores bajos de probabilidad
 
 ------------------------------------------------------------------------
 
@@ -1784,11 +1785,6 @@ Donde:
 ![Beta](https://latex.codecogs.com/png.image?\beta=\alpha\frac%7B1-R_1%7D%7BR_1%7D)
 
 Donde:
-
--   α (alpha) controla la asimetría hacia valores altos de probabilidad
--   β (beta) controla la asimetría hacia valores bajos de probabilidad
-
-Y donde:
 
 -   R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
 -   R2 es la proporción de audiencia alcanzada (al menos 2 veces) tras la segunda inserción
@@ -1802,6 +1798,7 @@ Y donde:
 Cuando **α** y **β** son pequeños, como en este caso:
 
 * La **distribución beta** se concentra cerca de los extremos (p = 0) y (p = 1). Esto refleja una población con **alta heterogeneidad**:
+
   - Muchos individuos tienen una probabilidad cercana a 0 (casi nunca se exponen).
   - Otros tienen una probabilidad cercana a 1 (casi siempre se exponen).
 
