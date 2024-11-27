@@ -1779,15 +1779,6 @@ Donde:
 
 ------------------------------------------------------------------------
 
-![R1](https://latex.codecogs.com/png.image?R_1=\frac%7B\alpha%7D%7B\alpha+\beta%7D)
-
-Donde:
-
--   R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
--   R2 es la proporción de audiencia alcanzada (al menos 1 vez) tras la segunda inserción
-
-------------------------------------------------------------------------
-
 ![Alpha](https://latex.codecogs.com/png.image?\alpha=\frac%7BR_1(R_2-R_1)%7D%7B2R_1-R_1%5E2-R_2%7D)
 
 ![Beta](https://latex.codecogs.com/png.image?\beta=\alpha\frac%7B1-R_1%7D%7BR_1%7D)
@@ -1797,15 +1788,22 @@ Donde:
 -   α (alpha) controla la asimetría hacia valores altos de probabilidad
 -   β (beta) controla la asimetría hacia valores bajos de probabilidad
 
+Y donde:
+
+-   R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
+-   R2 es la proporción de audiencia alcanzada (al menos 1 vez) tras la segunda inserción
+
+------------------------------------------------------------------------
+
 
 ![FE_Ostrow_1982](./img/img_bb_alpha_alto.png)
 ![FE_Ostrow_1982](./img/img_bb_beta_alto.png)
 
 Cuando **α** y **β** son pequeños, como en este caso:
 
-* La **distribución beta** se concentra cerca de los extremos \( p = 0 \) y \( p = 1 \). Esto refleja una población con **alta heterogeneidad**:
-  - Muchos individuos tienen una probabilidad cercana a \( p \approx 0 \) (casi nunca se exponen).
-  - Otros tienen \( p \approx 1 \) (casi siempre se exponen).
+* La **distribución beta** se concentra cerca de los extremos (p = 0) y (p = 1). Esto refleja una población con **alta heterogeneidad**:
+  - Muchos individuos tienen una probabilidad cercana a 0 (casi nunca se exponen).
+  - Otros tienen una probabilidad cercana a 1 (casi siempre se exponen).
 
 ------------------------------------------------------------------------
 
@@ -1859,13 +1857,111 @@ resultado
 
 ```
 
+### Modelo de Metheringham
+
+El modelo de Metheringham es un modelo estocástico para calcular la cobertura y la distribución de contactos de un plan de medios publicitarios. Fue desarrollado por Richard Metheringham en 1964. El modelo es particularmente útil porque permite evaluar planes de medios complejos donde hay múltiples inserciones distribuidas en diferentes soportes, considerando cómo la audiencia se acumula y se duplica entre diferentes medios.
+
+Se sustentan las siguientes hipótesis:
+
+- La **población es heterogénea**. Cada individuo tiene su propia probabilidad personal de exposición que, sin embargo, se distribuye como una beta para el conjunto.
+
+- Los **soportes son homogéneos**. Ello no quiere decir que cada individuo tenga la misma probabilidad de exposición respecto a cada soporte, sino que estas probabilidades individuales se distribuyen de tal forma que todos los soportes acaban con la misma distribución beta de probabilidades de exposición.
+
+- La **acumulación y duplicación de las audiencias se promedian entre los soportes para conformar un soporte “tipo”**.
+
+- Las **probabilidades de exposición son estacionarias** en el tiempo.
+
+El proceso comienza calculando la **audiencia promedio de todos los soportes** involucrados en el plan de medios. Para esto, se considera tanto la audiencia individual de cada soporte como el número de inserciones que se realizan en cada uno.
+
+Después, se analiza la **audiencia acumulada que se obtiene tras dos inserciones** en lo que llaman un soporte "tipo". Este cálculo toma en cuenta dos factores: las acumulaciones (cuando las inserciones se hacen en el mismo soporte) y las duplicaciones (cuando se hacen en soportes diferentes).
+
+Con estos datos de audiencia, se estiman dos parámetros fundamentales (alpha y beta) que caracterizan la distribución beta del modelo. Estos parámetros permiten calcular tanto la distribución de contactos como la cobertura total del plan de medios.
+
+#### Aplicación de la función:
+
+``` r
+metricas <- calc_metheringham(
+  audiencias = c(1500000, 800000, 1200000),
+  inserciones = c(4, 3, 5),
+  vec_duplicacion = c(150000, 200000, 180000,
+                              120000, 140000,
+                                      170000),
+  ayuda = FALSE
+)
+str(metricas)
+
+resultado <- calc_beta_binomial(A1 = metricas$audiencia_media, 
+                                A2 = metricas$audiencia_segunda, 
+                                P = 10000000, 
+                                n = 12)
+resultado
+
+# List of 4
+#  $ audiencia_media     : num 1200000
+#  $ duplicacion_media   : num 167576
+#  $ audiencia_segunda   : num 2232424
+#  $ vector_oportunidades: num [1:6] 6 12 20 3 15 10
+
+# MODELO BETA-BINOMIAL
+# ===================
+# Descripción: Modelo que considera heterogeneidad en la población
+
+# MÉTRICAS PRINCIPALES:
+# --------------------
+# Cobertura total: 74.34% (7434177 personas)
+
+# PARÁMETROS DEL MODELO:
+# ---------------------
+# Alpha: 5.255 (forma de la distribución beta)
+# Beta: 38.537 (forma de la distribución beta)
+# Probabilidad de 0 contactos: 25.66%
+
+# DISTRIBUCIÓN DE CONTACTOS:
+# -------------------------
+# (Porcentaje de población que recibe exactamente N contactos)
+# 1 contacto: 32.66% (3266285 personas)
+# 2 contactos: 23.15% (2315123 personas)
+# 3 contactos: 11.78% (1177773 personas)
+# 4 contactos: 4.70% (470073 personas)
+# 5 contactos: 1.53% (152862 personas)
+# 6 contactos: 0.41% (41064 personas)
+# 7 contactos: 0.09% (9099 personas)
+# 8 contactos: 0.02% (1638 personas)
+# 9 contactos: 0.00% (232 personas)
+# 10 contactos: 0.00% (25 personas)
+# 11 contactos: 0.00% (2 personas)
+# 12 contactos: 0.00% (0 personas)
+
+# DISTRIBUCIÓN ACUMULADA:
+----------------------
+# (Porcentaje de población que recibe N o más contactos)
+# ≥ 1 contacto: 74.34% (7434177 personas)
+# ≥ 2 contactos: 41.68% (4167893 personas)
+# ≥ 3 contactos: 18.53% (1852769 personas)
+# ≥ 4 contactos: 6.75% (674996 personas)
+# ≥ 5 contactos: 2.05% (204923 personas)
+# ≥ 6 contactos: 0.52% (52061 personas)
+# ≥ 7 contactos: 0.11% (10996 personas)
+# ≥ 8 contactos: 0.02% (1897 personas)
+# ≥ 9 contactos: 0.00% (259 personas)
+# ≥ 10 contactos: 0.00% (26 personas)
+# ≥ 11 contactos: 0.00% (2 personas)
+# ≥ 12 contactos: 0.00% (0 personas)
+
+# RESUMEN ESTADÍSTICO:
+-------------------
+# Promedio de contactos por individuo alcanzado: 1.94
+# Media teórica de la distribución beta: 0.120
+
+```
+
 ### Modelo de Hofmans (`calc_hofmans`)
 
 El modelo de Hofmans (1966) aborda específicamente el problema de la acumulación de audiencias para múltiples inserciones en un mismo soporte. Su aportación fundamental radica en adaptar la formulación de Agostini (1961), diseñada originalmente para el cálculo de cobertura entre diferentes soportes, al caso de inserciones sucesivas en un único soporte.
 
 El modelo se basa en dos supuestos simplificadores fundamentales: la constancia de la audiencia del soporte para todas sus inserciones, y la existencia de una duplicación constante entre cualquier par de inserciones. Su principal innovación es el reconocimiento y corrección del comportamiento no lineal de la acumulación de audiencias mediante la introducción de un parámetro de ajuste (α) que modifica el factor de acumulación según el número de inserciones.
 
-Para su aplicación práctica, el modelo requiere únicamente conocer las coberturas de las tres primeras inserciones, permitiendo estimar la cobertura para cualquier número posterior de inserciones. Esta estructura lo hace especialmente útil para la planificación de campañas con múltiples inserciones en un mismo soporte, ofreciendo una estimación más precisa del comportamiento real de la acumulación de audiencias a medio y largo plazo.
+Para su aplicación práctica, el modelo requiere únicamente conocer las coberturas de las dos primeras inserciones, permitiendo estimar la cobertura para cualquier número posterior de inserciones. Esta estructura lo hace especialmente útil para la planificación de campañas con múltiples inserciones en un mismo soporte, ofreciendo una estimación más precisa del comportamiento real de la acumulación de audiencias a medio y largo plazo.
 
 #### Características:
 
@@ -1941,7 +2037,7 @@ print(resultado$results)
 print(resultado$parametros)
 ```
 
-### Modelo MBBD (Morgensztern Beta Binomial Distribution)
+### Modelo MBBD, _Morgensztern Beta Binomial Distribution_
 
 Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en el desarrollo del modelo Hofmans beta binomial, con la salvedad ya señalada de que la cobertura se estimaría mediante la fórmula propuesta por Morgensztem (1970).
 
