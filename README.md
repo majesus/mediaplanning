@@ -1857,7 +1857,7 @@ resultado
 
 ```
 
-### Modelo de Metheringham
+### Modelo de Metheringham (`calc_metheringham`)
 
 El modelo de Metheringham es un modelo estocástico para calcular la cobertura y la distribución de contactos de un plan de medios publicitarios. Fue desarrollado por Richard Metheringham en 1964. El modelo es particularmente útil porque permite evaluar planes de medios complejos donde hay múltiples inserciones distribuidas en diferentes soportes, considerando cómo la audiencia se acumula y se duplica entre diferentes medios.
 
@@ -1865,9 +1865,16 @@ Se sustentan las siguientes hipótesis:
 
 - La **población es heterogénea**. Cada individuo tiene su propia probabilidad personal de exposición que, sin embargo, se distribuye como una beta para el conjunto.
 
-- Los **soportes son homogéneos**. Ello no quiere decir que cada individuo tenga la misma probabilidad de exposición respecto a cada soporte, sino que estas probabilidades individuales se distribuyen de tal forma que todos los soportes acaban con la misma distribución beta de probabilidades de exposición.
+    En el ejemplo de una campaña publicitaria para un nuevo modelo de coche, la distribución beta permitiría:
+    
+    - Identificar a los **entusiastas de los coches**: Asignar una alta probabilidad de exposición a los individuos que, según los datos de audiencia, consumen habitualmente medios relacionados con el automóvil.
+    - Identificar a los que **no tienen interés en los coches**: Asignar una baja probabilidad de exposición a los individuos que no muestran ningún interés en este tipo de productos o medios.
+    - Representar la **diversidad**: Asignar una gama de probabilidades intermedias al resto de la población, reflejando la variedad de niveles de interés que pueden existir.
+    - Al utilizar la distribución beta de esta manera, el modelo de Metheringham puede estimar con mayor precisión cuántas personas de cada grupo de interés verán el anuncio, lo que a su vez permite una planificación de medios más eficiente y efectiva.
 
-- La **acumulación y duplicación de las audiencias se promedian entre los soportes para conformar un soporte “tipo”**.
+- Los **soportes son homogéneos**. Ello no quiere decir que cada individuo tenga la misma probabilidad de exposición respecto a cada soporte, sino que estas probabilidades individuales se distribuyen de tal forma que todos los soportes acaban con la misma distribución beta de probabilidades de exposición. Metheringham simplifica esta suposición utilizando la audiencia media de todos los soportes para calcular la probabilidad de exposición. Esta simplificación puede no ser realista en la práctica, ya que hay medios con mayor alcance que otros. Sin embargo, facilita el cálculo al homogeneizar el conjunto de medios.
+
+- La **acumulación y duplicación de las audiencias se promedian entre los soportes para conformar un soporte “tipo”**. Esta hipótesis asume que la acumulación y duplicación de las audiencias pueden ser promediadas entre los diferentes soportes para crear un soporte "tipo".
 
 - Las **probabilidades de exposición son estacionarias** en el tiempo.
 
