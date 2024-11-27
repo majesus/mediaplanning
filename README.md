@@ -1897,17 +1897,17 @@ metricas <- calc_metheringham(
 )
 str(metricas)
 
-resultado <- calc_beta_binomial(A1 = metricas$audiencia_media, 
-                                A2 = metricas$audiencia_segunda, 
-                                P = 10000000, 
-                                n = 12)
-resultado
-
 # List of 4
 #  $ audiencia_media     : num 1200000
 #  $ duplicacion_media   : num 167576
 #  $ audiencia_segunda   : num 2232424
 #  $ vector_oportunidades: num [1:6] 6 12 20 3 15 10
+
+resultado <- calc_beta_binomial(A1 = metricas$audiencia_media, 
+                                A2 = metricas$audiencia_segunda, 
+                                P = 10000000, 
+                                n = 12)
+resultado
 
 # MODELO BETA-BINOMIAL
 # ===================
