@@ -1791,7 +1791,7 @@ Donde:
 Y donde:
 
 -   R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
--   R2 es la proporción de audiencia alcanzada (al menos 1 vez) tras la segunda inserción
+-   R2 es la proporción de audiencia alcanzada (al menos 2 veces) tras la segunda inserción
 
 ------------------------------------------------------------------------
 
@@ -1873,6 +1873,8 @@ Se sustentan las siguientes hipótesis:
     - Al utilizar la distribución beta de esta manera, el modelo de Metheringham puede estimar con mayor precisión cuántas personas de cada grupo de interés verán el anuncio, lo que a su vez permite una planificación de medios más eficiente y efectiva.
 
 - Los **soportes son homogéneos**. Ello no quiere decir que cada individuo tenga la misma probabilidad de exposición respecto a cada soporte, sino que estas probabilidades individuales se distribuyen de tal forma que todos los soportes acaban con la misma distribución beta de probabilidades de exposición. Metheringham simplifica esta suposición utilizando la audiencia media de todos los soportes para calcular la probabilidad de exposición. Esta simplificación puede no ser realista en la práctica, ya que hay medios con mayor alcance que otros. Sin embargo, facilita el cálculo al homogeneizar el conjunto de medios.
+
+    Volviendo al ejemplo de la campaña del coche nuevo, la hipótesis de soportes homogéneos implicaría que, si bien algunos individuos pueden ser más propensos a ver el anuncio en la televisión, otros en revistas especializadas y otros en sitios web de coches, la distribución general de probabilidades de exposición a lo largo de todos estos soportes seguiría una forma similar (la distribución beta).
 
 - La **acumulación y duplicación de las audiencias se promedian entre los soportes para conformar un soporte “tipo”**. Esta hipótesis asume que la acumulación y duplicación de las audiencias pueden ser promediadas entre los diferentes soportes para crear un soporte "tipo".
 
