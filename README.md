@@ -1109,7 +1109,7 @@ Inversión total: $3 millones
     - El tiempo de exposición es fragmentado y breve
     - Compiten con múltiple contenido simultáneo
 
-- **_Target Audience_**: NCUs ( _early adopters tecnológicos_) sin experiencia previa en la categoría. 
+- **_Target Audience_**: NCUs ( _New Category Users_) sin experiencia previa en la categoría. 
 
 - **_Communication Objectives_**: _Brand recall_ y _transformational brand attitude_
 
