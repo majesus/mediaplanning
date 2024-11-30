@@ -8,7 +8,6 @@
 #' Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de
 #' contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España.
 #'
-#' @param m Integer. Número de soportes
 #' @param insertions Vector numérico. Número de inserciones para cada soporte (ni)
 #' @param audiences Vector numérico. Audiencia de cada soporte en personas (Ai)
 #' @param RM Entero. Estimación de cobertura según Morgensztem en personas
@@ -63,7 +62,6 @@
 #'
 #' @examples
 #' Ejemplo básico
-#' m <- 3
 #' insertions <- c(5, 7, 4)
 #' audiences <- c(500000, 550000, 600000)
 #' RM <- 550000
@@ -82,12 +80,13 @@
 
 #' @importFrom extraDistr dbbinom
 #' @importFrom stats complete.cases
-calc_MBBD <- function(m, insertions, audiences, RM, universe, A0,
+calc_MBBD <- function(insertions, audiences, RM, universe, A0,
                       precision = 100,
                       max_iter = 100,
                       adj_factor = 0.01) {
 
   # Input validation
+  m <- length(insertions)
   if(!is.numeric(m) || m <= 0 || m != round(m)) {
     stop("m must be a positive integer")
   }
@@ -106,8 +105,8 @@ calc_MBBD <- function(m, insertions, audiences, RM, universe, A0,
   if(any(audiences > universe)) {
     stop("audiences cannot be larger than universe size")
   }
-  if(A0 <= 0 || A0 > 10) {
-    stop("A0 must be between 0 and 10")
+  if(A0 <= 0 || A0 > 2000) {
+    stop("A0 must be between 0 and 2000")
   }
 
   # Convert to proportions for internal calculations

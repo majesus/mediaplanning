@@ -590,7 +590,7 @@ print.reach_beta_binomial <- function(x, ...) {
 #'
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param inserciones Vector numérico con el número de inserciones por soporte
-#' @param vec_duplicacion Vector numérico con valores de duplicación entre soportes
+#' @param matriz_duplicacion Matriz simétrica con los valores de duplicación entre soportes
 #' @param ayuda Logical. Si TRUE, muestra una guía de uso detallada (default: TRUE)
 #'
 #' @details
@@ -613,32 +613,38 @@ print.reach_beta_binomial <- function(x, ...) {
 #'     }
 #' }
 #'
-#' @return Una lista conteniendo:
+#' @return Un objeto de clase 'reach_metheringham' conteniendo:
 #' \itemize{
 #'   \item audiencia_media: Media ponderada de audiencias (A1)
 #'   \item duplicacion_media: Media ponderada de duplicaciones (D)
 #'   \item audiencia_segunda: Audiencia tras la segunda inserción (A2)
-#'   \item vector_oportunidades: Vector que contiene el número de oportunidades de contacto
-#'         entre pares de inserciones, siguiendo el mismo orden que el vec_duplicacion
+#'   \item matriz_oportunidades: Matriz que contiene el número de oportunidades de contacto
+#'         entre pares de inserciones
+#'   \item vector_oportunidades: Versión linealizada de la matriz de oportunidades
+#'   \item vector_duplicacion: Versión linealizada de la matriz de duplicación
 #' }
 #'
 #' @note
-#' El vector de duplicación debe seguir un orden específico:
+#' La matriz de duplicación debe ser simétrica donde:
 #' \itemize{
-#'   \item Para n soportes, se requieren n*(n+1)/2 valores
-#'   \item Los valores se ordenan por filas de la matriz triangular superior
-#'   \item Incluye la duplicación de cada soporte consigo mismo
-#'   \item El orden sigue el patrón: (1,1), (1,2), (1,3), (2,2), (2,3), (3,3)
+#'   \item La diagonal contiene la duplicación de cada soporte consigo mismo
+#'   \item El elemento [i,j] contiene la duplicación entre los soportes i y j
+#'   \item Se debe cumplir que matriz[i,j] = matriz[j,i]
+#'   \item Para n soportes, la matriz debe ser de dimensiones n x n
 #' }
 #'
 #' @examples
 #' # Ejemplo básico con tres soportes
+#' matriz_dup <- matrix(c(
+#'   150000, 200000, 180000,
+#'   200000, 120000, 140000,
+#'   180000, 140000, 170000
+#' ), nrow = 3, byrow = TRUE)
+#'
 #' metricas <- calc_metheringham(
 #'   audiencias = c(1500000, 800000, 1200000),
 #'   inserciones = c(4, 3, 5),
-#'   vec_duplicacion = c(150000, 200000, 180000,
-#'                         120000, 140000,
-#'                         170000),
+#'   matriz_duplicacion = matriz_dup,
 #'   ayuda = FALSE
 #' )
 #'
@@ -646,85 +652,123 @@ print.reach_beta_binomial <- function(x, ...) {
 #' calc_metheringham(
 #'   audiencias = NULL,
 #'   inserciones = NULL,
-#'   vec_duplicacion = NULL,
+#'   matriz_duplicacion = NULL,
 #'   ayuda = TRUE
 #' )
 #'
 #' @export
+#'
 #' @seealso
 #' \code{\link{calc_sainsbury}} para estimaciones con la distribución Binomial
 #' \code{\link{calc_binomial}} para estimaciones con la distribución Beta-Binomial
 #' \code{\link{calc_beta_binomial}} para estimaciones con la distribución de Metheringham
 #' \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
-calc_metheringham <- function(audiencias, inserciones, vec_duplicacion, ayuda = TRUE) {
+#'
+#' @export
+
+# Función para convertir matriz a vector de duplicación
+matriz_a_vector <- function(matriz) {
+  n <- nrow(matriz)
+  vector <- numeric()
+  for(i in 1:n) {
+    for(j in i:n) {
+      vector <- c(vector, matriz[i,j])
+    }
+  }
+  return(vector)
+}
+
+#' @export
+# Función para crear matriz de oportunidades
+crear_matriz_oportunidades <- function(inserciones) {
+  n <- length(inserciones)
+  matriz <- matrix(0, nrow = n, ncol = n)
+  for(i in 1:n) {
+    for(j in i:n) {
+      if(i == j) {
+        matriz[i,j] <- choose(inserciones[i], 2)
+      } else {
+        matriz[i,j] <- inserciones[i] * inserciones[j]
+        matriz[j,i] <- matriz[i,j]  # Simetría
+      }
+    }
+  }
+  return(matriz)
+}
+
+#' @export
+# Función principal de Metheringham
+calc_metheringham <- function(audiencias, inserciones, matriz_duplicacion, ayuda = TRUE) {
+  # Primero verificar si solo se quiere mostrar la ayuda
   if(ayuda) {
     cat("
     GUÍA PARA INTRODUCIR DATOS DE AUDIENCIA Y DUPLICACIÓN
     1. FORMATO DE ENTRADA:
        - audiencias: Vector numérico con la audiencia de cada soporte
        - inserciones: Vector numérico con número de inserciones por soporte
-       - vec_duplicacion: Vector con valores de duplicación entre soportes
-    2. TAMAÑO DEL VECTOR DE DUPLICACIÓN:
-       Para n soportes, necesitas n*(n+1)/2 valores de duplicación.
-       Ejemplo:
-       - 2 soportes → 3 valores
-       - 3 soportes → 6 valores
-       - 4 soportes → 10 valores
-       - 5 soportes → 15 valores
-    3. ORDEN DEL VECTOR DE DUPLICACIÓN:
-       Para 3 soportes el orden es: c(d11, d12, d13, d22, d23, d33)
-    4. EJEMPLO DE USO:
-       audiencias <- c(1500, 800, 1200)
-       inserciones <- c(4, 3, 5)
-       vec_duplicacion <- c(150, 200, 180, 120, 140, 170)
+       - matriz_duplicacion: Matriz simétrica con valores de duplicación entre soportes
+
+    2. FORMATO DE LA MATRIZ DE DUPLICACIÓN:
+       Para n soportes, necesitas una matriz n x n donde:
+       - El elemento [i,i] es la duplicación del soporte i consigo mismo
+       - El elemento [i,j] es la duplicación entre los soportes i y j
+       - La matriz debe ser simétrica (duplicación[i,j] = duplicación[j,i])
     \n\n")
     cat("========== COMENZANDO CÁLCULOS ==========\n\n")
+    return(invisible(NULL))  # Retorna temprano si solo se quiere mostrar la ayuda
   }
 
-  # Validación de inputs
+  # El resto de las validaciones y cálculos solo se ejecutan si ayuda = FALSE
   if (length(audiencias) != length(inserciones)) {
     stop("Los vectores de audiencias e inserciones deben tener la misma longitud")
   }
-  n_elementos_duplicacion <- length(audiencias) * (length(audiencias) + 1) / 2
-  if (length(vec_duplicacion) != n_elementos_duplicacion) {
-    stop("La longitud del vector de duplicación no coincide con el número esperado de elementos")
+
+
+  n_soportes <- length(audiencias)
+
+  if (!is.matrix(matriz_duplicacion)) {
+    stop("matriz_duplicacion debe ser una matriz")
   }
 
-  # Función para calcular directamente el vector de oportunidades
-  calcular_vector_oportunidades <- function(ins) {
-    n <- length(ins)
-    valores <- numeric()
-
-    for(i in 1:n) {
-      # Diagonal: choose(ni,2)
-      valores <- c(valores, choose(ins[i], 2))
-
-      # Productos con soportes restantes
-      if(i < n) {
-        for(j in (i+1):n) {
-          valores <- c(valores, ins[i] * ins[j])
-        }
-      }
-    }
-    return(valores)
+  if (nrow(matriz_duplicacion) != n_soportes || ncol(matriz_duplicacion) != n_soportes) {
+    stop("Las dimensiones de la matriz de duplicación no coinciden con el número de soportes")
   }
+
+  # Verificar simetría
+  if (!all(matriz_duplicacion == t(matriz_duplicacion))) {
+    warning("La matriz de duplicación no es simétrica. Se utilizará la parte triangular superior.")
+    matriz_duplicacion[lower.tri(matriz_duplicacion)] <- t(matriz_duplicacion)[lower.tri(matriz_duplicacion)]
+  }
+
+  # Crear matriz de oportunidades
+  matriz_oportunidades <- crear_matriz_oportunidades(inserciones)
+
+  # Convertir matrices a vectores
+  vec_duplicacion <- matriz_a_vector(matriz_duplicacion)
+  vector_oportunidades <- matriz_a_vector(matriz_oportunidades)
 
   # Cálculos principales
-  vector_oportunidades <- calcular_vector_oportunidades(inserciones)
   A1 <- sum(audiencias * inserciones) / sum(inserciones)
   D <- sum(vec_duplicacion * vector_oportunidades) / sum(vector_oportunidades)
   A2 <- 2 * A1 - D
 
-  # Resultados (ya no incluimos la matriz)
-  return(list(
+  # Crear objeto de resultado con clase específica
+  resultado <- list(
     audiencia_media = A1,
     duplicacion_media = D,
     audiencia_segunda = A2,
-    vector_oportunidades = vector_oportunidades
-  ))
+    matriz_oportunidades = matriz_oportunidades,
+    vector_oportunidades = vector_oportunidades,
+    vector_duplicacion = vec_duplicacion,
+    total_inserciones = sum(inserciones)
+  )
+
+  class(resultado) <- "reach_metheringham"
+  return(resultado)
 }
 
 #' @export
+# Método de impresión para objetos reach_metheringham
 print.reach_metheringham <- function(x, ...) {
   cat("Modelo de Metheringham\n")
   cat("---------------------\n")
@@ -732,7 +776,7 @@ print.reach_metheringham <- function(x, ...) {
   # Audiencia media (A1)
   cat("\nAUDIENCIA MEDIA (A1):\n")
   cat(sprintf("%.0f personas\n", x$audiencia_media))
-  cat("Interpretación: Audiencia media por inserción del soporte hipotético promedio\n")
+  cat("Interpretación: Audiencia del soporte\n")
 
   # Duplicación media (D)
   cat("\nDUPLICACIÓN MEDIA (D):\n")
@@ -759,9 +803,14 @@ print.reach_metheringham <- function(x, ...) {
 
   # Resumen de hallazgos clave
   cat("\nHALLAZGOS CLAVE:\n")
+  cat(sprintf("- Total de inserciones: %d\n", x$total_inserciones))  # Nueva línea
   cat(sprintf("- Audiencia promedio por inserción: %.0f personas\n", x$audiencia_media))
   cat(sprintf("- Duplicación promedio: %.1f%%\n",
               (x$duplicacion_media / x$audiencia_media) * 100))
   cat(sprintf("- Incremento en segunda inserción: %.1f%%\n",
               ((x$audiencia_segunda - x$audiencia_media) / x$audiencia_media) * 100))
 }
+
+
+
+

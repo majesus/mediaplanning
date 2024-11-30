@@ -6,7 +6,6 @@
 \title{Cálculo del Modelo Morgensztem Beta Binomial Distribution (MBBD)}
 \usage{
 calc_MBBD(
-  m,
   insertions,
   audiences,
   RM,
@@ -18,8 +17,6 @@ calc_MBBD(
 )
 }
 \arguments{
-\item{m}{Integer. Número de soportes}
-
 \item{insertions}{Vector numérico. Número de inserciones para cada soporte (ni)}
 
 \item{audiences}{Vector numérico. Audiencia de cada soporte en personas (Ai)}
@@ -87,7 +84,6 @@ El modelo asume:
 }
 \examples{
 Ejemplo básico
-m <- 3
 insertions <- c(5, 7, 4)
 audiences <- c(500000, 550000, 600000)
 RM <- 550000
