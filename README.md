@@ -828,6 +828,54 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 -   _Brand attitude_ (asociación entre una marca y su uso, y un valor dado)
 -   _Brand purchase intention_ (disposición a la compra)
 
+<details>
+
+<summary>:arrow_forward:Haz clic para mayor desarrollo de los objetivos de la comunicación</summary>
+
+------------------------------------------------------------------------
+
+Los objetivos de comunicación son fundamentales en el proceso publicitario ya que establecen conexiones mentales duraderas entre la marca y el consumidor potencial. Estos objetivos se materializan a través de cinco efectos de comunicación que deben estar presentes antes de que el comprador tome acción:
+
+- **Necesidad de Categoría**
+
+    Esta es la base del proceso y se refiere a la aceptación por parte del consumidor de que necesita un producto o servicio para satisfacer una discrepancia entre su estado actual y el deseado. Por ejemplo, reconocer la necesidad de un medio de transporte es el primer paso antes de considerar una marca específica de automóvil.
+
+    Imagina el lanzamiento de los primeros servicios de streaming de música como Spotify. Inicialmente, la tarea comunicacional no era convencer sobre las ventajas de Spotify sobre otros servicios similares, sino crear la necesidad de categoría: ¿por qué alguien necesitaría un servicio de streaming de música cuando ya tenía su música descargada? La comunicación debía enfocarse en mostrar los problemas que resolvía esta nueva categoría: el espacio limitado en los dispositivos, la imposibilidad de descubrir nueva música fácilmente, la dificultad de acceder a toda la música que uno desea.
+
+- **Conciencia de Marca**
+
+    Se define como la capacidad del consumidor para identificar (reconocer o recordar) la marca dentro de su categoría con suficiente detalle para realizar una compra. Es importante notar que la conciencia de marca puede lograrse tanto por reconocimiento (como ver el logo en una tienda) como por recuerdo (rememorar la marca cuando surge la necesidad).
+    
+    Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sustentabilidad.
+    
+- **Actitud hacia la Marca**
+
+    Este es uno de los elementos más complejos y se refiere a la evaluación que hace el consumidor sobre la capacidad de la marca para satisfacer una motivación relevante. La actitud se compone de creencias sobre los beneficios funcionales y asociaciones emocionales que el consumidor vincula con la marca.
+
+    Nike representa un caso maestro de construcción de actitud hacia la marca. Su comunicación va más allá de los beneficios funcionales de su calzado deportivo para crear una conexión emocional profunda con el "espíritu deportivo". Su eslogan "Just Do It" y sus campañas no venden zapatos, venden superación personal, determinación y excelencia. Esta actitud positiva hacia la marca se construye mediante la combinación de beneficios funcionales (tecnología, comodidad, durabilidad) con beneficios emocionales (confianza, inspiración, pertenencia).
+
+- **Intención de Compra**
+
+    Se define como la autodisposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de involucramiento del producto - para productos de bajo involucramiento, una actitud favorable puede ser suficiente, mientras que para productos de alto involucramiento se necesita generar una intención explícita.
+
+    Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alto involucramiento como un smartphone, no basta con que te guste la marca; Apple busca crear una urgencia de compra inmediata.
+
+- **Facilitación de Compra**
+
+    Este último efecto asegura que no existan obstáculos en el proceso de compra, como problemas de distribución, precio o disponibilidad que puedan impedir la adquisición del producto.
+
+    Amazon es el ejemplo perfecto de facilitación de compra. Su obsesión por eliminar cualquier fricción en el proceso de compra se refleja en innovaciones como:
+
+    - El botón "Compra con 1-Click"
+    - Prime con envío gratuito y rápido
+    - Múltiples opciones de pago
+    - Política de devolución simple
+    - Reseñas detalladas de productos
+
+</details>
+
+------------------------------------------------------------------------
+
 ### B. Frecuencia efectiva
 
 > Se refiere al número de veces ( *oportunidades de ver* ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. La frecuencia efectiva se define en el contexto de dos límites, a saber, **Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF)**.
@@ -847,7 +895,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
     -   ***Wear-in***: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
     -   ***Wear-out***: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca.
 
-Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto _**recencia**_, que enfatiza la importancia de llegar a los consumidores cerca del momento en que están predispuestos para realizar una compra. La publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto recency en acción. La recencia no se centra en alcanzar un número específico de exposiciones como la frecuencia efectiva, sino en estar presente en el mercado de manera constante para influir en las decisiones de compra en el momento oportuno.
+Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto _**recencia**_, que enfatiza la importancia de llegar a los consumidores cerca del momento en que están predispuestos para realizar una compra. La publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto _recency_ en acción. La recencia no se centra en alcanzar un número específico de exposiciones como la frecuencia efectiva, sino en estar presente en el mercado de manera constante para influir en las decisiones de compra en el momento oportuno.
 
 ------------------------------------------------------------------------
 
@@ -871,7 +919,7 @@ $$
 \end{aligned}
 $$
 
-Los valores de corrección se presentan en la siguiente tabla. La tabla presenta un marco de referencia para la corrección de la frecuencia efectiva en ciclos publicitarios, basándose en cuatro factores fundamentales: la atención al medio, el tipo de público objetivo, los objetivos de comunicación y el nivel de influencia personal. Es una herramienta que permite pues ajustar el número de exposiciones necesarias (MEF) dependiendo de las características específicas de cada campaña publicitaria y la posición de la marca en el mercado.
+Los valores se presentan en la siguiente tabla que presenta un marco de referencia para la corrección de la frecuencia efectiva en ciclos publicitarios, basándose en cuatro factores fundamentales: la atención al medio, el tipo de público objetivo, los objetivos de comunicación y el nivel de influencia personal. Es una herramienta que permite pues ajustar el número de exposiciones necesarias (MEF) dependiendo de las características específicas de cada campaña publicitaria y la posición de la marca en el mercado.
 
 ![FE_Ostrow_1982](./img/img_FEM_table.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
@@ -885,7 +933,7 @@ Los valores de corrección se presentan en la siguiente tabla. La tabla presenta
 
 ### Conceptos Clave en el Cálculo de MEF (Minimum Effective Frequency)
 
-### Vehicle Attention (VA)
+### _Vehicle Attention_ (VA)
 
 El concepto de atención al vehículo mediático se refiere al nivel de procesamiento cognitivo que un medio específico demanda de su audiencia. Se fundamenta en la capacidad del medio para captar y mantener la atención del espectador/lector/oyente.
 
@@ -893,7 +941,7 @@ El concepto de atención al vehículo mediático se refiere al nivel de procesam
 
     - **Televisión**: La televisión, al ser un medio audiovisual, tiene un alto potencial para captar la atención del público. Los anuncios televisivos pueden combinar imágenes, sonido y movimiento para crear un impacto visual y emocional significativo. Sin embargo, es importante tener en cuenta factores como la saturación publicitaria que puede disminuir la atención del público.
 
-    - **Revistas**: La atención a las revistas varía según el tipo de publicación y el nivel de implicación del lector con su contenicod. Las revistas especializadas, que se dirigen a un público con un alto interés en el tema, pueden generar una alta VA, ya que los lectores suelen prestar mayor atención al contenido.
+    - **Revistas**: La atención a las revistas varía según el tipo de publicación y el nivel de implicación del lector con su contenido. Las revistas especializadas, que se dirigen a un público con un alto interés en el tema, pueden generar una alta VA, ya que los lectores suelen prestar mayor atención al contenido.
 
     - **Internet**: La publicidad en Internet puede tener un alto valor de atención debido a su capacidad de segmentación y personalización. La publicidad en línea puede dirigirse a usuarios con intereses específicos, lo que aumenta la probabilidad de que presten atención al mensaje.
 
@@ -905,81 +953,81 @@ El concepto de atención al vehículo mediático se refiere al nivel de procesam
 
     - **Prensa**: La atención a los anuncios en prensa escrita, como periódicos y revistas, puede ser baja si los lectores simplemente hojean las páginas sin detenerse a leer el contenido.
 
-### Target Audience (TA)
+### _Target Audience_ (TA)
 
 Se refiere a la clasificación de la audiencia según su relación actual con la marca y la categoría. Esta clasificación determina diferentes necesidades de exposición:
 
 #### _Brand Loyals_ (BLs)
 
 -   Son consumidores ya leales a la marca
--   No requieren ajuste adicional en la frecuencia
 -   Su comportamiento de compra ya está establecido
+-   No requieren ajuste adicional en la frecuencia
 
 #### _Favorable Brand Switchers_ (FBSs)
 
 -   Son consumidores que alternan entre marcas pero tienen una actitud positiva hacia nuestra marca
--   Requieren al menos 1 exposición por ciclo
 -   El objetivo es reforzar su preferencia existente
+-   Requieren al menos 1 exposición por ciclo
 
 #### _Other-Brand Loyals_ (OBLs) y _Other-Brand Switchers_ (OBSs)
 
 -   Son consumidores leales a otras marcas o que alternan entre otras marcas
--   Requieren un ajuste adicional de +2 exposiciones
 -   El objetivo es persuadirlos para cambiar sus preferencias actuales
+-   Requieren un ajuste adicional de +2 exposiciones
 
 #### _New Category Users_ (NCUs)
 
 -   Son consumidores nuevos en la categoría
--   Requieren el máximo ajuste
 -   Necesitan _educación_ sobre la categoría y la marca
+-   Requieren el máximo ajuste
 
-### Communication Objectives (BA y BATT)
+### _Communication Objectives_ (BA y BATT)
 
 Se refiere a los objetivos específicos de comunicación que la marca busca alcanzar:
 
-#### Brand Awareness (BA)
+#### _Brand Awareness_ (BA)
 
 -   Reconocimiento y recuerdo de marca ( _brand recognition_, _brand recall_)
 
     - **Recuerdo** (disponible y accesible): Para lograr un alto nivel de recuerdo, se requiere generalmente una mayor frecuencia de exposición. Las exposiciones repetidas refuerzan la información en la memoria, haciendo que sea más fácil de recordar.
     - **Reconocimiento** (disponible): El reconocimiento de marca se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior.
 
-#### Brand Attitude (BATT)
+#### _Brand Attitude_ (BATT)
 
 Se divide en dos tipos principales:
 
-##### Informational Brand Attitude
+##### _Informational Brand Attitude_
 
 -   Busca comunicar beneficios funcionales
--   Requiere un ajuste adicional sobre el base
 -   Se centra en aspectos racionales y características del producto
+-   No requiere un ajuste adicional sobre el base
 
-##### Transformational Brand Attitude
+##### _Transformational Brand Attitude_
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
 
-#### Personal Influence (PI)
+#### _Personal Influence_ (PI)
 
 Se refiere al efecto multiplicador de la comunicación boca a boca y la influencia social:
 
 #### Alto Contacto (≥ 0.25)
 
 -   Significa que al menos una de cada cuatro personas expuestas comparte el mensaje
--   Reduce la necesidad de frecuencia publicitaria
 -   Típico en productos con alto componente social
+-   Reduce la necesidad de frecuencia publicitaria
 
 #### Bajo Contacto (< 0.25)
 
 -   Menor tasa de transmisión del mensaje entre personas
--   No permite reducir la frecuencia publicitaria
 -   Típico en productos de consumo privado o baja implicación social
+-   No permite reducir la frecuencia publicitaria
 
 **Consideraciones adicionales para el Cálculo del MEF**:
 
-En la determinación del MEF (Minimum Effective Frequency), existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (Largest Competitor, LC) y los ajustes necesarios en diferentes contextos mediáticos.
+En la determinación del MEF, existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (Largest Competitor, LC) y los ajustes necesarios en diferentes contextos mediáticos.
 
--   Para marcas líderes del mercado, el cálculo debe considerar un ajuste de +2 exposiciones, es decir, la última columna es +2. Las marcas no líderes deben igualar la frecuencia del competidor más grande más una exposición adicional (LC + 1). Este ajuste varía según el contexto competitivo específico y no puede establecerse como un valor fijo.
+-   Para marcas **líderes del mercado**, el cálculo debe considerar un ajuste de +2 exposiciones, la última columna es +2. Las marcas **no líderes** deben igualar la frecuencia del competidor más grande más una exposición adicional (LC + 1). No obstante, este ajuste puede variar según el contexto competitivo específico, y no debe establecerse como un valor fijo.
 
 -   En situaciones donde el competidor más grande utiliza vehículos de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF para evitar una "doble duplicación". En estos casos, existen dos opciones válidas: se puede corregir el valor del vehículo de atención de VA = 2 a VA = 1 cuando nuestra marca también emplea un medio de baja atención, o alternativamente, se puede dividir por 2 el valor LC del competidor más grande. Esta corrección es necesaria porque se asume que el competidor dominante ya ha duplicado su frecuencia para compensar la naturaleza del vehículo de baja atención.
 
