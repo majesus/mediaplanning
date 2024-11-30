@@ -1126,6 +1126,24 @@ Inversión total: $3 millones
 
 - **_Personal Influence_**: Coeficiente de contacto moderado (0.28) que permite reducir un punto la frecuencia efectiva por el efecto de recomendación entre early adopters
 
+A continuación, te propongo un plan para valorar si es probable alcanzar a la cobertura efectiva, sabiendo que el factor de covnersión es del 10 %, y el objetivo es vender 10.000 unidades el primer año. 
+
+``` r
+library(mediaPlanR)
+
+?calc_metheringham()
+
+# Ejemplo básico con tres soportes
+metricas <- calc_metheringham(
+  audiencias = c(120000, 80000, 120000),
+  inserciones = c(2, 3, 2),
+  vec_duplicacion = c(50000, 45000, 62000,
+                             50000, 35000,
+                                    60000),
+  ayuda = FALSE
+)
+```
+
 </details>
 
 ------------------------------------------------------------------------
