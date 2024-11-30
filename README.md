@@ -1043,7 +1043,7 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 
 <details>
 
-<summary>:arrow_forward:Caso práctico: VitaBiome+</summary>
+<summary>:arrow_forward:Casos prácticos MEF</summary>
 
 ------------------------------------------------------------------------
 
