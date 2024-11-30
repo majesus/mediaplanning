@@ -111,7 +111,7 @@ resultado_bruto <- optimize_media_plan(
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo (o target) de una marca de manera eficaz y eficiente**.
 
-Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca *conectar* con su público objetivo ***en el momento y lugar precisos***. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación (memoria, actitud e intención) y marketing (crecimiento y rentabilidad) diseñados, y optimice el retorno de la inversión (por ejemplo, *Return On Ad Spend*, ROAS).
+Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca **conectar** con su público objetivo **en el momento y lugar precisos**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación (memoria, actitud e intención) y marketing (crecimiento y rentabilidad) diseñados, y optimice el retorno de la inversión (por ejemplo, *Return On Ad Spend*, ROAS).
 
 Para el logro de los objetivos y el retorno de la inversión se debe pues reflexionar en torno a cinco bloques clave. Véase la siguiente tabla.
 
@@ -824,15 +824,13 @@ A continuación, nos detenemos en los conceptos clave de los planes de medios y 
 
 El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra supere un determinado nivel crítico, y considera para ello tres elementos clave:
 
--   Brand awareness (memoria y sus modos de recuperación: recuerdo y reconocimiento)
--   Brand attitude (asociación entre una marca y su uso y un valor)
--   Brand purchase intention (disposición a la compra)
+-   _Brand awareness_ (memoria y sus modos de recuperación: recuerdo y reconocimiento)
+-   _Brand attitude_ (asociación entre una marca y su uso, y un valor dado)
+-   _Brand purchase intention_ (disposición a la compra)
 
 ### B. Frecuencia efectiva
 
-> Se refiere al número de veces ( *oportunidades de ver* ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca.
-
-La frecuencia efectiva se define en el contexto de dos límites, a saber, **Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF)**.
+> Se refiere al número de veces ( *oportunidades de ver* ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. La frecuencia efectiva se define en el contexto de dos límites, a saber, **Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF)**.
 
 ![FE_Ostrow_1982](./img/img_MEF_MaxEF.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
@@ -842,16 +840,14 @@ La frecuencia efectiva se define en el contexto de dos límites, a saber, **Frec
 
 #### B.2. Frecuencia Efectiva Máxima (MaxEF)
 
-> La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo. El valor MaxEF se alcanza cuando las exposiciones adicionales ya no aumentan la probabilidad de compra.
+> La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo. El valor MaxEF se alcanza cuando las exposiciones adicionales ya no aumentan la probabilidad de compra, e incluso, puede decrecer.
 
-En suma, el valor MaxEF debe ser estimado en tanto que:
+-   En suma, pueden producirse dos efectos:
 
--   La disposición de compra se vuelve una línea horizontal o incluso puede decrecer, es decir, las exposiciones adicionales pueden ser un *desperdicio* de presupuesto
+    -   ***Wear-in***: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
+    -   ***Wear-out***: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca.
 
--   En algunos casos puede producirse un efecto negativo (desgaste publicitario o *wearout*):
-
-    -   ***Wear-in***: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor comprensión del mensaje y una actitud más favorable hacia la marca.
-    -   ***Wear-out***: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar una actitud negativa hacia la marca.
+Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto *_recencia_*, que enfatiza la importancia de llegar a los consumidores cerca del momento en que están predispuestos para realizar una compra. La publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto recency en acción. La recencia no se centra en alcanzar un número específico de exposiciones como la frecuencia efectiva, sino en estar presente en el mercado de manera constante para influir en las decisiones de compra en el momento oportuno.
 
 ------------------------------------------------------------------------
 
