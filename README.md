@@ -1087,7 +1087,7 @@ Activia, como competidor principal (LC), mantiene una frecuencia media de 3 impa
 
 **Contexto de Mercado**
 
-EcoRide planea introducir su línea de scooters eléctricos en un mercado dominado por Vespa Electric (40% de participación) y NIU Technologies (25%). Vespa Electric mantiene una frecuencia media de 4 impactos semanales en medios digitales y 2 en exteriores, resultando en un MEF de 3.5 para su target de compradores actuales de scooters premium. El mercado de vehículos eléctricos de dos ruedas crece 40% anualmente y está valorado en $1.2 billones.
+EcoRide planea introducir su línea de scooters eléctricos en un mercado dominado por Vespa Electric (40% de participación) y NIU Technologies (25%). Vespa Electric mantiene una frecuencia media de 4 impactos en medios digitales. El mercado de vehículos eléctricos de dos ruedas crece 40% anualmente y está valorado en $1.2 billones.
 
 **Características del Producto y Estrategia**
 
@@ -1097,17 +1097,32 @@ Scooter eléctrico con autonomía de 120km, conectividad IoT y diseño minimalis
 
 Inversión total: $3 millones
 
-- Digital (redes sociales y búsquedas): 50%
-- Publicidad exterior digital (pantallas LED en zonas urbanas y centros comerciales): 30%
-- Prensa digital especializada (portales tecnológicos y de movilidad): 20%
+- **Digital: redes sociales y búsquedas**: 60%
+
+- **Digital: portales tecnológicos y de movilidad**: 40%
 
 **Información Clave para MEF**
 
-- **_Vehicle Attention_**: Medios digitales y exteriores que requieren duplicar la frecuencia base por ser de baja atención (VA=2)
+- **_Vehicle Attention_**: Medios digitales que requieren mayor frecuencia por ser de baja atención.
 
-- **_Target Audience_**: NCUs (early adopters tecnológicos) sin experiencia previa en la categoría. Requiere factor de corrección +2 por ser nuevo público
+    - Existe multitarea durante el consumo del medio
+    - El tiempo de exposición es fragmentado y breve
+    - Compiten con múltiple contenido simultáneo
 
-- **_Communication Objectives_**: _Brand recall_ (factor LC+1, donde LC=3.5 basado en Vespa Electric) y transformational brand attitude (+2)
+- **_Target Audience_**: NCUs ( _early adopters tecnológicos_) sin experiencia previa en la categoría. 
+
+- **_Communication Objectives_**: _Brand recall_ y _transformational brand attitude_
+
+    _**Brand recall**_
+    - Crítico porque las decisiones de compra de scooters eléctricos típicamente ocurren "lejos" del punto de venta
+    - El consumidor debe recordar activamente la marca EcoRide antes de su decisión de compra
+    - Las búsquedas de información y comparaciones se realizan principalmente _online_
+    - El proceso de decisión es extenso y complejo (producto de alta implicación)
+    
+    _**Transformational Brand Attitude**_
+    - Busca transformar la percepción actual de los scooters eléctricos
+    - Debe crear asociaciones emocionales con sostenibilidad e innovación
+    - Necesita establecer beneficios experienciales más allá de los funcionales
 
 - **_Personal Influence_**: Coeficiente de contacto moderado (0.28) que permite reducir un punto la frecuencia efectiva por el efecto de recomendación entre early adopters
 
