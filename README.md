@@ -842,6 +842,8 @@ Los objetivos de comunicación son fundamentales en el proceso publicitario ya q
 
     Imagina el lanzamiento de los primeros servicios de streaming de música como Spotify. Inicialmente, la tarea comunicacional no era convencer sobre las ventajas de Spotify sobre otros servicios similares, sino crear la necesidad de categoría: ¿por qué alguien necesitaría un servicio de streaming de música cuando ya tenía su música descargada? La comunicación debía enfocarse en mostrar los problemas que resolvía esta nueva categoría: el espacio limitado en los dispositivos, la imposibilidad de descubrir nueva música fácilmente, la dificultad de acceder a toda la música que uno desea.
 
+    Otros casos clásicos: [A Case Study on American Express “Don’t Leave Home Without It](https://thebrandhopper.com/2024/09/17/a-case-study-on-american-express-dont-leave-home-without-it/)
+
 - **Conciencia de Marca**
 
     Se define como la capacidad del consumidor para identificar (reconocer o recordar) la marca dentro de su categoría con suficiente detalle para realizar una compra. Es importante notar que la conciencia de marca puede lograrse tanto por reconocimiento (como ver el logo en una tienda) como por recuerdo (rememorar la marca cuando surge la necesidad).
