@@ -889,41 +889,49 @@ Los valores de corrección se presentan en la siguiente tabla. La tabla presenta
 
 El concepto de atención al vehículo mediático se refiere al nivel de procesamiento cognitivo que un medio específico demanda de su audiencia. Se fundamenta en la capacidad del medio para captar y mantener la atención del espectador/lector/oyente.
 
-#### Medios de Alta Atención (VA=1)
+- **Medios con Alto Valor de Atención**:
 
-Son aquellos que requieren un compromiso activo y consciente del consumidor para su consumo: - TV en prime time - Revistas de lectura primaria (primary-reader magazines) - Periódicos de lectura primaria - Publicidad exterior estática (stationary outdoor)
+    - **Televisión**: La televisión, al ser un medio audiovisual, tiene un alto potencial para captar la atención del público. Los anuncios televisivos pueden combinar imágenes, sonido y movimiento para crear un impacto visual y emocional significativo. Sin embargo, es importante tener en cuenta factores como la saturación publicitaria que puede disminuir la atención del público.
 
-#### Medios de Baja Atención (VA=2)
+    - **Revistas**: La atención a las revistas varía según el tipo de publicación y el nivel de implicación del lector con su contenicod. Las revistas especializadas, que se dirigen a un público con un alto interés en el tema, pueden generar una alta VA, ya que los lectores suelen prestar mayor atención al contenido.
 
-Son aquellos que típicamente se consumen de manera pasiva o como actividad secundaria: - TV fuera de prime time - Radio - Revistas y periódicos pass-along - Publicidad exterior móvil - Medios digitales de consumo rápido
+    - **Internet**: La publicidad en Internet puede tener un alto valor de atención debido a su capacidad de segmentación y personalización. La publicidad en línea puede dirigirse a usuarios con intereses específicos, lo que aumenta la probabilidad de que presten atención al mensaje.
+
+- **Medios con Bajo Valor de Atención**:
+
+    - **Radio**: La radio, al ser un medio únicamente auditivo, puede tener una VA más baja que la televisión, ya que compite con otras actividades que el oyente puede estar realizando simultáneamente. La atención a la radio también depende del tipo de programa y la fidelidad del oyente.
+
+    - **Publicidad Exterior**:  la atención a la publicidad exterior puede ser baja debido a la distracción del entorno y la brevedad de la exposición. Es fundamental considerar este factor al diseñar la campaña y seleccionar las ubicaciones. No obstante, la atención a la publicidad exterior, como vallas publicitarias, depende en gran medida del contexto y la ubicación. Un anuncio en una carretera con mucho tráfico puede pasar desapercibido, mientras que un anuncio en una parada de autobús, donde las personas tienen tiempo de observarlo, puede generar mayor atención.
+
+    - **Prensa**: La atención a los anuncios en prensa escrita, como periódicos y revistas, puede ser baja si los lectores simplemente hojean las páginas sin detenerse a leer el contenido.
 
 ### Target Audience (TA)
 
 Se refiere a la clasificación de la audiencia según su relación actual con la marca y la categoría. Esta clasificación determina diferentes necesidades de exposición:
 
-#### Brand Loyals (BLs)
+#### _Brand Loyals_ (BLs)
 
 -   Son consumidores ya leales a la marca
 -   No requieren ajuste adicional en la frecuencia
 -   Su comportamiento de compra ya está establecido
 
-#### Favorable Brand Switchers (FBSs)
+#### _Favorable Brand Switchers_ (FBSs)
 
 -   Son consumidores que alternan entre marcas pero tienen una actitud positiva hacia nuestra marca
--   Requieren al menos 2 exposiciones por ciclo
+-   Requieren al menos 1 exposición por ciclo
 -   El objetivo es reforzar su preferencia existente
 
-#### Other-Brand Loyals (OBLs) y Other-Brand Switchers (OBSs)
+#### _Other-Brand Loyals_ (OBLs) y _Other-Brand Switchers_ (OBSs)
 
 -   Son consumidores leales a otras marcas o que alternan entre otras marcas
 -   Requieren un ajuste adicional de +2 exposiciones
 -   El objetivo es persuadirlos para cambiar sus preferencias actuales
 
-#### New Category Users (NCUs)
+#### _New Category Users_ (NCUs)
 
 -   Son consumidores nuevos en la categoría
 -   Requieren el máximo ajuste
--   Necesitan educación sobre la categoría y la marca
+-   Necesitan _educación_ sobre la categoría y la marca
 
 ### Communication Objectives (BA y BATT)
 
@@ -931,9 +939,10 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
 
 #### Brand Awareness (BA)
 
--   Reconocimiento de marca (brand recognition)
--   Es el nivel base de comunicación
--   Establece la familiaridad con la marca
+-   Reconocimiento y recuerdo de marca ( _brand recognition_, _brand recall_)
+
+    - **Recuerdo** (disponible y accesible): Para lograr un alto nivel de recuerdo, se requiere generalmente una mayor frecuencia de exposición. Las exposiciones repetidas refuerzan la información en la memoria, haciendo que sea más fácil de recordar.
+    - **Reconocimiento** (disponible): El reconocimiento de marca se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior.
 
 #### Brand Attitude (BATT)
 
@@ -947,27 +956,26 @@ Se divide en dos tipos principales:
 
 ##### Transformational Brand Attitude
 
--   Busca crear asociaciones emocionales y experienciales
+-   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
--   Se centra en aspectos psicológicos y sociales
 
 #### Personal Influence (PI)
 
 Se refiere al efecto multiplicador de la comunicación boca a boca y la influencia social:
 
-#### Alto Contacto (≥.25)
+#### Alto Contacto (≥ 0.25)
 
 -   Significa que al menos una de cada cuatro personas expuestas comparte el mensaje
 -   Reduce la necesidad de frecuencia publicitaria
 -   Típico en productos con alto componente social
 
-#### Bajo Contacto (\<.25)
+#### Bajo Contacto (< 0.25)
 
 -   Menor tasa de transmisión del mensaje entre personas
 -   No permite reducir la frecuencia publicitaria
--   Típico en productos de consumo privado o bajo involucramiento social
+-   Típico en productos de consumo privado o baja implicación social
 
-Consideraciones adicionales para el Cálculo del MEF:
+**Consideraciones adicionales para el Cálculo del MEF**:
 
 En la determinación del MEF (Minimum Effective Frequency), existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (Largest Competitor, LC) y los ajustes necesarios en diferentes contextos mediáticos.
 
