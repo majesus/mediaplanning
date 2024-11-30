@@ -1044,7 +1044,7 @@ Se divide en dos tipos principales:
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
 
-![FE_Ostrow_1982](./img/img_FCB__rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
+![FE_Ostrow_1982](./img/img_FCB_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
 ### _Personal Influence_ (PI)
 
