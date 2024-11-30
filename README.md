@@ -822,7 +822,7 @@ A continuación, nos detenemos en los conceptos clave de los planes de medios y 
 
 > Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF).
 
-El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra supere un determinado nivel crítico, y considera para ello tres elementos clave:
+El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra del _target_ supere un determinado nivel crítico, y considera para ello tres elementos clave:
 
 -   _Brand awareness_ (memoria y sus modos de recuperación: recuerdo y reconocimiento)
 -   _Brand attitude_ (asociación entre una marca y su uso, y un valor dado)
@@ -994,24 +994,24 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
     - **Recuerdo** (disponible y accesible): Para lograr un alto nivel de recuerdo, se requiere generalmente una mayor frecuencia de exposición. Las exposiciones repetidas refuerzan la información en la memoria, haciendo que sea más fácil de recordar.
     - **Reconocimiento** (disponible): El reconocimiento de marca se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior.
 
-#### _Brand Attitude_ (BATT)
+### _Brand Attitude_ (BATT)
 
 Se divide en dos tipos principales:
 
-##### _Informational Brand Attitude_
+#### _Informational Brand Attitude_
 
 -   Busca comunicar beneficios funcionales
 -   Se centra en aspectos racionales y características del producto
 -   No requiere un ajuste adicional sobre el base
 
-##### _Transformational Brand Attitude_
+#### _Transformational Brand Attitude_
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
 
-#### _Personal Influence_ (PI)
+### _Personal Influence_ (PI)
 
-Se refiere al efecto multiplicador de la comunicación boca a boca y la influencia social:
+- Define efecto multiplicador de la comunicación boca a boca y la influencia social:
 
 #### Alto Contacto (≥ 0.25)
 
@@ -1126,7 +1126,7 @@ Inversión total: $3 millones
 
 - **_Personal Influence_**: Coeficiente de contacto moderado (0.28) que permite reducir un punto la frecuencia efectiva por el efecto de recomendación entre early adopters
 
-A continuación, te propongo un plan para valorar si es probable alcanzar a la cobertura efectiva, sabiendo que el factor de covnersión es del 10 %, y el objetivo es vender 10.000 unidades el primer año. 
+A continuación, te propongo un plan para valorar si es probable alcanzar a la cobertura efectiva, sabiendo que el factor de covnersión es del 10 %, y el objetivo es vender 1.000 unidades el primer año. 
 
 ``` r
 library(mediaPlanR)
