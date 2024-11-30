@@ -830,7 +830,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 <details>
 
-<summary>:arrow_forward:Haz clic para mayor desarrollo de los **objetivos de la comunicación**</summary>
+<summary>:arrow_forward:Haz clic para mayor desarrollo de los objetivos de la comunicación</summary>
 
 ------------------------------------------------------------------------
 
@@ -929,7 +929,7 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 <details>
 
-<summary>:arrow_forward:Haz clic para mayor desarrollo del **cálculo MEF**</summary>
+<summary>:arrow_forward:Haz clic para mayor desarrollo del cálculo MEF</summary>
 
 ------------------------------------------------------------------------
 
@@ -994,6 +994,38 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
     - **Recuerdo** (disponible y accesible): Para lograr un alto nivel de recuerdo, se requiere generalmente una mayor frecuencia de exposición. Las exposiciones repetidas refuerzan la información en la memoria, haciendo que sea más fácil de recordar.
     - **Reconocimiento** (disponible): El reconocimiento de marca se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior.
 
+    
+    **El Reconocimiento en el contexto publicitario**:
+
+    Este mecanismo cognitivo se manifiesta en la capacidad del consumidor para identificar elementos publicitarios previamente expuestos, operando mediante:
+
+    1. Identificación de Marca:
+
+        - Reconocimiento instantáneo de logotipos en entornos comerciales
+        - Discriminación de elementos visuales distintivos
+        - Activación de asociaciones marca-producto
+    
+    2. Procesamiento Periférico:
+        - Detección automática de elementos cromáticos corporativos
+        - Reconocimiento de _jingles_ y elementos sonoros distintivos
+        - Identificación de _packaging_ y elementos de identidad visual
+
+    **El Recuerdo como indicador de efectividad**:
+
+    El recuerdo publicitario implica un procesamiento más profundo y constituye un indicador más robusto de la efectividad comunicacional, manifestándose en:
+
+    1. Recuperación Activa:
+
+        - Evocación espontánea de mensajes publicitarios
+        - Reconstrucción de propuestas de valor
+        - Articulación de beneficios producto-servicio
+
+    2. Integración Cognitiva:
+
+        - Incorporación del mensaje a esquemas mentales preexistentes
+        - Construcción de narrativas marca-consumidor
+        - Establecimiento de vínculos emocionales duraderos
+
 ### _Brand Attitude_ (BATT)
 
 Se divide en dos tipos principales:
@@ -1008,6 +1040,8 @@ Se divide en dos tipos principales:
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
+
+![FE_Ostrow_1982](./img/img_grid_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
 ### _Personal Influence_ (PI)
 
