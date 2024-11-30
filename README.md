@@ -830,7 +830,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 <details>
 
-<summary>:arrow_forward:Haz clic para mayor desarrollo de los objetivos de la comunicación</summary>
+<summary>:arrow_forward:Haz clic para mayor desarrollo de los **objetivos de la comunicación**</summary>
 
 ------------------------------------------------------------------------
 
@@ -929,7 +929,7 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 <details>
 
-<summary>:arrow_forward:Haz clic para mayor desarrollo del cálculo MEF</summary>
+<summary>:arrow_forward:Haz clic para mayor desarrollo del **cálculo MEF**</summary>
 
 ------------------------------------------------------------------------
 
@@ -1047,15 +1047,15 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 
 ------------------------------------------------------------------------
 
-## Caso Práctico: Cálculo de Frecuencia Efectiva Mínima (MEF): Lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
+## Caso Práctico 1 (ficticio): Cálculo de Frecuencia Efectiva Mínima (MEF): Lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
 
 ### Contexto de Mercado
 
-NutriHealth planea lanzar VitaBiome+, un yogur probiótico premium, en un mercado valorado en \$2.500 millones anuales. El escenario competitivo muestra un claro dominio de Activia con un 45% de participación de mercado, seguido por Yakult con un 25%, mientras que el 30% restante se encuentra fragmentado entre diversos competidores menores.
+NutriHealth planea lanzar VitaBiome+, un yogur probiótico _premium_, en un mercado valorado en \$2.500 millones anuales. El escenario competitivo muestra un claro dominio de Activia con un 45% de participación de mercado, seguido por Yakult con un 25%, mientras que el 30% restante se encuentra fragmentado entre diversos competidores menores.
 
 ### Características del Producto y Estrategia
 
-VitaBiome+ se posiciona como un producto premium, respaldado por una cepa probiótica patentada y un contenido proteico 30% superior al mercado. Con un precio de \$4.99, se ubica un 80% por encima del promedio del mercado, comercializándose exclusivamente a través de canales premium y tiendas especializadas. Esta estrategia apunta a un consumidor educado y con alto poder adquisitivo.
+VitaBiome+ se posiciona como un producto _premium_, respaldado por una cepa probiótica patentada y un contenido proteico 30% superior al mercado. Con un precio de \$4.99, se ubica un 80% por encima del promedio del mercado, comercializándose exclusivamente a través de canales _premium_ y tiendas especializadas. Esta estrategia apunta a un consumidor educado y con alto poder adquisitivo.
 
 ### Plan de Medios
 
@@ -1069,19 +1069,47 @@ El plan combina medios primarios especializados (revistas de salud y profesional
 
 **Audiencia Objetivo (Target Audience)**
 
-El mercado está compuesto principalmente por consumidores actuales de yogures funcionales, considerados Other Brand Loyals, con un perfil socioeconómico alto y educado. El objetivo es convertir a estos consumidores de marcas establecidas.
+El mercado está compuesto principalmente por consumidores actuales de yogures funcionales, considerados _Other Brand Loyals_, con un perfil socioeconómico alto y educado. El objetivo es convertir a estos consumidores de marcas establecidas.
 
 **Objetivos de Comunicación**
 
-La estrategia requiere un enfoque dual: brand recall como objetivo principal, necesario para superar al líder del mercado, complementado con un componente transformacional para establecer el posicionamiento premium del producto.
+La estrategia requiere un enfoque dual: _brand recall_ como objetivo principal, necesario para superar al líder del mercado, complementado con un componente _transformacional_ para establecer el posicionamiento _premium_ del producto.
 
 **Influencia Personal (Personal Influence)**
 
-La categoría de alimentos funcionales premium se caracteriza por un alto componente de recomendación y respaldo profesional, con un coeficiente de contacto documentado de 0.3 para productos similares.
+La categoría de alimentos funcionales _premium_ se caracteriza por un alto componente de recomendación y respaldo profesional, con un coeficiente de contacto documentado de 0.3 para productos similares.
 
 **Información Adicional Relevante**
 
 Activia, como competidor principal (LC), mantiene una frecuencia media de 3 impactos semanales en sus medios principales. El ciclo de compra típico en la categoría es quincenal, y los estudios de mercado indican una alta sensibilidad a la recomendación profesional.
+
+## Caso Práctico 2 (ficticio): Cálculo de MEF para EcoRide Scooters
+
+**Contexto de Mercado**
+
+EcoRide planea introducir su línea de scooters eléctricos en un mercado dominado por Vespa Electric (40% de participación) y NIU Technologies (25%). Vespa Electric mantiene una frecuencia media de 4 impactos semanales en medios digitales y 2 en exteriores, resultando en un MEF de 3.5 para su target de compradores actuales de scooters premium. El mercado de vehículos eléctricos de dos ruedas crece 40% anualmente y está valorado en $1.2 billones.
+
+**Características del Producto y Estrategia**
+
+Scooter eléctrico con autonomía de 120km, conectividad IoT y diseño minimalista. Precio: $2,999, posicionándose como alternativa premium y tecnológica frente a Vespa Electric ($3,500) y NIU ($2,500).
+
+**Plan de Medios**
+
+Inversión total: $3 millones
+
+- Digital (redes sociales y búsquedas): 50%
+- Publicidad exterior digital (pantallas LED en zonas urbanas y centros comerciales): 30%
+- Prensa digital especializada (portales tecnológicos y de movilidad): 20%
+
+**Información Clave para MEF**
+
+- **_Vehicle Attention_**: Medios digitales y exteriores que requieren duplicar la frecuencia base por ser de baja atención (VA=2)
+
+- **_Target Audience_**: NCUs (early adopters tecnológicos) sin experiencia previa en la categoría. Requiere factor de corrección +2 por ser nuevo público
+
+- **_Communication Objectives_**: _Brand recall_ (factor LC+1, donde LC=3.5 basado en Vespa Electric) y transformational brand attitude (+2)
+
+- **_Personal Influence_**: Coeficiente de contacto moderado (0.28) que permite reducir un punto la frecuencia efectiva por el efecto de recomendación entre early adopters
 
 </details>
 
