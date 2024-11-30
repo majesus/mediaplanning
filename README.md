@@ -1025,7 +1025,7 @@ Se divide en dos tipos principales:
 -   Típico en productos de consumo privado o baja implicación social
 -   No permite reducir la frecuencia publicitaria
 
-**Consideraciones adicionales para el Cálculo del MEF**:
+### Consideraciones adicionales para el Cálculo del MEF:
 
 En la determinación del MEF, existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (Largest Competitor, LC) y los ajustes necesarios en diferentes contextos mediáticos.
 
