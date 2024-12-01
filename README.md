@@ -1069,7 +1069,7 @@ Se divide en dos tipos principales:
 
 ![FE_Ostrow_1982](./img/img_FCB_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
-La Figura _The FCB Grid_ presenta el denominado Grid FCB (FCB Grid), una herramienta fundamental para comprender cómo los consumidores toman decisiones de compra y cómo se relacionan con diferentes productos y servicios en el mercado.
+La Figura _The FCB Grid_ ( desarrollado por la agencia de publicidad Foote, Cone & Belding) es una herramienta fundamental para comprender cómo los consumidores toman decisiones de compra y cómo se relacionan con diferentes productos y servicios en el mercado.
 
 Este modelo se estructura en torno a dos dimensiones fundamentales: el grado de implicación (involvement) en el eje vertical, que va desde alta a baja implicación, y la naturaleza de la decisión en el eje horizontal, que oscila entre el pensamiento racional (think) y el sentimiento emocional (feel).
 
