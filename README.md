@@ -1038,16 +1038,15 @@ Se divide en dos tipos principales:
 -   Busca comunicar beneficios funcionales
 -   Se centra en aspectos racionales y características del producto
 -   No requiere un ajuste adicional sobre el base
-
-    - Ejemplos: 
+-   Ejemplos: 
     
-    Anuncio de un medicamento para la acidez estomacal:
+    Anuncio de un **medicamento para la acidez estomacal**:
     
       - Emoción (Problema): Malestar, dolor, frustración por la acidez.
       - Emoción (Solución): Alivio, bienestar, tranquilidad.
       - Enfoque: Mostrar a personas sufriendo los síntomas de la acidez, luego presentar el medicamento como una solución rápida y eficaz para aliviar el malestar.
     
-    Anuncio de un servicio de reparación de electrodomésticos:
+    Anuncio de un **servicio de reparación de electrodomésticos**:
       - Emoción (Problema): Frustración, estrés, impotencia ante la avería del electrodoméstico.
       - Emoción (Solución): Tranquilidad, confianza, satisfacción.
       - Enfoque: Presentar situaciones cotidianas donde un electrodoméstico se avería, generando caos e inconvenientes. El servicio de reparación se muestra como la solución confiable y rápida para recuperar la normalidad.
@@ -1056,6 +1055,17 @@ Se divide en dos tipos principales:
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
+- Ejemplos:
+
+    Anuncio de una marca de cerveza:
+    
+      - Emoción: Alegría, amistad, diversión, celebración.
+      - Enfoque: Mostrar grupos de amigos disfrutando de momentos agradables y de la cerveza en un ambiente festivo y relajado. Se busca asociar la marca con la felicidad y la camaradería.
+    
+    Anuncio de un perfume:
+    
+      - Emoción: Sensualidad, elegancia, sofisticación, atracción.
+      - Enfoque: Presentar imágenes sugestivas y elegantes con modelos atractivos utilizando el perfume. Se busca transmitir un aura de misterio y seducción, asociando el perfume con la belleza y la confianza en uno mismo.
 
 formato 
 
