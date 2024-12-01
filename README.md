@@ -1048,13 +1048,13 @@ Se divide en dos tipos principales:
 
 Te muestro un breve resumen del concepto Inforamtivo versus Transforamtaivo:
     
-    **Campaña Informativa**. Imagina una campaña publicitaria para una nueva cerveza artesanal. El objetivo principal es dar a conocer al público las características únicas de esta cerveza, diferenciándola de las cervezas industriales.
+  **Campaña Informativa**. Imagina una campaña publicitaria para una nueva cerveza artesanal. El objetivo principal es dar a conocer al público las características únicas de esta cerveza, diferenciándola de las cervezas industriales.
 
     - Información Clave: Se destacaría el origen de los ingredientes (lúpulo orgánico, agua de manantial), el proceso de elaboración artesanal (fermentación lenta, sin aditivos) y el sabor distintivo (notas cítricas, amargor equilibrado).
     - Medios Adecuados: Se podrían utilizar revistas especializadas en gastronomía y cerveza, anuncios en sitios web de reseñas de cerveza, y degustaciones en eventos gastronómicos.
     - Frecuencia Efectiva: La campaña repetiría la información clave en diferentes formatos para asegurar que el consumidor la recuerde. Se podrían usar infografías que expliquen el proceso de elaboración, videos cortos con el maestro cervecero hablando de la pasión por su producto, y testimonios de consumidores que destacan el sabor único de la cerveza.
 
-    **Campaña Transformativa**: Imagina una campaña para una cerveza tradicional, ya conocida por el público. El objetivo no es tanto informar, sino transformar la percepción de la cerveza, asociándola con momentos de felicidad y conexión humana.
+  **Campaña Transformativa**: Imagina una campaña para una cerveza tradicional, ya conocida por el público. El objetivo no es tanto informar, sino transformar la percepción de la cerveza, asociándola con momentos de felicidad y conexión humana.
 
     - Mensaje Emocional: Se mostrarían escenas de amigos riendo y disfrutando de la cerveza en diferentes contextos: una reunión familiar, un partido de fútbol, una noche de juegos de mesa. La música y la estética del anuncio transmitirían una sensación de alegría y camaradería, a saber, gratificacións ensorial y aprobación social. La motivación es transformacional, buscando la gratificación a través del sabor y las sensaciones que la cerveza proporciona. La baja participación se mantiene, ya que la decisión de compra sigue siendo relativamente simple, guiada por el placer y la preferencia socio-personal.
     - Medios Masivos: Se utilizaría la televisión, con anuncios durante programas de entretenimiento y eventos deportivos. También se podrían usar plataformas de redes sociales, creando contenido que invite a los usuarios a compartir sus propias historias de momentos felices con la cerveza.
