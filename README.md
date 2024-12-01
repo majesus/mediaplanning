@@ -1044,11 +1044,25 @@ Se divide en dos tipos principales:
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
 
+formato 
+
 ![FE_Ostrow_1982](./img/img_FCB_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
-Te muestro un breve resumen del concepto Inforamtivo versus Transforamtaivo:
+La Figura 1 presenta el denominado Grid FCB (FCB Grid), una herramienta fundamental para comprender cómo los consumidores toman decisiones de compra y cómo se relacionan con diferentes productos y servicios en el mercado.
+
+Este modelo se estructura en torno a dos dimensiones fundamentales: el grado de implicación (involvement) en el eje vertical, que va desde alta a baja implicación, y la naturaleza de la decisión en el eje horizontal, que oscila entre el pensamiento racional (think) y el sentimiento emocional (feel).
+
+- En el cuadrante superior izquierdo, donde confluyen la alta implicación y el pensamiento racional, encontramos productos y servicios que requieren una considerable deliberación cognitiva, como los seguros de vida, los seguros de automóvil y los coches familiares. Son decisiones que los consumidores toman con detenimiento y análisis.
+
+- El cuadrante superior derecho, que combina alta implicación con decisiones emocionales, alberga productos como perfumes, coches deportivos y vinos para ocasiones especiales. Estas compras, aunque importantes, se basan más en preferencias personales y respuestas emocionales.
+
+- En la parte inferior del grid, encontramos productos de baja implicación. A la izquierda, en el área de pensamiento racional, se sitúan productos cotidianos como productos de limpieza, repelentes de insectos y toallas de papel. A la derecha, en la zona emocional de baja implicación, aparecen productos como snacks, refrescos y cerveza regular, que suelen comprarse por impulso o placer inmediato.
+
+Es importante señalar, como indica la nota al pie del grid, que el nivel de implicación aumenta hacia la parte superior del eje vertical y que ambas dimensiones son continuas, no categóricas. Esta continuidad permite una comprensión más matizada de cómo los consumidores se relacionan con diferentes productos y marcas. En este sentido, esta herramienta resulta especialmente valiosa para los profesionales del marketing, ya que permite adaptar las estrategias de comunicación y publicidad según la posición que ocupa cada producto en el grid, optimizando así la efectividad de sus mensajes y campañas.  
+
+A continuación, te muestro un breve ejemplo ilustratuvo del concepto _Informativo versus Transformativo_ de un producto de baja implicación:
     
-  **Campaña Informativa**. Imagina una campaña publicitaria para una nueva cerveza artesanal. El objetivo principal es dar a conocer al público las características únicas de esta cerveza, diferenciándola de las cervezas industriales.
+  **Campaña Informativa**. Imagina una campaña publicitaria para una nueva cerveza artesanal cuyo objetivo principal e inicial es dar a conocer al público las características únicas de esta cerveza, diferenciándola de las cervezas industriales.
 
   - Información Clave: Se destacaría el origen de los ingredientes (lúpulo orgánico, agua de manantial), el proceso de elaboración artesanal (fermentación lenta, sin aditivos) y el sabor distintivo (notas cítricas, amargor equilibrado).
   - Medios Adecuados: Se podrían utilizar revistas especializadas en gastronomía y cerveza, anuncios en sitios web de reseñas de cerveza, y degustaciones en eventos gastronómicos.
@@ -1059,6 +1073,24 @@ Te muestro un breve resumen del concepto Inforamtivo versus Transforamtaivo:
   - Mensaje Emocional: Se mostrarían escenas de amigos riendo y disfrutando de la cerveza en diferentes contextos: una reunión familiar, un partido de fútbol, una noche de juegos de mesa. La música y la estética del anuncio transmitirían una sensación de alegría y camaradería, a saber, gratificacións ensorial y aprobación social. La motivación es transformacional, buscando la gratificación a través del sabor y las sensaciones que la cerveza proporciona. La baja participación se mantiene, ya que la decisión de compra sigue siendo relativamente simple, guiada por el placer y la preferencia socio-personal.
   - Medios Masivos: Se utilizaría la televisión, con anuncios durante programas de entretenimiento y eventos deportivos. También se podrían usar plataformas de redes sociales, creando contenido que invite a los usuarios a compartir sus propias historias de momentos felices con la cerveza.
   - Conexión Emocional: La campaña buscaría generar una respuesta emocional en el espectador, haciéndole sentir nostalgia por momentos felices compartidos con amigos y familia. La cerveza se presentaría como un elemento que facilita y realza esos momentos de conexión.
+
+En este sentido, si bien la estrategia de comunicación más efectiva para cualquier tipo de cerveza debería enfocarse en aspectos emocionales y experienciales, variando únicamente la intensidad de la implicación requerida en la decisión de compra, para una cerveza artesanal nueva en el mercado, sería estratégicamente válido:
+
+- Primera Fase (Introductoria - Informativa):
+
+  - Comunicar las características diferenciales (ingredientes, proceso, origen)
+  - Educar sobre las cualidades organolépticas distintivas
+  - Establecer credenciales de calidad y autenticidad
+  - Construir _brand awareness_
+
+- Segunda Fase (Transformativa):
+
+  - Una vez establecido el conocimiento básico, transitar hacia comunicación más emocional
+  - Enfatizar la experiencia de consumo
+  - Construir conexiones emocionales
+  - Reforzar aspectos sociales y hedónicos
+
+Esta estrategia dual respetaría tanto la necesidad inicial de información como la naturaleza fundamentalmente emocional del producto en el largo plazo.
 
 ### _Personal Influence_ (PI)
 
