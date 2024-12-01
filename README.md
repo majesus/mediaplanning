@@ -1039,6 +1039,19 @@ Se divide en dos tipos principales:
 -   Se centra en aspectos racionales y características del producto
 -   No requiere un ajuste adicional sobre el base
 
+    - Ejemplos: 
+    
+    Anuncio de un medicamento para la acidez estomacal:
+    
+      - Emoción (Problema): Malestar, dolor, frustración por la acidez.
+      - Emoción (Solución): Alivio, bienestar, tranquilidad.
+      - Enfoque: Mostrar a personas sufriendo los síntomas de la acidez, luego presentar el medicamento como una solución rápida y eficaz para aliviar el malestar.
+    
+    Anuncio de un servicio de reparación de electrodomésticos:
+      - Emoción (Problema): Frustración, estrés, impotencia ante la avería del electrodoméstico.
+      - Emoción (Solución): Tranquilidad, confianza, satisfacción.
+      - Enfoque: Presentar situaciones cotidianas donde un electrodoméstico se avería, generando caos e inconvenientes. El servicio de reparación se muestra como la solución confiable y rápida para recuperar la normalidad.
+
 #### _Transformational Brand Attitude_
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
@@ -1060,7 +1073,7 @@ Este modelo se estructura en torno a dos dimensiones fundamentales: el grado de 
 
 Es importante señalar, como indica la nota al pie del grid, que el nivel de implicación aumenta hacia la parte superior del eje vertical y que ambas dimensiones son continuas, no categóricas. Esta continuidad permite una comprensión más matizada de cómo los consumidores se relacionan con diferentes productos y marcas. En este sentido, esta herramienta resulta especialmente valiosa para los profesionales del marketing, ya que permite adaptar las estrategias de comunicación y publicidad según la posición que ocupa cada producto en el grid, optimizando así la efectividad de sus mensajes y campañas.  
 
-A continuación, te muestro un breve ejemplo ilustratuvo del concepto _Informativo versus Transformativo_ de un producto de baja implicación:
+A continuación, te muestro un breve ejemplo ilustrativo del concepto _Informativo versus Transformativo_ de un producto de baja implicación:
     
   **Campaña Informativa**. Imagina una campaña publicitaria para una nueva cerveza artesanal cuyo objetivo principal e inicial es dar a conocer al público las características únicas de esta cerveza, diferenciándola de las cervezas industriales.
 
