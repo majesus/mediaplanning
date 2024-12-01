@@ -1046,7 +1046,7 @@ Se divide en dos tipos principales:
 
 ![FE_Ostrow_1982](./img/img_FCB_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
-    Te muestro un breve resumen del concepto Inforamtivo versus Transforamtaivo:
+Te muestro un breve resumen del concepto Inforamtivo versus Transforamtaivo:
     
     **Campaña Informativa**. Imagina una campaña publicitaria para una nueva cerveza artesanal. El objetivo principal es dar a conocer al público las características únicas de esta cerveza, diferenciándola de las cervezas industriales.
 
