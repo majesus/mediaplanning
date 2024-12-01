@@ -1055,7 +1055,7 @@ Se divide en dos tipos principales:
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
-- Ejemplos:
+-   Ejemplos:
 
     Anuncio de una marca de cerveza:
     
