@@ -816,14 +816,16 @@ head(resultado)
 
 ## :red_square:Objetivos del Plan de Medios y Soportes
 
-A continuación, nos detenemos en los conceptos clave de los planes de medios y soportes.
 
-### A. Cobertura efectiva
+El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra del _target_ supere un determinado nivel crítico, y considera para ello tres elementos clave u objetivos de comunicación:
 
-> Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF).
+**Objetivos de exposición**:
 
-El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra del _target_ supere un determinado nivel crítico, y considera para ello tres elementos clave:
+-   _Effective reach and frequency_
 
+**Objetivos de comunicación**:
+
+-   _Need for the category_ (necesidad de la categoría)
 -   _Brand awareness_ (memoria y sus modos de recuperación: recuerdo y reconocimiento)
 -   _Brand attitude_ (asociación entre una marca y su uso, y un valor dado)
 -   _Brand purchase intention_ (disposición a la compra)
@@ -834,7 +836,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 ------------------------------------------------------------------------
 
-Los objetivos de comunicación son fundamentales en el proceso publicitario ya que establecen conexiones mentales duraderas entre la marca y el consumidor potencial. Estos objetivos se materializan a través de cinco efectos de comunicación que deben estar presentes antes de que el comprador tome acción:
+Los **objetivos de comunicación** son fundamentales en el proceso publicitario ya que establecen conexiones mentales duraderas entre la marca y el consumidor potencial. Estos objetivos se materializan a través de cinco efectos de comunicación que deben estar presentes antes de que el comprador tome acción:
 
 - **Necesidad de Categoría**
 
@@ -848,7 +850,7 @@ Los objetivos de comunicación son fundamentales en el proceso publicitario ya q
 
     Se define como la capacidad del consumidor para identificar (reconocer o recordar) la marca dentro de su categoría con suficiente detalle para realizar una compra. Es importante notar que la conciencia de marca puede lograrse tanto por reconocimiento (como ver el logo en una tienda) como por recuerdo (rememorar la marca cuando surge la necesidad).
     
-    Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sustentabilidad.
+    Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sostenibilidad.
     
 - **Actitud hacia la Marca**
 
@@ -877,6 +879,10 @@ Los objetivos de comunicación son fundamentales en el proceso publicitario ya q
 </details>
 
 ------------------------------------------------------------------------
+
+### A. Cobertura efectiva
+
+> Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF).
 
 ### B. Frecuencia efectiva
 
@@ -991,9 +997,9 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
 
 -   Reconocimiento y recuerdo de marca ( _brand recognition_, _brand recall_)
 
-    - **Recuerdo** (disponible y accesible): Para lograr un alto nivel de recuerdo, se requiere generalmente una mayor frecuencia de exposición. Las exposiciones repetidas refuerzan la información en la memoria, haciendo que sea más fácil de recordar.
-    - **Reconocimiento** (disponible): El reconocimiento de marca se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior.
+    - **Reconocimiento** (disponible): El reconocimiento de marca se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior. Se beneficia de los aprendizajes parciales.
 
+    - **Recuerdo** (disponible y accesible): Para lograr un alto nivel de recuerdo, se requiere generalmente una mayor frecuencia de exposición. Las exposiciones repetidas refuerzan la información en la memoria.
     
     **El Reconocimiento en el contexto publicitario**:
 
@@ -1071,7 +1077,7 @@ Se divide en dos tipos principales:
 
 La Figura _The FCB Grid_ (desarrollado por la agencia de publicidad Foote, Cone & Belding) es una herramienta clásica y sencilla para comprender cómo los consumidores toman decisiones de compra y cómo se relacionan con diferentes productos y servicios en el mercado. Es un punto de partida para la planificación publicitaria, que debe complementarse con métodos más completos.
 
-Este modelo se estructura en torno a dos dimensiones fundamentales: el grado de implicación (involvement) en el eje vertical, que va desde alta a baja implicación, y la naturaleza de la decisión en el eje horizontal, que oscila entre el pensamiento racional (think) y el sentimiento emocional (feel).
+Este modelo se estructura en torno a dos dimensiones fundamentales: el grado de implicación (involvement) en el eje vertical, que va desde alta a baja implicación, y la naturaleza de la decisión en el eje horizontal, que oscila entre el pensamiento racional (think) y el sentimiento (feel).
 
 - En el cuadrante superior izquierdo, donde confluyen la alta implicación y el pensamiento racional, encontramos productos y servicios que requieren una considerable deliberación cognitiva, como los seguros de vida, los seguros de automóvil y los coches familiares. Son decisiones que los consumidores toman con detenimiento y análisis.
 
@@ -1091,7 +1097,7 @@ A continuación, te muestro un breve ejemplo ilustrativo del concepto _Informati
 
   **Campaña Transformativa**: Imagina una campaña para una cerveza tradicional, ya conocida por el público. El objetivo no es tanto informar, sino transformar la percepción de la cerveza, asociándola con momentos de felicidad y conexión humana.
 
-  - Mensaje Emocional: Se mostrarían escenas de amigos riendo y disfrutando de la cerveza en diferentes contextos: una reunión familiar, un partido de fútbol, una noche de juegos de mesa. La música y la estética del anuncio transmitirían una sensación de alegría y camaradería, a saber, gratificacións ensorial y aprobación social. La motivación es transformacional, buscando la gratificación a través del sabor y las sensaciones que la cerveza proporciona. La baja participación se mantiene, ya que la decisión de compra sigue siendo relativamente simple, guiada por el placer y la preferencia socio-personal.
+  - Mensaje Emocional: Se mostrarían escenas de amigos riendo y disfrutando de la cerveza en diferentes contextos: una reunión familiar, un partido de fútbol, una noche de juegos de mesa. La música y la estética del anuncio transmitirían una sensación de alegría y camaradería, a saber, gratificacións ensorial y aprobación social. La motivación es transformacional, buscando la gratificación a través del sabor y las sensaciones que la cerveza proporciona. 
   - Medios Masivos: Se utilizaría la televisión, con anuncios durante programas de entretenimiento y eventos deportivos. También se podrían usar plataformas de redes sociales, creando contenido que invite a los usuarios a compartir sus propias historias de momentos felices con la cerveza.
   - Conexión Emocional: La campaña buscaría generar una respuesta emocional en el espectador, haciéndole sentir nostalgia por momentos felices compartidos con amigos y familia. La cerveza se presentaría como un elemento que facilita y realza esos momentos de conexión.
 
