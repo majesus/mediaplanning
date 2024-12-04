@@ -1530,7 +1530,9 @@ La premisa fundamental del Awareness Pattern radica en el reconocimiento de que,
 
 <details>
 <summary>Ejemplo en el caso de los automóviles</summary>
+
 ---
+
 **Adaptabilidad del Patrón Notoriedad a la Compra de Automóviles**
 
 La compra de un automóvil es un proceso complejo que involucra un ciclo de compra extenso y un alto grado de implicación por parte del consumidor. Este tipo de compra suele estar motivada por necesidades específicas y requiere una considerable inversión, lo que lleva a los consumidores a realizar una búsqueda exhaustiva de información y a comparar diferentes opciones antes de tomar una decisión.
@@ -1544,7 +1546,9 @@ En este contexto, el Patrón Notoriedad, con su enfoque en mantener la marca pre
 - Posicionamiento en el Conjunto de Consideración: Al mantener la marca visible durante el proceso de búsqueda de información, el Patrón Notoriedad puede asegurar que la marca sea incluida en el conjunto de opciones que el consumidor evalúa.
 
 - Construcción de Imagen de Marca: La publicidad de baja intensidad puede utilizarse para comunicar los valores y atributos de la marca, construyendo una imagen positiva que influya en la decisión del consumidor.
+
 ---
+
 </details>
 
 #### Implementación Práctica
