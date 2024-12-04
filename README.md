@@ -1202,9 +1202,7 @@ MEF: 7
 
 MEF: 9
 
-\[
-\text{DET} = -1 + 2 \left[ (x+1) + \cancel{(y+1)} + (z+1) - \cancel{1} \right]
-\]
+[ \text{DET} = -1 + 2 \left[ (x+1) + (y+1) + (z+1) - 1 \right] ]
 
 
 </details>
