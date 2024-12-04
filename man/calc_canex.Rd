@@ -3,70 +3,70 @@
 \encoding{UTF-8}
 \name{calc_canex}
 \alias{calc_canex}
-\title{Calculate CANEX Model}
+\title{Calcular Modelo CANEX}
 \usage{
 calc_canex(vehicles_data, duplications, poblacion = 1e+06)
 }
 \arguments{
-\item{vehicles_data}{Data frame containing media vehicle data with columns:
+\item{vehicles_data}{Marco de datos que contiene datos de vehículos de medios con columnas:
 \itemize{
-\item k: Number of insertions per vehicle (integer)
-\item R1: Single insertion reach (0-1)
-\item R2: Double insertion reach (0-1)
+\item k: Número de inserciones por vehículo (entero)
+\item R1: Alcance de inserción tras primera inserción (0-1)
+\item R2: Alcance de inserción tras segunda inserción (0-1)
 }}
 
-\item{duplications}{Matrix. Vehicle duplication matrix where element \link{i,j} represents
-the proportion of population exposed to both vehicle i and j}
+\item{duplications}{Matriz. Matriz de duplicación de vehículos donde el elemento \link{i,j} representa
+la proporción de población expuesta a ambos vehículos i y j}
 
-\item{poblacion}{Integer. Target population size (default: 1,000,000)}
+\item{poblacion}{Entero. Tamaño de la población objetivo (predeterminado: 1,000,000)}
 }
 \value{
-List with components:
+Lista con componentes:
 \itemize{
-\item total_reach: Proportion of population reached (0-1)
-\item total_reach_people: Number of people reached
-\item distribution: Data frame with columns:
+\item total_reach: Proporción de población alcanzada (0-1)
+\item total_reach_people: Número de personas alcanzadas
+\item distribution: Marco de datos con columnas:
 \itemize{
-\item contacts: Number of exposures
-\item percentage: Percentage of population
-\item people: Number of people
+\item contacts: Número de exposiciones
+\item percentage: Porcentaje de población
+\item people: Número de personas
 }
-\item cumulative: Data frame with columns:
+\item cumulative: Marco de datos con columnas:
 \itemize{
-\item min_contacts: Minimum number of exposures
-\item percentage: Cumulative percentage
-\item people: Cumulative number of people
+\item min_contacts: Número mínimo de exposiciones
+\item percentage: Porcentaje acumulado
+\item people: Número acumulado de personas
 }
-\item stats: List with additional metrics:
+\item stats: Lista con métricas adicionales:
 \itemize{
-\item avg_contacts: Average contacts per person reached
-\item zero_contacts_prob: Probability of zero contacts
+\item avg_contacts: Contactos promedio por persona alcanzada
+\item zero_contacts_prob: Probabilidad de cero contactos
 }
 }
 }
 \description{
-Main function implementing CANEX (Correlation Adjusted for N EXposures) model calculations.
-This model calculates reach and frequency distribution considering heterogeneity and correlations
-between media vehicles.
+Función principal que implementa los cálculos del modelo CANEX (Correlación Ajustada para n EXposiciones).
+Este modelo calcula la distribución de alcance y frecuencia considerando la heterogeneidad y duplicaciones y correlaciones
+entre vehículos de medios.
 }
 \details{
-The CANEX model integrates three key components:
+El modelo CANEX integra tres componentes clave:
 \itemize{
-\item Beta Binomial Distribution (BBD) to model exposure heterogeneity
-\item Vehicle duplications through correlation coefficients
-\item Multivariate adjustment for joint probabilities
+\item Distribución Beta Binomial (BBD) para modelar la heterogeneidad de exposición
+\item Duplicaciones de vehículos a través de coeficientes de duplicación y correlación
+\item Ajuste multivariado para probabilidades conjuntas
 }
 
-The model follows these steps:
+El modelo sigue estos pasos:
 \enumerate{
-\item Calculate BBD parameters (alpha, beta) for each vehicle
-\item Transform duplication matrix to correlations
-\item Generate joint probability distribution
-\item Calculate reach and frequency metrics
+\item Calcular parámetros BBD (alfa, beta) para cada vehículo
+\item Transformar matriz de duplicación a correlaciones
+\item Generar distribución de probabilidad conjunta
+\item Calcular métricas de alcance y frecuencia
 }
 }
 \examples{
-# Example 1: Basic usage with two vehicles
+# Ejemplo 1: Uso básico con dos vehículos
 vehicles <- data.frame(
   k = c(2, 2),
   R1 = c(0.4902, 0.033),
@@ -80,7 +80,7 @@ duplications <- matrix(
 results <- calc_canex(vehicles, duplications)
 print(results)
 
-# Example 2: Three vehicles with custom population
+# Ejemplo 2: Tres vehículos con población personalizada
 vehicles2 <- data.frame(
   k = c(2, 2, 2),
   R1 = c(0.4902, 0.033, 0.0300),
@@ -94,7 +94,7 @@ duplications2 <- matrix(
 )
 results2 <- calc_canex(vehicles2, duplications2, poblacion = 500000)
 
-# Access specific metrics
+# Acceder a métricas específicas
 total_reach <- results2$total_reach
 avg_contacts <- results2$stats$avg_contacts
 dist_table <- results2$distribution
@@ -106,7 +106,7 @@ distributions: A generalization of the "duplication of viewing law."
 Journal of Marketing Research, 28(3), 361–367.
 }
 \seealso{
-\code{\link{calculate_bbd_params}} for BBD parameter calculation
-\code{\link{transform_duplications}} for duplication matrix transformation
-\code{\link{calculate_metrics}} for detailed metrics calculation
+\code{\link{calculate_bbd_params}} para el cálculo de parámetros BBD
+\code{\link{transform_duplications}} para la transformación de matriz de duplicación
+\code{\link{calculate_metrics}} para el cálculo detallado de métricas
 }
