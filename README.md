@@ -1222,7 +1222,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 ------------------------------------------------------------------------
 
-EXAMEN JULIO 2024
+EXAMEN JULIO 202X
 
 APELLIDOS:
 
@@ -1230,12 +1230,12 @@ NOMBRE:
 
 La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campaña de comunicación busca establecer una emoción basada en la alegría, amistad, diversión y celebración, mostrando grupos de amigos disfrutando de momentos agradables en un ambiente festivo y relajado. Se busca asociar la marca con la felicidad y la camaradería. 
 
-Objetivos:
+**Objetivos**:
 
 - Cobertura efectiva: 65.000 personas
 - Frecuencia efectiva mínima (FEM): ¿?
 
-Plan de medios y soportes:
+**Plan de medios y soportes**:
 
 - Medio: Radio
 - Soporte radiofónico Radio S1, horario 6:30-7:30
@@ -1244,13 +1244,13 @@ Plan de medios y soportes:
 - Programación temporal de las inserciones: Una inserción de lunes a viernes en S1 durante dos semanas consecutivas.
 - Población total: 500.000 personas
 
-Detalles adicionales del plan:
+**Detalles adicionales del plan**:
 
 - FEM del mayor competidor: +2, también emplea la radio como canal principal de difusión de sus mensajes publicitarios.
 - Influencia personal: +.25 (al menos uno de cada cuatro _influencers_ apoyarán la marca en su lanzamiento)
 - Lugar de toma de la decisión de compra: En el hogar, debido al precio _premium_ que se establecerá.
 
-Preguntas:
+**Preguntas**:
 
 1. Analice la efectividad del plan de medios teniendo en cuenta los datos proporcionados. Calcule la FEM, el volumen de GRPs y la frecuencia media.
 2. Considerando las opciones de estrategia de cobertura y distribución de contactos, ¿cuál recomendaría para esta campaña? Describa la estrategia elegida.
