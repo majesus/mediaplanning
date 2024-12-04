@@ -1161,6 +1161,7 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 - Estrategia informativa\
 - Influencia personal > 0.25 \
 
+---
 
 - Líder (LC)\
 - Televisión en prime time\
@@ -1169,6 +1170,7 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 - Estrategia transformativa\
 - Influencia personal >= 0.25\
 
+---
 
 - No Líder (No LC)\
 - MEF líder +4\
@@ -1177,6 +1179,8 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 - Recuerdo\
 - Estrategia transformativa\
 - Influencia personal > 0.25  \ 
+
+---
 
 - No Líder (No LC)\
 - MEF líder +4\
