@@ -1220,6 +1220,8 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 <details>
 <summary>:arrow_forward:Haz clic para resolver ejemplos de examen de cálculo MEF</summary>
 
+------------------------------------------------------------------------
+
 EXAMEN JULIO 2024
 APELLIDOS:
 NOMBRE:
