@@ -1230,23 +1230,31 @@ NOMBRE:
 
 La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campaña de comunicación busca establecer una emoción basada en la alegría, amistad, diversión y celebración, mostrando grupos de amigos disfrutando de momentos agradables en un ambiente festivo y relajado. Se busca asociar la marca con la felicidad y la camaradería. 
 
-Se ha decidido utilizar una cadena de radio afín a este tipo de productos exclusivos como canal principal de difusión para alcanzar eficazmente a 65.000 personas.
+Objetivos:
 
-Detalles de la campaña:
+- Cobertura efectiva: 65.000 personas
+- Frecuencia efectiva mínima (FEM): ¿?
+
+Plan de medios y soportes:
 
 - Medio: Radio
+- Soporte radiofónico Radio S1, horario 6:30-7:30
+- Audiencia tras la primera inserción en S1: 100.000 personas.
+- Audiencia acumulada tras la segunda inserción en S1: 120.000 personas.
+- Programación temporal de las inserciones: Una inserción de lunes a viernes en S1 durante dos semanas consecutivas.
+- Población total: 500.000 personas
+
+Detalles adicionales del plan:
+
 - FEM del mayor competidor: +2, también emplea la radio como canal principal de difusión de sus mensajes publicitarios.
 - Influencia personal: +.25 (al menos uno de cada cuatro _influencers_ apoyarán la marca en su lanzamiento)
 - Lugar de toma de la decisión de compra: En el hogar, debido al precio _premium_ que se establecerá.
-- Población total: 500.000 personas
-- Audiencia tras la primera inserción: 100.000 personas.
-- Audiencia acumulada tras la segunda inserción: 120.000 personas.
-- Programación temporal de las inserciones: Una inserción de lunes a viernes durante dos semanas consecutivas.
 
 Preguntas:
 
-1. Analice la efectividad del plan de medios teniendo en cuenta los datos proporcionados. Calcule la frecuencia efectiva mínima, el volumen de GRPs y la frecuencia media.
+1. Analice la efectividad del plan de medios teniendo en cuenta los datos proporcionados. Calcule la FEM, el volumen de GRPs y la frecuencia media.
 2. Considerando las opciones de estrategia de cobertura y distribución de contactos, ¿cuál recomendaría para esta campaña? Describa la estrategia elegida.
+3. Emplee el paquete de R mediaPlanR, y valide sus resultados alcanzados manualmente.
 
 </details>
 
