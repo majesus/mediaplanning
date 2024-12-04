@@ -1,3 +1,13 @@
+---
+output:
+  pdf_document:
+    latex_engine: pdflatex
+    number_sections: true
+    toc: true
+  html_document: default
+  word_document:
+    toc: true
+---
 # Herramientas tradicionales para la Planificación de Medios Publicitarios
 
 Autor: Manuel J. Sánchez Franco
@@ -1205,6 +1215,34 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 </details>
 
+---
+
+<details>
+<summary>MEF</summary>
+
+EXAMEN JULIO 2024
+APELLIDOS:
+NOMBRE:
+
+La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campaña de comunicación busca establecer una conexión emocional con los consumidores de cerveza artesana, resaltando valores afectivos e intangibles del producto, en particular, una exclusividad en relación con el resto de consumidores de cerveza tradicional. Se ha decidido utilizar una cadena de radio afín a este tipo de productos exclusivos como canal principal de difusión para alcanzar eficazmente a 65.000 personas.
+Detalles de la campaña:
+
+- Medio: Radio
+- Frecuencia del líder del mercado: 2, quien también emplea la radio como canal principal de difusión de sus mensajes publicitarios.
+- Influencia personal: Agentes gastronómicos ajenos a la campaña potenciarán las ventas.
+- Lugar de decisión de compra: En el hogar, debido al elevado precio del producto.
+- Población total: 500.000 personas
+- Audiencia del único soporte en radio: 100.000 personas.
+- Audiencia acumulada tras la segunda inserción: 120.000 personas.
+- Planificación de inserciones: Una inserción de lunes a viernes durante dos semanas consecutivas (10 inserciones).
+
+Preguntas:
+
+1. Analice la efectividad del plan de medios teniendo en cuenta los datos proporcionados. Previamente calcule el volumen de GRP, la frecuencia media, y la frecuencia efectiva mínima.
+2. Considerando las opciones de estrategia de cobertura y distribución de contactos, ¿cuál recomendaría para esta campaña? Describa la estrategia elegida.
+
+</details>
+
 ------------------------------------------------------------------------
 
 <details>
@@ -1541,11 +1579,11 @@ La compra de un automóvil es un proceso complejo que involucra un ciclo de comp
 
 En este contexto, el Patrón Notoriedad, con su enfoque en mantener la marca presente en la mente del consumidor a largo plazo, puede ser beneficioso por las siguientes razones:
 
-- Generación de Familiaridad y Confianza: La presencia constante, aunque de baja intensidad, puede generar familiaridad con la marca y aumentar la confianza del consumidor.
+- **Generación de Familiaridad y Confianza**: La presencia constante, aunque de baja intensidad, puede generar familiaridad con la marca y aumentar la confianza del consumidor.
 
-- Posicionamiento en el Conjunto de Consideración: Al mantener la marca visible durante el proceso de búsqueda de información, el Patrón Notoriedad puede asegurar que la marca sea incluida en el conjunto de opciones que el consumidor evalúa.
+- **Posicionamiento en el Conjunto de Consideración**: Al mantener la marca visible durante el proceso de búsqueda de información, el Patrón Notoriedad puede asegurar que la marca sea incluida en el conjunto de opciones que el consumidor evalúa.
 
-- Construcción de Imagen de Marca: La publicidad de baja intensidad puede utilizarse para comunicar los valores y atributos de la marca, construyendo una imagen positiva que influya en la decisión del consumidor.
+- **Construcción de Imagen de Marca**: La publicidad de baja intensidad puede utilizarse para comunicar los valores y atributos de la marca, construyendo una imagen positiva que influya en la decisión del consumidor.
 
 ---
 
