@@ -1528,6 +1528,23 @@ El Awareness Pattern representa una estrategia de planificación de medios dise�
 
 La premisa fundamental del Awareness Pattern radica en el reconocimiento de que, para ciertas categorías de productos, el consumidor puede pasar meses o incluso años considerando la compra antes de tomar una decisión final. En estos casos, la estrategia publicitaria debe mantener la marca "presente" en la mente del consumidor, sin necesidad de generar una respuesta inmediata. La efectividad del patrón depende de su capacidad para mantener la marca como una opción relevante y deseable cuando llegue el momento de la decisión.
 
+<details>
+<summary>Ejemplo en el caso de los automóviles</summary>
+**Adaptabilidad del Patrón Notoriedad a la Compra de Automóviles**
+
+La compra de un automóvil es un proceso complejo que involucra un ciclo de compra extenso y un alto grado de implicación por parte del consumidor. Este tipo de compra suele estar motivada por necesidades específicas y requiere una considerable inversión, lo que lleva a los consumidores a realizar una búsqueda exhaustiva de información y a comparar diferentes opciones antes de tomar una decisión.
+
+**Ventajas del Patrón Notoriedad para la Compra de Automóviles**
+
+En este contexto, el Patrón Notoriedad, con su enfoque en mantener la marca presente en la mente del consumidor a largo plazo, puede ser beneficioso por las siguientes razones:
+
+- Generación de Familiaridad y Confianza: La presencia constante, aunque de baja intensidad, puede generar familiaridad con la marca y aumentar la confianza del consumidor.
+
+- Posicionamiento en el Conjunto de Consideración: Al mantener la marca visible durante el proceso de búsqueda de información, el Patrón Notoriedad puede asegurar que la marca sea incluida en el conjunto de opciones que el consumidor evalúa.
+
+- Construcción de Imagen de Marca: La publicidad de baja intensidad puede utilizarse para comunicar los valores y atributos de la marca, construyendo una imagen positiva que influya en la decisión del consumidor.
+</details>
+
 #### Implementación Práctica
 
 La ejecución del Awareness Pattern se estructura típicamente en ciclos regulares de comunicación con características particulares. La frecuencia por ciclo puede ser relativamente baja, buscando alcanzar al público objetivo con exposiciones suficientes para mantener la presencia de marca. Los intervalos entre ciclos deben ser lo suficientemente cortos para mantener la continuidad en la mente del consumidor.
@@ -1537,6 +1554,18 @@ La comunicación debe combinar elementos de construcción de marca con mecanismo
 #### Integración de Elementos de Respuesta
 
 Los elementos de respuesta directa deben integrarse de manera sutil pero efectiva, incluyendo llamadas a la acción no intrusivas pero claras, mecanismos de contacto múltiples y adaptados al perfil del target, sistemas de seguimiento y nutrición de leads, y contenido valioso que justifique el contacto. La clave está en facilitar la acción sin presionar, reconociendo que el tiempo de decisión es variable para cada consumidor.
+
+Para integrar **elementos de respuesta directa** en este patrón, se pueden utilizar los siguientes mecanismos:
+
+- Llamadas a la acción no intrusivas: Incluir una invitación a realizar una acción, como visitar un sitio web o llamar a un número de teléfono, sin ser agresivo en el mensaje.
+
+- Mecanismos de contacto adaptados al público objetivo: Ofrecer diferentes formas de contacto, como redes sociales, correo electrónico o teléfono, según las preferencias del público al que se dirige la campaña.
+
+- Sistemas de seguimiento y nutrición de leads: Una vez que un consumidor muestra interés, es importante darle seguimiento y ofrecerle contenido de valor para mantener su interés a lo largo del proceso de decisión.
+
+- Contenido valioso que justifique el contacto: Ofrecer información útil y relevante que motive al consumidor a interactuar con la marca.
+
+La clave del éxito en este tipo de estrategia radica en facilitar la acción sin presionar al consumidor, reconociendo que cada persona necesita un tiempo diferente para tomar una decisión de compra.
 
 #### Consideraciones Estratégicas
 
