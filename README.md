@@ -1223,24 +1223,29 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 ------------------------------------------------------------------------
 
 EXAMEN JULIO 2024
+
 APELLIDOS:
+
 NOMBRE:
 
-La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campaña de comunicación busca establecer una conexión emocional con los consumidores de cerveza artesana, resaltando valores afectivos e intangibles del producto, en particular, una exclusividad en relación con el resto de consumidores de cerveza tradicional. Se ha decidido utilizar una cadena de radio afín a este tipo de productos exclusivos como canal principal de difusión para alcanzar eficazmente a 65.000 personas.
+La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campaña de comunicación busca establecer una emoción basada en la alegría, amistad, diversión y celebración, mostrando grupos de amigos disfrutando de momentos agradables en un ambiente festivo y relajado. Se busca asociar la marca con la felicidad y la camaradería. 
+
+Se ha decidido utilizar una cadena de radio afín a este tipo de productos exclusivos como canal principal de difusión para alcanzar eficazmente a 65.000 personas.
+
 Detalles de la campaña:
 
 - Medio: Radio
-- Frecuencia del líder del mercado: 2, quien también emplea la radio como canal principal de difusión de sus mensajes publicitarios.
-- Influencia personal: Agentes gastronómicos ajenos a la campaña potenciarán las ventas.
-- Lugar de decisión de compra: En el hogar, debido al elevado precio del producto.
+- FEM del mayor competidor: +2, también emplea la radio como canal principal de difusión de sus mensajes publicitarios.
+- Influencia personal: +.25 (al menos uno de cada cuatro _influencers_ apoyarán la marca en su lanzamiento)
+- Lugar de toma de la decisión de compra: En el hogar, debido al precio _premium_ que se establecerá.
 - Población total: 500.000 personas
-- Audiencia del único soporte en radio: 100.000 personas.
+- Audiencia tras la primera inserción: 100.000 personas.
 - Audiencia acumulada tras la segunda inserción: 120.000 personas.
-- Planificación de inserciones: Una inserción de lunes a viernes durante dos semanas consecutivas (10 inserciones).
+- Programación temporal de las inserciones: Una inserción de lunes a viernes durante dos semanas consecutivas.
 
 Preguntas:
 
-1. Analice la efectividad del plan de medios teniendo en cuenta los datos proporcionados. Previamente calcule el volumen de GRP, la frecuencia media, y la frecuencia efectiva mínima.
+1. Analice la efectividad del plan de medios teniendo en cuenta los datos proporcionados. Calcule la frecuencia efectiva mínima, el volumen de GRPs y la frecuencia media.
 2. Considerando las opciones de estrategia de cobertura y distribución de contactos, ¿cuál recomendaría para esta campaña? Describa la estrategia elegida.
 
 </details>
