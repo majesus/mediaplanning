@@ -1313,9 +1313,31 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 
 ## :red_square:Estrategias de cobertura y distribución de exposición
 
-Los patrones de alcance constituyen el fundamento de la planificación estratégica en medios publicitarios. Se dividen en dos grandes categorías según la etapa del producto en el mercado: patrones para productos nuevos y patrones para productos establecidos. Cada patrón responde a necesidades específicas de comunicación y objetivos de marketing.
+La planificación de medios se fundamenta en dos dimensiones críticas que determinan el impacto de una campaña publicitaria: **la cobertura (reach) y la distribución de exposición (frecuencia)**. Como se ha expuesto anteriormente:
+
+> La cobertura representa el porcentaje del público objetivo que está expuesto al menos una vez al mensaje publicitario durante un período específico. 
+
+> La distribución de exposición describe cómo se acumulan las exposiciones en el tiempo para cada individuo del público objetivo, considerando tanto el número de impactos como su espaciamiento temporal.
+
+Estas dimensiones se entrelazan en lo que conocemos como patrones de planificación de medios, que son estrategias diseñadas para optimizar la relación entre cobertura y frecuencia según objetivos específicos. La elección del patrón adecuado depende de factores como el ciclo de vida del producto, el proceso de decisión de compra, la estacionalidad y el comportamiento del consumidor, entre otros factores.
+
+Los patrones se dividen en dos grandes categorías:
+
+> Patrones para Marcas Nuevas: Diseñados para productos que necesitan establecerse en el mercado, estos patrones tienden a priorizar una alta frecuencia inicial para generar conocimiento y consideración rápidamente.
+
+> Patrones para Marcas Establecidas: Enfocados en mantener la presencia de marca y optimizar la inversión publicitaria a largo plazo, estos patrones suelen equilibrar la cobertura y la frecuencia de manera más eficiente.
+
+La distribución de exposición en cada patrón puede ser:
+
+> Continua: Mantiene un nivel constante de presión publicitaria
+
+> Pulsante: Alterna períodos de alta y baja intensidad, incrementa o decrece la intensidad gradualmente
+
+> Flighting: Concentra la actividad en períodos específicos, alterna períodos de actividad con períodos de hiatus
 
 [▶️ Escuchar audio resumen](https://notebooklm.google.com/notebook/cfd21a5c-ca97-4971-9045-44318103d078/audio)
+
+---
 
 ## Patrones para marcas nuevas
 
