@@ -816,12 +816,11 @@ head(resultado)
 
 ## :red_square:Objetivos del Plan de Medios y Soportes
 
-
 El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra del _target_ supere un determinado nivel crítico, y considera para ello tres elementos clave u objetivos de comunicación:
 
 **Objetivos de exposición**:
 
--   _Effective reach and frequency_
+-   _Cobertura y frecuencia efectivas_
 
 **Objetivos de comunicación**:
 
@@ -829,6 +828,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 -   _Brand awareness_ (memoria y sus modos de recuperación: recuerdo y reconocimiento)
 -   _Brand attitude_ (asociación entre una marca y su uso, y un valor dado)
 -   _Brand purchase intention_ (disposición a la compra)
+-   _Purchase Facilitation_ (facilitación de compra)
 
 <details>
 
@@ -840,15 +840,15 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
 - **Necesidad de Categoría**
 
-    Esta es la base del proceso y se refiere a la aceptación por parte del consumidor de que necesita un producto o servicio para satisfacer una discrepancia entre su estado actual y el deseado. Por ejemplo, reconocer la necesidad de un medio de transporte es el primer paso antes de considerar una marca específica de automóvil.
+    Esta es la base del proceso y se refiere a la aceptación por parte del consumidor de que necesita un producto o servicio para satisfacer una discrepancia entre su estado actual y el deseado. Por ejemplo, reconocer la necesidad de un automóvil es el primer paso antes de considerar una marca específica.
 
     Imagina el lanzamiento de los primeros servicios de streaming de música como Spotify. Inicialmente, la tarea comunicacional no era convencer sobre las ventajas de Spotify sobre otros servicios similares, sino crear la necesidad de categoría: ¿por qué alguien necesitaría un servicio de streaming de música cuando ya tenía su música descargada? La comunicación debía enfocarse en mostrar los problemas que resolvía esta nueva categoría: el espacio limitado en los dispositivos, la imposibilidad de descubrir nueva música fácilmente, la dificultad de acceder a toda la música que uno desea.
 
     Otros casos clásicos: [A Case Study on American Express “Don’t Leave Home Without It](https://thebrandhopper.com/2024/09/17/a-case-study-on-american-express-dont-leave-home-without-it/)
 
-- **Conciencia de Marca**
+- **Memoria de marca, conciencia o notoriedad de marca**
 
-    Se define como la capacidad del consumidor para identificar (reconocer o recordar) la marca dentro de su categoría con suficiente detalle para realizar una compra. Es importante notar que la conciencia de marca puede lograrse tanto por reconocimiento (como ver el logo en una tienda) como por recuerdo (rememorar la marca cuando surge la necesidad).
+    Se define como la capacidad del consumidor para identificar (reconocer o recordar) la marca dentro de su categoría. Es importante notar que la _conciencia de marca_ puede lograrse tanto por reconocimiento (como ver el envase en una tienda) como por recuerdo (rememorar la marca cuando surge la necesidad).
     
     Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sostenibilidad.
     
@@ -858,9 +858,9 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
     Nike representa un caso maestro de construcción de actitud hacia la marca. Su comunicación va más allá de los beneficios funcionales de su calzado deportivo para crear una conexión emocional profunda con el "espíritu deportivo". Su eslogan "Just Do It" y sus campañas no venden zapatos, venden superación personal, determinación y excelencia. Esta actitud positiva hacia la marca se construye mediante la combinación de beneficios funcionales (tecnología, comodidad, durabilidad) con beneficios emocionales (confianza, inspiración, pertenencia).
 
-- **Intención de Compra**
+- **Intención de Compra, disposición, desplazamiento mental**
 
-    Se define como la autodisposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de involucramiento del producto - para productos de bajo involucramiento, una actitud favorable puede ser suficiente, mientras que para productos de alto involucramiento se necesita generar una intención explícita.
+    Se define como la disposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de involucramiento del producto - para productos de baja implicación, una actitud favorable (superficial) puede ser suficiente, mientras que para productos de alta implicación se necesita generar una actitud _hard_ y una intención explícita.
 
     Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alto involucramiento como un smartphone, no basta con que te guste la marca; Apple busca crear una urgencia de compra inmediata.
 
@@ -957,7 +957,7 @@ El concepto de atención al vehículo mediático se refiere al nivel de procesam
 
     - **Radio**: La radio, al ser un medio únicamente auditivo, puede tener una VA más baja que la televisión, ya que compite con otras actividades que el oyente puede estar realizando simultáneamente. La atención a la radio también depende del tipo de programa y la fidelidad del oyente.
 
-    - **Publicidad Exterior**:  la atención a la publicidad exterior puede ser baja debido a la distracción del entorno y la brevedad de la exposición. Es fundamental considerar este factor al diseñar la campaña y seleccionar las ubicaciones. No obstante, la atención a la publicidad exterior, como vallas publicitarias, depende en gran medida del contexto y la ubicación. Un anuncio en una carretera con mucho tráfico puede pasar desapercibido, mientras que un anuncio en una parada de autobús, donde las personas tienen tiempo de observarlo, puede generar mayor atención.
+    - **Publicidad Exterior** (preferentemente móvil):  La atención a la publicidad exterior puede ser baja debido a la distracción del entorno y la brevedad de la exposición. Es fundamental considerar este factor al diseñar la campaña y seleccionar las ubicaciones. No obstante, la atención a la publicidad exterior, como vallas publicitarias, depende en gran medida del contexto y la ubicación. Un anuncio en una carretera con mucho tráfico puede pasar desapercibido, mientras que un anuncio en una parada de autobús, donde las personas tienen tiempo de observarlo, puede generar mayor atención.
 
     - **Prensa**: La atención a los anuncios en prensa escrita, como periódicos y revistas, puede ser baja si los lectores simplemente hojean las páginas sin detenerse a leer el contenido.
 
