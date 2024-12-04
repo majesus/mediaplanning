@@ -1165,6 +1165,7 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
+---
 
 <details>
 <summary>:arrow_forward:Haz clic para resolver ejemplos sencillos de cálculo MEF</summary>
