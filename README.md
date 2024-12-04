@@ -1299,15 +1299,21 @@ library(mediaPlanR)
 
 ?calc_metheringham()
 
-# Ejemplo básico con tres soportes
+matriz_dup <- matrix(c(
+  50000, 45000, 62000,
+  45000, 50000, 35000,
+  62000, 35000, 60000
+), nrow = 3, byrow = TRUE)
+
 metricas <- calc_metheringham(
   audiencias = c(120000, 80000, 120000),
   inserciones = c(2, 3, 2),
-  vec_duplicacion = c(50000, 45000, 62000,
-                             50000, 35000,
-                                    60000),
+  matriz_duplicacion = matriz_dup,
   ayuda = FALSE
 )
+
+metricas
+
 ```
 
 </details>
@@ -2182,26 +2188,34 @@ Con estos datos de audiencia, se estiman dos parámetros fundamentales (alpha y 
 #### Aplicación de la función:
 
 ``` r
+matriz_dup <- matrix(c(
+  150000, 200000, 180000,
+  200000, 120000, 140000,
+  180000, 140000, 170000
+), nrow = 3, byrow = TRUE)
+
 metricas <- calc_metheringham(
   audiencias = c(1500000, 800000, 1200000),
   inserciones = c(4, 3, 5),
-  vec_duplicacion = c(150000, 200000, 180000,
-                              120000, 140000,
-                                      170000),
+  matriz_duplicacion = matriz_dup,
   ayuda = FALSE
 )
+
 str(metricas)
 
-# List of 4
-#  $ audiencia_media     : num 1200000
-#  $ duplicacion_media   : num 167576
-#  $ audiencia_segunda   : num 2232424
-#  $ vector_oportunidades: num [1:6] 6 12 20 3 15 10
+# List of 7
+ # $ audiencia_media     : num 1200000
+ # $ duplicacion_media   : num 167576
+ # $ audiencia_segunda   : num 2232424
+ # $ matriz_oportunidades: num [1:3, 1:3] 6 12 20 12 3 15 20 15 10
+ # $ vector_oportunidades: num [1:6] 6 12 20 3 15 10
+ # $ vector_duplicacion  : num [1:6] 150000 200000 180000 120000 140000 170000
+ # $ total_inserciones   : num 12
 
 resultado <- calc_beta_binomial(A1 = metricas$audiencia_media, 
                                 A2 = metricas$audiencia_segunda, 
                                 P = 10000000, 
-                                n = 12)
+                                n = metricas$total_inserciones)
 resultado
 
 # MODELO BETA-BINOMIAL
