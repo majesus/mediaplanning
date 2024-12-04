@@ -1158,41 +1158,53 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 
 ## Ejemplos MEF
 
-- No líder (no LC)\
-- Televisión en prime time\
-- Público leal a la marca\
-- Reconocimiento\
-- Estrategia informativa\
-- Influencia personal > 0.25 \
+- No líder (no LC)
+- Televisión en prime time
+- Público leal a la marca
+- Reconocimiento
+- Estrategia informativa
+- Influencia personal > 0.25 
+
+MEF: 0
 
 ---
 
-- Líder (LC)\
-- Televisión en prime time\
-- No usuario de la categoría\
-- Recuerdo\
-- Estrategia transformativa\
-- Influencia personal >= 0.25\
+- Líder (LC)
+- Televisión en prime time
+- No usuario de la categoría
+- Recuerdo
+- Estrategia transformativa
+- Influencia personal > 0.25
+
+MEF: 6
 
 ---
 
-- No Líder (No LC)\
-- MEF líder +4\
-- Televisión prime time\
-- No usuario de la categoría\
-- Recuerdo\
-- Estrategia transformativa\
-- Influencia personal > 0.25  \ 
+- No Líder (No LC)
+- MEF líder +4\ TV prime time
+- Televisión prime time
+- No usuario de la categoría
+- Recuerdo
+- Estrategia transformativa
+- Influencia personal > 0.25
+
+MEF: 7
 
 ---
 
-- No Líder (No LC)\
-- MEF líder +4\
-- Televisión no prime/day time\
-- No usuario de la categoría\
-- Recuerdo\
-- Estrategia transformativa\
-- Influencia personal > 0.25\
+- No Líder (No LC)
+- MEF líder +4\ TV no prime time/day time
+- Televisión no prime/day time
+- No usuario de la categoría
+- Recuerdo
+- Estrategia transformativa
+- Influencia personal > 0.25
+
+MEF: 9
+
+\[
+\text{DET} = -1 + 2 \left[ (x+1) + \cancel{(y+1)} + (z+1) - \cancel{1} \right]
+\]
 
 </details>
 
