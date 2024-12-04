@@ -1150,38 +1150,26 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 </details>
 
 <details>
-<summary>:arrow_forward:Haz clic para resolver ejemplos de cálculo MEF</summary>
+<summary>:arrow_forward:Haz clic para resolver ejemplos sencillos de cálculo MEF</summary>
 
 ## Ejemplos MEF
 
-:::: {.columns}
-::: {.column width="50%"}
-<br>
 - No líder (no LC)\
 - Televisión en prime time\
 - Público leal a la marca\
 - Reconocimiento\
 - Estrategia informativa\
 - Influencia personal > 0.25 \
-:::
-::: {.column width="50%"}
-<br>
+
+
 - Líder (LC)\
 - Televisión en prime time\
 - No usuario de la categoría\
 - Recuerdo\
 - Estrategia transformativa\
 - Influencia personal >= 0.25\
-:::
-::::
 
----
 
-## Ejemplos MEF
-
-:::: {.columns}
-::: {.column width="50%"}
-<br>
 - No Líder (No LC)\
 - MEF líder +4\
 - Televisión prime time\
@@ -1189,9 +1177,7 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 - Recuerdo\
 - Estrategia transformativa\
 - Influencia personal > 0.25  \ 
-:::
-::: {.column width="50%"}
-<br>
+
 - No Líder (No LC)\
 - MEF líder +4\
 - Televisión no prime/day time\
@@ -1199,8 +1185,6 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 - Recuerdo\
 - Estrategia transformativa\
 - Influencia personal > 0.25\
-:::
-::::
 
 </details>
 
@@ -1208,7 +1192,7 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 
 <details>
 
-<summary>:arrow_forward:Casos prácticos MEF</summary>
+<summary>:arrow_forward:Haz clic para casos prácticos MEF</summary>
 
 ------------------------------------------------------------------------
 
