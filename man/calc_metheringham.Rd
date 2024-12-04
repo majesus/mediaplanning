@@ -5,25 +5,27 @@
 \alias{calc_metheringham}
 \title{Cálculo de métricas según el modelo de Metheringham}
 \usage{
-calc_metheringham(audiencias, inserciones, vec_duplicacion, ayuda = TRUE)
+calc_metheringham(audiencias, inserciones, matriz_duplicacion, ayuda = TRUE)
 }
 \arguments{
 \item{audiencias}{Vector numérico con las audiencias de cada soporte}
 
 \item{inserciones}{Vector numérico con el número de inserciones por soporte}
 
-\item{vec_duplicacion}{Vector numérico con valores de duplicación entre soportes}
+\item{matriz_duplicacion}{Matriz simétrica con los valores de duplicación entre soportes}
 
 \item{ayuda}{Logical. Si TRUE, muestra una guía de uso detallada (default: TRUE)}
 }
 \value{
-Una lista conteniendo:
+Un objeto de clase 'reach_metheringham' conteniendo:
 \itemize{
 \item audiencia_media: Media ponderada de audiencias (A1)
 \item duplicacion_media: Media ponderada de duplicaciones (D)
 \item audiencia_segunda: Audiencia tras la segunda inserción (A2)
-\item vector_oportunidades: Vector que contiene el número de oportunidades de contacto
-entre pares de inserciones, siguiendo el mismo orden que el vec_duplicacion
+\item matriz_oportunidades: Matriz que contiene el número de oportunidades de contacto
+entre pares de inserciones
+\item vector_oportunidades: Versión linealizada de la matriz de oportunidades
+\item vector_duplicacion: Versión linealizada de la matriz de duplicación
 }
 }
 \description{
@@ -55,22 +57,26 @@ La función realiza los siguientes cálculos principales:
 }
 }
 \note{
-El vector de duplicación debe seguir un orden específico:
+La matriz de duplicación debe ser simétrica donde:
 \itemize{
-\item Para n soportes, se requieren n*(n+1)/2 valores
-\item Los valores se ordenan por filas de la matriz triangular superior
-\item Incluye la duplicación de cada soporte consigo mismo
-\item El orden sigue el patrón: (1,1), (1,2), (1,3), (2,2), (2,3), (3,3)
+\item La diagonal contiene la duplicación de cada soporte consigo mismo
+\item El elemento \link{i,j} contiene la duplicación entre los soportes i y j
+\item Se debe cumplir que matriz\link{i,j} = matriz\link{j,i}
+\item Para n soportes, la matriz debe ser de dimensiones n x n
 }
 }
 \examples{
 # Ejemplo básico con tres soportes
+matriz_dup <- matrix(c(
+  150000, 200000, 180000,
+  200000, 120000, 140000,
+  180000, 140000, 170000
+), nrow = 3, byrow = TRUE)
+
 metricas <- calc_metheringham(
   audiencias = c(1500000, 800000, 1200000),
   inserciones = c(4, 3, 5),
-  vec_duplicacion = c(150000, 200000, 180000,
-                        120000, 140000,
-                        170000),
+  matriz_duplicacion = matriz_dup,
   ayuda = FALSE
 )
 
@@ -78,7 +84,7 @@ metricas <- calc_metheringham(
 calc_metheringham(
   audiencias = NULL,
   inserciones = NULL,
-  vec_duplicacion = NULL,
+  matriz_duplicacion = NULL,
   ayuda = TRUE
 )
 

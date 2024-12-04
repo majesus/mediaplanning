@@ -15,6 +15,7 @@
     "\n   - calc_metheringham(): Modelo Metheringham",
     "\n   - calc_hofmans(): Modelo Hofmans",
     "\n   - calc_MBBD(): Modelo MBBD",
+    "\n   - calc_canex(): Modelo CANEX",
     "\n",
     "\n3. Optimización de Distribución de Contactos (d) y Acumulada (dc):",
     "\n   - optimizar_d(): Optimiza parámetros alpha y beta y n de la distribución de contactos",

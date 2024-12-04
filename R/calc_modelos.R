@@ -575,6 +575,37 @@ print.reach_beta_binomial <- function(x, ...) {
 
 #__________________________________________________________#
 
+#' @export
+# Función para convertir matriz a vector de duplicación
+matriz_a_vector <- function(matriz) {
+  n <- nrow(matriz)
+  vector <- numeric()
+  for(i in 1:n) {
+    for(j in i:n) {
+      vector <- c(vector, matriz[i,j])
+    }
+  }
+  return(vector)
+}
+
+#' @export
+# Función para crear matriz de oportunidades
+crear_matriz_oportunidades <- function(inserciones) {
+  n <- length(inserciones)
+  matriz <- matrix(0, nrow = n, ncol = n)
+  for(i in 1:n) {
+    for(j in i:n) {
+      if(i == j) {
+        matriz[i,j] <- choose(inserciones[i], 2)
+      } else {
+        matriz[i,j] <- inserciones[i] * inserciones[j]
+        matriz[j,i] <- matriz[i,j]  # Simetría
+      }
+    }
+  }
+  return(matriz)
+}
+
 #' @encoding UTF-8
 #' @title Cálculo de métricas según el modelo de Metheringham
 #' @description Calcula métricas fundamentales para la aplicación del modelo de Metheringham,
@@ -657,46 +688,11 @@ print.reach_beta_binomial <- function(x, ...) {
 #' )
 #'
 #' @export
-#'
 #' @seealso
 #' \code{\link{calc_sainsbury}} para estimaciones con la distribución Binomial
 #' \code{\link{calc_binomial}} para estimaciones con la distribución Beta-Binomial
 #' \code{\link{calc_beta_binomial}} para estimaciones con la distribución de Metheringham
 #' \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
-#'
-#' @export
-
-# Función para convertir matriz a vector de duplicación
-matriz_a_vector <- function(matriz) {
-  n <- nrow(matriz)
-  vector <- numeric()
-  for(i in 1:n) {
-    for(j in i:n) {
-      vector <- c(vector, matriz[i,j])
-    }
-  }
-  return(vector)
-}
-
-#' @export
-# Función para crear matriz de oportunidades
-crear_matriz_oportunidades <- function(inserciones) {
-  n <- length(inserciones)
-  matriz <- matrix(0, nrow = n, ncol = n)
-  for(i in 1:n) {
-    for(j in i:n) {
-      if(i == j) {
-        matriz[i,j] <- choose(inserciones[i], 2)
-      } else {
-        matriz[i,j] <- inserciones[i] * inserciones[j]
-        matriz[j,i] <- matriz[i,j]  # Simetría
-      }
-    }
-  }
-  return(matriz)
-}
-
-#' @export
 # Función principal de Metheringham
 calc_metheringham <- function(audiencias, inserciones, matriz_duplicacion, ayuda = TRUE) {
   # Primero verificar si solo se quiere mostrar la ayuda
