@@ -937,7 +937,7 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 <summary>:arrow_forward:Haz clic para mayor desarrollo del cálculo MEF</summary>
 
-------------------------------------------------------------------------
+---
 
 ### Conceptos Clave en el Cálculo de MEF (Minimum Effective Frequency)
 
@@ -1149,8 +1149,12 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 
 </details>
 
+---
+
 <details>
 <summary>:arrow_forward:Haz clic para resolver ejemplos sencillos de cálculo MEF</summary>
+
+---
 
 ## Ejemplos MEF
 
