@@ -1200,7 +1200,7 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 
 <details>
 
-<summary>:arrow_forward:Haz clic para casos prácticos MEF</summary>
+<summary>:arrow_forward:Haz clic para casos prácticos MEF y cobertura efectiva, control de eficacia</summary>
 
 ------------------------------------------------------------------------
 
