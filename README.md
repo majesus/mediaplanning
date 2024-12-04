@@ -1530,6 +1530,7 @@ La premisa fundamental del Awareness Pattern radica en el reconocimiento de que,
 
 <details>
 <summary>Ejemplo en el caso de los automóviles</summary>
+
 **Adaptabilidad del Patrón Notoriedad a la Compra de Automóviles**
 
 La compra de un automóvil es un proceso complejo que involucra un ciclo de compra extenso y un alto grado de implicación por parte del consumidor. Este tipo de compra suele estar motivada por necesidades específicas y requiere una considerable inversión, lo que lleva a los consumidores a realizar una búsqueda exhaustiva de información y a comparar diferentes opciones antes de tomar una decisión.
