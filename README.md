@@ -1165,7 +1165,7 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 - Estrategia informativa
 - Influencia personal > 0.25 
 
-MEF: 0
+MEF = 1 + 1 [0 + 0 + 0 - 1] = 0
 
 ---
 
@@ -1176,7 +1176,7 @@ MEF: 0
 - Estrategia transformativa
 - Influencia personal > 0.25
 
-MEF: 6
+MEF = 1 + 1 [2 + 2 + 2 - 1] = 6
 
 ---
 
@@ -1188,7 +1188,7 @@ MEF: 6
 - Estrategia transformativa
 - Influencia personal > 0.25
 
-MEF: 7
+MEF = 1 + 1 [(4+1) + (~~4~~+1) + (~~4~~+1) - 1] = 7
 
 ---
 
@@ -1200,9 +1200,7 @@ MEF: 7
 - Estrategia transformativa
 - Influencia personal > 0.25
 
-MEF: 9
-
-DET = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
+MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 
 </details>
