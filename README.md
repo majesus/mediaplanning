@@ -1172,7 +1172,7 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 
 ---
 
-## Ejemplos MEF
+## 4 ejemplos de cálculo MEF
 
 - No líder (no LC)
 - Televisión en prime time
@@ -1228,11 +1228,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 ------------------------------------------------------------------------
 
-EXAMEN JULIO 202X
-
-APELLIDOS:
-
-NOMBRE:
+## Ejemplo de examen: lanzamiento de cerveza artesana
 
 La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campaña de comunicación busca establecer una emoción basada en la alegría, amistad, diversión y celebración, mostrando grupos de amigos disfrutando de momentos agradables en un ambiente festivo y relajado. Se busca asociar la marca con la felicidad y la camaradería. 
 
@@ -1272,7 +1268,7 @@ La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campañ
 
 ------------------------------------------------------------------------
 
-## Caso Práctico 1 (ficticio): Cálculo de Frecuencia Efectiva Mínima (MEF): Lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
+## Caso Práctico 1 (ficticio): lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
 
 ### Contexto de Mercado
 
