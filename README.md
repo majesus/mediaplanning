@@ -267,6 +267,50 @@ En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiénd
 
 La presupuestación publicitaria constituye uno de los aspectos más críticos y complejos en la gestión de marketing. A lo largo de la historia de la publicidad, se han desarrollado diversos métodos para determinar la inversión publicitaria óptima, cada uno con sus propios fundamentos teóricos y aplicaciones prácticas.
 
+### Método de objetivos y tareas
+
+El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costes asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
+
+Los objetivos pueden orientarse hacia los medios (como alcanzar ciertos niveles de alcance y frecuencia durante un período específico), hacia la publicidad/aprendizaje (memoria, actitud e intención) y hacia el marketing (como generar un determinado volumen de prueba de producto), o una combinación.
+
+La fortaleza y debilidad de este sistema están pues íntimamente relacionadas: cuando se conocen con precisión los niveles publicitarios requeridos para lograr una tarea específica, el sistema resulta sumamente efectivo. Sin embargo, en la práctica, esta certeza es poco común, lo que convierte al enfoque en altamente subjetivo y, por tanto, cuestionable.
+
+-   Ventajas
+
+    -   Vincula directamente actividades con resultados esperados
+    -   Enfoque sistemático y racional
+    -   Favorece la planificación estratégica
+    -   Permite mejor control y evaluación de resultados
+
+-   Limitaciones
+
+    -   Dificultad para establecer relaciones precisas entre exposición y efecto
+    -   Puede resultar complejo y costoso de implementar
+    -   Requiere objetivos muy bien definidos
+    -   La relación entre tareas y objetivos no siempre es clara o directa
+    
+A continuación, te muestro algunos ejemplos que se corresponden con la práctica corriente de las empresas.
+
+### Método de Peckham
+
+La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria (share of voice, SOV) y la participación de mercado (share of market, SOM). Peckham propone que las marcas nuevas deberían establecer su share of voice en un nivel 1,5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
+
+-   Ventajas
+
+    -   Basada en investigación empírica extensa
+    -   Proporciona una guía específica para marcas nuevas
+    -   Reconoce la relación entre SOV y SOM
+    -   Ofrece un marco cuantitativo para la toma de decisiones
+
+-   Limitaciones
+
+    -   Solo aplicable en categorías con correlación demostrable entre SOV y SOM
+    -   Requiere considerar el orden de entrada al mercado
+    -   La distribución temporal de la inversión puede afectar significativamente los resultados
+    -   Puede no ser aplicable en mercados muy dinámicos o emergentes
+
+### Método del porcentaje sobre ventas
+
 El **método del porcentaje sobre ventas** representa uno de los enfoques más ampliamente utilizados en la práctica empresarial. Este método se puede implementar de dos formas fundamentales.
 
 **A**. La primera modalidad se basa en las **ventas históricas**, donde el presupuesto publicitario se calcula aplicando un porcentaje predeterminado sobre las ventas del período anterior. Este enfoque se expresa mediante la fórmula *Publicidad_2 = f(Ventas_1)*, donde Publicidad_2 representa el presupuesto publicitario para el próximo año, f es el porcentaje establecido y Ventas_1 las ventas del año anterior.
@@ -306,21 +350,7 @@ Esta variante resulta más lógica desde una perspectiva de planificación, ya q
     -   No considera necesariamente los movimientos competitivos
     -   Mantiene una visión simplificada de la relación publicidad y ventas en tanto que hace una proyección previa de las ventas sin precisar la influencia de la inversión en publicidad
 
-La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria (share of voice, SOV) y la participación de mercado (share of market, SOM). Peckham propone que las marcas nuevas deberían establecer su share of voice en un nivel 1,5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
-
--   Ventajas
-
-    -   Basada en investigación empírica extensa
-    -   Proporciona una guía específica para marcas nuevas
-    -   Reconoce la relación entre SOV y SOM
-    -   Ofrece un marco cuantitativo para la toma de decisiones
-
--   Limitaciones
-
-    -   Solo aplicable en categorías con correlación demostrable entre SOV y SOM
-    -   Requiere considerar el orden de entrada al mercado
-    -   La distribución temporal de la inversión puede afectar significativamente los resultados
-    -   Puede no ser aplicable en mercados muy dinámicos o emergentes
+### Método de paridad competitiva
 
 El **método de paridad competitiva** introduce una perspectiva estratégica al establecer el presupuesto publicitario en relación con la participación de mercado y las acciones de la competencia. Este método resulta particularmente útil en mercados maduros con posiciones competitivas estables, aunque puede ignorar factores importantes como cambios en los hábitos de consumo y condiciones económicas generales.
 
@@ -337,6 +367,10 @@ El **método de paridad competitiva** introduce una perspectiva estratégica al 
     -   Puede perpetuar niveles de gasto ineficientes de la industria
     -   Asume que los competidores toman decisiones racionales
     -   Puede no ser apropiado para marcas que buscan cambiar su posición en el mercado
+
+Un método de presupuestación asociado con la paridad competitiva es el **ratio publicidad/ventas**.
+
+### Método ratio publicidad/ventas
 
 El **método ratio publicidad/ventas** representa el enfoque más utilizado para determinar presupuestos publicitarios. Este método considera los gastos publicitarios como parte integral del presupuesto de marketing de un producto, donde los fondos se establecen como un coste de hacer negocios. Los porcentajes típicos en la industria oscilan entre el 2% y 9% de las ventas, aunque estos valores pueden variar significativamente según el sector.
 
@@ -368,19 +402,19 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
 | Supermercados | 1.1 | Material deportivo | 6.4 |
 | Hoteles y establecimientos turísticos | 3.6 | Emisoras de TV | 3.2 |
 
-**Caso práctico P/V: Lanzamiento de perfume de lujo**
+A continuación, te propongo un ejemplo sencillo de aplicación del método P/V en el lanzamiento de un perfume de lujo
 
-**Datos iniciales:**
+Datos iniciales:
 
 -   Sector: Perfumería y cosmética.
 -   Ratio Publicidad/Ventas según tabla: 8,8%.
 -   Previsión ventas primer año: 1.000.000€.
 
-**Cálculo base método P/V:**
+Cálculo base método P/V:
 
 -   1.000.000€ × 0,088 = 88.000€
 
-**Consideraciones**:
+Consideraciones:
 
 -   Es el método más utilizado en el sector.
 
@@ -391,41 +425,23 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
     -   Los requerimientos publicitarios no siempre siguen directamente a las ventas
     -   Deben usarse ratios P/V variables por área, lo que exige análisis exhaustivo\_
 
-**Advertencias**:
+Advertencias:
 
 -   Necesidad de información competitiva precisa
 -   Importancia de definir correctamente el mercado
 -   No asumir relación directa publicidad-ventas
 -   La competencia podría estar dictando tu presupuesto
 
-**Presupuesto**:
+Presupuesto:
 
 -   Base P/V (8,8%): 88.000€
 -   Ajuste por lanzamiento (+50%): 132.000€
 
 ------------------------------------------------------------------------
 
-El **método de objetivos y tareas**, preferido por los grandes anunciantes, adopta un enfoque más sistemático. Este método parte de establecer objetivos publicitarios específicos, determinar las tareas necesarias para alcanzarlos y calcular los costes asociados. Su principal virtud radica en vincular directamente las actividades publicitarias con los resultados esperados, aunque puede resultar complejo establecer relaciones precisas entre exposición publicitaria y efectos en el consumidor.
+### Método todo lo que se pueda permitir
 
-Los objetivos pueden orientarse hacia los medios (como alcanzar ciertos niveles de alcance y frecuencia durante un período específico), hacia la publicidad/aprendizaje (memoria, actitud e intención) y hacia el marketing (como generar un determinado volumen de prueba de producto), o una combinación.
-
-La fortaleza y debilidad de este sistema están pues íntimamente relacionadas: cuando se conocen con precisión los niveles publicitarios requeridos para lograr una tarea específica, el sistema resulta sumamente efectivo. Sin embargo, en la práctica, esta certeza es poco común, lo que convierte al enfoque en altamente subjetivo y, por tanto, cuestionable.
-
--   Ventajas
-
-    -   Vincula directamente actividades con resultados esperados
-    -   Enfoque sistemático y racional
-    -   Favorece la planificación estratégica
-    -   Permite mejor control y evaluación de resultados
-
--   Limitaciones
-
-    -   Dificultad para establecer relaciones precisas entre exposición y efecto
-    -   Puede resultar complejo y costoso de implementar
-    -   Requiere objetivos muy bien definidos
-    -   La relación entre tareas y objetivos no siempre es clara o directa
-
-El **método *todo lo que se pueda permitir***, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
+El **método _todo lo que se pueda permitir_**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
 
 En suma, la selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing o los recursos disponibles, entre otros factores. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
 
@@ -647,19 +663,19 @@ Representa el 1% de la población alcanzada en caso de realizar una inserción e
 **GRPs (Gross Rating Points)**\
 Es una estimación del total de oportunidades de exposición promedio por cada 100 individuos de la población (o target). Se calcula:
 
--   Método básico (Cobertura × Frecuencia):
+-   Método básico recomendado (Cobertura × Frecuencia):
 
     -   *GRP = Cobertura (%) × Frecuencia media*
     -   Ejemplo: Si alcanzamos al 60% del público (o target) con una frecuencia media de 4 impactos, GRP = 60 × 4 = 240 GRPs
 
--   Método por impactos:
+-   Método: impactos:
 
-    -   *GRP = (Número total de impactos / Público) × 100*
-    -   Ejemplo: Si generamos 1.500.000 impactos con un público de 500.000 personas, GRP = (1.500.000 / 500.000) × 100 = 300 GRPs
+    -   *GRP = (Número total de impactos / Población) × 100*
+    -   Ejemplo: Si generamos 1.500.000 impactos con una población de 500.000 personas, GRP = (1.500.000 / 500.000) × 100 = 300 GRPs
 
--   Método por audiencia por inserción:
+-   Método: audiencia por inserción:
 
-    -   *GRP = Suma de las audiencias (%) de cada inserción*
+    -   *GRP = Suma de las audiencias (%) por cada inserción realizada*
     -   Ejemplo: Si tenemos 3 spots con audiencias de 20%, 15% y 25%, GRP = 20 + 15 + 25 = 60 GRPs
 
 En este contexto, señalamos una de las principales limnitaciones del uso de los valores GRPs como único indicador:
@@ -678,8 +694,8 @@ En este contexto, señalamos una de las principales limnitaciones del uso de los
 
 Ambos planes dan 240 GRPs, pero son estrategias muy diferentes:
 
--   El primer caso alcanza a más público (mayor cobertura) con menos repetición
--   El segundo caso alcanza a menos público pero con más repetición del mensaje
+-   El primer caso alcanza a más público (mayor cobertura) con menos frecuencia media
+-   El segundo caso alcanza a menos público pero con más frecuencia media
 
 Problemas que esto genera:
 
@@ -720,12 +736,18 @@ Período específico durante el cual se desarrolla una actividad publicitaria pl
 -   Una exposición continua durante todo el período
 -   Ciclos discontinuos con duraciones variables u oleadas (*flighting o pulsing*).
 
-En particular, en lugar de mantener una presión publicitaria constante durante todo el ciclo, el *flighting o pulsing* se basa en la idea de concentrar la inversión en momentos estratégicos, aprovechando el *carryover publicitario*, que es la persistencia (de parte) del efecto de la publicidad después de que la exposición ha cesado. Ejemplos: - *Regular Purchase Cycle*: Este patrón se utiliza para productos con ciclos de compra regulares, como alimentos o productos de higiene personal. La publicidad se concentra en períodos que coinciden con los momentos de compra, con intervalos de pausa entre cada oleada. - *Awareness*: Se usa para productos con ciclos de compra largos, como bienes inmobiliarios o automóviles. La publicidad se implementa en ciclos espaciados, con una baja frecuencia por ciclo, pero manteniendo una continuidad anual para reforzar la presencia de marca.
+En particular, en lugar de mantener una presión publicitaria constante durante todo el ciclo, el *flighting o pulsing* se basa en la idea de concentrar la inversión en momentos estratégicos, aprovechando el *carryover publicitario*, que es la persistencia (de parte) del efecto de la publicidad después de que la exposición ha cesado. 
+
+Ejemplos: 
+
+- *Regular Purchase Cycle*: Este patrón se utiliza para productos con ciclos de compra regulares, como alimentos o productos de higiene personal. La publicidad se concentra en períodos que coinciden con los momentos de compra, con intervalos de pausa entre cada oleada. 
+
+- *Awareness*: Se usa para productos con ciclos de compra largos, como bienes inmobiliarios o automóviles. La publicidad se implementa en ciclos espaciados, con una baja frecuencia por ciclo, pero manteniendo una continuidad anual para reforzar la presencia de marca.
 
 Las ventajas de usar oleadas en un ciclo publicitario:
 
 -   Optimización del presupuesto: Permite concentrar la inversión en momentos de mayor impacto, evitando el desperdicio en períodos de menor receptividad.
--   Aprovechamiento del carryover: Se maximiza el efecto de la publicidad, ya que el impacto de las oleadas anteriores se mantiene (parcialmente) durante los períodos de pausa.
+-   Aprovechamiento del _carryover_: Se maximiza el efecto de la publicidad, ya que el impacto de las oleadas anteriores se mantiene (parcialmente) durante los períodos de pausa.
 -   Mayor flexibilidad: Permite adaptar la estrategia a las fluctuaciones del mercado, la estacionalidad o la actividad de la competencia.
 
 **Ciclo de Compra (Purchase Cycle)**\
@@ -760,7 +782,7 @@ Persistencia de la disposición de compra generada por las exposiciones publicit
 Número de individuos del público objetivo que deben alcanzarse al nivel de MEF o superior en un ciclo publicitario. Características:
 
 -   Combina alcance y frecuencia efectiva
--   Se define dentro del rango MEF \<-\> MaxEF
+-   Se define dentro del rango [MEF, MaxEF]
 -   Es un parámetro clave para evaluar planes de medios
 
 **Alcance Efectivo Activo**\
@@ -820,9 +842,9 @@ resultado <- calcular_metricas_medios(
 head(resultado)
 ```
 
-------------------------------------------------------------------------
-
 </details>
+
+------------------------------------------------------------------------
 
 ## :red_square:Objetivos del Plan de Medios y Soportes
 
@@ -850,27 +872,27 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
 - **Necesidad de Categoría**
 
-    Esta es la base del proceso y se refiere a la aceptación por parte del consumidor de que necesita un producto o servicio para satisfacer una discrepancia entre su estado actual y el deseado. Por ejemplo, reconocer la necesidad de un automóvil es el primer paso antes de considerar una marca específica.
+    Esta es la base del proceso, y se refiere a la aceptación por parte del consumidor de que necesita un producto o servicio para satisfacer una discrepancia entre su estado actual y el deseado. Por ejemplo, reconocer la necesidad de un automóvil es el primer paso antes de considerar una marca específica.
 
-    Imagina el lanzamiento de los primeros servicios de streaming de música como Spotify. Inicialmente, la tarea comunicacional no era convencer sobre las ventajas de Spotify sobre otros servicios similares, sino crear la necesidad de categoría: ¿por qué alguien necesitaría un servicio de streaming de música cuando ya tenía su música descargada? La comunicación debía enfocarse en mostrar los problemas que resolvía esta nueva categoría: el espacio limitado en los dispositivos, la imposibilidad de descubrir nueva música fácilmente, la dificultad de acceder a toda la música que uno desea.
+    Imagina el lanzamiento de los primeros servicios de _streaming_ de música como Spotify. Inicialmente, la tarea comunicacional no era convencer sobre las ventajas de Spotify sobre otros servicios similares, sino crear la necesidad de categoría: ¿por qué alguien necesitaría un servicio de _streaming_ de música cuando ya tenía su música descargada? La comunicación debía enfocarse en mostrar los problemas que resolvía esta nueva categoría: el espacio limitado en los dispositivos, la imposibilidad de descubrir nueva música fácilmente, la dificultad de acceder a toda la música que uno desea.
 
-    Otros casos clásicos: [A Case Study on American Express “Don’t Leave Home Without It](https://thebrandhopper.com/2024/09/17/a-case-study-on-american-express-dont-leave-home-without-it/)
+    Otros casos clásicos que ilustran el objetivo de la necesidad de la categoría: [A Case Study on American Express “Don’t Leave Home Without It](https://thebrandhopper.com/2024/09/17/a-case-study-on-american-express-dont-leave-home-without-it/)
 
 - **Memoria de marca, conciencia o notoriedad de marca**
 
-    Se define como la capacidad del consumidor para identificar (reconocer o recordar) la marca dentro de su categoría. Es importante notar que la _conciencia de marca_ puede lograrse tanto por reconocimiento (como ver el envase en una tienda) como por recuerdo (rememorar la marca cuando surge la necesidad).
+    Se define como la capacidad del consumidor para identificar y diferenciar la marca dentro de su categoría. Es importante notar que la notoriedad o la _conciencia de marca_ puede evidenciarse tanto por el reconocimiento (como ver el envase en una tienda) como por el recuerdo (rememorar la marca cuando surge la necesidad).
     
-    Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sostenibilidad.
+    En este contexto, Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sostenibilidad.
     
 - **Actitud hacia la Marca**
 
-    Este es uno de los elementos más complejos y se refiere a la evaluación que hace el consumidor sobre la capacidad de la marca para satisfacer una motivación relevante. La actitud se compone de creencias sobre los beneficios funcionales y asociaciones emocionales que el consumidor vincula con la marca.
+    Se refiere a la evaluación que hace el consumidor sobre la capacidad de la marca para satisfacer una motivación relevante. La actitud se compone de creencias sobre los beneficios funcionales y asociaciones emocionales que el consumidor vincula con la marca, y la importancia percibida de cada uno de ellos.
 
-    Nike representa un caso maestro de construcción de actitud hacia la marca. Su comunicación va más allá de los beneficios funcionales de su calzado deportivo para crear una conexión emocional profunda con el "espíritu deportivo". Su eslogan "Just Do It" y sus campañas no venden zapatos, venden superación personal, determinación y excelencia. Esta actitud positiva hacia la marca se construye mediante la combinación de beneficios funcionales (tecnología, comodidad, durabilidad) con beneficios emocionales (confianza, inspiración, pertenencia).
+    Nike representa un caso maestro de construcción de actitud hacia la marca. Su comunicación va más allá de los beneficios funcionales de su calzado deportivo para crear una conexión emocional profunda con el "espíritu deportivo". Su eslogan "_Just Do It_" y sus campañas no venden simplemente zapatos ergonómicos, sino que también venden superación personal, determinación y excelencia. Esta actitud positiva hacia la marca se construye mediante la combinación de beneficios funcionales (tecnología, comodidad, durabilidad) con beneficios emocionales (confianza, inspiración, pertenencia).
 
 - **Intención de Compra, disposición, desplazamiento mental**
 
-    Se define como la disposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de involucramiento del producto - para productos de baja implicación, una actitud favorable (superficial) puede ser suficiente, mientras que para productos de alta implicación se necesita generar una actitud _hard_ y una intención explícita.
+    Se define como la disposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de implciación del consumidor o usuario - para productos de baja implicación, una actitud favorable (superficial o _soft_) puede ser suficiente, mientras que para productos de alta implicación se necesita generar una actitud _hard_ y una intención explícita.
 
     Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alto involucramiento como un smartphone, no basta con que te guste la marca; Apple busca crear una urgencia de compra inmediata.
 
@@ -913,7 +935,9 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
     -   ***Wear-in***: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
     -   ***Wear-out***: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca.
 
-Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto _**recencia**_, que enfatiza la importancia de llegar a los consumidores cerca del momento en que están predispuestos para realizar una compra. La publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto _recency_ en acción. La recencia no se centra en alcanzar un número específico de exposiciones como la frecuencia efectiva, sino en estar presente en el mercado de manera constante para influir en las decisiones de compra en el momento oportuno.
+Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto _**recencia**_, que enfatiza la importancia de llegar a los receptores cerca del momento en que están predispuestos para realizar una compra. La publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto _recency_ en acción. 
+
+La recencia no se centra en alcanzar un número específico de exposiciones como la frecuencia efectiva, sino en estar presente en el mercado de manera constante para influir en las decisiones de compra en el momento oportuno.
 
 ------------------------------------------------------------------------
 
@@ -957,15 +981,15 @@ El concepto de atención al vehículo mediático se refiere al nivel de procesam
 
 - **Medios con Alto Valor de Atención**:
 
-    - **Televisión**: La televisión, al ser un medio audiovisual, tiene un alto potencial para captar la atención del público. Los anuncios televisivos pueden combinar imágenes, sonido y movimiento para crear un impacto visual y emocional significativo. Sin embargo, es importante tener en cuenta factores como la saturación publicitaria que puede disminuir la atención del público.
+    - **Televisión**: La televisión, al ser un medio audiovisual, tiene un alto potencial para captar la atención del público. Los anuncios televisivos pueden combinar imágenes, sonido y movimiento para crear un impacto visual y emocional significativo. Sin embargo, es importante tener en cuenta factores como la saturación publicitaria que puede disminuir la atención del público. En este sentido, televisión en _prime time_ suele ser considerada una franja de alto VA, mientrsa que otros horarios o franjas, a excepción del período que se corrsponde con los seriales a mediodía, se consideran franjas de bajo VA.
 
-    - **Revistas**: La atención a las revistas varía según el tipo de publicación y el nivel de implicación del lector con su contenido. Las revistas especializadas, que se dirigen a un público con un alto interés en el tema, pueden generar una alta VA, ya que los lectores suelen prestar mayor atención al contenido.
+    - **Revistas**: La atención a las revistas varía según el tipo de publicación y el nivel de implicación del lector con su contenido. Las revistas especializadas, que se dirigen a un público con un alto interés en el tema, pueden generar un alto VA, ya que los lectores suelen prestar mayor atención al contenido.
 
-    - **Internet**: La publicidad en Internet puede tener un alto valor de atención debido a su capacidad de segmentación y personalización. La publicidad en línea puede dirigirse a usuarios con intereses específicos, lo que aumenta la probabilidad de que presten atención al mensaje.
+    - **Internet**: La publicidad en Internet puede tener un alto VA debido a su capacidad de segmentación y personalización. La publicidad en línea puede dirigirse a usuarios con intereses específicos, lo que aumenta la probabilidad de que presten atención al mensaje.
 
 - **Medios con Bajo Valor de Atención**:
 
-    - **Radio**: La radio, al ser un medio únicamente auditivo, puede tener una VA más baja que la televisión, ya que compite con otras actividades que el oyente puede estar realizando simultáneamente. La atención a la radio también depende del tipo de programa y la fidelidad del oyente.
+    - **Radio**: La radio, al ser un medio únicamente auditivo, puede tener un VA más bajo que la televisión, ya que compite con otras actividades que el oyente puede estar realizando simultáneamente. No obstante, la atención a la radio también depende del tipo de programa y la fidelidad del oyente.
 
     - **Publicidad Exterior** (preferentemente móvil):  La atención a la publicidad exterior puede ser baja debido a la distracción del entorno y la brevedad de la exposición. Es fundamental considerar este factor al diseñar la campaña y seleccionar las ubicaciones. No obstante, la atención a la publicidad exterior, como vallas publicitarias, depende en gran medida del contexto y la ubicación. Un anuncio en una carretera con mucho tráfico puede pasar desapercibido, mientras que un anuncio en una parada de autobús, donde las personas tienen tiempo de observarlo, puede generar mayor atención.
 
@@ -995,7 +1019,7 @@ Se refiere a la clasificación de la audiencia según su relación actual con la
 
 #### _New Category Users_ (NCUs)
 
--   Son consumidores nuevos en la categoría
+-   Son consumidores nuevos en la categoría, o que han manifestado rechazo o resistencia a iniciativas comerciales previas.
 -   Necesitan _educación_ sobre la categoría y la marca
 -   Requieren el máximo ajuste
 
@@ -1009,7 +1033,7 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
 
     - **Reconocimiento** (disponible): El reconocimiento de marca se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior. Se beneficia de los aprendizajes parciales.
 
-    - **Recuerdo** (disponible y accesible): Para lograr un alto nivel de recuerdo, se requiere generalmente una mayor frecuencia de exposición. Las exposiciones repetidas refuerzan la información en la memoria.
+    - **Recuerdo libre o ayudado** (disponible y accesible): Para lograr un alto nivel de recuerdo, se requiere generalmente una mayor frecuencia de exposición. Las exposiciones repetidas refuerzan la información en la memoria.
     
     **El Reconocimiento en el contexto publicitario**:
 
@@ -1052,8 +1076,9 @@ Se divide en dos tipos principales:
 #### _Informational Brand Attitude_
 
 -   Busca comunicar beneficios funcionales
--   Se centra en aspectos racionales y características del producto
+-   Se centra en aspectos racionales, fácilmente observables y aprehensibles a través de los sentidos, del producto
 -   No requiere un ajuste adicional sobre el base
+
 -   Ejemplos: 
     
     Anuncio de un **medicamento para la acidez estomacal**:
@@ -1063,6 +1088,7 @@ Se divide en dos tipos principales:
       - Enfoque: Mostrar a personas sufriendo los síntomas de la acidez, luego presentar el medicamento como una solución rápida y eficaz para aliviar el malestar.
     
     Anuncio de un **servicio de reparación de electrodomésticos**:
+    
       - Emoción (Problema): Frustración, estrés, impotencia ante la avería del electrodoméstico.
       - Emoción (Solución): Tranquilidad, confianza, satisfacción.
       - Enfoque: Presentar situaciones cotidianas donde un electrodoméstico se avería, generando caos e inconvenientes. El servicio de reparación se muestra como la solución confiable y rápida para recuperar la normalidad.
@@ -1071,6 +1097,7 @@ Se divide en dos tipos principales:
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
+
 -   Ejemplos:
 
     Anuncio de una marca de cerveza:
@@ -1087,7 +1114,7 @@ Se divide en dos tipos principales:
 
 La Figura _The FCB Grid_ (desarrollado por la agencia de publicidad Foote, Cone & Belding) es una herramienta clásica y sencilla para comprender cómo los consumidores toman decisiones de compra y cómo se relacionan con diferentes productos y servicios en el mercado. Es un punto de partida para la planificación publicitaria, que debe complementarse con métodos más completos.
 
-Este modelo se estructura en torno a dos dimensiones fundamentales: el grado de implicación (involvement) en el eje vertical, que va desde alta a baja implicación, y la naturaleza de la decisión en el eje horizontal, que oscila entre el pensamiento racional (think) y el sentimiento (feel).
+Este modelo se estructura en torno a dos dimensiones fundamentales: el **grado de implicación** (involvement) en el eje vertical, que va desde alta a baja implicación, y la **naturaleza de la decisión** en el eje horizontal, que oscila entre el pensamiento racional (think) y el sentimiento (feel).
 
 - En el cuadrante superior izquierdo, donde confluyen la alta implicación y el pensamiento racional, encontramos productos y servicios que requieren una considerable deliberación cognitiva, como los seguros de vida, los seguros de automóvil y los coches familiares. Son decisiones que los consumidores toman con detenimiento y análisis.
 
@@ -1095,7 +1122,7 @@ Este modelo se estructura en torno a dos dimensiones fundamentales: el grado de 
 
 - En la parte inferior del grid, encontramos productos de baja implicación. A la izquierda, en el área de pensamiento racional, se sitúan productos cotidianos como productos de limpieza, repelentes de insectos y toallas de papel. A la derecha, en la zona emocional de baja implicación, aparecen productos como snacks, refrescos y cerveza regular, que suelen comprarse por impulso o placer inmediato.
 
-Es importante señalar, como indica la nota al pie del grid, que el nivel de implicación aumenta hacia la parte superior del eje vertical y que ambas dimensiones son continuas, no categóricas. Esta continuidad permite una comprensión más matizada de cómo los consumidores se relacionan con diferentes productos y marcas. En este sentido, esta herramienta resulta especialmente valiosa para los profesionales del marketing, ya que permite adaptar las estrategias de comunicación y publicidad según la posición que ocupa cada producto en el grid, optimizando así la efectividad de sus mensajes y campañas.  
+Es importante señalar, como indica la nota al pie del _grid_, que el nivel de implicación aumenta hacia la parte superior del eje vertical y que ambas dimensiones son continuas, no categóricas. Esta continuidad permite una comprensión más matizada de cómo los consumidores se relacionan con diferentes productos y marcas. En este sentido, esta herramienta resulta especialmente valiosa para los profesionales del marketing, ya que permite adaptar las estrategias de comunicación y publicidad según la posición que ocupa cada producto en el grid, optimizando así la efectividad de sus mensajes y campañas.  
 
 A continuación, te muestro un breve ejemplo ilustrativo del concepto _Informativo versus Transformativo_ de un producto de baja implicación:
     
@@ -1149,11 +1176,14 @@ Esta estrategia dual respetaría tanto la necesidad inicial de información como
 
 En la determinación del MEF, existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (Largest Competitor, LC) y los ajustes necesarios en diferentes contextos mediáticos.
 
--   Para marcas **líderes del mercado**, el cálculo debe considerar un ajuste de +2 exposiciones, la última columna es +2. Las marcas **no líderes** deben igualar la frecuencia del competidor más grande más una exposición adicional (LC + 1). No obstante, este ajuste puede variar según el contexto competitivo específico, y no debe establecerse como un valor fijo.
+- Para marcas **líderes del mercado (LC)**, el valor que corresponde a la última columna de la tabla +2. Las marcas **no líderes (no LC)** deben igualar la frecuencia del competidor más grande más una exposición adicional (LC + 1). No obstante, este ajuste puede variar según el contexto competitivo específico, y no debe establecerse como un valor fijo.
 
--   En situaciones donde el competidor más grande utiliza vehículos de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF para evitar una "doble duplicación". En estos casos, existen dos opciones válidas: se puede corregir el valor del vehículo de atención de VA = 2 a VA = 1 cuando nuestra marca también emplea un medio de baja atención, o alternativamente, se puede dividir por 2 el valor LC del competidor más grande. Esta corrección es necesaria porque se asume que el competidor dominante ya ha duplicado su frecuencia para compensar la naturaleza del vehículo de baja atención.
+    El valor del competidor más grande (LC) funciona como base única en la fórmula y se ajusta posteriormente según los requerimientos específicos de comunicación. Es crucial entender que el valor LC se incorpora una sola vez y no se duplica con cada ajuste adicional. Por ejemplo, en una campaña que requiere tanto recuerdo de marca como actitud transformativa, la fórmula sumará (LC + 1) + (~~LC~~ + 1), evitando la duplicación errónea de (LC + 1) + (LC + 1). Esta distinción es fundamental para prevenir una sobrestimación del efecto del competidor principal en la frecuencia necesaria.
 
--   El valor del competidor más grande (LC) funciona como base única en la fórmula y se ajusta posteriormente según los requerimientos específicos de comunicación. Es crucial entender que el valor LC se incorpora una sola vez y no se duplica con cada ajuste adicional. Por ejemplo, en una campaña que requiere tanto recordación de marca como actitud transformacional, la fórmula sumará LC + 1 + 1, evitando la duplicación errónea de (LC+1) + (LC+1). Esta distinción es fundamental para prevenir una sobrestimación del efecto del competidor principal en la frecuencia necesaria.
+- En situaciones donde el competidor más grande utiliza vehículos de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF para evitar una "sobre exposición". En estos casos, existen dos opciones válidas: 
+
+    - Se puede corregir el valor del vehículo de atención de VA = 2 a VA = 1 cuando nuestra marca también emplea un medio de baja atención.
+    - Se puede dividir por 2 el valor MEF del competidor más grande (LC). Esta corrección es necesaria porque se asume que el competidor dominante ya ha sobre dimensionado su frecuencia para compensar la naturaleza del vehículo de baja atención.
 
 La implementación correcta de estos ajustes requiere una comprensión profunda del contexto competitivo y los objetivos de comunicación específicos. La fórmula del MEF, con sus diversos componentes y ajustes, debe verse como una herramienta de planificación flexible que se adapta a las condiciones particulares de cada situación de mercado.
 
@@ -1209,8 +1239,8 @@ MEF = 1 + 1 [(4+1) + (~~4~~+1) + (~~4~~+1) - 1] = 7
 ---
 
 - No Líder (No LC)
-- MEF líder +4\ TV no prime time/day time
-- Televisión no prime/day time
+- MEF líder +4\ TV no prime time
+- Televisión no prime time
 - No usuario de la categoría
 - Recuerdo
 - Estrategia transformativa
