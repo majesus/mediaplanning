@@ -1304,7 +1304,7 @@ La categoría de alimentos funcionales _premium_ se caracteriza por un alto comp
 
 Activia, como competidor principal (LC), mantiene una frecuencia media de 3 impactos semanales en sus medios principales. El ciclo de compra típico en la categoría es quincenal, y los estudios de mercado indican una alta sensibilidad a la recomendación profesional.
 
-## Caso Práctico 2 (ficticio): Cálculo de MEF para EcoRide Scooters
+## Caso Práctico 2 (ficticio): EcoRide Scooters
 
 **Contexto de Mercado**
 
