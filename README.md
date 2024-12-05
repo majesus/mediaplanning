@@ -675,8 +675,8 @@ Es una estimación del total de oportunidades de exposición promedio por cada 1
 
 -   Método: audiencia por inserción:
 
-    -   *GRP = Suma de las audiencias (%) por cada inserción realizada*
-    -   Ejemplo: Si tenemos 3 spots con audiencias de 20%, 15% y 25%, GRP = 20 + 15 + 25 = 60 GRPs
+    -   *GRP = Suma de las audiencias i (%) por cada inserción realizada en el soporte i*
+    -   Ejemplo: Si contratamos 1 spot en cada soporte con audiencias de S1: 20%, S2: 15% y S3: 25%, GRP = 20 x 1 + 15 x 1 + 25 x 1 = 60 GRPs
 
 En este contexto, señalamos una de las principales limnitaciones del uso de los valores GRPs como único indicador:
 
@@ -1260,11 +1260,13 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 ## Ejemplo de examen: lanzamiento de cerveza artesana
 
-La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campaña de comunicación busca establecer una emoción basada en la alegría, amistad, diversión y celebración, mostrando grupos de amigos disfrutando de momentos agradables en un ambiente festivo y relajado. Se busca asociar la marca con la felicidad y la camaradería. 
+- La empresa C lanzará una nueva marca de cerveza artesana al mercado, dirigida al público no consumidor de cerveza artesanal. 
+- La campaña de comunicación busca establecer una emoción basada en la alegría, amistad, diversión y celebración, mostrando grupos de amigos disfrutando de momentos agradables en un ambiente festivo y relajado. 
+- Se busca asociar la marca con la felicidad y la camaradería. 
 
 **Objetivos**:
 
-- Cobertura efectiva: 65.000 personas
+- Cobertura efectiva: 85.000 personas
 - Frecuencia efectiva mínima (FEM): ¿?
 
 **Plan de medios y soportes**:
@@ -1284,9 +1286,10 @@ La empresa C lanzará una nueva marca de cerveza artesana al mercado. La campañ
 
 **Preguntas**:
 
-1. Analice la efectividad del plan de medios teniendo en cuenta los datos proporcionados. Calcule la FEM, el volumen de GRPs y la frecuencia media.
-2. Considerando las opciones de estrategia de cobertura y distribución de contactos, ¿cuál recomendaría para esta campaña? Describa la estrategia elegida.
-3. Emplee el paquete de R mediaPlanR, y valide sus resultados alcanzados manualmente.
+1. Analice la efectividad del plan de medios teniendo en cuenta los datos proporcionados.
+2. Calcule el volumen de GRPs.
+3. Considerando las opciones de estrategia de cobertura y distribución de contactos, ¿cuál recomendaría para esta campaña? Describa la estrategia elegida.
+4. Emplee el paquete de R mediaPlanR, y valide sus resultados alcanzados manualmente.
 
 </details>
 
