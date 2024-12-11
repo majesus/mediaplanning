@@ -1442,27 +1442,27 @@ La distribución de exposición en cada patrón puede ser:
 
 #### Fundamentos y Aplicación
 
-El Blitz Pattern representa la máxima expresión de intensidad publicitaria en el lanzamiento de nuevos productos o servicios al mercado. Esta estrategia se caracteriza por mantener una presencia publicitaria continua y dominante, alcanzando el 100% del público objetivo con una frecuencia mínima elevada durante el ciclo contratado. Su principal objetivo es maximizar la tasa de prueba del producto (*trial rate*) y suprimir los efectos de la publicidad competitiva mediante el dominio sostenido.
+El modelo o patrón _Blitz_ representa la máxima expresión de intensidad publicitaria en el lanzamiento de nuevos productos o servicios al mercado. Esta estrategia se caracteriza por mantener una presencia publicitaria continua y dominante, alcanzando el 100% del público objetivo con una frecuencia mínima elevada durante el ciclo contratado. Su principal objetivo es maximizar la tasa de prueba del producto (*trial rate*) y suprimir los efectos de la publicidad competitiva mediante el dominio sostenido.
 
-La potencia del patrón Blitz radica en su capacidad para establecer el estándar de la categoría antes de la entrada de competidores. Esta aproximación permite asegurar el dominio en la comunicación desde el inicio, estableciendo una posición de liderazgo difícil de disputar por competidores subsecuentes. La estrategia aprovecha las ventajas del primer entrante (*first-mover advantages*), aunque esto implica asumir la responsabilidad y el costo de educar al mercado.
+La potencia del patrón _Blitz_ radica en su capacidad para establecer el estándar de la categoría antes de la entrada de competidores. Esta aproximación permite asegurar el dominio en la comunicación desde el inicio, estableciendo una posición de liderazgo difícil de disputar por competidores subsecuentes. La estrategia aprovecha las ventajas del primer entrante, aunque esto implica asumir la responsabilidad y el costo de educar al mercado.
 
 #### Implementación y Desarrollo
 
-La ejecución efectiva del patrón Blitz requiere una planificación meticulosa que integre una estrategia de medios fundamentada en vehículos masivos de alta cobertura, complementados estratégicamente con medios de alta afinidad. Es crucial mantener una presión publicitaria constante y dominante, eliminando por completo los períodos sin publicidad (*hiatus*). La distribución de impactos debe ser homogénea, asegurando una presencia continua y consistente en el mercado.
+La ejecución efectiva del patrón _Blitz_ requiere una planificación meticulosa que integre una estrategia de medios fundamentada en vehículos masivos de alta cobertura, complementados estratégicamente con medios de alta afinidad. Es crucial mantener una presión publicitaria constante y dominante, eliminando por completo los períodos sin publicidad (*hiatus*). La distribución de impactos debe ser homogénea, asegurando una presencia continua y consistente en el mercado.
 
-Para lograr esta consistencia, resulta fundamental desarrollar un portafolio diverso de ejecuciones creativas que mantengan el interés del público sin generar desgaste (*wearout*). Este pool de contenidos debe adaptarse según la naturaleza del producto y los objetivos de comunicación específicos de la campaña, considerando si se trata de publicidad informacional o transformacional.
+Para lograr esta consistencia, resulta fundamental desarrollar un portafolio diverso de ejecuciones creativas que mantengan el interés del público sin generar desgaste (*wearout*). Este _pool_ de contenidos debe adaptarse según la naturaleza del producto y los objetivos de comunicación específicos de la campaña, considerando si se trata de publicidad informacional o transformacional.
 
 #### Aplicaciones y Contextos Óptimos
 
-El patrón Blitz demuestra particular efectividad en el lanzamiento de productos tecnológicos de nueva generación y plataformas digitales disruptivas. También resulta especialmente adecuado para nuevas cadenas de retail o servicios que pretenden redefinir una categoría de mercado. La clave del éxito reside en la capacidad de mantener una presencia dominante y consistente que establezca la marca como referente indiscutible de la categoría.
+El patrón _Blitz_ demuestra particular efectividad en el lanzamiento de productos tecnológicos de nueva generación y plataformas digitales disruptivas. También resulta especialmente adecuado para nuevas cadenas de retail o servicios que pretenden redefinir una categoría de mercado. La clave del éxito reside en la capacidad de mantener una presencia dominante y consistente que establezca la marca como referente indiscutible de la categoría.
 
 #### Consideraciones Estratégicas y Evaluación
 
-La implementación del patrón Blitz debe adaptarse considerando la naturaleza del producto y el nivel de riesgo percibido en su prueba. El éxito se mide principalmente a través del alcance efectivo, la frecuencia de exposición y la capacidad de suprimir el impacto de la publicidad competitiva. La inversión requerida es significativa, pero debe contemplarse como el coste necesario para asegurar una posición de liderazgo sostenible en el mercado.
+La implementación del patrón _Blitz_ debe adaptarse considerando la naturaleza del producto y el nivel de riesgo percibido en su prueba. El éxito se mide principalmente a través del alcance, la frecuencia de exposición y la capacidad de suprimir el impacto de la publicidad competitiva. La inversión requerida es significativa, pero debe contemplarse como el coste necesario para asegurar una posición de liderazgo sostenible en el mercado.
 
-La transición posterior al período Blitz debe planificarse cuidadosamente para mantener las ventajas competitivas adquiridas. Esto implica un monitoreo constante de la efectividad de la campaña y la disposición para realizar ajustes tácticos en el mix de medios según sea necesario. La evaluación continua de la respuesta del mercado y el análisis de la efectividad por canal son fundamentales para optimizar el retorno sobre la inversión publicitaria.
+La transición posterior al período _Blitz_ debe planificarse cuidadosamente para mantener las ventajas competitivas adquiridas. Esto implica un monitoreo constante de la efectividad de la campaña y la disposición para realizar ajustes tácticos en el mix de medios según sea necesario. La evaluación continua de la respuesta del mercado y el análisis de la efectividad por canal son fundamentales para optimizar el retorno sobre la inversión publicitaria.
 
-El patrón Blitz, aunque demandante en términos de recursos, representa una herramienta estratégica fundamental para aquellas marcas que buscan establecer un liderazgo definitivo en categorías nuevas o en proceso de redefinición. Su implementación exitosa requiere no solo una inversión significativa, sino también un compromiso con la excelencia en la ejecución y una comprensión profunda de la dinámica del mercado objetivo.
+El patrón _Blitz_, aunque demandante en términos de recursos, representa una herramienta estratégica fundamental para aquellas marcas que buscan establecer un liderazgo clave en categorías nuevas o en proceso de redefinición. Su implementación exitosa requiere no solo una inversión significativa, sino también un compromiso con la excelencia en la ejecución y una comprensión profunda de la dinámica del mercado objetivo.
 
 ![FE_Ostrow_1982](./img/img_blitz_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
@@ -1470,27 +1470,27 @@ El patrón Blitz, aunque demandante en términos de recursos, representa una her
 
 #### Fundamentos y Aplicación
 
-El Wedge Pattern (Patrón de Cuña) representa el enfoque más común para el lanzamiento de nuevos productos, caracterizándose por una estrategia de intensidad decreciente que mantiene el alcance mientras ajusta la frecuencia. Es importante notar que este patrón se refiere específicamente al patrón de *expenditure* (gasto) y no al patrón de alcance.
+El patrón _Wedge_  representa el enfoque más común para el lanzamiento de nuevos productos, caracterizándose por una estrategia de intensidad decreciente que mantiene el alcance mientras ajusta la frecuencia. Es importante notar que este patrón se refiere específicamente al patrón de *expenditure* (gasto) y no al patrón de alcance.
 
 #### Estrategia y Desarrollo
 
-La lógica del Wedge Pattern se fundamenta en el comportamiento natural del consumidor frente a nuevos productos. La fase inicial de alta intensidad busca crear un fuerte conocimiento de marca (*brand awareness*) y facilitar el aprendizaje sobre los beneficios del producto (publicidad informacional) mientras se construye la imagen deseada (publicidad transformacional). Esta estrategia resulta particularmente efectiva para productos de compra regular, donde la prueba inicial puede conducir a la conversión de consumidores en *favorable brand switchers* (consumidores favorables a la marca) o *brand loyals* (consumidores leales a la marca).
+La lógica del patrón _Wedge_ se fundamenta en el comportamiento natural del consumidor frente a nuevos productos. La fase inicial de alta intensidad busca crear un fuerte conocimiento de marca (*brand awareness*) y facilitar el aprendizaje sobre los beneficios del producto (publicidad informacional) mientras se construye la imagen deseada (publicidad transformacional). Esta estrategia resulta particularmente efectiva para productos de compra regular, donde la prueba inicial puede conducir a la conversión de consumidores en *favorable brand switchers* (consumidores favorables a la marca) o *brand loyals* (consumidores leales a la marca).
 
-La eficiencia del patrón radica en reconocer que los consumidores que prueban y adoptan el producto en las fases iniciales requerirán menor frecuencia de exposición publicitaria en ciclos posteriores para mantener su estado de comunicación efectiva (*communication effects status*). Este principio permite una optimización natural de la inversión publicitaria a lo largo del tiempo.
+La eficiencia del patrón radica en reconocer que los consumidores que prueban y adoptan el producto en las fases iniciales requerirán menor frecuencia de exposición publicitaria en ciclos posteriores para mantener su estado de comunicación efectiva. Este principio permite una optimización natural de la inversión publicitaria a lo largo del tiempo.
 
 #### Implementación Práctica
 
-El desarrollo del Wedge Pattern se estructura típicamente en tres fases principales. La primera fase establece una presencia contundente en el mercado, similar a un blitz inicial pero de menor duración. La segunda fase introduce una reducción gradual de la presión publicitaria, mientras que la tercera fase se centra en el mantenimiento estratégico de la presencia de marca.
+El desarrollo del patrón Wedge se estructura típicamente en tres fases principales. La primera fase establece una presencia contundente en el mercado, similar a un _blitz_ inicial pero de menor duración. La segunda fase introduce una reducción gradual de la presión publicitaria, mientras que la tercera fase se centra en el mantenimiento estratégico de la presencia de marca.
 
-La planificación de medios evoluciona con cada fase, comenzando con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que prioriza los medios más eficientes en términos de coste-beneficio. Esta evolución debe mantener la cobertura neta mientras se ajusta la frecuencia.
+La planificación de medios evoluciona con cada fase, comenzando con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que prioriza los medios más eficientes en términos de coste-beneficio. Esta evolución debe mantener la cobertura o alcance mientras se ajusta la frecuencia.
 
 #### Consideraciones Estratégicas
 
-La efectividad del Wedge Pattern se maximiza cuando se comprende que los *early adopters* (adoptadores tempranos), una vez convertidos, actuarán como amplificadores naturales del mensaje de marca. Este efecto multiplicador justifica la reducción gradual de la frecuencia publicitaria, permitiendo una optimización presupuestaria sin comprometer el impacto en el mercado.
+El efecto multiplicador de la primera oleada justifica la reducción gradual de la frecuencia publicitaria, permitiendo una optimización presupuestaria sin comprometer el impacto en el mercado.
 
 La duración de cada fase debe determinarse considerando factores como el ciclo de compra de la categoría, la complejidad del producto y la velocidad de adopción del mercado. Las transiciones entre fases deben ser fluidas y responder a la retroalimentación del mercado, manteniendo un monitoreo constante de indicadores clave como la tasa de prueba del producto, la conversión a compras repetidas y el desarrollo de lealtad de marca.
 
-El Wedge Pattern representa una aproximación sofisticada y eficiente a la introducción de nuevos productos, combinando el impacto inicial necesario para establecer la marca con una optimización gradual que reconoce y aprovecha la dinámica natural del mercado.
+El patrón Wedge representa una aproximación sofisticada y eficiente a la introducción de nuevos productos, combinando el impacto inicial necesario para establecer la marca con una optimización gradual que reconoce y aprovecha la dinámica natural del mercado.
 
 ![FE_Ostrow_1982](./img/img_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
@@ -1498,7 +1498,7 @@ El Wedge Pattern representa una aproximación sofisticada y eficiente a la intro
 
 #### Fundamentos y Concepto
 
-El Reverse-Wedge Pattern, también conocido como PI (Personal Influence) Pattern, representa una estrategia de planificación de medios que capitaliza el poder de la influencia personal como catalizador para la adopción de productos o servicios. A diferencia del Wedge tradicional, este patrón comienza con un alcance limitado que se expande progresivamente, aprovechando el efecto multiplicador de la influencia social y la comunicación entre pares.
+El patrón _Reverse-Wedge_, también conocido como _PI (Personal Influence)_, representa una estrategia de planificación de medios que capitaliza el poder de la influencia personal como catalizador para la adopción de productos o servicios. A diferencia del Wedge tradicional, este patrón comienza con un alcance limitado que se expande progresivamente, aprovechando el efecto multiplicador de la influencia social y la comunicación entre pares.
 
 #### Estrategia y Principios
 
@@ -1522,11 +1522,11 @@ El timing resulta crucial en este patrón. Cada fase debe tener la duración suf
 
 #### Evaluación y Optimización
 
-El éxito del Reverse-Wedge/PI se mide a través de indicadores tanto cuantitativos como cualitativos. Estos incluyen el nivel de engagement de los influenciadores clave, la calidad y cantidad de recomendaciones profesionales, la adopción por parte de organizaciones referentes y la generación de contenido especializado y casos de éxito.
+El éxito del Reverse-Wedge/PI se mide a través de indicadores tanto cuantitativos como cualitativos. Estos incluyen el nivel de _engagement_ de los influenciadores clave, la calidad y cantidad de recomendaciones profesionales, la adopción por parte de organizaciones referentes y la generación de contenido especializado y casos de éxito.
 
 La flexibilidad es una característica fundamental de este patrón. La transición entre fases debe responder a señales del mercado más que a calendarios predeterminados. Es crucial monitorear la respuesta de cada segmento y ajustar el ritmo de expansión según la madurez del mercado y la solidez de la base de adopción construida.
 
-El Reverse-Wedge/PI Pattern representa una aproximación sofisticada a la introducción de productos y servicios que requieren una validación social o profesional significativa. Su éxito depende de una cuidadosa orquestación de la expansión del mensaje y un profundo entendimiento de las dinámicas de influencia en el mercado objetivo.
+El patrón Reverse-Wedge/PI representa una aproximación sofisticada a la introducción de productos y servicios que requieren una validación social o profesional significativa. Su éxito depende de una cuidadosa orquestación de la expansión del mensaje y un profundo entendimiento de las dinámicas de influencia en el mercado objetivo.
 
 ![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
@@ -1534,17 +1534,17 @@ El Reverse-Wedge/PI Pattern representa una aproximación sofisticada a la introd
 
 #### Fundamentos y Concepto
 
-El Short Fad Pattern representa una estrategia de planificación de medios diseñada específicamente para productos o servicios con un ciclo de vida corto y concentrado. Este patrón funciona esencialmente como un Blitz Pattern condensado, donde la intensidad publicitaria debe maximizarse en un período significativamente más breve. La urgencia y concentración son las características definitorias de esta estrategia.
+El patrón _Short Fad_ representa una estrategia de planificación de medios diseñada específicamente para productos o servicios con un ciclo de vida corto y concentrado. Este patrón funciona esencialmente como un _Blitz_ condensado, donde la intensidad publicitaria debe maximizarse en un período significativamente más breve. La urgencia y concentración son las características definitorias de esta estrategia.
 
 #### Estrategia y Principios
 
-La premisa fundamental del Short Fad Pattern radica en la necesidad de crear un impacto inmediato y capitalizar rápidamente una oportunidad de mercado temporal. A diferencia de otros patrones que permiten una construcción gradual de *awareness* (conocimiento) y consideración, el Short Fad debe generar conocimiento y deseo de compra casi simultáneamente, reconociendo que el período de oportunidad es limitado y que la velocidad de penetración en el mercado es crítica para el éxito.
+La premisa fundamental del _Short Fad_ radica en la necesidad de crear un impacto inmediato y capitalizar rápidamente una oportunidad de mercado temporal. A diferencia de otros patrones que permiten una construcción gradual de *awareness* (conocimiento) y consideración, el Short Fad debe generar conocimiento y deseo de compra casi simultáneamente, reconociendo que el período de oportunidad es limitado y que la velocidad de penetración en el mercado es crítica para el éxito.
 
 #### Implementación Práctica
 
-El desarrollo se estructura en tres fases comprimidas pero claramente definidas. La fase de introducción intensiva debe generar un conocimiento explosivo del producto, buscando alcanzar rápidamente a un porcentaje significativo del público objetivo con una frecuencia de exposición alta. La fase de crecimiento acelerado debe mantener la presión publicitaria mientras facilita la conversión rápida. Finalmente, la fase de capitalización rápida busca maximizar las ventas antes de que el interés decline.
+El desarrollo se estructura en tres fases comprimidas pero claramente definidas. La fase de introducción intensiva debe generar un conocimiento explosivo del producto, buscando alcanzar rápidamente a un porcentaje significativo del público objetivo con una frecuencia de exposición alta. La fase de crecimiento acelerado debe mantener la presión publicitaria mientras facilita una rápida conversión. Finalmente, la fase de capitalización rápida busca maximizar las ventas antes de que el interés decline.
 
-La planificación de medios debe priorizar la velocidad de construcción de cobertura sobre la eficiencia en costes. El mix de medios se selecciona principalmente por su capacidad para generar *awareness* y respuesta inmediata, complementándose con tácticas de activación inmediata. La frecuencia de exposición debe ser notablemente más alta que en patrones tradicionales, reconociendo que el período para generar el efecto deseado es mucho más corto.
+La planificación de medios debe priorizar la velocidad de construcción de cobertura sobre la eficiencia en costes. El mix de medios se selecciona principalmente por su capacidad para generar *awareness* y respuesta inmediata, complementándose con tácticas de activación. La frecuencia de exposición debe ser notablemente más alta que en patrones tradicionales, reconociendo que el período para generar el efecto deseado es mucho más corto.
 
 #### Aplicaciones y Consideraciones
 
@@ -1554,7 +1554,7 @@ Este patrón resulta especialmente efectivo para productos vinculados a tendenci
 
 La evaluación debe basarse en métricas que reflejen la inmediatez de sus objetivos, como la velocidad de construcción de *awareness*, la tasa de respuesta inmediata, la conversión rápida a ventas y la eficiencia en la generación de demanda inmediata. Los presupuestos deben contemplar la necesidad de adaptación ágil, manteniendo un porcentaje de la inversión como reserva táctica para reforzar los canales que demuestren mayor efectividad.
 
-La coordinación con otros elementos del marketing mix debe ser especialmente precisa. La distribución, el precio y la promoción deben alinearse perfectamente con la estrategia de medios para capitalizar el breve período de oportunidad. El Short Fad Pattern representa una aproximación altamente especializada a la planificación de medios, diseñada para situaciones donde el tiempo es el factor más crítico.
+La coordinación con otros elementos del marketing mix debe ser especialmente precisa. La distribución, el precio y la promoción deben alinearse perfectamente con la estrategia de medios para capitalizar el breve período de oportunidad. El _Short Fad_ representa una aproximación altamente especializada a la planificación de medios, diseñada para situaciones donde el tiempo es el factor más crítico.
 
 Su éxito depende de una ejecución precisa y una coordinación perfecta de todos los elementos de la campaña. Aunque puede resultar más costoso en términos de eficiencia publicitaria tradicional, su capacidad para generar resultados inmediatos lo convierte en la opción óptima para productos y servicios con ciclos de vida cortos y definidos.
 
@@ -1568,7 +1568,7 @@ Su éxito depende de una ejecución precisa y una coordinación perfecta de todo
 
 #### Fundamentos y Concepto
 
-El Regular Purchase Cycle Pattern representa una estrategia de planificación de medios diseñada específicamente para productos y servicios que son adquiridos con una regularidad predecible. Esta estrategia se fundamenta en la sincronización precisa de la actividad publicitaria con los ciclos naturales de compra del consumidor, alternando períodos de actividad publicitaria con *hiatus* estratégicos (períodos sin publicidad).
+El patrón _Regular Purchase Cycle_ representa una estrategia de planificación de medios diseñada específicamente para productos y servicios que son adquiridos con una regularidad predecible. Esta estrategia se fundamenta en la sincronización precisa de la actividad publicitaria con los ciclos naturales de compra del consumidor, alternando períodos de actividad publicitaria con *hiatus* estratégicos (períodos sin publicidad).
 
 #### Bases Estratégicas
 
@@ -1576,7 +1576,7 @@ La efectividad de este patrón radica en su alineación con el comportamiento re
 
 #### Implementación y Estructura
 
-La estructura básica del Regular Purchase Cycle Pattern alterna períodos de actividad publicitaria con períodos de *hiatus*. La planificación debe considerar tres elementos fundamentales. Primero, el timing de la actividad publicitaria debe anticiparse ligeramente al momento de compra típico (reconocimiento de la necesidad), permitiendo influir en la decisión cuando el consumidor está comenzando a considerar la recompra. Segundo, la intensidad de la comunicación debe adaptarse al proceso de decisión de compra característico de la categoría. Tercero, la continuidad de la comunicación debe mantener un equilibrio entre la necesidad de estar presente en el momento crítico y la eficiencia en la inversión publicitaria.
+La estructura básica del _Regular Purchase Cycle_ alterna períodos de actividad publicitaria con períodos de *hiatus*. La planificación debe considerar tres elementos fundamentales. Primero, el timing de la actividad publicitaria debe anticiparse ligeramente al momento de compra típico (reconocimiento de la necesidad), permitiendo influir en la decisión cuando el consumidor está comenzando a considerar la recompra. Segundo, la intensidad de la comunicación debe adaptarse al proceso de decisión de compra característico de la categoría. Tercero, la continuidad de la comunicación debe mantener un equilibrio entre la necesidad de estar presente en el momento crítico y la eficiencia en la inversión publicitaria.
 
 #### Consideraciones Tácticas y Carryover Effect
 
@@ -1596,7 +1596,7 @@ La efectividad se maximiza cuando se coordina adecuadamente con otras actividade
 
 Aunque el patrón se basa en ciclos regulares, debe mantener suficiente flexibilidad para adaptarse a cambios en el comportamiento del consumidor o condiciones del mercado. Eventos estacionales, cambios en el comportamiento de la competencia o situaciones especiales del mercado pueden requerir ajustes en la regularidad de los ciclos.
 
-El Regular Purchase Cycle Pattern representa una aproximación sofisticada y eficiente a la planificación de medios para productos de compra regular. Su éxito depende de un entendimiento profundo de los ciclos de compra del consumidor y una implementación precisa que equilibre la presencia publicitaria con la eficiencia en la inversión. Cuando se ejecuta correctamente, este patrón permite mantener una presencia efectiva en el mercado mientras optimiza el presupuesto publicitario a través de una sincronización precisa con los momentos de mayor receptividad del consumidor.
+El _Regular Purchase Cycle_ representa una aproximación sofisticada y eficiente a la planificación de medios para productos de compra regular. Su éxito depende de un entendimiento profundo de los ciclos de compra del consumidor y una implementación precisa que equilibre la presencia publicitaria con la eficiencia en la inversión. Cuando se ejecuta correctamente, este patrón permite mantener una presencia efectiva en el mercado mientras optimiza el presupuesto publicitario a través de una sincronización precisa con los momentos de mayor receptividad del consumidor.
 
 ![FE_Ostrow_1982](./img/img_regular_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
@@ -1604,11 +1604,11 @@ El Regular Purchase Cycle Pattern representa una aproximación sofisticada y efi
 
 #### Fundamentos y Concepto
 
-El Awareness Pattern representa una estrategia de planificación de medios diseñada específicamente para productos y servicios que implican ciclos de compra extensos y procesos de decisión prolongados. Este patrón se distingue por mantener una presencia publicitaria constante pero de baja intensidad, priorizando el alcance sobre la frecuencia, con el objetivo fundamental de mantener la marca en el conjunto de consideración del consumidor durante largos períodos.
+El patrón _Awareness_ representa una estrategia de planificación de medios diseñada específicamente para productos y servicios que implican ciclos de compra extensos y procesos de decisión prolongados. Este patrón se distingue por mantener una presencia publicitaria constante pero de baja intensidad, priorizando el alcance sobre la frecuencia, con el objetivo fundamental de mantener la marca en el conjunto de consideración del consumidor durante largos períodos.
 
 #### Bases Estratégicas
 
-La premisa fundamental del Awareness Pattern radica en el reconocimiento de que, para ciertas categorías de productos, el consumidor puede pasar meses o incluso años considerando la compra antes de tomar una decisión final. En estos casos, la estrategia publicitaria debe mantener la marca "presente" en la mente del consumidor, sin necesidad de generar una respuesta inmediata. La efectividad del patrón depende de su capacidad para mantener la marca como una opción relevante y deseable cuando llegue el momento de la decisión.
+La premisa fundamental del patrón _Awareness_ radica en el reconocimiento de que, para ciertas categorías de productos, el consumidor puede pasar meses o incluso años considerando la compra antes de tomar una decisión final. En estos casos, la estrategia publicitaria debe mantener la marca "presente" en la mente del consumidor, sin necesidad de generar una respuesta inmediata. La efectividad del patrón depende de su capacidad para mantener la marca como una opción relevante y deseable cuando llegue el momento de la decisión.
 
 <details>
 <summary>Ejemplo en el caso de los automóviles</summary>
@@ -1635,9 +1635,9 @@ En este contexto, el Patrón Notoriedad, con su enfoque en mantener la marca pre
 
 #### Implementación Práctica
 
-La ejecución del Awareness Pattern se estructura típicamente en ciclos regulares de comunicación con características particulares. La frecuencia por ciclo puede ser relativamente baja, buscando alcanzar al público objetivo con exposiciones suficientes para mantener la presencia de marca. Los intervalos entre ciclos deben ser lo suficientemente cortos para mantener la continuidad en la mente del consumidor.
+La ejecución del patrón _Awareness_ se estructura típicamente en ciclos regulares de comunicación con características particulares. La frecuencia por ciclo puede ser relativamente baja, buscando alcanzar al público objetivo con exposiciones suficientes para mantener la presencia de marca. Los intervalos entre ciclos deben ser lo suficientemente cortos para mantener la continuidad en la mente del consumidor.
 
-La comunicación debe combinar elementos de construcción de marca con mecanismos de respuesta directa. Esta dualidad permite mantener la presencia de marca mientras se facilita la acción cuando el consumidor está listo para avanzar en su proceso de decisión. Un ejemplo ilustrativo es la estrategia utilizada por las comisiones de turismo, que combinan comunicación de construcción de marca en medios masivos con elementos de respuesta directa integrados.
+La comunicación debe combinar elementos de construcción de marca con mecanismos de respuesta directa. Esta dualidad permite mantener la presencia de marca mientras se facilita la acción cuando el consumidor está listo para avanzar en su proceso de decisión. Un ejemplo ilustrativo es la estrategia utilizada por los consorcios de turismo, que combinan comunicación de construcción de marca en medios masivos con elementos de respuesta directa integrados.
 
 #### Integración de Elementos de Respuesta
 
@@ -1646,8 +1646,6 @@ Los elementos de respuesta directa deben integrarse de manera sutil pero efectiv
 Para integrar **elementos de respuesta directa** en este patrón, se pueden utilizar los siguientes mecanismos:
 
 - Llamadas a la acción no intrusivas: Incluir una invitación a realizar una acción, como visitar un sitio web o llamar a un número de teléfono, sin ser agresivo en el mensaje.
-
-- Mecanismos de contacto adaptados al público objetivo: Ofrecer diferentes formas de contacto, como redes sociales, correo electrónico o teléfono, según las preferencias del público al que se dirige la campaña.
 
 - Sistemas de seguimiento y nutrición de leads: Una vez que un consumidor muestra interés, es importante darle seguimiento y ofrecerle contenido de valor para mantener su interés a lo largo del proceso de decisión.
 
@@ -1661,9 +1659,9 @@ La selección de medios debe equilibrar dos objetivos aparentemente contradictor
 
 #### Evaluación y Métricas
 
-La medición de efectividad en el Awareness Pattern debe considerar métricas de largo plazo como el nivel de consideración de marca, la calidad de la percepción de marca, el engagement con contenidos profundos, la generación y maduración de leads, y la eficiencia en la conversión final. Es fundamental establecer KPIs intermedios que permitan validar la estrategia antes de las conversiones finales.
+La medición de efectividad en el patrón _Awareness_ debe considerar métricas de largo plazo como el nivel de consideración de marca, la calidad de la percepción de marca, el engagement con contenidos profundos, la generación y maduración de leads, y la eficiencia en la conversión final. Es fundamental establecer KPIs intermedios que permitan validar la estrategia antes de las conversiones finales.
 
-El Awareness Pattern representa una aproximación sofisticada a la planificación de medios para productos y servicios que requieren decisiones complejas y prolongadas. La clave está en la consistencia y la calidad de la comunicación más que en la intensidad, reconociendo que el objetivo no es generar una respuesta inmediata sino mantener la marca como una opción relevante y deseable cuando llegue el momento de la decisión.
+El patrón _Awareness_ representa una aproximación sofisticada a la planificación de medios para productos y servicios que requieren decisiones complejas y prolongadas. La clave está en la consistencia y la calidad de la comunicación más que en la intensidad, reconociendo que el objetivo no es generar una respuesta inmediata sino mantener la marca como una opción relevante y deseable cuando llegue el momento de la decisión.
 
 ![FE_Ostrow_1982](./img/img_awareness_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
@@ -1671,7 +1669,7 @@ El Awareness Pattern representa una aproximación sofisticada a la planificació
 
 #### Fundamentos y Concepto
 
-El Shifting Reach Pattern representa una estrategia de planificación de medios innovadora que se caracteriza por su movimiento sistemático entre diferentes segmentos del mercado objetivo. Este patrón está diseñado para categorías donde la demanda está dispersa en el tiempo y el espacio, pero que requieren una comunicación intensiva cuando se contacta con cada segmento específico. La estrategia reconoce que, para ciertos productos y servicios, es más efectivo concentrar los recursos publicitarios en segmentos específicos del mercado de manera rotativa que intentar mantener una presencia continua en todo el mercado simultáneamente.
+El patrón _Shifting Reach_ representa una estrategia de planificación de medios innovadora que se caracteriza por su movimiento sistemático entre diferentes segmentos del mercado objetivo. Este patrón está diseñado para categorías donde la demanda está dispersa en el tiempo y el espacio, pero que requieren una comunicación intensiva cuando se contacta con cada segmento específico. La estrategia reconoce que, para ciertos productos y servicios, es más efectivo concentrar los recursos publicitarios en segmentos específicos del mercado de manera rotativa que intentar mantener una presencia continua en todo el mercado simultáneamente.
 
 #### Bases Estratégicas
 
@@ -1679,9 +1677,9 @@ La estrategia se fundamenta en la comprensión de que algunos mercados son más 
 
 #### Implementación Práctica
 
-El desarrollo del Shifting Reach Pattern se estructura en ciclos publicitarios secuenciales y bien definidos, donde cada ciclo se enfoca en un segmento específico del mercado. La implementación requiere una coordinación precisa entre varios elementos:
+El desarrollo del _Shifting Reach_ se estructura en ciclos publicitarios secuenciales y bien definidos, donde cada ciclo se enfoca en un segmento específico del mercado. La implementación requiere una coordinación precisa entre varios elementos:
 
-El timing de los ciclos debe ser suficiente para generar impacto pero no tan largo que pierda eficiencia. La selección de medios para cada ciclo debe utilizar la combinación más eficiente para su segmento específico, considerando no solo el alcance sino también la afinidad y el contexto. Aunque el mensaje core debe mantener consistencia, puede adaptarse en tono y enfoque para cada segmento específico.
+El timing de los ciclos debe ser suficiente para generar impacto pero no tan largo que pierda eficiencia. La selección de medios para cada ciclo debe utilizar la combinación más eficiente para su segmento específico, considerando no solo el alcance sino también la afinidad y el contexto. Aunque el mensaje _core_ debe mantener consistencia, puede adaptarse en tono y enfoque para cada segmento específico.
 
 #### Planificación y Coordinación
 
@@ -1689,7 +1687,7 @@ La selección de medios debe optimizarse para cada segmento específico. Por eje
 
 #### Ventajas y Consideraciones
 
-El Shifting Reach Pattern ofrece varias ventajas distintivas. Permite una mayor eficiencia presupuestaria al concentrar recursos en segmentos específicos. La estrategia reconoce que no todos los consumidores están en el mercado al mismo tiempo, facilitando una mejor utilización de los recursos publicitarios al evitar la dispersión. Además, proporciona flexibilidad táctica para adaptar la comunicación a las características específicas de cada segmento.
+El _Shifting Reach_ ofrece varias ventajas distintivas. Permite una mayor eficiencia presupuestaria al concentrar recursos en segmentos específicos. La estrategia reconoce que no todos los consumidores están en el mercado al mismo tiempo, facilitando una mejor utilización de los recursos publicitarios al evitar la dispersión. Además, proporciona flexibilidad táctica para adaptar la comunicación a las características específicas de cada segmento.
 
 #### Evaluación y Optimización
 
@@ -1699,25 +1697,27 @@ La medición de la efectividad debe realizarse a dos niveles. A nivel de ciclo i
 
 Para implementar exitosamente este patrón, es crucial desarrollar una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Se debe establecer un sistema de medición que permita evaluar la efectividad en cada ciclo y realizar ajustes. Es fundamental mantener la consistencia en el mensaje core mientras se adapta la ejecución para cada segmento.
 
-El Shifting Reach Pattern representa una aproximación sofisticada a la planificación de medios que reconoce la naturaleza dinámica y segmentada de ciertos mercados. Su éxito depende de una implementación precisa y una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Cuando se ejecuta correctamente, este patrón permite maximizar el impacto de presupuestos limitados y generar una presencia efectiva en el mercado a través de una aproximación sistemática y focalizada. ![FE_Ostrow_1982](./img/img_shifting_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+El _Shifting Reach_ representa una aproximación sofisticada a la planificación de medios que reconoce la naturaleza dinámica y segmentada de ciertos mercados. Su éxito depende de una implementación precisa y una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Cuando se ejecuta correctamente, este patrón permite maximizar el impacto de presupuestos limitados y generar una presencia efectiva en el mercado a través de una aproximación sistemática y focalizada. ![FE_Ostrow_1982](./img/img_shifting_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ### El Patrón Seasonal Priming en la Planificación de Medios
 
 #### Fundamentos y Concepto
 
-El Seasonal Priming Pattern representa una estrategia de planificación de medios específicamente diseñada para productos y servicios con marcada estacionalidad. Este patrón se distingue por su enfoque anticipatorio, preparando el mercado antes de los picos estacionales de demanda y maximizando la efectividad durante los períodos de mayor oportunidad comercial. La estrategia reconoce dos momentos críticos: el período de "priming" o preparación, y el pico estacional propiamente dicho. \#### \## Diferenciación por Nivel de Riesgo
+El patrón _Seasonal Priming_ representa una estrategia de planificación de medios específicamente diseñada para productos y servicios con marcada estacionalidad. Este patrón se distingue por su enfoque anticipatorio, preparando el mercado antes de los picos estacionales de demanda y maximizando la efectividad durante los períodos de mayor oportunidad comercial. La estrategia reconoce dos momentos críticos: el período de "priming" o preparación, y el pico estacional propiamente dicho. 
+
+### Diferenciación por Nivel de Riesgo
 
 El patrón se adapta según el nivel de riesgo de la compra. Para productos de bajo riesgo, como medicamentos para alergias estacionales o productos para barbacoa, el período de priming puede ser relativamente corto. En contraste, para productos de alto riesgo, como equipamiento deportivo especializado o sistemas de climatización, se requiere un período de priming más extenso, con una construcción gradual de frecuencia.
 
 #### Implementación Práctica
 
-La ejecución del Seasonal Priming Pattern se estructura en tres fases principales. La fase de pre-temporada (priming) se caracteriza por un alcance amplio pero frecuencia moderada, con énfasis en contenido educativo e informativo para la construcción de awareness y consideración. La fase de temporada alta maximiza la intensidad publicitaria, combinando medios de alto impacto con frecuencia elevada y mensajes orientados a la acción y compra inmediata. La fase de post-temporada reduce la intensidad pero mantiene una presencia selectiva, enfocándose en ventas de oportunidad y preparación para el siguiente ciclo.
+La ejecución del _Seasonal Priming_ se estructura en tres fases principales. La fase de pre-temporada (priming) se caracteriza por un alcance amplio pero frecuencia moderada, con énfasis en contenido educativo e informativo para la construcción de awareness y consideración. La fase de temporada alta maximiza la intensidad publicitaria, combinando medios de alto impacto con frecuencia elevada y mensajes orientados a la acción y compra inmediata. La fase de post-temporada reduce la intensidad pero mantiene una presencia selectiva, enfocándose en ventas de oportunidad y preparación para el siguiente ciclo.
 
 #### Consideraciones Estratégicas
 
 La planificación debe considerar que la mayoría de los competidores suelen adoptar la misma estrategia de medios, lo que genera una alta concentración publicitaria alrededor del pico estacional. El patrón de priming responde a esta realidad introduciendo vuelos publicitarios de alto alcance pero baja frecuencia antes del desarrollo del pico estacional.
 
-La publicidad pre-temporada "prepara" a los consumidores, creando awareness de marca sin interferencia competitiva. Este priming temprano alcanza a los consumidores cuando su nivel de necesidad categórica es bajo, permitiendo establecer presencia de marca y comunicar mensajes sin la saturación típica del período pico.
+La publicidad pre-temporada "prepara" a los consumidores, creando awareness de marca sin interferencia competitiva. Este priming temprano alcanza a los consumidores cuando su nivel de necesidad de la categoría es bajo, permitiendo establecer presencia de marca y comunicar mensajes sin la saturación típica del período pico.
 
 #### Optimización y Timing
 
@@ -1731,7 +1731,7 @@ La efectividad del patrón debe evaluarse considerando tanto los resultados dura
 
 Este patrón resulta particularmente efectivo para productos y servicios con estacionalidad clara, ya sea por factores climáticos, culturales o de comportamiento del consumidor. La estrategia puede adaptarse según la duración del ciclo estacional, la complejidad del producto y el nivel de competencia en el mercado.
 
-El Seasonal Priming Pattern representa una aproximación estratégica a mercados con demanda estacional, maximizando la efectividad a través de una preparación anticipada del mercado. Su éxito radica en la capacidad para construir presencia de marca y predisposición de compra antes del período de máxima demanda, permitiendo una mejor capitalización de las oportunidades comerciales durante los picos estacionales. ![FE_Ostrow_1982](./img/img_seasonal_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+El _Seasonal Priming_ representa una aproximación estratégica a mercados con demanda estacional, maximizando la efectividad a través de una preparación anticipada del mercado. Su éxito radica en la capacidad para construir presencia de marca y predisposición de compra antes del período de máxima demanda, permitiendo una mejor capitalización de las oportunidades comerciales durante los picos estacionales. ![FE_Ostrow_1982](./img/img_seasonal_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ------------------------------------------------------------------------
 
