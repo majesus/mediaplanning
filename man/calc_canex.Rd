@@ -45,7 +45,7 @@ Lista con componentes:
 }
 }
 \description{
-Función principal que implementa los cálculos del modelo CANEX (Correlación Ajustada para n EXposiciones).
+Función principal que implementa los cálculos del modelo CANEX (Canonical Expansion model).
 Este modelo calcula la distribución de alcance y frecuencia considerando la heterogeneidad y duplicaciones y correlaciones
 entre vehículos de medios.
 }

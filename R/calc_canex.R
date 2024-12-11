@@ -1,5 +1,5 @@
 #' @encoding UTF-8
-#' @title CANEX: Correlation Adjusted for N EXposures Model
+#' @title CANEX: Canonical Expansion model
 #' @description Package implementing the CANEX model for calculating contact distribution
 #' and reach metrics in media planning.
 #'
@@ -95,11 +95,14 @@ calculate_mean_variance <- function(k, alpha, beta) {
 
 calculate_marginal_prob <- function(x, k, alpha, beta) {
   if (x > k) return(0)
-  num <- gamma(k + 1) * gamma(alpha + beta) *
-    gamma(alpha + x) * gamma(beta + k - x)
-  den <- gamma(x + 1) * gamma(k - x + 1) * gamma(alpha) *
-    gamma(beta) * gamma(alpha + beta + k)
-  return(num / den)
+
+  log_num <- lgamma(k + 1) + lgamma(alpha + beta) +
+    lgamma(alpha + x) + lgamma(beta + k - x)
+  log_den <- lgamma(x + 1) + lgamma(k - x + 1) + lgamma(alpha) +
+    lgamma(beta) + lgamma(alpha + beta + k)
+
+  log_prob <- log_num - log_den
+  return(exp(log_prob))
 }
 
 #' @encoding UTF-8
@@ -145,13 +148,24 @@ transform_duplications <- function(duplications, vehicles_data) {
   m <- nrow(duplications)
   correlations <- matrix(0, m, m)
   diag(correlations) <- 1
-  for(i in 1:(m-1)) {
-    for(j in (i+1):m) {
-      pi <- vehicles_data$R1[i]
-      pj <- vehicles_data$R1[j]
-      pij <- duplications[i,j]
-      correlations[i,j] <- correlations[j,i] <-
-        (pij - pi*pj) / sqrt(pi*(1-pi)*pj*(1-pj))
+  epsilon <- 1e-10
+
+  for (i in 1:m) {
+    for (j in 1:m) {
+      if (i != j) {  # Solo calcular fuera de la diagonal
+        pi <- vehicles_data$R1[i]
+        pj <- vehicles_data$R1[j]
+        pij <- duplications[i, j]
+
+        # Condiciones para correlación 0
+        if (pi < epsilon || pi > 1 - epsilon ||
+            pj < epsilon || pj > 1 - epsilon ||
+            pi * (1 - pi) * pj * (1 - pj) < epsilon^2) {
+          correlations[i, j] <- 0
+        } else {
+          correlations[i, j] <- (pij - pi * pj) / sqrt(pi * (1 - pi) * pj * (1 - pj))
+        }
+      }
     }
   }
   return(correlations)
@@ -159,7 +173,7 @@ transform_duplications <- function(duplications, vehicles_data) {
 
 #' @encoding UTF-8
 #' @title Calcular Modelo CANEX
-#' @description Función principal que implementa los cálculos del modelo CANEX (Correlación Ajustada para n EXposiciones).
+#' @description Función principal que implementa los cálculos del modelo CANEX (Canonical Expansion model).
 #' Este modelo calcula la distribución de alcance y frecuencia considerando la heterogeneidad y duplicaciones y correlaciones
 #' entre vehículos de medios.
 #'
@@ -277,28 +291,67 @@ calc_canex <- function(vehicles_data, duplications, poblacion = 1000000) {
   max_exposures <- vehicles_data$k
   exposure_grid <- expand.grid(lapply(max_exposures, function(k) 0:k))
 
-  calculate_joint_prob <- function(exposures) {
-    marginals <- mapply(function(x, i) {
-      calculate_marginal_prob(x, vehicles_data$k[i],
-                              bbd_params[[i]]$alpha,
-                              bbd_params[[i]]$beta)
-    }, exposures, 1:m)
+  # Precalcular valores para cada vehículo
+  precalculated_marginals <- lapply(1:m, function(i) {
+    lapply(0:vehicles_data$k[i], function(x) {
+      calculate_marginal_prob(x, vehicles_data$k[i], bbd_params[[i]]$alpha, bbd_params[[i]]$beta)
+    })
+  })
 
+  precalculated_mean_var_ratios <- lapply(1:m, function(i) {
+    if (mv_params[[i]]$variance > 0) {
+      list(mean = mv_params[[i]]$mean,
+           var_sqrt_inv = 1 / sqrt(mv_params[[i]]$variance))
+    } else {
+      list(mean = 0, var_sqrt_inv = 0) # Manejar caso de varianza 0
+    }
+  })
+
+  calculate_joint_prob <- function(exposures) {
+    # Acceder a los valores precalculados
+    marginals <- mapply(function(x, i) precalculated_marginals[[i]][[x + 1]], exposures, 1:m)
     base_prob <- prod(marginals)
+
     dup_term <- 0
     for (i in 1:(m-1)) {
       for (j in (i+1):m) {
-        if (mv_params[[i]]$variance > 0 && mv_params[[j]]$variance > 0) {
+        if (precalculated_mean_var_ratios[[i]]$var_sqrt_inv != 0 &&
+            precalculated_mean_var_ratios[[j]]$var_sqrt_inv != 0) {
+
+          # Líneas de depuración adicionales:
+          print(paste("Iteración: i =", i, ", j =", j))
+          print(paste("  marginals:", paste(marginals, collapse = ", ")))
+          print(paste("  base_prob:", base_prob))
+          print(paste("  correlations[i,j]:", correlations[i,j]))
+          print(paste("  exposures[i]:", exposures[i]))
+          print(paste("  precalculated_mean_var_ratios[[i]]$mean:", precalculated_mean_var_ratios[[i]]$mean))
+          print(paste("  precalculated_mean_var_ratios[[i]]$var_sqrt_inv:", precalculated_mean_var_ratios[[i]]$var_sqrt_inv))
+          print(paste("  exposures[j]:", exposures[j]))
+          print(paste("  precalculated_mean_var_ratios[[j]]$mean:", precalculated_mean_var_ratios[[j]]$mean))
+          print(paste("  precalculated_mean_var_ratios[[j]]$var_sqrt_inv:", precalculated_mean_var_ratios[[j]]$var_sqrt_inv))
+
           dup_term <- dup_term + correlations[i,j] *
-            ((exposures[i] - mv_params[[i]]$mean) /
-               sqrt(mv_params[[i]]$variance)) *
-            ((exposures[j] - mv_params[[j]]$mean) /
-               sqrt(mv_params[[j]]$variance))
+            (exposures[i] - precalculated_mean_var_ratios[[i]]$mean) * precalculated_mean_var_ratios[[i]]$var_sqrt_inv *
+            (exposures[j] - precalculated_mean_var_ratios[[j]]$mean) * precalculated_mean_var_ratios[[j]]$var_sqrt_inv
+
+          print(paste("  dup_term:", dup_term))
         }
       }
     }
 
+    # Manejar casos donde base_prob o dup_term son NaN o Inf
+    if (is.nan(base_prob) || is.infinite(base_prob)) {
+      base_prob <- 0
+    }
+    if (is.nan(dup_term) || is.infinite(dup_term)) {
+      dup_term <- 0
+    }
+
     final_prob <- base_prob * (1 + dup_term)
+
+    # Línea de depuración:
+    print(paste("final_prob:", final_prob))
+
     return(max(0, final_prob))
   }
 
@@ -312,7 +365,9 @@ calc_canex <- function(vehicles_data, duplications, poblacion = 1000000) {
   metrics <- calculate_metrics(result, poblacion)
   print.calc_canex(metrics, poblacion)
 
-  return(metrics)
+  invisible(metrics) # Retorna metrics sin imprimirlo
+
+  # return(metrics)
 }
 
 #' @encoding UTF-8
@@ -345,9 +400,14 @@ calculate_metrics <- function(distribution, poblacion = 1000000) {
   distribution$percentage <- distribution$probability * 100
   distribution$people <- round(distribution$probability * poblacion)
 
-  cumulative_people <- sapply(distribution$exposures, function(n) {
+  # Líneas de depuración:
+  print(paste("Dentro de calculate_metrics:"))
+  print(paste("  distribution$probability:", distribution$probability))
+  print(paste("  poblacion:", poblacion))
+
+  cumulative_people <- vapply(distribution$exposures, function(n) {
     sum(distribution$people[distribution$exposures >= n])
-  })
+  }, numeric(1)) # Especificamos que la salida es un vector numérico de longitud 1
 
   cumulative_dist <- data.frame(
     min_contacts = distribution$exposures,
@@ -380,8 +440,27 @@ calculate_metrics <- function(distribution, poblacion = 1000000) {
     )
   )
 
-  return(report)
+  # return(report)
 }
+
+#' @encoding UTF-8
+#' @title Print CANEX Report
+#' @description Generates formatted report with CANEX model metrics.
+#'
+#' @param metrics List. Output from calculate_metrics()
+#' @param poblacion Integer. Target population size
+#'
+#' @return NULL (prints to console)
+#'
+#' @examples
+#' dist <- data.frame(
+#'   exposures = 0:2,
+#'   probability = c(0.3, 0.5, 0.2)
+#' )
+#' metrics <- calculate_metrics(dist)
+#' print.calc_canex(metrics)
+#'
+#' @export
 
 #' @encoding UTF-8
 #' @title Print CANEX Report
@@ -409,18 +488,23 @@ print.calc_canex <- function(metrics, poblacion = 1000000) {
 
   cat("\nMÉTRICAS PRINCIPALES:")
   cat("\n--------------------")
-  cat(sprintf("\nCobertura total: %.2f%% (%d personas)\n",
+  cat(sprintf("\nCobertura total: %.2f%% (%.0f personas)\n",
               metrics$total_reach * 100,
               metrics$total_reach_people))
 
   cat("\nDISTRIBUCIÓN DE CONTACTOS:")
   cat("\n-------------------------")
   cat("\n(Porcentaje de población que recibe exactamente N contactos)")
-  for(i in 1:nrow(metrics$distribution)) {
+
+  # Asegurar que el bucle itera correctamente incluso si hay un solo contacto
+  num_rows <- if (is.null(nrow(metrics$distribution))) length(metrics$distribution$contacts) else nrow(metrics$distribution)
+
+  for(i in 1:num_rows) {
     contacts <- metrics$distribution$contacts[i]
     pct <- metrics$distribution$percentage[i]
     people <- metrics$distribution$people[i]
-    cat(sprintf("\n%d contacto%s: %.2f%% (%d personas)",
+
+    cat(sprintf("\n%d contacto%s: %.2f%% (%.0f personas)",
                 contacts,
                 ifelse(contacts == 1, "", "s"),
                 pct,
@@ -428,15 +512,20 @@ print.calc_canex <- function(metrics, poblacion = 1000000) {
   }
 
   cat("\n\nDISTRIBUCIÓN ACUMULADA:")
-  cat("\n----------------------")
-  cat("\n(Porcentaje de población que recibe N o más contactos)")
-  for(i in 2:nrow(metrics$cumulative)) {
-    contacts <- metrics$cumulative$min_contacts[i]
+  cat("\n-----------------------")
+  cat("\n(Porcentaje de población que recibe al menos N contactos)")
+
+  # Asegurar que el bucle itera correctamente incluso si hay un solo contacto
+  num_rows_cum <- if (is.null(nrow(metrics$cumulative))) length(metrics$cumulative$min_contacts) else nrow(metrics$cumulative)
+
+  for (i in 1:num_rows_cum) {
+    min_contacts <- metrics$cumulative$min_contacts[i]
     pct <- metrics$cumulative$percentage[i]
     people <- metrics$cumulative$people[i]
-    cat(sprintf("\n≥ %d contacto%s: %.2f%% (%d personas)",
-                contacts,
-                ifelse(contacts == 1, "", "s"),
+
+    cat(sprintf("\n≥ %d contacto%s: %.2f%% (%.0f personas)",
+                min_contacts,
+                ifelse(min_contacts == 1, "", "s"),
                 pct,
                 people))
   }
