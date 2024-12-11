@@ -1438,7 +1438,7 @@ La distribución de exposición en cada patrón puede ser:
 
 ## Patrones para marcas nuevas
 
-### El Patrón Blitz en la Planificación de Medios
+### El Patrón _Blitz_ en la Planificación de Medios
 
 #### Fundamentos y Aplicación
 
@@ -1466,7 +1466,7 @@ El patrón _Blitz_, aunque demandante en términos de recursos, representa una h
 
 ![FE_Ostrow_1982](./img/img_blitz_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón Wedge en la Planificación de Medios
+### El Patrón _Wedge_ en la Planificación de Medios
 
 #### Fundamentos y Aplicación
 
@@ -1494,7 +1494,7 @@ El patrón Wedge representa una aproximación sofisticada y eficiente a la intro
 
 ![FE_Ostrow_1982](./img/img_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón Reverse-Wedge/PI en la Planificación de Medios
+### El Patrón _Reverse-Wedge/PI_ en la Planificación de Medios
 
 #### Fundamentos y Concepto
 
@@ -1530,7 +1530,7 @@ El patrón Reverse-Wedge/PI representa una aproximación sofisticada a la introd
 
 ![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón Short Fad en la Planificación de Medios
+### El Patrón _Short Fad_ en la Planificación de Medios
 
 #### Fundamentos y Concepto
 
@@ -1564,7 +1564,7 @@ Su éxito depende de una ejecución precisa y una coordinación perfecta de todo
 
 ## Patrones para marcas establecidas
 
-### El Patrón Regular Purchase Cycle en la Planificación de Medios
+### El Patrón _Regular Purchase Cycle_ en la Planificación de Medios
 
 #### Fundamentos y Concepto
 
@@ -1600,7 +1600,7 @@ El _Regular Purchase Cycle_ representa una aproximación sofisticada y eficiente
 
 ![FE_Ostrow_1982](./img/img_regular_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón Awareness en la Planificación de Medios
+### El Patrón _Awareness_ en la Planificación de Medios
 
 #### Fundamentos y Concepto
 
@@ -1665,7 +1665,7 @@ El patrón _Awareness_ representa una aproximación sofisticada a la planificaci
 
 ![FE_Ostrow_1982](./img/img_awareness_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón Shifting Reach en la Planificación de Medios
+### El Patrón _Shifting Reach_ en la Planificación de Medios
 
 #### Fundamentos y Concepto
 
@@ -1699,7 +1699,7 @@ Para implementar exitosamente este patrón, es crucial desarrollar una comprensi
 
 El _Shifting Reach_ representa una aproximación sofisticada a la planificación de medios que reconoce la naturaleza dinámica y segmentada de ciertos mercados. Su éxito depende de una implementación precisa y una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Cuando se ejecuta correctamente, este patrón permite maximizar el impacto de presupuestos limitados y generar una presencia efectiva en el mercado a través de una aproximación sistemática y focalizada. ![FE_Ostrow_1982](./img/img_shifting_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón Seasonal Priming en la Planificación de Medios
+### El Patrón _Seasonal Priming_ en la Planificación de Medios
 
 #### Fundamentos y Concepto
 
