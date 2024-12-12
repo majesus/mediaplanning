@@ -32,7 +32,7 @@
 #'   \item CPM: Coste por mil
 #'   \item C_RP: Coste por Rating Point
 #'   \item Ind_Utilidad: Índice de utilidad
-#'   \item Audiencia_Util_miles: Audiencia útil en miles
+#'   \item Audiencia_Util: Audiencia útil en miles
 #'   \item Coste_Contacto_Util: Coste por contacto útil
 #' }
 #'
@@ -181,7 +181,7 @@ calcular_metricas_medios <- function(soportes = NULL,
     CPM = round(CPM, 2),
     C_RP = round(CRP, 2),
     Indice_Utilidad = datos_finales$ind_utilidad,
-    Audiencia_Util_miles = round(audiencia_util, 0),
+    Audiencia_Util = round(audiencia_util, 0),
     Coste_Contacto_Util = round(coste_contacto_util, 2)
   )
 

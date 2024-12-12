@@ -5,7 +5,7 @@
 \alias{calc_metheringham}
 \title{Cálculo de métricas según el modelo de Metheringham}
 \usage{
-calc_metheringham(audiencias, inserciones, matriz_duplicacion, ayuda = TRUE)
+calc_metheringham(audiencias, inserciones, matriz_duplicacion)
 }
 \arguments{
 \item{audiencias}{Vector numérico con las audiencias de cada soporte}
@@ -13,8 +13,6 @@ calc_metheringham(audiencias, inserciones, matriz_duplicacion, ayuda = TRUE)
 \item{inserciones}{Vector numérico con el número de inserciones por soporte}
 
 \item{matriz_duplicacion}{Matriz simétrica con los valores de duplicación entre soportes}
-
-\item{ayuda}{Logical. Si TRUE, muestra una guía de uso detallada (default: TRUE)}
 }
 \value{
 Un objeto de clase 'reach_metheringham' conteniendo:
@@ -76,16 +74,7 @@ matriz_dup <- matrix(c(
 metricas <- calc_metheringham(
   audiencias = c(1500000, 800000, 1200000),
   inserciones = c(4, 3, 5),
-  matriz_duplicacion = matriz_dup,
-  ayuda = FALSE
-)
-
-# Mostrar solo la guía de uso
-calc_metheringham(
-  audiencias = NULL,
-  inserciones = NULL,
-  matriz_duplicacion = NULL,
-  ayuda = TRUE
+  matriz_duplicacion = matriz_dup
 )
 
 }

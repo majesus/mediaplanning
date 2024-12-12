@@ -622,7 +622,6 @@ crear_matriz_oportunidades <- function(inserciones) {
 #' @param audiencias Vector numérico con las audiencias de cada soporte
 #' @param inserciones Vector numérico con el número de inserciones por soporte
 #' @param matriz_duplicacion Matriz simétrica con los valores de duplicación entre soportes
-#' @param ayuda Logical. Si TRUE, muestra una guía de uso detallada (default: TRUE)
 #'
 #' @details
 #' La función realiza los siguientes cálculos principales:
@@ -675,16 +674,7 @@ crear_matriz_oportunidades <- function(inserciones) {
 #' metricas <- calc_metheringham(
 #'   audiencias = c(1500000, 800000, 1200000),
 #'   inserciones = c(4, 3, 5),
-#'   matriz_duplicacion = matriz_dup,
-#'   ayuda = FALSE
-#' )
-#'
-#' # Mostrar solo la guía de uso
-#' calc_metheringham(
-#'   audiencias = NULL,
-#'   inserciones = NULL,
-#'   matriz_duplicacion = NULL,
-#'   ayuda = TRUE
+#'   matriz_duplicacion = matriz_dup
 #' )
 #'
 #' @export
@@ -694,31 +684,10 @@ crear_matriz_oportunidades <- function(inserciones) {
 #' \code{\link{calc_beta_binomial}} para estimaciones con la distribución de Metheringham
 #' \code{\link{calc_hofmans}} para estimaciones con la distribución de Hofmans
 # Función principal de Metheringham
-calc_metheringham <- function(audiencias, inserciones, matriz_duplicacion, ayuda = TRUE) {
-  # Primero verificar si solo se quiere mostrar la ayuda
-  if(ayuda) {
-    cat("
-    GUÍA PARA INTRODUCIR DATOS DE AUDIENCIA Y DUPLICACIÓN
-    1. FORMATO DE ENTRADA:
-       - audiencias: Vector numérico con la audiencia de cada soporte
-       - inserciones: Vector numérico con número de inserciones por soporte
-       - matriz_duplicacion: Matriz simétrica con valores de duplicación entre soportes
-
-    2. FORMATO DE LA MATRIZ DE DUPLICACIÓN:
-       Para n soportes, necesitas una matriz n x n donde:
-       - El elemento [i,i] es la duplicación del soporte i consigo mismo
-       - El elemento [i,j] es la duplicación entre los soportes i y j
-       - La matriz debe ser simétrica (duplicación[i,j] = duplicación[j,i])
-    \n\n")
-    cat("========== COMENZANDO CÁLCULOS ==========\n\n")
-    return(invisible(NULL))  # Retorna temprano si solo se quiere mostrar la ayuda
-  }
-
-  # El resto de las validaciones y cálculos solo se ejecutan si ayuda = FALSE
+calc_metheringham <- function(audiencias, inserciones, matriz_duplicacion) {
   if (length(audiencias) != length(inserciones)) {
     stop("Los vectores de audiencias e inserciones deben tener la misma longitud")
   }
-
 
   n_soportes <- length(audiencias)
 
@@ -730,25 +699,20 @@ calc_metheringham <- function(audiencias, inserciones, matriz_duplicacion, ayuda
     stop("Las dimensiones de la matriz de duplicación no coinciden con el número de soportes")
   }
 
-  # Verificar simetría
   if (!all(matriz_duplicacion == t(matriz_duplicacion))) {
     warning("La matriz de duplicación no es simétrica. Se utilizará la parte triangular superior.")
     matriz_duplicacion[lower.tri(matriz_duplicacion)] <- t(matriz_duplicacion)[lower.tri(matriz_duplicacion)]
   }
 
-  # Crear matriz de oportunidades
   matriz_oportunidades <- crear_matriz_oportunidades(inserciones)
 
-  # Convertir matrices a vectores
   vec_duplicacion <- matriz_a_vector(matriz_duplicacion)
   vector_oportunidades <- matriz_a_vector(matriz_oportunidades)
 
-  # Cálculos principales
   A1 <- sum(audiencias * inserciones) / sum(inserciones)
   D <- sum(vec_duplicacion * vector_oportunidades) / sum(vector_oportunidades)
   A2 <- 2 * A1 - D
 
-  # Crear objeto de resultado con clase específica
   resultado <- list(
     audiencia_media = A1,
     duplicacion_media = D,
@@ -763,50 +727,40 @@ calc_metheringham <- function(audiencias, inserciones, matriz_duplicacion, ayuda
   return(resultado)
 }
 
+
 #' @export
-# Método de impresión para objetos reach_metheringham
 print.reach_metheringham <- function(x, ...) {
   cat("Modelo de Metheringham\n")
   cat("---------------------\n")
 
-  # Audiencia media (A1)
   cat("\nAUDIENCIA MEDIA (A1):\n")
   cat(sprintf("%.0f personas\n", x$audiencia_media))
   cat("Interpretación: Audiencia del soporte\n")
 
-  # Duplicación media (D)
   cat("\nDUPLICACIÓN MEDIA (D):\n")
   cat(sprintf("%.0f personas\n", x$duplicacion_media))
   cat("Interpretación: Número medio de personas que ven dos inserciones cualesquiera\n")
 
-  # Audiencia segunda inserción (A2)
   cat("\nAUDIENCIA SEGUNDA INSERCIÓN (A2):\n")
   cat(sprintf("%.0f personas\n", x$audiencia_segunda))
   cat("Interpretación: Audiencia acumulada tras dos inserciones (personas expuestas al menos una vez)\n")
 
-  # Matriz de oportunidades
   cat("\nMATRIZ DE OPORTUNIDADES DE CONTACTO:\n")
   print(x$matriz_oportunidades)
   cat("Interpretación: Número de pares de inserciones posibles entre soportes\n")
   cat("- Diagonal: Oportunidades de contacto dentro del mismo soporte\n")
   cat("- Fuera diagonal: Oportunidades de contacto entre diferentes soportes\n")
 
-  # Vector de oportunidades
   cat("\nVECTOR DE OPORTUNIDADES:\n")
   print(x$vector_oportunidades)
   cat("Interpretación: Versión linealizada de la matriz de oportunidades\n")
   cat("Orden: (1,1), (1,2), (2,2), (1,3), (2,3), (3,3), ...\n")
 
-  # Resumen de hallazgos clave
   cat("\nHALLAZGOS CLAVE:\n")
-  cat(sprintf("- Total de inserciones: %d\n", x$total_inserciones))  # Nueva línea
+  cat(sprintf("- Total de inserciones: %d\n", x$total_inserciones))
   cat(sprintf("- Audiencia promedio por inserción: %.0f personas\n", x$audiencia_media))
   cat(sprintf("- Duplicación promedio: %.1f%%\n",
               (x$duplicacion_media / x$audiencia_media) * 100))
   cat(sprintf("- Incremento en segunda inserción: %.1f%%\n",
               ((x$audiencia_segunda - x$audiencia_media) / x$audiencia_media) * 100))
 }
-
-
-
-

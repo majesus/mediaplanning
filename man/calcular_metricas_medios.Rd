@@ -45,7 +45,7 @@ Un data.frame con las siguientes columnas:
 \item CPM: Coste por mil
 \item C_RP: Coste por Rating Point
 \item Ind_Utilidad: Índice de utilidad
-\item Audiencia_Util_miles: Audiencia útil en miles
+\item Audiencia_Util: Audiencia útil en miles
 \item Coste_Contacto_Util: Coste por contacto útil
 }
 }
