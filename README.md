@@ -2518,7 +2518,9 @@ resultado <- calc_MBBD(
 )
 ```
 
-# Optimización de Distribución de Contactos (`optimizar_d`)
+# Optimización / Evaluación
+
+## Optimización de Distribución de Contactos (`optimizar_d`)
 
 Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 
@@ -2580,7 +2582,7 @@ resultado <- optimizar_dc(
 )
 ```
 
-## Optimización de Sainsbury y Binomial (`optimize_media_plan`)
+## Optimización de los modelos Sainsbury y Binomial (`optimize_media_plan`)
 
 Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
@@ -2634,7 +2636,7 @@ resultado_util <- optimize_media_plan(
 
 # Casos Prácticos
 
-## Cálculo de la Audiencia útil RNE
+## RNE 
 
 - Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad del producto café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
@@ -2648,7 +2650,7 @@ ___
 
 ___
 
-# El Reto de MediCare - Planificación de Medios en el Sector Salud
+## MediCare
 
 ### Contexto Empresarial
 
@@ -2724,11 +2726,11 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
   * Levante: 6.8 millones
 ___
 
-# Campaña Informativa de Detergente
+## FórmulaPlus
 
 ### Contexto y Objetivo
 
-Una marca establecida de **detergente** ha decidido lanzar una campaña informativa en el mercado español utilizando una **estrategia de tres oleadas en medios impresos**, con el objetivo de comunicar mejoras en su fórmula a su base de clientes leales. La campaña en medio impreso (revistas) busca mantener y reforzar la fidelidad de sus consumidores actuales, informando sobre los beneficios mejorados del producto, con una previsión de ventas de 5.000.000€. Basándose en el método Publicidad/Ventas (P/V) típico del sector de productos de limpieza para el hogar, debe establecer un **presupuesto inicial** que debe optimizarse para lograr una **cobertura del 25%** de la población objetivo (1.000.000), asegurando una **frecuencia efectiva** en cada fase de la campaña.
+FórmulaPlus, una marca establecida de **detergente**, lanza una campaña informativa en el mercado español utilizando una **estrategia de tres oleadas en medios impresos**, con el objetivo de comunicar mejoras en su fórmula a su base de clientes leales. La campaña en medio impreso (revistas) busca mantener y reforzar la fidelidad de sus consumidores actuales, informando sobre los beneficios mejorados del producto, con una previsión de ventas de 5.000.000€. Basándose en el método Publicidad/Ventas (P/V) típico del sector de productos de limpieza para el hogar, debe establecer un **presupuesto inicial** que debe optimizarse para lograr una **cobertura del 25%** de la población objetivo (1.000.000), asegurando una **frecuencia efectiva** en cada fase de la campaña.
 
 La campaña se desarrollará en **revistas orientadas al hogar y gestión familiar**, con alta afinidad con el perfil de compradoras habituales de productos de limpieza.
 
