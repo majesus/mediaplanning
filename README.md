@@ -469,7 +469,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 ------------------------------------------------------------------------
 
-## Conceptos básicos de la planificación de medios
+# Conceptos básicos de la planificación de medios
 
 ## Métricas relativas a la población:
 
@@ -826,7 +826,7 @@ head(resultado)
 
 ------------------------------------------------------------------------
 
-## Objetivos del Plan de Medios y Soportes
+# Objetivos del Plan de Medios y Soportes
 
 El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra del _target_ supere un determinado nivel crítico, y considera para ello tres elementos clave u objetivos de comunicación:
 
@@ -892,21 +892,21 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
 ------------------------------------------------------------------------
 
-## A. Cobertura efectiva
+## Cobertura efectiva
 
 > Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF).
 
-## B. Frecuencia efectiva
+## Frecuencia efectiva
 
 > Se refiere al número de veces ( *oportunidades de ver* ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. La frecuencia efectiva se define en el contexto de dos límites, a saber, **Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF)**.
 
 ![FE_Ostrow_1982](./img/img_MEF_MaxEF.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### B.1. Frecuencia Efectiva Mínima (MEF)
+### Frecuencia Efectiva Mínima (MEF)
 
 > Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activa el comportamiento deseado. Por debajo del valor MEF la publicidad no será efectiva, es decir, *no habrá merecido la pena*.
 
-### B.2. Frecuencia Efectiva Máxima (MaxEF)
+### Frecuencia Efectiva Máxima (MaxEF)
 
 > La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo. El valor MaxEF se alcanza cuando las exposiciones adicionales ya no aumentan la probabilidad de compra, e incluso, puede decrecer.
 
@@ -921,7 +921,7 @@ La recencia no se centra en alcanzar un número específico de exposiciones como
 
 ------------------------------------------------------------------------
 
-## C. Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
+## Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
 
 La frecuencia efectiva mínima (MEF) se puede determinar mediante la fórmula:
 
@@ -953,9 +953,9 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 ---
 
-## Conceptos Clave en el Cálculo de MEF (Minimum Effective Frequency)
+# Cálculo de la Frecuencia Efectiva Mínima
 
-### _Vehicle Attention_ (VA)
+## _Vehicle Attention_ (VA)
 
 El concepto de atención al vehículo mediático se refiere al nivel de procesamiento cognitivo que un medio específico demanda de su audiencia. Se fundamenta en la capacidad del medio para captar y mantener la atención del espectador/lector/oyente.
 
@@ -975,39 +975,39 @@ El concepto de atención al vehículo mediático se refiere al nivel de procesam
 
     - **Prensa**: La atención a los anuncios en prensa escrita, como periódicos y revistas, puede ser baja si los lectores simplemente hojean las páginas sin detenerse a leer el contenido.
 
-### _Target Audience_ (TA)
+## _Población Objetivo_ (TA)
 
 Se refiere a la clasificación de la audiencia según su relación actual con la marca y la categoría. Esta clasificación determina diferentes necesidades de exposición:
 
-#### _Brand Loyals_ (BLs)
+### _Leal a mi marca_ (BLs)
 
 -   Son consumidores ya leales a la marca
 -   Su comportamiento de compra ya está establecido
 -   No requieren ajuste adicional en la frecuencia
 
-#### _Favorable Brand Switchers_ (FBSs)
+### _Favorable a mi marca_ (FBSs)
 
 -   Son consumidores que alternan entre marcas pero tienen una actitud positiva hacia nuestra marca
 -   El objetivo es reforzar su preferencia existente
 -   Requieren al menos 1 exposición por ciclo
 
-#### _Other-Brand Loyals_ (OBLs) y _Other-Brand Switchers_ (OBSs)
+### _Leal a otras marcas_ (OBLs) y _Favorable a otras marcas_ (OBSs)
 
 -   Son consumidores leales a otras marcas o que alternan entre otras marcas
 -   El objetivo es persuadirlos para cambiar sus preferencias actuales
 -   Requieren un ajuste adicional de +2 exposiciones
 
-#### _New Category Users_ (NCUs)
+### _Nuevos usuarios de la categoría_ (NCUs)
 
 -   Son consumidores nuevos en la categoría, o que han manifestado rechazo o resistencia a iniciativas comerciales previas.
 -   Necesitan _educación_ sobre la categoría y la marca
 -   Requieren el máximo ajuste
 
-### _Communication Objectives_ (BA y BATT)
+## _Objetivs de Comunicación_ (BA y BATT)
 
 Se refiere a los objetivos específicos de comunicación que la marca busca alcanzar:
 
-#### _Brand Awareness_ (BA)
+### _Memoria_ (BA)
 
 -   Reconocimiento y recuerdo de marca ( _brand recognition_, _brand recall_)
 
@@ -1049,11 +1049,11 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
 
 ![FE_Ostrow_1982](./img/img_grid_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
-### _Brand Attitude_ (BATT)
+## _Actitud_ (BATT)
 
 Se divide en dos tipos principales:
 
-#### _Informational Brand Attitude_
+### _Estrategia Informativa_
 
 -   Busca comunicar beneficios funcionales
 -   Se centra en aspectos racionales, fácilmente observables y aprehensibles a través de los sentidos, del producto
@@ -1073,7 +1073,7 @@ Se divide en dos tipos principales:
       - Emoción (Solución): Tranquilidad, confianza, satisfacción.
       - Enfoque: Presentar situaciones cotidianas donde un electrodoméstico se avería, generando caos e inconvenientes. El servicio de reparación se muestra como la solución confiable y rápida para recuperar la normalidad.
 
-#### _Transformational Brand Attitude_
+### _Estrategia Transformativa
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
@@ -1136,23 +1136,23 @@ En este sentido, si bien la estrategia de comunicación más efectiva para cualq
 
 Esta estrategia dual respetaría tanto la necesidad inicial de información como la naturaleza fundamentalmente emocional del producto en el largo plazo.
 
-### _Personal Influence_ (PI)
+## _Influencia Personal_ (PI)
 
 - Define efecto multiplicador de la comunicación boca a boca y la influencia social:
 
-#### Alto Contacto ($\geq$ 0.25)
+### Alto Contacto ($\geq$ 0.25)
 
 -   Significa que al menos una de cada cuatro personas expuestas comparte el mensaje
 -   Típico en productos con alto componente social
 -   Reduce la necesidad de frecuencia publicitaria
 
-#### Bajo Contacto (< 0.25)
+### Bajo Contacto (< 0.25)
 
 -   Menor tasa de transmisión del mensaje entre personas
 -   Típico en productos de consumo privado o baja implicación social
 -   No permite reducir la frecuencia publicitaria
 
-## Consideraciones adicionales para el Cálculo del MEF:
+### Consideraciones adicionales para el Cálculo del MEF:
 
 En la determinación del MEF, existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (Largest Competitor, LC) y los ajustes necesarios en diferentes contextos mediáticos.
 
@@ -1238,7 +1238,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 ------------------------------------------------------------------------
 
-### Ejemplo: lanzamiento de cerveza artesana
+### Ejemplo: Lanzamiento de cerveza artesana
 
 - La empresa C lanzará una nueva marca de cerveza artesana al mercado, dirigida al público no consumidor de cerveza artesanal. 
 - La campaña de comunicación busca establecer una emoción basada en la alegría, amistad, diversión y celebración, mostrando grupos de amigos disfrutando de momentos agradables en un ambiente festivo y relajado. 
@@ -1281,7 +1281,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 ------------------------------------------------------------------------
 
-### Caso Práctico (ficticio): lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
+### Ejemplo: lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
 
 ### Contexto de Mercado
 
@@ -1317,17 +1317,17 @@ La categoría de alimentos funcionales _premium_ se caracteriza por un alto comp
 
 Activia, como competidor principal (LC), mantiene una frecuencia media de 3 impactos semanales en sus medios principales. El ciclo de compra típico en la categoría es quincenal, y los estudios de mercado indican una alta sensibilidad a la recomendación profesional.
 
-## Caso Práctico (ficticio): EcoRide Scooters
+### Ejemplo: EcoRide Scooters
 
-**Contexto de Mercado**
+### Contexto de Mercado
 
 EcoRide planea introducir su línea de scooters eléctricos en un mercado dominado por Vespa Electric (40% de participación) y NIU Technologies (25%). Vespa Electric mantiene una frecuencia media de 4 impactos en medios digitales. El mercado de vehículos eléctricos de dos ruedas crece 40% anualmente y está valorado en $1.2 billones.
 
-**Características del Producto y Estrategia**
+### Características del Producto y Estrategia
 
 Scooter eléctrico con autonomía de 120km, conectividad IoT y diseño minimalista. Precio: $2,999, posicionándose como alternativa premium y tecnológica frente a Vespa Electric ($3,500) y NIU ($2,500).
 
-**Plan de Medios**
+### Plan de Medios
 
 Inversión total: $3 millones
 
@@ -1335,7 +1335,7 @@ Inversión total: $3 millones
 
 - **Digital: portales tecnológicos y de movilidad**: 40%
 
-**Información Clave para MEF**
+### Información Clave para MEF
 
 - **_Vehicle Attention_**: Medios digitales que requieren mayor frecuencia por ser de baja atención.
 
@@ -1388,7 +1388,7 @@ metricas
 
 ------------------------------------------------------------------------
 
-## Estrategias de cobertura y distribución de exposición
+# Estrategias de cobertura y distribución de exposición
 
 La planificación de medios se fundamenta en dos dimensiones críticas que determinan el impacto de una campaña publicitaria: **la cobertura (reach) y la distribución de exposición (frecuencia)**. Como se ha expuesto anteriormente:
 
@@ -1416,7 +1416,7 @@ La distribución de exposición en cada patrón puede ser:
 
 ---
 
-## Patrones para marcas nuevas
+# Patrones para marcas nuevas
 
 ## El Patrón _Blitz_ en la Planificación de Medios
 
@@ -1542,7 +1542,7 @@ Su éxito depende de una ejecución precisa y una coordinación perfecta de todo
 
 ------------------------------------------------------------------------
 
-## Patrones para marcas establecidas
+# Patrones para marcas establecidas
 
 ## El Patrón _Regular Purchase Cycle_ en la Planificación de Medios
 
@@ -1715,11 +1715,11 @@ El _Seasonal Priming_ representa una aproximación estratégica a mercados con d
 
 ------------------------------------------------------------------------
 
-## Control del plan de medios
+# Control del plan de medios
 
 Finalmente, proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alcance):
 
-### Cobertura
+## Cobertura
 
 > Número de personas expuestas durante un ciclo publicitario **al menos una vez**.
 
@@ -1742,13 +1742,13 @@ Finalmente, proponemos un ejemplo sencillo e ilustrativo de cálculo de la cober
 
 Así pues, se calcula el alcance neto de esta campaña en un 56%. Permite tomar decisiones más inteligentes sobre la inversión en publicidad y evitar estimar en exceso su impacto.
 
-### Duplicación
+## Duplicación
 
 > La duplicación ocurre cuando una misma persona se expone (o *tiene la oportunidad de ver*, OTS) más de una vez al anuncio durante un ciclo publicitario (en el mismo soporte o en distinto soporte).
 
 En la campaña *Tu*, se estimó una duplicación del 5% entre Instagram y Spotify, un 3% entre Instagram y carteles, y un 2% entre Spotify y carteles.
 
-### Frecuencia media
+## Frecuencia media
 
 > Es el número promedio de veces que un individuo alcanzado se expone durante un ciclo publicitario.
 
@@ -1764,7 +1764,7 @@ La frecuencia media es pues un indicador poco fiable y potencialmente engañoso 
 
 ![FE_Ostrow_1982](./img/img_frequency_distribution.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### Distribución de exposición (o contactos)
+## Distribución de exposición (o contactos)
 
 > Se refiere al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante el ciclo publicitario.
 
@@ -1778,7 +1778,7 @@ Exclus. 2 veces: 30.000 personas
 
 Exclus. 3 veces: 30.000 personas
 
-### Distribución de exposición (o contactos) acumulada
+## Distribución de exposición (o contactos) acumulada
 
 > Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, es decir, $\geq$ i veces, durante la campaña publicitaria.
 
@@ -1849,13 +1849,13 @@ Media teórica de la distribución beta: 0.500
 
 ------------------------------------------------------------------------
 
-## mediaPlanR: Descripción General
+# mediaPlanR: Descripción General
 
 > **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios -preferentemente en prensa-, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
 
 El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios.
 
-### Instalación
+## Instalación
 
 La forma más sencilla de instalar y configurar **mediaPlanR** es usando las siguientes instrucciones:
 
@@ -1869,7 +1869,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 devtools::install_github("majesus/mediaPlanR", force = TRUE, upgrade = "never")
 ```
 
-## mediaPlanR: Funciones de mediaPlanR
+## Funciones 
 
 **Modelos:** 
 
@@ -1986,9 +1986,9 @@ La comprensión de estos aspectos permite una elección informada que optimiza e
 
 ------------------------------------------------------------------------
 
-## Modelos de estimación de la cobertura y distribución de exposición
+# Modelos de estimación de la cobertura y distribución de exposición
 
-## Modelo de Sainsbury (`calc_sainsbury`)
+# Modelo de Sainsbury (`calc_sainsbury`)
 
 **Modelo de duplicación de audiencias o cobertura neta**
 
@@ -1996,7 +1996,7 @@ La función calc_sainsbury() implementa el modelo de Sainsbury, desarrollado por
 
 El modelo considera la duplicación aleatoria, las probabilidades individuales de exposición homogéneas, y las probabilidades de exposición del soporte heterogéneas para una estimación más precisa de la cobertura y la distribución de contactos (y acumulada). De las dos últimas hipótesis se deriva que la probabilidad de que un individuo resulte expuesto al soporte i vendrá dado por el cociente entre la audiencia del soporte i (casos favorables) y la población (casos totales). Por su parte, de la asunción de la duplicación aleatoria se deriva que la probabilidad de exposición continuará siendo una variable Bernouilli con diferentes probabilidadades de exposición en cada soporte.
 
-### Características:
+## Características
 
 -   Considera la independencia entre soportes, es decir, la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro (duplicación aleatoria)
 -   Asume que las probabilidades de exposición individuales son homogéneas
@@ -2034,7 +2034,7 @@ Donde:
 
 ------------------------------------------------------------------------
 
-### Aplicación de la función:
+## Aplicación de la función
 
 ``` r
 > library(mediaPlanR)
@@ -2070,13 +2070,13 @@ RESUMEN ESTADÍSTICO:
 Promedio de contactos por individuo alcanzado: 1.36
 ```
 
-## Modelo Binomial (`calc_binomial`)
+# Modelo Binomial (`calc_binomial`)
 
 **Modelo de duplicación de audiencias o cobertura neta**
 
 La función calc_binomial() Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte. El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte. Las probabilidades de exposición son estacionarias respecto al tiempo.
 
-### Características:
+## Características
 
 -   Cada individuo de la población tiene la misma probabilidad de exposición a un soporte i
 -   La probabilidad de exposición a cada soporte es la misma para cada uno de ellos
@@ -2110,7 +2110,7 @@ Donde:
 
 ------------------------------------------------------------------------
 
-### Aplicación de la función:
+## Aplicación de la función
 
 ``` r
 > library(mediaPlanR)
@@ -2147,11 +2147,11 @@ RESUMEN ESTADÍSTICO:
 Promedio de contactos por individuo alcanzado: 1.37
 ```
 
-## Modelo Beta-Binomial (`calc_beta_binomial`)
+# Modelo Beta-Binomial (`calc_beta_binomial`)
 
 Implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y la distribución de exposición (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
 
-### Características:
+## Características
 
 -   Modela heterogeneidad de la población en sus probabilidades de exposición
 -   La acumulación de audiencias no es aleatoria
@@ -2224,7 +2224,7 @@ Donde:
 
 ------------------------------------------------------------------------
 
-### Aplicación de la función:
+## Aplicación de la función
 
 ``` r
 resultado <- calc_beta_binomial(
@@ -2274,7 +2274,7 @@ resultado
 
 ```
 
-## Modelo de Metheringham (`calc_metheringham`)
+# Modelo de Metheringham (`calc_metheringham`)
 
 El modelo de Metheringham es un modelo estocástico para calcular la cobertura y la distribución de contactos de un plan de medios publicitarios. Fue desarrollado por Richard Metheringham en 1964. El modelo es particularmente útil porque permite evaluar planes de medios complejos donde hay múltiples inserciones distribuidas en diferentes soportes, considerando cómo la audiencia se acumula y se duplica entre diferentes medios.
 
@@ -2303,7 +2303,7 @@ Después, se analiza la **audiencia acumulada que se obtiene tras dos insercione
 
 Con estos datos de audiencia, se estiman dos parámetros fundamentales (alpha y beta) que caracterizan la distribución beta del modelo. Estos parámetros permiten calcular tanto la distribución de contactos como la cobertura total del plan de medios.
 
-### Aplicación de la función:
+## Aplicación de la función
 
 ``` r
 matriz_dup <- matrix(c(
@@ -2389,7 +2389,7 @@ resultado
 
 ```
 
-## Modelo de Hofmans (`calc_hofmans`)
+# Modelo de Hofmans (`calc_hofmans`)
 
 El modelo de Hofmans (1966) aborda específicamente el problema de la acumulación de audiencias para múltiples inserciones en un mismo soporte. Su aportación fundamental radica en adaptar la formulación de Agostini (1961), diseñada originalmente para el cálculo de cobertura entre diferentes soportes, al caso de inserciones sucesivas en un único soporte.
 
@@ -2397,7 +2397,7 @@ El modelo se basa en dos supuestos simplificadores fundamentales: la constancia 
 
 Para su aplicación práctica, el modelo requiere únicamente conocer las coberturas de las dos primeras inserciones, permitiendo estimar la cobertura para cualquier número posterior de inserciones. Esta estructura lo hace especialmente útil para la planificación de campañas con múltiples inserciones en un mismo soporte, ofreciendo una estimación más precisa del comportamiento real de la acumulación de audiencias a medio y largo plazo.
 
-### Características:
+## Características
 
 Objetivo del modelo:
 
@@ -2460,7 +2460,7 @@ Esta constante d se utiliza luego en la fórmula para calcular la cobertura para
 
 ------------------------------------------------------------------------
 
-### Aplicación de la función:
+## Aplicación de la función
 
 ``` r
 R1 <- 0.06    
@@ -2471,11 +2471,11 @@ print(resultado$results)
 print(resultado$parametros)
 ```
 
-## Modelo MBBD, _Morgensztern Beta Binomial Distribution_
+# Modelo MBBD, _Morgensztern Beta Binomial Distribution_
 
 Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en el desarrollo del modelo Hofmans beta binomial, con la salvedad ya señalada de que la cobertura se estimaría mediante la fórmula propuesta por Morgensztem (1970).
 
-### Características:
+## Características
 
 1.  Estimación Iterativa de los Parámetros A y B:
 
@@ -2505,7 +2505,7 @@ Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en e
 
 ------------------------------------------------------------------------
 
-### Aplicación de la función:
+## Aplicación de la función
 
 ``` r
 resultado <- calc_MBBD(
@@ -2518,11 +2518,11 @@ resultado <- calc_MBBD(
 )
 ```
 
-## Optimización de Distribución de Contactos (`optimizar_d`)
+# Optimización de Distribución de Contactos (`optimizar_d`)
 
 Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 
-### Características principales:
+### Características principales
 
 -   Calcula parámetros óptimos alpha y beta
 -   Determina número óptimo de inserciones
@@ -2531,7 +2531,7 @@ Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-B
 
 ------------------------------------------------------------------------
 
-### Aplicación de la función:
+### Aplicación de la función
 
 ``` r
 resultado2 <- optimizar_d(
@@ -2555,7 +2555,7 @@ print(resultado$data)
 
 Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (MEF) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio MEF o más veces.
 
-### Características principales:
+### Características principales
 
 -   Calcula parámetros óptimos alpha y beta
 -   Determina número óptimo de inserciones
@@ -2564,7 +2564,7 @@ Esta función optimiza la distribución de contactos publicitarios y calcula los
 
 ------------------------------------------------------------------------
 
-### Aplicación de la función:
+### Aplicación de la función
 
 ``` r
 resultado <- optimizar_dc(
@@ -2580,7 +2580,7 @@ resultado <- optimizar_dc(
 )
 ```
 
-## Optimización de Plan de Medios (`optimize_media_plan`)
+## Optimización de Sainsbury y Binomial (`optimize_media_plan`)
 
 Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
@@ -2593,7 +2593,7 @@ Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
 ------------------------------------------------------------------------
 
-### Aplicación de la función:
+### Aplicación de la función
 
 ``` r
 # Ejemplo con audiencia bruta y modelo Sainsbury
@@ -2632,7 +2632,9 @@ resultado_util <- optimize_media_plan(
 
 ***
 
-## Caso Práctico: Cálculo de la Audiencia útil RNE
+# Casos Prácticos
+
+## Cálculo de la Audiencia útil RNE
 
 - Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad del producto café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
@@ -2646,7 +2648,7 @@ ___
 
 ___
 
-## Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
+# El Reto de MediCare - Planificación de Medios en el Sector Salud
 
 ### Contexto Empresarial
 
@@ -2722,7 +2724,7 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
   * Levante: 6.8 millones
 ___
 
-## Caso Práctico P/V: Campaña Informativa de Detergente
+# Campaña Informativa de Detergente
 
 ### Contexto y Objetivo
 
@@ -2895,7 +2897,7 @@ resultado_bruto <- optimize_media_plan(
 
 ***
 
-## Características Generales del Paquete
+# Características Generales del Paquete
 
 -   Múltiples modelos de cobertura y frecuencia
 -   Optimización con restricciones presupuestarias
@@ -2905,7 +2907,7 @@ resultado_bruto <- optimize_media_plan(
 -   Validación y manejo de errores integrado
 -   Seguimiento de progreso para operaciones largas
 
-### Manejo de Errores
+## Manejo de Errores
 
 El paquete incluye validación de entrada y manejo de errores:
 
@@ -2925,7 +2927,7 @@ El paquete incluye validación de entrada y manejo de errores:
 
 Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para más detalles.
 
-## Referencias
+# Referencias
 
 - Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España. 
 
@@ -2939,7 +2941,7 @@ Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para 
 
 - Rossiter, J.R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company.
 
-## Cómo Citar
+# Cómo Citar
 
 Si utilizas mediaPlanR en tu trabajo, por favor cítalo como:
 
