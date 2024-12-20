@@ -1,13 +1,23 @@
 ---
+title: "Package mediaPlanR: Herramientas para la Planificación de Medios Publicitarios"
+author: "Manuel Sánchez-Franco"
+date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
   pdf_document:
-    latex_engine: pdflatex
     number_sections: true
     toc: true
-  html_document: default
-  word_document:
-    toc: true
+    latex_engine: xelatex
+header-includes:
+  - \usepackage[spanish]{babel}
+  - \usepackage{hyperref}
+  - \usepackage{amsmath}
+  - \usepackage{amssymb}
+  - \usepackage{unicode-math}
+  - \setmathfont{Latin Modern Math}
+  - \providecommand{\pkg}[1]{\texttt{#1}}
+  - \providecommand{\R}{\texttt{R}}
 ---
+
 # Herramientas tradicionales para la Planificación de Medios Publicitarios
 
 Autor: Manuel J. Sánchez Franco
@@ -1432,7 +1442,7 @@ La distribución de exposición en cada patrón puede ser:
 
 > Flighting: Concentra la actividad en períodos específicos, alterna períodos de actividad con períodos de hiatus
 
-[▶️ Escuchar audio resumen](https://notebooklm.google.com/notebook/cfd21a5c-ca97-4971-9045-44318103d078/audio)
+[▶ Escuchar audio resumen](https://notebooklm.google.com/notebook/cfd21a5c-ca97-4971-9045-44318103d078/audio)
 
 ---
 
