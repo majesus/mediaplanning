@@ -515,7 +515,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 <details>
 
-<summary>:arrow_forward:Haz clic para mayor desarrollo</summary>
+<summary>\blacktriangleright Haz clic para mayor desarrollo</summary>
 
 ------------------------------------------------------------------------
 
@@ -874,7 +874,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 <details>
 
-<summary>:arrow_forward:Haz clic para mayor desarrollo de los objetivos de la comunicación</summary>
+<summary>\blacktriangleright Haz clic para mayor desarrollo de los objetivos de la comunicación</summary>
 
 ------------------------------------------------------------------------
 
@@ -979,7 +979,7 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 <details>
 
-<summary>:arrow_forward:Haz clic para mayor desarrollo del cálculo MEF</summary>
+<summary>\blacktriangleright Haz clic para mayor desarrollo del cálculo MEF</summary>
 
 ---
 
@@ -1208,7 +1208,7 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 ---
 
 <details>
-<summary>:arrow_forward:Haz clic para resolver ejemplos sencillos de cálculo MEF</summary>
+<summary>\blacktriangleright Haz clic para resolver ejemplos sencillos de cálculo MEF</summary>
 
 ---
 
@@ -1264,7 +1264,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 ---
 
 <details>
-<summary>:arrow_forward:Haz clic para resolver ejemplos de examen de cálculo MEF</summary>
+<summary>\blacktriangleright Haz clic para resolver ejemplos de examen de cálculo MEF</summary>
 
 ------------------------------------------------------------------------
 
@@ -1307,7 +1307,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 <details>
 
-<summary>:arrow_forward:Haz clic para casos prácticos MEF y cobertura efectiva, control de eficacia</summary>
+<summary>\blacktriangleright Haz clic para casos prácticos MEF y cobertura efectiva, control de eficacia</summary>
 
 ------------------------------------------------------------------------
 
@@ -1442,7 +1442,7 @@ La distribución de exposición en cada patrón puede ser:
 
 > Flighting: Concentra la actividad en períodos específicos, alterna períodos de actividad con períodos de hiatus
 
-[▶ Escuchar audio resumen](https://notebooklm.google.com/notebook/cfd21a5c-ca97-4971-9045-44318103d078/audio)
+[\blacktriangleright Escuchar audio resumen](https://notebooklm.google.com/notebook/cfd21a5c-ca97-4971-9045-44318103d078/audio)
 
 ---
 
