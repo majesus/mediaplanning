@@ -537,7 +537,7 @@ El análisis BDI/CDI se utiliza para identificar los mercados donde una marca ti
 -   Baja prioridad para inversión publicitaria
 -   Requiere análisis adicional antes de cualquier inversión significativa
 
-![BDI/CDI](./img/grafico-bdi-cdi.svg)
+![BDI/CDI](./img/grafico-bdi-cdi.png)
 
 Se presenta adicionalmente el **índice de oportunidad de marca (BOI)** para identificar mercados a conquistar. **El BOI se calcula dividiendo el CDI por el BDI**. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
 
@@ -2190,7 +2190,7 @@ Se desarrolla del modo siguiente:
 
 <br>
 
-$$P_i = \binom{n}{i} \left[ \frac{\prod_{j=1}^{i} (\alpha + i - j) \prod_{j=1}^{n-i} (\beta + n  - i - j)}{\prod_{j=1}^{n} (\alpha + \beta + n - i j)} \right]$$
+$$P_i = \binom{n}{i} \left[ \frac{\prod_{j=1}^{i} (\alpha + i - j) \prod_{j=1}^{n-i} (\beta + n  - i - j)}{\prod_{j=1}^{n} (\alpha + \beta + n - j)} \right]$$
 
 <br><br>
 
