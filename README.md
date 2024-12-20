@@ -15,13 +15,13 @@ output:
 
 Autor: Manuel J. Sánchez Franco
 
-##Descripción General
+## Descripción General
 
 > **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios -preferentemente en prensa-, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
 
 El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios.
 
-##Instalación
+## Instalación
 
 La forma más sencilla de instalar y configurar **mediaPlanR** es usando las siguientes instrucciones:
 
@@ -120,7 +120,7 @@ resultado_bruto <- optimize_media_plan(
 
 ***
 
-##Planificación de medios: conceptos básicos
+## Planificación de medios: conceptos básicos
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo (o target) de una marca de manera eficaz y eficiente**.
 
@@ -492,7 +492,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 ------------------------------------------------------------------------
 
-##Conceptos básicos de la planificación de medios
+## Conceptos básicos de la planificación de medios
 
 ### :o:Métricas relativas a la población:
 
@@ -849,7 +849,7 @@ head(resultado)
 
 ------------------------------------------------------------------------
 
-##Objetivos del Plan de Medios y Soportes
+## Objetivos del Plan de Medios y Soportes
 
 El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra del _target_ supere un determinado nivel crítico, y considera para ello tres elementos clave u objetivos de comunicación:
 
@@ -1411,7 +1411,7 @@ metricas
 
 ------------------------------------------------------------------------
 
-##Estrategias de cobertura y distribución de exposición
+## Estrategias de cobertura y distribución de exposición
 
 La planificación de medios se fundamenta en dos dimensiones críticas que determinan el impacto de una campaña publicitaria: **la cobertura (reach) y la distribución de exposición (frecuencia)**. Como se ha expuesto anteriormente:
 
@@ -1738,7 +1738,7 @@ El _Seasonal Priming_ representa una aproximación estratégica a mercados con d
 
 ------------------------------------------------------------------------
 
-##Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
+## Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
 
 Finalmente, proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alcance):
 
@@ -1872,7 +1872,7 @@ Media teórica de la distribución beta: 0.500
 
 ------------------------------------------------------------------------
 
-##mediaPlanR: Funciones de mediaPlanR
+## mediaPlanR: Funciones de mediaPlanR
 
 **Modelos:** 
 
@@ -1903,7 +1903,7 @@ Media teórica de la distribución beta: 0.500
 
 ------------------------------------------------------------------------
 
-##Estimación de Cobertura y Distribución
+## Estimación de Cobertura y Distribución
 
 ### Fundamentos y Consideraciones Iniciales
 
@@ -2635,7 +2635,7 @@ resultado_util <- optimize_media_plan(
 
 ***
 
-##Caso Práctico de Cálculo de la Audiencia útil
+## Caso Práctico de Cálculo de la Audiencia útil
 
 - Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad del producto café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
@@ -2649,7 +2649,7 @@ ___
 
 ___
 
-##Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
+## Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
 
 #### Contexto Empresarial
 
@@ -2725,7 +2725,7 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
   * Levante: 6.8 millones
 ___
 
-##Caso Práctico P/V: Campaña Informativa de Detergente
+## Caso Práctico P/V: Campaña Informativa de Detergente
 
 ### Contexto y Objetivo
 
@@ -2898,7 +2898,7 @@ resultado_bruto <- optimize_media_plan(
 
 ***
 
-##Características Generales del Paquete
+## Características Generales del Paquete
 
 -   Múltiples modelos de cobertura y frecuencia
 -   Optimización con restricciones presupuestarias
@@ -2908,7 +2908,7 @@ resultado_bruto <- optimize_media_plan(
 -   Validación y manejo de errores integrado
 -   Seguimiento de progreso para operaciones largas
 
-##Manejo de Errores
+## Manejo de Errores
 
 El paquete incluye validación de entrada y manejo de errores:
 
@@ -2917,7 +2917,7 @@ El paquete incluye validación de entrada y manejo de errores:
 -   Mensajes de error descriptivos
 -   Seguimiento de progreso
 
-##Referencias
+## Referencias
 
 - Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España. 
 
@@ -2931,18 +2931,18 @@ El paquete incluye validación de entrada y manejo de errores:
 
 - Rossiter, J.R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company.
 
-##Contacto y Soporte
+## Contacto y Soporte
 
 -   **Autor**: Manuel J. Sánchez-Franco
 -   **ORCID**: [0000-0002-8042-3550](https://orcid.org/0000-0002-8042-3550)
 -   **Email**: [majesus\@us.es](mailto:majesus@us.es){.email}
 -   **Issues**: Para reportar problemas o sugerencias, usa la sección de [Issues](https://github.com/majesus/mediaPlanR/issues)
 
-##Licencia
+## Licencia
 
 Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para más detalles.
 
-##Cómo Citar
+## Cómo Citar
 
 Si utilizas mediaPlanR en tu trabajo, por favor cítalo como:
 
