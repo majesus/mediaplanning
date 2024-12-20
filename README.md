@@ -1803,7 +1803,7 @@ Exclus. 3 veces: 30.000 personas
 
 ### Distribución de exposición (o contactos) acumulada
 
-> Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, es decir, ≥ i veces, durante la campaña publicitaria.
+> Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, es decir, $\geq$ i veces, durante la campaña publicitaria.
 
 La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de MEF.
 
@@ -1856,11 +1856,11 @@ DISTRIBUCIÓN DE CONTACTOS:
 DISTRIBUCIÓN ACUMULADA:
 ----------------------
 (Porcentaje de población que recibe N o más contactos)
-≥ 1 contacto: 80.21% (802083 personas)
-≥ 2 contactos: 64.58% (645833 personas)
-≥ 3 contactos: 50.00% (500000 personas)
-≥ 4 contactos: 35.42% (354167 personas)
-≥ 5 contactos: 19.79% (197917 personas)
+$\geq$ 1 contacto: 80.21% (802083 personas)
+$\geq$ 2 contactos: 64.58% (645833 personas)
+$\geq$ 3 contactos: 50.00% (500000 personas)
+$\geq$ 4 contactos: 35.42% (354167 personas)
+$\geq$ 5 contactos: 19.79% (197917 personas)
 
 RESUMEN ESTADÍSTICO:
 -------------------
