@@ -1442,7 +1442,7 @@ La distribución de exposición en cada patrón puede ser:
 
 > Flighting: Concentra la actividad en períodos específicos, alterna períodos de actividad con períodos de hiatus
 
-[\blacktriangleright Escuchar audio resumen](https://notebooklm.google.com/notebook/cfd21a5c-ca97-4971-9045-44318103d078/audio)
+[Escuchar audio resumen](https://notebooklm.google.com/notebook/cfd21a5c-ca97-4971-9045-44318103d078/audio)
 
 ---
 
