@@ -2091,8 +2091,8 @@ $$p = \frac{1}{P} \sum_{i=1}^{n} \frac{A_i}{n}$$
 
 Donde:
 
--   p es la probabilidad media
--   n es el número de soportes
+-   p es la probabilidad _promedio_ de éxito
+-   n es el número de soportes (1 inserción por soporte)
 -   Ai es la audiencia del soporte i
 -   P es la población total
 
