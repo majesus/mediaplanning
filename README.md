@@ -1856,11 +1856,11 @@ DISTRIBUCIÓN DE CONTACTOS:
 DISTRIBUCIÓN ACUMULADA:
 ----------------------
 (Porcentaje de población que recibe N o más contactos)
-$\geq$ 1 contacto: 80.21% (802083 personas)
-$\geq$ 2 contactos: 64.58% (645833 personas)
-$\geq$ 3 contactos: 50.00% (500000 personas)
-$\geq$ 4 contactos: 35.42% (354167 personas)
-$\geq$ 5 contactos: 19.79% (197917 personas)
+>= 1 contacto: 80.21% (802083 personas)
+>= 2 contactos: 64.58% (645833 personas)
+>= 3 contactos: 50.00% (500000 personas)
+>= 4 contactos: 35.42% (354167 personas)
+>= 5 contactos: 19.79% (197917 personas)
 
 RESUMEN ESTADÍSTICO:
 -------------------
