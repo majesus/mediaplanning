@@ -1737,11 +1737,12 @@ El _Seasonal Priming_ representa una aproximación estratégica a mercados con d
 
 ## :red_square:Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
 
+Finalmente, proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alcance):
+
 ### Cobertura
 
 > Número de personas expuestas durante un ciclo publicitario **al menos una vez**.
 
-Proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alcance):
 
 ***Tu*** **(hipotética campaña de ropa), una inserción por soporte**
 
@@ -2005,7 +2006,7 @@ El modelo considera la duplicación aleatoria, las probabilidades individuales d
 
 Cobertura neta (probabilida de al menos 1 contacto):
 
-![Sainsbury Coverage Extended](https://latex.codecogs.com/png.image?C=1-\prod_%7Bi=1%7D%5E%7Bn%7D(1-\frac%7BA_i%7D%7BP%7D))
+$$C = 1 - \prod_{i=1}^{n} \left(1 - \frac{A_i}{P}\right)$$
 
 Donde:
 
@@ -2022,7 +2023,7 @@ $Cobertura_{neta} = 1 - (1-0,30) \times (1-0,20) \times (1-0,15) = 0,524$
 
 Distribución de contactos (probabilidad de exactamente k contactos):
 
-![Sainsbury Distribution](https://latex.codecogs.com/png.image?P(X=k)=\sum_%7B%7CS%7C=k%7D\prod_%7Bi\in%20S%7Dp_i\prod_%7Bj\notin%20S%7D(1-p_j))
+$$P(X=k) = \sum_{|S|=k} \prod_{i \in S} p_i \prod_{j \notin S} (1-p_j)$$
 
 Donde:
 
@@ -2086,7 +2087,7 @@ La función calc_binomial() Implementa el modelo Binomial, desarrollado por Chan
 
 Cobertura neta (probabilidad de al menos 1 contacto):
 
-![Average Probability](https://latex.codecogs.com/png.image?p=\frac%7B1%7D%7Bn%7D\sum_%7Bi=1%7D%5E%7Bn%7D\frac%7BA_i%7D%7BP%7D)
+$$p = \frac{1}{n} \sum_{i=1}^{n} \frac{A_i}{P}$$
 
 Donde:
 
@@ -2099,7 +2100,7 @@ Donde:
 
 Distribución de contactos (probabilidad de exactamente k contactos):
 
-![Binomial Distribution](https://latex.codecogs.com/png.image?P(X=k)=\binom%7Bn%7D%7Bk%7Dp%5Ek(1-p)%5E%7Bn-k%7D)
+$$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}$$
 
 Donde:
 
@@ -2161,7 +2162,7 @@ Implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y 
 
 Distribución de contactos ((probabilidad de exactamente k contactos))
 
-![Beta-Binomial PMF](https://latex.codecogs.com/png.image?P(X=k%7Cn,\alpha,\beta)=\binom%7Bn%7D%7Bk%7D\frac%7BB(k+\alpha,n-k+\beta)%7D%7BB(\alpha,\beta)%7D)
+$$P(X=k|n,\alpha,\beta) = \binom{n}{k} \frac{B(k+\alpha, n-k+\beta)}{B(\alpha, \beta)}$$
 
 <details>
 <summary>Mayor detalle</summary>
@@ -2189,11 +2190,11 @@ Se desarrolla del modo siguiente:
 
 <br>
 
-![Beta-Binomial PMF](https://latex.codecogs.com/png.image?\dpi{150}P_i=\binom{n}{i}\left[\frac{\prod_{j=1}^{i}(\alpha+i-j)\times\prod_{j=1}^{n-i}(\beta+n-i-j)}{\prod_{j=1}^{n}(\alpha+\beta+n-j)}\right])
+$$P_i = \binom{n}{i} \left[ \frac{\prod_{j=0}^{i-1} (\alpha + j) \prod_{j=0}^{n-i-1} (\beta + j)}{\prod_{j=0}^{n-1} (\alpha + \beta + j)} \right]$$
 
 <br><br>
 
-![Beta-Binomial PMF](https://latex.codecogs.com/png.image?\dpi{150}P_i=\binom{n}{i}\frac{(\alpha+i-1)(\alpha+i-2)...(\alpha)(\beta+n-i-1)(\beta+n-i-2)...(\beta)}{(\alpha+\beta+n-1)(\alpha+\beta+n-2)...(\alpha+\beta)})
+$$P_i = \binom{n}{i} \frac{(\alpha + i - 1)(\alpha + i - 2) \cdots \alpha \cdot (\beta + n - i - 1)(\beta + n - i - 2) \cdots \beta}{(\alpha + \beta + n - 1)(\alpha + \beta + n - 2) \cdots (\alpha + \beta)}$$
 
 <br>
 
@@ -2206,9 +2207,9 @@ Donde:
 
 ------------------------------------------------------------------------
 
-![Alpha](https://latex.codecogs.com/png.image?\alpha=\frac%7BR_1(R_2-R_1)%7D%7B2R_1-R_1%5E2-R_2%7D)
+$$\alpha = \frac{R_1(R_2 - R_1)}{2R_1 - R_1^2 - R_2}$$
 
-![Beta](https://latex.codecogs.com/png.image?\beta=\alpha\frac%7B1-R_1%7D%7BR_1%7D)
+$$\beta = \alpha \frac{1 - R_1}{R_1}$$
 
 Donde:
 
@@ -2915,7 +2916,17 @@ El paquete incluye validación de entrada y manejo de errores:
 
 ## :red_square:Referencias
 
-Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España. Díez de Castro, E.C., Sánchez-Franco, M.J., y Martín Armario, E. (2011). Comunicaciones de marketing. Planificación y Control. Pirámide, España. Kelley, L. D., Jugenheimer, D. W., y Sheehan, K. B. (2015). Advertising Media Planning: A Brand Management Approach (4ª ed.). Routledge. Ostrow , J. W. (1982) Setting Frequency Levels. In Effective Frequency: The State of the Art. New York: Advertising Research Foundation, Key Issues Workshop. Rossiter, J.R. y Danaher, P.J. (1998). Advanced Media Planning. Kluwer Academic Publishers, MAS, USA. Rossiter, J. R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company.
+- Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España. 
+
+- Díez de Castro, E.C., Sánchez-Franco, M.J., y Martín Armario, E. (2011). Comunicaciones de marketing. Planificación y Control. Pirámide, España. 
+
+- Kelley, L. D., Jugenheimer, D. W., y Sheehan, K. B. (2015). Advertising Media Planning: A Brand Management Approach (4ª ed.). Routledge. 
+
+- Ostrow , J. W. (1982) Setting Frequency Levels. In Effective Frequency: The State of the Art. New York: Advertising Research Foundation, Key Issues Workshop. 
+
+- Rossiter, J.R. y Danaher, P.J. (1998). Advanced Media Planning. Kluwer Academic Publishers, MAS, USA. 
+
+- Rossiter, J.R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company.
 
 ## :red_square:Contacto y Soporte
 
