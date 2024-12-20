@@ -613,7 +613,7 @@ Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Caracter
 ### :o:Métricas de cobertura y frecuencia
 
 **Alcance o Cobertura (Reach)**\
-Número absoluto (o relativo) de individuos expuestos al menos una vez (\geq 1) a un mensaje publicitario durante un ciclo específico. Características clave:
+Número absoluto (o relativo) de individuos expuestos al menos una vez (≥ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
 
 -   Es uno de los tres parámetros básicos del plan de medios, junto con la frecuencia y la distribución de exposición
 -   Se centra en individuos únicos, no en exposiciones
@@ -1160,7 +1160,7 @@ Esta estrategia dual respetaría tanto la necesidad inicial de información como
 
 - Define efecto multiplicador de la comunicación boca a boca y la influencia social:
 
-#### Alto Contacto (\geq 0.25)
+#### Alto Contacto (≥ 0.25)
 
 -   Significa que al menos una de cada cuatro personas expuestas comparte el mensaje
 -   Típico en productos con alto componente social
@@ -1772,7 +1772,7 @@ En la campaña *Tu*, se estimó una duplicación del 5% entre Instagram y Spotif
 
 > Es el número promedio de veces que un individuo alcanzado se expone durante un ciclo publicitario.
 
-La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (\geq 1 OTS) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades *de ver el anuncio* por persona de la cobertura.
+La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (≥ 1 OTS) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades *de ver el anuncio* por persona de la cobertura.
 
 La expresión matemática para el cálculo de la frecuencia media es la siguiente:
 
@@ -1800,7 +1800,7 @@ Exclus. 3 veces: 30.000 personas
 
 ### Distribución de exposición (o contactos) acumulada
 
-> Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, es decir, \geq i veces, durante la campaña publicitaria.
+> Muestra el número total de personas que han sido expuestas a un anuncio **al menos una vez, dos veces, tres veces, etc.**, es decir, ≥ i veces, durante la campaña publicitaria.
 
 La distribución de contactos acumulada permite visualizar el progreso de la campaña en términos de alcance y frecuencia a medida que avanza el tiempo. Es una herramienta útil para analizar la efectividad de la campaña en términos de MEF.
 
@@ -1853,11 +1853,11 @@ DISTRIBUCIÓN DE CONTACTOS:
 DISTRIBUCIÓN ACUMULADA:
 ----------------------
 (Porcentaje de población que recibe N o más contactos)
-\geq 1 contacto: 80.21% (802083 personas)
-\geq 2 contactos: 64.58% (645833 personas)
-\geq 3 contactos: 50.00% (500000 personas)
-\geq 4 contactos: 35.42% (354167 personas)
-\geq 5 contactos: 19.79% (197917 personas)
+≥ 1 contacto: 80.21% (802083 personas)
+≥ 2 contactos: 64.58% (645833 personas)
+≥ 3 contactos: 50.00% (500000 personas)
+≥ 4 contactos: 35.42% (354167 personas)
+≥ 5 contactos: 19.79% (197917 personas)
 
 RESUMEN ESTADÍSTICO:
 -------------------
@@ -2061,9 +2061,9 @@ DISTRIBUCIÓN DE CONTACTOS:
 DISTRIBUCIÓN ACUMULADA:
 ----------------------
 (Porcentaje de población que recibe N o más contactos)
-\geq 1 contacto: 66.40% (664000 personas)
-\geq 2 contactos: 21.20% (212000 personas)
-\geq 3 contactos: 2.40% (24000 personas)
+≥ 1 contacto: 66.40% (664000 personas)
+≥ 2 contactos: 21.20% (212000 personas)
+≥ 3 contactos: 2.40% (24000 personas)
 
 RESUMEN ESTADÍSTICO:
 -------------------
@@ -2138,9 +2138,9 @@ DISTRIBUCIÓN DE CONTACTOS:
 DISTRIBUCIÓN ACUMULADA:
 ----------------------
 (Porcentaje de población que recibe N o más contactos)
-\geq 1 contacto: 65.70% (657000 personas)
-\geq 2 contactos: 21.60% (216000 personas)
-\geq 3 contactos: 2.70% (27000 personas)
+≥ 1 contacto: 65.70% (657000 personas)
+≥ 2 contactos: 21.60% (216000 personas)
+≥ 3 contactos: 2.70% (27000 personas)
 
 RESUMEN ESTADÍSTICO:
 -------------------
@@ -2261,11 +2261,11 @@ resultado
 # DISTRIBUCIÓN ACUMULADA:
 # ----------------------
 # (Porcentaje de población que recibe N o más contactos)
-# \geq 1 contacto: 60.34% (603365 personas)
-# \geq 2 contactos: 54.33% (543269 personas)
-# \geq 3 contactos: 50.00% (500000 personas)
-# \geq 4 contactos: 45.67% (456731 personas)
-# \geq 5 contactos: 39.66% (396635 personas)
+# ≥ 1 contacto: 60.34% (603365 personas)
+# ≥ 2 contactos: 54.33% (543269 personas)
+# ≥ 3 contactos: 50.00% (500000 personas)
+# ≥ 4 contactos: 45.67% (456731 personas)
+# ≥ 5 contactos: 39.66% (396635 personas)
 
 # RESUMEN ESTADÍSTICO:
 # -------------------
@@ -2369,18 +2369,18 @@ resultado
 # DISTRIBUCIÓN ACUMULADA:
 ----------------------
 # (Porcentaje de población que recibe N o más contactos)
-# \geq 1 contacto: 74.34% (7434177 personas)
-# \geq 2 contactos: 41.68% (4167893 personas)
-# \geq 3 contactos: 18.53% (1852769 personas)
-# \geq 4 contactos: 6.75% (674996 personas)
-# \geq 5 contactos: 2.05% (204923 personas)
-# \geq 6 contactos: 0.52% (52061 personas)
-# \geq 7 contactos: 0.11% (10996 personas)
-# \geq 8 contactos: 0.02% (1897 personas)
-# \geq 9 contactos: 0.00% (259 personas)
-# \geq 10 contactos: 0.00% (26 personas)
-# \geq 11 contactos: 0.00% (2 personas)
-# \geq 12 contactos: 0.00% (0 personas)
+# ≥ 1 contacto: 74.34% (7434177 personas)
+# ≥ 2 contactos: 41.68% (4167893 personas)
+# ≥ 3 contactos: 18.53% (1852769 personas)
+# ≥ 4 contactos: 6.75% (674996 personas)
+# ≥ 5 contactos: 2.05% (204923 personas)
+# ≥ 6 contactos: 0.52% (52061 personas)
+# ≥ 7 contactos: 0.11% (10996 personas)
+# ≥ 8 contactos: 0.02% (1897 personas)
+# ≥ 9 contactos: 0.00% (259 personas)
+# ≥ 10 contactos: 0.00% (26 personas)
+# ≥ 11 contactos: 0.00% (2 personas)
+# ≥ 12 contactos: 0.00% (0 personas)
 
 # RESUMEN ESTADÍSTICO:
 -------------------
@@ -2416,7 +2416,7 @@ Datos de partida:
 
 -   R1: Cobertura de la primera inserción (proporción entre 0 y 1)
 -   R2: Cobertura acumulada tras la segunda inserción (proporción entre 0 y 1)
--   N \geq 3: Número de inserciones para las que queremos calcular la cobertura
+-   N ≥ 3: Número de inserciones para las que queremos calcular la cobertura
 
 El modelo calculará como datos adicionales:
 
