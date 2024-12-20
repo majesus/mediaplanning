@@ -1,21 +1,14 @@
 ---
-title: "Package mediaPlanR: Herramientas para la Planificación de Medios Publicitarios"
-author: "Manuel Sánchez-Franco"
-date: "`r format(Sys.time(), '%Y-%m-%d')`"
 output:
   pdf_document:
+    latex_engine: xelatex
     number_sections: true
     toc: true
-    latex_engine: xelatex
-header-includes:
-  - \usepackage[spanish]{babel}
-  - \usepackage{hyperref}
-  - \usepackage{amsmath}
-  - \usepackage{amssymb}
-  - \usepackage{unicode-math}
-  - \setmathfont{Latin Modern Math}
-  - \providecommand{\pkg}[1]{\texttt{#1}}
-  - \providecommand{\R}{\texttt{R}}
+    includes:
+      in_header: header.tex
+  html_document: default
+  word_document:
+    toc: true
 ---
 
 # Herramientas tradicionales para la Planificación de Medios Publicitarios
@@ -1782,7 +1775,7 @@ En la campaña *Tu*, se estimó una duplicación del 5% entre Instagram y Spotif
 
 > Es el número promedio de veces que un individuo alcanzado se expone durante un ciclo publicitario.
 
-La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña anterior generó 280.000 impactos y alcanzó (≥ 1 OTS) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades *de ver el anuncio* por persona de la cobertura.
+La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña anterior generó 280.000 impactos y alcanzó ($\geq$ 1 OTS) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades *de ver el anuncio* por persona de la cobertura.
 
 La expresión matemática para el cálculo de la frecuencia media es la siguiente:
 
