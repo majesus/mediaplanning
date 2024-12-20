@@ -43,7 +43,7 @@ devtools::install_github("majesus/mediaPlanR", force = TRUE, upgrade = "never")
 ```
 
 <details>
-<summary>:arrow_forward:Ejemplo ilustrativo</summary>
+<summary>Ejemplo ilustrativo</summary>
 
 ``` r
 #------------------------------------------------------------#
@@ -165,7 +165,7 @@ En particular, los conceptos de Share of Voice (SOV) y Share of Market (SOM) son
 
 <details>
 
-<summary>:arrow_forward:Véase el concepto de ESOV</summary>
+<summary>Véase el concepto de ESOV</summary>
 
 ------------------------------------------------------------------------
 
@@ -216,7 +216,7 @@ Es fundamental que los objetivos de la campaña estén definidos de forma *SMART
 
 <details>
 
-<summary>:arrow_forward:Véanse los conceptos ROAS y ROI</summary>
+<summary>Véanse los conceptos ROAS y ROI</summary>
 
 ------------------------------------------------------------------------
 
@@ -271,7 +271,7 @@ En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiénd
 
 <details>
 
-<summary>:arrow_forward:Véanse algunos métodos de presupuestación</summary>
+<summary>Véanse algunos métodos de presupuestación</summary>
 
 ------------------------------------------------------------------------
 
@@ -515,7 +515,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 <details>
 
-<summary>\blacktriangleright Haz clic para mayor desarrollo</summary>
+<summary>Haz clic para mayor desarrollo</summary>
 
 ------------------------------------------------------------------------
 
@@ -813,7 +813,7 @@ Estrategia en que la frecuencia MEF se establece deliberadamente por encima de l
 
 <details>
 
-<summary>:arrow_forward:Ejemplo de diversas métricas</summary>
+<summary>Ejemplo de diversas métricas</summary>
 
 ------------------------------------------------------------------------
 
@@ -874,7 +874,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 <details>
 
-<summary>\blacktriangleright Haz clic para mayor desarrollo de los objetivos de la comunicación</summary>
+<summary>Haz clic para mayor desarrollo de los objetivos de la comunicación</summary>
 
 ------------------------------------------------------------------------
 
@@ -979,7 +979,7 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 <details>
 
-<summary>\blacktriangleright Haz clic para mayor desarrollo del cálculo MEF</summary>
+<summary>Haz clic para mayor desarrollo del cálculo MEF</summary>
 
 ---
 
@@ -1208,7 +1208,7 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 ---
 
 <details>
-<summary>\blacktriangleright Haz clic para resolver ejemplos sencillos de cálculo MEF</summary>
+<summary>Haz clic para resolver ejemplos sencillos de cálculo MEF</summary>
 
 ---
 
@@ -1264,7 +1264,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 ---
 
 <details>
-<summary>\blacktriangleright Haz clic para resolver ejemplos de examen de cálculo MEF</summary>
+<summary>Haz clic para resolver ejemplos de examen de cálculo MEF</summary>
 
 ------------------------------------------------------------------------
 
@@ -1307,7 +1307,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 <details>
 
-<summary>\blacktriangleright Haz clic para casos prácticos MEF y cobertura efectiva, control de eficacia</summary>
+<summary>Haz clic para casos prácticos MEF y cobertura efectiva, control de eficacia</summary>
 
 ------------------------------------------------------------------------
 
@@ -1824,7 +1824,7 @@ En la campaña de ropa *TU*, la distribución de contactos acumulada fue la sigu
 
 <details>
 
-<summary>\blacktriangleright Ejemplo ilustrativo de una distribución de exposición ficticia</summary>
+<summary>Ejemplo ilustrativo de una distribución de exposición ficticia</summary>
 
 ------------------------------------------------------------------------
 
