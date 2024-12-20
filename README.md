@@ -15,13 +15,13 @@ output:
 
 Autor: Manuel J. Sánchez Franco
 
-## :red_square:Descripción General
+## {\color{red}$\square$}Descripción General
 
 > **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios -preferentemente en prensa-, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
 
 El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios.
 
-## :red_square:Instalación
+## {\color{red}$\square$}Instalación
 
 La forma más sencilla de instalar y configurar **mediaPlanR** es usando las siguientes instrucciones:
 
@@ -120,7 +120,7 @@ resultado_bruto <- optimize_media_plan(
 
 ***
 
-## :red_square:Planificación de medios: conceptos básicos
+## {\color{red}$\square$}Planificación de medios: conceptos básicos
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo (o target) de una marca de manera eficaz y eficiente**.
 
@@ -492,7 +492,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 ------------------------------------------------------------------------
 
-## :red_square:Conceptos básicos de la planificación de medios
+## {\color{red}$\square$}Conceptos básicos de la planificación de medios
 
 ### :o:Métricas relativas a la población:
 
@@ -616,7 +616,7 @@ Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Caracter
 ### :o:Métricas de cobertura y frecuencia
 
 **Alcance o Cobertura (Reach)**\
-Número absoluto (o relativo) de individuos expuestos al menos una vez (≥ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
+Número absoluto (o relativo) de individuos expuestos al menos una vez ($\geq$ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
 
 -   Es uno de los tres parámetros básicos del plan de medios, junto con la frecuencia y la distribución de exposición
 -   Se centra en individuos únicos, no en exposiciones
@@ -849,7 +849,7 @@ head(resultado)
 
 ------------------------------------------------------------------------
 
-## :red_square:Objetivos del Plan de Medios y Soportes
+## {\color{red}$\square$}Objetivos del Plan de Medios y Soportes
 
 El objetivo del plan de medios y soportes reside en lograr que la disposición hacia la compra del _target_ supere un determinado nivel crítico, y considera para ello tres elementos clave u objetivos de comunicación:
 
@@ -1163,7 +1163,7 @@ Esta estrategia dual respetaría tanto la necesidad inicial de información como
 
 - Define efecto multiplicador de la comunicación boca a boca y la influencia social:
 
-#### Alto Contacto (≥ 0.25)
+#### Alto Contacto ($\geq$ 0.25)
 
 -   Significa que al menos una de cada cuatro personas expuestas comparte el mensaje
 -   Típico en productos con alto componente social
@@ -1411,7 +1411,7 @@ metricas
 
 ------------------------------------------------------------------------
 
-## :red_square:Estrategias de cobertura y distribución de exposición
+## {\color{red}$\square$}Estrategias de cobertura y distribución de exposición
 
 La planificación de medios se fundamenta en dos dimensiones críticas que determinan el impacto de una campaña publicitaria: **la cobertura (reach) y la distribución de exposición (frecuencia)**. Como se ha expuesto anteriormente:
 
@@ -1738,7 +1738,7 @@ El _Seasonal Priming_ representa una aproximación estratégica a mercados con d
 
 ------------------------------------------------------------------------
 
-## :red_square:Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
+## {\color{red}$\square$}Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
 
 Finalmente, proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alcance):
 
@@ -1872,7 +1872,7 @@ Media teórica de la distribución beta: 0.500
 
 ------------------------------------------------------------------------
 
-## :red_square:mediaPlanR: Funciones de mediaPlanR
+## {\color{red}$\square$}mediaPlanR: Funciones de mediaPlanR
 
 **Modelos:** 
 
@@ -1903,7 +1903,7 @@ Media teórica de la distribución beta: 0.500
 
 ------------------------------------------------------------------------
 
-## :red_square:Estimación de Cobertura y Distribución
+## {\color{red}$\square$}Estimación de Cobertura y Distribución
 
 ### Fundamentos y Consideraciones Iniciales
 
@@ -2064,9 +2064,9 @@ DISTRIBUCIÓN DE CONTACTOS:
 DISTRIBUCIÓN ACUMULADA:
 ----------------------
 (Porcentaje de población que recibe N o más contactos)
-≥ 1 contacto: 66.40% (664000 personas)
-≥ 2 contactos: 21.20% (212000 personas)
-≥ 3 contactos: 2.40% (24000 personas)
+>= 1 contacto: 66.40% (664000 personas)
+>= 2 contactos: 21.20% (212000 personas)
+>= 3 contactos: 2.40% (24000 personas)
 
 RESUMEN ESTADÍSTICO:
 -------------------
@@ -2141,9 +2141,9 @@ DISTRIBUCIÓN DE CONTACTOS:
 DISTRIBUCIÓN ACUMULADA:
 ----------------------
 (Porcentaje de población que recibe N o más contactos)
-≥ 1 contacto: 65.70% (657000 personas)
-≥ 2 contactos: 21.60% (216000 personas)
-≥ 3 contactos: 2.70% (27000 personas)
+>= 1 contacto: 65.70% (657000 personas)
+>= 2 contactos: 21.60% (216000 personas)
+>= 3 contactos: 2.70% (27000 personas)
 
 RESUMEN ESTADÍSTICO:
 -------------------
@@ -2174,14 +2174,14 @@ $$P(X=k|n,\alpha,\beta) = \binom{n}{k} \frac{B(k+\alpha, n-k+\beta)}{B(\alpha, \
 
 **¿Qué modela la distribución beta en este contexto?** La distribución beta modela la heterogeneidad de las probabilidades individuales de exposición (p) en la población. No es una distribución para cada individuo, sino una única distribución que describe cómo varían las probabilidades entre individuos.
 
-**¿Cómo se asignan las probabilidades individuales?** Cada individuo "extrae" su probabilidad p de la distribución beta común Beta(α,β). Una vez asignada, esta p se mantiene constante para ese individuo (estacionariedad).
+**¿Cómo se asignan las probabilidades individuales?** Cada individuo "extrae" su probabilidad p de la distribución beta común Beta($\alpha$,$\beta$). Una vez asignada, esta p se mantiene constante para ese individuo (estacionariedad).
 
 **¿Cómo funciona el proceso de exposición?** Para cada individuo con su p fija:
 
-* La probabilidad p proviene de Beta(α,β)
+* La probabilidad p proviene de Beta($\alpha$,$\beta$)
 * Las exposiciones siguen Binomial(n,p)
 
-Matemáticamente: P(X=k) = C(n,k)B(α+k,β+n-k)/B(α,β)
+Matemáticamente: P(X=k) = C(n,k)B($\alpha$+k,$\beta$+n-k)/B($\alpha$,$\beta$)
 
 **¿Por qué no es aleatoria la acumulación?** Porque las probabilidades individuales son persistentes y provienen de una distribución que modela la heterogeneidad poblacional, no de un proceso puramente aleatorio.
 
@@ -2205,8 +2205,8 @@ Donde:
 
 -   i es el número de contactos
 -   n es el número de inserciones
--   α (alpha) controla la asimetría hacia valores altos de probabilidad
--   β (beta) controla la asimetría hacia valores bajos de probabilidad
+-   $\alpha$ (alpha) controla la asimetría hacia valores altos de probabilidad
+-   $\beta$ (beta) controla la asimetría hacia valores bajos de probabilidad
 
 ------------------------------------------------------------------------
 
@@ -2264,11 +2264,11 @@ resultado
 # DISTRIBUCIÓN ACUMULADA:
 # ----------------------
 # (Porcentaje de población que recibe N o más contactos)
-# ≥ 1 contacto: 60.34% (603365 personas)
-# ≥ 2 contactos: 54.33% (543269 personas)
-# ≥ 3 contactos: 50.00% (500000 personas)
-# ≥ 4 contactos: 45.67% (456731 personas)
-# ≥ 5 contactos: 39.66% (396635 personas)
+# >= 1 contacto: 60.34% (603365 personas)
+# >= 2 contactos: 54.33% (543269 personas)
+# >= 3 contactos: 50.00% (500000 personas)
+# >= 4 contactos: 45.67% (456731 personas)
+# >= 5 contactos: 39.66% (396635 personas)
 
 # RESUMEN ESTADÍSTICO:
 # -------------------
@@ -2372,18 +2372,18 @@ resultado
 # DISTRIBUCIÓN ACUMULADA:
 ----------------------
 # (Porcentaje de población que recibe N o más contactos)
-# ≥ 1 contacto: 74.34% (7434177 personas)
-# ≥ 2 contactos: 41.68% (4167893 personas)
-# ≥ 3 contactos: 18.53% (1852769 personas)
-# ≥ 4 contactos: 6.75% (674996 personas)
-# ≥ 5 contactos: 2.05% (204923 personas)
-# ≥ 6 contactos: 0.52% (52061 personas)
-# ≥ 7 contactos: 0.11% (10996 personas)
-# ≥ 8 contactos: 0.02% (1897 personas)
-# ≥ 9 contactos: 0.00% (259 personas)
-# ≥ 10 contactos: 0.00% (26 personas)
-# ≥ 11 contactos: 0.00% (2 personas)
-# ≥ 12 contactos: 0.00% (0 personas)
+# >= 1 contacto: 74.34% (7434177 personas)
+# >= 2 contactos: 41.68% (4167893 personas)
+# >= 3 contactos: 18.53% (1852769 personas)
+# >= 4 contactos: 6.75% (674996 personas)
+# >= 5 contactos: 2.05% (204923 personas)
+# >= 6 contactos: 0.52% (52061 personas)
+# >= 7 contactos: 0.11% (10996 personas)
+# >= 8 contactos: 0.02% (1897 personas)
+# >= 9 contactos: 0.00% (259 personas)
+# >= 10 contactos: 0.00% (26 personas)
+# >= 11 contactos: 0.00% (2 personas)
+# >= 12 contactos: 0.00% (0 personas)
 
 # RESUMEN ESTADÍSTICO:
 -------------------
@@ -2396,7 +2396,7 @@ resultado
 
 El modelo de Hofmans (1966) aborda específicamente el problema de la acumulación de audiencias para múltiples inserciones en un mismo soporte. Su aportación fundamental radica en adaptar la formulación de Agostini (1961), diseñada originalmente para el cálculo de cobertura entre diferentes soportes, al caso de inserciones sucesivas en un único soporte.
 
-El modelo se basa en dos supuestos simplificadores fundamentales: la constancia de la audiencia del soporte para todas sus inserciones, y la existencia de una duplicación constante entre cualquier par de inserciones. Su principal innovación es el reconocimiento y corrección del comportamiento no lineal de la acumulación de audiencias mediante la introducción de un parámetro de ajuste (α) que modifica el factor de acumulación según el número de inserciones.
+El modelo se basa en dos supuestos simplificadores fundamentales: la constancia de la audiencia del soporte para todas sus inserciones, y la existencia de una duplicación constante entre cualquier par de inserciones. Su principal innovación es el reconocimiento y corrección del comportamiento no lineal de la acumulación de audiencias mediante la introducción de un parámetro de ajuste ($\alpha$) que modifica el factor de acumulación según el número de inserciones.
 
 Para su aplicación práctica, el modelo requiere únicamente conocer las coberturas de las dos primeras inserciones, permitiendo estimar la cobertura para cualquier número posterior de inserciones. Esta estructura lo hace especialmente útil para la planificación de campañas con múltiples inserciones en un mismo soporte, ofreciendo una estimación más precisa del comportamiento real de la acumulación de audiencias a medio y largo plazo.
 
@@ -2419,7 +2419,7 @@ Datos de partida:
 
 -   R1: Cobertura de la primera inserción (proporción entre 0 y 1)
 -   R2: Cobertura acumulada tras la segunda inserción (proporción entre 0 y 1)
--   N ≥ 3: Número de inserciones para las que queremos calcular la cobertura
+-   N $\geq$ 3: Número de inserciones para las que queremos calcular la cobertura
 
 El modelo calculará como datos adicionales:
 
@@ -2482,7 +2482,7 @@ Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en e
 
 1.  Estimación Iterativa de los Parámetros A y B:
 
--   El código comienza con un valor arbitrario A₀ y calcula un valor inicial B₀
+-   El código comienza con un valor arbitrario A$_0$ y calcula un valor inicial B$_0$
 -   Se realiza un ajuste de A basado en la diferencia entre la cobertura BBD y la cobertura de Morgenstern (RM)
 -   Se utiliza un factor de ajuste (adj_factor) para refinar el valor de A
 
@@ -2635,7 +2635,7 @@ resultado_util <- optimize_media_plan(
 
 ***
 
-## :red_square:Caso Práctico de Cálculo de la Audiencia útil
+## {\color{red}$\square$}Caso Práctico de Cálculo de la Audiencia útil
 
 - Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad del producto café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
@@ -2649,7 +2649,7 @@ ___
 
 ___
 
-## :red_square:Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
+## {\color{red}$\square$}Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
 
 #### Contexto Empresarial
 
@@ -2725,7 +2725,7 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
   * Levante: 6.8 millones
 ___
 
-## :red_square:Caso Práctico P/V: Campaña Informativa de Detergente
+## {\color{red}$\square$}Caso Práctico P/V: Campaña Informativa de Detergente
 
 ### Contexto y Objetivo
 
@@ -2898,7 +2898,7 @@ resultado_bruto <- optimize_media_plan(
 
 ***
 
-## :red_square:Características Generales del Paquete
+## {\color{red}$\square$}Características Generales del Paquete
 
 -   Múltiples modelos de cobertura y frecuencia
 -   Optimización con restricciones presupuestarias
@@ -2908,7 +2908,7 @@ resultado_bruto <- optimize_media_plan(
 -   Validación y manejo de errores integrado
 -   Seguimiento de progreso para operaciones largas
 
-## :red_square:Manejo de Errores
+## {\color{red}$\square$}Manejo de Errores
 
 El paquete incluye validación de entrada y manejo de errores:
 
@@ -2917,7 +2917,7 @@ El paquete incluye validación de entrada y manejo de errores:
 -   Mensajes de error descriptivos
 -   Seguimiento de progreso
 
-## :red_square:Referencias
+## {\color{red}$\square$}Referencias
 
 - Aldás Manzano, J. (1998). Modelos de determinación de la cobertura y la distribución de contactos en la planificación de medios publicitarios impresos. Tesis doctoral, Universidad de Valencia, España. 
 
@@ -2931,18 +2931,18 @@ El paquete incluye validación de entrada y manejo de errores:
 
 - Rossiter, J.R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company.
 
-## :red_square:Contacto y Soporte
+## {\color{red}$\square$}Contacto y Soporte
 
 -   **Autor**: Manuel J. Sánchez-Franco
 -   **ORCID**: [0000-0002-8042-3550](https://orcid.org/0000-0002-8042-3550)
 -   **Email**: [majesus\@us.es](mailto:majesus@us.es){.email}
 -   **Issues**: Para reportar problemas o sugerencias, usa la sección de [Issues](https://github.com/majesus/mediaPlanR/issues)
 
-## :red_square:Licencia
+## {\color{red}$\square$}Licencia
 
 Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para más detalles.
 
-## :red_square:Cómo Citar
+## {\color{red}$\square$}Cómo Citar
 
 Si utilizas mediaPlanR en tu trabajo, por favor cítalo como:
 
