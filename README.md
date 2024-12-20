@@ -2087,7 +2087,7 @@ La función calc_binomial() Implementa el modelo Binomial, desarrollado por Chan
 
 Cobertura neta (probabilidad de al menos 1 contacto):
 
-$$p = \frac{1}{n} \sum_{i=1}^{n} \frac{A_i}{P}$$
+$$p = \frac{1}{P} \sum_{i=1}^{n} \frac{A_i}{n}$$
 
 Donde:
 
