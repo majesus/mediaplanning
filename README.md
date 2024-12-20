@@ -20,8 +20,6 @@ Para el logro de los objetivos y el retorno de la inversión se debe pues reflex
 | Medios publicitarios | **Ecosistema de medios integrado**<br>- Tradicionales:<br> \* Televisión<br> \* Radio<br> \* Prensa<br> \* Cine<br><br>- Digitales:<br> \* Redes sociales<br> \* *Search engines*<br> \* Display advertising<br> \* Email marketing<br><br>- Exterior:<br> \* Vallas publicitarias<br> \* Mobiliario urbano<br> \* *Transit advertising*<br><br>**Métricas**: <br> \* Alcance<br> \* Frecuencia<br> \* Afinidad con target<br> \* Coste por impacto<br> \* Capacidad de segmentación<br> \* ... |
 | Programación | **Planificación temporal y evaluación**<br>- Factores clave:<br> \* Estacionalidad del producto/servicio<br> \* Hábitos/timing de consumo del target<br> \* Actividad de la competencia<br><br>- Consideraciones tácticas:<br> \* Momentos de mayor demanda<br> \* Períodos de compra<br> \* Eventos especiales<br> \* Fechas comerciales clave<br> \* Horarios de mayor consumo de medios del target<br><br> - Implementación y monitoreo continuo: <br> \* Medición de KPIs y ajustes<br> \* Evaluación pre-test y durante campaña |
 
-------------------------------------------------------------------------
-
 A partir de estas consideraciones, un planificador de medios debe pues plantearse un conjunto de preguntas clave para promover el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
 
 ## Conocimiento del Mercado y de la Audiencia
@@ -43,8 +41,6 @@ En particular, los conceptos de Share of Voice (SOV) y Share of Market (SOM) son
 <details>
 
 <summary>Véase el concepto de ESOV</summary>
-
-------------------------------------------------------------------------
 
 [Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa)
 
@@ -71,8 +67,6 @@ En particular, los conceptos de Share of Voice (SOV) y Share of Market (SOM) son
 -   Incremento en Cuota de Mercado: Lidl duplicó su cuota de mercado en cinco años, alcanzando un 6%.
 -   Incremento en Ventas: La campaña generó ventas incrementales por 2700 millones de libras y un premio Effie de oro en 2017.
 
-------------------------------------------------------------------------
-
 </details>
 
 ## Objetivos y Estrategia de la Campaña
@@ -95,8 +89,6 @@ Es fundamental que los objetivos de la campaña estén definidos de forma *SMART
 
 <summary>Véanse los conceptos ROAS y ROI</summary>
 
-------------------------------------------------------------------------
-
 El ROAS y el ROI son métricas relacionadas pero diferentes:
 
 **ROAS (Return on Ad Spend):**
@@ -118,8 +110,6 @@ El ROAS y el ROI son métricas relacionadas pero diferentes:
     -   ROI = [(8500 - 6000) / 6000] × 100 = 41,67%
 
 En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiéndose con pérdidas aunque la publicidad sea eficiente en generar ventas.
-
-------------------------------------------------------------------------
 
 </details>
 
@@ -417,15 +407,11 @@ Presupuesto:
 -   Base P/V (8,8%): 88.000€
 -   Ajuste por lanzamiento (+50%): 132.000€
 
-------------------------------------------------------------------------
-
 ### Método todo lo que se pueda permitir
 
 El **método _todo lo que se pueda permitir_**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
 
 En suma, la selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing o los recursos disponibles, entre otros factores. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
-
-------------------------------------------------------------------------
 
 </details>
 
@@ -467,8 +453,6 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 </details>
 
-------------------------------------------------------------------------
-
 # Conceptos básicos de la planificación de medios
 
 ## Métricas relativas a la población:
@@ -481,13 +465,9 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 -   **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, **se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado**.
 
-------------------------------------------------------------------------
-
 <details>
 
 <summary>Ver más detalles.</summary>
-
-------------------------------------------------------------------------
 
 **Uso del BDI / CDI**
 
@@ -527,8 +507,6 @@ Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a 
 
 </details>
 
-------------------------------------------------------------------------
-
 ### B. Coeficiente (índice) de afinidad
 
 > El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con la población considerada en su conjunto.
@@ -550,8 +528,6 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 -   Valores superiores a 100: Sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la población. Es un indicador aproximado de que el producto es especialmente atractivo o relevante para ese grupo específico.
 
 -   Valores inferiores a 100: Señalan una menor afinidad del grupo objetivo respecto al producto.
-
-------------------------------------------------------------------------
 
 ## Métricas relativas a los soportes:
 
@@ -779,13 +755,9 @@ Estrategia en que la frecuencia MEF se establece deliberadamente por encima de l
 -   Busca establecer presencia superior
 -   Es especialmente relevante en momentos críticos del mercado
 
-------------------------------------------------------------------------
-
 <details>
 
 <summary>Ejemplo de diversas métricas</summary>
-
-------------------------------------------------------------------------
 
 **Tabla de principales métricas**
 
@@ -795,8 +767,6 @@ Estrategia en que la frecuencia MEF se establece deliberadamente por encima de l
 | D 2 | 100000 | 1 | 20 | 27,03 | 250 | 2,50 | 12,50 | 0,20 | 20000 | 0,01 |
 | D 3 | 120000 | 1 | 24 | 32,43 | 400 | 3,33 | 16,67 | 0,25 | 30000 | 0,01 |
 
-------------------------------------------------------------------------
-
 **Tabla de comparación de opciones publicitarias en función del coste relativo**
 
 | Opción | Coste | Alcance | CPM | C/RP |
@@ -805,8 +775,6 @@ Estrategia en que la frecuencia MEF se establece deliberadamente por encima de l
 | D 5 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
 
 Población = 500.000 personas
-
-------------------------------------------------------------------------
 
 La función **calcular_metricas_medios()** del paquete mediaPlanR permite estimar la tabla resumen del conjunto de soportes elegidos.
 
@@ -823,8 +791,6 @@ head(resultado)
 ```
 
 </details>
-
-------------------------------------------------------------------------
 
 # Objetivos del Plan de Medios y Soportes
 
@@ -845,8 +811,6 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 <details>
 
 <summary>Ver más detalles.</summary>
-
-------------------------------------------------------------------------
 
 Los **objetivos de comunicación** son fundamentales en el proceso publicitario ya que establecen conexiones mentales duraderas entre la marca y el consumidor potencial. Estos objetivos se materializan a través de cinco efectos de comunicación que deben estar presentes antes de que el comprador tome acción:
 
@@ -890,8 +854,6 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
 </details>
 
-------------------------------------------------------------------------
-
 ## Cobertura efectiva
 
 > Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF).
@@ -912,14 +874,12 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
 -   En suma, pueden producirse dos efectos:
 
-    -   ***Wear-in***: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
-    -   ***Wear-out***: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca.
+    -   **Wear-in**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
+    -   **Wear-out**: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca.
 
 Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto _**recencia**_, que enfatiza la importancia de llegar a los receptores cerca del momento en que están predispuestos para realizar una compra. La publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto _recency_ en acción. 
 
 La recencia no se centra en alcanzar un número específico de exposiciones como la frecuencia efectiva, sino en estar presente en el mercado de manera constante para influir en las decisiones de compra en el momento oportuno.
-
-------------------------------------------------------------------------
 
 ## Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
 
@@ -945,13 +905,9 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 ![FE_Ostrow_1982](./img/img_FEM_table.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-------------------------------------------------------------------------
-
 <details>
 
 <summary>Ver más detalles.</summary>
-
----
 
 # Cálculo de la Frecuencia Efectiva Mínima
 
@@ -1169,18 +1125,12 @@ La implementación correcta de estos ajustes requiere una comprensión profunda 
 
 </details>
 
-------------------------------------------------------------------------
-
 Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **factores de marketing, *copy* y medios** que determinan los niveles de frecuencia efectiva. La imagen se toma del artículo citado al pie de la tabla.
 
 ![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
----
-
 <details>
 <summary>Ver más detalles.</summary>
-
----
 
 ### Ejemplo: cálculo MEF
 
@@ -1193,8 +1143,6 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 
 MEF = 1 + 1 [0 + 0 + 0 - 1] = 0
 
----
-
 - Líder (LC)
 - Televisión en prime time
 - No usuario de la categoría
@@ -1203,8 +1151,6 @@ MEF = 1 + 1 [0 + 0 + 0 - 1] = 0
 - Influencia personal > 0.25
 
 MEF = 1 + 1 [2 + 2 + 2 - 1] = 6
-
----
 
 - No Líder (No LC)
 - MEF líder +4\ TV prime time
@@ -1216,8 +1162,6 @@ MEF = 1 + 1 [2 + 2 + 2 - 1] = 6
 
 MEF = 1 + 1 [(4+1) + (~~4~~+1) + (~~4~~+1) - 1] = 7
 
----
-
 - No Líder (No LC)
 - MEF líder +4\ TV no prime time
 - Televisión no prime time
@@ -1228,15 +1172,10 @@ MEF = 1 + 1 [(4+1) + (~~4~~+1) + (~~4~~+1) - 1] = 7
 
 MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
-
 </details>
-
----
 
 <details>
 <summary>Ver más detalles.</summary>
-
-------------------------------------------------------------------------
 
 ### Ejemplo: Lanzamiento de cerveza artesana
 
@@ -1273,13 +1212,9 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 </details>
 
-------------------------------------------------------------------------
-
 <details>
 
 <summary>Ver más detalles.</summary>
-
-------------------------------------------------------------------------
 
 ### Ejemplo: lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
 
@@ -1386,8 +1321,6 @@ metricas
 
 </details>
 
-------------------------------------------------------------------------
-
 # Estrategias de cobertura y distribución de exposición
 
 La planificación de medios se fundamenta en dos dimensiones críticas que determinan el impacto de una campaña publicitaria: **la cobertura (reach) y la distribución de exposición (frecuencia)**. Como se ha expuesto anteriormente:
@@ -1413,8 +1346,6 @@ La distribución de exposición en cada patrón puede ser:
 > Flighting: Concentra la actividad en períodos específicos, alterna períodos de actividad con períodos de hiatus
 
 [Escuchar audio resumen](https://notebooklm.google.com/notebook/cfd21a5c-ca97-4971-9045-44318103d078/audio)
-
----
 
 # Patrones para marcas nuevas
 
@@ -1540,8 +1471,6 @@ Su éxito depende de una ejecución precisa y una coordinación perfecta de todo
 
 ![FE_Ostrow_1982](./img/img_short_fad_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-------------------------------------------------------------------------
-
 # Patrones para marcas establecidas
 
 ## El Patrón _Regular Purchase Cycle_ en la Planificación de Medios
@@ -1593,8 +1522,6 @@ La premisa fundamental del patrón _Awareness_ radica en el reconocimiento de qu
 <details>
 <summary>Ejemplo en el caso de los automóviles</summary>
 
----
-
 **Adaptabilidad del Patrón Notoriedad a la Compra de Automóviles**
 
 La compra de un automóvil es un proceso complejo que involucra un ciclo de compra extenso y un alto grado de implicación por parte del consumidor. Este tipo de compra suele estar motivada por necesidades específicas y requiere una considerable inversión, lo que lleva a los consumidores a realizar una búsqueda exhaustiva de información y a comparar diferentes opciones antes de tomar una decisión.
@@ -1608,8 +1535,6 @@ En este contexto, el Patrón Notoriedad, con su enfoque en mantener la marca pre
 - **Posicionamiento en el Conjunto de Consideración**: Al mantener la marca visible durante el proceso de búsqueda de información, el Patrón Notoriedad puede asegurar que la marca sea incluida en el conjunto de opciones que el consumidor evalúa.
 
 - **Construcción de Imagen de Marca**: La publicidad de baja intensidad puede utilizarse para comunicar los valores y atributos de la marca, construyendo una imagen positiva que influya en la decisión del consumidor.
-
----
 
 </details>
 
@@ -1713,8 +1638,6 @@ Este patrón resulta particularmente efectivo para productos y servicios con est
 
 El _Seasonal Priming_ representa una aproximación estratégica a mercados con demanda estacional, maximizando la efectividad a través de una preparación anticipada del mercado. Su éxito radica en la capacidad para construir presencia de marca y predisposición de compra antes del período de máxima demanda, permitiendo una mejor capitalización de las oportunidades comerciales durante los picos estacionales. ![FE_Ostrow_1982](./img/img_seasonal_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-------------------------------------------------------------------------
-
 # Control del plan de medios
 
 Finalmente, proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alcance):
@@ -1723,8 +1646,7 @@ Finalmente, proponemos un ejemplo sencillo e ilustrativo de cálculo de la cober
 
 > Número de personas expuestas durante un ciclo publicitario **al menos una vez**.
 
-
-***Tu*** **(hipotética campaña de ropa), una inserción por soporte**
+**Tu** **(hipotética campaña de ropa), una inserción por soporte**
 
 | Soportes                   | Alcance estimado |
 |----------------------------|------------------|
@@ -1796,8 +1718,6 @@ En la campaña de ropa *TU*, la distribución de contactos acumulada fue la sigu
 
 <summary>Ejemplo ilustrativo de una distribución de exposición ficticia</summary>
 
-------------------------------------------------------------------------
-
 El análisis presentado utiliza el paquete mediaPlanR en R para modelar la distribución de exposición (y acumulada). La función **calc_beta_binomial** implementa un modelo Beta-Binomial con tres parámetros principales: una audiencia tras la primera inserción (FIR) de 500.000 personas, una audiencia acumulada tras la segunda inserción (SIR) de 650.000 y un universo total de 1.000.000 de individuos, distribuidos en 5 niveles de exposición.
 
 Los resultados muestran que la campaña alcanza una cobertura total del 80,21% del universo (802.083 personas), con una distribución relativamente uniforme de contactos entre 1 y 5 exposiciones. La distribución acumulada revela que el 50% de la población recibe 3 o más contactos, mientras que aproximadamente un 20% de la audiencia queda sin exposición. El modelo estima una frecuencia media de 3.12 contactos por individuo alcanzado.
@@ -1847,8 +1767,6 @@ Media teórica de la distribución beta: 0.500
 
 </details>
 
-------------------------------------------------------------------------
-
 # mediaPlanR: Descripción General
 
 > **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios -preferentemente en prensa-, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
@@ -1897,8 +1815,6 @@ devtools::install_github("majesus/mediaPlanR", force = TRUE, upgrade = "never")
 - run_aud_util_explorer()
 - run_beta_binomial_explorer() 
 - run_reach_converg_explorer()
-
-------------------------------------------------------------------------
 
 ## Estimación de Cobertura y Distribución
 
@@ -1984,8 +1900,6 @@ La selección del modelo de estimación debe basarse en un análisis riguroso qu
 
 La comprensión de estos aspectos permite una elección informada que optimiza el balance entre precisión y complejidad del modelo.
 
-------------------------------------------------------------------------
-
 # Modelos de estimación de la cobertura y distribución de exposición
 
 # Modelo de Sainsbury (`calc_sainsbury`)
@@ -2002,8 +1916,6 @@ El modelo considera la duplicación aleatoria, las probabilidades individuales d
 -   Asume que las probabilidades de exposición individuales son homogéneas
 -   Las probabilidades de exposición edl soporte son heterogéneas
 
-------------------------------------------------------------------------
-
 Cobertura neta (probabilida de al menos 1 contacto):
 
 $$C = 1 - \prod_{i=1}^{n} \left(1 - \frac{A_i}{P}\right)$$
@@ -2019,8 +1931,6 @@ Aplicando la función de Sainsbury (simplificado) a los datos anteriormente expu
 
 $Cobertura_{neta} = 1 - (1-0,30) \times (1-0,20) \times (1-0,15) = 0,524$
 
-------------------------------------------------------------------------
-
 Distribución de contactos (probabilidad de exactamente k contactos):
 
 $$P(X=k) = \sum_{|S|=k} \prod_{i \in S} p_i \prod_{j \notin S} (1-p_j)$$
@@ -2031,8 +1941,6 @@ Donde:
 -   pi es la probabilidad de exposición al soporte i (Ai/P)
 -   El primer producto corresponde a las probabilidades de exposición a los soportes i
 -   El segundo producto corresponde a las probabilidades de no exposición a los soportes j
-
-------------------------------------------------------------------------
 
 ## Aplicación de la función
 
@@ -2083,8 +1991,6 @@ La función calc_binomial() Implementa el modelo Binomial, desarrollado por Chan
 -   La duplicación de las audiencias es un suceso aleatorio
 -   Las probabilidades de exposición son estacionarias
 
-------------------------------------------------------------------------
-
 Cobertura neta (probabilidad de al menos 1 contacto):
 
 $$p = \frac{1}{P} \sum_{i=1}^{n} \frac{A_i}{n}$$
@@ -2096,8 +2002,6 @@ Donde:
 -   Ai es la audiencia del soporte i
 -   P es la población total
 
-------------------------------------------------------------------------
-
 Distribución de contactos (probabilidad de exactamente k contactos):
 
 $$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}$$
@@ -2107,8 +2011,6 @@ Donde:
 -   k es el número de contactos
 -   n es el número de soportes
 -   p es la probabilidad media calculada anteriormente
-
-------------------------------------------------------------------------
 
 ## Aplicación de la función
 
@@ -2158,16 +2060,12 @@ Implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y 
 -   Asume la estacionariedad (estabilidad en el tiempo) de las probabilidades de exposición respecto a los individuos o a las inserciones
 -   Requiere datos de audiencias acumuladas (A1 y A2)
 
-------------------------------------------------------------------------
-
 Distribución de contactos ((probabilidad de exactamente k contactos))
 
 $$P(X=k|n,\alpha,\beta) = \binom{n}{k} \frac{B(k+\alpha, n-k+\beta)}{B(\alpha, \beta)}$$
 
 <details>
 <summary>Mayor detalle</summary>
-
-***
 
 **¿Qué modela la distribución beta en este contexto?** La distribución beta modela la heterogeneidad de las probabilidades individuales de exposición (p) en la población. No es una distribución para cada individuo, sino una única distribución que describe cómo varían las probabilidades entre individuos.
 
@@ -2181,8 +2079,6 @@ $$P(X=k|n,\alpha,\beta) = \binom{n}{k} \frac{B(k+\alpha, n-k+\beta)}{B(\alpha, \
 Matemáticamente: P(X=k) = C(n,k)B($\alpha$+k,$\beta$+n-k)/B($\alpha$,$\beta$)
 
 **¿Por qué no es aleatoria la acumulación?** Porque las probabilidades individuales son persistentes y provienen de una distribución que modela la heterogeneidad poblacional, no de un proceso puramente aleatorio.
-
-***
 
 </details>
 
@@ -2205,8 +2101,6 @@ Donde:
 -   $\alpha$ (alpha) controla la asimetría hacia valores altos de probabilidad
 -   $\beta$ (beta) controla la asimetría hacia valores bajos de probabilidad
 
-------------------------------------------------------------------------
-
 $$\alpha = \frac{R_1(R_2 - R_1)}{2R_1 - R_1^2 - R_2}$$
 
 $$\beta = \alpha \frac{1 - R_1}{R_1}$$
@@ -2216,13 +2110,8 @@ Donde:
 -   R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
 -   R2 es la proporción de audiencia alcanzada (al menos 2 veces) tras la segunda inserción
 
-------------------------------------------------------------------------
-
-
 ![FE_Ostrow_1982](./img/img_bb_alpha_alto.png)
 ![FE_Ostrow_1982](./img/img_bb_beta_alto.png)
-
-------------------------------------------------------------------------
 
 ## Aplicación de la función
 
@@ -2458,8 +2347,6 @@ Donde:
 
 Esta constante d se utiliza luego en la fórmula para calcular la cobertura para N inserciones, asumiendo que la duplicación entre cualquier par de días será siempre la misma.
 
-------------------------------------------------------------------------
-
 ## Aplicación de la función
 
 ``` r
@@ -2503,8 +2390,6 @@ Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en e
 
 -   El valor RM debe calcularse previamente usando la fórmula de Morgensztern
 
-------------------------------------------------------------------------
-
 ## Aplicación de la función
 
 ``` r
@@ -2530,8 +2415,6 @@ Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-B
 -   Determina número óptimo de inserciones
 -   Genera distribución de contactos completa
 -   Permite ajustar tolerancia y criterios de convergencia
-
-------------------------------------------------------------------------
 
 ### Aplicación de la función
 
@@ -2564,8 +2447,6 @@ Esta función optimiza la distribución de contactos publicitarios y calcula los
 -   Genera distribución de contactos completa
 -   Permite ajustar tolerancia y criterios de convergencia
 
-------------------------------------------------------------------------
-
 ### Aplicación de la función
 
 ``` r
@@ -2592,8 +2473,6 @@ Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 -   Maneja restricciones presupuestarias
 -   Permite exclusión de soportes específicos
 -   Trabaja con audiencias brutas o útiles
-
-------------------------------------------------------------------------
 
 ### Aplicación de la función
 
@@ -2632,8 +2511,6 @@ resultado_util <- optimize_media_plan(
 )
 ```
 
-***
-
 # Casos Prácticos
 
 ## RNE 
@@ -2644,11 +2521,7 @@ resultado_util <- optimize_media_plan(
 
 ![FE_Ostrow_1982](./img/img_EGM_indice_afinidad.png)
 
-___
-
 ![FE_Ostrow_1982](./img/img_EGM_audiencia_util.png)
-
-___
 
 ## MediCare
 
@@ -2724,7 +2597,6 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
   * Norte: 8.5 millones
   * Centro: 11.2 millones
   * Levante: 6.8 millones
-___
 
 ## FórmulaPlus
 
@@ -2896,8 +2768,6 @@ resultado_bruto <- optimize_media_plan(
   usar_audiencia_util = FALSE
 )
 ```
-
-***
 
 # Características Generales del Paquete
 
