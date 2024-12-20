@@ -471,9 +471,9 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 ## Conceptos básicos de la planificación de medios
 
-### Métricas relativas a la población:
+## Métricas relativas a la población:
 
-#### A. BDI / CDI
+### A. BDI / CDI
 
 > El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
@@ -529,7 +529,7 @@ Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a 
 
 ------------------------------------------------------------------------
 
-#### B. Coeficiente (índice) de afinidad
+### B. Coeficiente (índice) de afinidad
 
 > El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con la población considerada en su conjunto.
 
@@ -553,7 +553,7 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 
 ------------------------------------------------------------------------
 
-### Métricas relativas a los soportes:
+## Métricas relativas a los soportes:
 
 **Audiencia o Audiencia Bruta**\
 Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil o la cobertura.
@@ -590,7 +590,7 @@ Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Caracter
 -   Representa una oportunidad de ver, leer o escuchar el anuncio durante el ciclo publicitario, no la atención efectiva
 -   Es la unidad básica para medir la intensidad de una campaña
 
-### Métricas de cobertura y frecuencia
+## Métricas de cobertura y frecuencia
 
 **Alcance o Cobertura (Reach)**\
 Número absoluto (o relativo) de individuos expuestos al menos una vez ($\geq$ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
@@ -685,7 +685,7 @@ Problemas que esto genera:
 -   No considera la calidad de los impactos o el contexto
 -   Puede llevar a decisiones erróneas si solo se mira el número final
 
-### Métricas de eficiencia y costes
+## Métricas de eficiencia y costes
 
 **CPM (Coste Por Mil)**\
 Coste de alcanzar a mil personas de la audiencia o de la cobertura alcanzada. Características:
@@ -708,7 +708,7 @@ Representa la cuota de voz o presencia publicitaria de una marca en comparación
 -   Permite comparar la presencia mediática entre competidores o medios en que se programa
 -   Es un indicador clave del esfuerzo publicitario relativo
 
-### Métricas avanzadas de planificación
+## Métricas avanzadas de planificación
 
 **Ciclo Publicitario**\
 Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
@@ -810,7 +810,7 @@ Población = 500.000 personas
 
 La función **calcular_metricas_medios()** del paquete mediaPlanR permite estimar la tabla resumen del conjunto de soportes elegidos.
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 resultado <- calcular_metricas_medios(
@@ -892,21 +892,21 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
 ------------------------------------------------------------------------
 
-### A. Cobertura efectiva
+## A. Cobertura efectiva
 
 > Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF).
 
-### B. Frecuencia efectiva
+## B. Frecuencia efectiva
 
 > Se refiere al número de veces ( *oportunidades de ver* ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. La frecuencia efectiva se define en el contexto de dos límites, a saber, **Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF)**.
 
 ![FE_Ostrow_1982](./img/img_MEF_MaxEF.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-#### B.1. Frecuencia Efectiva Mínima (MEF)
+### B.1. Frecuencia Efectiva Mínima (MEF)
 
 > Es el número mínimo de exposiciones necesarias para que la disposición a la compra supere el umbral crítico que activa el comportamiento deseado. Por debajo del valor MEF la publicidad no será efectiva, es decir, *no habrá merecido la pena*.
 
-#### B.2. Frecuencia Efectiva Máxima (MaxEF)
+### B.2. Frecuencia Efectiva Máxima (MaxEF)
 
 > La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo. El valor MaxEF se alcanza cuando las exposiciones adicionales ya no aumentan la probabilidad de compra, e incluso, puede decrecer.
 
@@ -921,7 +921,7 @@ La recencia no se centra en alcanzar un número específico de exposiciones como
 
 ------------------------------------------------------------------------
 
-### C. Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
+## C. Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
 
 La frecuencia efectiva mínima (MEF) se puede determinar mediante la fórmula:
 
@@ -953,7 +953,7 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 ---
 
-### Conceptos Clave en el Cálculo de MEF (Minimum Effective Frequency)
+## Conceptos Clave en el Cálculo de MEF (Minimum Effective Frequency)
 
 ### _Vehicle Attention_ (VA)
 
@@ -1152,7 +1152,7 @@ Esta estrategia dual respetaría tanto la necesidad inicial de información como
 -   Típico en productos de consumo privado o baja implicación social
 -   No permite reducir la frecuencia publicitaria
 
-### Consideraciones adicionales para el Cálculo del MEF:
+## Consideraciones adicionales para el Cálculo del MEF:
 
 En la determinación del MEF, existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (Largest Competitor, LC) y los ajustes necesarios en diferentes contextos mediáticos.
 
@@ -1182,7 +1182,7 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 
 ---
 
-## 4 ejemplos de cálculo MEF
+### Ejemplo: cálculo MEF
 
 - No líder (no LC)
 - Televisión en prime time
@@ -1238,7 +1238,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 ------------------------------------------------------------------------
 
-## Ejemplo de examen: lanzamiento de cerveza artesana
+### Ejemplo: lanzamiento de cerveza artesana
 
 - La empresa C lanzará una nueva marca de cerveza artesana al mercado, dirigida al público no consumidor de cerveza artesanal. 
 - La campaña de comunicación busca establecer una emoción basada en la alegría, amistad, diversión y celebración, mostrando grupos de amigos disfrutando de momentos agradables en un ambiente festivo y relajado. 
@@ -1281,7 +1281,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 ------------------------------------------------------------------------
 
-## Caso Práctico 1 (ficticio): lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
+### Caso Práctico (ficticio): lanzamiento de VitaBiome+ en el Mercado de Yogures Funcionales
 
 ### Contexto de Mercado
 
@@ -1317,7 +1317,7 @@ La categoría de alimentos funcionales _premium_ se caracteriza por un alto comp
 
 Activia, como competidor principal (LC), mantiene una frecuencia media de 3 impactos semanales en sus medios principales. El ciclo de compra típico en la categoría es quincenal, y los estudios de mercado indican una alta sensibilidad a la recomendación profesional.
 
-## Caso Práctico 2 (ficticio): EcoRide Scooters
+## Caso Práctico (ficticio): EcoRide Scooters
 
 **Contexto de Mercado**
 
@@ -1418,25 +1418,25 @@ La distribución de exposición en cada patrón puede ser:
 
 ## Patrones para marcas nuevas
 
-### El Patrón _Blitz_ en la Planificación de Medios
+## El Patrón _Blitz_ en la Planificación de Medios
 
-#### Fundamentos y Aplicación
+### Fundamentos y Aplicación
 
 El modelo o patrón _Blitz_ representa la máxima expresión de intensidad publicitaria en el lanzamiento de nuevos productos o servicios al mercado. Esta estrategia se caracteriza por mantener una presencia publicitaria continua y dominante, alcanzando el 100% del público objetivo con una frecuencia mínima elevada durante el ciclo contratado. Su principal objetivo es maximizar la tasa de prueba del producto (*trial rate*) y suprimir los efectos de la publicidad competitiva mediante el dominio sostenido.
 
 La potencia del patrón _Blitz_ radica en su capacidad para establecer el estándar de la categoría antes de la entrada de competidores. Esta aproximación permite asegurar el dominio en la comunicación desde el inicio, estableciendo una posición de liderazgo difícil de disputar por competidores subsecuentes. La estrategia aprovecha las ventajas del primer entrante, aunque esto implica asumir la responsabilidad y el costo de educar al mercado.
 
-#### Implementación y Desarrollo
+### Implementación y Desarrollo
 
 La ejecución efectiva del patrón _Blitz_ requiere una planificación meticulosa que integre una estrategia de medios fundamentada en vehículos masivos de alta cobertura, complementados estratégicamente con medios de alta afinidad. Es crucial mantener una presión publicitaria constante y dominante, eliminando por completo los períodos sin publicidad (*hiatus*). La distribución de impactos debe ser homogénea, asegurando una presencia continua y consistente en el mercado.
 
 Para lograr esta consistencia, resulta fundamental desarrollar un portafolio diverso de ejecuciones creativas que mantengan el interés del público sin generar desgaste (*wearout*). Este _pool_ de contenidos debe adaptarse según la naturaleza del producto y los objetivos de comunicación específicos de la campaña, considerando si se trata de publicidad informacional o transformacional.
 
-#### Aplicaciones y Contextos Óptimos
+### Aplicaciones y Contextos Óptimos
 
 El patrón _Blitz_ demuestra particular efectividad en el lanzamiento de productos tecnológicos de nueva generación y plataformas digitales disruptivas. También resulta especialmente adecuado para nuevas cadenas de retail o servicios que pretenden redefinir una categoría de mercado. La clave del éxito reside en la capacidad de mantener una presencia dominante y consistente que establezca la marca como referente indiscutible de la categoría.
 
-#### Consideraciones Estratégicas y Evaluación
+### Consideraciones Estratégicas y Evaluación
 
 La implementación del patrón _Blitz_ debe adaptarse considerando la naturaleza del producto y el nivel de riesgo percibido en su prueba. El éxito se mide principalmente a través del alcance, la frecuencia de exposición y la capacidad de suprimir el impacto de la publicidad competitiva. La inversión requerida es significativa, pero debe contemplarse como el coste necesario para asegurar una posición de liderazgo sostenible en el mercado.
 
@@ -1446,25 +1446,25 @@ El patrón _Blitz_, aunque demandante en términos de recursos, representa una h
 
 ![FE_Ostrow_1982](./img/img_blitz_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón _Wedge_ en la Planificación de Medios
+## El Patrón _Wedge_ en la Planificación de Medios
 
-#### Fundamentos y Aplicación
+### Fundamentos y Aplicación
 
 El patrón _Wedge_  representa el enfoque más común para el lanzamiento de nuevos productos, caracterizándose por una estrategia de intensidad decreciente que mantiene el alcance mientras ajusta la frecuencia. Es importante notar que este patrón se refiere específicamente al patrón de *expenditure* (gasto) y no al patrón de alcance.
 
-#### Estrategia y Desarrollo
+### Estrategia y Desarrollo
 
 La lógica del patrón _Wedge_ se fundamenta en el comportamiento natural del consumidor frente a nuevos productos. La fase inicial de alta intensidad busca crear un fuerte conocimiento de marca (*brand awareness*) y facilitar el aprendizaje sobre los beneficios del producto (publicidad informacional) mientras se construye la imagen deseada (publicidad transformacional). Esta estrategia resulta particularmente efectiva para productos de compra regular, donde la prueba inicial puede conducir a la conversión de consumidores en *favorable brand switchers* (consumidores favorables a la marca) o *brand loyals* (consumidores leales a la marca).
 
 La eficiencia del patrón radica en reconocer que los consumidores que prueban y adoptan el producto en las fases iniciales requerirán menor frecuencia de exposición publicitaria en ciclos posteriores para mantener su estado de comunicación efectiva. Este principio permite una optimización natural de la inversión publicitaria a lo largo del tiempo.
 
-#### Implementación Práctica
+### Implementación Práctica
 
 El desarrollo del patrón Wedge se estructura típicamente en tres fases principales. La primera fase establece una presencia contundente en el mercado, similar a un _blitz_ inicial pero de menor duración. La segunda fase introduce una reducción gradual de la presión publicitaria, mientras que la tercera fase se centra en el mantenimiento estratégico de la presencia de marca.
 
 La planificación de medios evoluciona con cada fase, comenzando con una combinación de medios masivos y de alta afinidad, para luego transitar hacia una optimización que prioriza los medios más eficientes en términos de coste-beneficio. Esta evolución debe mantener la cobertura o alcance mientras se ajusta la frecuencia.
 
-#### Consideraciones Estratégicas
+### Consideraciones Estratégicas
 
 El efecto multiplicador de la primera oleada justifica la reducción gradual de la frecuencia publicitaria, permitiendo una optimización presupuestaria sin comprometer el impacto en el mercado.
 
@@ -1474,19 +1474,19 @@ El patrón Wedge representa una aproximación sofisticada y eficiente a la intro
 
 ![FE_Ostrow_1982](./img/img_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón _Reverse-Wedge/PI_ en la Planificación de Medios
+## El Patrón _Reverse-Wedge/PI_ en la Planificación de Medios
 
-#### Fundamentos y Concepto
+### Fundamentos y Concepto
 
 El patrón _Reverse-Wedge_, también conocido como _PI (Personal Influence)_, representa una estrategia de planificación de medios que capitaliza el poder de la influencia personal como catalizador para la adopción de productos o servicios. A diferencia del Wedge tradicional, este patrón comienza con un alcance limitado que se expande progresivamente, aprovechando el efecto multiplicador de la influencia social y la comunicación entre pares.
 
-#### Estrategia y Principios
+### Estrategia y Principios
 
 La esencia del Reverse-Wedge/PI radica en su comprensión sofisticada de cómo se difunden las innovaciones en el mercado. El patrón reconoce que, para ciertos productos y servicios, la adopción exitosa depende más de la influencia personal y la validación social que de la simple exposición publicitaria masiva. La estrategia construye deliberadamente una base de *innovators* (innovadores) y *early adopters* (adoptadores tempranos) que, actuando como líderes de opinión, facilitarán la expansión hacia el mercado masivo.
 
 ![FE_Ostrow_1982](./img/img_early_adopters.png)
 
-#### Implementación Práctica
+### Implementación Práctica
 
 El desarrollo del patrón se estructura en tres fases claramente diferenciadas. La primera fase se centra en los innovadores y *early adopters*, utilizando medios altamente segmentados y especializados. Por ejemplo, en el caso de una nueva tecnología empresarial, esta fase se enfoca en líderes de opinión del sector a través de medios profesionales específicos y eventos exclusivos.
 
@@ -1494,13 +1494,13 @@ La segunda fase expande el alcance hacia la *early majority* (mayoría temprana)
 
 La tercera fase amplía la comunicación hacia el mercado masivo, aprovechando el impulso generado por las fases anteriores. Es en este punto donde la estrategia puede incorporar medios masivos tradicionales, siempre manteniendo la coherencia con el mensaje y la credibilidad establecida inicialmente.
 
-#### Consideraciones Estratégicas
+### Consideraciones Estratégicas
 
 La planificación de medios en el Reverse-Wedge/PI debe mantener un delicado balance entre alcance y credibilidad. La frecuencia de exposición aumenta progresivamente, pero siempre de manera que refuerce la percepción de exclusividad y especialización. Las primeras fases pueden tener una frecuencia relativamente baja, con exposiciones más cualitativas y contextualizadas, aumentando gradualmente conforme el producto gana aceptación en el mercado.
 
 El timing resulta crucial en este patrón. Cada fase debe tener la duración suficiente para permitir que los mecanismos de influencia personal operen efectivamente. La fase inicial podría extenderse durante varios meses, permitiendo que los *early adopters* experimenten y validen el producto antes de ampliar la comunicación a segmentos más amplios.
 
-#### Evaluación y Optimización
+### Evaluación y Optimización
 
 El éxito del Reverse-Wedge/PI se mide a través de indicadores tanto cuantitativos como cualitativos. Estos incluyen el nivel de _engagement_ de los influenciadores clave, la calidad y cantidad de recomendaciones profesionales, la adopción por parte de organizaciones referentes y la generación de contenido especializado y casos de éxito.
 
@@ -1510,27 +1510,27 @@ El patrón Reverse-Wedge/PI representa una aproximación sofisticada a la introd
 
 ![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón _Short Fad_ en la Planificación de Medios
+## El Patrón _Short Fad_ en la Planificación de Medios
 
-#### Fundamentos y Concepto
+### Fundamentos y Concepto
 
 El patrón _Short Fad_ representa una estrategia de planificación de medios diseñada específicamente para productos o servicios con un ciclo de vida corto y concentrado. Este patrón funciona esencialmente como un _Blitz_ condensado, donde la intensidad publicitaria debe maximizarse en un período significativamente más breve. La urgencia y concentración son las características definitorias de esta estrategia.
 
-#### Estrategia y Principios
+### Estrategia y Principios
 
 La premisa fundamental del _Short Fad_ radica en la necesidad de crear un impacto inmediato y capitalizar rápidamente una oportunidad de mercado temporal. A diferencia de otros patrones que permiten una construcción gradual de *awareness* (conocimiento) y consideración, el Short Fad debe generar conocimiento y deseo de compra casi simultáneamente, reconociendo que el período de oportunidad es limitado y que la velocidad de penetración en el mercado es crítica para el éxito.
 
-#### Implementación Práctica
+### Implementación Práctica
 
 El desarrollo se estructura en tres fases comprimidas pero claramente definidas. La fase de introducción intensiva debe generar un conocimiento explosivo del producto, buscando alcanzar rápidamente a un porcentaje significativo del público objetivo con una frecuencia de exposición alta. La fase de crecimiento acelerado debe mantener la presión publicitaria mientras facilita una rápida conversión. Finalmente, la fase de capitalización rápida busca maximizar las ventas antes de que el interés decline.
 
 La planificación de medios debe priorizar la velocidad de construcción de cobertura sobre la eficiencia en costes. El mix de medios se selecciona principalmente por su capacidad para generar *awareness* y respuesta inmediata, complementándose con tácticas de activación. La frecuencia de exposición debe ser notablemente más alta que en patrones tradicionales, reconociendo que el período para generar el efecto deseado es mucho más corto.
 
-#### Aplicaciones y Consideraciones
+### Aplicaciones y Consideraciones
 
 Este patrón resulta especialmente efectivo para productos vinculados a tendencias o modas pasajeras, lanzamientos de películas y contenido de entretenimiento, eventos con fechas específicas y productos estacionales de corta duración. La capacidad de ajuste rápido es crucial, con un monitoreo prácticamente en tiempo real y la flexibilidad para realizar ajustes tácticos inmediatos según la respuesta del mercado.
 
-#### Estrategia y Evaluación
+### Estrategia y Evaluación
 
 La evaluación debe basarse en métricas que reflejen la inmediatez de sus objetivos, como la velocidad de construcción de *awareness*, la tasa de respuesta inmediata, la conversión rápida a ventas y la eficiencia en la generación de demanda inmediata. Los presupuestos deben contemplar la necesidad de adaptación ágil, manteniendo un porcentaje de la inversión como reserva táctica para reforzar los canales que demuestren mayor efectividad.
 
@@ -1544,35 +1544,35 @@ Su éxito depende de una ejecución precisa y una coordinación perfecta de todo
 
 ## Patrones para marcas establecidas
 
-### El Patrón _Regular Purchase Cycle_ en la Planificación de Medios
+## El Patrón _Regular Purchase Cycle_ en la Planificación de Medios
 
-#### Fundamentos y Concepto
+### Fundamentos y Concepto
 
 El patrón _Regular Purchase Cycle_ representa una estrategia de planificación de medios diseñada específicamente para productos y servicios que son adquiridos con una regularidad predecible. Esta estrategia se fundamenta en la sincronización precisa de la actividad publicitaria con los ciclos naturales de compra del consumidor, alternando períodos de actividad publicitaria con *hiatus* estratégicos (períodos sin publicidad).
 
-#### Bases Estratégicas
+### Bases Estratégicas
 
 La efectividad de este patrón radica en su alineación con el comportamiento real de compra del consumidor. Los estudios de comportamiento del consumidor han documentado ciclos específicos para diferentes categorías de productos, estableciendo patrones de compra regulares y predecibles. La comprensión de estos ciclos permite una planificación publicitaria más eficiente y efectiva.
 
-#### Implementación y Estructura
+### Implementación y Estructura
 
 La estructura básica del _Regular Purchase Cycle_ alterna períodos de actividad publicitaria con períodos de *hiatus*. La planificación debe considerar tres elementos fundamentales. Primero, el timing de la actividad publicitaria debe anticiparse ligeramente al momento de compra típico (reconocimiento de la necesidad), permitiendo influir en la decisión cuando el consumidor está comenzando a considerar la recompra. Segundo, la intensidad de la comunicación debe adaptarse al proceso de decisión de compra característico de la categoría. Tercero, la continuidad de la comunicación debe mantener un equilibrio entre la necesidad de estar presente en el momento crítico y la eficiencia en la inversión publicitaria.
 
-#### Consideraciones Tácticas y Carryover Effect
+### Consideraciones Tácticas y Carryover Effect
 
 Un elemento crucial en este patrón es el *carryover effect* (efecto residual). Durante los períodos de *hiatus*, las ventas pueden mantenerse gracias al efecto residual de la publicidad anterior y al refuerzo que proporcionan las actividades promocionales en el punto de venta. Este fenómeno, conocido como "histéresis publicitaria", permite optimizar la inversión sin comprometer la efectividad., en tanto que permite aprovechar la inercia de marca en tiempos de recortes presupuestarios, pues el "residuo" de campañas anteriores aún genera retorno a medio plazo.
 
 La selección de medios debe priorizar aquellos que mejor se adapten al ciclo de compra identificado. Para productos de compra frecuente, los medios digitales y punto de venta pueden ser especialmente relevantes por su capacidad de activación inmediata, mientras que los medios masivos tradicionales pueden cumplir un rol de mantenimiento de *awareness*.
 
-#### Optimización y Medición
+### Optimización y Medición
 
 La efectividad del patrón debe evaluarse considerando múltiples dimensiones. La cobertura efectiva durante los períodos de actividad debe ser suficiente para impactar al público objetivo en el momento relevante. El monitoreo de ventas durante los períodos de *hiatus* resulta crucial para validar la duración óptima de estos períodos. Si se observa una caída significativa en las ventas antes del siguiente ciclo publicitario, podría ser necesario ajustar la duración del *hiatus*.
 
-#### Coordinación con Marketing Mix
+### Coordinación con Marketing Mix
 
 La efectividad se maximiza cuando se coordina adecuadamente con otras actividades de marketing. Las promociones comerciales deberían planificarse considerando los ciclos publicitarios establecidos. De manera similar, las actividades en el punto de venta pueden ayudar a mantener la presencia de marca durante los períodos de *hiatus* publicitario.
 
-#### Adaptación y Flexibilidad
+### Adaptación y Flexibilidad
 
 Aunque el patrón se basa en ciclos regulares, debe mantener suficiente flexibilidad para adaptarse a cambios en el comportamiento del consumidor o condiciones del mercado. Eventos estacionales, cambios en el comportamiento de la competencia o situaciones especiales del mercado pueden requerir ajustes en la regularidad de los ciclos.
 
@@ -1580,13 +1580,13 @@ El _Regular Purchase Cycle_ representa una aproximación sofisticada y eficiente
 
 ![FE_Ostrow_1982](./img/img_regular_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón _Awareness_ en la Planificación de Medios
+## El Patrón _Awareness_ en la Planificación de Medios
 
-#### Fundamentos y Concepto
+### Fundamentos y Concepto
 
 El patrón _Awareness_ representa una estrategia de planificación de medios diseñada específicamente para productos y servicios que implican ciclos de compra extensos y procesos de decisión prolongados. Este patrón se distingue por mantener una presencia publicitaria constante pero de baja intensidad, priorizando el alcance sobre la frecuencia, con el objetivo fundamental de mantener la marca en el conjunto de consideración del consumidor durante largos períodos.
 
-#### Bases Estratégicas
+### Bases Estratégicas
 
 La premisa fundamental del patrón _Awareness_ radica en el reconocimiento de que, para ciertas categorías de productos, el consumidor puede pasar meses o incluso años considerando la compra antes de tomar una decisión final. En estos casos, la estrategia publicitaria debe mantener la marca "presente" en la mente del consumidor, sin necesidad de generar una respuesta inmediata. La efectividad del patrón depende de su capacidad para mantener la marca como una opción relevante y deseable cuando llegue el momento de la decisión.
 
@@ -1613,13 +1613,13 @@ En este contexto, el Patrón Notoriedad, con su enfoque en mantener la marca pre
 
 </details>
 
-#### Implementación Práctica
+### Implementación Práctica
 
 La ejecución del patrón _Awareness_ se estructura típicamente en ciclos regulares de comunicación con características particulares. La frecuencia por ciclo puede ser relativamente baja, buscando alcanzar al público objetivo con exposiciones suficientes para mantener la presencia de marca. Los intervalos entre ciclos deben ser lo suficientemente cortos para mantener la continuidad en la mente del consumidor.
 
 La comunicación debe combinar elementos de construcción de marca con mecanismos de respuesta directa. Esta dualidad permite mantener la presencia de marca mientras se facilita la acción cuando el consumidor está listo para avanzar en su proceso de decisión. Un ejemplo ilustrativo es la estrategia utilizada por los consorcios de turismo, que combinan comunicación de construcción de marca en medios masivos con elementos de respuesta directa integrados.
 
-#### Integración de Elementos de Respuesta
+### Integración de Elementos de Respuesta
 
 Los elementos de respuesta directa deben integrarse de manera sutil pero efectiva, incluyendo llamadas a la acción no intrusivas pero claras, mecanismos de contacto múltiples y adaptados al perfil del target, sistemas de seguimiento y nutrición de leads, y contenido valioso que justifique el contacto. La clave está en facilitar la acción sin presionar, reconociendo que el tiempo de decisión es variable para cada consumidor.
 
@@ -1633,11 +1633,11 @@ Para integrar **elementos de respuesta directa** en este patrón, se pueden util
 
 La clave del éxito en este tipo de estrategia radica en facilitar la acción sin presionar al consumidor, reconociendo que cada persona necesita un tiempo diferente para tomar una decisión de compra.
 
-#### Consideraciones Estratégicas
+### Consideraciones Estratégicas
 
 La selección de medios debe equilibrar dos objetivos aparentemente contradictorios: la necesidad de mantener presencia en medios de alto impacto que contribuyan a la construcción de marca y percepción de valor, y la importancia de incluir medios más económicos que permitan mantener la continuidad dentro de presupuestos razonables.
 
-#### Evaluación y Métricas
+### Evaluación y Métricas
 
 La medición de efectividad en el patrón _Awareness_ debe considerar métricas de largo plazo como el nivel de consideración de marca, la calidad de la percepción de marca, el engagement con contenidos profundos, la generación y maduración de leads, y la eficiencia en la conversión final. Es fundamental establecer KPIs intermedios que permitan validar la estrategia antes de las conversiones finales.
 
@@ -1645,43 +1645,43 @@ El patrón _Awareness_ representa una aproximación sofisticada a la planificaci
 
 ![FE_Ostrow_1982](./img/img_awareness_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón _Shifting Reach_ en la Planificación de Medios
+## El Patrón _Shifting Reach_ en la Planificación de Medios
 
-#### Fundamentos y Concepto
+### Fundamentos y Concepto
 
 El patrón _Shifting Reach_ representa una estrategia de planificación de medios innovadora que se caracteriza por su movimiento sistemático entre diferentes segmentos del mercado objetivo. Este patrón está diseñado para categorías donde la demanda está dispersa en el tiempo y el espacio, pero que requieren una comunicación intensiva cuando se contacta con cada segmento específico. La estrategia reconoce que, para ciertos productos y servicios, es más efectivo concentrar los recursos publicitarios en segmentos específicos del mercado de manera rotativa que intentar mantener una presencia continua en todo el mercado simultáneamente.
 
-#### Bases Estratégicas
+### Bases Estratégicas
 
 La estrategia se fundamenta en la comprensión de que algunos mercados son más efectivamente abordados a través de una segmentación temporal de la comunicación. La efectividad del patrón radica en su capacidad para maximizar el impacto en cada segmento específico durante su período de activación, en lugar de diluir los recursos tratando de alcanzar a todo el mercado continuamente.
 
-#### Implementación Práctica
+### Implementación Práctica
 
 El desarrollo del _Shifting Reach_ se estructura en ciclos publicitarios secuenciales y bien definidos, donde cada ciclo se enfoca en un segmento específico del mercado. La implementación requiere una coordinación precisa entre varios elementos:
 
 El timing de los ciclos debe ser suficiente para generar impacto pero no tan largo que pierda eficiencia. La selección de medios para cada ciclo debe utilizar la combinación más eficiente para su segmento específico, considerando no solo el alcance sino también la afinidad y el contexto. Aunque el mensaje _core_ debe mantener consistencia, puede adaptarse en tono y enfoque para cada segmento específico.
 
-#### Planificación y Coordinación
+### Planificación y Coordinación
 
 La selección de medios debe optimizarse para cada segmento específico. Por ejemplo, el segmento profesional puede abordarse a través de medios digitales especializados durante horarios laborales, mientras que el segmento doméstico puede alcanzarse mediante televisión en franjas específicas. La intensidad de la comunicación durante cada ciclo debe ser suficiente para generar impacto significativo en el segmento objetivo.
 
-#### Ventajas y Consideraciones
+### Ventajas y Consideraciones
 
 El _Shifting Reach_ ofrece varias ventajas distintivas. Permite una mayor eficiencia presupuestaria al concentrar recursos en segmentos específicos. La estrategia reconoce que no todos los consumidores están en el mercado al mismo tiempo, facilitando una mejor utilización de los recursos publicitarios al evitar la dispersión. Además, proporciona flexibilidad táctica para adaptar la comunicación a las características específicas de cada segmento.
 
-#### Evaluación y Optimización
+### Evaluación y Optimización
 
 La medición de la efectividad debe realizarse a dos niveles. A nivel de ciclo individual, se evalúa el alcance efectivo en el segmento objetivo, la frecuencia de impacto durante el período activo y la respuesta generada en el segmento específico. A nivel de patrón completo, se analiza la cobertura acumulada del mercado total, la eficiencia en la construcción de awareness y el equilibrio en la distribución de impactos.
 
-#### Aplicación y Adaptación
+### Aplicación y Adaptación
 
 Para implementar exitosamente este patrón, es crucial desarrollar una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Se debe establecer un sistema de medición que permita evaluar la efectividad en cada ciclo y realizar ajustes. Es fundamental mantener la consistencia en el mensaje core mientras se adapta la ejecución para cada segmento.
 
 El _Shifting Reach_ representa una aproximación sofisticada a la planificación de medios que reconoce la naturaleza dinámica y segmentada de ciertos mercados. Su éxito depende de una implementación precisa y una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Cuando se ejecuta correctamente, este patrón permite maximizar el impacto de presupuestos limitados y generar una presencia efectiva en el mercado a través de una aproximación sistemática y focalizada. ![FE_Ostrow_1982](./img/img_shifting_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
-### El Patrón _Seasonal Priming_ en la Planificación de Medios
+## El Patrón _Seasonal Priming_ en la Planificación de Medios
 
-#### Fundamentos y Concepto
+### Fundamentos y Concepto
 
 El patrón _Seasonal Priming_ representa una estrategia de planificación de medios específicamente diseñada para productos y servicios con marcada estacionalidad. Este patrón se distingue por su enfoque anticipatorio, preparando el mercado antes de los picos estacionales de demanda y maximizando la efectividad durante los períodos de mayor oportunidad comercial. La estrategia reconoce dos momentos críticos: el período de "priming" o preparación, y el pico estacional propiamente dicho. 
 
@@ -1693,21 +1693,21 @@ El patrón se adapta según el nivel de riesgo de la compra. Para productos de b
 
 La ejecución del _Seasonal Priming_ se estructura en tres fases principales. La fase de pre-temporada (priming) se caracteriza por un alcance amplio pero frecuencia moderada, con énfasis en contenido educativo e informativo para la construcción de awareness y consideración. La fase de temporada alta maximiza la intensidad publicitaria, combinando medios de alto impacto con frecuencia elevada y mensajes orientados a la acción y compra inmediata. La fase de post-temporada reduce la intensidad pero mantiene una presencia selectiva, enfocándose en ventas de oportunidad y preparación para el siguiente ciclo.
 
-#### Consideraciones Estratégicas
+### Consideraciones Estratégicas
 
 La planificación debe considerar que la mayoría de los competidores suelen adoptar la misma estrategia de medios, lo que genera una alta concentración publicitaria alrededor del pico estacional. El patrón de priming responde a esta realidad introduciendo vuelos publicitarios de alto alcance pero baja frecuencia antes del desarrollo del pico estacional.
 
 La publicidad pre-temporada "prepara" a los consumidores, creando awareness de marca sin interferencia competitiva. Este priming temprano alcanza a los consumidores cuando su nivel de necesidad de la categoría es bajo, permitiendo establecer presencia de marca y comunicar mensajes sin la saturación típica del período pico.
 
-#### Optimización y Timing
+### Optimización y Timing
 
 El timing resulta crucial en este patrón. La actividad pre-temporada debe iniciarse con suficiente anticipación para construir awareness, pero no tan temprano que pierda relevancia. Las transiciones entre fases deben ser fluidas, respondiendo a indicadores de mercado y patrones históricos de comportamiento del consumidor.
 
-#### Evaluación y Adaptación
+### Evaluación y Adaptación
 
 La efectividad del patrón debe evaluarse considerando tanto los resultados durante el período pico como la eficiencia del priming en la construcción de predisposición de compra. Es fundamental monitorear la respuesta del mercado durante las diferentes fases para optimizar el timing y la intensidad de la comunicación en ciclos futuros.
 
-#### Aplicaciones y Variaciones
+### Aplicaciones y Variaciones
 
 Este patrón resulta particularmente efectivo para productos y servicios con estacionalidad clara, ya sea por factores climáticos, culturales o de comportamiento del consumidor. La estrategia puede adaptarse según la duración del ciclo estacional, la complejidad del producto y el nivel de competencia en el mercado.
 
@@ -1715,7 +1715,7 @@ El _Seasonal Priming_ representa una aproximación estratégica a mercados con d
 
 ------------------------------------------------------------------------
 
-## Control (resultados esperados) del plan de medios en términos de cobertura y distribución de exposición
+## Control del plan de medios
 
 Finalmente, proponemos un ejemplo sencillo e ilustrativo de cálculo de la cobertura (o alcance):
 
@@ -1986,9 +1986,9 @@ La comprensión de estos aspectos permite una elección informada que optimiza e
 
 ------------------------------------------------------------------------
 
-### Modelos de estimación de la cobertura y distribución de exposición
+## Modelos de estimación de la cobertura y distribución de exposición
 
-### Modelo de Sainsbury (`calc_sainsbury`)
+## Modelo de Sainsbury (`calc_sainsbury`)
 
 **Modelo de duplicación de audiencias o cobertura neta**
 
@@ -1996,7 +1996,7 @@ La función calc_sainsbury() implementa el modelo de Sainsbury, desarrollado por
 
 El modelo considera la duplicación aleatoria, las probabilidades individuales de exposición homogéneas, y las probabilidades de exposición del soporte heterogéneas para una estimación más precisa de la cobertura y la distribución de contactos (y acumulada). De las dos últimas hipótesis se deriva que la probabilidad de que un individuo resulte expuesto al soporte i vendrá dado por el cociente entre la audiencia del soporte i (casos favorables) y la población (casos totales). Por su parte, de la asunción de la duplicación aleatoria se deriva que la probabilidad de exposición continuará siendo una variable Bernouilli con diferentes probabilidadades de exposición en cada soporte.
 
-#### Características:
+### Características:
 
 -   Considera la independencia entre soportes, es decir, la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro (duplicación aleatoria)
 -   Asume que las probabilidades de exposición individuales son homogéneas
@@ -2034,7 +2034,7 @@ Donde:
 
 ------------------------------------------------------------------------
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 > library(mediaPlanR)
@@ -2070,13 +2070,13 @@ RESUMEN ESTADÍSTICO:
 Promedio de contactos por individuo alcanzado: 1.36
 ```
 
-### Modelo Binomial (`calc_binomial`)
+## Modelo Binomial (`calc_binomial`)
 
 **Modelo de duplicación de audiencias o cobertura neta**
 
 La función calc_binomial() Implementa el modelo Binomial, desarrollado por Chandon (1985), para calcular la cobertura y distribución de contactos (y acumulada) de plan de medios de n soportes y una única inserción por soporte. El modelo Binomial asume la duplicación aleatoria (i.e.,la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro), y la homogeneidad de las probabilidades de exposición del soporte y las probabilidades individuales de exposición. Uniendo estas dos hipótesis últimas, la probabilidad de exposición de cualquier individuo a un soporte determinado se calcula como la media de las audiencias de cada soporte. Las probabilidades de exposición son estacionarias respecto al tiempo.
 
-#### Características:
+### Características:
 
 -   Cada individuo de la población tiene la misma probabilidad de exposición a un soporte i
 -   La probabilidad de exposición a cada soporte es la misma para cada uno de ellos
@@ -2110,7 +2110,7 @@ Donde:
 
 ------------------------------------------------------------------------
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 > library(mediaPlanR)
@@ -2147,11 +2147,11 @@ RESUMEN ESTADÍSTICO:
 Promedio de contactos por individuo alcanzado: 1.37
 ```
 
-### Modelo Beta-Binomial (`calc_beta_binomial`)
+## Modelo Beta-Binomial (`calc_beta_binomial`)
 
 Implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y la distribución de exposición (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros alpha y beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
 
-#### Características:
+### Características:
 
 -   Modela heterogeneidad de la población en sus probabilidades de exposición
 -   La acumulación de audiencias no es aleatoria
@@ -2224,7 +2224,7 @@ Donde:
 
 ------------------------------------------------------------------------
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 resultado <- calc_beta_binomial(
@@ -2274,7 +2274,7 @@ resultado
 
 ```
 
-### Modelo de Metheringham (`calc_metheringham`)
+## Modelo de Metheringham (`calc_metheringham`)
 
 El modelo de Metheringham es un modelo estocástico para calcular la cobertura y la distribución de contactos de un plan de medios publicitarios. Fue desarrollado por Richard Metheringham en 1964. El modelo es particularmente útil porque permite evaluar planes de medios complejos donde hay múltiples inserciones distribuidas en diferentes soportes, considerando cómo la audiencia se acumula y se duplica entre diferentes medios.
 
@@ -2303,7 +2303,7 @@ Después, se analiza la **audiencia acumulada que se obtiene tras dos insercione
 
 Con estos datos de audiencia, se estiman dos parámetros fundamentales (alpha y beta) que caracterizan la distribución beta del modelo. Estos parámetros permiten calcular tanto la distribución de contactos como la cobertura total del plan de medios.
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 matriz_dup <- matrix(c(
@@ -2389,7 +2389,7 @@ resultado
 
 ```
 
-### Modelo de Hofmans (`calc_hofmans`)
+## Modelo de Hofmans (`calc_hofmans`)
 
 El modelo de Hofmans (1966) aborda específicamente el problema de la acumulación de audiencias para múltiples inserciones en un mismo soporte. Su aportación fundamental radica en adaptar la formulación de Agostini (1961), diseñada originalmente para el cálculo de cobertura entre diferentes soportes, al caso de inserciones sucesivas en un único soporte.
 
@@ -2397,7 +2397,7 @@ El modelo se basa en dos supuestos simplificadores fundamentales: la constancia 
 
 Para su aplicación práctica, el modelo requiere únicamente conocer las coberturas de las dos primeras inserciones, permitiendo estimar la cobertura para cualquier número posterior de inserciones. Esta estructura lo hace especialmente útil para la planificación de campañas con múltiples inserciones en un mismo soporte, ofreciendo una estimación más precisa del comportamiento real de la acumulación de audiencias a medio y largo plazo.
 
-#### Características:
+### Características:
 
 Objetivo del modelo:
 
@@ -2460,7 +2460,7 @@ Esta constante d se utiliza luego en la fórmula para calcular la cobertura para
 
 ------------------------------------------------------------------------
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 R1 <- 0.06    
@@ -2471,11 +2471,11 @@ print(resultado$results)
 print(resultado$parametros)
 ```
 
-### Modelo MBBD, _Morgensztern Beta Binomial Distribution_
+## Modelo MBBD, _Morgensztern Beta Binomial Distribution_
 
 Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en el desarrollo del modelo Hofmans beta binomial, con la salvedad ya señalada de que la cobertura se estimaría mediante la fórmula propuesta por Morgensztem (1970).
 
-#### Características:
+### Características:
 
 1.  Estimación Iterativa de los Parámetros A y B:
 
@@ -2505,7 +2505,7 @@ Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en e
 
 ------------------------------------------------------------------------
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 resultado <- calc_MBBD(
@@ -2518,11 +2518,11 @@ resultado <- calc_MBBD(
 )
 ```
 
-### Optimización de Distribución de Contactos (`optimizar_d`)
+## Optimización de Distribución de Contactos (`optimizar_d`)
 
 Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 
-#### Características principales:
+### Características principales:
 
 -   Calcula parámetros óptimos alpha y beta
 -   Determina número óptimo de inserciones
@@ -2531,7 +2531,7 @@ Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-B
 
 ------------------------------------------------------------------------
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 resultado2 <- optimizar_d(
@@ -2551,11 +2551,11 @@ print(head(resultado$mejores_combinaciones))
 print(resultado$data)
 ```
 
-### Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
+## Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
 
 Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (MEF) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio MEF o más veces.
 
-#### Características principales:
+### Características principales:
 
 -   Calcula parámetros óptimos alpha y beta
 -   Determina número óptimo de inserciones
@@ -2564,7 +2564,7 @@ Esta función optimiza la distribución de contactos publicitarios y calcula los
 
 ------------------------------------------------------------------------
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 resultado <- optimizar_dc(
@@ -2580,11 +2580,11 @@ resultado <- optimizar_dc(
 )
 ```
 
-### Optimización de Plan de Medios (`optimize_media_plan`)
+## Optimización de Plan de Medios (`optimize_media_plan`)
 
 Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
-#### Características:
+### Características:
 
 -   Permite elegir entre modelo Sainsbury o Binomial
 -   Maneja restricciones presupuestarias
@@ -2593,7 +2593,7 @@ Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
 ------------------------------------------------------------------------
 
-#### Aplicación de la función:
+### Aplicación de la función:
 
 ``` r
 # Ejemplo con audiencia bruta y modelo Sainsbury
@@ -2632,7 +2632,7 @@ resultado_util <- optimize_media_plan(
 
 ***
 
-## Caso Práctico de Cálculo de la Audiencia útil
+## Caso Práctico: Cálculo de la Audiencia útil RNE
 
 - Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad del producto café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
@@ -2648,13 +2648,13 @@ ___
 
 ## Caso Práctico: El Reto de MediCare - Planificación de Medios en el Sector Salud
 
-#### Contexto Empresarial
+### Contexto Empresarial
 
 MediCare, una innovadora empresa del sector salud, está a punto de lanzar al mercado español una nueva línea de productos de autocuidado y bienestar. La compañía ha desarrollado una gama de suplementos vitamínicos _premium_ que combina ingredientes naturales con tecnología de absorción avanzada.
 
 El Director de Marketing, Carlos Ruiz, se enfrenta al reto de elegir el mercado regional más apropiado para el lanzamiento inicial y desarrollar una estrategia de medios efectiva que maximice el impacto entre una población consumidora de esta categoría de productos con un presupuesto limitado.
 
-#### Análisis de Mercado
+### Análisis de Mercado
 
 La empresa ha realizado un estudio de mercado en tres regiones diferentes, obteniendo los siguientes índices relativos aplicables a la categoría y a su marca:
 
@@ -2664,7 +2664,7 @@ La empresa ha realizado un estudio de mercado en tres regiones diferentes, obten
   | Centro        | 108  | 115  |
   | Levante       | 85   | 98   |
 
-#### Medios Disponibles
+### Medios Disponibles
 
 Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes de prensa con los siguientes datos:
 
@@ -2680,14 +2680,14 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
 | El Mediterráneo      | Levante | 343            | 490                        | 8.200               |
 | Diario de Levante    | Levante | 245            | 350                        | 5.800               |
 
-#### Objetivos de Campaña
+### Objetivos de Campaña
 
 - Cobertura efectiva mínima: 7% de la población objetivo
 - Frecuencia efectiva mínima: 5+ impactos
 - Restricción presupuestaria: 100.000€
 - Duración de campaña: 3 meses
 
-#### Tareas a Realizar
+### Tareas a Realizar
 
 1. **Selección de Mercado**
 - Analizar los índices CDI y BDI para cada región
@@ -2714,7 +2714,7 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
 - Evaluar si se cumplen los objetivos de cobertura y frecuencia
 - Proponer ajustes si fuera necesario
 
-#### Datos Adicionales para el Cálculo
+### Datos Adicionales para el Cálculo
 
 - Población objetivo en cada región:
   * Norte: 8.5 millones
@@ -2905,7 +2905,7 @@ resultado_bruto <- optimize_media_plan(
 -   Validación y manejo de errores integrado
 -   Seguimiento de progreso para operaciones largas
 
-## Manejo de Errores
+### Manejo de Errores
 
 El paquete incluye validación de entrada y manejo de errores:
 
@@ -2913,6 +2913,17 @@ El paquete incluye validación de entrada y manejo de errores:
 -   Verificaciones de consistencia
 -   Mensajes de error descriptivos
 -   Seguimiento de progreso
+
+## Contacto y Soporte
+
+-   **Autor**: Manuel J. Sánchez-Franco
+-   **ORCID**: [0000-0002-8042-3550](https://orcid.org/0000-0002-8042-3550)
+-   **Email**: [majesus\@us.es](mailto:majesus@us.es){.email}
+-   **Issues**: Para reportar problemas o sugerencias, usa la sección de [Issues](https://github.com/majesus/mediaPlanR/issues)
+
+## Licencia
+
+Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para más detalles.
 
 ## Referencias
 
@@ -2927,17 +2938,6 @@ El paquete incluye validación de entrada y manejo de errores:
 - Rossiter, J.R. y Danaher, P.J. (1998). Advanced Media Planning. Kluwer Academic Publishers, MAS, USA. 
 
 - Rossiter, J.R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company.
-
-## Contacto y Soporte
-
--   **Autor**: Manuel J. Sánchez-Franco
--   **ORCID**: [0000-0002-8042-3550](https://orcid.org/0000-0002-8042-3550)
--   **Email**: [majesus\@us.es](mailto:majesus@us.es){.email}
--   **Issues**: Para reportar problemas o sugerencias, usa la sección de [Issues](https://github.com/majesus/mediaPlanR/issues)
-
-## Licencia
-
-Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para más detalles.
 
 ## Cómo Citar
 
