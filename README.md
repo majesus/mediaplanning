@@ -1,4 +1,5 @@
 ---
+---
 output: 
   pdf_document:
     latex_engine: xelatex
@@ -6,6 +7,7 @@ output:
     toc: true
     includes:
       in_header: header.tex
+---
 ---
 
 # Herramientas tradicionales para la Planificación de Medios Publicitarios
