@@ -4,113 +4,6 @@ author: "Manuel J. Sánchez Franco"
 output: pdf_document
 ---
 
-# Herramientas tradicionales para la Planificación de Medios Publicitarios
-
-## Descripción General
-
-> **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios -preferentemente en prensa-, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
-
-El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios.
-
-## Instalación
-
-La forma más sencilla de instalar y configurar **mediaPlanR** es usando las siguientes instrucciones:
-
-``` r
-# Instalar el paquete devtools si no está instalado
-if (!requireNamespace("devtools", quietly = TRUE)) {
-  install.packages("devtools")
-}
-
-# Instalar mediaPlanR
-devtools::install_github("majesus/mediaPlanR", force = TRUE, upgrade = "never")
-```
-
-<details>
-<summary>Ejemplo ilustrativo</summary>
-
-``` r
-#------------------------------------------------------------#
-
-# Cargamos las bibliotecas
-library(tidyverse)
-library(mediaPlanR)
-
-#------------------------------------------------------------#
-
-# Ejemplo 1: Usando solo vectores
-resultado <- calcular_metricas_medios(
-  soportes = c("El País", "El Mundo"),
-  audiencias = c(1520000, 780000),
-  tarifas = c(39800, 35600),
-  ind_utilidad = c(0.5, 0.6),
-  pob_total = 39500000
-)
-resultado
-
-# Ejemplo 2: Usando CSV con nombres de columnas por defecto
-
-datos <- readr::read_csv(file = "https://raw.githubusercontent.com/majesus/mediaPlanR/refs/heads/main/data/datos_medios.csv", show_col_types = FALSE)
-
-resultado_bruto <- optimize_media_plan(
-  soportes_df = datos,
-  FEM = 1,
-  objetivo_cobertura = 10,
-  presupuesto_max = 100000,
-  poblacion = 1000000,
-  modelo = "sainsbury",
-  usar_audiencia_util = FALSE
-)
-head(resultado)
-
-#------------------------------------------------------------#
-
-# Ejemplo 3: Aplicando Sainsbury simplificado
-
-head(datos)
-?calc_sainsbury
-
-datos_filter <- datos %>%
-  filter(soportes %in% c("El Pais", "El Mundo", "As", "La Vanguardia")) %>%
-  glimpse()
-
-calc_sainsbury(datos_filter$audiencias, 39500000)
-
-# Comprobación 'a mano':
-
-v <- c(797863, 794822, 417843, 542975) / 39500000
-v <- 1 - v
-v <- prod(v)
-cobertura <- (1 - v) * 39500000
-cobertura
-
-#------------------------------------------------------------#
-
-# Ejemplo 4: optimización con audiencia bruta y modelo Sainsbury
-
-?optimize_media_plan
-
-datos <- data.frame(
-  soportes = c("Medio1", "Medio2", "Medio3"),
-  audiencias = c(100000, 80000, 500000),
-  tarifas = c(50000, 40000, 30000)
-)
-
-resultado_bruto <- optimize_media_plan(
-  soportes_df = datos,
-  FEM = 2,
-  objetivo_cobertura = 5,
-  presupuesto_max = 100000,
-  poblacion = 1000000,
-  modelo = "sainsbury",
-  usar_audiencia_util = FALSE
-)
-```
-
-</details>
-
-***
-
 ## Planificación de medios: conceptos básicos
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo (o target) de una marca de manera eficaz y eficiente**.
@@ -1862,6 +1755,26 @@ Media teórica de la distribución beta: 0.500
 </details>
 
 ------------------------------------------------------------------------
+
+## mediaPlanR: Descripción General
+
+> **mediaPlanR** proporciona un conjunto completo de herramientas para la planificación de medios publicitarios -preferentemente en prensa-, implementando diversos modelos para estimar la cobertura, distribución de contactos y acumulación de audiencia.
+
+El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de planificación de medios como Sainsbury, Binomial, Beta-Binomial, Metheringham o Hofmans, así como permite el cálculo de las métricas clásicas en la planificación de medios.
+
+### Instalación
+
+La forma más sencilla de instalar y configurar **mediaPlanR** es usando las siguientes instrucciones:
+
+``` r
+# Instalar el paquete devtools si no está instalado
+if (!requireNamespace("devtools", quietly = TRUE)) {
+  install.packages("devtools")
+}
+
+# Instalar mediaPlanR
+devtools::install_github("majesus/mediaPlanR", force = TRUE, upgrade = "never")
+```
 
 ## mediaPlanR: Funciones de mediaPlanR
 
