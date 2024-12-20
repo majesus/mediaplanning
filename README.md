@@ -24,7 +24,7 @@ Para el logro de los objetivos y el retorno de la inversión se debe pues reflex
 
 A partir de estas consideraciones, un planificador de medios debe pues plantearse un conjunto de preguntas clave para promover el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
 
-**1. Conocimiento del Mercado y de la Audiencia**
+## Conocimiento del Mercado y de la Audiencia
 
 **¿Cuál es el tamaño del mercado y la demanda del producto o servicio?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño del mercado, su segmentación y opciones de posicionamiento, las cuotas de mercado y las tendencias de la demanda, entre otros factores.
 
@@ -75,7 +75,7 @@ En particular, los conceptos de Share of Voice (SOV) y Share of Market (SOM) son
 
 </details>
 
-**2. Objetivos y Estrategia de la Campaña**
+## Objetivos y Estrategia de la Campaña
 
 Es fundamental que los objetivos de la campaña estén definidos de forma *SMART*, es decir, *specific, measurable, achiavable, realistic, time-bound*. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
 
@@ -85,7 +85,7 @@ Es fundamental que los objetivos de la campaña estén definidos de forma *SMART
 
 **¿Qué mensaje se quiere comunicar y qué estrategia creativa se utilizará?** La estrategia creativa del mensaje debe estar en sintonía con los medios seleccionados. El planificador debe evaluar cómo dicha estrategia impacta en la elección de los medios y viceversa.
 
-**3. Selección de Medios y Canales**
+## Selección de Medios y Canales
 
 **¿Cuál es la cobertura y frecuencia efectivas para la campaña?** El planificador debe definir cuántas personas deben ser alcanzadas por la campaña al menos la frecuencia efectiva mínima (MEF) para alcanzar los objetivos, por ejemplo, la disposición a la compra del producto, servicio o marca.
 
@@ -127,7 +127,7 @@ En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiénd
 
 **¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que permita alcanzar los objetivos asociados a la campaña.
 
-**4. Implementación, Monitoreo y Evaluación**
+## Implementación, Monitoreo y Evaluación
 
 **¿Cómo se implementará el plan de medios?** Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
 
@@ -235,7 +235,7 @@ El futuro de la medición digital se articula pues en torno a tres pilares funda
 
 Estos tres factores no solo reflejan las preocupaciones actuales de la industria, sino que también marcan el camino hacia una nueva era de medición más sofisticada y efectiva. 
 
-**5. Presupuesto y Gestión Financiera de la Campaña**
+## Presupuesto y Gestión Financiera de la Campaña
 
 **¿Cómo se determinará el presupuesto publicitario?** El planificador debe establecer el presupuesto considerando diferentes métodos: objetivos y tareas, Peckham 1.5, IAF/5Q, Schroer, porcentaje sobre ventas, paridad competitiva, entre otros. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo y los objetivos de marketing.
 
@@ -459,7 +459,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 -   Benchmarks (o valores de referencia) de eficiencia por medio y formato
 -   Optimización continua de la inversión
 
-**6. Consideraciones Adicionales**
+## _Integrated Marketing Communications_
 
 **¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar subordinada a una estrategia de [*Integrated Marketing Communications*](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC), coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
 
