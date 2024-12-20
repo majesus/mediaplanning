@@ -955,7 +955,7 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 # Cálculo de la Frecuencia Efectiva Mínima
 
-## _Vehicle Attention_ (VA)
+## Atención al medio (VA)
 
 El concepto de atención al vehículo mediático se refiere al nivel de procesamiento cognitivo que un medio específico demanda de su audiencia. Se fundamenta en la capacidad del medio para captar y mantener la atención del espectador/lector/oyente.
 
@@ -975,39 +975,39 @@ El concepto de atención al vehículo mediático se refiere al nivel de procesam
 
     - **Prensa**: La atención a los anuncios en prensa escrita, como periódicos y revistas, puede ser baja si los lectores simplemente hojean las páginas sin detenerse a leer el contenido.
 
-## _Población Objetivo_ (TA)
+## Población Objetivo (TA)
 
 Se refiere a la clasificación de la audiencia según su relación actual con la marca y la categoría. Esta clasificación determina diferentes necesidades de exposición:
 
-### _Leal a mi marca_ (BLs)
+### Leal a mi marca (BLs)
 
 -   Son consumidores ya leales a la marca
 -   Su comportamiento de compra ya está establecido
 -   No requieren ajuste adicional en la frecuencia
 
-### _Favorable a mi marca_ (FBSs)
+### Favorable a mi marca (FBSs)
 
 -   Son consumidores que alternan entre marcas pero tienen una actitud positiva hacia nuestra marca
 -   El objetivo es reforzar su preferencia existente
 -   Requieren al menos 1 exposición por ciclo
 
-### _Leal a otras marcas_ (OBLs) y _Favorable a otras marcas_ (OBSs)
+### Leal a otras marcas (OBLs) y Favorable a otras marcas (OBSs)
 
 -   Son consumidores leales a otras marcas o que alternan entre otras marcas
 -   El objetivo es persuadirlos para cambiar sus preferencias actuales
 -   Requieren un ajuste adicional de +2 exposiciones
 
-### _Nuevos usuarios de la categoría_ (NCUs)
+### Nuevos usuarios de la categoría (NCUs)
 
 -   Son consumidores nuevos en la categoría, o que han manifestado rechazo o resistencia a iniciativas comerciales previas.
 -   Necesitan _educación_ sobre la categoría y la marca
 -   Requieren el máximo ajuste
 
-## _Objetivs de Comunicación_ (BA y BATT)
+## Objetivs de Comunicación (BA y BATT)
 
 Se refiere a los objetivos específicos de comunicación que la marca busca alcanzar:
 
-### _Memoria_ (BA)
+### Memoria (BA)
 
 -   Reconocimiento y recuerdo de marca ( _brand recognition_, _brand recall_)
 
@@ -1049,11 +1049,11 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
 
 ![FE_Ostrow_1982](./img/img_grid_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
-## _Actitud_ (BATT)
+## Actitud (BATT)
 
 Se divide en dos tipos principales:
 
-### _Estrategia Informativa_
+### Estrategia Informativa
 
 -   Busca comunicar beneficios funcionales
 -   Se centra en aspectos racionales, fácilmente observables y aprehensibles a través de los sentidos, del producto
@@ -1073,7 +1073,7 @@ Se divide en dos tipos principales:
       - Emoción (Solución): Tranquilidad, confianza, satisfacción.
       - Enfoque: Presentar situaciones cotidianas donde un electrodoméstico se avería, generando caos e inconvenientes. El servicio de reparación se muestra como la solución confiable y rápida para recuperar la normalidad.
 
-### _Estrategia Transformativa
+### Estrategia Transformativa
 
 -   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 -   Requiere el máximo ajuste
@@ -1136,7 +1136,7 @@ En este sentido, si bien la estrategia de comunicación más efectiva para cualq
 
 Esta estrategia dual respetaría tanto la necesidad inicial de información como la naturaleza fundamentalmente emocional del producto en el largo plazo.
 
-## _Influencia Personal_ (PI)
+## Influencia Personal (PI)
 
 - Define efecto multiplicador de la comunicación boca a boca y la influencia social:
 
