@@ -85,6 +85,10 @@ Es fundamental que los objetivos de la campaña estén definidos de forma *SMART
 
 **¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión ( *e.g.*, ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
 
+**¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?** La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados, entre otros factores.
+
+**¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que permita alcanzar los objetivos asociados a la campaña.
+
 <details>
 
 <summary>Véanse los conceptos ROAS y ROI</summary>
@@ -112,10 +116,6 @@ El ROAS y el ROI son métricas relacionadas pero diferentes:
 En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiéndose con pérdidas aunque la publicidad sea eficiente en generar ventas.
 
 </details>
-
-**¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?** La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados, entre otros factores.
-
-**¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que permita alcanzar los objetivos asociados a la campaña.
 
 ## Implementación, Monitoreo y Evaluación
 
@@ -231,7 +231,7 @@ Estos tres factores no solo reflejan las preocupaciones actuales de la industria
 
 <details>
 
-<summary>Véanse algunos métodos de presupuestación</summary>
+<summary>Véanse diversos métodos de presupuestación</summary>
 
 ------------------------------------------------------------------------
 
@@ -457,7 +457,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 ## Métricas relativas a la población:
 
-### A. BDI / CDI
+### BDI / CDI
 
 > El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
@@ -507,7 +507,7 @@ Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a 
 
 </details>
 
-### B. Coeficiente (índice) de afinidad
+### Coeficiente (índice) de afinidad
 
 > El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con la población considerada en su conjunto.
 
@@ -802,11 +802,11 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 **Objetivos de comunicación**:
 
--   _Need for the category_ (necesidad de la categoría)
--   _Brand awareness_ (memoria y sus modos de recuperación: recuerdo y reconocimiento)
--   _Brand attitude_ (asociación entre una marca y su uso, y un valor dado)
--   _Brand purchase intention_ (disposición a la compra)
--   _Purchase Facilitation_ (facilitación de compra)
+-   Necesidad de la categoría ( _Need for the category_)
+-   Memoria ( _Brand awareness_)
+-   Actitud ( _Brand attitude_)
+-   Disposición a la compra ( _Brand purchase intention_)
+-   Facilidad de Compra ( _Purchase Facilitation_)
 
 <details>
 
@@ -828,19 +828,19 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
     
     En este contexto, Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sostenibilidad.
     
-- **Actitud hacia la Marca**
+- **Actitud hacia la marca, y su uso**
 
     Se refiere a la evaluación que hace el consumidor sobre la capacidad de la marca para satisfacer una motivación relevante. La actitud se compone de creencias sobre los beneficios funcionales y asociaciones emocionales que el consumidor vincula con la marca, y la importancia percibida de cada uno de ellos.
 
     Nike representa un caso maestro de construcción de actitud hacia la marca. Su comunicación va más allá de los beneficios funcionales de su calzado deportivo para crear una conexión emocional profunda con el "espíritu deportivo". Su eslogan "_Just Do It_" y sus campañas no venden simplemente zapatos ergonómicos, sino que también venden superación personal, determinación y excelencia. Esta actitud positiva hacia la marca se construye mediante la combinación de beneficios funcionales (tecnología, comodidad, durabilidad) con beneficios emocionales (confianza, inspiración, pertenencia).
 
-- **Intención de Compra, disposición, desplazamiento mental**
+- **Disposición de compra, desplazamiento mental**
 
     Se define como la disposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de implciación del consumidor o usuario - para productos de baja implicación, una actitud favorable (superficial o _soft_) puede ser suficiente, mientras que para productos de alta implicación se necesita generar una actitud _hard_ y una intención explícita.
 
     Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alto involucramiento como un smartphone, no basta con que te guste la marca; Apple busca crear una urgencia de compra inmediata.
 
-- **Facilitación de Compra**
+- **Facilidad de compra**
 
     Este último efecto asegura que no existan obstáculos en el proceso de compra, como problemas de distribución, precio o disponibilidad que puedan impedir la adquisición del producto.
 
@@ -893,11 +893,11 @@ Donde:
 
 $$
 \begin{aligned}
-\text{VA} & = \text{Vehicle Attention (Atención al medio)} \\
-\text{TA} & = \text{Target Audience (Audiencia objetivo)} \\
-\text{BA} & = \text{Brand Awareness (Notoriedad de marca, memoria)} \\
-\text{BATT} & = \text{Brand Attitude (Actitud hacia la marca, y su uso)} \\
-\text{PI} & = \text{Personal Influence (Influencia personal)}
+\text{VA} & = \text{Atención al medio} \\
+\text{TA} & = \text{Población objetivo} \\
+\text{BA} & = \text{Memoria} \\
+\text{BATT} & = \text{Actitud hacia la marca, y su uso} \\
+\text{PI} & = \text{Influencia personal}
 \end{aligned}
 $$
 
@@ -965,7 +965,7 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
 
 ### Memoria (BA)
 
--   Reconocimiento y recuerdo de marca ( _brand recognition_, _brand recall_)
+-   Reconocimiento y recuerdo de marca
 
     - **Reconocimiento** (disponible): El reconocimiento de marca se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior. Se beneficia de los aprendizajes parciales.
 
@@ -1232,11 +1232,11 @@ La inversión publicitaria total asciende a \$2.5 millones, distribuidos estrat�
 
 ### Información Clave para el Cálculo del MEF
 
-**Atención al Medio (Vehicle Attention)**
+**Atención al Medio**
 
 El plan combina medios primarios especializados (revistas de salud y profesionales) con medios secundarios (suplementos dominicales), creando un mix que requiere una consideración cuidadosa del factor VA.
 
-**Audiencia Objetivo (Target Audience)**
+**Audiencia Objetivo**
 
 El mercado está compuesto principalmente por consumidores actuales de yogures funcionales, considerados _Other Brand Loyals_, con un perfil socioeconómico alto y educado. El objetivo es convertir a estos consumidores de marcas establecidas.
 
@@ -1244,7 +1244,7 @@ El mercado está compuesto principalmente por consumidores actuales de yogures f
 
 La estrategia requiere un enfoque dual: _brand recall_ como objetivo principal, necesario para superar al líder del mercado, complementado con un componente _transformacional_ para establecer el posicionamiento _premium_ del producto.
 
-**Influencia Personal (Personal Influence)**
+**Influencia Personal**
 
 La categoría de alimentos funcionales _premium_ se caracteriza por un alto componente de recomendación y respaldo profesional, con un coeficiente de contacto documentado de 0.3 para productos similares.
 
@@ -1272,28 +1272,28 @@ Inversión total: $3 millones
 
 ### Información Clave para MEF
 
-- **_Vehicle Attention_**: Medios digitales que requieren mayor frecuencia por ser de baja atención.
+- **Atención al Medio**: Medios digitales que requieren mayor frecuencia por ser de baja atención.
 
     - Existe multitarea durante el consumo del medio
     - El tiempo de exposición es fragmentado y breve
     - Compiten con múltiple contenido simultáneo
 
-- **_Target Audience_**: NCUs ( _New Category Users_) sin experiencia previa en la categoría. 
+- **Población Objetivo**: NCUs ( _New Category Users_) sin experiencia previa en la categoría. 
 
-- **_Communication Objectives_**: _Brand recall_ y _transformational brand attitude_
+- **Objetivos de Comunicación**
 
-    _**Brand recall**_
-    - Crítico porque las decisiones de compra de scooters eléctricos típicamente ocurren "lejos" del punto de venta
+    **Recuerdo de marca**
+    - Crítico porque las decisiones de compra de scooters eléctricos típicamente ocurren lejos del punto de venta
     - El consumidor debe recordar activamente la marca EcoRide antes de su decisión de compra
     - Las búsquedas de información y comparaciones se realizan principalmente _online_
     - El proceso de decisión es extenso y complejo (producto de alta implicación)
     
-    _**Transformational Brand Attitude**_
+    **Estrategia transformativa**
     - Busca transformar la percepción actual de los scooters eléctricos
     - Debe crear asociaciones emocionales con sostenibilidad e innovación
     - Necesita establecer beneficios experienciales más allá de los funcionales
 
-- **_Personal Influence_**: Coeficiente de contacto moderado (0.28) que permite reducir un punto la frecuencia efectiva por el efecto de recomendación entre early adopters
+- **Influencia Personal**: Coeficiente de contacto moderado (0.28) que permite reducir un punto la frecuencia efectiva por el efecto de recomendación entre early adopters
 
 A continuación, te propongo un plan para valorar si es probable alcanzar a la cobertura efectiva, sabiendo que el factor de covnersión es del 10 %, y el objetivo es vender 1.000 unidades el primer año. 
 
