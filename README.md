@@ -4,7 +4,7 @@ author: "Manuel J. Sánchez Franco"
 output: pdf_document
 ---
 
-## Planificación de medios: conceptos básicos
+# Planificación de medios: conceptos básicos
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo (o target) de una marca de manera eficaz y eficiente**.
 
