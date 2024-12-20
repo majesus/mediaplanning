@@ -131,16 +131,42 @@ En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiénd
 
 **¿Cómo se implementará el plan de medios?** Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
 
-**¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs) a antes (pre-test) y a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos. Se deben pues establecer indicadores clave de rendimiento (KPIs) para evaluar el éxito de la campaña, como el retorno de la inversión, el impacto en ventas y rentabilidad así como en los objetivos publicitarios definidos, y otros indicadores relevantes. Por ejemplo:
+**¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs, Key Performance Indicators) a antes (pre-test) y a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.  
 
-| Objetivo | Indicador Clave de Rendimiento | Descripción |
-|------------------|------------------------------------|------------------|
-| Reconocimiento de Marca | Alcance | Número de personas únicas expuestas al mensaje publicitario. |
-| Reconocimiento de Marca | Impresiones | Cantidad total de veces que se muestra el mensaje publicitario. |
-| Participación | Tasa de Clics (CTR) | Porcentaje de personas que interactuaron mediante clic en el anuncio. |
-| Participación | Interacción en Redes Sociales (Me gusta, Compartidos, Comentarios) | Medición de la interacción del público objetivo con el contenido. |
-| Ventas | Conversiones | Cantidad de usuarios que completaron una acción deseada, como una compra o registro. |
-| Ventas | Retorno de la Inversión Publicitaria (ROAS) | Ingresos generados por cada unidad monetaria invertida en publicidad. |
+Los KPIs presentados a continuación son el resultado de un extenso estudio realizado por la ANA (Association of National Advertisers) en el que participaron noventa y tres respondientes miembros tanto del comité de Media Leadership como del Digital & Social Media Committee (este último con cuatro capítulos geográficos). El trabajo de campo se realizó en enero y febrero de 2021.
+
+El estudio identificó treinta y nueve KPIs que fueron agrupados en seis categorías fundamentales: Audience Measurement (Medición de Audiencia), Efficiency (Eficiencia), Exposure Counting (Conteo de Exposición), Measurement Quality (Calidad de la Medición), Outcome (Resultados) y Other (Otros).
+
+Un hallazgo fundamental del estudio es la divergencia entre uso e importancia: las métricas más utilizadas se centran en eficiencia y conteo de exposición (top del embudo de marketing), mientras que las consideradas más importantes están orientadas a resultados y calidad de medición (bottom del embudo). Esta distinción es esencial para comprender el estado actual de la medición en medios.
+
+La siguiente tabla presenta los 20 KPIs con mayor porcentaje de uso actual, proporcionando una visión clara de qué métricas están siendo efectivamente implementadas en la industria, independientemente de su valoración de importancia.
+
+| KPI | Tipo | Definición/Uso |
+|-----|------|----------------|
+| CPM | Eficiencia | Costo por mil impresiones. Métrica fundamental para valorar la eficiencia de compra de medios. El informe indica que es una métrica ubicua necesaria pero no suficiente |
+| CPC (Coste per Click) | Eficiencia | Costo por cada clic o interacción. Permite evaluar la eficiencia del gasto en medios interactivos |
+| Unique Reach | Exposición | Alcance único - número de individuos únicos expuestos al menos una vez durante un período específico. Fundamental para entender la cobertura real |
+| ROI/ROAS | Resultado | Return on Investment/Return on Ad Spend. Mide el retorno directo sobre la inversión publicitaria. Métrica #1 en importancia según el estudio |
+| Site Visits | Audiencia | Visitas al sitio web. Métrica básica de tráfico que genera debate - algunos la consideran vital mientras otros la ven como "dull metric" |
+| Viewable Impressions | Exposición | Impresiones realmente visibles (cumpliendo criterios mínimos de visibilidad). Medida de calidad de la exposición |
+| CTR | Eficiencia | Click-through rate o tasa de clics. Relación entre impresiones y clics. George Ivie la considera "imprecisa" |
+| Conversion | Resultado | Tasa de conversión a objetivos definidos. Alta importancia (57%) y uso frecuente |
+| CPV | Eficiencia | Cost per view o costo por visualización. Específica para video |
+| Completion Rate | Exposición | Tasa de completación, especialmente relevante en video |
+| Viewability Rates | Calidad | Tasas de visibilidad según estándares de la industria |
+| Frequency | Exposición | Frecuencia de exposición por individuo alcanzado |
+| GRPs | Audiencia | Gross Rating Points - medida tradicional de presión publicitaria |
+| Share of Voice | Otros | Participación en el total de conversación/exposición de la categoría |
+| Shares | Audiencia | Compartidos en redes sociales. Considerado "head fake" por posible engaño |
+| Brand Safety Metrics | Calidad | Métricas de seguridad de marca. Alta importancia (59%) pero uso medio |
+| Sentiment | Audiencia | Análisis de sentimiento y comentarios. Considerado "head fake" |
+| Likes | Audiencia | Me gusta en redes sociales. También considerado "head fake" |
+| CPP | Eficiencia | Cost per point o costo por punto de rating |
+| Share of Search | Otros | Participación en las búsquedas totales de la categoría |
+
+<sub>Fuente: ANA (Association of National Advertisers) - "Media KPIs That Matter" Mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media</sub>
+
+<sub>Fuente: ANA (Association of National Advertisers) - "Media KPIs That Matter" Mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media</sub>
 
 **5. Presupuesto y Gestión Financiera de la Campaña**
 
@@ -392,7 +418,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 <details>
 
-<summary>Haz clic para mayor desarrollo</summary>
+<summary>Ver más detalles.</summary>
 
 ------------------------------------------------------------------------
 
@@ -751,7 +777,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 <details>
 
-<summary>Haz clic para mayor desarrollo de los objetivos de la comunicación</summary>
+<summary>Ver más detalles.</summary>
 
 ------------------------------------------------------------------------
 
@@ -856,7 +882,7 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 <details>
 
-<summary>Haz clic para mayor desarrollo del cálculo MEF</summary>
+<summary>Ver más detalles.</summary>
 
 ---
 
@@ -1085,7 +1111,7 @@ Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **fac
 ---
 
 <details>
-<summary>Haz clic para resolver ejemplos sencillos de cálculo MEF</summary>
+<summary>Ver más detalles.</summary>
 
 ---
 
@@ -1141,7 +1167,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 ---
 
 <details>
-<summary>Haz clic para resolver ejemplos de examen de cálculo MEF</summary>
+<summary>Ver más detalles.</summary>
 
 ------------------------------------------------------------------------
 
@@ -1184,7 +1210,7 @@ MEF = -1 + 2 [(4/2+1) + (~~4/2~~+1) + (~~4/2~~+1) - 1] = 9
 
 <details>
 
-<summary>Haz clic para casos prácticos MEF y cobertura efectiva, control de eficacia</summary>
+<summary>Ver más detalles.</summary>
 
 ------------------------------------------------------------------------
 
