@@ -131,25 +131,47 @@ En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiénd
 
 **¿Cómo se implementará el plan de medios?** Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
 
-**¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs, Key Performance Indicators) a antes (pre-test) y a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.  
+**¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs, _Key Performance Indicators_) a antes (pre-test) y a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.  
 
-Los KPIs presentados a continuación son el resultado de un extenso estudio realizado por la ANA (Association of National Advertisers) en el que participaron noventa y tres respondientes miembros tanto del comité de Media Leadership como del Digital & Social Media Committee (este último con cuatro capítulos geográficos). El trabajo de campo se realizó en enero y febrero de 2021.
+Los KPIs presentados a continuación son el resultado de un extenso estudio realizado por la ANA ( _Association of National Advertisers_) en el que participaron noventa y tres respondientes miembros tanto del comité de Media Leadership como del Digital & Social Media Committee (este último con cuatro capítulos geográficos). El trabajo de campo se realizó en enero y febrero de 2021.
 
-El estudio identificó treinta y nueve KPIs que fueron agrupados en seis categorías fundamentales: Audience Measurement (Medición de Audiencia), Efficiency (Eficiencia), Exposure Counting (Conteo de Exposición), Measurement Quality (Calidad de la Medición), Outcome (Resultados) y Other (Otros).
+El estudio identificó numerosas KPIs que fueron agrupados en seis categorías fundamentales: Audience Measurement (Medición de Audiencia), Efficiency (Eficiencia), Exposure Counting (Conteo de Exposición), Measurement Quality (Calidad de la Medición), Outcome (Resultados) y Other (Otros). Un hallazgo fundamental del estudio es la divergencia entre uso e importancia: las métricas más utilizadas se centran en eficiencia y conteo de exposición (top del embudo de marketing), mientras que las consideradas más importantes están orientadas a resultados y calidad de medición (bottom del embudo). Esta distinción es esencial para comprender el estado actual de la medición en medios.
 
-Un hallazgo fundamental del estudio es la divergencia entre uso e importancia: las métricas más utilizadas se centran en eficiencia y conteo de exposición (top del embudo de marketing), mientras que las consideradas más importantes están orientadas a resultados y calidad de medición (bottom del embudo). Esta distinción es esencial para comprender el estado actual de la medición en medios.
+Según el informe de la ANA, podemos identificar las mejores métricas analizando dos dimensiones clave:
+Las métricas más importantes (no necesariamente las más usadas) son:
 
-La siguiente tabla presenta los 20 KPIs con mayor porcentaje de uso actual, proporcionando una visión clara de qué métricas están siendo efectivamente implementadas en la industria, independientemente de su valoración de importancia.
+- **ROI/ROAS - Return on Investment/Return on Ad Spend**. Esta es considerada la métrica más importante con un 71% de valoración en la escala de importancia. ¿Por qué? Porque conecta directamente la inversión publicitaria con los resultados de negocio. Como explica Renee Milliaressis, Chief Media Officer de Colgate-Palmolive en el informe: "ROAS ha incrementado en importancia porque tenemos una mayor capacidad para rastrear y ajustar campañas en plataformas clave en tiempo real."
+
+- **Exposed ROAS**. Con un 63% de valoración en importancia, esta métrica es más precisa que el ROAS tradicional porque solo considera exposiciones válidas medidas. Es como un ROAS más refinado y preciso.
+
+- **Brand Safety Metrics**. Valorada con un 59% de importancia, esta métrica ha ganado relevancia crucial. No solo mide resultados, sino que protege la reputación de la marca. Como menciona el informe, es "un área de alta mantenimiento que necesita atención constante."
+
+- **Customer Lifetime Value**. Con un 58% de importancia, esta métrica es considerada por los entrevistados como una "métrica de vanguardia" y un "proxy para el éxito". Es especialmente valiosa porque mira más allá de los resultados inmediatos y se centra en el valor a largo plazo.
+
+- **Conversion Metrics**. Con un 57% de importancia, las métricas de conversión son fundamentales porque miden acciones concretas que los usuarios realizan hacia los objetivos de negocio.
+
+Lo interesante es que estas métricas **mejores o más valoradas** no son necesariamente las más utilizadas. De hecho, el informe señala una brecha significativa entre lo que la industria considera importante y lo que realmente mide. Por ejemplo, mientras que CPM es la métrica más utilizada (83%), está bastante abajo en la escala de importancia.
+La clave está en que las mejores métricas son aquellas que:
+
+- Miden resultados de negocio reales
+- Proporcionan información sobre la calidad, no solo la cantidad
+- Tienen una visión a largo plazo
+- Son precisas y verificables
+- Contribuyen a la toma de decisiones estratégicas
+
+Como concluye el informe, la tendencia es clara: la industria se está moviendo hacia métricas que miden resultados reales de negocio, más allá de simples medidas de exposición o eficiencia.
+
+La siguiente tabla sí presenta los 20 KPIs con mayor porcentaje de uso actual, proporcionando una visión clara de qué métricas están siendo efectivamente implementadas en la industria.
 
 | KPI | Tipo | Definición/Uso |
 |-----|------|----------------|
 | CPM | Eficiencia | Costo por mil impresiones. Métrica fundamental para valorar la eficiencia de compra de medios. El informe indica que es una métrica ubicua necesaria pero no suficiente |
 | CPC (Coste per Click) | Eficiencia | Costo por cada clic o interacción. Permite evaluar la eficiencia del gasto en medios interactivos |
 | Unique Reach | Exposición | Alcance único - número de individuos únicos expuestos al menos una vez durante un período específico. Fundamental para entender la cobertura real |
-| ROI/ROAS | Resultado | Return on Investment/Return on Ad Spend. Mide el retorno directo sobre la inversión publicitaria. Métrica #1 en importancia según el estudio |
-| Site Visits | Audiencia | Visitas al sitio web. Métrica básica de tráfico que genera debate - algunos la consideran vital mientras otros la ven como "dull metric" |
+| ROI/ROAS | Resultado | Return on Investment/Return on Ad Spend. Mide el retorno directo sobre la inversión publicitaria. **Métrica de mayor en importancia según el estudio** |
+| Site Visits | Audiencia | Visitas al sitio web. Métrica básica de tráfico que genera debate - algunos la consideran vital mientras otros la ven como "_dull metric_" |
 | Viewable Impressions | Exposición | Impresiones realmente visibles (cumpliendo criterios mínimos de visibilidad). Medida de calidad de la exposición |
-| CTR | Eficiencia | Click-through rate o tasa de clics. Relación entre impresiones y clics. George Ivie la considera "imprecisa" |
+| CTR | Eficiencia | Click-through rate o tasa de clics. Relación entre impresiones y clics. Para algunos es "imprecisa" |
 | Conversion | Resultado | Tasa de conversión a objetivos definidos. Alta importancia (57%) y uso frecuente |
 | CPV | Eficiencia | Cost per view o costo por visualización. Específica para video |
 | Completion Rate | Exposición | Tasa de completación, especialmente relevante en video |
@@ -157,16 +179,71 @@ La siguiente tabla presenta los 20 KPIs con mayor porcentaje de uso actual, prop
 | Frequency | Exposición | Frecuencia de exposición por individuo alcanzado |
 | GRPs | Audiencia | Gross Rating Points - medida tradicional de presión publicitaria |
 | Share of Voice | Otros | Participación en el total de conversación/exposición de la categoría |
-| Shares | Audiencia | Compartidos en redes sociales. Considerado "head fake" por posible engaño |
+| Shares | Audiencia | Compartidos en redes sociales. Considerado "_head fake_" por posible engaño |
 | Brand Safety Metrics | Calidad | Métricas de seguridad de marca. Alta importancia (59%) pero uso medio |
-| Sentiment | Audiencia | Análisis de sentimiento y comentarios. Considerado "head fake" |
-| Likes | Audiencia | Me gusta en redes sociales. También considerado "head fake" |
+| Sentiment | Audiencia | Análisis de sentimiento y comentarios. Considerado "_head fake_" |
+| Likes | Audiencia | Me gusta en redes sociales. También considerado "_head fake_" |
 | CPP | Eficiencia | Cost per point o costo por punto de rating |
 | Share of Search | Otros | Participación en las búsquedas totales de la categoría |
 
 <sub>Fuente: ANA (Association of National Advertisers) - "Media KPIs That Matter" Mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media</sub>
 
-<sub>Fuente: ANA (Association of National Advertisers) - "Media KPIs That Matter" Mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media</sub>
+Continuando con el análisis del informe, específicamente se identifican tres métricas como "_head fakes_":
+
+- Likes (Me gusta)
+
+- Shares (Compartidos)
+
+- Sentiment/Comments (Sentimiento/Comentarios)
+
+_¿Por qué se consideran "head fakes"?_ Por varias razones:
+
+- Pueden ser fácilmente manipulables (por ejemplo, compra de likes)
+
+- No necesariamente se traducen en resultados de negocio
+
+- Pueden crear una falsa sensación de éxito
+
+- A menudo son métricas que las plataformas promocionan porque son fáciles de conseguir, pero no porque sean realmente valiosas
+
+Un ejemplo práctico: una publicación puede tener miles de _"likes"_ y compartidos, pero si estos no se traducen en conversiones, ventas o construcción real de marca, son métricamente engañosos - hacen un _"head fake"_, es decir, te hacen mirar en una dirección cuando deberías estar mirando en otra.
+Por eso el informe enfatiza la importancia de centrarse en métricas más significativas como ROI/ROAS o Brand Safety Metrics, que tienen una conexión más directa con los resultados de negocio.
+
+Más aún, en el documento, este término aparece específicamente en relación a "Site Visits" (visitas al sitio web), donde existe un debate interesante en la industria. George Ivie de MRC (Media Rating Council) se refiere a las visitas al sitio web como una _"dull metric"_ porque:
+
+- Es una métrica básica o rudimentaria que no proporciona información profunda sobre el comportamiento del usuario
+- No indica por sí sola la calidad de la interacción
+- Es una métrica unidimensional que solo cuenta volumen, sin considerar el valor de cada visita
+
+Para entenderlo mejor, podemos usar una analogía. Contar visitas a una tienda física es como contar personas que entran por la puerta. Si bien es un dato, no nos dice:
+
+- Si compraron algo
+- Cuánto tiempo estuvieron
+- Si volverán
+- Si encontraron lo que buscaban
+
+Por eso se considera _"dull"_ (aburrida/simple) - es como tener solo una parte muy básica de la historia. Los profesionales actuales prefieren métricas más sofisticadas que proporcionen información sobre el valor real de estas visitas, como:
+
+- Tiempo de permanencia
+- Tasa de conversión
+- Valor por visita
+- Tasa de retorno
+
+Es importante notar que _"dull"_ no significa inútil - simplemente significa que es una métrica básica que necesita complementarse con otras más sofisticadas para obtener una imagen completa del rendimiento digital.
+
+En suma, la evolución de las métricas digitales refleja la creciente madurez y sofisticación de la industria publicitaria. Como señala el informe de la ANA, nos encontramos en un momento de transición donde la calidad y la precisión de la medición cobran una importancia sin precedentes. Los datos del estudio revelan una tendencia clara: mientras que las métricas tradicionales de eficiencia y exposición mantienen su relevancia operativa, la industria está avanzando hacia un marco más complejo de medición que prioriza la calidad de los datos y la precisión en su interpretación. Este cambio no es casual, sino que responde a las crecientes demandas de un ecosistema digital cada vez más fragmentado y sofisticado.
+
+Como señala Luke Kigel, VP de media y marketing omnicanal en Walgreens, la transición desde una comunicación tradicional basada en medios masivos hacia una precisión digital habilitada por datos ha tenido profundos impactos en toda la industria. Esto ha llevado a una reconsideración fundamental de cómo priorizamos y utilizamos las métricas para comprender el diagnóstico del rendimiento y el impacto general del marketing en el crecimiento empresarial.
+
+El informe destaca que el futuro de la medición digital se articula pues en torno a tres pilares fundamentales: 
+
+- la calidad de las fuentes de datos, que garantiza la fiabilidad de la información base; 
+
+- la precisión en el targeting, que optimiza la llegada a las audiencias deseadas; y 
+
+- la medición cross-platform, que permite entender el rendimiento publicitario a través de diferentes canales. 
+
+Estos tres factores no solo refleja las preocupaciones actuales de la industria, sino que también marca el camino hacia una nueva era de medición más sofisticada y efectiva. Charlie Chappell, VP de media en The Hershey Company, subraya esta evolución al señalar que los especialistas en marketing son cada vez más conscientes de la importancia de evaluar la calidad y precisión de los datos que adquieren. Esta capacidad de discernimiento se ha vuelto esencial para las prácticas modernas de medios, especialmente en un contexto donde la privacidad y el consentimiento del consumidor están redefiniendo cómo se recopilan y utilizan los datos.
 
 **5. Presupuesto y Gestión Financiera de la Campaña**
 
