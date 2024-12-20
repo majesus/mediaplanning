@@ -1003,7 +1003,7 @@ Se refiere a la clasificación de la audiencia según su relación actual con la
 -   Necesitan _educación_ sobre la categoría y la marca
 -   Requieren el máximo ajuste
 
-## Objetivs de Comunicación (BA y BATT)
+## Objetivos de Comunicación (BA y BATT)
 
 Se refiere a los objetivos específicos de comunicación que la marca busca alcanzar:
 
