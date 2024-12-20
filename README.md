@@ -378,7 +378,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 ## Conceptos básicos de la planificación de medios
 
-### :o:Métricas relativas a la población:
+### Métricas relativas a la población:
 
 #### A. BDI / CDI
 
@@ -460,7 +460,7 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 
 ------------------------------------------------------------------------
 
-### :o:Métricas relativas a los soportes:
+### Métricas relativas a los soportes:
 
 **Audiencia o Audiencia Bruta**\
 Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil o la cobertura.
@@ -497,7 +497,7 @@ Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Caracter
 -   Representa una oportunidad de ver, leer o escuchar el anuncio durante el ciclo publicitario, no la atención efectiva
 -   Es la unidad básica para medir la intensidad de una campaña
 
-### :o:Métricas de cobertura y frecuencia
+### Métricas de cobertura y frecuencia
 
 **Alcance o Cobertura (Reach)**\
 Número absoluto (o relativo) de individuos expuestos al menos una vez ($\geq$ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
@@ -592,7 +592,7 @@ Problemas que esto genera:
 -   No considera la calidad de los impactos o el contexto
 -   Puede llevar a decisiones erróneas si solo se mira el número final
 
-### :o:Métricas de eficiencia y costes
+### Métricas de eficiencia y costes
 
 **CPM (Coste Por Mil)**\
 Coste de alcanzar a mil personas de la audiencia o de la cobertura alcanzada. Características:
@@ -615,7 +615,7 @@ Representa la cuota de voz o presencia publicitaria de una marca en comparación
 -   Permite comparar la presencia mediática entre competidores o medios en que se programa
 -   Es un indicador clave del esfuerzo publicitario relativo
 
-### :o:Métricas avanzadas de planificación
+### Métricas avanzadas de planificación
 
 **Ciclo Publicitario**\
 Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
