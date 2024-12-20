@@ -1824,7 +1824,7 @@ En la campaña de ropa *TU*, la distribución de contactos acumulada fue la sigu
 
 <details>
 
-<summary>:arrow_forward:Ejemplo ilustrativo de una distribución de exposición ficticia</summary>
+<summary>\blacktriangleright Ejemplo ilustrativo de una distribución de exposición ficticia</summary>
 
 ------------------------------------------------------------------------
 
