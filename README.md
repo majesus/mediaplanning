@@ -2190,7 +2190,7 @@ Se desarrolla del modo siguiente:
 
 <br>
 
-$$P_i = \binom{n}{i} \left[ \frac{\prod_{j=0}^{i-1} (\alpha + j) \prod_{j=0}^{n-i-1} (\beta + j)}{\prod_{j=0}^{n-1} (\alpha + \beta + j)} \right]$$
+$$P_i = \binom{n}{i} \left[ \frac{\prod_{j=1}^{i} (\alpha + i - j) \prod_{j=1}^{n-i} (\beta + n  - i - j)}{\prod_{j=1}^{n} (\alpha + \beta + n - i j)} \right]$$
 
 <br><br>
 
