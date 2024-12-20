@@ -1,10 +1,10 @@
 ---
+title: "Herramientas tradicionales para la Planificación de Medios Publicitarios"
+author: "Manuel J. Sánchez Franco"
 output: pdf_document
 ---
 
 # Herramientas tradicionales para la Planificación de Medios Publicitarios
-
-Autor: Manuel J. Sánchez Franco
 
 ## Descripción General
 
