@@ -808,7 +808,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 -   Disposición a la compra ( _Brand purchase intention_)
 -   Facilidad de Compra ( _Purchase Facilitation_)
 
-![FE_Ostrow_1982](./img/img_objectives_rositer_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
+![FE_Ostrow_1982](./img/img_objectives_rossiter_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
 
 <details>
 
