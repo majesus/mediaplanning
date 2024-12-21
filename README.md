@@ -36,15 +36,15 @@ En relación con el tamaño del mercado, se presenta a continuación un resumen 
 
 **Conceptos**:
 
-- TAM (_Total Addressable Market_, Mercado Total): El TAM representa los ingresos totales que se generarían si se alcanzara el 100% de la participación en el mercado. Es una estimación del potencial máximo del mercado sin considerar la competencia. El TAM se puede calcular utilizando la siguiente expresión:
+- TAM (_Total Addressable Market_, Mercado Total): El TAM representa los ingresos totales que se generarían si se alcanzara el 100% de la participación en el mercado. Es una estimación del potencial máximo del mercado sin considerar la competencia. El TAM se puede calcular, por ejemplo, utilizando la siguiente expresión:
 
 > TAM = (Número total de consumidores potenciales) * (consumo medio anual) * (precio de venta promedio)
 
-- SAM (_Serviceable Addressable Market_, Mercado Disponible): El SAM es el segmento del TAM que tu empresa podría captar con su modelo de negocio actual. Este considera el perfil del cliente objetivo, su comportamiento de compra y su disposición a pagar. Se calcula aplicando la siguiente expresión:
+- SAM (_Serviceable Addressable Market_, Mercado Disponible): El SAM es el segmento del TAM que tu empresa podría captar con su modelo de negocio actual. Este considera el perfil del cliente objetivo, su comportamiento de compra y su disposición a pagar. Se calcula, por ejemplo, aplicando la siguiente expresión:
 
 > SAM = TAM * (Porcentaje del nivel socioeconómico) * (Porcentaje de la cuota de mercado de los principales competidores)
 
-- SOM (_Serviceable Obtainable Market_, Mercado Accesible): El SOM es el segmento del SAM que tu empresa puede satisfacer según su capacidad de oferta. Considera factores internos como la capacidad de producción y los límites materiales. Se calcula aplicando la siguiente expresión:
+- SOM (_Serviceable Obtainable Market_, Mercado Accesible): El SOM es el segmento del SAM que tu empresa puede satisfacer según su capacidad de oferta. Considera factores internos como la capacidad de producción y los límites materiales. Se calcula, por ejemplo, aplicando la siguiente expresión:
 
 > SOM = SAM * (Porcentaje de la población total en un área geográfica específica / población total) * (Porcentaje de la población dentro de un radio de influencia)
 
@@ -56,7 +56,7 @@ En relación con el tamaño del mercado, se presenta a continuación un resumen 
 
 **¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
 
-# Cálculo del Índice Socioeconómico EGM (2015)
+**Cálculo del Índice Socioeconómico EGM (2015)**
 
 El Estudio General de Medios implementó en 2015 un nuevo sistema de clasificación socioeconómica basado en la siguiente fórmula:
 
