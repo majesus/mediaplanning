@@ -944,6 +944,7 @@ $$
 
 Los valores se presentan en la siguiente tabla que presenta un marco de referencia para la corrección de la MEF/c en ciclos publicitarios, basándose en cuatro factores fundamentales: la atención al medio, el tipo de público objetivo, los objetivos de comunicación y el nivel de influencia personal. Es una herramienta que permite pues ajustar el número de exposiciones necesarias (MEF/c) dependiendo de las características específicas de cada campaña publicitaria y la posición de la marca en el mercado.
 
+Tabla. Valores de corrección para el cálculo de MEF/c
 |FACTOR|-1|0|+1|+2|LC + 1*|
 |-|-|-|-|-|-|
 |1. Atención al vehículo|||alta atención|baja atención||
@@ -951,10 +952,8 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 |3. Objetivos de comunicación (dos factores)||reconocimiento de marca|||recuerdo de marca|
 |||actitud informativa hacia marca|||actitud transformadora hacia marca|
 |4. Influencia personal|alta (contacto ≥ .25)|baja (contacto < .25)||||
-
-* Si es líder de mercado, usar +2 exposiciones; si no es líder, igualar a frecuencia media del mayor competidor +1 (llamado LC + 1). LC + 1 es aditivo solo en el 1; ejemplo: campaña dirigida a nuevos usuarios, con objetivos de recuerdo de marca y actitud transformadora, usaría LC + 3 exposiciones.
-
-<sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+<sub>Nota: Si es líder de mercado, usar +2 exposiciones; si no es líder, igualar a frecuencia media del mayor competidor +1 (llamado LC + 1). LC + 1 es aditivo solo en el 1; ejemplo: campaña dirigida a nuevos usuarios, con objetivos de recuerdo de marca y actitud transformadora, usaría LC + 3 exposiciones.</sub>
+<sub>Fuente: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 # Cálculo de la Frecuencia Efectiva Mínima
 
