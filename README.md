@@ -954,6 +954,7 @@ Tabla. Valores de corrección para el cálculo de MEF/c
 |4. Influencia personal|alta (contacto ≥ .25)|baja (contacto < .25)||||
 
 <sub>Nota: Si es líder de mercado, usar +2 exposiciones; si no es líder, igualar a frecuencia media del mayor competidor +1 (llamado LC + 1). LC + 1 es aditivo solo en el 1; ejemplo: campaña dirigida a nuevos usuarios, con objetivos de recuerdo de marca y actitud transformadora, usaría LC + 3 exposiciones.</sub>
+
 <sub>Fuente: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 # Cálculo de la Frecuencia Efectiva Mínima
