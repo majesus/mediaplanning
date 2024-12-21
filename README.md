@@ -496,9 +496,12 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 
 **¿Cómo se adaptará el plan de medios al entorno mediático en constante cambio?** El planificador debe mantenerse actualizado respecto a nuevas tendencias, plataformas y tecnologías, y ser flexible para ajustar la estrategia según lo requieran las circunstancias.
 
-</details>
-
 # Conceptos básicos de la planificación de medios
+
+La planificación de medios publicitarios es una disciplina esencial en el marketing moderno que combina arte y ciencia para optimizar la comunicación entre marcas y audiencias. Este capítulo presenta los conceptos fundamentales y métricas clave que permiten evaluar y diseñar estrategias eficaces de medios.
+Organizaremos el contenido en tres bloques principales. Comenzaremos explorando las métricas relativas a la población, como los índices BDI/CDI y el coeficiente de afinidad, que nos ayudan a comprender la relación entre mercados y públicos objetivo. Continuaremos con las métricas específicas de los soportes publicitarios, desde conceptos básicos como audiencia y OTS hasta medidas más sofisticadas de cobertura y frecuencia. Finalmente, abordaremos métricas avanzadas de planificación y eficiencia, incluyendo aspectos cruciales como el timing y el *carryover* publicitario.
+
+El objetivo es proporcionar una base sólida para la toma de decisiones en la planificación de medios, permitiendo evaluar objetivamente diferentes alternativas y optimizar los recursos publicitarios para maximizar el impacto de las campañas.
 
 ## Métricas relativas a la población:
 
@@ -509,10 +512,6 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 -   **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). **Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado**. Un BDI de 100 significa que el % de las ventas de la marca en ese mercado reflejan el % de la población.
 
 -   **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, **se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado**.
-
-<details>
-
-<summary>Ver más detalles.</summary>
 
 **Uso del BDI / CDI**
 
@@ -549,8 +548,6 @@ Se presenta adicionalmente el **índice de oportunidad de marca (BOI)** para ide
 **Factores adicionales**
 
 Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a considerar en la planificación geográfica. La distribución también juega un papel fundamental. Una marca puede tener un BDI bajo en un mercado debido a una distribución limitada. El BDI y el CDI son pues herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento y rentabilidad en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
-
-</details>
 
 ### Coeficiente (índice) de afinidad
 
