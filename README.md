@@ -458,11 +458,15 @@ Presupuesto:
 -   Base P/V (8,8%): 88.000€
 -   Ajuste por lanzamiento (+50%): 132.000€
 
-### Método _todo lo que se pueda permitir_
-
-El **método _todo lo que se pueda permitir_**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
-
 En suma, la selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing o los recursos disponibles, entre otros factores. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
+
+**¿Qué consideraciones adicionales afectan al presupuesto?**
+
+-   Estacionalidad del negocio y del consumo mediático
+-   Presión competitiva y SOV deseado
+-   Costes de producción y adaptación de materiales
+-   Reserva para contingencias y oportunidades
+-   Economías de escala y negociación con medios
 
 **¿Cuál es la distribución adecuada del presupuesto entre medios?** Es fundamental determinar la asignación presupuestaria entre los diferentes canales, considerando, por ejemplo:
 
@@ -478,20 +482,12 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 -   Control de costes: producción, espacios, implementación
 -   Flexibilidad para ajustes según resultados
 
-**¿Qué consideraciones adicionales afectan al presupuesto?**
-
--   Estacionalidad del negocio y del consumo mediático
--   Presión competitiva y *share of voice* (SOV) deseado
--   Costes de producción y adaptación de materiales
--   Reserva para contingencias y oportunidades
--   Economías de escala y negociación con medios
-
 **¿Cómo se evaluará la eficiencia presupuestaria?** Es necesario establecer:
 
 -   Sistema de *reporting* financiero regular
 -   Análisis de desviaciones y causas
 -   Medición de retorno por canal y campaña
--   Benchmarks (o valores de referencia) de eficiencia por medio y formato
+-   *Benchmarks* (o valores de referencia) de eficiencia por medio y formato
 -   Optimización continua de la inversión
 
 ## _Integrated Marketing Communications_
