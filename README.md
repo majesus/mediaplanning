@@ -953,7 +953,7 @@ Tabla. Valores de corrección para el cálculo de MEF/c
 |||actitud informativa hacia marca|||actitud transformadora hacia marca|
 |4. Influencia personal|alta (contacto ≥ .25)|baja (contacto < .25)||||
 
-<sub>Nota: Si es líder de mercado, usar +2 exposiciones; si no es líder, igualar a frecuencia media del mayor competidor +1 (llamado LC + 1). LC + 1 es aditivo solo en el 1; ejemplo: campaña dirigida a nuevos usuarios, con objetivos de recuerdo de marca y actitud transformadora, usaría LC + 3 exposiciones.</sub>
+<sub>Nota: Si la marca es líder de mercado, LC + 1 es +2 exposiciones; si la marca no es líder, igualar a MEF/c del mayor competidor (LC) + 1. Se precisa que + 1 solo se suma una vez, por ejemplo, campaña dirigida a nuevos usuarios, con objetivos de recuerdo de marca y actitud transformadora, usaría LC + 1 + 1 + 1 exposiciones.</sub>
 
 <sub>Fuente: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
