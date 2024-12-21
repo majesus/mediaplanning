@@ -8,138 +8,223 @@ output: pdf_document
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo (o target) de una marca de manera eficaz y eficiente**.
 
-Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca **conectar** con su público objetivo **en el momento y lugar precisos**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación (memoria, actitud e intención) y marketing (crecimiento y rentabilidad) diseñados, y optimice el retorno de la inversión (por ejemplo, *Return On Ad Spend*, ROAS).
+Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca **conectar** con el público objetivo **en el momento y lugar precisos**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación (memoria, actitud e intención) y de marketing (crecimiento y rentabilidad) diseñados, y optimice el retorno de la inversión en publicidad (por ejemplo, *Return On Ad Spend*, ROAS).
 
-Para el logro de los objetivos y el retorno de la inversión se debe pues reflexionar en torno a cinco bloques clave. Véase la siguiente tabla.
+Para el logro de los objetivos y el retorno de la inversión se debe reflexionar en torno a cinco bloques clave: público objetivo, objetivos, presupuesto, medios publicitarios, y programación temporal.
 
 | Componente | Descripción (no exhaustiva) |
 |---------------------------|---------------------------------------------|
-| Público Objetivo | **Base del plan de medios** <br>- Análisis demográfico: edad, sexo, género, localización, nivel de ingresos, ...<br>- Psicografía: valores, intereses, estilo de vida, ...<br>- Hábitos de consumo y de medios<br>- Comportamiento de compra<br>- Presión competitiva<br><br>*Ejemplo*: Una marca de *fitness* que busca llegar a millennials y Generación Z activos en redes sociales con interés en salud y bienestar necesita identificar sus patrones específicos de consumo digital. |
-| Objetivos | **Metas claramente definidas y medibles**<br>- Notoriedad (memoria): mejorar, por ejemplo, el reconocimiento de marca<br>- Actitud: aumentar la valoración del uso de la marca<br>- Predisposición a la compra: aumentar la intención de compra<br>- Alineación (subordinación) con objetivos globales de marketing<br><br>*Ejemplo*: Si el objetivo es mejorar la notoriedad de la marca, se priorizarán canales de amplio alcance como TV o video online. Para aumentar la intención y ventas consecuentes, se enfocará en *search* marketing y publicidad segmentada. |
-| Presupuesto | **Planificación financiera estratégica**<br>- Métodos de determinación (objetivos y tareas, por ejemplo)<br>- Distribución entre medios (principal 40-50%, apoyo 20-30%, por ejemplo) <br>- ROI / ROAS esperado por cada soporte y su combinación en un plan de medios<br>- Control de costes<br>- Escalabilidad del presupuesto<br><br> - Consideraciones:<br> \* TV: alto coste, gran alcance<br> \* Digital: más asequible, mejor segmentación<br> \* Medios impresos: costes variables según alcance<br> \* Exterior: costes fijos con exposición prolongada |
-| Medios publicitarios | **Ecosistema de medios integrado**<br>- Tradicionales:<br> \* Televisión<br> \* Radio<br> \* Prensa<br> \* Cine<br><br>- Digitales:<br> \* Redes sociales<br> \* *Search engines*<br> \* Display advertising<br> \* Email marketing<br><br>- Exterior:<br> \* Vallas publicitarias<br> \* Mobiliario urbano<br> \* *Transit advertising*<br><br>**Métricas**: <br> \* Alcance<br> \* Frecuencia<br> \* Afinidad con target<br> \* Coste por impacto<br> \* Capacidad de segmentación<br> \* ... |
-| Programación | **Planificación temporal y evaluación**<br>- Factores clave:<br> \* Estacionalidad del producto/servicio<br> \* Hábitos/timing de consumo del target<br> \* Actividad de la competencia<br><br>- Consideraciones tácticas:<br> \* Momentos de mayor demanda<br> \* Períodos de compra<br> \* Eventos especiales<br> \* Fechas comerciales clave<br> \* Horarios de mayor consumo de medios del target<br><br> - Implementación y monitoreo continuo: <br> \* Medición de KPIs y ajustes<br> \* Evaluación pre-test y durante campaña |
+| Público Objetivo | **Base del plan de medios** <br>- Análisis demográfico: edad, sexo, género, localización, nivel socioeconómico (nivel de estudios y ocupación del sustentador, actividad del sustentador principal de la unidad familiar, tamaño del hogar y número de individuos con ingresos en el mismo), ... <br>- Psicografía: valores, intereses, estilo de vida, ... <br>- Hábitos de consumo y de medios<br>- Comportamiento de compra <br>- Presión competitiva |
+| Objetivos | **Metas claramente definidas y medibles** <br>- Notoriedad (memoria: recuerdo _vs_ reconocimiento) <br>- Actitud de marca y hacia el uso de la marca <br>- Disposición a la compra <br>- Alineación (subordinación) con objetivos globales de marketing. |
+| Presupuesto | **Planificación financiera estratégica** <br>- Métodos de determinación (objetivos y tareas, por ejemplo) <br>- Distribución entre medios <br>- ROI / ROAS esperado por cada soporte y su combinación en un plan de medios <br>- Control de costes <br>- Escalabilidad del presupuesto <br><br> - Consideraciones: <br> \* TV: alto coste, gran alcance <br>\* Digital: más asequible, mejor segmentación <br>\* Medios impresos: costes variables según alcance <br>\* Exterior: costes fijos con exposición prolongada |
+| Medios publicitarios | **Ecosistema de medios integrado** <br>- Tradicionales: <br>\* Televisión <br>\* Radio <br>\* Prensa <br>\* Cine <br><br>- Digitales: <br>\* Redes sociales <br>\* *_Search engines_* <br>\* _Display advertising_ <br>\* _Email marketing_ <br><br>- Exterior: <br>\* Vallas publicitarias <br>\* Mobiliario urbano <br>\* _Transit advertising_ <br><br>**Métricas**: <br>\* Alcance <br>\* Frecuencia <br>\* Afinidad con target <br>\* Medición de KPIs y ajustes <br>\* Capacidad de segmentación <br>\* ... |
+| Programación | **Planificación temporal y evaluación** <br>- Factores clave: <br>\* Estacionalidad del producto/servicio <br>\* Hábitos/timing de consumo del target <br>\* Actividad de la competencia <br><br>- Consideraciones tácticas: <br>\* Momentos de mayor demanda <br>\* Períodos de compra <br>\* Eventos especiales <br>\* Fechas comerciales clave <br>\* Horarios de mayor consumo de medios del target <br><br>- Implementación y monitoreo continuo: <br>\* Medición de KPIs y ajustes <br>\* Evaluación pre-test, durante y post-campaña |
 
-A partir de estas consideraciones, un planificador de medios debe pues plantearse un conjunto de preguntas clave para promover el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
+A partir de estas consideraciones, un planificador de medios debe  plantearse un conjunto de preguntas clave para promover el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
+
+- Conocimiento del Mercado y de la Audiencia
+- Objetivos y Estrategia de la Campaña
+- Selección de Medios y Soportes
+- Implementación, Monitoreo y Evaluación
+- Presupuesto y Gestión Financiera de la Campaña
 
 ## Conocimiento del Mercado y de la Audiencia
 
-**¿Cuál es el tamaño del mercado y la demanda del producto o servicio?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño del mercado, su segmentación y opciones de posicionamiento, las cuotas de mercado y las tendencias de la demanda, entre otros factores.
+**¿Cuál es el tamaño del mercado (estimación del potencial máximo de ventas en un mercado específico), la demanda del producto o servicio?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño del mercado, su segmentación y opciones de posicionamiento, las cuotas de mercado y las tendencias de la demanda, entre otros factores.
+
+En relación con el tamaño del mercado, se presenta a continuación un resumen conciso de tres métodos básicos para determinar el tamaño del mercado:
+
+**Conceptos**:
+
+- TAM (_Total Addressable Market_, Mercado Total): El TAM representa los ingresos totales que se generarían si se alcanzara el 100% de la participación en el mercado. Es una estimación del potencial máximo del mercado sin considerar la competencia. El TAM se puede calcular utilizando la siguiente expresión:
+
+> TAM = (Número total de consumidores potenciales) * (consumo medio anual) * (precio de venta promedio)
+
+- SAM (_Serviceable Addressable Market_, Mercado Disponible): El SAM es el segmento del TAM que tu empresa podría captar con su modelo de negocio actual. Este considera el perfil del cliente objetivo, su comportamiento de compra y su disposición a pagar. Se calcula aplicando la siguiente expresión:
+
+> SAM = TAM * (Porcentaje del nivel socioeconómico) * (Porcentaje de la cuota de mercado de los principales competidores)
+
+- SOM (_Serviceable Obtainable Market_, Mercado Accesible): El SOM es el segmento del SAM que tu empresa puede satisfacer según su capacidad de oferta. Considera factores internos como la capacidad de producción y los límites materiales. Se calcula aplicando la siguiente expresión:
+
+> SOM = SAM * (Porcentaje de la población total en un área geográfica específica / población total) * (Porcentaje de la población dentro de un radio de influencia)
+
+**Métodos de cálculo**:
+
+* **Bottom-Up (Ascendente)**: Este método comienza con información detallada del cliente o del producto y se amplía para calcular los ingresos. Puede basarse en la demanda, donde se consideran la oferta de productos, precios y volumen de clientes, o en la oferta, donde se calcula cuánto puede producir y vender la empresa.
+
+* **Top-Down (Descendente)**: Este método comienza con una estimación del tamaño del mercado objetivo y luego valora qué fracción de este tu empresa puede lograr. Es útil cuando el mercado objetivo está bien definido y las cuotas de mercado pueden aproximarse
 
 **¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
+
+# Cálculo del Índice Socioeconómico EGM (2015)
+
+El Estudio General de Medios implementó en 2015 un nuevo sistema de clasificación socioeconómica basado en la siguiente fórmula:
+
+$$
+\text{Estimación de Ingresos} = \text{Grupo}_{i} + \text{Actividad}_{j} + \text{Matriz}_{m,n}
+$$
+
+Para ilustrar su aplicación, consideremos el caso de un hogar donde el sustentador principal es director de una pequeña empresa con estudios universitarios, trabaja actualmente, y comparte vivienda con tres personas más, siendo dos los miembros que perciben ingresos regulares.
+
+La estimación comienza asignando el valor correspondiente al grupo profesional del sustentador principal, que en este caso es 1.113 (Grupo_{2}). A esto se suma el valor de su actividad laboral actual, que por estar trabajando es 3.028 (Actividad_{1}). Finalmente, se aplica el ajuste matricial que corresponde a un hogar de cuatro personas con dos perceptores de ingresos, que supone restar 1.238 puntos (Matriz_{4,2}).
+
+Aplicando la fórmula:
+
+$$
+\text{Estimación} = \text{Grupo}_{2} + \text{Actividad}_{1} + \text{Matriz}_{4,2} = 1.113 + 3.028 + (-1.238) = 2.903
+$$
+
+El resultado de 2.903 sitúa a este hogar en el nivel A2 de la clasificación socioeconómica, que comprende las estimaciones entre 2.452 y 3.005 puntos. Esta clasificación, la segunda más alta en la escala, refleja la combinación de una posición profesional cualificada, actividad laboral activa y la presencia de múltiples perceptores de ingresos, factores que compensan el impacto del tamaño familiar en la estimación final.
 
 **¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([*cf.* Inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
 
 **¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
-En particular, los conceptos de Share of Voice (SOV) y Share of Market (SOM) son fundamentales en marketing para comprender la posición de una marca en el mercado y su potencial de crecimiento.
+En particular, los conceptos de _Share of Voice_ (SOV) y _Share of Market_ (SOM) son fundamentales en marketing para comprender la posición de una marca en el mercado y su potencial de crecimiento.
 
--   **Share of Market (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100,000 unidades de un producto en un mercado donde se venden un total de 1,000,000 unidades, su SOM sería del 10%.
+-   **Share of Market (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100.000 unidades físicas de un producto en un mercado donde se venden un total de 1.000.000 unidades, su SOM sería del 10%.
 
--   **Share of Voice (SOV)**, por otro lado, mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, pero ahora también abarca la presencia en canales orgánicos como redes sociales y búsquedas.
+-   **Share of Voice (SOV)** mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, abarcando la presencia en canales orgánicos como redes sociales y búsquedas.
 
-<details>
-
-<summary>Véase el concepto de ESOV</summary>
-
-[Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa)
+El caso Lidl presenta un análisis fundamental sobre la relación entre share of voice (SOV) y cuota de mercado en el sector retail, y el concepto excess of share of voice (ESOV, medida que indica si una empresa está invirtiendo más en publicidad de lo que justificaría su cuota de mercado actual). La compañía enfrentaba inicialmente dos desafíos críticos: una percepción errónea de calidad vinculada a sus precios bajos y la necesidad de incrementar su share of voice debido a su limitado tamaño de marca. En el siguiente enlace: [Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa) se muestra el caso con mayor detalle.
 
 **1. Desafíos Iniciales**:
 
--   Percepción del Consumidor: Los compradores asociaban los precios bajos de Lidl con baja calidad, aunque los productos tenían una calidad similar o superior a la competencia.
--   Tamaño de Marca: Al ser una marca pequeña, Lidl tenía que aumentar su share of voice (SOV) para mantener y crecer su cuota de mercado, respaldado por el concepto de ESOV (excess share of voice) identificado por John Philip Jones.
+-   Percepción del consumidor: los compradores asociaban los precios bajos de Lidl con baja calidad, pese a que los productos tenían una calidad similar o superior a la competencia.
+-   Tamaño de marca: al ser una marca pequeña, Lidl tenía que aumentar SOV para mantener y crecer su SOM, respaldado por el concepto de ESOV identificado por John Philip Jones.
 
 **2. Estrategia de Lidl en 2014:**
 
--   Objetivo General: Incrementar la penetración en el mercado.
--   Posicionamiento: Cambiar la percepción del consumidor, sorprendiendo con la calidad de sus productos.
+-   Objetivo general: incrementar la penetración en el mercado.
+-   Posicionamiento: xambiar la percepción del consumidor, sorprendiendo con la calidad de sus productos.
 -   Estrategia de Comunicación: Desmentir la idea de que precios bajos implican baja calidad.
--   Objetivo de Medios: Generar un ESOV significativo.
+-   Objetivo de medios: generar un ESOV significativo.
 
 **3. Implementación de la Campaña:**
 
 -   Publicidad en televisión, medios impresos y redes sociales para mostrar la sorpresa de los consumidores sobre la calidad de los productos.
--   Ampliación del ESOV, logrando un aumento de la cuota de voz desde el 5% hasta el 19% en 2015.
+-   Ampliación del ESOV, logrando un aumento de SOV desde el 5% hasta el 19% en 2015.
 
 **4. Resultados:**
 
--   Cambio de Percepción: Lidl logró que la calidad percibida de sus productos fuera comparable a la de sus competidores.
--   Incremento en Cuota de Mercado: Lidl duplicó su cuota de mercado en cinco años, alcanzando un 6%.
--   Incremento en Ventas: La campaña generó ventas incrementales por 2700 millones de libras y un premio Effie de oro en 2017.
-
-</details>
+-   Cambio de percepción: Lidl logró que la calidad _percibida_ de sus productos fuera comparable a la de sus competidores.
+-   Incremento en cuota de mercado: Lidl duplicó su cuota de mercado en cinco años, alcanzando un 6%.
+-   Incremento en ventas: la campaña generó ventas incrementales por 2.700 millones de libras y un premio Effie de oro en 2017.
 
 ## Objetivos y Estrategia de la Campaña
 
-Es fundamental que los objetivos de la campaña estén definidos de forma *SMART*, es decir, *specific, measurable, achiavable, realistic, time-bound*. Esto garantizará una mayor claridad y efectividad en la evaluación de los resultados.
+Es fundamental que los objetivos de la campaña estén definidos de forma *SMART*, es decir, *specific, measurable, achiavable, realistic, time-bound*. Esto garantiza una mayor claridad y efectividad en la evaluación de los resultados. A saber:
 
-**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos de comunicación (memoria, actitud e intención) y globales de marketing (cercimiento y rentabilidad).
+**¿Cuáles son los objetivos de marketing y comunicación de la marca?** Los objetivos de la planificación de medios deben estar alineados (subordinados estratégicamente) a los objetivos de comunicación (memoria, actitud e intención) y globales de marketing (crecimiento y rentabilidad).
+
+En general, la disposición a la compra describe el proceso mental que lleva a un consumidor desde la exposición y el conocimiento inicial de un producto hasta la decisión final de adquirirlo:
+
+1. Exposición al mensaje: La secuencia comienza con la exposición del receptor, a saber, la oportunidad de ver, leer o escuchar el mensaje publicitario. Esta exposición es clave para que el mensaje comience a tener un efecto en el receptor. 
+
+2. Procesamiento de la información: Tras la exposición, el receptor procesa la información contenida en el mensaje. Este procesamiento puede variar en profundidad y puede verse influenciado por la consistencia del mensaje, que incrementa la cantidad de información procesada, y la implicación, motivación, habilidad del individuo y oportunidad de procesamiento.
+
+3. Memoria: La información procesada es codificada y almacenada en la memoria, para su uso posterior en la toma de decisiones. La codificación variable, que se logra al presentar el mensaje en diferentes contextos, mejora el aprendizaje y facilita la recuperación (recuerdo o reconocimiento) posterior de la información. La memoria a corto plazo tiene una capacidad limitada, por lo que el anuncio debe desplazar otro tipo de _pensamientos_.
+
+4. Conocimiento: La acumulación de información en la memoria contribuye al conocimiento del producto o marca. La publicidad busca generar notoriedad en la etapa de introducción de un producto y mantenerla en la etapa de madurez.
+
+5. Actitud: El procesamiento de la información y el conocimiento previo influyen en la formación de actitudes (_asociaciones entre un objeto y un valor dado_) hacia el producto o marca, y su uso. Una campaña integrada con mensajes consistentes puede generar actitudes más favorables. 
+
+6.Intención de compra: La actitud favorable, junto con otros factores, genera en el consumidor una intención de compra, que es un paso previo a la acción de compra. La intención de compra es un plan del consumidor de adquirir un producto o marca.
+
+7. Disposición a la acción (Comportamiento de compra): Finalmente, la intención de compra se traduce en la disposición a la acción, que se refiere a la probabilidad de que el consumidor realice la compra. La publicidad debe acompañar al consumidor en su recorrido hacia la compra para asegurar esta acción.
 
 **¿Qué se quiere lograr con la campaña publicitaria?** Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del uso del producto o servicio (actitud hacia el uso), o incitar a la acción.
 
-**¿Qué mensaje se quiere comunicar y qué estrategia creativa se utilizará?** La estrategia creativa del mensaje debe estar en sintonía con los medios seleccionados. El planificador debe evaluar cómo dicha estrategia impacta en la elección de los medios y viceversa.
+**¿Qué mensaje se quiere comunicar y qué estrategia creativa se utilizará?** La estrategia creativa del mensaje debe estar en sintonía con los medios seleccionados. El planificador debe evaluar cómo dicha estrategia impacta en la elección de los medios y viceversa. En este contexto, se imbrica el concepto de Comunicación Integrada de Marketing (CIM), o _Integrated Marketing Communications_ (IMC) en inglés, que se refiere a un enfoque de gestión de la comunicación que busca unificar y coordinar todas las herramientas de comunicación de una empresa para lograr un mayor impacto en el consumidor. En lugar de gestionar cada herramienta de forma aislada, la CIM aboga por integrarlas en un plan coherente con un mismo objetivo de comunicación.
 
-## Selección de Medios y Canales
+## Selección de Medios y Soportes
 
-**¿Cuál es la cobertura y frecuencia efectivas para la campaña?** El planificador debe definir cuántas personas deben ser alcanzadas por la campaña al menos la frecuencia efectiva mínima (MEF) para alcanzar los objetivos, por ejemplo, la disposición a la compra del producto, servicio o marca.
-
-**¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión ( *e.g.*, ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
+**¿Cuál es la cobertura y frecuencia efectivas para la campaña?** El planificador debe definir cuántas personas deben ser alcanzadas por la campaña al menos la frecuencia efectiva mínima (MEF/c). Se define como el nivel mínimo de exposición a un anuncio necesario para que este genere una respuesta en el consumidor. Este nivel de exposición busca generar un impacto que puede ir desde el reconocimiento o el recuerdo de la marca hasta la intención de compra o la acción de compra. La MEF/c no busca solo de exponer al receptor al mensaje publicitario, sino de hacerlo con la frecuencia y en el momento adecuados para maximizar su impacto en la decisión de compra
 
 **¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?** La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados, entre otros factores.
 
-**¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación óptima que permita alcanzar los objetivos asociados a la campaña.
+**¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión ( *e.g.*, ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
 
-<details>
+En el contexto del análisis de métricas publicitarias y rentabilidad empresarial, resulta pertinente examinar la distinción fundamental entre el ROAS (Return on Ad Spend) y el ROI (Return on Investment) mediante un caso ilustrativo del sector retail.
 
-<summary>Véanse los conceptos ROAS y ROI</summary>
+Consideremos el caso de una empresa emergente del sector textil sostenible, que denominaremos "EcoStyle", especializada en la comercialización de indumentaria elaborada con materiales reciclados. Durante el período promocional del cuarto trimestre de 2023, la compañía implementó una campaña publicitaria digital para su línea de abrigos sostenibles, con un precio unitario de mercado de 200€.
 
-El ROAS y el ROI son métricas relacionadas pero diferentes:
+La inversión publicitaria ascendió a 10,000€, resultando en la comercialización de 150 unidades, generando un ingreso bruto de 30,000€. El análisis del ROAS arroja un coeficiente de 3.0 (30,000€/10,000€), lo que inicialmente sugiere una eficiencia publicitaria notable.
 
-**ROAS (Return on Ad Spend):**
+Sin embargo, un análisis exhaustivo del ROI revela una realidad económica distinta al incorporar la estructura completa de costes:
 
--   Es simplemente: Ingresos / Gasto en publicidad
--   En el ejemplo anterior: 8500€ / 2000€ = 4,25€
--   Mide cuántos euros generas por cada euro gastado en publicidad
--   Es una métrica más simple y directa
+- Coste unitario de producción: 150€
+- Logística y distribución unitaria: 15€
+- Overhead (costes indirectos o gastos generales): 20€ por unidad
 
-**ROI (Return on Investment):**
+El overhead comprende aquellos costes operativos indirectos necesarios para el funcionamiento de la empresa pero no directamente atribuibles a la producción, incluyendo:
 
--   Fórmula: [(Ingresos - Costes totales) / Costes totales] × 100
+- Gastos administrativos
+- Servicios generales
+- Alquileres
+- Seguros
+- Mantenimiento de infraestructura
+- Salarios del personal no directamente involucrado en la producción
 
--   Usando el mismo ejemplo pero añadiendo otros costes:
+El análisis agregado revela:
 
-    -   Ingresos: 8500€
-    -   Gasto en ads: 2000€
-    -   Otros costes (producto, envío, personal): 4000€
-    -   ROI = [(8500 - 6000) / 6000] × 100 = 41,67%
+- Coste total unitario: 185€
+- Coste total de producción (150 unidades): 27,750€
+- Coste total incluyendo inversión publicitaria: 37,750€
 
-En suma, un buen ROAS no siempre significa un buen ROI - podría estar vendiéndose con pérdidas aunque la publicidad sea eficiente en generar ventas.
+Aplicando la fórmula del ROI:
 
-</details>
+$$
+\text{ROI} = \left[\frac{\text{Ingresos} - \text{Costes Totales}}{\text{Costes Totales}}\right] \times 100
+$$
+
+Con los valores del ejemplo:
+
+$$
+\text{ROI} = \left[\frac{30,000€ - 37,750€}{37,750€}\right] \times 100 = -20.5\%
+$$
+
+Este caso evidencia una divergencia significativa entre la eficiencia publicitaria y la rentabilidad operativa: mientras el ROAS de 3.0 sugiere una campaña publicitaria eficaz en la generación de ingresos, el ROI negativo del -20.5% revela una operación comercial deficitaria. Esta discrepancia subraya la importancia de un análisis holístico que considere la totalidad de la estructura de costes empresariales en la evaluación del rendimiento comercial.
+
+**¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación ( _cross-platform_) óptima que permita alcanzar los objetivos asociados a la campaña.
 
 ## Implementación, Monitoreo y Evaluación
 
 **¿Cómo se implementará el plan de medios?** Es esencial definir los aspectos operativos, como la compra de espacios publicitarios, la producción de los anuncios y la gestión de la campaña.
 
-**¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs, _Key Performance Indicators_) a antes (pre-test) y a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.  
+**¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs, _Key Performance Indicators_) antes (pre-test), a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.  
 
-Los KPIs presentados a continuación son el resultado de un extenso estudio realizado por la ANA ( _Association of National Advertisers_) en el que participaron noventa y tres respondientes miembros tanto del comité de Media Leadership como del Digital & Social Media Committee (este último con cuatro capítulos geográficos). El trabajo de campo se realizó en enero y febrero de 2021.
+Los KPIs presentados a continuación son el resultado de un estudio realizado por la ANA ( _Association of National Advertisers_) en el que participaron noventa y tres miembros tanto del comité de _Media Leadership_ como del _Digital & Social Media Committee_. El trabajo de campo se realizó en enero y febrero de 2021.
 
-El estudio identificó numerosas KPIs que fueron agrupados en seis categorías fundamentales: Audience Measurement (Medición de Audiencia), Efficiency (Eficiencia), Exposure Counting (Conteo de Exposición), Measurement Quality (Calidad de la Medición), Outcome (Resultados) y Other (Otros). Un hallazgo fundamental del estudio es la divergencia entre uso e importancia: las métricas más utilizadas se centran en eficiencia y conteo de exposición (top del embudo de marketing), mientras que las consideradas más importantes están orientadas a resultados y calidad de medición (bottom del embudo). Esta distinción es esencial para comprender el estado actual de la medición en medios.
+El estudio identificó KPIs que fueron agrupados en seis categorías fundamentales: 
 
-Según el informe de la ANA, podemos identificar las mejores métricas analizando dos dimensiones clave. Las métricas **más valoradas por su importancia** (no necesariamente las más usadas) son:
+- *Audience Measurement* (Medición de Audiencia)
 
-- **_ROI/ROAS - Return on Investment/Return on Ad Spend_**. Es considerada la métrica más importante con un 71% de valoración en la escala de importancia. Conecta directamente la inversión publicitaria con los resultados de negocio. Como explica Renee Milliaressis, Chief Media Officer de Colgate-Palmolive en el informe: _ROAS ha incrementado en importancia porque tenemos una mayor capacidad para rastrear y ajustar campañas en plataformas clave en tiempo real_.
+- *Efficiency* (Eficiencia)
+
+- *Exposure Counting* (Conteo de Exposición)
+
+- *Measurement Quality* (Calidad de la Medición) 
+
+- *Outcome* (Resultados)
+
+- *Other* (Otros)
+
+Un hallazgo fundamental del estudio es la divergencia entre uso e importancia: las métricas más utilizadas se centran en eficiencia y conteo de exposición ( _top_ del embudo de marketing), mientras que las consideradas más importantes están orientadas a resultados y calidad de medición ( _bottom_ del embudo). Esta distinción es esencial para comprender el estado actual de la medición en medios.
+
+Según el informe de la ANA, las métricas **más valoradas por su importancia** (no necesariamente las más usadas) son:
+
+- **_ROI/ROAS - Return on Investment/Return on Ad Spend_**. Es considerada la métrica más importante con un 71% de valoración en la escala de importancia. Conecta directamente la inversión publicitaria con los resultados de negocio. Como explica Renee Milliaressis, _Chief Media Officer_ de Colgate-Palmolive: _ROAS ha incrementado en importancia porque tenemos una mayor capacidad para rastrear y ajustar campañas en plataformas clave en tiempo real_.
 
 - **_Exposed ROAS_**. Con un 63% de valoración en importancia, esta métrica es más precisa que el ROAS tradicional porque solo considera exposiciones válidas medidas. 
 
-- **_Brand Safety Metrics_**. Valorada con un 59% de importancia, esta métrica ha ganado relevancia crucial. No solo mide resultados, sino que también protege la reputación de la marca. Como menciona el informe, es _un área de alta mantenimiento que necesita atención constante._
+- **_Brand Safety Metrics_**. Valorada con un 59% de importancia, esta métrica mide resultados, y protege la reputación de la marca.
 
 - **_Customer Lifetime Value_**. Con un 58% de importancia, esta métrica es considerada por los entrevistados como una _métrica de vanguardia_ y un _proxy para el éxito_. Es especialmente valiosa porque va más allá de los resultados inmediatos y se centra en el valor a largo plazo.
 
 - **_Conversion Metrics_**. Con un 57% de importancia, las métricas de conversión son fundamentales porque miden acciones concretas que los usuarios realizan hacia los objetivos de negocio.
 
-Lo interesante es que estas métricas **mejores o más valoradas** no son necesariamente las más utilizadas. De hecho, el informe señala una brecha significativa entre lo que la industria considera importante y lo que realmente mide. Por ejemplo, mientras que CPM es la métrica más utilizada (83%), está bastante abajo en la escala de importancia. La clave está en que las mejores métricas son aquellas que:
+Lo interesante es que las métricas **mejores o más valoradas** no son necesariamente las más utilizadas. De hecho, el informe señala una brecha significativa entre lo que la industria considera importante y lo que realmente mide. Por ejemplo, mientras que CPM es la métrica más utilizada (83%), está bastante abajo en la escala de importancia. No obstante, como concluye el informe, la tendencia es clara: _la industria se está moviendo hacia métricas que miden resultados reales de negocio, más allá de simples medidas de exposición o eficiencia_. La clave está en que las mejores métricas son aquellas que:
 
 - Miden resultados de negocio reales
 - Proporcionan información sobre la calidad, no solo la cantidad
@@ -147,40 +232,37 @@ Lo interesante es que estas métricas **mejores o más valoradas** no son necesa
 - Son precisas y verificables
 - Contribuyen a la toma de decisiones estratégicas
 
-Como concluye el informe, la tendencia es clara: _la industria se está moviendo hacia métricas que miden resultados reales de negocio, más allá de simples medidas de exposición o eficiencia_.
-
 La siguiente tabla sí presenta los 20 KPIs con mayor porcentaje de uso actual, proporcionando una visión clara de qué métricas están siendo efectivamente implementadas en la industria.
 
-| KPI | Tipo | Definición/Uso |
+| KPI | Tipo | Uso |
 |-----|------|----------------|
 | CPM | Eficiencia | Costo por mil impresiones. Métrica fundamental para valorar la eficiencia de compra de medios. El informe indica que es una métrica ubicua necesaria pero no suficiente |
-| CPC (Coste per Click) | Eficiencia | Costo por cada clic o interacción. Permite evaluar la eficiencia del gasto en medios interactivos |
+| CPC (Coste per Click) | Eficiencia | Coste por cada clic o interacción. Permite evaluar la eficiencia del gasto en medios interactivos |
 | Unique Reach | Exposición | Alcance único - número de individuos únicos expuestos al menos una vez durante un período específico. Fundamental para entender la cobertura real |
-| ROI/ROAS | Resultado | Return on Investment/Return on Ad Spend. Mide el retorno directo sobre la inversión publicitaria. **Métrica de mayor en importancia según el estudio** |
+| ROI/ROAS | Resultado | _Return on Investment/Return on Ad Spend_. Mide el retorno directo sobre la inversión publicitaria. **Métrica de mayor en importancia según el estudio** |
 | Site Visits | Audiencia | Visitas al sitio web. Métrica básica de tráfico que genera debate - algunos la consideran vital mientras otros la ven como "_dull metric_" |
 | Viewable Impressions | Exposición | Impresiones realmente visibles (cumpliendo criterios mínimos de visibilidad). Medida de calidad de la exposición |
 | CTR | Eficiencia | Click-through rate o tasa de clics. Relación entre impresiones y clics. Para algunos es "imprecisa" |
 | Conversion | Resultado | Tasa de conversión a objetivos definidos. Alta importancia (57%) y uso frecuente |
-| CPV | Eficiencia | Cost per view o costo por visualización. Específica para video |
+| CPV | Eficiencia | _Cost per view_ o costo por visualización. Específica para video |
 | Completion Rate | Exposición | Tasa de completación, especialmente relevante en video |
 | Viewability Rates | Calidad | Tasas de visibilidad según estándares de la industria |
 | Frequency | Exposición | Frecuencia de exposición por individuo alcanzado |
-| GRPs | Audiencia | Gross Rating Points - medida tradicional de presión publicitaria |
+| GRPs | Audiencia | _Gross Rating Points_ - medida tradicional de presión publicitaria |
 | Share of Voice | Otros | Participación en el total de conversación/exposición de la categoría |
 | Shares | Audiencia | Compartidos en redes sociales. Considerado "_head fake_" por posible engaño |
 | Brand Safety Metrics | Calidad | Métricas de seguridad de marca. Alta importancia (59%) pero uso medio |
 | Sentiment | Audiencia | Análisis de sentimiento y comentarios. Considerado "_head fake_" |
 | Likes | Audiencia | Me gusta en redes sociales. También considerado "_head fake_" |
-| CPP | Eficiencia | Cost per point o costo por punto de rating |
+| CPP | Eficiencia | _Cost per point_ o costo por punto de rating |
 | Share of Search | Otros | Participación en las búsquedas totales de la categoría |
-
 <sub>Fuente: ANA (Association of National Advertisers) - "Media KPIs That Matter" Mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media</sub>
 
-Como se comprueba en la tabla, específicamente se identifican tres métricas como "_head fakes_":
+Como se comprueba en la tabla, específicamente se tipifican tres métricas como "_head fakes_":
 
-- Likes (Me gusta)
-- Shares (Compartidos)
-- Sentiment/Comments (Sentimiento/Comentarios)
+- _Likes_ (Me gusta)
+- _Shares_ (Compartidos)
+- _Sentiment/Comments_ (Sentimiento/Comentarios)
 
 Las razones se resumen en:
 
@@ -189,9 +271,9 @@ Las razones se resumen en:
 - Pueden crear una falsa sensación de éxito
 - A menudo son métricas que las plataformas promocionan porque son fáciles de conseguir, pero no porque sean realmente valiosas
 
-Un ejemplo práctico: una publicación puede tener miles de _"likes"_ y _shares_, pero si estos no se traducen en conversiones, ventas o construcción real de marca, son métricamente engañosos - hacen un _"head fake"_, es decir, te hacen mirar en una dirección cuando deberías estar mirando en otra. Por ello, el informe enfatiza la importancia de centrarse en métricas más significativas como ROI/ROAS o Brand Safety Metrics, que tienen una conexión más directa con los resultados de negocio.
+Un ejemplo práctico: una publicación puede tener miles de _"likes"_ y _shares_, pero si estos no se traducen en conversiones, ventas o construcción real de marca, son métricamente engañosos - hacen un _"head fake"_, es decir, te hacen mirar en una dirección cuando deberías estar mirando en otra. Por ello, el informe enfatiza la importancia de centrarse en métricas más significativas como ROI/ROAS o Brand Safety Metrics, que tienen una conexión más directa con los resultados _realmente_ deseados.
 
-Más aún, en el documento, _"dull metric"_ aparece específicamente en relación a "Site Visits" (visitas al sitio web), donde existe un debate interesante en la industria. George Ivie de MRC (Media Rating Council) se refiere a las visitas al sitio web como una _"dull metric"_ porque:
+Más aún, en el documento, _"dull metric"_ aparece específicamente en relación a "Site Visits" (visitas al sitio web). Existe un debate interesante en la industria. George Ivie de MRC (Media Rating Council) se refiere a las visitas al sitio web como una _"dull metric"_ porque:
 
 - Es una métrica básica o rudimentaria que no proporciona información profunda sobre el comportamiento del usuario
 - No indica por sí sola la calidad de la interacción
@@ -204,36 +286,26 @@ Para entenderlo mejor, podemos usar una analogía. Contar visitas a una tienda f
 - Si volverán
 - Si encontraron lo que buscaban
 
-Es importante notar que _"dull"_ no significa inútil - simplemente significa que es una métrica básica que necesita complementarse con otras más sofisticadas para obtener una imagen completa del rendimiento digital.
-
-Los profesionales actuales prefieren pues métricas más sofisticadas que proporcionen información sobre el valor real de estas visitas, como:
+Es importante notar que _"dull"_ no significa inútil - simplemente significa que es una métrica básica que necesita complementarse con otras más sofisticadas para obtener una imagen completa del rendimiento digital. Los profesionales actuales prefieren pues métricas más sofisticadas que proporcionen información sobre el valor real de estas visitas, como:
 
 - Tiempo de permanencia
 - Tasa de conversión
 - Valor por visita
 - Tasa de retorno
 
-En suma, siguiendo el informe de la ANA, nos encontramos en un momento de transición donde la calidad y la precisión de la medición cobran una importancia sin precedentes. Los datos del estudio revelan una tendencia clara: mientras que las métricas tradicionales de eficiencia y exposición mantienen su relevancia operativa, la industria está avanzando hacia un marco más complejo de medición que prioriza la calidad de los datos y la precisión en su interpretación. Este cambio no es casual, sino que responde a las crecientes demandas de un ecosistema digital cada vez más fragmentado y sofisticado.
+En suma, nos encontramos en un momento de transición donde la calidad y la precisión de la medición cobran una importancia sin precedentes. Los datos del estudio revelan una tendencia clara: mientras que las métricas tradicionales exposición mantienen su relevancia operativa, la industria está avanzando hacia un marco más complejo de medición que prioriza la calidad de los datos y la precisión en su interpretación. Este cambio no es casual, sino que responde a las crecientes demandas de un ecosistema digital cada vez más fragmentado y sofisticado.
 
-Como señala Luke Kigel, VP de media y marketing omnicanal en Walgreens, la transición desde una comunicación tradicional basada en medios masivos hacia una precisión digital habilitada por datos ha tenido profundos impactos en toda la industria. Esto ha llevado a una reconsideración fundamental de cómo priorizamos y utilizamos las métricas para comprender el diagnóstico del rendimiento y el impacto general del marketing en el crecimiento empresarial.
+Como señala Luke Kigel, VP de media y marketing omnicanal en Walgreens, la transición desde una comunicación tradicional basada en medios masivos hacia una precisión digital habilitada por datos ha tenido profundos impactos en toda la industria. Esto ha llevado a una reconsideración fundamental de cómo priorizamos y utilizamos las métricas para comprender el impacto del marketing en el crecimiento empresarial y la rentabilidad.
 
 El futuro de la medición digital se articula pues en torno a tres pilares fundamentales: 
 
-- la calidad de las fuentes de datos, que garantiza la fiabilidad de la información base; 
-- la precisión en el _targeting_, que optimiza la llegada a las audiencias deseadas; y 
-- la medición _cross-platform_, que permite entender el rendimiento publicitario a través de diferentes canales. 
-
-Estos tres factores no solo reflejan las preocupaciones actuales de la industria, sino que también marcan el camino hacia una nueva era de medición más sofisticada y efectiva. 
+- La calidad de las fuentes de datos, que garantiza la fiabilidad de la información base 
+- La precisión en el _targeting_, que optimiza la llegada a las audiencias deseadas 
+- La medición _cross-platform_, que permite entender el rendimiento publicitario a través de diferentes canales 
 
 ## Presupuesto y Gestión Financiera de la Campaña
 
 **¿Cómo se determinará el presupuesto publicitario?** El planificador debe establecer el presupuesto considerando diferentes métodos: objetivos y tareas, Peckham 1.5, IAF/5Q, Schroer, porcentaje sobre ventas, paridad competitiva, entre otros. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo y los objetivos de marketing.
-
-<details>
-
-<summary>Véanse diversos métodos de presupuestación</summary>
-
-------------------------------------------------------------------------
 
 La presupuestación publicitaria constituye uno de los aspectos más críticos y complejos en la gestión de marketing. A lo largo de la historia de la publicidad, se han desarrollado diversos métodos para determinar la inversión publicitaria óptima, cada uno con sus propios fundamentos teóricos y aplicaciones prácticas.
 
@@ -412,8 +484,6 @@ Presupuesto:
 El **método _todo lo que se pueda permitir_**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
 
 En suma, la selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing o los recursos disponibles, entre otros factores. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
-
-</details>
 
 **¿Cuál es la distribución adecuada del presupuesto entre medios?** Es fundamental determinar la asignación presupuestaria entre los diferentes canales, considerando, por ejemplo:
 
@@ -2360,7 +2430,7 @@ print(resultado$results)
 print(resultado$parametros)
 ```
 
-# Modelo MBBD, _Morgensztern Beta Binomial Distribution_
+# Modelo MBBD, _Morgensztern Beta Binomial Distribution_ (`calc_MBBD`)
 
 Este modelo se basa en el procedimiento seguido por Leckenby y Boyd (1984a) en el desarrollo del modelo Hofmans beta binomial, con la salvedad ya señalada de que la cobertura se estimaría mediante la fórmula propuesta por Morgensztem (1970).
 
@@ -2407,7 +2477,7 @@ resultado <- calc_MBBD(
 
 # Optimización / Evaluación
 
-## Optimización de Distribución de Contactos (`optimizar_d`)
+## Optimización / Evaluación de Distribución de Contactos (`optimizar_d`)
 
 Optimiza la distribución de contactos publicitarios utilizando el modelo Beta-Binomial. Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva (FE) especificados por el usuario.
 
@@ -2438,7 +2508,7 @@ print(head(resultado$mejores_combinaciones))
 print(resultado$data)
 ```
 
-## Optimización de Distribución de Contactos Acumulada (`optimizar_dc`)
+## Optimización / Evaluación de Distribución de Contactos Acumulada (`optimizar_dc`)
 
 Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (MEF) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio MEF o más veces.
 
@@ -2465,7 +2535,7 @@ resultado <- optimizar_dc(
 )
 ```
 
-## Optimización de los modelos Sainsbury y Binomial (`optimize_media_plan`)
+## Optimización / Evaluación de los modelos Sainsbury y Binomial (`optimize_media_plan`)
 
 Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
@@ -2813,7 +2883,7 @@ Este paquete está disponible bajo la licencia MIT. Ver el archivo LICENSE para 
 
 - Rossiter, J.R. y Danaher, P.J. (1998). Advanced Media Planning. Kluwer Academic Publishers, MAS, USA. 
 
-- Rossiter, J.R. y Percy, L. (1987). Advertising and promotion management. Mcgraw-Hill Book Company.
+- Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company.
 
 # Cómo Citar
 
