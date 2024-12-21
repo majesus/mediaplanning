@@ -68,9 +68,7 @@ La estimación comienza asignando el valor correspondiente al grupo profesional 
 
 Aplicando la fórmula:
 
-$$
-\text{Estimación} = \text{Grupo}_{2} + \text{Actividad}_{1} + \text{Matriz}_{4,2} = 1.113 + 3.028 + (-1.238) = 2.903
-$$
+$$ \text{Estimación} = \text{Grupo}{2} + \text{Actividad}{1} + \text{Matriz}_{4,2} = 1.113 + 3.028 + (-1.238) = 2.903 $$
 
 El resultado de 2.903 sitúa a este hogar en el nivel A2 de la clasificación socioeconómica, que comprende las estimaciones entre 2.452 y 3.005 puntos. Esta clasificación, la segunda más alta en la escala, refleja la combinación de una posición profesional cualificada, actividad laboral activa y la presencia de múltiples perceptores de ingresos, factores que compensan el impacto del tamaño familiar en la estimación final.
 
