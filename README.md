@@ -30,7 +30,7 @@ A partir de estas consideraciones, un planificador de medios debe  plantearse un
 
 ## Conocimiento del Mercado y de la Audiencia
 
-1.**¿Cuál es el tamaño del mercado (estimación del potencial máximo de ventas en un mercado específico), la demanda del producto o servicio?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño del mercado, su segmentación y opciones de posicionamiento, las cuotas de mercado y las tendencias de la demanda, entre otros factores.
+**1.¿Cuál es el tamaño del mercado (estimación del potencial máximo de ventas en un mercado específico), la demanda del producto o servicio?** El planificador debe analizar el contexto del mercado del producto o servicio, incluyendo el tamaño del mercado, su segmentación y opciones de posicionamiento, las cuotas de mercado y las tendencias de la demanda, entre otros factores.
 
 En relación con el tamaño del mercado, se presenta a continuación un resumen conciso de tres métodos básicos para determinar el tamaño del mercado:
 
@@ -58,7 +58,7 @@ Por otra parte, la capacidad de estimar con precisión la demanda de productos o
 
 Tradicionalmente, se han utilizado métodos estadísticos como ARIMA y el suavizado exponencial para modelar series temporales de demanda. Sin embargo, con el auge del *big data* y el *machine learning*, se han incorporado técnicas más sofisticadas que pueden capturar relaciones complejas y no lineales entre la demanda y una multitud de variables. Estos avances han permitido la inclusión de modelos como las redes neuronales recurrentes (LSTM), los métodos de ensamble como *Random Forest* y *XGBoost*, y los modelos aditivos generalizados (GAM) en el análisis de la demanda. Como resultado, ahora es posible integrar una gama más amplia de variables explicativas en los modelos, incluyendo datos de campañas publicitarias multicanal, actividad en redes sociales, precios de la competencia, estacionalidad y eventos especiales. Esto ha mejorado la capacidad de los analistas para comprender los factores que influyen en la demanda y ha permitido una mayor precisión en las predicciones, lo que facilita una toma de decisiones más informada en la planificación y ejecución de estrategias de marketing.
 
-2.**¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
+**2.¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
 
 **Cálculo del Índice Socioeconómico EGM (2015)**
 
@@ -76,9 +76,9 @@ $$ \text{Estimación} = \text{Grupo}{2} + \text{Actividad}{1} + \text{Matriz}_{4
 
 El resultado de 2.903 sitúa a este hogar en el nivel A2 de la clasificación socioeconómica, que comprende las estimaciones entre 2.452 y 3.005 puntos. Esta clasificación, la segunda más alta en la escala, refleja la combinación de una posición profesional cualificada, actividad laboral activa y la presencia de múltiples perceptores de ingresos, factores que compensan el impacto del tamaño familiar en la estimación final.
 
-3.**¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([*cf.* Inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
+**3.¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([*cf.* Inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
 
-4.**¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
+**4.¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
 En particular, los conceptos de _Share of Voice_ (SOV) y _Share of Market_ (SOM) son fundamentales en marketing para comprender la posición de una marca en el mercado y su potencial de crecimiento.
 
@@ -955,7 +955,7 @@ Tabla. Valores de corrección para el cálculo de MEF/c
 |2. Público objetivo||leales a marca|cambiantes de marca|cambiantes de otra marca, leales a otra marca|nuevos usuarios|
 |3. Objetivos de comunicación (dos factores)||reconocimiento de marca|||recuerdo de marca|
 |||actitud informativa hacia marca|||actitud transformadora hacia marca|
-|4. Influencia personal|alta (contacto ≥ .25)|baja (contacto < .25)||||
+|4. Influencia personal|alta (contacto >= .25)|baja (contacto < .25)||||
 
 <sub>Nota: Si la marca es líder de mercado, LC + 1 es +2 exposiciones; si la marca no es líder, igualar a MEF/c del mayor competidor (LC) + 1. Se precisa que + 1 solo se suma una vez, por ejemplo, campaña dirigida a nuevos usuarios, con objetivos de recuerdo de marca y actitud transformadora, usaría LC + 1 + 1 + 1 exposiciones.</sub>
 
