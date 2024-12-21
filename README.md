@@ -178,7 +178,7 @@ $$ \text{ROI} = \left[\frac{30.000€ - 37.750€}{37.750€}\right] \times 100 
 
 Este caso evidencia una divergencia significativa entre la eficiencia publicitaria y la rentabilidad operativa: mientras el ROAS de 3.0 sugiere una campaña publicitaria eficaz en la generación de ingresos, el ROI negativo del -20.5% revela una operación comercial deficitaria. Esta discrepancia subraya la importancia de un análisis holístico que considere la totalidad de la estructura de costes empresariales en la evaluación del rendimiento comercial.
 
-**¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación ( _cross-platform_) óptima que permita alcanzar los objetivos asociados a la campaña.
+**¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación (*cross-platform*) óptima que permita alcanzar los objetivos asociados a la campaña.
 
 ## Implementación, Monitoreo y Evaluación
 
@@ -186,7 +186,7 @@ Este caso evidencia una divergencia significativa entre la eficiencia publicitar
 
 **¿Cómo se garantizará la evaluación continua durante la campaña?** Para asegurar la evaluación constante, se deben realizar mediciones regulares durante la implementación de la campaña. Esto incluye el seguimiento de indicadores clave de rendimiento (KPIs, _Key Performance Indicators_) antes (pre-test), a lo largo del ciclo de vida de la campaña y la realización de ajustes oportunos según los resultados obtenidos.  
 
-Los KPIs presentados a continuación son el resultado de un estudio realizado por la ANA ( _Association of National Advertisers_) en el que participaron noventa y tres miembros tanto del comité de _Media Leadership_ como del _Digital & Social Media Committee_. El trabajo de campo se realizó en enero y febrero de 2021.
+Los KPIs presentados a continuación son el resultado de un estudio realizado por la ANA (*Association of National Advertisers*) en el que participaron noventa y tres miembros tanto del comité de _Media Leadership_ como del _Digital & Social Media Committee_. El trabajo de campo se realizó en enero y febrero de 2021.
 
 El estudio identificó KPIs que fueron agrupados en seis categorías fundamentales: 
 
@@ -202,7 +202,7 @@ El estudio identificó KPIs que fueron agrupados en seis categorías fundamental
 
 - *Other* (Otros)
 
-Un hallazgo fundamental del estudio es la divergencia entre uso e importancia: las métricas más utilizadas se centran en eficiencia y conteo de exposición ( _top_ del embudo de marketing), mientras que las consideradas más importantes están orientadas a resultados y calidad de medición ( _bottom_ del embudo). Esta distinción es esencial para comprender el estado actual de la medición en medios.
+Un hallazgo fundamental del estudio es la divergencia entre uso e importancia: las métricas más utilizadas se centran en eficiencia y conteo de exposición (*top del embudo de marketing*), mientras que las consideradas más importantes están orientadas a resultados y calidad de medición (*bottom del embudo*). Esta distinción es esencial para comprender el estado actual de la medición en medios.
 
 Según el informe de la ANA, las métricas **más valoradas por su importancia** (no necesariamente las más usadas) son:
 
@@ -851,11 +851,11 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 **Objetivos de comunicación**:
 
--   Necesidad de la categoría ( _Need for the category_)
--   Memoria ( _Brand awareness_)
--   Actitud ( _Brand attitude_)
--   Disposición a la compra ( _Brand purchase intention_)
--   Facilidad de Compra ( _Purchase Facilitation_)
+-   Necesidad de la categoría (*Need for the category*)
+-   Memoria (*Brand awareness*)
+-   Actitud (*Brand attitude*)
+-   Disposición a la compra (*Brand purchase intention*)
+-   Facilidad de Compra (*Purchase Facilitation*)
 
 ![FE_Ostrow_1982](./img/img_objectives_rossiter_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
 
@@ -1329,7 +1329,7 @@ Inversión total: $3 millones
     - El tiempo de exposición es fragmentado y breve
     - Compiten con múltiple contenido simultáneo
 
-- **Población Objetivo**: NCUs ( _New Category Users_) sin experiencia previa en la categoría. 
+- **Población Objetivo**: NCUs (*New Category Users*) sin experiencia previa en la categoría. 
 
 - **Objetivos de Comunicación**
 
@@ -2750,7 +2750,7 @@ El mantenimiento de una frecuencia constante de ciclos de 4 exposiciones se fund
 La estrategia planteada optimiza la inversión publicitaria mediante:
 
 - Sincronización con ciclos de compra y uso
-- Aprovechamiento del efecto residual entre oleadas ( _carryover effects_)
+- Aprovechamiento del efecto residual entre oleadas (*carryover effects*)
 - Mantención de intensidad necesaria para la comunicación de este tipo de producto (detergentes)
 - Estructura temporal alineada con tres ciclos completos de compra-uso
 
