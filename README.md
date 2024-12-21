@@ -949,12 +949,13 @@ $$
 Los valores se presentan en la siguiente tabla que presenta un marco de referencia para la corrección de la MEF/c en ciclos publicitarios, basándose en cuatro factores fundamentales: la atención al medio, el tipo de público objetivo, los objetivos de comunicación y el nivel de influencia personal. Es una herramienta que permite pues ajustar el número de exposiciones necesarias (MEF/c) dependiendo de las características específicas de cada campaña publicitaria y la posición de la marca en el mercado.
 
 Tabla. Valores de corrección para el cálculo de MEF/c
+
 |FACTOR|-1|0|+1|+2|LC + 1*|
 |-|-|-|-|-|-|
 |1. Atención al vehículo|||alta atención|baja atención||
-|2. Público objetivo||leales a marca|cambiantes de marca|cambiantes de otra marca, leales a otra marca|nuevos usuarios|
+|2. Público objetivo||leales a marca|favorables|favorables otras marcas, leales a otra marca|nuevos usuarios|
 |3. Objetivos de comunicación (dos factores)||reconocimiento de marca|||recuerdo de marca|
-|||actitud informativa hacia marca|||actitud transformadora hacia marca|
+|||actitud informativa|||actitud transformativa|
 |4. Influencia personal|alta (contacto >= .25)|baja (contacto < .25)||||
 
 <sub>Nota: Si la marca es líder de mercado, LC + 1 es +2 exposiciones; si la marca no es líder, igualar a MEF/c del mayor competidor (LC) + 1. Se precisa que + 1 solo se suma una vez, por ejemplo, campaña dirigida a nuevos usuarios, con objetivos de recuerdo de marca y actitud transformadora, usaría LC + 1 + 1 + 1 exposiciones.</sub>
