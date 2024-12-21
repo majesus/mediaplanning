@@ -60,9 +60,7 @@ En relación con el tamaño del mercado, se presenta a continuación un resumen 
 
 El Estudio General de Medios implementó en 2015 un nuevo sistema de clasificación socioeconómica basado en la siguiente fórmula:
 
-$$
-\text{Estimación de Ingresos} = \text{Grupo}_{i} + \text{Actividad}_{j} + \text{Matriz}_{m,n}
-$$
+$$\text{Estimación de Ingresos} = \text{Grupo}_{i} + \text{Actividad}_{j} + \text{Matriz}_{m,n}$$
 
 Para ilustrar su aplicación, consideremos el caso de un hogar donde el sustentador principal es director de una pequeña empresa con estudios universitarios, trabaja actualmente, y comparte vivienda con tres personas más, siendo dos los miembros que perciben ingresos regulares.
 
