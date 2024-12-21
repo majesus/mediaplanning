@@ -297,9 +297,13 @@ El futuro de la medición digital se articula pues en torno a tres pilares funda
 
 ## Presupuesto y Gestión Financiera de la Campaña
 
-**¿Cómo se determinará el presupuesto publicitario?** El planificador debe establecer el presupuesto considerando diferentes métodos: objetivos y tareas, Peckham 1.5, IAF/5Q, Schroer, porcentaje sobre ventas, paridad competitiva, entre otros. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo y los objetivos de marketing.
+**¿Cómo se determinará el presupuesto publicitario?** El planificador debe establecer el presupuesto considerando diferentes métodos: objetivos y tareas, Peckham 1.5, porcentaje sobre ventas, paridad competitiva, entre otros. La elección del método dependerá de factores como la etapa del producto, el entorno competitivo o los objetivos de marketing.
 
-La presupuestación publicitaria constituye uno de los aspectos más críticos y complejos en la gestión de marketing. A lo largo de la historia de la publicidad, se han desarrollado diversos métodos para determinar la inversión publicitaria óptima, cada uno con sus propios fundamentos teóricos y aplicaciones prácticas.
+Para elaborar un presupuesto publicitario adaptable, es esencial comenzar con un **análisis exhaustivo de la situación**, considerando tanto factores internos como externos de la empresa. Los objetivos de marketing deben ser **claros, específicos y medibles**, sirviendo como guía fundamental para el plan de medios. El presupuesto no debe ser rígido, sino **flexible, permitiendo ajustes según las necesidades y resultados de la campaña**.
+
+La selección de medios y soportes **debe basarse en criterios cuantitativos y cualitativos**, buscando un mix estratégico que maximice el impacto en el público objetivo. Es importante considerar la **etapa del ciclo de vida del producto** para equilibrar la cobertura y la frecuencia de los anuncios. Un monitoreo constante de la efectividad de la campaña es crucial para realizar ajustes y optimizar el presupuesto. La **adaptabilidad es clave para responder a los cambios del mercado**, y la integración de herramientas de comunicación debe crear una voz unificada para la marca. El presupuesto debe buscar la rentabilidad programada, asignando recursos de forma eficiente. 
+
+En suma, un presupuesto versátil requiere un análisis profundo, flexibilidad, selección estratégica de medios, adaptabilidad, monitoreo y una integración coherente de las herramientas de comunicación. La presupuestación publicitaria constituye pues uno de los aspectos más críticos y complejos en la gestión de marketing. A lo largo de la historia de la publicidad, se han desarrollado diversos métodos para determinar la inversión publicitaria óptima, cada uno con sus propios fundamentos teóricos y aplicaciones prácticas.
 
 ### Método de objetivos y tareas
 
@@ -307,7 +311,9 @@ El **método de objetivos y tareas**, preferido por los grandes anunciantes, ado
 
 Los objetivos pueden orientarse hacia los medios (como alcanzar ciertos niveles de alcance y frecuencia durante un período específico), hacia la publicidad/aprendizaje (memoria, actitud e intención) y hacia el marketing (como generar un determinado volumen de prueba de producto), o una combinación.
 
-La fortaleza y debilidad de este sistema están pues íntimamente relacionadas: cuando se conocen con precisión los niveles publicitarios requeridos para lograr una tarea específica, el sistema resulta sumamente efectivo. Sin embargo, en la práctica, esta certeza es poco común, lo que convierte al enfoque en altamente subjetivo y, por tanto, cuestionable.
+![FE_Ostrow_1982](./img/img_objectives_rossiter_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
+
+La fortaleza y la debilidad de este método están pues íntimamente relacionadas: cuando se conocen con precisión los niveles publicitarios requeridos para lograr una tarea específica, el sistema resulta sumamente efectivo. Sin embargo, en la práctica, esta certeza es poco común, lo que convierte al enfoque en altamente subjetivo y, por tanto, cuestionable. A saber:
 
 -   Ventajas
 
@@ -323,11 +329,11 @@ La fortaleza y debilidad de este sistema están pues íntimamente relacionadas: 
     -   Requiere objetivos muy bien definidos
     -   La relación entre tareas y objetivos no siempre es clara o directa
     
-A continuación, te muestro algunos ejemplos que se corresponden con la práctica corriente de las empresas.
+A continuación, te muestro otros ejemplos que se corresponden con la práctica corriente de las empresas.
 
 ### Método de Peckham
 
-La **Fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria (share of voice, SOV) y la participación de mercado (share of market, SOM). Peckham propone que las marcas nuevas deberían establecer su share of voice en un nivel 1,5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
+La **fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria (*share of voice*, SOV) y la participación de mercado (*share of market*, SOM). Peckham propone que las marcas nuevas deberían establecer su *share of voice* en un nivel 1,5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
 
 -   Ventajas
 
@@ -349,7 +355,7 @@ El **método del porcentaje sobre ventas** representa uno de los enfoques más a
 
 **A**. La primera modalidad se basa en las **ventas históricas**, donde el presupuesto publicitario se calcula aplicando un porcentaje predeterminado sobre las ventas del período anterior. Este enfoque se expresa mediante la fórmula *Publicidad_2 = f(Ventas_1)*, donde Publicidad_2 representa el presupuesto publicitario para el próximo año, f es el porcentaje establecido y Ventas_1 las ventas del año anterior.
 
-Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones significativas al no considerar la rlación funcional entre la publicidad y las ventas futuras, además de carecer de flexibilidad para adaptarse a cambios en el entorno de mercado, es decir, no permite cambios acíclicos.
+Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones significativas al no considerar la relación funcional entre la publicidad y las ventas futuras (*las ventas están en función de las inversiones en publicidad*), además de carecer de flexibilidad para adaptarse a cambios en el entorno de mercado, es decir, no permite cambios acíclicos.
 
 -   Ventajas
 
@@ -360,10 +366,9 @@ Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones
 
 -   Limitaciones
 
-    -   No considera la naturaleza dinámica de la relación publicidad y ventas
     -   Ignora la dependencia de los resultados comerciales de la inversión publicitaria, es decir, subvierte la relación natural: *las ventas están en función de las inversiones en publicidad*
-    -   Carece de flexibilidad para adaptarse a cambios del mercado
-    -   Puede perpetuar situaciones de subinversión o sobreinversión
+    -   No considera la naturaleza dinámica de la relación publicidad y ventas
+    -   Carece de flexibilidad para adaptarse a cambios del mercado, puede perpetuar situaciones de subinversión o sobreinversión
     -   Basa decisiones futuras en datos históricos, lo que puede ser poco apropiado en mercados cambiantes
 
 **B**. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en las **ventas proyectadas**, expresada como *Publicidad_2 = f(Ventas_2), donde Ventas_2* representa las ventas previstas para el próximo período.
@@ -381,8 +386,10 @@ Esta variante resulta más lógica desde una perspectiva de planificación, ya q
 
     -   Depende de la precisión de las proyecciones de ventas
     -   Puede subestimar las necesidades publicitarias en mercados en crecimiento
-    -   No considera necesariamente los movimientos competitivos
+    -   No considera necesariamente los movimientos competitivos, puede pasar por alto o no tener en cuenta las acciones y estrategias que están llevando a cabo los competidores en el mercado
     -   Mantiene una visión simplificada de la relación publicidad y ventas en tanto que hace una proyección previa de las ventas sin precisar la influencia de la inversión en publicidad
+
+En suma, el presupuesto publicitario se establece sin considerar de manera explícita cómo están actuando los competidores, lo cual es un factor crítico en un mercado dinámico y competitivo. Si una empresa usa este método, puede que no reaccione a tiempo a los movimientos agresivos de los competidores, lo que podría afectar negativamente sus ventas y participación en el mercado.
 
 ### Método de paridad competitiva
 
@@ -404,8 +411,6 @@ El **método de paridad competitiva** introduce una perspectiva estratégica al 
 
 Un método de presupuestación asociado con la paridad competitiva es el **ratio publicidad/ventas**.
 
-### Método ratio publicidad/ventas
-
 El **método ratio publicidad/ventas** representa el enfoque más utilizado para determinar presupuestos publicitarios. Este método considera los gastos publicitarios como parte integral del presupuesto de marketing de un producto, donde los fondos se establecen como un coste de hacer negocios. Los porcentajes típicos en la industria oscilan entre el 2% y 9% de las ventas, aunque estos valores pueden variar significativamente según el sector.
 
 -   Ventajas
@@ -421,7 +426,7 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
     -   Se requiere considerable información histórica para determinar el ratio correcto
     -   Se deberían usar ratios variables por área, lo que requiere análisis exhaustivos
     -   La suposición básica de una relación lineal directa entre publicidad y ventas podría no ser cierta
-    -   La presupuestación podría ser demasiado vulnerable a revisiones ya que la publicidad suele ser el elemento de coste más flexible
+    -   La presupuestación podría ser demasiado vulnerable, puede llevar a decisiones reactivas en lugar de proactivas en términos de marketing. La necesidad de mantener un presupuesto estable puede ser clave en el logro de los objetivos de marketing, sobre todo si la estrategia requiere de una inversión constante y consistente a lo largo del tiempo
 
 | Sector | Ratio P/V % | Sector | Ratio P/V % |
 |---------------------|-----------------|-----------------|-----------------|
@@ -448,30 +453,12 @@ Cálculo base método P/V:
 
 -   1.000.000€ × 0,088 = 88.000€
 
-Consideraciones:
-
--   Es el método más utilizado en el sector.
-
--   Se considera un "coste de hacer negocio".
-
--   Requiere ajustes porque:
-
-    -   Los requerimientos publicitarios no siempre siguen directamente a las ventas
-    -   Deben usarse ratios P/V variables por área, lo que exige análisis exhaustivo\_
-
-Advertencias:
-
--   Necesidad de información competitiva precisa
--   Importancia de definir correctamente el mercado
--   No asumir relación directa publicidad-ventas
--   La competencia podría estar dictando tu presupuesto
-
 Presupuesto:
 
 -   Base P/V (8,8%): 88.000€
 -   Ajuste por lanzamiento (+50%): 132.000€
 
-### Método todo lo que se pueda permitir
+### Método _todo lo que se pueda permitir_
 
 El **método _todo lo que se pueda permitir_**, aunque menos sofisticado, sigue siendo utilizado por algunas empresas que determinan su presupuesto publicitario basándose únicamente en los recursos disponibles, sin considerar objetivos específicos o condiciones de mercado.
 
