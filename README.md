@@ -515,12 +515,14 @@ El objetivo es proporcionar una base sólida para la toma de decisiones en la pl
 
 **Uso del BDI / CDI**
 
-El análisis BDI/CDI se utiliza para identificar los mercados donde una marca tiene un buen rendimiento y dónde hay potencial de crecimiento. Se suele representar gráficamente en un gráfico de cuadrantes, donde cada cuadrante refleja una relación diferente entre la marca y la categoría:
+El análisis BDI/CDI se utiliza para identificar los mercados donde una marca tiene un buen rendimiento y dónde hay potencial de crecimiento. Se suele representar en un gráfico de cuadrantes, donde cada cuadrante refleja una relación diferente entre la marca y la categoría.
+
+![BDI/CDI](./img/grafico-bdi-cdi.png)
 
 **Alto BDI, Alto CDI: Mercados a mantener**
 
 -   La marca y la categoría muestran fuerte presencia
--   Prioridad: Mantener posición y defender cuota de mercado
+-   Prioridad: mantener posición y defender cuota de mercado
 -   Estrategia defensiva recomendada
 
 **Alto BDI, Bajo CDI: Mercados a potenciar**
@@ -541,23 +543,19 @@ El análisis BDI/CDI se utiliza para identificar los mercados donde una marca ti
 -   Baja prioridad para inversión publicitaria
 -   Requiere análisis adicional antes de cualquier inversión significativa
 
-![BDI/CDI](./img/grafico-bdi-cdi.png)
-
 Se presenta adicionalmente el **índice de oportunidad de marca (BOI)** para identificar mercados a conquistar. **El BOI se calcula dividiendo el CDI por el BDI**. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
 
-**Factores adicionales**
-
-Es importante tener en cuenta que el análisis BDI/CDI no es el único factor a considerar en la planificación geográfica. La distribución también juega un papel fundamental. Una marca puede tener un BDI bajo en un mercado debido a una distribución limitada. El BDI y el CDI son pues herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento y rentabilidad en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
+El BDI y el CDI son pues herramientas valiosas para comprender el rendimiento de una marca y su potencial de crecimiento y rentabilidad en diferentes mercados. Sin embargo, es crucial considerar estos índices en conjunto con otros factores, como la distribución y la competencia, para tomar decisiones informadas sobre la asignación de recursos de marketing.
 
 ### Coeficiente (índice) de afinidad
 
 > El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con la población considerada en su conjunto.
 
-El coeficiente de afinidad es fundamental para evaluar qué tan relevante o atractivo es un producto, servicio o marca para un grupo específico, ayudando a los especialistas en marketing a adaptar sus estrategias de segmentación y posicionamiento.
+El coeficiente de afinidad es fundamental para evaluar qué tan relevante o atractivo es un producto, servicio o marca para un grupo específico, ayudando a los especialistas en marketing a adaptar sus estrategias de segmentación y posicionamiento. Valores superiores a 100 sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la población. Es un indicador aproximado de que el producto es especialmente atractivo o relevante para ese grupo específico. 
 
-En particular, en el ámbito de la planificación de medios el coeficiente de afinidad proporciona información basada en datos que también ayuda a seleccionar los canales de medios más relevantes (o afines) para una campaña. No se trata solo de llegar a una audiencia (bruta), sino de llegar a la audiencia adecuada (útil). Esto asegura que el mensaje *resuene* con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña.
+En particular, en el ámbito de la planificación de medios el coeficiente de afinidad proporciona información basada en datos que también ayudan a seleccionar los canales de medios más relevantes (o afines) para una campaña. No se trata solo de llegar a una audiencia (bruta), sino de llegar a la audiencia adecuada (útil). Esto asegura que el mensaje *resuene* con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña.
 
-**Cálculo del coeficiente (índice) de afinidad**
+**Tabla. Cálculo del coeficiente (índice) de afinidad**
 
 | Paso | Descripción | Ejemplo |
 |------------------|------------------------------|------------------------|
@@ -565,100 +563,117 @@ En particular, en el ámbito de la planificación de medios el coeficiente de af
 | 2 | Determinar el porcentaje de la población total que usa/consume el producto os ervicio | 10% de la población ve el mismo programa de cocina |
 | 3 | Dividir el porcentaje del segmento o clase entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
 
-**Interpretación del resultado:**
-
--   Valores superiores a 100: Sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la población. Es un indicador aproximado de que el producto es especialmente atractivo o relevante para ese grupo específico.
-
--   Valores inferiores a 100: Señalan una menor afinidad del grupo objetivo respecto al producto.
-
 ## Métricas relativas a los soportes:
 
-**Audiencia o Audiencia Bruta**\
+### Audiencia o Audiencia Bruta
 Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil o la cobertura.
 
-**Perfil de audiencia** El perfil de audiencia se refiere a la caracterización detallada de la audiencia de un medio o soporte publicitario. Esta caracterización va más allá de simples datos demográficos (edad, sexo, ubicación) e incluye, por ejemplo: - Hábitos de consumo de medios: Con qué frecuencia e intensidad consumen determinados medios (TV, radio, prensa, etc.). - Intereses y Estilo de vida: Qué tipo de contenido les atrae, sus aficiones, valores y actividades. - Nivel socioeconómico: Nivel de ingresos, educación, ocupación. - ...
+### Perfil de audiencia
 
-**Índice de Utilidad**\
+El perfil de audiencia se refiere a la caracterización detallada de la audiencia de un medio o soporte publicitario. Esta caracterización va más allá de simples datos demográficos (edad, sexo, ubicación) e incluye, por ejemplo: 
+
+- Hábitos de consumo de medios: Con qué frecuencia e intensidad consumen determinados medios (TV, radio, prensa, etc.). 
+
+- Intereses y Estilo de vida: Qué tipo de contenido les atrae, sus aficiones, valores y actividades. 
+
+- Nivel socioeconómico: Nivel de ingresos, educación, ocupación. 
+
+- ...
+
+### Índice de Utilidad
+
 Expresa el tanto por uno de la audiencia (bruta) de un soporte que corresponde a la población objetivo. Permite evaluar la eficacia del soporte en términos de su capacidad para alcanzar específicamente al público deseado.
 
-**Audiencia Útil**\
+### Audiencia Útil
+
 Número de personas de la audiencia de un soporte que pertenece específicamente al público objetivo. Refina la audiencia bruta para centrar los esfuerzos de marketing en el público relevante o target para la campaña publicitaria.
 
-**Soporte**\
-*Vehículo* dentro de un [medio publicitario](https://www.infoadex.es/wp-content/uploads/2024/01/Resumen-Estudio-InfoAdex-2023.pdf) que *transporta* o difunde el mensaje al público objetivo. Características:
+### Soporte
+
+*Vehículo* dentro de un [medio publicitario](https://www.infoadex.es/wp-content/uploads/2024/01/Resumen-Estudio-InfoAdex-2023.pdf) que *transporta* o difunde el mensaje al público objetivo. 
 
 -   Es el canal específico de transmisión del mensaje
+
 -   Puede ser un programa, una publicación, una web específica, etc.
+
 -   Su selección afecta directamente a la efectividad del mensaje
+
 -   Determina el contexto de exposición al mensaje
 
-**Inserción**\
-Colocación física o digital de un anuncio en un soporte publicitario específico. Representa la acción de situar el anuncio o mensaje en el vehículo de medios. Aspectos clave:
+### OTS ( *Opportunity To See* )
+
+Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. 
+
+-   Representa una oportunidad de ver, leer o escuchar el anuncio durante el ciclo publicitario, no la atención efectiva
+-   Es la unidad básica para medir la intensidad de una campaña
+-   En singular: representa una única oportunidad de contacto con el mensaje
+-   En plural: equivale a la frecuencia promedio de exposición
+
+### Inserción
+
+Colocación física o digital de un anuncio en un soporte publicitario específico. Representa la acción de situar el anuncio o mensaje en el vehículo de medios. 
 
 -   Es el acto de colocación del anuncio en el medio
 -   Genera oportunidades de ver (OTS) para la audiencia del soporte
 -   No garantiza la exposición efectiva
 -   Su efectividad depende de factores como ubicación, formato o contexto
 
-**OTS ( *Opportunity To See* )**\
-Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. Características fundamentales:
-
--   En singular: representa una única oportunidad de contacto con el mensaje
--   En plural: equivale a la frecuencia promedio de exposición
--   Representa una oportunidad de ver, leer o escuchar el anuncio durante el ciclo publicitario, no la atención efectiva
--   Es la unidad básica para medir la intensidad de una campaña
-
 ## Métricas de cobertura y frecuencia
 
-**Alcance o Cobertura (Reach)**\
-Número absoluto (o relativo) de individuos expuestos al menos una vez ($\geq$ 1) a un mensaje publicitario durante un ciclo específico. Características clave:
+### Alcance o Cobertura (Reach)
+
+Número absoluto (o relativo) de individuos expuestos al menos una vez ($\geq$ 1) a un mensaje publicitario durante un ciclo específico. 
 
 -   Es uno de los tres parámetros básicos del plan de medios, junto con la frecuencia y la distribución de exposición
 -   Se centra en individuos únicos, no en exposiciones
--   Puede expresarse en términos absolutos o porcentuales
 -   Es la base para el cálculo del alcance efectivo
+-   Puede expresarse en términos absolutos o porcentuales
 
-**Patrón de Alcance (Reach Pattern)**\
-Distribución de la continuidad (estrategias de *continuity*, *flighting* o *pulsing*) de ciclos publicitarios para alcanzar el alcance efectivo durante el período de planificación. Tipos principales:
+### Patrón de Alcance (*Reach Pattern*)
+
+Distribución de la continuidad (estrategias de *continuity*, *flighting* o *pulsing*) de ciclos publicitarios para alcanzar el alcance efectivo durante el período de planificación. 
 
 -   Patrones para Nuevos Productos:
 
-    -   Blitz Pattern (patrón blitz)
-    -   Wedge Pattern (patrón cuña)
-    -   Reverse-wedge/PI Pattern (patrón cuña inversa/PI)
-    -   Short Fad Pattern (patrón moda corta)
+    -   *Blitz Pattern* (patrón bombardeo)
+    -   *Wedge Pattern* (patrón cuña)
+    -   *Reverse-wedge/PI Pattern* (patrón cuña inversa/IP)
+    -   *Short Fad Pattern* (patrón moda corta)
 
 -   Patrones para Productos Establecidos:
 
-    -   Regular Purchase Cycle Pattern (patrón de ciclo de compra regular)
-    -   Awareness Pattern (patrón de conciencia o notoriedad)
-    -   Shifting Reach Pattern (patrón de alcance cambiante o acumulado)
-    -   Seasonal Priming Pattern (patrón estacional)
+    -   *Regular Purchase Cycle Pattern* (patrón de ciclo de compra regular)
+    -   *Awareness Pattern* (patrón de notoriedad)
+    -   *Shifting Reach Pattern* (patrón de alcance cambiante o acumulado)
+    -   *Seasonal Priming Pattern* (patrón estacional)
 
-**Frecuencia**\
-Número medio de exposiciones por individuo en un ciclo publicitario. Aspectos relevantes:
+### Frecuencia
+
+Número medio de exposiciones por individuo en un ciclo publicitario. 
 
 -   Es un promedio de exposiciones por individuo alcanzado
 -   Debe analizarse junto con su distribución de exposición (o contactos)
 
 **Distribución de Exposición (o Contactos)**\
-Distribución de frecuencia de exposiciones en un ciclo publicitario. Incluye:
+Distribución de frecuencia de exposiciones en un ciclo publicitario.
 
 -   Porcentaje no alcanzado (0 exposiciones)
 -   Porcentaje con exclusivamente 1 exposición
 -   Porcentaje con exclusivamente 2 exposiciones
 -   ...
 
-También se calcula la distribución de exposiciòn acumulada, es decir, individuos expuestos al menos i exposiciones.
+También se calcula la distribución de exposición acumulada, es decir, individuos expuestos al menos i exposiciones. Este concepto se asocia con MEF/c. 
 
-**Rating Point (RP)**\
-Representa el 1% de la población alcanzada en caso de realizar una inserción en el soporte publicitario. Características:
+### Rating Point (RP)
+
+Representa el 1% de la población alcanzada en caso de realizar una inserción en el soporte publicitario. 
 
 -   Es una medida estándar en medios publicitarios de difusión
 -   Facilita la comparación entre diferentes soportes y campañas
 -   Base para el cálculo de GRPs
 
-**GRPs (Gross Rating Points)**\
+### GRPs (Gross Rating Points)
+
 Es una estimación del total de oportunidades de exposición promedio por cada 100 individuos de la población (o target). Se calcula:
 
 -   Método básico recomendado (Cobertura × Frecuencia):
@@ -676,7 +691,7 @@ Es una estimación del total de oportunidades de exposición promedio por cada 1
     -   *GRP = Suma de las audiencias i (%) por cada inserción realizada en el soporte i*
     -   Ejemplo: Si contratamos 1 spot en cada soporte con audiencias de S1: 20%, S2: 15% y S3: 25%, GRP = 20 x 1 + 15 x 1 + 25 x 1 = 60 GRPs
 
-En este contexto, señalamos una de las principales limnitaciones del uso de los valores GRPs como único indicador:
+En este contexto, señalamos una de las principales limitaciones del uso de los valores GRPs como único indicador:
 
 **Caso 1:**
 
@@ -700,35 +715,46 @@ Problemas que esto genera:
 -   No refleja la distribución real de los impactos
 -   No indica si estamos sobre-exponiendo a una parte del público
 -   No muestra si hay personas que no reciben ningún impacto
--   No considera la calidad de los impactos o el contexto
--   Puede llevar a decisiones erróneas si solo se mira el número final
+-   No considera la calidad de los impactos 
+-   Puede llevar a decisiones erróneas si solo se toma en consideración el número final
 
 ## Métricas de eficiencia y costes
 
-**CPM (Coste Por Mil)**\
-Coste de alcanzar a mil personas de la audiencia o de la cobertura alcanzada. Características:
+### CPM (Coste Por Mil)
+
+Coste de alcanzar a mil personas de la audiencia o de la cobertura alcanzada.
 
 -   Se calcula dividiendo el coste total de una inserción (o del plan de medios) entre el número de personas de la audiencia (o la cobertura, según corresponda)
 -   Permite comparar eficiencia entre soportes o planes de medios
 -   Para el target específico se denomina CPMT
 
-**Coste por Contacto Útil**\
-Representa el coste de alcanzar a una persona de la audiencia útil. Características:
+### Coste por Contacto Útil
+
+Representa el coste de alcanzar a una persona de la audiencia útil.
 
 -   Se calcula dividiendo el coste total de una inserción entre el número de personas de la audiencia útil
 -   Proporciona una medida más precisa que el CPM
 -   Considera específicamente el público objetivo
 
-**SOV (Share of Voice)**\
-Representa la cuota de voz o presencia publicitaria de una marca en comparación con sus competidores. Características:
+### SOV (Share of Voice)
+
+Representa la cuota de voz o presencia publicitaria de una marca en comparación con sus competidores.
 
 -   Indica la dominancia relativa en el mercado publicitario
 -   Permite comparar la presencia mediática entre competidores o medios en que se programa
 -   Es un indicador clave del esfuerzo publicitario relativo
 
+**Tabla de comparación de opciones publicitarias en función del coste relativo**
+| Opción | Coste | Alcance | CPM | C/RP |
+|---------------|---------------|---------------|---------------|---------------|
+| D 4 | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 \* 100)) |
+| D 5 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
+<sub>Población = 500.000 personas</sub>
+
 ## Métricas avanzadas de planificación
 
-**Ciclo Publicitario**\
+### Ciclo Publicitario
+
 Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
 
 -   Una exposición continua durante todo el período
@@ -748,7 +774,8 @@ Las ventajas de usar oleadas en un ciclo publicitario:
 -   Aprovechamiento del _carryover_: Se maximiza el efecto de la publicidad, ya que el impacto de las oleadas anteriores se mantiene (parcialmente) durante los períodos de pausa.
 -   Mayor flexibilidad: Permite adaptar la estrategia a las fluctuaciones del mercado, la estacionalidad o la actividad de la competencia.
 
-**Ciclo de Compra (Purchase Cycle)**\
+### Ciclo de Compra (Purchase Cycle)
+
 Intervalo medio de tiempo entre compras sucesivas en una categoría de producto o servicio. También conocido como:
 
 -   IPT ( *Inter-Purchase Time* ): tiempo entre compras
@@ -756,34 +783,39 @@ Intervalo medio de tiempo entre compras sucesivas en una categoría de producto 
 
 Es fundamental para: - Determinar momentos óptimos de comunicación - Establecer la frecuencia efectiva (mínima) de exposición - Diseñar patrones de alcance efectivos - Sincronizar la comunicación con el comportamiento de compra
 
-**Timing**\
+### Timing
+
 Táctica que busca sincronizar la comunicación con momentos de elevada receptividad del público objetivo. Implica:
 
 -   Selección estratégica de momentos de contacto
 -   Consideración de ciclos de compra y activaciones del reconocimiento de la necesidad de la categoría
 -   Optimización de la efectividad del mensaje
 
-**Frecuencia Efectiva**\
+### Frecuencia Efectiva
+
 Número de exposiciones, en un ciclo publicitario, necesario para maximizar la disposición de compra del público objetivo. Se expresa como:
 
 -   MEF (Minimum Effective Frequency): nivel mínimo necesario
 -   MaxEF (Maximum Effective Frequency): nivel máximo antes de generar desgaste
 
-**Carryover Publicitario (Advertising Carryover)**\
+### Carryover Publicitario (Advertising Carryover)
+
 Persistencia de la disposición de compra generada por las exposiciones publicitarias. Aspectos clave:
 
 -   Es el efecto posterior al ciclo publicitario
 -   Es especialmente clave en exposiciones espaciadas en el tiempo
 -   Afecta directamente al alcance efectivo activo
 
-**Alcance Efectivo**\
+### Alcance Efectivo
+
 Número de individuos del público objetivo que deben alcanzarse al nivel de MEF o superior en un ciclo publicitario. Características:
 
 -   Combina alcance y frecuencia efectiva
 -   Se define dentro del rango [MEF, MaxEF]
 -   Es un parámetro clave para evaluar planes de medios
 
-**Alcance Efectivo Activo**\
+### Alcance Efectivo Activo
+
 Alcance efectivo después del ciclo publicitario. Características:
 
 -   Mide la persistencia del efecto publicitario
@@ -791,32 +823,12 @@ Alcance efectivo después del ciclo publicitario. Características:
 -   Es clave para evaluar la efectividad a largo plazo
 -   Depende de la tasa de decaimiento de los efectos publicitarios
 
-**Dominancia**\
+### Dominancia
+
 Estrategia en que la frecuencia MEF se establece deliberadamente por encima de la competencia principal. Características:
 
 -   Busca establecer presencia superior
 -   Es especialmente relevante en momentos críticos del mercado
-
-<details>
-
-<summary>Ejemplo de diversas métricas</summary>
-
-**Tabla de principales métricas**
-
-| Soporte | Audiencia_miles | Inserciones | RP | SOV | Tarifa_Pag_Color | CPM | C/RP | Indice_Utilidad | Audiencia_Util_miles | Coste_Contacto_Util |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-| D 1 | 150000 | 1 | 30 | 40,54 | 500 | 3,33 | 16,67 | 0,30 | 45000 | 0,01 |
-| D 2 | 100000 | 1 | 20 | 27,03 | 250 | 2,50 | 12,50 | 0,20 | 20000 | 0,01 |
-| D 3 | 120000 | 1 | 24 | 32,43 | 400 | 3,33 | 16,67 | 0,25 | 30000 | 0,01 |
-
-**Tabla de comparación de opciones publicitarias en función del coste relativo**
-
-| Opción | Coste | Alcance | CPM | C/RP |
-|---------------|---------------|---------------|---------------|---------------|
-| D 4 | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 \* 100)) |
-| D 5 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
-
-Población = 500.000 personas
 
 La función **calcular_metricas_medios()** del paquete mediaPlanR permite estimar la tabla resumen del conjunto de soportes elegidos.
 
@@ -831,8 +843,6 @@ resultado <- calcular_metricas_medios(
   pob_total = 39500000)
 head(resultado)
 ```
-
-</details>
 
 # Objetivos del Plan de Medios y Soportes
 
