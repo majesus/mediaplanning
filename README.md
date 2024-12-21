@@ -170,15 +170,11 @@ El análisis agregado revela:
 
 Aplicando la fórmula del ROI:
 
-$$
-\text{ROI} = \left[\frac{\text{Ingresos} - \text{Costes Totales}}{\text{Costes Totales}}\right] \times 100
-$$
+$$ \text{ROI} = \left[\frac{\text{Ingresos} - \text{Costes Totales}}{\text{Costes Totales}}\right] \times 100 $$
 
 Con los valores del ejemplo:
 
-$$
-\text{ROI} = \left[\frac{30,000€ - 37,750€}{37,750€}\right] \times 100 = -20.5\%
-$$
+$$ \text{ROI} = \left[\frac{30.000€ - 37.750€}{37.750€}\right] \times 100 = -20,5\% $$
 
 Este caso evidencia una divergencia significativa entre la eficiencia publicitaria y la rentabilidad operativa: mientras el ROAS de 3.0 sugiere una campaña publicitaria eficaz en la generación de ingresos, el ROI negativo del -20.5% revela una operación comercial deficitaria. Esta discrepancia subraya la importancia de un análisis holístico que considere la totalidad de la estructura de costes empresariales en la evaluación del rendimiento comercial.
 
