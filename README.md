@@ -78,9 +78,9 @@ El resultado de 2.903 sitúa a este hogar en el nivel A2 de la clasificación so
 
 En particular, los conceptos de _Share of Voice_ (SOV) y _Share of Market_ (SOM) son fundamentales en marketing para comprender la posición de una marca en el mercado y su potencial de crecimiento.
 
--   **Share of Market (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100.000 unidades físicas de un producto en un mercado donde se venden un total de 1.000.000 unidades, su SOM sería del 10%.
+-   **_Share of Market_ (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100.000 unidades físicas de un producto en un mercado donde se venden un total de 1.000.000 unidades, su SOM sería del 10%.
 
--   **Share of Voice (SOV)** mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, abarcando la presencia en canales orgánicos como redes sociales y búsquedas.
+-   **_Share of Voice_ (SOV)** mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, abarcando la presencia en canales orgánicos como redes sociales y búsquedas.
 
 El caso Lidl presenta un análisis fundamental sobre la relación entre share of voice (SOV) y cuota de mercado en el sector retail, y el concepto excess of share of voice (ESOV, medida que indica si una empresa está invirtiendo más en publicidad de lo que justificaría su cuota de mercado actual). La compañía enfrentaba inicialmente dos desafíos críticos: una percepción errónea de calidad vinculada a sus precios bajos y la necesidad de incrementar su share of voice debido a su limitado tamaño de marca. En el siguiente enlace: [Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa) se muestra el caso con mayor detalle.
 
@@ -115,19 +115,19 @@ Es fundamental que los objetivos de la campaña estén definidos de forma *SMART
 
 En general, la disposición a la compra describe el proceso mental que lleva a un consumidor desde la exposición y el conocimiento inicial de un producto hasta la decisión final de adquirirlo:
 
-1. Exposición al mensaje: La secuencia comienza con la exposición del receptor, a saber, la oportunidad de ver, leer o escuchar el mensaje publicitario. Esta exposición es clave para que el mensaje comience a tener un efecto en el receptor. 
+1. **Exposición al mensaje**: La secuencia comienza con la exposición del receptor, a saber, la oportunidad de ver, leer o escuchar el mensaje publicitario. Esta exposición es clave para que el mensaje comience a tener un efecto en el receptor. 
 
-2. Procesamiento de la información: Tras la exposición, el receptor procesa la información contenida en el mensaje. Este procesamiento puede variar en profundidad y puede verse influenciado por la consistencia del mensaje, que incrementa la cantidad de información procesada, y la implicación, motivación, habilidad del individuo y oportunidad de procesamiento.
+2. **Procesamiento de la información**: Tras la exposición, el receptor procesa la información contenida en el mensaje. Este procesamiento puede variar en profundidad y puede verse influenciado por la consistencia del mensaje, que incrementa la cantidad de información procesada, y la implicación, motivación, habilidad del individuo y oportunidad de procesamiento.
 
-3. Memoria: La información procesada es codificada y almacenada en la memoria, para su uso posterior en la toma de decisiones. La codificación variable, que se logra al presentar el mensaje en diferentes contextos, mejora el aprendizaje y facilita la recuperación (recuerdo o reconocimiento) posterior de la información. La memoria a corto plazo tiene una capacidad limitada, por lo que el anuncio debe desplazar otro tipo de _pensamientos_.
+3. **Memoria**: La información procesada es codificada y almacenada en la memoria, para su uso posterior en la toma de decisiones. La codificación variable, que se logra al presentar el mensaje en diferentes contextos, mejora el aprendizaje y facilita la recuperación (recuerdo o reconocimiento) posterior de la información. La memoria a corto plazo tiene una capacidad limitada, por lo que el anuncio debe desplazar otro tipo de _pensamientos_.
 
-4. Conocimiento: La acumulación de información en la memoria contribuye al conocimiento del producto o marca. La publicidad busca generar notoriedad en la etapa de introducción de un producto y mantenerla en la etapa de madurez.
+4. **Conocimiento**: La acumulación de información en la memoria contribuye al conocimiento del producto o marca. La publicidad busca generar notoriedad en la etapa de introducción de un producto y mantenerla en la etapa de madurez.
 
-5. Actitud: El procesamiento de la información y el conocimiento previo influyen en la formación de actitudes (_asociaciones entre un objeto y un valor dado_) hacia el producto o marca, y su uso. Una campaña integrada con mensajes consistentes puede generar actitudes más favorables. 
+5. **Actitud**: El procesamiento de la información y el conocimiento previo influyen en la formación de actitudes (_asociaciones entre un objeto y un valor dado_) hacia el producto o marca, y su uso. Una campaña integrada con mensajes consistentes puede generar actitudes más favorables. 
 
-6.Intención de compra: La actitud favorable, junto con otros factores, genera en el consumidor una intención de compra, que es un paso previo a la acción de compra. La intención de compra es un plan del consumidor de adquirir un producto o marca.
+6. **Intención de compra**: La actitud favorable, junto con otros factores, genera en el consumidor una intención de compra, que es un paso previo a la acción de compra. La intención de compra es un plan del consumidor de adquirir un producto o marca.
 
-7. Disposición a la acción (Comportamiento de compra): Finalmente, la intención de compra se traduce en la disposición a la acción, que se refiere a la probabilidad de que el consumidor realice la compra. La publicidad debe acompañar al consumidor en su recorrido hacia la compra para asegurar esta acción.
+7. **Disposición a la acción**: Finalmente, la intención de compra se traduce en la disposición a la acción, que se refiere a la probabilidad de que el consumidor realice la compra. La publicidad debe acompañar al consumidor en su recorrido hacia la compra para asegurar esta acción.
 
 **¿Qué se quiere lograr con la campaña publicitaria?** Se deben definir objetivos específicos, como aumentar la notoriedad (memoria), mejorar o cambiar las valoraciones del uso del producto o servicio (actitud hacia el uso), o incitar a la acción.
 
@@ -139,13 +139,13 @@ En general, la disposición a la compra describe el proceso mental que lleva a u
 
 **¿Qué medios y canales son los más adecuados para alcanzar al público objetivo y lograr los objetivos de la campaña?** La selección de medios se debe basar en un análisis exhaustivo de la audiencia útil, sus hábitos de consumo, las características de cada medio y la estrategia creativa, así como los costes relativos y absolutos asociados, entre otros factores.
 
-**¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión ( *e.g.*, ROI, ROAS) y mediciones de impacto para cada medio seleccionado.
+**¿Cómo se determinará la efectividad de cada medio en relación con los objetivos definidos?** Es crucial evaluar cada medio en función de su capacidad para cumplir con los objetivos de la campaña. Esto implica realizar pruebas previas, análisis de retorno de inversión (*e.g.*, ROAS, *Return on Ad Spend*, y ROI, *Return on Investment*) y mediciones de impacto para cada medio seleccionado.
 
-En el contexto del análisis de métricas publicitarias y rentabilidad empresarial, resulta pertinente examinar la distinción fundamental entre el ROAS (Return on Ad Spend) y el ROI (Return on Investment) mediante un caso ilustrativo del sector retail.
+En el contexto del análisis de métricas publicitarias y rentabilidad empresarial, resulta pertinente examinar la distinción fundamental entre el ROAS y el ROI mediante un caso ilustrativo del sector *retail*.
 
 Consideremos el caso de una empresa emergente del sector textil sostenible, que denominaremos "EcoStyle", especializada en la comercialización de indumentaria elaborada con materiales reciclados. Durante el período promocional del cuarto trimestre de 2023, la compañía implementó una campaña publicitaria digital para su línea de abrigos sostenibles, con un precio unitario de mercado de 200€.
 
-La inversión publicitaria ascendió a 10,000€, resultando en la comercialización de 150 unidades, generando un ingreso bruto de 30,000€. El análisis del ROAS arroja un coeficiente de 3.0 (30,000€/10,000€), lo que inicialmente sugiere una eficiencia publicitaria notable.
+La inversión publicitaria ascendió a 10.000€, resultando en la comercialización de 150 unidades, generando un ingreso bruto de 30.000€. El análisis del ROAS arroja un coeficiente de 3,0 (30.000€/10.000€), lo que inicialmente sugiere una eficiencia publicitaria notable.
 
 Sin embargo, un análisis exhaustivo del ROI revela una realidad económica distinta al incorporar la estructura completa de costes:
 
@@ -153,7 +153,7 @@ Sin embargo, un análisis exhaustivo del ROI revela una realidad económica dist
 - Logística y distribución unitaria: 15€
 - Overhead (costes indirectos o gastos generales): 20€ por unidad
 
-El overhead comprende aquellos costes operativos indirectos necesarios para el funcionamiento de la empresa pero no directamente atribuibles a la producción, incluyendo:
+El *overhead* comprende aquellos costes operativos indirectos necesarios para el funcionamiento de la empresa pero no directamente atribuibles a la producción, incluyendo:
 
 - Gastos administrativos
 - Servicios generales
@@ -165,8 +165,8 @@ El overhead comprende aquellos costes operativos indirectos necesarios para el f
 El análisis agregado revela:
 
 - Coste total unitario: 185€
-- Coste total de producción (150 unidades): 27,750€
-- Coste total incluyendo inversión publicitaria: 37,750€
+- Coste total de producción (150 unidades): 27.750€
+- Coste total incluyendo inversión publicitaria: 37.750€
 
 Aplicando la fórmula del ROI:
 
@@ -176,7 +176,7 @@ Con los valores del ejemplo:
 
 $$ \text{ROI} = \left[\frac{30.000€ - 37.750€}{37.750€}\right] \times 100 = -20,5\% $$
 
-Este caso evidencia una divergencia significativa entre la eficiencia publicitaria y la rentabilidad operativa: mientras el ROAS de 3.0 sugiere una campaña publicitaria eficaz en la generación de ingresos, el ROI negativo del -20.5% revela una operación comercial deficitaria. Esta discrepancia subraya la importancia de un análisis holístico que considere la totalidad de la estructura de costes empresariales en la evaluación del rendimiento comercial.
+Este caso evidencia una divergencia significativa entre la eficiencia publicitaria y la rentabilidad operativa. Mientras que el ROAS de 3,0 sugiere una campaña publicitaria eficaz en la generación de ingresos, el ROI negativo del -20.5% revela una operación comercial deficitaria. Esta discrepancia subraya la importancia de un análisis holístico que considere la totalidad de la estructura de costes empresariales en la evaluación del rendimiento comercial.
 
 **¿Qué combinación de medios tradicionales y digitales será la más efectiva?** Es necesario considerar las ventajas y limitaciones de cada medio, buscando la combinación (*cross-platform*) óptima que permita alcanzar los objetivos asociados a la campaña.
 
