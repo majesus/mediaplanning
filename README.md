@@ -311,7 +311,7 @@ El **método de objetivos y tareas**, preferido por los grandes anunciantes, ado
 
 Los objetivos pueden orientarse hacia los medios (como alcanzar ciertos niveles de alcance y frecuencia durante un período específico), hacia la publicidad/aprendizaje (memoria, actitud e intención) y hacia el marketing (como generar un determinado volumen de prueba de producto), o una combinación.
 
-![FE_Ostrow_1982](./img/img_objectives_rossiter_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
+![Objetivos de la publicidad](./img/img_objectives_rossiter_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
 
 La fortaleza y la debilidad de este método están pues íntimamente relacionadas: cuando se conocen con precisión los niveles publicitarios requeridos para lograr una tarea específica, el sistema resulta sumamente efectivo. Sin embargo, en la práctica, esta certeza es poco común, lo que convierte al enfoque en altamente subjetivo y, por tanto, cuestionable. A saber:
 
@@ -757,18 +757,16 @@ Representa la cuota de voz o presencia publicitaria de una marca en comparación
 
 Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
 
--   Una exposición continua durante todo el período
+-   Una exposición continua durante todo el período (continuidad)
 -   Ciclos discontinuos con duraciones variables u oleadas (*flighting o pulsing*).
 
-En particular, en lugar de mantener una presión publicitaria constante durante todo el ciclo, el *flighting o pulsing* se basa en la idea de concentrar la inversión en momentos estratégicos, aprovechando el *carryover publicitario*, que es la persistencia (de parte) del efecto de la publicidad después de que la exposición ha cesado. 
-
-Ejemplos: 
+En lugar de mantener una presión publicitaria constante durante todo el ciclo, el *flighting o pulsing* se basa en la idea de concentrar la inversión en momentos estratégicos, aprovechando el *carryover publicitario*, que es la persistencia (de parte) del efecto de la publicidad después de que la exposición ha cesado. A continuación, se presentan algunos modelos de cobertura y distribución de exposiciones del tipo *flighting*.
 
 - *Regular Purchase Cycle*: Este patrón se utiliza para productos con ciclos de compra regulares, como alimentos o productos de higiene personal. La publicidad se concentra en períodos que coinciden con los momentos de compra, con intervalos de pausa entre cada oleada. 
 
 - *Awareness*: Se usa para productos con ciclos de compra largos, como bienes inmobiliarios o automóviles. La publicidad se implementa en ciclos espaciados, con una baja frecuencia por ciclo, pero manteniendo una continuidad anual para reforzar la presencia de marca.
 
-Las ventajas de usar oleadas en un ciclo publicitario:
+Las ventajas de usar oleadas en un ciclo publicitario son:
 
 -   Optimización del presupuesto: Permite concentrar la inversión en momentos de mayor impacto, evitando el desperdicio en períodos de menor receptividad.
 -   Aprovechamiento del _carryover_: Se maximiza el efecto de la publicidad, ya que el impacto de las oleadas anteriores se mantiene (parcialmente) durante los períodos de pausa.
@@ -781,14 +779,22 @@ Intervalo medio de tiempo entre compras sucesivas en una categoría de producto 
 -   IPT ( *Inter-Purchase Time* ): tiempo entre compras
 -   IPI ( *Inter-Purchase Interval* ): intervalo entre compras
 
-Es fundamental para: - Determinar momentos óptimos de comunicación - Establecer la frecuencia efectiva (mínima) de exposición - Diseñar patrones de alcance efectivos - Sincronizar la comunicación con el comportamiento de compra
+Es fundamental para: 
+
+- Determinar momentos óptimos de comunicación 
+
+- Establecer la frecuencia efectiva (mínima) de exposición 
+
+- Diseñar patrones de alcance efectivos - Sincronizar la comunicación con el comportamiento de compra
+
+Por ejemplo, tal como se ha expuesto anteriormente, el modelo *Awareness* se usa para productos con ciclos de compra largos, como bienes inmobiliarios o automóviles. La publicidad se implementa en ciclos espaciados, con una baja frecuencia por ciclo, pero manteniendo una continuidad anual para reforzar la presencia de marca.
 
 ### Timing
 
 Táctica que busca sincronizar la comunicación con momentos de elevada receptividad del público objetivo. Implica:
 
 -   Selección estratégica de momentos de contacto
--   Consideración de ciclos de compra y activaciones del reconocimiento de la necesidad de la categoría
+-   Consideración de ciclos de compra y activaciones del **reconocimiento de la necesidad de la categoría**
 -   Optimización de la efectividad del mensaje
 
 ### Frecuencia Efectiva
@@ -800,7 +806,7 @@ Número de exposiciones, en un ciclo publicitario, necesario para maximizar la d
 
 ### Carryover Publicitario (Advertising Carryover)
 
-Persistencia de la disposición de compra generada por las exposiciones publicitarias. Aspectos clave:
+Persistencia de la disposición de compra generada por las exposiciones publicitarias.
 
 -   Es el efecto posterior al ciclo publicitario
 -   Es especialmente clave en exposiciones espaciadas en el tiempo
@@ -808,7 +814,7 @@ Persistencia de la disposición de compra generada por las exposiciones publicit
 
 ### Alcance Efectivo
 
-Número de individuos del público objetivo que deben alcanzarse al nivel de MEF o superior en un ciclo publicitario. Características:
+Número de individuos del público objetivo que deben alcanzarse al nivel de MEF o superior en un ciclo publicitario. 
 
 -   Combina alcance y frecuencia efectiva
 -   Se define dentro del rango [MEF, MaxEF]
@@ -816,7 +822,7 @@ Número de individuos del público objetivo que deben alcanzarse al nivel de MEF
 
 ### Alcance Efectivo Activo
 
-Alcance efectivo después del ciclo publicitario. Características:
+Alcance efectivo después del ciclo publicitario. 
 
 -   Mide la persistencia del efecto publicitario
 -   Considera el fenómeno de *carryover*
@@ -825,24 +831,10 @@ Alcance efectivo después del ciclo publicitario. Características:
 
 ### Dominancia
 
-Estrategia en que la frecuencia MEF se establece deliberadamente por encima de la competencia principal. Características:
+Estrategia en que la frecuencia MEF se establece deliberadamente por encima de la competencia principal.
 
 -   Busca establecer presencia superior
 -   Es especialmente relevante en momentos críticos del mercado
-
-La función **calcular_metricas_medios()** del paquete mediaPlanR permite estimar la tabla resumen del conjunto de soportes elegidos.
-
-### Aplicación de la función:
-
-``` r
-resultado <- calcular_metricas_medios(
-  soportes = c("D 1", "D 2", "D 3"),
-  audiencias = c(1500, 1000, 1200),
-  tarifas = c(500, 250, 400),
-  ind_utilidad = c(0.3, 0.20, 0.25),
-  pob_total = 39500000)
-head(resultado)
-```
 
 # Objetivos del Plan de Medios y Soportes
 
@@ -850,7 +842,7 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 **Objetivos de exposición**:
 
--   _Cobertura y frecuencia efectivas_
+-   Cobertura y frecuencia efectivas
 
 **Objetivos de comunicación**:
 
@@ -860,45 +852,42 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 -   Disposición a la compra (*Brand purchase intention*)
 -   Facilidad de Compra (*Purchase Facilitation*)
 
-![FE_Ostrow_1982](./img/img_objectives_rossiter_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
+![Objetivos de la publicidad](./img/img_objectives_rossiter_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
 
-<details>
-
-<summary>Ver más detalles.</summary>
+## Objetivos de Comunicación
 
 Los **objetivos de comunicación** son fundamentales en el proceso publicitario ya que establecen conexiones mentales duraderas entre la marca y el consumidor potencial. Estos objetivos se materializan a través de cinco efectos de comunicación que deben estar presentes antes de que el comprador tome acción:
 
 - **Necesidad de Categoría**
 
-    Esta es la base del proceso, y se refiere a la aceptación por parte del consumidor de que necesita un producto o servicio para satisfacer una discrepancia entre su estado actual y el deseado. Por ejemplo, reconocer la necesidad de un automóvil es el primer paso antes de considerar una marca específica.
+    Esta es la base del proceso, y se refiere a la aceptación por parte del consumidor de que necesita un producto o servicio para satisfacer una discrepancia entre su estado actual y el deseado. Por ejemplo, el lanzamiento de los primeros servicios de _streaming_ de música como Spotify. Inicialmente, la tarea comunicacional no era convencer sobre las ventajas de Spotify sobre otros servicios similares, sino crear la necesidad de categoría: ¿por qué alguien necesitaría un servicio de _streaming_ de música cuando ya tenía su música descargada? La comunicación debía enfocarse en mostrar los problemas que resolvía esta nueva categoría: el espacio limitado en los dispositivos, la imposibilidad de descubrir nueva música fácilmente, la dificultad de acceder a toda la música que uno desea.
 
-    Imagina el lanzamiento de los primeros servicios de _streaming_ de música como Spotify. Inicialmente, la tarea comunicacional no era convencer sobre las ventajas de Spotify sobre otros servicios similares, sino crear la necesidad de categoría: ¿por qué alguien necesitaría un servicio de _streaming_ de música cuando ya tenía su música descargada? La comunicación debía enfocarse en mostrar los problemas que resolvía esta nueva categoría: el espacio limitado en los dispositivos, la imposibilidad de descubrir nueva música fácilmente, la dificultad de acceder a toda la música que uno desea.
-
-    Otros casos clásicos que ilustran el objetivo de la necesidad de la categoría: [A Case Study on American Express “Don’t Leave Home Without It](https://thebrandhopper.com/2024/09/17/a-case-study-on-american-express-dont-leave-home-without-it/)
+    Otros caso clásico que ilustra el objetivo de la necesidad de la categoría es la campaña [Don’t Leave Home Without It](https://thebrandhopper.com/2024/09/17/a-case-study-on-american-express-dont-leave-home-without-it/)
 
 - **Memoria de marca, conciencia o notoriedad de marca**
 
-    Se define como la capacidad del consumidor para identificar y diferenciar la marca dentro de su categoría. Es importante notar que la notoriedad o la _conciencia de marca_ puede evidenciarse tanto por el reconocimiento (como ver el envase en una tienda) como por el recuerdo (rememorar la marca cuando surge la necesidad).
+    Se define como la capacidad del consumidor para identificar y diferenciar la marca dentro de su categoría. Es importante notar que la notoriedad o la _conciencia de marca_ puede evidenciarse tanto por el reconocimiento (exponerse al envase en una tienda) como por el recuerdo (rememorar la marca en el lugar de exposición cuando surge la necesidad).
     
-    En este contexto, Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sostenibilidad.
+    En este contexto, Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sostenibilidad (*cf.* IMC).
     
 - **Actitud hacia la marca, y su uso**
 
     Se refiere a la evaluación que hace el consumidor sobre la capacidad de la marca para satisfacer una motivación relevante. La actitud se compone de creencias sobre los beneficios funcionales y asociaciones emocionales que el consumidor vincula con la marca, y la importancia percibida de cada uno de ellos.
 
-    Nike representa un caso maestro de construcción de actitud hacia la marca. Su comunicación va más allá de los beneficios funcionales de su calzado deportivo para crear una conexión emocional profunda con el "espíritu deportivo". Su eslogan "_Just Do It_" y sus campañas no venden simplemente zapatos ergonómicos, sino que también venden superación personal, determinación y excelencia. Esta actitud positiva hacia la marca se construye mediante la combinación de beneficios funcionales (tecnología, comodidad, durabilidad) con beneficios emocionales (confianza, inspiración, pertenencia).
+    Por ejemplo, Nike representa un caso maestro de construcción de actitud hacia la marca. Su comunicación va más allá de los beneficios funcionales de su calzado deportivo para crear una conexión emocional profunda con el "espíritu deportivo". Su eslogan "*Just Do It*" y sus campañas no venden solo simplemente zapatos ergonómicos, sino que también *venden* superación personal, determinación y excelencia, es decir, construye una estrategia de marca transformativa. Esta actitud positiva hacia la marca basada en aspectos de gratificación sensorial, estimulación intelectual o aprobación social se construye mediante la combinación de beneficios funcionales (tecnología, comodidad, durabilidad) con beneficios emocionales (confianza, inspiración, pertenencia).
 
 - **Disposición de compra, desplazamiento mental**
 
-    Se define como la disposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de implciación del consumidor o usuario - para productos de baja implicación, una actitud favorable (superficial o _soft_) puede ser suficiente, mientras que para productos de alta implicación se necesita generar una actitud _hard_ y una intención explícita.
+    Se define como la disposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de implicación del consumidor o usuario:
 
-    Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alto involucramiento como un smartphone, no basta con que te guste la marca; Apple busca crear una urgencia de compra inmediata.
+- para productos de baja implicación, una actitud favorable (superficial o *soft*) puede ser suficiente (*cf.* modelo de Derbaix)
+- para productos de alta implicación se necesita generar una actitud *hard* y una intención explícita.
+
+    Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alta implicación como un *smartphone*, no basta con que te guste la marca; Apple busca crear una urgencia de compra inmediata.
 
 - **Facilidad de compra**
 
-    Este último efecto asegura que no existan obstáculos en el proceso de compra, como problemas de distribución, precio o disponibilidad que puedan impedir la adquisición del producto.
-
-    Amazon es el ejemplo perfecto de facilitación de compra. Su obsesión por eliminar cualquier fricción en el proceso de compra se refleja en innovaciones como:
+    Este último efecto asegura que no existan obstáculos en el proceso de compra, como problemas de distribución, precio o disponibilidad que puedan impedir la adquisición del producto. Amazon es el ejemplo perfecto de facilitación de compra. Su obsesión por eliminar cualquier fricción en el proceso de compra se refleja en innovaciones como:
 
     - El botón "Compra con 1-Click"
     - Prime con envío gratuito y rápido
@@ -906,17 +895,15 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
     - Política de devolución simple
     - Reseñas detalladas de productos
 
-</details>
-
 ## Cobertura efectiva
 
-> Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF).
+> Se refiere al porcentaje o número absoluto de individuos del público objetivo que debe estar expuesto al mensaje publicitario una frecuencia igual o superior a la frecuencia efectiva mínima (MEF/c).
 
 ## Frecuencia efectiva
 
 > Se refiere al número de veces ( *oportunidades de ver* ) que un individuo debe exponerse a un mensaje publicitario dentro del ciclo publicitario para que la publicidad logre disponer al individuo hacia la compra de la marca. La frecuencia efectiva se define en el contexto de dos límites, a saber, **Frecuencia Efectiva Mínima (MEF) y Frecuencia Efectiva Máxima (MaxEF)**.
 
-![FE_Ostrow_1982](./img/img_MEF_MaxEF.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Frecuencia efectiva (mínima y máxima)](./img/img_MEF_MaxEF.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ### Frecuencia Efectiva Mínima (MEF)
 
@@ -926,14 +913,14 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
 > La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo. El valor MaxEF se alcanza cuando las exposiciones adicionales ya no aumentan la probabilidad de compra, e incluso, puede decrecer.
 
--   En suma, pueden producirse dos efectos:
+-   En suma, se producen dos efectos:
 
-    -   **Wear-in**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo ve el anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
-    -   **Wear-out**: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca.
+    -   **_Wear-in_**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo se expone al anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
+    -   **_Wear-out_**: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca y su uso.
 
-Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto _**recencia**_, que enfatiza la importancia de llegar a los receptores cerca del momento en que están predispuestos para realizar una compra. La publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto _recency_ en acción. 
+Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto _**recencia**_, que enfatiza la importancia de llegar a los receptores cerca del momento en que están predispuestos para realizar una compra. Por ejemplo, la publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto _recency_ en acción. 
 
-La recencia no se centra en alcanzar un número específico de exposiciones como la frecuencia efectiva, sino en estar presente en el mercado de manera constante para influir en las decisiones de compra en el momento oportuno.
+En suma, la recencia no se centra en alcanzar un número específico de exposiciones como la frecuencia efectiva, sino en estar presente en el mercado de manera constante para influir en las decisiones de compra en el momento oportuno.
 
 ## Guía de cálculo de la Frecuencia Efectiva Mínima (MEF)
 
@@ -955,13 +942,9 @@ $$
 \end{aligned}
 $$
 
-Los valores se presentan en la siguiente tabla que presenta un marco de referencia para la corrección de la frecuencia efectiva en ciclos publicitarios, basándose en cuatro factores fundamentales: la atención al medio, el tipo de público objetivo, los objetivos de comunicación y el nivel de influencia personal. Es una herramienta que permite pues ajustar el número de exposiciones necesarias (MEF) dependiendo de las características específicas de cada campaña publicitaria y la posición de la marca en el mercado.
+Los valores se presentan en la siguiente tabla que presenta un marco de referencia para la corrección de la MEF/c en ciclos publicitarios, basándose en cuatro factores fundamentales: la atención al medio, el tipo de público objetivo, los objetivos de comunicación y el nivel de influencia personal. Es una herramienta que permite pues ajustar el número de exposiciones necesarias (MEF/c) dependiendo de las características específicas de cada campaña publicitaria y la posición de la marca en el mercado.
 
-![FE_Ostrow_1982](./img/img_FEM_table.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
-
-<details>
-
-<summary>Ver más detalles.</summary>
+![Tabla de cálculo de MEF/c](./img/img_FEM_table.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 # Cálculo de la Frecuencia Efectiva Mínima
 
@@ -1057,7 +1040,7 @@ Se refiere a los objetivos específicos de comunicación que la marca busca alca
         - Establecimiento de vínculos emocionales duraderos
 
 
-![FE_Ostrow_1982](./img/img_grid_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
+![FCB](./img/img_grid_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
 ## Actitud (BATT)
 
@@ -1100,7 +1083,7 @@ Se divide en dos tipos principales:
       - Emoción: Sensualidad, elegancia, sofisticación, atracción.
       - Enfoque: Presentar imágenes sugestivas y elegantes con modelos atractivos utilizando el perfume. Se busca transmitir un aura de misterio y seducción, asociando el perfume con la belleza y la confianza en uno mismo.
 
-![FE_Ostrow_1982](./img/img_FCB_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
+![FCB](./img/img_FCB_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
 La Figura _FCB Grid_ (desarrollado por la agencia de publicidad Foote, Cone & Belding) es una herramienta clásica y sencilla para comprender cómo los consumidores toman decisiones de compra y cómo se relacionan con diferentes productos y servicios en el mercado. Es un punto de partida para la planificación publicitaria, que debe complementarse con métodos más completos.
 
@@ -1177,11 +1160,9 @@ En la determinación del MEF, existen varias consideraciones críticas relaciona
 
 La implementación correcta de estos ajustes requiere una comprensión profunda del contexto competitivo y los objetivos de comunicación específicos. La fórmula del MEF, con sus diversos componentes y ajustes, debe verse como una herramienta de planificación flexible que se adapta a las condiciones particulares de cada situación de mercado.
 
-</details>
-
 Finalmente, mostramos una propuesta alternativa de Ostrow (1982) basada en **factores de marketing, *copy* y medios** que determinan los niveles de frecuencia efectiva. La imagen se toma del artículo citado al pie de la tabla.
 
-![FE_Ostrow_1982](./img/img_factors_FE_Ostrow_1982.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Ostrow, 1982](./img/img_factors_FE_Ostrow_1982.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 <details>
 <summary>Ver más detalles.</summary>
@@ -1429,7 +1410,7 @@ La transición posterior al período _Blitz_ debe planificarse cuidadosamente pa
 
 El patrón _Blitz_, aunque demandante en términos de recursos, representa una herramienta estratégica fundamental para aquellas marcas que buscan establecer un liderazgo clave en categorías nuevas o en proceso de redefinición. Su implementación exitosa requiere no solo una inversión significativa, sino también un compromiso con la excelencia en la ejecución y una comprensión profunda de la dinámica del mercado objetivo.
 
-![FE_Ostrow_1982](./img/img_blitz_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Patrón Blitz](./img/img_blitz_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ## El Patrón _Wedge_ en la Planificación de Medios
 
@@ -1457,7 +1438,7 @@ La duración de cada fase debe determinarse considerando factores como el ciclo 
 
 El patrón Wedge representa una aproximación sofisticada y eficiente a la introducción de nuevos productos, combinando el impacto inicial necesario para establecer la marca con una optimización gradual que reconoce y aprovecha la dinámica natural del mercado.
 
-![FE_Ostrow_1982](./img/img_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Patrón Wedge](./img/img_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ## El Patrón _Reverse-Wedge/PI_ en la Planificación de Medios
 
@@ -1469,7 +1450,7 @@ El patrón _Reverse-Wedge_, también conocido como _PI (Personal Influence)_, re
 
 La esencia del Reverse-Wedge/PI radica en su comprensión sofisticada de cómo se difunden las innovaciones en el mercado. El patrón reconoce que, para ciertos productos y servicios, la adopción exitosa depende más de la influencia personal y la validación social que de la simple exposición publicitaria masiva. La estrategia construye deliberadamente una base de *innovators* (innovadores) y *early adopters* (adoptadores tempranos) que, actuando como líderes de opinión, facilitarán la expansión hacia el mercado masivo.
 
-![FE_Ostrow_1982](./img/img_early_adopters.png)
+![Difusión de la innovación](./img/img_early_adopters.png)
 
 ### Implementación Práctica
 
@@ -1493,7 +1474,7 @@ La flexibilidad es una característica fundamental de este patrón. La transici�
 
 El patrón Reverse-Wedge/PI representa una aproximación sofisticada a la introducción de productos y servicios que requieren una validación social o profesional significativa. Su éxito depende de una cuidadosa orquestación de la expansión del mensaje y un profundo entendimiento de las dinámicas de influencia en el mercado objetivo.
 
-![FE_Ostrow_1982](./img/img_reverse_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Patrón Reverse Wedge/PI](./img/img_reverse_wedge_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ## El Patrón _Short Fad_ en la Planificación de Medios
 
@@ -1523,7 +1504,7 @@ La coordinación con otros elementos del marketing mix debe ser especialmente pr
 
 Su éxito depende de una ejecución precisa y una coordinación perfecta de todos los elementos de la campaña. Aunque puede resultar más costoso en términos de eficiencia publicitaria tradicional, su capacidad para generar resultados inmediatos lo convierte en la opción óptima para productos y servicios con ciclos de vida cortos y definidos.
 
-![FE_Ostrow_1982](./img/img_short_fad_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Patrón Short Fad](./img/img_short_fad_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 # Patrones para marcas establecidas
 
@@ -1561,7 +1542,7 @@ Aunque el patrón se basa en ciclos regulares, debe mantener suficiente flexibil
 
 El _Regular Purchase Cycle_ representa una aproximación sofisticada y eficiente a la planificación de medios para productos de compra regular. Su éxito depende de un entendimiento profundo de los ciclos de compra del consumidor y una implementación precisa que equilibre la presencia publicitaria con la eficiencia en la inversión. Cuando se ejecuta correctamente, este patrón permite mantener una presencia efectiva en el mercado mientras optimiza el presupuesto publicitario a través de una sincronización precisa con los momentos de mayor receptividad del consumidor.
 
-![FE_Ostrow_1982](./img/img_regular_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Patrón Regular Purchase Cycle](./img/img_regular_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ## El Patrón _Awareness_ en la Planificación de Medios
 
@@ -1622,7 +1603,7 @@ La medición de efectividad en el patrón _Awareness_ debe considerar métricas 
 
 El patrón _Awareness_ representa una aproximación sofisticada a la planificación de medios para productos y servicios que requieren decisiones complejas y prolongadas. La clave está en la consistencia y la calidad de la comunicación más que en la intensidad, reconociendo que el objetivo no es generar una respuesta inmediata sino mantener la marca como una opción relevante y deseable cuando llegue el momento de la decisión.
 
-![FE_Ostrow_1982](./img/img_awareness_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Patrón Awareness](./img/img_awareness_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ## El Patrón _Shifting Reach_ en la Planificación de Medios
 
@@ -1656,7 +1637,9 @@ La medición de la efectividad debe realizarse a dos niveles. A nivel de ciclo i
 
 Para implementar exitosamente este patrón, es crucial desarrollar una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Se debe establecer un sistema de medición que permita evaluar la efectividad en cada ciclo y realizar ajustes. Es fundamental mantener la consistencia en el mensaje core mientras se adapta la ejecución para cada segmento.
 
-El _Shifting Reach_ representa una aproximación sofisticada a la planificación de medios que reconoce la naturaleza dinámica y segmentada de ciertos mercados. Su éxito depende de una implementación precisa y una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Cuando se ejecuta correctamente, este patrón permite maximizar el impacto de presupuestos limitados y generar una presencia efectiva en el mercado a través de una aproximación sistemática y focalizada. ![FE_Ostrow_1982](./img/img_shifting_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+El _Shifting Reach_ representa una aproximación sofisticada a la planificación de medios que reconoce la naturaleza dinámica y segmentada de ciertos mercados. Su éxito depende de una implementación precisa y una comprensión profunda de los diferentes segmentos del mercado y sus patrones de consumo de medios. Cuando se ejecuta correctamente, este patrón permite maximizar el impacto de presupuestos limitados y generar una presencia efectiva en el mercado a través de una aproximación sistemática y focalizada. 
+
+![Patrón Shifting Reach](./img/img_shifting_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ## El Patrón _Seasonal Priming_ en la Planificación de Medios
 
@@ -1690,7 +1673,9 @@ La efectividad del patrón debe evaluarse considerando tanto los resultados dura
 
 Este patrón resulta particularmente efectivo para productos y servicios con estacionalidad clara, ya sea por factores climáticos, culturales o de comportamiento del consumidor. La estrategia puede adaptarse según la duración del ciclo estacional, la complejidad del producto y el nivel de competencia en el mercado.
 
-El _Seasonal Priming_ representa una aproximación estratégica a mercados con demanda estacional, maximizando la efectividad a través de una preparación anticipada del mercado. Su éxito radica en la capacidad para construir presencia de marca y predisposición de compra antes del período de máxima demanda, permitiendo una mejor capitalización de las oportunidades comerciales durante los picos estacionales. ![FE_Ostrow_1982](./img/img_seasonal_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+El _Seasonal Priming_ representa una aproximación estratégica a mercados con demanda estacional, maximizando la efectividad a través de una preparación anticipada del mercado. Su éxito radica en la capacidad para construir presencia de marca y predisposición de compra antes del período de máxima demanda, permitiendo una mejor capitalización de las oportunidades comerciales durante los picos estacionales. 
+
+![Patrón Seasonal](./img/img_seasonal_pattern.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 # Control del plan de medios
 
@@ -1738,7 +1723,7 @@ La principal limitación del concepto de frecuencia media en la planificación d
 
 La frecuencia media es pues un indicador poco fiable y potencialmente engañoso para la planificación de medios. No refleja necesariamente la realidad de la exposición que experimentará la mayoría de la cobertura. En suma, usar promedios de frecuencia puede dar una falsa sensación de precisión en la planificación de medios, cuando en realidad estamos trabajando con una distribución mucho más dispersa y variable de exposiciones reales al mensaje publicitario.
 
-![FE_Ostrow_1982](./img/img_frequency_distribution.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Distribución de exposiciones](./img/img_frequency_distribution.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 ## Distribución de exposición (o contactos)
 
@@ -2164,8 +2149,8 @@ Donde:
 -   R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
 -   R2 es la proporción de audiencia alcanzada (al menos 2 veces) tras la segunda inserción
 
-![FE_Ostrow_1982](./img/img_bb_alpha_alto.png)
-![FE_Ostrow_1982](./img/img_bb_beta_alto.png)
+![Beta-binomial: alpha](./img/img_bb_alpha_alto.png)
+![Beta-binomial: beta](./img/img_bb_beta_alto.png)
 
 ## Aplicación de la función
 
@@ -2573,9 +2558,9 @@ resultado_util <- optimize_media_plan(
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
 - Haz uso del paquete **mediaPlanR**.
 
-![FE_Ostrow_1982](./img/img_EGM_indice_afinidad.png)
+![Tabla EGM: frecuencia de consumo](./img/img_EGM_indice_afinidad.png)
 
-![FE_Ostrow_1982](./img/img_EGM_audiencia_util.png)
+![Tabla EGM: perfil de audiencia](./img/img_EGM_audiencia_util.png)
 
 ## MediCare
 
