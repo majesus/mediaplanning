@@ -62,7 +62,7 @@ A continuación, se presentan los resultados de un análisis de regresión linea
 
 En la primera tabla, se presentan los coeficientes estimados de nuestro modelo de regresión. Cada coeficiente representa el cambio esperado en la variable dependiente (en este caso, las ventas) por cada unidad de cambio en la variable independiente correspondiente, manteniendo todas las demás variables constantes. Por ejemplo, un coeficiente negativo para "Precio" indicaría que un aumento en el precio está asociado con una disminución en las ventas, mientras que un coeficiente positivo para "Publicidad" sugeriría que un mayor gasto en publicidad conduce a un aumento en las ventas. Además, la tabla incluye los errores estándar de los coeficientes, los valores t y los valores p, que nos ayudan a determinar la significancia estadística de cada variable.
 
-Tabla: Tabla de Coeficientes del Modelo
+Tabla de Coeficientes del Modelo
 
 |               | Estimate| Std. Error| t value| Pr(>&#124;t&#124;)|
 |:--------------|--------:|----------:|-------:|------------------:|
@@ -74,7 +74,7 @@ Tabla: Tabla de Coeficientes del Modelo
 
 La segunda tabla muestra el Análisis de Varianza (ANOVA). Esta tabla descompone la variabilidad total en las ventas en la parte explicada por nuestro modelo y la parte no explicada (residual). El estadístico F y su valor p asociado nos permiten evaluar la significancia global del modelo, es decir, si en conjunto, las variables independientes incluidas tienen un efecto significativo en la variable dependiente. Un valor p pequeño (típicamente menor a 0.05, si bien es un límite solo _convencionalmente_ asumido) indicaría que el modelo en su conjunto es estadísticamente significativo.
 
-Tabla: Tabla de Análisis de Varianza (ANOVA)
+Tabla de Análisis de Varianza (ANOVA)
 
 |               | Df|   Sum Sq|   Mean Sq| F value| Pr(>F)|
 |:--------------|--:|--------:|---------:|-------:|------:|
@@ -98,11 +98,11 @@ Los gráficos de diagnóstico son herramientas visuales esenciales para evaluar 
 
 En resumen, los gráficos de diagnóstico sugieren que nuestro modelo podría no ser perfecto, con indicios de no linealidad, desviación de la normalidad y posible heterocedasticidad. Estos hallazgos sugieren la necesidad de una mayor investigación y la consideración de posibles mejoras al modelo, como transformaciones de variables o la exploración de modelos alternativos.
 
-![Objetivos de la publicidad](./img/img_plot_zoom_regresion.png)
+![Gráficos de diagnóstico](./img/img_plot_zoom_regresion.png)
 
 Finalmente, la tercera tabla ofrece predicciones de ventas para tres escenarios hipotéticos diferentes, donde variamos los valores de precio, publicidad, promoción y estacionalidad. Estas predicciones nos ayudan a simular diferentes situaciones y a planificar nuestras estrategias de marketing y ventas. Por ejemplo, se observa cómo un cambio en el precio o un aumento en la inversión publicitaria, en presencia o ausencia de promociones, podría afectar nuestras ventas en diferentes momentos del año, permitiéndonos optimizar nuestras decisiones para maximizar los ingresos.
 
-Tabla: Tabla de Predicciones para Nuevos Datos
+Tabla de Predicciones para Nuevos Datos
 
 | Precio| Publicidad| Promocion| Estacionalidad| Prediccion|
 |------:|----------:|---------:|--------------:|----------:|
