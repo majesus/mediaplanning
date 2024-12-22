@@ -114,9 +114,7 @@ Con estos ejemplos, se ilustra cómo un modelo de regresión lineal, aunque rela
 
 **2.¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
 
-**Cálculo del Índice Socioeconómico EGM (2015)**
-
-El Estudio General de Medios implementó en 2015 un nuevo sistema de clasificación socioeconómica basado en la siguiente fórmula:
+En particular, y a modo de ejemplo, el Estudio General de Medios implementó en 2015 un nuevo sistema de clasificación socioeconómica basado en la siguiente fórmula:
 
 $$ \text{Estimación de Ingresos} = \text{Grupo}{i} + \text{Actividad}{j} + \text{Matriz}_{m,n} $$
 
