@@ -58,6 +58,60 @@ Por otra parte, la capacidad de estimar con precisión la demanda de productos o
 
 Tradicionalmente, se han utilizado métodos estadísticos como ARIMA y el suavizado exponencial para modelar series temporales de demanda. Sin embargo, con el auge del *big data* y el *machine learning*, se han incorporado técnicas más sofisticadas que pueden capturar relaciones complejas y no lineales entre la demanda y una multitud de variables. Estos avances han permitido la inclusión de modelos como las redes neuronales recurrentes (LSTM), los métodos de ensamble como *Random Forest* y *XGBoost*, y los modelos aditivos generalizados (GAM) en el análisis de la demanda. Como resultado, ahora es posible integrar una gama más amplia de variables explicativas en los modelos, incluyendo datos de campañas publicitarias multicanal, actividad en redes sociales, precios de la competencia, estacionalidad y eventos especiales. Esto ha mejorado la capacidad de los analistas para comprender los factores que influyen en la demanda y ha permitido una mayor precisión en las predicciones, lo que facilita una toma de decisiones más informada en la planificación y ejecución de estrategias de marketing.
 
+A continuación, se presentan los resultados de un análisis de regresión lineal realizado con un conjunto de datos ficticio creado para ilustrar el proceso. Imaginemos que somos una empresa que vende un producto de temporada, y queremos entender cómo diferentes factores afectan nuestras ventas. Para ello, se han generado datos que incluyen variables como el precio de nuestro producto, el gasto en publicidad en diferentes canales, la presencia o ausencia de promociones especiales, y un factor de estacionalidad que captura las fluctuaciones naturales de la demanda a lo largo del año.
+
+En la primera tabla, se presentan los coeficientes estimados de nuestro modelo de regresión. Cada coeficiente representa el cambio esperado en la variable dependiente (en este caso, las ventas) por cada unidad de cambio en la variable independiente correspondiente, manteniendo todas las demás variables constantes. Por ejemplo, un coeficiente negativo para "Precio" indicaría que un aumento en el precio está asociado con una disminución en las ventas, mientras que un coeficiente positivo para "Publicidad" sugeriría que un mayor gasto en publicidad conduce a un aumento en las ventas. Además, la tabla incluye los errores estándar de los coeficientes, los valores t y los valores p, que nos ayudan a determinar la significancia estadística de cada variable.
+
+Tabla: Tabla de Coeficientes del Modelo
+
+|               | Estimate| Std. Error| t value| Pr(>&#124;t&#124;)|
+|:--------------|--------:|----------:|-------:|------------------:|
+|(Intercept)    |  204.576|      9.114|  22.447|                  0|
+|Precio         |   -5.052|      0.479| -10.542|                  0|
+|Publicidad     |    9.740|      0.508|  19.179|                  0|
+|Promocion      |   27.238|      2.889|   9.429|                  0|
+|Estacionalidad |   14.770|      2.046|   7.218|                  0|
+
+La segunda tabla muestra el Análisis de Varianza (ANOVA). Esta tabla descompone la variabilidad total en las ventas en la parte explicada por nuestro modelo y la parte no explicada (residual). El estadístico F y su valor p asociado nos permiten evaluar la significancia global del modelo, es decir, si en conjunto, las variables independientes incluidas tienen un efecto significativo en la variable dependiente. Un valor p pequeño (típicamente menor a 0.05, si bien es un límite solo _convencionalmente_ asumido) indicaría que el modelo en su conjunto es estadísticamente significativo.
+
+Tabla: Tabla de Análisis de Varianza (ANOVA)
+
+|               | Df|   Sum Sq|   Mean Sq| F value| Pr(>F)|
+|:--------------|--:|--------:|---------:|-------:|------:|
+|Precio         |  1| 17490.07| 17490.066|  86.821|      0|
+|Publicidad     |  1| 75665.17| 75665.167| 375.605|      0|
+|Promocion      |  1| 19913.21| 19913.208|  98.850|      0|
+|Estacionalidad |  1| 10495.14| 10495.144|  52.098|      0|
+|Residuals      | 95| 19137.62|   201.449|      NA|     NA|
+
+Para complementar el análisis de nuestro modelo de regresión, es fundamental examinar los gráficos de diagnóstico. Estos gráficos nos permiten evaluar la validez de los supuestos del modelo y detectar posibles problemas que podrían afectar la confiabilidad de nuestros resultados. A continuación, se presentan cuatro gráficos de diagnóstico clave y su interpretación. 
+
+Los gráficos de diagnóstico son herramientas visuales esenciales para evaluar la adecuación de un modelo de regresión lineal. Nos ayudan a verificar si se cumplen los supuestos clave del modelo, como la linealidad, la homocedasticidad (igualdad de varianzas de los errores), la normalidad de los residuos y la ausencia de observaciones influyentes. Examinar estos gráficos es un paso crucial para garantizar que nuestro modelo sea confiable y que nuestras inferencias sean válidas.
+
+**1. Residuals vs Fitted (Residuos vs. Valores Ajustados):** Este gráfico evalúa la **linealidad** y la **homocedasticidad**. Una distribución aleatoria de los residuos alrededor de la línea horizontal indica linealidad. Una dispersión constante de los residuos a lo largo del eje horizontal sugiere homocedasticidad. En nuestro caso, la ligera curvatura sugiere una posible no linealidad, aunque la dispersión parece constante.
+
+**2. Normal Q-Q (Gráfico Cuantil-Cuantil Normal):** Este gráfico evalúa la **normalidad** de los residuos, que es un supuesto importante para la inferencia estadística. Si los residuos se distribuyen normalmente, los puntos deben seguir de cerca la línea diagonal. La desviación observada en las colas sugiere que la normalidad no se cumple perfectamente, lo que podría afectar la validez de las pruebas de hipótesis y los intervalos de confianza.
+
+**3. Scale-Location (Escala-Ubicación):** Este gráfico también evalúa la **homocedasticidad**. Al igual que en el gráfico "Residuals vs Fitted", buscamos una línea horizontal sin pendiente y una dispersión constante. La ligera pendiente observada sugiere una posible heterocedasticidad, aunque la dispersión parece relativamente uniforme.
+
+**4. Residuals vs Leverage (Residuos vs. Apalancamiento):** Este gráfico identifica **observaciones influyentes**, es decir, puntos que tienen un gran impacto en los resultados del modelo. Los puntos que se encuentran fuera de las líneas de la distancia de Cook se consideran influyentes. En nuestro caso, no se observan puntos con una influencia excesiva, aunque, por ejemplo, el punto 62 tiene un apalancamiento relativamente alto.
+
+En resumen, los gráficos de diagnóstico sugieren que nuestro modelo podría no ser perfecto, con indicios de no linealidad, desviación de la normalidad y posible heterocedasticidad. Estos hallazgos sugieren la necesidad de una mayor investigación y la consideración de posibles mejoras al modelo, como transformaciones de variables o la exploración de modelos alternativos.
+
+![Objetivos de la publicidad](./img/img_plot_zoom_regresion.png)
+
+Finalmente, la tercera tabla ofrece predicciones de ventas para tres escenarios hipotéticos diferentes, donde variamos los valores de precio, publicidad, promoción y estacionalidad. Estas predicciones nos ayudan a simular diferentes situaciones y a planificar nuestras estrategias de marketing y ventas. Por ejemplo, se observa cómo un cambio en el precio o un aumento en la inversión publicitaria, en presencia o ausencia de promociones, podría afectar nuestras ventas en diferentes momentos del año, permitiéndonos optimizar nuestras decisiones para maximizar los ingresos.
+
+Tabla: Tabla de Predicciones para Nuevos Datos
+
+| Precio| Publicidad| Promocion| Estacionalidad| Prediccion|
+|------:|----------:|---------:|--------------:|----------:|
+|     12|          8|         1|            0.5|    256.490|
+|     15|         10|         0|           -0.8|    214.373|
+|     18|         12|         1|            0.2|    260.704|
+
+Con estos ejemplos, se ilustra cómo un modelo de regresión lineal, aunque relativamente simple en su concepción, puede proporcionar información valiosa para la toma de decisiones en marketing. Los coeficientes, el ANOVA y las predicciones nos dan una idea clara de cómo diferentes variables impactan en nuestras ventas y nos ayudan a hacer proyecciones y planes basados en datos.
+
 **2.¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
 
 **Cálculo del Índice Socioeconómico EGM (2015)**
