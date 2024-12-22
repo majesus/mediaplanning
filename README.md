@@ -1933,21 +1933,21 @@ La elección de un modelo de estimación de cobertura y distribución de exposic
 
 #### Estacionariedad de las Probabilidades de Exposición
 
-La hipótesis de estacionariedad asume que la probabilidad de exposición de un individuo a un soporte permanece constante a lo largo del tiempo. Esta hipótesis se puede desglosar en dos componentes:
+La hipótesis de estacionariedad se puede desglosar en dos componentes:
 
-1.  **Estacionariedad respecto a los individuos**: La probabilidad de que un individuo sea expuesto a una inserción publicitaria en particular no depende de si ha estado expuesto a inserciones anteriores en el mismo soporte.En otras palabras, para un individuo cualquiera, la exposición no varía según el contenido o momento dentro del mismo soporte. Por ejemplo, si una persona tiene una probabilidad del 20% de ver un anuncio en una revista, esa probabilidad será la misma independientemente de la página o número de anuncio en esa revista.
+1.  **Estacionariedad respecto a los individuos**: La probabilidad de que un individuo sea expuesto a una inserción publicitaria en particular no depende de si ha estado expuesto a inserciones anteriores.
 
-2.  **Estacionariedad respecto a las inserciones**: La probabilidad de exposición de un individuo a una inserción no está influenciada por la probabilidad de exposición de otro individuo a la misma inserción. Esto significa que si una inserción tiene una probabilidad del 15% de ser vista por una persona, esa probabilidad será la misma para cualquier persona que consuma ese soporte, sin importar sus características individuales.
+2.  **Estacionariedad respecto a las inserciones**: La probabilidad de exposición de un individuo i a una inserción N no está influenciada por la probabilidad de exposición de otro individuo j a la misma inserción.
 
 #### Otras Hipótesis Fundamentales
 
--   **Homogeneidad de la Población**: Asume que todos los individuos de la población objetivo tienen igual probabilidad de exposición a un soporte.
+-   **Homogeneidad de la Población**: Asume que todos los individuos de la población, más allá de sus cualidades, tienen igual probabilidad de exposición a un soporte.
 
--   **Homogeneidad de los Soportes**: Considera que todos los soportes del plan de medios tienen igual capacidad de generar exposición.
+-   **Homogeneidad de los Soportes**: Considera que todos los soportes del plan de medios tienen igual capacidad de generar exposición, comparten la misma probabilidad de exposición.
 
--   **Aleatoriedad de la Duplicación**: Establece que la probabilidad de exposición a dos soportes diferentes es independiente de la exposición a otros soportes.
+-   **Aleatoriedad de la Duplicación**: Establece que la probabilidad de exposición a un soporte es independiente de la exposición a otros soportes.
 
--   **Aleatoriedad de la Acumulación**: Postula que la probabilidad de exposición a múltiples inserciones en un mismo soporte es independiente de la exposición a otras inserciones.
+-   **Aleatoriedad de la Acumulación**: Postula que la probabilidad de exposición a una inserción en un soporte es independiente de la exposición anterior a otras inserciones.
 
 ### Taxonomía de Modelos según Soportes e Inserciones
 
