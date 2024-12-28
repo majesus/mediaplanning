@@ -282,47 +282,48 @@ Lo interesante es que las métricas **mejores o más valoradas** no son necesari
 
 La siguiente tabla presenta los KPIs, proporcionando una visión clara de qué métricas están siendo efectivamente implementadas en la industria.
 
-| KPI | Tipo | Definición | Uso (%) | Importancia (%) |
+| KPI | Tipo | Definición según informe | Uso (%) | Importancia (%) |
 |-----|------|------------|----------|----------------|
-| CPM (cost per thousand) | Efficiency | Costo por mil impresiones | 83% | 29% |
-| CPC (cost per click or interaction) | Efficiency | Costo por cada clic o interacción | 77% | 25% |
-| Unique Reach | Exposure Counting | Número de individuos únicos expuestos al menos una vez durante un periodo específico | 77% | 53% |
-| ROI/ROAS Based on Spending or Lift | Outcome | Return on Investment/Return on Ad Spend basado en gasto o lift | 76% | 71% |
-| Site Visits | Audience Measurement | Visitas al sitio web | 72% | 46% |
-| Viewable Impressions (i.e., provides the opportunity to see the ad) | Exposure Counting | Impresiones que proveen la oportunidad de ver el anuncio | 71% | 38% |
-| CTR (click-through rate) | Efficiency | Tasa de clics sobre impresiones | 70% | 30% |
-| Conversion | Outcome | Tasa de conversión a objetivos definidos | 69% | 57% |
-| CPV (cost per view) | Efficiency | Costo por visualización | 69% | 29% |
-| Completes, Completion Rate | Exposure Counting | Tasa de completación de visualizaciones | 68% | 27% |
-| Viewability Rates | Measurement Quality | Tasas de visibilidad según estándares | 67% | 31% |
-| Frequency | Exposure Counting | Frecuencia de exposición por individuo | 65% | 20% |
-| GRPs | Audience Measurement | Gross Rating Points - Puntos brutos de rating | 61% | 33% |
-| Share of Voice | Other | Participación en el total de conversación | 61% | 26% |
-| Shares (on social media) | Audience Measurement | Compartidos en redes sociales | 59% | 21% |
-| Brand Safety Metrics | Measurement Quality | Métricas de protección de marca | 51% | 59% |
-| Sentiment/Comments | Audience Measurement | Análisis de sentimiento y comentarios | 48% | 31% |
-| Likes | Audience Measurement | Me gusta en redes sociales | 47% | 18% |
+| CPM (cost per thousand) | Efficiency | Métrica universal que aplica a una amplia variedad de campañas y objetivos. Es una métrica ubicua y necesaria para proporcionar medición básica de la escala de audiencias alcanzadas y los costos relativos para las campañas de marca | 83% | 29% |
+| CPC (cost per click or interaction) | Efficiency | Costo por cada clic o interacción con el anuncio | 77% | 25% |
+| Unique Reach | Exposure Counting | El número, a menudo presentado como un porcentaje del público objetivo, expuesto al menos una vez a un calendario de medios publicitarios particular durante un período de tiempo específico | 77% | 53% |
+| ROI/ROAS Based on Spending or Lift | Outcome | Métrica de resultado directamente vinculada al crecimiento del negocio. Es una métrica a corto plazo, inmediata: "Por cada dólar gastado, este es el retorno esperado". Guía al marketero sobre si la inversión publicitaria está dando resultados. Su medición puede realizarse mediante modelado de mix de marketing, optimizando contra medios multicanal | 76% | 71% |
+| Site Visits | Audience Measurement | Métrica de visitas al sitio web. Para algunos es vital para construir first-party data, mientras otros como George Ivie la consideran una "métrica sin sentido" | 72% | 46% |
+| Viewable Impressions | Exposure Counting | Proporciona la oportunidad de ver el anuncio según criterios establecidos de visibilidad | 71% | 38% |
+| CTR (click-through rate) | Efficiency | Métrica que puede ser imprecisa según George Ivie, debido al riesgo de clics accidentales | 70% | 30% |
+| Conversion | Outcome | Métrica emergente clave que mide las conversiones a objetivos definidos. Su capacidad de medición está bajo amenaza debido al fin de las cookies de seguimiento | 69% | 57% |
+| CPV (cost per view) | Efficiency | Costo por visualización, que debe analizarse en conjunto con la tasa de completación | 69% | 29% |
+| Completes, Completion Rate | Exposure Counting | Tasa de completación de visualizaciones de contenido o anuncios | 68% | 27% |
+| Viewability Rates | Measurement Quality | Tasas de visibilidad según estándares establecidos de la industria | 67% | 31% |
+| Frequency | Exposure Counting | Frecuencia de exposición por individuo alcanzado | 65% | 20% |
+| GRPs | Audience Measurement | Gross Rating Points - medida tradicional de presión publicitaria | 61% | 33% |
+| Share of Voice | Other | Participación en el total de conversación o exposición de la categoría | 61% | 26% |
+| Shares (on social media) | Audience Measurement | Compartidos en redes sociales. Identificado como "head fake" - KPI que puede ser engañoso | 59% | 21% |
+| Brand Safety Metrics | Measurement Quality | Define los controles que las empresas emplean en la cadena de suministro de publicidad digital para proteger las marcas contra impactos negativos en la reputación asociados con tipos específicos de contenido, actividad criminal y/o pérdida de retorno de inversión | 51% | 59% |
+| Sentiment/Comments | Audience Measurement | Análisis de sentimiento y comentarios. Considerado "head fake" pero útil cuando se compara con benchmark o competidores | 48% | 31% |
+| Likes | Audience Measurement | Me gusta en redes sociales. Identificado como "head fake" | 47% | 18% |
 | CPP (cost per point) | Efficiency | Costo por punto de rating | 46% | 24% |
-| Share of Search | Other | Participación en búsquedas totales | 43% | 31% |
-| Direct online sales conversions from site visit | Outcome | Conversiones directas de ventas online desde visitas al sitio | 42% | 57% |
-| Viewable Time spent | Exposure Counting | Tiempo visible del anuncio | 34% | 20%* |
+| Share of Search | Other | Participación en las búsquedas totales de la categoría | 43% | 31% |
+| Direct online sales conversions from site visit | Outcome | Conversiones directas de ventas online atribuibles a visitas al sitio | 42% | 57% |
+| Viewable Time spent | Exposure Counting | Tiempo transcurrido con los criterios de visibilidad siendo cumplidos para un anuncio | 34% | 20%* |
 | Ratings | Audience Measurement | Calificaciones de audiencia | 33% | 23% |
-| Targeting Information Quality | Measurement Quality | Calidad de información para segmentación | 33% | 36% |
-| Cost per Unique Reach | Efficiency | Costo por alcance único | 29% | 32% |
-| Data Source Quality | Measurement Quality | Calidad de las fuentes de datos | 26% | 50% |
-| Exposed ROAS | Outcome | ROAS basado solo en exposiciones válidas medidas | 23% | 63% |
-| Foot Traffic (to retail location) | Outcome | Tráfico a ubicaciones físicas | 23% | 35% |
-| IVT Rates | Measurement Quality | Tasas de tráfico inválido | 20% | 47% |
-| Rendered Impressions | Exposure Counting | Impresiones renderizadas completamente | 20% | 27%* |
-| App downloads | Other | Descargas de aplicaciones | 19% | 21%* |
-| Customer Lifetime Value | Outcome | Valor del tiempo de vida del cliente | 18% | 58% |
-| Commercial Wear Out Metrics | Efficiency | Métricas de desgaste comercial | 18% | 29%* |
-| Frequency Distribution | Exposure Counting | Distribución de frecuencia | 15% | 33%* |
-| Attentive Impressions | Other | Impresiones con engagement | 14% | 18%* |
-| AVOC (Audible and Visible on Complete) | Efficiency | Audible y visible al completar | 11% | Base muy baja |
-| Attention Unit (AU) | Other | Unidad de atención | 9% | Base muy baja |
-| Duration-Weighted Viewable Impression | Exposure Counting | Impresión visible ponderada por duración | 4% | Base muy baja |
-| Cost per Second (Video Only) | Efficiency | Costo por segundo (solo video) | 3% | Base muy baja |
+| Targeting Information Quality | Measurement Quality | Calidad de la información utilizada para la segmentación de audiencias | 33% | 36% |
+| Cost per Unique Reach | Efficiency | Costo por alcanzar a cada usuario único | 29% | 32% |
+| Data Source Quality | Measurement Quality | Calidad de las fuentes de datos. Métrica emergente clave ante los cambios en privacidad digital y el fin de third-party cookies | 26% | 50% |
+| Exposed ROAS | Outcome | ROAS calculado utilizando solo exposiciones válidas medidas como base. Más preciso al usar solo exposiciones válidas medidas | 23% | 63% |
+| Foot Traffic | Outcome | Tráfico a ubicaciones físicas de retail | 23% | 35% |
+| IVT Rates | Measurement Quality | Tasas de tráfico inválido que permiten evaluar la calidad del tráfico | 20% | 47% |
+| Rendered Impressions | Exposure Counting | Impresiones donde el anuncio se ha cargado y comenzado a renderizar completamente | 20% | 27%* |
+| App downloads | Other | Descargas de aplicaciones filtradas por actividad inválida o incompleta | 19% | 21%* |
+| Customer Lifetime Value | Outcome | El valor en dólares de una relación con el cliente, basado en el valor presente de los flujos de caja futuros proyectados de la relación con el cliente. Anima a las empresas a cambiar su enfoque de las ganancias trimestrales a la salud a largo plazo de sus relaciones con los clientes | 18% | 58% |
+| Commercial Wear Out Metrics | Efficiency | Métricas que miden el desgaste del impacto comercial | 18% | 29%* |
+| Frequency Distribution | Exposure Counting | Distribución de la frecuencia de exposición | 15% | 33%* |
+| Attentive Impressions | Other | Impresiones que generan engagement o interacción | 14% | 18%* |
+| AVOC | Efficiency | Audible y Visible al Completar - mide si el anuncio fue tanto audible como visible al completarse | 11% | Base muy baja |
+| Attention Unit (AU) | Other | Unidad que mide la atención prestada al anuncio | 9% | Base muy baja |
+| Duration-Weighted Viewable Impression | Exposure Counting | Impresión visible ponderada por su duración | 4% | Base muy baja |
+| Cost per Second (Video Only) | Efficiency | Costo por segundo de video | 3% | Base muy baja |
+
 <sub>*Base de respuesta baja - usar con precaución</sub>
 <sub>Fuente: ANA (*Association of National Advertisers*) - "Media KPIs That Matter", mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media</sub>
 
