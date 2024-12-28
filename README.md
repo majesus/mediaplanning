@@ -258,15 +258,15 @@ El estudio identificó KPIs que fueron agrupados en seis categorías fundamental
 
 - *Other* (Otros)
 
-Un hallazgo fundamental del estudio es la divergencia entre uso e importancia: las métricas más utilizadas se centran en eficiencia y conteo de exposición (*top del embudo de marketing*), mientras que las consideradas más importantes están orientadas a resultados y calidad de medición (*bottom del embudo*). Esta distinción es esencial para comprender el estado actual de la medición en medios.
+Un hallazgo fundamental del estudio es la divergencia entre el uso y la importancia de las métricas. Las métricas más utilizadas se centran en la eficiencia y el conteo de exposición, que corresponden a la parte alta del embudo de marketing (*awareness*, interés). En contraste, las métricas consideradas más importantes se orientan a resultados y a la calidad de la medición, aspectos clave de la parte baja del embudo (conversión, lealtad).
 
-Según el informe de la ANA, las métricas **más valoradas por su importancia** (no necesariamente las más usadas) son:
+Según el informe de la ANA, las métricas **más valoradas por su importancia** (no necesariamente las más usadas) son las siguientes. Los encuestados valoraron cada métrica en una escala de 1 a 5, siendo 5 la máxima importancia, siendo los porcentajes la proporción de encuestados que otorgaron la máxima puntuación (5) a cada KPI.
 
-- **_ROI/ROAS - Return on Investment/Return on Ad Spend_**. Es considerada la métrica más importante con un 71% de valoración en la escala de importancia. Conecta directamente la inversión publicitaria con los resultados de negocio. Como explica Renee Milliaressis, _Chief Media Officer_ de Colgate-Palmolive: _ROAS ha incrementado en importancia porque tenemos una mayor capacidad para rastrear y ajustar campañas en plataformas clave en tiempo real_.
+- **_ROI/ROAS - Return on Investment/Return on Ad Spend_**. Es considerada la métrica más importante con un 71% de valoración en la escala de importancia. Conecta directamente la inversión publicitaria con los resultados de negocio. En relación a la importancia del ROAS, Renee Milliaressis, Chief Media Officer de Colgate-Palmolive, destaca su creciente relevancia: *ROAS ha incrementado en importancia porque tenemos una mayor capacidad para rastrear y ajustar campañas en plataformas clave en tiempo real*.
 
-- **_Exposed ROAS_**. Con un 63% de valoración en importancia, esta métrica es más precisa que el ROAS tradicional porque solo considera exposiciones válidas medidas. 
+- **_Exposed ROAS_**, con un 63% de valoración en importancia, es una métrica más precisa que el ROAS tradicional porque solo considera exposiciones válidas medidas, es decir, aquellas que realmente tuvieron la oportunidad de ser vistas por el público objetivo y que han sido filtradas para excluir el tráfico inválido (como *bots*).
 
-- **_Brand Safety Metrics_**. Valorada con un 59% de importancia, esta métrica mide resultados, y protege la reputación de la marca.
+- **_Brand Safety Metrics_**, valorada con un 59% de importancia, protege la reputación de la marca al medir la exposición de los anuncios en contextos inapropiados o dañinos, como contenido violento, discursos de odio o sitios web fraudulentos.
 
 - **_Customer Lifetime Value_**. Con un 58% de importancia, esta métrica es considerada por los entrevistados como una _métrica de vanguardia_ y un _proxy para el éxito_. Es especialmente valiosa porque va más allá de los resultados inmediatos y se centra en el valor a largo plazo.
 
@@ -280,33 +280,53 @@ Lo interesante es que las métricas **mejores o más valoradas** no son necesari
 - Son precisas y verificables
 - Contribuyen a la toma de decisiones estratégicas
 
-La siguiente tabla sí presenta los 20 KPIs con mayor porcentaje de uso actual, proporcionando una visión clara de qué métricas están siendo efectivamente implementadas en la industria.
+La siguiente tabla presenta los KPIs, proporcionando una visión clara de qué métricas están siendo efectivamente implementadas en la industria.
 
-| KPI | Tipo | Uso |
-|-----|------|----------------|
-| CPM | Eficiencia | Costo por mil impresiones. Métrica fundamental para valorar la eficiencia de compra de medios. El informe indica que es una métrica ubicua necesaria pero no suficiente |
-| CPC (Coste per Click) | Eficiencia | Coste por cada clic o interacción. Permite evaluar la eficiencia del gasto en medios interactivos |
-| Unique Reach | Exposición | Alcance único - número de individuos únicos expuestos al menos una vez durante un período específico. Fundamental para entender la cobertura real |
-| ROI/ROAS | Resultado | _Return on Investment/Return on Ad Spend_. Mide el retorno directo sobre la inversión publicitaria. **Métrica de mayor en importancia según el estudio** |
-| Site Visits | Audiencia | Visitas al sitio web. Métrica básica de tráfico que genera debate - algunos la consideran vital mientras otros la ven como "_dull metric_" |
-| Viewable Impressions | Exposición | Impresiones realmente visibles (cumpliendo criterios mínimos de visibilidad). Medida de calidad de la exposición |
-| CTR | Eficiencia | Click-through rate o tasa de clics. Relación entre impresiones y clics. Para algunos es "imprecisa" |
-| Conversion | Resultado | Tasa de conversión a objetivos definidos. Alta importancia (57%) y uso frecuente |
-| CPV | Eficiencia | _Cost per view_ o costo por visualización. Específica para video |
-| Completion Rate | Exposición | Tasa de completación, especialmente relevante en video |
-| Viewability Rates | Calidad | Tasas de visibilidad según estándares de la industria |
-| Frequency | Exposición | Frecuencia de exposición por individuo alcanzado |
-| GRPs | Audiencia | _Gross Rating Points_ - medida tradicional de presión publicitaria |
-| Share of Voice | Otros | Participación en el total de conversación/exposición de la categoría |
-| Shares | Audiencia | Compartidos en redes sociales. Considerado "_head fake_" por posible engaño |
-| Brand Safety Metrics | Calidad | Métricas de seguridad de marca. Alta importancia (59%) pero uso medio |
-| Sentiment | Audiencia | Análisis de sentimiento y comentarios. Considerado "_head fake_" |
-| Likes | Audiencia | Me gusta en redes sociales. También considerado "_head fake_" |
-| CPP | Eficiencia | _Cost per point_ o costo por punto de rating |
-| Share of Search | Otros | Participación en las búsquedas totales de la categoría |
-<sub>Fuente: ANA (Association of National Advertisers) - "Media KPIs That Matter" Mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media</sub>
+| KPI | Tipo | Definición | Uso (%) | Importancia (%) |
+|-----|------|------------|----------|----------------|
+| CPM (cost per thousand) | Efficiency | Costo por mil impresiones | 83% | 29% |
+| CPC (cost per click or interaction) | Efficiency | Costo por cada clic o interacción | 77% | 25% |
+| Unique Reach | Exposure Counting | Número de individuos únicos expuestos al menos una vez durante un periodo específico | 77% | 53% |
+| ROI/ROAS Based on Spending or Lift | Outcome | Return on Investment/Return on Ad Spend basado en gasto o lift | 76% | 71% |
+| Site Visits | Audience Measurement | Visitas al sitio web | 72% | 46% |
+| Viewable Impressions (i.e., provides the opportunity to see the ad) | Exposure Counting | Impresiones que proveen la oportunidad de ver el anuncio | 71% | 38% |
+| CTR (click-through rate) | Efficiency | Tasa de clics sobre impresiones | 70% | 30% |
+| Conversion | Outcome | Tasa de conversión a objetivos definidos | 69% | 57% |
+| CPV (cost per view) | Efficiency | Costo por visualización | 69% | 29% |
+| Completes, Completion Rate | Exposure Counting | Tasa de completación de visualizaciones | 68% | 27% |
+| Viewability Rates | Measurement Quality | Tasas de visibilidad según estándares | 67% | 31% |
+| Frequency | Exposure Counting | Frecuencia de exposición por individuo | 65% | 20% |
+| GRPs | Audience Measurement | Gross Rating Points - Puntos brutos de rating | 61% | 33% |
+| Share of Voice | Other | Participación en el total de conversación | 61% | 26% |
+| Shares (on social media) | Audience Measurement | Compartidos en redes sociales | 59% | 21% |
+| Brand Safety Metrics | Measurement Quality | Métricas de protección de marca | 51% | 59% |
+| Sentiment/Comments | Audience Measurement | Análisis de sentimiento y comentarios | 48% | 31% |
+| Likes | Audience Measurement | Me gusta en redes sociales | 47% | 18% |
+| CPP (cost per point) | Efficiency | Costo por punto de rating | 46% | 24% |
+| Share of Search | Other | Participación en búsquedas totales | 43% | 31% |
+| Direct online sales conversions from site visit | Outcome | Conversiones directas de ventas online desde visitas al sitio | 42% | 57% |
+| Viewable Time spent | Exposure Counting | Tiempo visible del anuncio | 34% | 20%* |
+| Ratings | Audience Measurement | Calificaciones de audiencia | 33% | 23% |
+| Targeting Information Quality | Measurement Quality | Calidad de información para segmentación | 33% | 36% |
+| Cost per Unique Reach | Efficiency | Costo por alcance único | 29% | 32% |
+| Data Source Quality | Measurement Quality | Calidad de las fuentes de datos | 26% | 50% |
+| Exposed ROAS | Outcome | ROAS basado solo en exposiciones válidas medidas | 23% | 63% |
+| Foot Traffic (to retail location) | Outcome | Tráfico a ubicaciones físicas | 23% | 35% |
+| IVT Rates | Measurement Quality | Tasas de tráfico inválido | 20% | 47% |
+| Rendered Impressions | Exposure Counting | Impresiones renderizadas completamente | 20% | 27%* |
+| App downloads | Other | Descargas de aplicaciones | 19% | 21%* |
+| Customer Lifetime Value | Outcome | Valor del tiempo de vida del cliente | 18% | 58% |
+| Commercial Wear Out Metrics | Efficiency | Métricas de desgaste comercial | 18% | 29%* |
+| Frequency Distribution | Exposure Counting | Distribución de frecuencia | 15% | 33%* |
+| Attentive Impressions | Other | Impresiones con engagement | 14% | 18%* |
+| AVOC (Audible and Visible on Complete) | Efficiency | Audible y visible al completar | 11% | Base muy baja |
+| Attention Unit (AU) | Other | Unidad de atención | 9% | Base muy baja |
+| Duration-Weighted Viewable Impression | Exposure Counting | Impresión visible ponderada por duración | 4% | Base muy baja |
+| Cost per Second (Video Only) | Efficiency | Costo por segundo (solo video) | 3% | Base muy baja |
+<sub>*Base de respuesta baja - usar con precaución</sub>
+<sub>Fuente: ANA (*Association of National Advertisers*) - "Media KPIs That Matter", mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media</sub>
 
-Como se comprueba en la tabla, específicamente se tipifican tres métricas como "_head fakes_":
+Específicamente se tipifican tres métricas como "_head fakes_":
 
 - _Likes_ (Me gusta)
 - _Shares_ (Compartidos)
@@ -319,9 +339,9 @@ Las razones se resumen en:
 - Pueden crear una falsa sensación de éxito
 - A menudo son métricas que las plataformas promocionan porque son fáciles de conseguir, pero no porque sean realmente valiosas
 
-Un ejemplo práctico: una publicación puede tener miles de _"likes"_ y _shares_, pero si estos no se traducen en conversiones, ventas o construcción real de marca, son métricamente engañosos - hacen un _"head fake"_, es decir, te hacen mirar en una dirección cuando deberías estar mirando en otra. Por ello, el informe enfatiza la importancia de centrarse en métricas más significativas como ROI/ROAS o Brand Safety Metrics, que tienen una conexión más directa con los resultados _realmente_ deseados.
+Un ejemplo práctico: una publicación puede tener miles de *"likes"* y _shares_, pero si estos no se traducen en conversiones, ventas o construcción real de marca, son métricamente engañosos - hacen un *"head fake"*, es decir, te hacen mirar en una dirección cuando deberías estar mirando en otra. Por ello, el informe enfatiza la importancia de centrarse en métricas más significativas como ROI/ROAS o Brand Safety Metrics, que tienen una conexión más directa con los resultados _realmente_ deseados.
 
-Más aún, en el documento, _"dull metric"_ aparece específicamente en relación a "Site Visits" (visitas al sitio web). Existe un debate interesante en la industria. George Ivie de MRC (Media Rating Council) se refiere a las visitas al sitio web como una _"dull metric"_ porque:
+Más aún, en el documento, *"dull metric"* aparece específicamente en relación a *"Site Visits"* (visitas al sitio web). Existe un debate interesante en la industria. George Ivie de MRC (Media Rating Council) se refiere a las visitas al sitio web como una *"dull metric"* porque:
 
 - Es una métrica básica o rudimentaria que no proporciona información profunda sobre el comportamiento del usuario
 - No indica por sí sola la calidad de la interacción
@@ -334,7 +354,7 @@ Para entenderlo mejor, podemos usar una analogía. Contar visitas a una tienda f
 - Si volverán
 - Si encontraron lo que buscaban
 
-Es importante notar que _"dull"_ no significa inútil - simplemente significa que es una métrica básica que necesita complementarse con otras más sofisticadas para obtener una imagen completa del rendimiento digital. Los profesionales actuales prefieren pues métricas más sofisticadas que proporcionen información sobre el valor real de estas visitas, como:
+Es importante notar que *"dull"* no significa inútil - simplemente significa que es una métrica básica que necesita complementarse con otras más sofisticadas para obtener una imagen completa del rendimiento digital. Los profesionales actuales prefieren pues métricas más sofisticadas que proporcionen información sobre el valor real de estas visitas, como:
 
 - Tiempo de permanencia
 - Tasa de conversión
