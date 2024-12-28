@@ -282,8 +282,6 @@ Lo interesante es que las métricas **mejores o más valoradas** no son necesari
 
 La siguiente tabla presenta los KPIs, proporcionando una visión clara de qué métricas están siendo efectivamente implementadas en la industria.
 
-Aquí tienes la tabla mejorada, con las definiciones adaptadas y traducidas al castellano, tal como la hemos revisado:
-
 | KPI | Tipo | Definición según informe | Uso (%) | Importancia (%) |
 |-----|------|------------|----------|----------------|
 | CPM (coste por mil) | Efficiency | Indicador fundamental que mide el coste por cada mil impresiones publicitarias. Es una métrica esencial para evaluar la eficiencia de compra de medios y permite comparar el coste relativo entre diferentes campañas y soportes | 83% | 29% |
