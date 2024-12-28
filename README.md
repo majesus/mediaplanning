@@ -300,7 +300,7 @@ La siguiente tabla presenta los KPIs, proporcionando una visión clara de qué m
 | Share of Voice | Other | Indicador que mide la participación relativa de una marca en el total de comunicación de una categoría. Permite comparar la presencia mediática frente a competidores | 61% | 26% |
 | Shares | Audience Measurement | Indicador que mide la propagación orgánica del contenido por parte de los usuarios en redes sociales. Aunque frecuentemente utilizado, el informe advierte que puede ser engañoso al no correlacionarse necesariamente con objetivos de negocio reales | 59% | 21% |
 | Brand Safety Metrics | Measurement Quality | Sistema integral de control que evalúa y protege la reputación de marca en entornos digitales. Incluye la monitorización de contextos publicitarios y la prevención de asociaciones con contenido inapropiado, actividad criminal o situaciones que puedan afectar al retorno de la inversión | 51% | 59% |
-| Sentimiento, Comentarios | Audience Measurement | Análisis cualitativo de las reacciones y comentarios generados por el contenido publicitario. Su valor principal se obtiene al compararlo con referencias del mercado y competidores | 48% | 31% |
+| Sentiments, Comments | Audience Measurement | Análisis cualitativo de las reacciones y comentarios generados por el contenido publicitario. Su valor principal se obtiene al compararlo con referencias del mercado y competidores | 48% | 31% |
 | Likes | Audience Measurement | Indicador de reacciones positivas en redes sociales. El informe lo señala como métrica poco fiable por ser fácilmente manipulable y no indicar necesariamente un interés genuino o valor para el negocio | 47% | 18% |
 | CPP (Coste por punto) | Efficiency | Métrica que relaciona el coste de la publicidad con los puntos de rating obtenidos, permitiendo evaluar la eficiencia en la compra de audiencias en medios tradicionales | 46% | 24% |
 | Share of Search | Other | Medición de la proporción de búsquedas relacionadas con una marca respecto al total de búsquedas de su categoría. Indicador del interés relativo y la relevancia de la marca en el mercado | 43% | 31% |
@@ -326,13 +326,13 @@ La siguiente tabla presenta los KPIs, proporcionando una visión clara de qué m
 
 <sub>*Base de respuesta baja - usar con precaución</sub>
 
-<sub>Fuente: "Media KPIs That Matter", ANA, mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media.</sub>
+<sub>Fuente: "Media KPIs That Matter", ANA, mayo 2021.</sub>
 
-Específicamente se tipifican tres métricas como "_head fakes_":
+Específicamente se tipifican tres métricas como *head fakes*:
 
-- _Likes_ (Me gusta)
-- _Shares_ (Compartidos)
-- _Sentiment/Comments_ (Sentimiento/Comentarios)
+- *Likes* 
+- *Shares*
+- *Sentiment/Comments* 
 
 Las razones se resumen en:
 
@@ -568,7 +568,7 @@ En suma, la selección del método más apropiado debe considerar múltiples fac
 -   *Benchmarks* (o valores de referencia) de eficiencia por medio y formato
 -   Optimización continua de la inversión
 
-## _Integrated Marketing Communications_
+## Integrated Marketing Communications
 
 **¿Cómo se integrará la planificación de medios con otras áreas del marketing?** La planificación de medios debe estar subordinada a una estrategia de [*Integrated Marketing Communications*](https://scholar.google.com/citations?view_op=view_citation&hl=es&user=7Sdld_4AAAAJ&citation_for_view=7Sdld_4AAAAJ:4DMP91E08xMC), coordinando todas las herramientas de marketing para maximizar la coherencia e impacto. Esto implica una colaboración estrecha, asegurando que todas las acciones sean consistentes y contribuyan a los objetivos estratégicos de la marca. La palabra clave es sinergia.
 
