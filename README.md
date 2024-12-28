@@ -16,10 +16,9 @@ Para el logro de los objetivos y el retorno de la inversión se debe reflexionar
 |---------------------------|---------------------------------------------|
 | Público Objetivo | **Base del plan de medios** <br>- Análisis demográfico: edad, sexo, género, localización, nivel socioeconómico (nivel de estudios y ocupación del sustentador, actividad del sustentador principal de la unidad familiar, tamaño del hogar y número de individuos con ingresos en el mismo), ... <br>- Psicografía: valores, intereses, estilo de vida, ... <br>- Hábitos de consumo y de medios<br>- Comportamiento de compra <br>- Presión competitiva |
 | Objetivos | **Metas claramente definidas y medibles** <br>- Notoriedad (memoria: recuerdo _vs_ reconocimiento) <br>- Actitud de marca y hacia el uso de la marca <br>- Disposición a la compra <br>- Alineación (subordinación) con objetivos globales de marketing. |
-| Presupuesto | **Planificación financiera estratégica** <br>- Métodos de determinación (objetivos y tareas, por ejemplo) <br>- Distribución entre medios <br>- ROI / ROAS esperado por cada soporte y su combinación en un plan de medios <br>- Control de costes <br>- Escalabilidad del presupuesto <br><br> - Consideraciones: <br> \* TV: alto coste, gran alcance <br>\* Digital: más asequible, mejor segmentación <br>\* Medios impresos: costes variables según alcance <br>\* Exterior: costes fijos con exposición prolongada |
-| Medios publicitarios | **Ecosistema de medios integrado** <br>- Tradicionales: <br>\* Televisión <br>\* Radio <br>\* Prensa <br>\* Cine <br><br>- Digitales: <br>\* Redes sociales <br>\* *_Search engines_* <br>\* _Display advertising_ <br>\* _Email marketing_ <br><br>- Exterior: <br>\* Vallas publicitarias <br>\* Mobiliario urbano <br>\* _Transit advertising_ <br><br>**Métricas**: <br>\* Alcance <br>\* Frecuencia <br>\* Afinidad con target <br>\* Medición de KPIs y ajustes <br>\* Capacidad de segmentación <br>\* ... |
-| Programación | **Planificación temporal y evaluación** <br>- Factores clave: <br>\* Estacionalidad del producto/servicio <br>\* Hábitos/timing de consumo del target <br>\* Actividad de la competencia <br><br>- Consideraciones tácticas: <br>\* Momentos de mayor demanda <br>\* Períodos de compra <br>\* Eventos especiales <br>\* Fechas comerciales clave <br>\* Horarios de mayor consumo de medios del target <br><br>- Implementación y monitoreo continuo: <br>\* Medición de KPIs y ajustes <br>\* Evaluación pre-test, durante y post-campaña |
-
+| Presupuesto | **Planificación financiera estratégica** <br>- Métodos de determinación (objetivos y tareas, por ejemplo) <br>- Distribución entre medios <br>- ROI / ROAS esperado por cada soporte y su combinación en un plan de medios <br>- Control de costes <br>- Escalabilidad del presupuesto <br><br> - Consideraciones: <br>     - TV: alto coste, gran alcance <br>    - Digital: más asequible, mejor segmentación <br>    - Medios impresos: costes variables según alcance <br>    - Exterior: costes fijos con exposición prolongada |
+| Medios publicitarios | **Ecosistema de medios integrado** <br>- Tradicionales: <br>    - Televisión <br>    - Radio <br>    - Prensa <br>    - Cine <br><br>- Digitales: <br>    - Redes sociales <br>    - *_Search engines_* <br>    - _Display advertising_ <br>    - _Email marketing_ <br><br>- Exterior: <br>    - Vallas publicitarias <br>    - Mobiliario urbano <br>    - _Transit advertising_ <br><br>**Métricas**: <br>    - Alcance <br>    - Frecuencia <br>    - Afinidad con target <br>    - Medición de KPIs y ajustes <br>    - Capacidad de segmentación <br>    - ... |
+| Programación | **Planificación temporal y evaluación** <br>- Factores clave: <br>    - Estacionalidad del producto/servicio <br>    - Hábitos/timing de consumo del target <br>    - Actividad de la competencia <br><br>- Consideraciones tácticas: <br>    - Momentos de mayor demanda <br>    - Períodos de compra <br>    - Eventos especiales <br>    - Fechas comerciales clave <br>    - Horarios de mayor consumo de medios del target <br><br>- Implementación y monitoreo continuo: <br>    - Medición de KPIs y ajustes <br>    - Evaluación pre-test, durante y post-campaña |
 A partir de estas consideraciones, un planificador de medios debe  plantearse un conjunto de preguntas clave para promover el éxito de una campaña publicitaria. Estas preguntas se estructuran en las siguientes categorías:
 
 - Conocimiento del Mercado y de la Audiencia
@@ -134,9 +133,9 @@ El resultado de 2.903 sitúa a este hogar en el nivel A2 de la clasificación so
 
 En particular, los conceptos de _Share of Voice_ (SOV) y _Share of Market_ (SOM) son fundamentales en marketing para comprender la posición de una marca en el mercado y su potencial de crecimiento.
 
--   **_Share of Market_ (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100.000 unidades físicas de un producto en un mercado donde se venden un total de 1.000.000 unidades, su SOM sería del 10%.
+-   ***Share of Market* (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100.000 unidades físicas de un producto en un mercado donde se venden un total de 1.000.000 unidades, su SOM sería del 10%.
 
--   **_Share of Voice_ (SOV)** mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, abarcando la presencia en canales orgánicos como redes sociales y búsquedas.
+-   ***Share of Voice* (SOV)** mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, abarcando la presencia en canales orgánicos como redes sociales y búsquedas.
 
 El caso Lidl presenta un análisis fundamental sobre la relación entre share of voice (SOV) y cuota de mercado en el sector retail, y el concepto excess of share of voice (ESOV, medida que indica si una empresa está invirtiendo más en publicidad de lo que justificaría su cuota de mercado actual). La compañía enfrentaba inicialmente dos desafíos críticos: una percepción errónea de calidad vinculada a sus precios bajos y la necesidad de incrementar su share of voice debido a su limitado tamaño de marca. En el siguiente enlace: [Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa) se muestra el caso con mayor detalle.
 
@@ -2103,7 +2102,7 @@ Promedio de contactos por individuo alcanzado: 1.37
 
 # Modelo Beta-Binomial (`calc_beta_binomial`)
 
-La función Beta-Binomial implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y la distribución de exposición (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros \alpha y \beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
+La función Beta-Binomial implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y la distribución de exposición (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros \alpha y \beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros \alpha y \beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
 
 ## Características
 
@@ -2339,8 +2338,8 @@ Supuestos fundamentales:
 -   La duplicación entre dos inserciones cualesquiera es constante e igual a d
 -   La duplicación no depende de qué par de inserciones estemos considerando
 -   Para N = 3: Usa una formulación directa
--   Para N \> 3: Incorpora el parámetro alpha para ajustar el comportamiento no lineal
--   alpha es un parámetro de ajuste que mejora la precisión del modelo para un número de inserciones mayor que 3, corrigiendo la suposición inicial errónea de que k era constante.
+-   Para N \> 3: Incorpora el parámetro \alpha para ajustar el comportamiento no lineal
+-   \alpha es un parámetro de ajuste que mejora la precisión del modelo para un número de inserciones mayor que 3, corrigiendo la suposición inicial errónea de que k era constante.
 
 Datos de partida:
 
@@ -2450,7 +2449,7 @@ La función evalúa la distribución de contactos publicitarios utilizando el mo
 
 Características principales
 
--   Calcula parámetros óptimos alpha y beta
+-   Calcula parámetros óptimos \alpha y \beta
 -   Determina número óptimo de inserciones
 -   Genera distribución de contactos completa
 -   Permite ajustar tolerancia y criterios de convergencia
@@ -2477,11 +2476,11 @@ print(resultado$data)
 
 ## Optimización / Evaluación de Distribución de Contactos Acumulada (`optimizar_dc`)
 
-Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros alpha y beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (MEF) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio MEF o más veces.
+Esta función optimiza la distribución de contactos publicitarios y calcula los coeficientes de duplicación (R1 y R2) utilizando la distribución Beta-Binomial. El proceso busca la mejor combinación de parámetros \alpha y \beta y número de inserciones que satisfaga los criterios de cobertura efectiva y frecuencia efectiva mínima (MEF) especificados por el usuario. La función calcula la cobertura acumulada para individuos que han visto el anuncio MEF o más veces.
 
 Características principales
 
--   Calcula parámetros óptimos alpha y beta
+-   Calcula parámetros óptimos \alpha y \beta
 -   Determina número óptimo de inserciones
 -   Genera distribución de contactos completa
 -   Permite ajustar tolerancia y criterios de convergencia
@@ -4941,7 +4940,7 @@ Promedio de contactos por individuo alcanzado: 1.37
 
 # Modelo Beta-Binomial (`calc_beta_binomial`)
 
-La función Beta-Binomial implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y la distribución de exposición (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros alpha y beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros \alpha y \beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
+La función Beta-Binomial implementa el modelo Beta-Binomial para calcular la acumulación de audiencia y la distribución de exposición (y acumulada). El modelo Beta-Binomial considera la heterogeneidad en la probabilidad de exposición de los individuos. Combina dos pasos: modela la probabilidad de éxito aplicando la distribución Beta de parámetros \alpha y \beta -lo cual reduce a dos los datos necesarios para su estimación; y emplea la probabilidad en la distribución Binomial (combinada con la distribución Beta) para valorar la distribución de contactos (y acumulada). Es útil cuando la probabilidad de éxito no es conocida a priori, y puede variar entre los individuos. Los parámetros \alpha y \beta precisamente permiten ajustar la forma de la distribución para que refleje la incertidumbre en relación con la probabilidad de éxito.
 
 ## Características
 
@@ -5177,8 +5176,8 @@ Supuestos fundamentales:
 -   La duplicación entre dos inserciones cualesquiera es constante e igual a d
 -   La duplicación no depende de qué par de inserciones estemos considerando
 -   Para N = 3: Usa una formulación directa
--   Para N \> 3: Incorpora el parámetro alpha para ajustar el comportamiento no lineal
--   alpha es un parámetro de ajuste que mejora la precisión del modelo para un número de inserciones mayor que 3, corrigiendo la suposición inicial errónea de que k era constante.
+-   Para N \> 3: Incorpora el parámetro \alpha para ajustar el comportamiento no lineal
+-   \alpha es un parámetro de ajuste que mejora la precisión del modelo para un número de inserciones mayor que 3, corrigiendo la suposición inicial errónea de que k era constante.
 
 Datos de partida:
 
@@ -5288,7 +5287,7 @@ La función evalúa la distribución de contactos publicitarios utilizando el mo
 
 Características principales
 
--   Calcula parámetros óptimos alpha y beta
+-   Calcula parámetros óptimos \alpha y \beta
 -   Determina número óptimo de inserciones
 -   Genera distribución de contactos completa
 -   Permite ajustar tolerancia y criterios de convergencia
