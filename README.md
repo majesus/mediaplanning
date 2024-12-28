@@ -325,7 +325,8 @@ La siguiente tabla presenta los KPIs, proporcionando una visión clara de qué m
 | Cost per Second (Coste por segundo) | Efficiency | Métrica específica para contenido de vídeo que permite evaluar la eficiencia de la inversión en relación con la duración del contenido | 3% | Base muy baja |
 
 <sub>*Base de respuesta baja - usar con precaución</sub>
-<sub>Fuente:** "Media KPIs That Matter", ANA, mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media.</sub>
+
+<sub>Fuente: "Media KPIs That Matter", ANA, mayo 2021. Basado en una encuesta a 93 profesionales de los comités de Media Leadership y Digital & Social Media.</sub>
 
 Específicamente se tipifican tres métricas como "_head fakes_":
 
