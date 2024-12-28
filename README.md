@@ -38,15 +38,15 @@ En relación con el tamaño del mercado, se presenta a continuación un resumen 
 
 - TAM (_Total Addressable Market_, Mercado Total): El TAM representa los ingresos totales que se generarían si se alcanzara el 100% de la participación en el mercado. Es una estimación del potencial máximo del mercado sin considerar la competencia. El TAM se puede calcular, por ejemplo, utilizando la siguiente expresión:
 
-$$\text{TAM} = \text{Consumidores Potenciales} \times \text{Consumo Medio Anual} \times \text{Precio Venta Promedio}$$
+$$\text{TAM} = \text{Demanda Anual} \times \text{Precio Venta Promedio}$$
 
 - SAM (_Serviceable Addressable Market_, Mercado Disponible): El SAM es el segmento del TAM que tu empresa podría captar con su modelo de negocio actual. Este considera el perfil del cliente objetivo, su comportamiento de compra y su disposición a pagar. Se calcula, por ejemplo, aplicando la siguiente expresión:
 
-$$\text{SAM} = \text{TAM} \times \text{Porcentaje NSE} \times \text{Cuota Mercado Competidores}$$
+$$\text{SAM} = \text{TAM} \times \text{Porcentaje del mercado que puede ser atendido}$$
 
 - SOM (_Serviceable Obtainable Market_, Mercado Accesible): El SOM es el segmento del SAM que tu empresa puede satisfacer según su capacidad de oferta. Considera factores internos como la capacidad de producción y los límites materiales. Se calcula, por ejemplo, aplicando la siguiente expresión:
 
-$$\text{SOM} = \text{SAM} \times \frac{\text{Población Área Específica}}{\text{Población Total}} \times \text{Población Radio Influencia}$$
+$$\text{SOM} = \text{SAM}  \times \text{Porcentaje de cuota de mercado alcanzable}$$
 
 **Métodos de cálculo**:
 
