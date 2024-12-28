@@ -341,7 +341,7 @@ Las razones se resumen en:
 - Pueden crear una falsa sensación de éxito
 - A menudo son métricas que las plataformas promocionan porque son fáciles de conseguir, pero no porque sean realmente valiosas
 
-Un ejemplo práctico: una publicación puede tener miles de *"likes"* y _shares_, pero si estos no se traducen en conversiones, ventas o construcción real de marca, son métricamente engañosos - hacen un *"head fake"*, es decir, te hacen mirar en una dirección cuando deberías estar mirando en otra. Por ello, el informe enfatiza la importancia de centrarse en métricas más significativas como ROI/ROAS o Brand Safety Metrics, que tienen una conexión más directa con los resultados _realmente_ deseados.
+Un ejemplo práctico: una publicación puede tener miles de *likes* y *shares*, pero si estos no se traducen en conversiones, ventas o construcción real de marca, son métricamente engañosos - hacen un *head fake*, es decir, te hacen mirar en una dirección cuando deberías estar mirando en otra. Por ello, el informe enfatiza la importancia de centrarse en métricas más significativas como ROI/ROAS o *Brand Safety Metrics*, que tienen una conexión más directa con los resultados _realmente_ deseados.
 
 Más aún, en el documento, *"dull metric"* aparece específicamente en relación a *"Site Visits"* (visitas al sitio web). Existe un debate interesante en la industria. George Ivie de MRC (Media Rating Council) se refiere a las visitas al sitio web como una *"dull metric"* porque:
 
@@ -407,7 +407,7 @@ La fortaleza y la debilidad de este método están pues íntimamente relacionada
     -   Requiere objetivos muy bien definidos
     -   La relación entre tareas y objetivos no siempre es clara o directa
     
-A continuación, te muestro otros ejemplos que se corresponden con la práctica corriente de las empresas.
+A continuación, se muestran otros ejemplos que se corresponden con la práctica corriente de las empresas.
 
 ### Método de Peckham
 
@@ -519,7 +519,7 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
 | Supermercados | 1.1 | Material deportivo | 6.4 |
 | Hoteles y establecimientos turísticos | 3.6 | Emisoras de TV | 3.2 |
 
-A continuación, te propongo un ejemplo sencillo de aplicación del método P/V en el lanzamiento de un perfume de lujo
+A continuación, se propone un ejemplo sencillo de aplicación del método P/V en el lanzamiento de un perfume de lujo
 
 Datos iniciales:
 
@@ -1023,7 +1023,7 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 - para productos de baja implicación, una actitud favorable (superficial o *soft*) puede ser suficiente (*cf.* modelo de Derbaix)
 - para productos de alta implicación se necesita generar una actitud *hard* y una intención explícita.
 
-    Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alta implicación como un *smartphone*, no basta con que te guste la marca; Apple busca crear una urgencia de compra inmediata.
+    Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alta implicación como un *smartphone*, no basta con que guste la marca; Apple busca crear una urgencia de compra inmediata.
 
 - **Facilidad de compra**
 
@@ -3245,7 +3245,7 @@ La fortaleza y la debilidad de este método están pues íntimamente relacionada
     -   Requiere objetivos muy bien definidos
     -   La relación entre tareas y objetivos no siempre es clara o directa
     
-A continuación, te muestro otros ejemplos que se corresponden con la práctica corriente de las empresas.
+A continuación, se muestran otros ejemplos que se corresponden con la práctica corriente de las empresas.
 
 ### Método de Peckham
 
@@ -3357,7 +3357,7 @@ El **método ratio publicidad/ventas** representa el enfoque más utilizado para
 | Supermercados | 1.1 | Material deportivo | 6.4 |
 | Hoteles y establecimientos turísticos | 3.6 | Emisoras de TV | 3.2 |
 
-A continuación, te propongo un ejemplo sencillo de aplicación del método P/V en el lanzamiento de un perfume de lujo
+A continuación, se propone un ejemplo sencillo de aplicación del método P/V en el lanzamiento de un perfume de lujo
 
 Datos iniciales:
 
