@@ -637,7 +637,7 @@ El coeficiente o índice de afinidad es pues un indicador aproximado de que el p
 
 ![Coeficiente de afinidad](./img/img_roger_baron_affinity_index.png)
 
-<sub>Fuente: Baron, R. y Sssors, J.Z. (2010) Advertising Media Planning, Seventh Edition. McGraw-Hill, New York</sub>
+<sub>Fuente: Baron, R. y Sissors, J.Z. (2010) Advertising Media Planning, Seventh Edition. McGraw-Hill, New York</sub>
 
 Aspectos destacables:
 
