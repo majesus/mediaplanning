@@ -8,9 +8,9 @@ output: pdf_document
 
 > La planificación de medios es el proceso de encontrar la **combinación adecuada de medios y soportes publicitarios para alcanzar a la población objetivo (o target) de una marca de manera eficaz y eficiente**.
 
-Es importante precisar que la planificación de medios no busca alcanzar a la mayor cantidad de personas, sino que busca **conectar** con el público objetivo **en el momento y lugar precisos**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación (memoria, actitud e intención) y de marketing (crecimiento y rentabilidad) diseñados, y optimice el retorno de la inversión en publicidad (por ejemplo, *Return On Ad Spend*, ROAS).
+Es importante precisar que la planificación de medios no busca necesariamente alcanzar a la mayor cantidad de personas, sino que busca **conectar** con el público objetivo **en el momento y lugar precisos**. La planificación pretende que el anuncio publicitario y la combinación de medios y soportes logre los objetivos de comunicación (memoria, actitud e intención) y de marketing (crecimiento y rentabilidad) diseñados, y con ello, optimice el retorno de la inversión en publicidad (por ejemplo, alcanzando el retiorno deseado de la inversión en publicidad, *Return On Ad Spend*, ROAS).
 
-Para el logro de los objetivos y el retorno de la inversión se debe reflexionar en torno a cinco bloques clave: público objetivo, objetivos, presupuesto, medios publicitarios, y programación temporal.
+Para el logro de los objetivos y el retorno de la inversión se debe pues reflexionar en torno a cinco bloques clave: público objetivo, objetivos, presupuesto, medios publicitarios, y programación temporal.
 
 | Componente | Descripción (no exhaustiva) |
 |---------------------------|---------------------------------------------|
@@ -64,104 +64,98 @@ En la primera tabla, se presentan los coeficientes estimados de nuestro modelo d
 
 Tabla de Coeficientes del Modelo
 
-|               | Estimate| Std. Error| t value| Pr(>&#124;t&#124;)|
-|:--------------|--------:|----------:|-------:|------------------:|
-|(Intercept)    |  204.576|      9.114|  22.447|                  0|
-|Precio         |   -5.052|      0.479| -10.542|                  0|
-|Publicidad     |    9.740|      0.508|  19.179|                  0|
-|Promocion      |   27.238|      2.889|   9.429|                  0|
-|Estacionalidad |   14.770|      2.046|   7.218|                  0|
+|                | Estimate | Std. Error | t value | Pr(>&#124;t&#124;) |
+|:-------------- | --------:| ----------:| -------:| ------------------:|
+| (Intercept)    | 204.576  | 9.114      | 22.447  | 0                  |
+| Precio         | -5.052   | 0.479      | -10.542 | 0                  |
+| Publicidad     | 9.740    | 0.508      | 19.179  | 0                  |
+| Promocion      | 27.238   | 2.889      | 9.429   | 0                  |
+| Estacionalidad | 14.770   | 2.046      | 7.218   | 0                  |
 
 La segunda tabla muestra el Análisis de Varianza (ANOVA). Esta tabla descompone la variabilidad total en las ventas en la parte explicada por nuestro modelo y la parte no explicada (residual). El estadístico F y su valor p asociado nos permiten evaluar la significancia global del modelo, es decir, si en conjunto, las variables independientes incluidas tienen un efecto significativo en la variable dependiente. Un valor p pequeño (típicamente menor a 0.05, si bien es un límite solo _convencionalmente_ asumido) indicaría que el modelo en su conjunto es estadísticamente significativo.
 
 Tabla de Análisis de Varianza (ANOVA)
 
-|               | Df|   Sum Sq|   Mean Sq| F value| Pr(>F)|
-|:--------------|--:|--------:|---------:|-------:|------:|
-|Precio         |  1| 17490.07| 17490.066|  86.821|      0|
-|Publicidad     |  1| 75665.17| 75665.167| 375.605|      0|
-|Promocion      |  1| 19913.21| 19913.208|  98.850|      0|
-|Estacionalidad |  1| 10495.14| 10495.144|  52.098|      0|
-|Residuals      | 95| 19137.62|   201.449|      NA|     NA|
+|                | Df  | Sum Sq   | Mean Sq   | F value | Pr(>F) |
+|:-------------- | ---:| --------:| ---------:| -------:| ------:|
+| Precio         | 1   | 17490.07 | 17490.066 | 86.821  | 0      |
+| Publicidad     | 1   | 75665.17 | 75665.167 | 375.605 | 0      |
+| Promocion      | 1   | 19913.21 | 19913.208 | 98.850  | 0      |
+| Estacionalidad | 1   | 10495.14 | 10495.144 | 52.098  | 0      |
+| Residuals      | 95  | 19137.62 | 201.449   | NA      | NA     |
 
 Para complementar el análisis de nuestro modelo de regresión, es fundamental examinar los gráficos de diagnóstico. Estos gráficos nos permiten evaluar la validez de los supuestos del modelo y detectar posibles problemas que podrían afectar la confiabilidad de nuestros resultados. A continuación, se presentan cuatro gráficos de diagnóstico clave y su interpretación. 
 
 Los gráficos de diagnóstico son herramientas visuales esenciales para evaluar la adecuación de un modelo de regresión lineal. Nos ayudan a verificar si se cumplen los supuestos clave del modelo, como la linealidad, la homocedasticidad (igualdad de varianzas de los errores), la normalidad de los residuos y la ausencia de observaciones influyentes. Examinar estos gráficos es un paso crucial para garantizar que nuestro modelo sea confiable y que nuestras inferencias sean válidas.
 
-**1. Residuals vs Fitted (Residuos vs. Valores Ajustados):** Este gráfico evalúa la **linealidad** y la **homocedasticidad**. Una distribución aleatoria de los residuos alrededor de la línea horizontal indica linealidad. Una dispersión constante de los residuos a lo largo del eje horizontal sugiere homocedasticidad. En nuestro caso, la ligera curvatura sugiere una posible no linealidad, aunque la dispersión parece constante.
+**1. Residuals vs Fitted (Residuos vs. Valores Ajustados)**. Este gráfico evalúa la **linealidad** y la **homocedasticidad**. Una distribución aleatoria de los residuos alrededor de la línea horizontal indica linealidad. Una dispersión constante de los residuos a lo largo del eje horizontal sugiere homocedasticidad. En nuestro caso, la ligera curvatura sugiere una posible no linealidad, aunque la dispersión parece constante.
 
-**2. Normal Q-Q (Gráfico Cuantil-Cuantil Normal):** Este gráfico evalúa la **normalidad** de los residuos, que es un supuesto importante para la inferencia estadística. Si los residuos se distribuyen normalmente, los puntos deben seguir de cerca la línea diagonal. La desviación observada en las colas sugiere que la normalidad no se cumple perfectamente, lo que podría afectar la validez de las pruebas de hipótesis y los intervalos de confianza.
+**2. Normal Q-Q (Gráfico Cuantil-Cuantil Normal)**. Este gráfico ilustra la **normalidad** de los residuos, que es un supuesto importante para la inferencia estadística. Si los residuos se distribuyen normalmente, los puntos deben seguir de cerca la línea diagonal. La desviación observada en las colas sugiere que la normalidad no se cumple perfectamente, lo que podría afectar la validez de las pruebas de hipótesis y los intervalos de confianza.
 
-**3. Scale-Location (Escala-Ubicación):** Este gráfico también evalúa la **homocedasticidad**. Al igual que en el gráfico "Residuals vs Fitted", buscamos una línea horizontal sin pendiente y una dispersión constante. La ligera pendiente observada sugiere una posible heterocedasticidad, aunque la dispersión parece relativamente uniforme.
+**3. Scale-Location (Escala-Ubicación)** . Este gráfico también ilustra la **homocedasticidad**. Al igual que en el gráfico *Residuals vs Fitted*, buscamos una línea horizontal sin pendiente y una dispersión constante. La ligera pendiente observada sugiere una posible heterocedasticidad, aunque la dispersión parece relativamente uniforme.
 
-**4. Residuals vs Leverage (Residuos vs. Apalancamiento):** Este gráfico identifica **observaciones influyentes**, es decir, puntos que tienen un gran impacto en los resultados del modelo. Los puntos que se encuentran fuera de las líneas de la distancia de Cook se consideran influyentes. En nuestro caso, no se observan puntos con una influencia excesiva, aunque, por ejemplo, el punto 62 tiene un apalancamiento relativamente alto.
+**4. Residuals vs Leverage (Residuos vs. Apalancamiento)** . Identifica **observaciones influyentes**, es decir, puntos que tienen un gran impacto en los resultados del modelo. Los puntos que se encuentran fuera de las líneas de la distancia de Cook se consideran influyentes. En nuestro caso, no se observan puntos con una influencia excesiva, aunque, por ejemplo, el punto 62 tiene un apalancamiento relativamente alto.
 
 En resumen, los gráficos de diagnóstico sugieren que nuestro modelo podría no ser perfecto, con indicios de no linealidad, desviación de la normalidad y posible heterocedasticidad. Estos hallazgos sugieren la necesidad de una mayor investigación y la consideración de posibles mejoras al modelo, como transformaciones de variables o la exploración de modelos alternativos.
 
 ![Gráficos de diagnóstico](./img/img_plot_zoom_regresion.png)
 
-Finalmente, la tercera tabla ofrece predicciones de ventas para tres escenarios hipotéticos diferentes, donde variamos los valores de precio, publicidad, promoción y estacionalidad. Estas predicciones nos ayudan a simular diferentes situaciones y a planificar nuestras estrategias de marketing y ventas. Por ejemplo, se observa cómo un cambio en el precio o un aumento en la inversión publicitaria, en presencia o ausencia de promociones, podría afectar nuestras ventas en diferentes momentos del año, permitiéndonos optimizar nuestras decisiones para maximizar los ingresos.
+Finalmente, la tercera tabla ofrece **predicciones de ventas para tres escenarios hipotéticos** diferentes, donde variamos los valores de precio, publicidad, promoción y estacionalidad. Estas predicciones nos ayudan a simular diferentes situaciones y a planificar nuestras estrategias de marketing y ventas. Por ejemplo, se observa cómo un cambio en el precio o un aumento en la inversión publicitaria, en presencia o ausencia de promociones, podría afectar nuestras ventas en diferentes momentos del año, permitiéndonos optimizar nuestras decisiones para maximizar los ingresos.
 
 Tabla de Predicciones para Nuevos Datos
 
-| Precio| Publicidad| Promocion| Estacionalidad| Prediccion|
-|------:|----------:|---------:|--------------:|----------:|
-|     12|          8|         1|            0.5|    256.490|
-|     15|         10|         0|           -0.8|    214.373|
-|     18|         12|         1|            0.2|    260.704|
+| Precio | Publicidad | Promocion | Estacionalidad | Prediccion |
+| ------:| ----------:| ---------:| --------------:| ----------:|
+| 12     | 8          | 1         | 0.5            | 256.490    |
+| 15     | 10         | 0         | -0.8           | 214.373    |
+| 18     | 12         | 1         | 0.2            | 260.704    |
 
 Con estos ejemplos, se ilustra cómo un modelo de regresión lineal, aunque relativamente simple en su concepción, puede proporcionar información valiosa para la toma de decisiones en marketing. Los coeficientes, el ANOVA y las predicciones nos dan una idea clara de cómo diferentes variables impactan en nuestras ventas y nos ayudan a hacer proyecciones y planes basados en datos.
 
-**2.¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores.
+**2. ¿Quién es el público objetivo?** Es esencial tener un conocimiento profundo del perfil del consumidor o usuario al que se dirige la campaña. Esto incluye el análisis de sus características demográficas, psicográficas, hábitos de consumo, comportamiento de compra, sus fuentes de información o las influencias personales o familiares que recibe, entre otros factores. En particular, y a modo de ejemplo, el **Estudio General de Medios** implementó en 2015 un nuevo sistema de clasificación socioeconómica basado en la siguiente fórmula:
 
-En particular, y a modo de ejemplo, el Estudio General de Medios implementó en 2015 un nuevo sistema de clasificación socioeconómica basado en la siguiente fórmula:
+$$\text{Estimación de Ingresos} = \text{Grupo}{i} + \text{Actividad}{j} + \text{Matriz}_{m,n}$$
 
-$$ \text{Estimación de Ingresos} = \text{Grupo}{i} + \text{Actividad}{j} + \text{Matriz}_{m,n} $$
+Para ilustrar su aplicación, consideremos el caso de un hogar donde el sustentador principal es director de una pequeña empresa con estudios universitarios, trabaja actualmente, y comparte vivienda con tres personas más, siendo dos los miembros que perciben ingresos regulares. La estimación comienza asignando el valor correspondiente al grupo profesional del sustentador principal, que en este caso es 1.113 (Grupo_2). A esto se suma el valor de su actividad laboral actual, que por estar trabajando es 3.028 (Actividad_1). Finalmente, se aplica el ajuste matricial que corresponde a un hogar de cuatro personas con dos perceptores de ingresos, que supone restar 1.238 puntos (Matriz_4,2). Aplicando la fórmula:
 
-Para ilustrar su aplicación, consideremos el caso de un hogar donde el sustentador principal es director de una pequeña empresa con estudios universitarios, trabaja actualmente, y comparte vivienda con tres personas más, siendo dos los miembros que perciben ingresos regulares.
-
-La estimación comienza asignando el valor correspondiente al grupo profesional del sustentador principal, que en este caso es 1.113 (Grupo_{2}). A esto se suma el valor de su actividad laboral actual, que por estar trabajando es 3.028 (Actividad_{1}). Finalmente, se aplica el ajuste matricial que corresponde a un hogar de cuatro personas con dos perceptores de ingresos, que supone restar 1.238 puntos (Matriz_{4,2}).
-
-Aplicando la fórmula:
-
-$$ \text{Estimación} = \text{Grupo}{2} + \text{Actividad}{1} + \text{Matriz}_{4,2} = 1.113 + 3.028 + (-1.238) = 2.903 $$
+$$\text{Estimación} = \text{Grupo}{2} + \text{Actividad}{1} + \text{Matriz}_{4,2} = 1.113 + 3.028 + (-1.238) = 2.903$$
 
 El resultado de 2.903 sitúa a este hogar en el nivel A2 de la clasificación socioeconómica, que comprende las estimaciones entre 2.452 y 3.005 puntos. Esta clasificación, la segunda más alta en la escala, refleja la combinación de una posición profesional cualificada, actividad laboral activa y la presencia de múltiples perceptores de ingresos, factores que compensan el impacto del tamaño familiar en la estimación final.
 
-**3.¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([*cf.* Inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
+**3. ¿Cuáles son sus hábitos de consumo de medios?** Es clave comprender cuáles son los medios que consume el público objetivo, con qué frecuencia y en qué contextos. Esto abarca tanto medios tradicionales como no tradicionales ([*cf.* Inversión en publicidad controlada por Infoadex](https://infoadex.es/la-inversion-publicitaria-crece-los-nueve-meses-de-2024/))
 
-**4.¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
+**4. ¿Quiénes son los competidores y cuáles son sus estrategias de marketing y comunicación?** El análisis de la competencia y sus actividades de marketing y publicidad resulta crucial, así como la comprensión de la presión competitiva del entorno y su influencia en el mercado.
 
 En particular, los conceptos de _Share of Voice_ (SOV) y _Share of Market_ (SOM) son fundamentales en marketing para comprender la posición de una marca en el mercado y su potencial de crecimiento.
 
--   ***Share of Market* (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100.000 unidades físicas de un producto en un mercado donde se venden un total de 1.000.000 unidades, su SOM sería del 10%.
+- ***Share of Market* (SOM)** se refiere a la porción del mercado que una empresa controla en relación con sus competidores. Se puede calcular en términos de ingresos, ventas unitarias o cualquier otra métrica relevante para la industria. Por ejemplo, si una empresa vende 100.000 unidades físicas de un producto en un mercado donde se venden un total de 1.000.000 unidades, su SOM sería del 10%.
 
--   ***Share of Voice* (SOV)** mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, abarcando la presencia en canales orgánicos como redes sociales y búsquedas.
+- ***Share of Voice* (SOV)** mide la visibilidad de una marca en el mercado en relación con sus competidores. Tradicionalmente, se enfocaba en la inversión publicitaria, abarcando la presencia en canales orgánicos como redes sociales y búsquedas.
 
 El caso Lidl presenta un análisis fundamental sobre la relación entre share of voice (SOV) y cuota de mercado en el sector retail, y el concepto excess of share of voice (ESOV, medida que indica si una empresa está invirtiendo más en publicidad de lo que justificaría su cuota de mercado actual). La compañía enfrentaba inicialmente dos desafíos críticos: una percepción errónea de calidad vinculada a sus precios bajos y la necesidad de incrementar su share of voice debido a su limitado tamaño de marca. En el siguiente enlace: [Resumen de las acciones de Lidl, ver vídeo](https://youtu.be/bb-6PCbsdyc?si=eGgmME5lZ_UFWVPa) se muestra el caso con mayor detalle.
 
 **1. Desafíos Iniciales**:
 
--   Percepción del consumidor: los compradores asociaban los precios bajos de Lidl con baja calidad, pese a que los productos tenían una calidad similar o superior a la competencia.
--   Tamaño de marca: al ser una marca pequeña, Lidl tenía que aumentar SOV para mantener y crecer su SOM, respaldado por el concepto de ESOV identificado por John Philip Jones.
+- Percepción del consumidor: los compradores asociaban los precios bajos de Lidl con baja calidad, pese a que los productos tenían una calidad similar o superior a la competencia.
+- Tamaño de marca: al ser una marca pequeña, Lidl tenía que aumentar SOV para mantener y crecer su SOM, respaldado por el concepto de ESOV identificado por John Philip Jones.
 
 **2. Estrategia de Lidl en 2014:**
 
--   Objetivo general: incrementar la penetración en el mercado.
--   Posicionamiento: xambiar la percepción del consumidor, sorprendiendo con la calidad de sus productos.
--   Estrategia de Comunicación: Desmentir la idea de que precios bajos implican baja calidad.
--   Objetivo de medios: generar un ESOV significativo.
+- Objetivo general: incrementar la penetración en el mercado.
+- Posicionamiento: xambiar la percepción del consumidor, sorprendiendo con la calidad de sus productos.
+- Estrategia de Comunicación: Desmentir la idea de que precios bajos implican baja calidad.
+- Objetivo de medios: generar un ESOV significativo.
 
 **3. Implementación de la Campaña:**
 
--   Publicidad en televisión, medios impresos y redes sociales para mostrar la sorpresa de los consumidores sobre la calidad de los productos.
--   Ampliación del ESOV, logrando un aumento de SOV desde el 5% hasta el 19% en 2015.
+- Publicidad en televisión, medios impresos y redes sociales para mostrar la sorpresa de los consumidores sobre la calidad de los productos.
+- Ampliación del ESOV, logrando un aumento de SOV desde el 5% hasta el 19% en 2015.
 
 **4. Resultados:**
 
--   Cambio de percepción: Lidl logró que la calidad _percibida_ de sus productos fuera comparable a la de sus competidores.
--   Incremento en cuota de mercado: Lidl duplicó su cuota de mercado en cinco años, alcanzando un 6%.
--   Incremento en ventas: la campaña generó ventas incrementales por 2.700 millones de libras y un premio Effie de oro en 2017.
+- Cambio de percepción: Lidl logró que la calidad _percibida_ de sus productos fuera comparable a la de sus competidores.
+- Incremento en cuota de mercado: Lidl duplicó su cuota de mercado en cinco años, alcanzando un 6%.
+- Incremento en ventas: la campaña generó ventas incrementales por 2.700 millones de libras y un premio Effie de oro en 2017.
 
 ## Objetivos y Estrategia de la Campaña
 
@@ -324,7 +318,7 @@ La siguiente tabla presenta los KPIs, proporcionando una visión clara de qué m
 | Duration-Weighted Viewable Impression (Impresión visible ponderada por duración) | Exposure Counting | Métrica que ajusta el valor de las impresiones según el tiempo real de exposición, proporcionando una medida más precisa del impacto potencial | 4% | Base muy baja |
 | Cost per Second | Efficiency | Métrica específica para contenido de vídeo que permite evaluar la eficiencia de la inversión en relación con la duración del contenido | 3% | Base muy baja |
 
-<sub>*Base de respuesta baja - usar con precaución</sub>
+<sub>Base de respuesta baja - usar con precaución</sub>
 
 <sub>Fuente: "Media KPIs That Matter", ANA, mayo 2021.</sub>
 
@@ -393,39 +387,39 @@ Los objetivos pueden orientarse hacia los medios (como alcanzar ciertos niveles 
 
 La fortaleza y la debilidad de este método están pues íntimamente relacionadas: cuando se conocen con precisión los niveles publicitarios requeridos para lograr una tarea específica, el sistema resulta sumamente efectivo. Sin embargo, en la práctica, esta certeza es poco común, lo que convierte al enfoque en altamente subjetivo y, por tanto, cuestionable. A saber:
 
--   Ventajas
+- Ventajas
+  
+  - Vincula directamente actividades con resultados esperados
+  - Enfoque sistemático y racional
+  - Favorece la planificación estratégica
+  - Permite mejor control y evaluación de resultados
 
-    -   Vincula directamente actividades con resultados esperados
-    -   Enfoque sistemático y racional
-    -   Favorece la planificación estratégica
-    -   Permite mejor control y evaluación de resultados
+- Limitaciones
+  
+  - Dificultad para establecer relaciones precisas entre exposición y efecto
+  - Puede resultar complejo y costoso de implementar
+  - Requiere objetivos muy bien definidos
+  - La relación entre tareas y objetivos no siempre es clara o directa
 
--   Limitaciones
-
-    -   Dificultad para establecer relaciones precisas entre exposición y efecto
-    -   Puede resultar complejo y costoso de implementar
-    -   Requiere objetivos muy bien definidos
-    -   La relación entre tareas y objetivos no siempre es clara o directa
-    
 A continuación, se muestran otros ejemplos que se corresponden con la práctica corriente de las empresas.
 
 ### Método de Peckham
 
 La **fórmula de Peckham**, desarrollada por James O. Peckham tras analizar datos de Nielsen entre 1960 y 1978, ofrece un enfoque más sofisticado para categorías de producto donde existe una correlación demostrable entre la participación en la inversión publicitaria (*share of voice*, SOV) y la participación de mercado (*share of market*, SOM). Peckham propone que las marcas nuevas deberían establecer su *share of voice* en un nivel 1,5 veces superior a su participación de mercado objetivo para los primeros dos años. Este método, aunque valioso, requiere considerar factores como el orden de entrada al mercado y la distribución temporal de la inversión publicitaria.
 
--   Ventajas
+- Ventajas
+  
+  - Basada en investigación empírica extensa
+  - Proporciona una guía específica para marcas nuevas
+  - Reconoce la relación entre SOV y SOM
+  - Ofrece un marco cuantitativo para la toma de decisiones
 
-    -   Basada en investigación empírica extensa
-    -   Proporciona una guía específica para marcas nuevas
-    -   Reconoce la relación entre SOV y SOM
-    -   Ofrece un marco cuantitativo para la toma de decisiones
-
--   Limitaciones
-
-    -   Solo aplicable en categorías con correlación demostrable entre SOV y SOM
-    -   Requiere considerar el orden de entrada al mercado
-    -   La distribución temporal de la inversión puede afectar significativamente los resultados
-    -   Puede no ser aplicable en mercados muy dinámicos o emergentes
+- Limitaciones
+  
+  - Solo aplicable en categorías con correlación demostrable entre SOV y SOM
+  - Requiere considerar el orden de entrada al mercado
+  - La distribución temporal de la inversión puede afectar significativamente los resultados
+  - Puede no ser aplicable en mercados muy dinámicos o emergentes
 
 ### Método del porcentaje sobre ventas
 
@@ -435,37 +429,37 @@ El **método del porcentaje sobre ventas** representa uno de los enfoques más a
 
 Si bien este método ofrece simplicidad en su aplicación, presenta limitaciones significativas al no considerar la relación funcional entre la publicidad y las ventas futuras (*las ventas están en función de las inversiones en publicidad*), además de carecer de flexibilidad para adaptarse a cambios en el entorno de mercado, es decir, no permite cambios acíclicos.
 
--   Ventajas
+- Ventajas
+  
+  - Ofrece simplicidad y facilidad de implementación
+  - Proporciona una base aparentemente estable para la planificación financiera
+  - Permite comparaciones con estándares de la industria
+  - Facilita la administración y control presupuestario
 
-    -   Ofrece simplicidad y facilidad de implementación
-    -   Proporciona una base aparentemente estable para la planificación financiera
-    -   Permite comparaciones con estándares de la industria
-    -   Facilita la administración y control presupuestario
-
--   Limitaciones
-
-    -   Ignora la dependencia de los resultados comerciales de la inversión publicitaria, es decir, subvierte la relación natural: *las ventas están en función de las inversiones en publicidad*
-    -   No considera la naturaleza dinámica de la relación publicidad y ventas
-    -   Carece de flexibilidad para adaptarse a cambios del mercado, puede perpetuar situaciones de subinversión o sobreinversión
-    -   Basa decisiones futuras en datos históricos, lo que puede ser poco apropiado en mercados cambiantes
+- Limitaciones
+  
+  - Ignora la dependencia de los resultados comerciales de la inversión publicitaria, es decir, subvierte la relación natural: *las ventas están en función de las inversiones en publicidad*
+  - No considera la naturaleza dinámica de la relación publicidad y ventas
+  - Carece de flexibilidad para adaptarse a cambios del mercado, puede perpetuar situaciones de subinversión o sobreinversión
+  - Basa decisiones futuras en datos históricos, lo que puede ser poco apropiado en mercados cambiantes
 
 **B**. La segunda modalidad del método de porcentaje sobre ventas se fundamenta en las **ventas proyectadas**, expresada como *Publicidad_2 = f(Ventas_2), donde Ventas_2* representa las ventas previstas para el próximo período.
 
 Esta variante resulta más lógica desde una perspectiva de planificación, ya que vincula la inversión publicitaria con el período que pretende influenciar. Los porcentajes típicos en la industria oscilan entre el 2% y 5% de las ventas, aunque estos valores pueden variar significativamente según el sector y las condiciones del mercado.
 
--   Ventajas
+- Ventajas
+  
+  - Vincula la inversión con el período que pretende influenciar
+  - Permite una planificación más proactiva
+  - Considera las expectativas futuras del mercado
+  - Se alinea mejor con los objetivos de crecimiento
 
-    -   Vincula la inversión con el período que pretende influenciar
-    -   Permite una planificación más proactiva
-    -   Considera las expectativas futuras del mercado
-    -   Se alinea mejor con los objetivos de crecimiento
-
--   Limitaciones
-
-    -   Depende de la precisión de las proyecciones de ventas
-    -   Puede subestimar las necesidades publicitarias en mercados en crecimiento
-    -   No considera necesariamente los movimientos competitivos, puede pasar por alto o no tener en cuenta las acciones y estrategias que están llevando a cabo los competidores en el mercado
-    -   Mantiene una visión simplificada de la relación publicidad y ventas en tanto que hace una proyección previa de las ventas sin precisar la influencia de la inversión en publicidad
+- Limitaciones
+  
+  - Depende de la precisión de las proyecciones de ventas
+  - Puede subestimar las necesidades publicitarias en mercados en crecimiento
+  - No considera necesariamente los movimientos competitivos, puede pasar por alto o no tener en cuenta las acciones y estrategias que están llevando a cabo los competidores en el mercado
+  - Mantiene una visión simplificada de la relación publicidad y ventas en tanto que hace una proyección previa de las ventas sin precisar la influencia de la inversión en publicidad
 
 En suma, el presupuesto publicitario se establece sin considerar de manera explícita cómo están actuando los competidores, lo cual es un factor crítico en un mercado dinámico y competitivo. Si una empresa usa este método, puede que no reaccione a tiempo a los movimientos agresivos de los competidores, lo que podría afectar negativamente sus ventas y participación en el mercado.
 
@@ -473,100 +467,100 @@ En suma, el presupuesto publicitario se establece sin considerar de manera expl�
 
 El **método de paridad competitiva** introduce una perspectiva estratégica al establecer el presupuesto publicitario en relación con la participación de mercado y las acciones de la competencia. Este método resulta particularmente útil en mercados maduros con posiciones competitivas estables, aunque puede ignorar factores importantes como cambios en los hábitos de consumo y condiciones económicas generales.
 
--   Ventajas
+- Ventajas
+  
+  - Considera el contexto competitivo
+  - Útil en mercados maduros y estables
+  - Proporciona un marco de referencia
+  - Ayuda a mantener posiciones competitivas establecidas
 
-    -   Considera el contexto competitivo
-    -   Útil en mercados maduros y estables
-    -   Proporciona un marco de referencia
-    -   Ayuda a mantener posiciones competitivas establecidas
-
--   Limitaciones
-
-    -   Ignora cambios en hábitos de consumo
-    -   Puede perpetuar niveles de gasto ineficientes de la industria
-    -   Asume que los competidores toman decisiones racionales
-    -   Puede no ser apropiado para marcas que buscan cambiar su posición en el mercado
+- Limitaciones
+  
+  - Ignora cambios en hábitos de consumo
+  - Puede perpetuar niveles de gasto ineficientes de la industria
+  - Asume que los competidores toman decisiones racionales
+  - Puede no ser apropiado para marcas que buscan cambiar su posición en el mercado
 
 Un método de presupuestación asociado con la paridad competitiva es el **ratio publicidad/ventas**.
 
 El **método ratio publicidad/ventas** representa el enfoque más utilizado para determinar presupuestos publicitarios. Este método considera los gastos publicitarios como parte integral del presupuesto de marketing de un producto, donde los fondos se establecen como un coste de hacer negocios. Los porcentajes típicos en la industria oscilan entre el 2% y 9% de las ventas, aunque estos valores pueden variar significativamente según el sector.
 
--   Ventajas
+- Ventajas
+  
+  - Es auto-correctivo respecto al rendimiento de ventas y mantiene un margen de beneficio consistente para la marca
+  - Resulta relativamente fácil de gestionar la asignación presupuestaria
+  - La relación es fácilmente comprensible y generalmente satisface los intereses tanto del equipo financiero como de marketing
+  - Opera con un sistema de incentivos implícito donde el aumento de ventas genera fondos adicionales para publicidad agresiva, mientras que la marca se penaliza por ventas bajas
 
-    -   Es auto-correctivo respecto al rendimiento de ventas y mantiene un margen de beneficio consistente para la marca
-    -   Resulta relativamente fácil de gestionar la asignación presupuestaria
-    -   La relación es fácilmente comprensible y generalmente satisface los intereses tanto del equipo financiero como de marketing
-    -   Opera con un sistema de incentivos implícito donde el aumento de ventas genera fondos adicionales para publicidad agresiva, mientras que la marca se penaliza por ventas bajas
+- Limitaciones
+  
+  - Los requerimientos para un programa publicitario no siempre siguen directamente a las ventas, particularmente - cuando las ventas de la marca están disminuyendo
+  - Se requiere considerable información histórica para determinar el ratio correcto
+  - Se deberían usar ratios variables por área, lo que requiere análisis exhaustivos
+  - La suposición básica de una relación lineal directa entre publicidad y ventas podría no ser cierta
+  - La presupuestación podría ser demasiado vulnerable, puede llevar a decisiones reactivas en lugar de proactivas en términos de marketing. La necesidad de mantener un presupuesto estable puede ser clave en el logro de los objetivos de marketing, sobre todo si la estrategia requiere de una inversión constante y consistente a lo largo del tiempo
 
--   Limitaciones
-
-    -   Los requerimientos para un programa publicitario no siempre siguen directamente a las ventas, particularmente - cuando las ventas de la marca están disminuyendo
-    -   Se requiere considerable información histórica para determinar el ratio correcto
-    -   Se deberían usar ratios variables por área, lo que requiere análisis exhaustivos
-    -   La suposición básica de una relación lineal directa entre publicidad y ventas podría no ser cierta
-    -   La presupuestación podría ser demasiado vulnerable, puede llevar a decisiones reactivas en lugar de proactivas en términos de marketing. La necesidad de mantener un presupuesto estable puede ser clave en el logro de los objetivos de marketing, sobre todo si la estrategia requiere de una inversión constante y consistente a lo largo del tiempo
-
-| Sector | Ratio P/V % | Sector | Ratio P/V % |
-|---------------------|-----------------|-----------------|-----------------|
-| Moda y confección | 5.6 | Electrodomésticos | 3.0 |
-| Tiendas recambios auto | 9.0 | Equipos audio/video hogar | 3.6 |
-| Bebidas | 7.5 | Edición de revistas | 5.6 |
-| Maquinaria construcción | 2.0 | Cerveza y malta | 5.5 |
-| Grandes almacenes | 2.6 | Edición de periódicos | 3.4 |
-| Ordenadores/Informática | 1.7 | Perfumería y cosmética | 8.8 |
-| Alimentación y productos básicos | 6.3 | Emisoras de radio | 8.2 |
-| Juegos y juguetes | 16.4 | Jabones y detergentes | 9.9 |
-| Supermercados | 1.1 | Material deportivo | 6.4 |
-| Hoteles y establecimientos turísticos | 3.6 | Emisoras de TV | 3.2 |
+| Sector                                | Ratio P/V % | Sector                    | Ratio P/V % |
+| ------------------------------------- | ----------- | ------------------------- | ----------- |
+| Moda y confección                     | 5.6         | Electrodomésticos         | 3.0         |
+| Tiendas recambios auto                | 9.0         | Equipos audio/video hogar | 3.6         |
+| Bebidas                               | 7.5         | Edición de revistas       | 5.6         |
+| Maquinaria construcción               | 2.0         | Cerveza y malta           | 5.5         |
+| Grandes almacenes                     | 2.6         | Edición de periódicos     | 3.4         |
+| Ordenadores/Informática               | 1.7         | Perfumería y cosmética    | 8.8         |
+| Alimentación y productos básicos      | 6.3         | Emisoras de radio         | 8.2         |
+| Juegos y juguetes                     | 16.4        | Jabones y detergentes     | 9.9         |
+| Supermercados                         | 1.1         | Material deportivo        | 6.4         |
+| Hoteles y establecimientos turísticos | 3.6         | Emisoras de TV            | 3.2         |
 
 A continuación, se propone un ejemplo sencillo de aplicación del método P/V en el lanzamiento de un perfume de lujo
 
 Datos iniciales:
 
--   Sector: Perfumería y cosmética.
--   Ratio Publicidad/Ventas según tabla: 8,8%.
--   Previsión ventas primer año: 1.000.000€.
+- Sector: Perfumería y cosmética.
+- Ratio Publicidad/Ventas según tabla: 8,8%.
+- Previsión ventas primer año: 1.000.000€.
 
 Cálculo base método P/V:
 
--   1.000.000€ × 0,088 = 88.000€
+- 1.000.000€ × 0,088 = 88.000€
 
 Presupuesto:
 
--   Base P/V (8,8%): 88.000€
--   Ajuste por lanzamiento (+50%): 132.000€
+- Base P/V (8,8%): 88.000€
+- Ajuste por lanzamiento (+50%): 132.000€
 
 En suma, la selección del método más apropiado debe considerar múltiples factores, incluyendo la etapa del ciclo de vida del producto, las condiciones del mercado, los objetivos de marketing o los recursos disponibles, entre otros factores. En la práctica, muchas organizaciones emplean una combinación de métodos para obtener diferentes perspectivas antes de determinar su presupuesto final. Este enfoque múltiple permite una mayor robustez en la toma de decisiones y una mejor adaptación a las condiciones cambiantes del mercado.
 
 **¿Qué consideraciones adicionales afectan al presupuesto?**
 
--   Estacionalidad del negocio y del consumo mediático
--   Presión competitiva y SOV deseado
--   Costes de producción y adaptación de materiales
--   Reserva para contingencias y oportunidades
--   Economías de escala y negociación con medios
+- Estacionalidad del negocio y del consumo mediático
+- Presión competitiva y SOV deseado
+- Costes de producción y adaptación de materiales
+- Reserva para contingencias y oportunidades
+- Economías de escala y negociación con medios
 
 **¿Cuál es la distribución adecuada del presupuesto entre medios?** Es fundamental determinar la asignación presupuestaria entre los diferentes canales, considerando, por ejemplo:
 
--   Medio principal (40-50%): canal con mayor impacto para objetivos primarios
--   Medios de apoyo (20-30%): complementan y refuerzan el mensaje
--   Medios tácticos (10-20%): acciones específicas y oportunidades
--   Innovación y pruebas (5-10%): nuevos formatos y canales
+- Medio principal (40-50%): canal con mayor impacto para objetivos primarios
+- Medios de apoyo (20-30%): complementan y refuerzan el mensaje
+- Medios tácticos (10-20%): acciones específicas y oportunidades
+- Innovación y pruebas (5-10%): nuevos formatos y canales
 
 **¿Cómo se optimizará el rendimiento del presupuesto?** Se debe establecer un sistema de control y optimización que incluya:
 
--   Métricas de eficiencia: CPM, CPC, CPL, ROAS
--   KPIs financieros: ROI, ROAS, margen sobre inversión publicitaria
--   Control de costes: producción, espacios, implementación
--   Flexibilidad para ajustes según resultados
+- Métricas de eficiencia: CPM, CPC, CPL, ROAS
+- KPIs financieros: ROI, ROAS, margen sobre inversión publicitaria
+- Control de costes: producción, espacios, implementación
+- Flexibilidad para ajustes según resultados
 
 **¿Cómo se evaluará la eficiencia presupuestaria?** Es necesario establecer:
 
--   Sistema de *reporting* financiero regular
--   Análisis de desviaciones y causas
--   Medición de retorno por canal y campaña
--   *Benchmarks* (o valores de referencia) de eficiencia por medio y formato
--   Optimización continua de la inversión
+- Sistema de *reporting* financiero regular
+- Análisis de desviaciones y causas
+- Medición de retorno por canal y campaña
+- *Benchmarks* (o valores de referencia) de eficiencia por medio y formato
+- Optimización continua de la inversión
 
 ## Integrated Marketing Communications
 
@@ -587,9 +581,9 @@ El objetivo es proporcionar una base sólida para la toma de decisiones en la pl
 
 > El **BDI (índice de desarrollo de marca) y el CDI (índice de desarrollo de categoría)** son dos métricas cruciales utilizadas en la planificación de medios para analizar el rendimiento de una marca y su potencial de crecimiento en diferentes mercados geográficos. El CDI se utiliza como medida de potencial, mientras que el BDI es una medida de la fuerza real de la marca.
 
--   **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). **Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado**. Un BDI de 100 significa que el % de las ventas de la marca en ese mercado reflejan el % de la población.
+- **BDI**: Este índice mide la fuerza de las ventas de una marca en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). **Se calcula como el porcentaje de ventas de la marca en un mercado dividido por el porcentaje de la población de ese mercado**. Un BDI de 100 significa que el % de las ventas de la marca en ese mercado reflejan el % de la población.
 
--   **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, **se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado**.
+- **CDI**: Este índice mide la fuerza de las ventas de una categoría de producto en un mercado específico (en %) en relación con el tamaño de la población de ese mercado (en %). Al igual que el BDI, **se calcula como el porcentaje de ventas de la categoría en un mercado dividido por el porcentaje de la población de ese mercado**.
 
 **Uso del BDI / CDI**
 
@@ -599,27 +593,27 @@ El análisis BDI/CDI se utiliza para identificar los mercados donde una marca ti
 
 **Alto BDI, Alto CDI: Mercados a mantener**
 
--   La marca y la categoría muestran fuerte presencia
--   Prioridad: mantener posición y defender cuota de mercado
--   Estrategia defensiva recomendada
+- La marca y la categoría muestran fuerte presencia
+- Prioridad: mantener posición y defender cuota de mercado
+- Estrategia defensiva recomendada
 
 **Alto BDI, Bajo CDI: Mercados a potenciar**
 
--   La marca tiene fuerte presencia pero la categoría es débil
--   El crecimiento está limitado por el bajo desarrollo de la categoría
--   Potencial de crecimiento condicionado a la evolución de la categoría
+- La marca tiene fuerte presencia pero la categoría es débil
+- El crecimiento está limitado por el bajo desarrollo de la categoría
+- Potencial de crecimiento condicionado a la evolución de la categoría
 
 **Bajo BDI, Alto CDI: Mercados a conquistar**
 
--   La categoría es fuerte pero la marca tiene presencia débil
--   Representa la mayor oportunidad de crecimiento
--   Área prioritaria para inversión y desarrollo
+- La categoría es fuerte pero la marca tiene presencia débil
+- Representa la mayor oportunidad de crecimiento
+- Área prioritaria para inversión y desarrollo
 
 **Bajo BDI, Bajo CDI: Mercados a desarrollar**
 
--   Tanto la marca como la categoría son débiles
--   Baja prioridad para inversión publicitaria
--   Requiere análisis adicional antes de cualquier inversión significativa
+- Tanto la marca como la categoría son débiles
+- Baja prioridad para inversión publicitaria
+- Requiere análisis adicional antes de cualquier inversión significativa
 
 Se presenta adicionalmente el **índice de oportunidad de marca (BOI)** para identificar mercados a conquistar. **El BOI se calcula dividiendo el CDI por el BDI**. Un BOI alto indica una mayor oportunidad para el crecimiento de la marca.
 
@@ -629,21 +623,36 @@ El BDI y el CDI son pues herramientas valiosas para comprender el rendimiento de
 
 > El coeficiente (índice) de afinidad mide la propensión de un grupo específico (segmento o clase) a consumir o usar un producto, servicio o marca en comparación con la población considerada en su conjunto.
 
-El coeficiente de afinidad es fundamental para evaluar qué tan relevante o atractivo es un producto, servicio o marca para un grupo específico, ayudando a los especialistas en marketing a adaptar sus estrategias de segmentación y posicionamiento. Valores superiores a 100 sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la población. Es un indicador aproximado de que el producto es especialmente atractivo o relevante para ese grupo específico. 
-
-En particular, en el ámbito de la planificación de medios el coeficiente de afinidad proporciona información basada en datos que también ayudan a seleccionar los canales de medios más relevantes (o afines) para una campaña. No se trata solo de llegar a una audiencia (bruta), sino de llegar a la audiencia adecuada (útil). Esto asegura que el mensaje *resuene* con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña.
+El coeficiente de afinidad es fundamental para evaluar qué tan relevante o atractivo es un producto, servicio o marca para un grupo específico, ayudando a los especialistas en marketing a adaptar sus estrategias de segmentación y posicionamiento. Valores superiores a 100 sugieren que el grupo objetivo tiene una mayor afinidad o inclinación por el producto en comparación con la población. 
 
 **Tabla. Cálculo del coeficiente (índice) de afinidad**
 
-| Paso | Descripción | Ejemplo |
-|------------------|------------------------------|------------------------|
-| 1 | Determinar el porcentaje del segmento o clase que usa/consume el producto o servicio | 20% de los adolescentes ven un programa específico de cocina |
-| 2 | Determinar el porcentaje de la población total que usa/consume el producto os ervicio | 10% de la población ve el mismo programa de cocina |
-| 3 | Dividir el porcentaje del segmento o clase entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200 |
+| Paso | Descripción                                                                                                | Ejemplo                                                      |
+| ---- | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| 1    | Determinar el porcentaje del segmento o clase que usa/consume el producto o servicio                       | 20% de los adolescentes ven un programa específico de cocina |
+| 2    | Determinar el porcentaje de la población total que usa/consume el producto o servicio                      | 10% de la población ve el mismo programa de cocina           |
+| 3    | Dividir el porcentaje del segmento o clase entre el porcentaje de la población total y multiplicar por 100 | (20% / 10%) x 100 = 200                                      |
+
+El coeficiente o índice de afinidad es pues un indicador aproximado de que el producto es especialmente atractivo o relevante para ese grupo específico. La siguiente tabla es un ejemplo del uso de índices de afinidad en media planning, que son fundamentales para identificar audiencias objetivo. Los índices (última columna) muestran la concentración relativa de golfistas regulares en diferentes segmentos demográficos comparado con la población general. Valores por encima de 100 indican una **sobrerrepresentación** del segmento entre los golfistas; por el contrario, valores por debajo de 100 indican que el segmento está infrarrepresentado.
+
+![](file://C:\Users\EQUIPO\OneDrive - UNIVERSIDAD DE SEVILLA\Bookdown\mediaPlanR\mediaPlanR\img\img_roger_baron_affinity_index.png?msec=1735493854406)
+
+<sub>Fuente: baron, R. y SIssors, J.Z. (2010) Advertising Media Planning, Seventh Edition. McGraw-Hill, New York</sub>
+
+Aspectos destacables:
+
+1. Sexo: Los hombres tienen un índice de 165 (79,8 / 48,3), lo que significa que están sobrerrepresentados entre los golfistas (son el 48,3% de la población pero representan el 79,8% de los golfistas). Las mujeres, con un índice de 39, están significativamente infrarrepresentadas.
+2. Edad: Los grupos de 55-64 años (123) y 65-74 años (139) muestran una alta afinidad con el golf, mientras que los más jóvenes (18-34) tienen menor afinidad (88).
+3. Educación y nivel socioeconómico: Los graduados universitarios (169) y profesionales/managers (144) muestran una fuerte afinidad. El índice más alto está en el segmento de ingresos superiores a $100,000, con 299, indicando que este grupo es casi 3 veces más propenso a jugar golf que la población general.
+
+Para un planificador de medios, estos índices sugieren que las campañas de productos relacionados con el golf serían más acertadas si se vehiculan a través de medios consumidos por hombres de alto nivel educativo y económico, especialmente mayores de 55 años, ya que estos segmentos muestran la mayor afinidad con el deporte.
+
+En suma, en el ámbito de la planificación de medios el coeficiente de afinidad proporciona información basada en datos que también ayudan a seleccionar los canales de medios más relevantes (o afines) para una campaña. No se trata solo de llegar a una audiencia (bruta), sino de llegar a la audiencia adecuada (útil). Esto asegura que el mensaje *resuene* con aquellos que tienen mayor propensión al consumo o uso del producto o servicio, lo que lleva a un mejor rendimiento de la campaña.
 
 ## Métricas relativas a los soportes:
 
 ### Audiencia o Audiencia Bruta
+
 Número total de personas, expresado frecuentemente en miles (000), que se exponen regularmente a un soporte (vehículo) publicitario. Medida fundamental de alcance numérico que constituye la base para cálculos más específicos como la audiencia útil o la cobertura.
 
 ### Perfil de audiencia
@@ -670,31 +679,31 @@ Número de personas de la audiencia de un soporte que pertenece específicamente
 
 *Vehículo* dentro de un [medio publicitario](https://www.infoadex.es/wp-content/uploads/2024/01/Resumen-Estudio-InfoAdex-2023.pdf) que *transporta* o difunde el mensaje al público objetivo. 
 
--   Es el canal específico de transmisión del mensaje
+- Es el canal específico de transmisión del mensaje
 
--   Puede ser un programa, una publicación, una web específica, etc.
+- Puede ser un programa, una publicación, una web específica, etc.
 
--   Su selección afecta directamente a la efectividad del mensaje
+- Su selección afecta directamente a la efectividad del mensaje
 
--   Determina el contexto de exposición al mensaje
+- Determina el contexto de exposición al mensaje
 
 ### OTS ( *Opportunity To See* )
 
 Oportunidad(es) de ver, oír o leer el anuncio o la oferta promocional. 
 
--   Representa una oportunidad de ver, leer o escuchar el anuncio durante el ciclo publicitario, no la atención efectiva
--   Es la unidad básica para medir la intensidad de una campaña
--   En singular: representa una única oportunidad de contacto con el mensaje
--   En plural: equivale a la frecuencia promedio de exposición
+- Representa una oportunidad de ver, leer o escuchar el anuncio durante el ciclo publicitario, no la atención efectiva
+- Es la unidad básica para medir la intensidad de una campaña
+- En singular: representa una única oportunidad de contacto con el mensaje
+- En plural: equivale a la frecuencia promedio de exposición
 
 ### Inserción
 
 Colocación física o digital de un anuncio en un soporte publicitario específico. Representa la acción de situar el anuncio o mensaje en el vehículo de medios. 
 
--   Es el acto de colocación del anuncio en el medio
--   Genera oportunidades de ver (OTS) para la audiencia del soporte
--   No garantiza la exposición efectiva
--   Su efectividad depende de factores como ubicación, formato o contexto
+- Es el acto de colocación del anuncio en el medio
+- Genera oportunidades de ver (OTS) para la audiencia del soporte
+- No garantiza la exposición efectiva
+- Su efectividad depende de factores como ubicación, formato o contexto
 
 ## Métricas de cobertura y frecuencia
 
@@ -702,35 +711,35 @@ Colocación física o digital de un anuncio en un soporte publicitario específi
 
 Número absoluto (o relativo) de individuos expuestos al menos una vez ($\geq$ 1) a un mensaje publicitario durante un ciclo específico. 
 
--   Es uno de los tres parámetros básicos del plan de medios, junto con la frecuencia y la distribución de exposición
--   Se centra en individuos únicos, no en exposiciones
--   Es la base para el cálculo del alcance efectivo
--   Puede expresarse en términos absolutos o porcentuales
+- Es uno de los tres parámetros básicos del plan de medios, junto con la frecuencia y la distribución de exposición
+- Se centra en individuos únicos, no en exposiciones
+- Es la base para el cálculo del alcance efectivo
+- Puede expresarse en términos absolutos o porcentuales
 
 ### Patrón de Alcance (*Reach Pattern*)
 
 Distribución de la continuidad (estrategias de *continuity*, *flighting* o *pulsing*) de ciclos publicitarios para alcanzar el alcance efectivo durante el período de planificación. 
 
--   Patrones para Nuevos Productos:
+- Patrones para Nuevos Productos:
+  
+  - *Blitz Pattern* (patrón bombardeo)
+  - *Wedge Pattern* (patrón cuña)
+  - *Reverse-wedge/PI Pattern* (patrón cuña inversa/IP)
+  - *Short Fad Pattern* (patrón moda corta)
 
-    -   *Blitz Pattern* (patrón bombardeo)
-    -   *Wedge Pattern* (patrón cuña)
-    -   *Reverse-wedge/PI Pattern* (patrón cuña inversa/IP)
-    -   *Short Fad Pattern* (patrón moda corta)
-
--   Patrones para Productos Establecidos:
-
-    -   *Regular Purchase Cycle Pattern* (patrón de ciclo de compra regular)
-    -   *Awareness Pattern* (patrón de notoriedad)
-    -   *Shifting Reach Pattern* (patrón de alcance cambiante o acumulado)
-    -   *Seasonal Priming Pattern* (patrón estacional)
+- Patrones para Productos Establecidos:
+  
+  - *Regular Purchase Cycle Pattern* (patrón de ciclo de compra regular)
+  - *Awareness Pattern* (patrón de notoriedad)
+  - *Shifting Reach Pattern* (patrón de alcance cambiante o acumulado)
+  - *Seasonal Priming Pattern* (patrón estacional)
 
 ### Frecuencia (promedio)
 
 Número medio de exposiciones por individuo en un ciclo publicitario. 
 
--   Es un promedio de exposiciones por individuo alcanzado
--   Debe analizarse junto con su distribución de exposición (o contactos)
+- Es un promedio de exposiciones por individuo alcanzado
+- Debe analizarse junto con su distribución de exposición (o contactos)
 
 La frecuencia media se calcula sumando todas las exposiciones (impactos) y dividiéndolas por el tamaño de la cobertura. Es decir, si la campaña generó 280.000 impactos y alcanzó ($\geq$ 1 OTS) a 100.000 personas, la frecuencia media sería igual a 2,8 oportunidades *de ver el anuncio* por persona de la cobertura.
 
@@ -748,10 +757,10 @@ La frecuencia media es pues un indicador poco fiable y potencialmente engañoso 
 
 Distribución de frecuencia de exposiciones en un ciclo publicitario.
 
--   Porcentaje no alcanzado (0 exposiciones)
--   Porcentaje con exclusivamente 1 exposición
--   Porcentaje con exclusivamente 2 exposiciones
--   ...
+- Porcentaje no alcanzado (0 exposiciones)
+- Porcentaje con exclusivamente 1 exposición
+- Porcentaje con exclusivamente 2 exposiciones
+- ...
 
 Se refiere pues al número de personas de la población (o la cobertura) que se exponen **exclusivamente i veces** al anuncio durante el ciclo publicitario. Por ejemplo, la distribución de contactos puede ser uniforme, donde todos los individuos tienen un número similar de exposiciones, o desigual, donde algunos individuos se exponen el anuncio muchas veces y otros muy pocas.
 
@@ -761,7 +770,7 @@ A continuación, se presenta un breve ejemplo ficticio. El ejemplo presentado ut
 
 Los resultados muestran que la campaña alcanza una cobertura total del 80,21% del universo (802.083 personas), con una distribución relativamente uniforme de contactos entre 1 y 5 exposiciones. La distribución acumulada revela que el 50% de la población recibe al menos 3 contactos, mientras que aproximadamente un 20% de la audiencia queda sin exposición. El modelo estima una frecuencia media de 3.12 contactos (14,58% de la población).
 
-``` r
+```r
 > library(mediaPlanR)
 > resultados <- calc_beta_binomial(500000, 650000, 1000000, 5)
 > resultados
@@ -808,55 +817,55 @@ Media teórica de la distribución beta: 0.500
 
 Representa el 1% de la población alcanzada en caso de realizar una inserción en el soporte publicitario. 
 
--   Es una medida estándar en medios publicitarios de difusión
--   Facilita la comparación entre diferentes soportes y campañas
--   Base para el cálculo de GRPs
+- Es una medida estándar en medios publicitarios de difusión
+- Facilita la comparación entre diferentes soportes y campañas
+- Base para el cálculo de GRPs
 
 ### GRPs (Gross Rating Points)
 
 Es una estimación del total de oportunidades de exposición promedio por cada 100 individuos de la población (o target). Se calcula:
 
--   Método básico recomendado (Cobertura × Frecuencia):
+- Método básico recomendado (Cobertura × Frecuencia):
+  
+  - *GRP = Cobertura (%) × Frecuencia media*
+  - Ejemplo: Si alcanzamos al 60% del público (o target) con una frecuencia media de 4 impactos, GRP = 60 × 4 = 240 GRPs
 
-    -   *GRP = Cobertura (%) × Frecuencia media*
-    -   Ejemplo: Si alcanzamos al 60% del público (o target) con una frecuencia media de 4 impactos, GRP = 60 × 4 = 240 GRPs
+- Método: impactos:
+  
+  - *GRP = (Número total de impactos / Población) × 100*
+  - Ejemplo: Si generamos 1.500.000 impactos con una población de 500.000 personas, GRP = (1.500.000 / 500.000) × 100 = 300 GRPs
 
--   Método: impactos:
-
-    -   *GRP = (Número total de impactos / Población) × 100*
-    -   Ejemplo: Si generamos 1.500.000 impactos con una población de 500.000 personas, GRP = (1.500.000 / 500.000) × 100 = 300 GRPs
-
--   Método: audiencia por inserción:
-
-    -   *GRP = Suma de las audiencias i (%) por cada inserción realizada en el soporte i*
-    -   Ejemplo: Si contratamos 1 spot en cada soporte con audiencias de S1: 20%, S2: 15% y S3: 25%, GRP = 20 x 1 + 15 x 1 + 25 x 1 = 60 GRPs
+- Método: audiencia por inserción:
+  
+  - *GRP = Suma de las audiencias i (%) por cada inserción realizada en el soporte i*
+  - Ejemplo: Si contratamos 1 spot en cada soporte con audiencias de S1: 20%, S2: 15% y S3: 25%, GRP = 20 x 1 + 15 x 1 + 25 x 1 = 60 GRPs
 
 En este contexto, señalamos una de las principales limitaciones del uso de los valores GRPs como único indicador:
 
 **Caso 1:**
 
--   Cobertura: 80% del público objetivo
--   Frecuencia: 3 impactos
--   GRPs = 80 × 3 = 240 GRPs
+- Cobertura: 80% del público objetivo
+- Frecuencia: 3 impactos
+- GRPs = 80 × 3 = 240 GRPs
 
 **Caso 2:**
 
--   Cobertura: 40% del público objetivo
--   Frecuencia: 6 impactos
--   GRPs = 40 × 6 = 240 GRPs
+- Cobertura: 40% del público objetivo
+- Frecuencia: 6 impactos
+- GRPs = 40 × 6 = 240 GRPs
 
 Ambos planes dan 240 GRPs, pero son estrategias muy diferentes:
 
--   El primer caso alcanza a más público (mayor cobertura) con menos frecuencia media
--   El segundo caso alcanza a menos público pero con más frecuencia media
+- El primer caso alcanza a más público (mayor cobertura) con menos frecuencia media
+- El segundo caso alcanza a menos público pero con más frecuencia media
 
 Problemas que esto genera:
 
--   No refleja la distribución real de los impactos
--   No indica si estamos sobre-exponiendo a una parte del público
--   No muestra si hay personas que no reciben ningún impacto
--   No considera la calidad de los impactos 
--   Puede llevar a decisiones erróneas si solo se toma en consideración el número final
+- No refleja la distribución real de los impactos
+- No indica si estamos sobre-exponiendo a una parte del público
+- No muestra si hay personas que no reciben ningún impacto
+- No considera la calidad de los impactos 
+- Puede llevar a decisiones erróneas si solo se toma en consideración el número final
 
 ## Métricas de eficiencia y costes
 
@@ -864,32 +873,34 @@ Problemas que esto genera:
 
 Coste de alcanzar a mil personas de la audiencia o de la cobertura alcanzada.
 
--   Se calcula dividiendo el coste total de una inserción (o del plan de medios) entre el número de personas de la audiencia (o la cobertura, según corresponda)
--   Permite comparar eficiencia entre soportes o planes de medios
--   Para el target específico se denomina CPMT
+- Se calcula dividiendo el coste total de una inserción (o del plan de medios) entre el número de personas de la audiencia (o la cobertura, según corresponda)
+- Permite comparar eficiencia entre soportes o planes de medios
+- Para el target específico se denomina CPMT
 
 ### Coste por Contacto Útil
 
 Representa el coste de alcanzar a una persona de la audiencia útil.
 
--   Se calcula dividiendo el coste total de una inserción entre el número de personas de la audiencia útil
--   Proporciona una medida más precisa que el CPM
--   Considera específicamente el público objetivo
+- Se calcula dividiendo el coste total de una inserción entre el número de personas de la audiencia útil
+- Proporciona una medida más precisa que el CPM
+- Considera específicamente el público objetivo
 
 ### SOV (Share of Voice)
 
 Representa la cuota de voz o presencia publicitaria de una marca en comparación con sus competidores.
 
--   Indica la dominancia relativa en el mercado publicitario
--   Permite comparar la presencia mediática entre competidores o medios en que se programa
--   Es un indicador clave del esfuerzo publicitario relativo
+- Indica la dominancia relativa en el mercado publicitario
+- Permite comparar la presencia mediática entre competidores o medios en que se programa
+- Es un indicador clave del esfuerzo publicitario relativo
 
-**Tabla de comparación de opciones publicitarias en función del coste relativo**
+# Tabla de comparación de opciones publicitarias en función del coste relativo
+
 | Opción | Coste | Alcance | CPM | C/RP |
-|---------------|---------------|---------------|---------------|---------------|
-| D 4 | 5.000€ | 100.000 jóvenes adultos | **50€** (5.000€ / (100.000 / 1.000)) | **100€** (5.000€ / (100.000 / 500.000 \* 100)) |
-| D 5 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | **100€** (2.500€ / (25.000 / 1.000)) | **500€** (2.500€ / 5) |
-<sub>Población = 500.000 personas</sub>
+|--------|--------|---------|-----|------|
+| D4 | 5.000€ | 100.000 jóvenes adultos | 50€ | 100€ |
+| D5 | 2.500€ | 25.000 jóvenes adultos (5% de la población = 5 RP) | 100€ | 500€ |
+
+<sub>Población base = 500.000 personas</sub>
 
 ## Métricas avanzadas de planificación
 
@@ -897,8 +908,8 @@ Representa la cuota de voz o presencia publicitaria de una marca en comparación
 
 Período específico durante el cual se desarrolla una actividad publicitaria planificada. Puede variar desde:
 
--   Una exposición continua durante todo el período (continuidad)
--   Ciclos discontinuos con duraciones variables u oleadas (*flighting o pulsing*).
+- Una exposición continua durante todo el período (continuidad)
+- Ciclos discontinuos con duraciones variables u oleadas (*flighting o pulsing*).
 
 En lugar de mantener una presión publicitaria constante durante todo el ciclo, el *flighting o pulsing* se basa en la idea de concentrar la inversión en momentos estratégicos, aprovechando el *carryover publicitario*, que es la persistencia (de parte) del efecto de la publicidad después de que la exposición ha cesado. A continuación, se presentan algunos modelos de cobertura y distribución de exposiciones del tipo *flighting*.
 
@@ -908,16 +919,16 @@ En lugar de mantener una presión publicitaria constante durante todo el ciclo, 
 
 Las ventajas de usar oleadas en un ciclo publicitario son:
 
--   Optimización del presupuesto: Permite concentrar la inversión en momentos de mayor impacto, evitando el desperdicio en períodos de menor receptividad.
--   Aprovechamiento del _carryover_: Se maximiza el efecto de la publicidad, ya que el impacto de las oleadas anteriores se mantiene (parcialmente) durante los períodos de pausa.
--   Mayor flexibilidad: Permite adaptar la estrategia a las fluctuaciones del mercado, la estacionalidad o la actividad de la competencia.
+- Optimización del presupuesto: Permite concentrar la inversión en momentos de mayor impacto, evitando el desperdicio en períodos de menor receptividad.
+- Aprovechamiento del _carryover_: Se maximiza el efecto de la publicidad, ya que el impacto de las oleadas anteriores se mantiene (parcialmente) durante los períodos de pausa.
+- Mayor flexibilidad: Permite adaptar la estrategia a las fluctuaciones del mercado, la estacionalidad o la actividad de la competencia.
 
 ### Ciclo de Compra (Purchase Cycle)
 
 Intervalo medio de tiempo entre compras sucesivas en una categoría de producto o servicio. También conocido como:
 
--   IPT ( *Inter-Purchase Time* ): tiempo entre compras
--   IPI ( *Inter-Purchase Interval* ): intervalo entre compras
+- IPT ( *Inter-Purchase Time* ): tiempo entre compras
+- IPI ( *Inter-Purchase Interval* ): intervalo entre compras
 
 Es fundamental para: 
 
@@ -933,48 +944,48 @@ Por ejemplo, tal como se ha expuesto anteriormente, el modelo *Awareness* se usa
 
 Táctica que busca sincronizar la comunicación con momentos de elevada receptividad del público objetivo. Implica:
 
--   Selección estratégica de momentos de contacto
--   Consideración de ciclos de compra y activaciones del **reconocimiento de la necesidad de la categoría**
--   Optimización de la efectividad del mensaje
+- Selección estratégica de momentos de contacto
+- Consideración de ciclos de compra y activaciones del **reconocimiento de la necesidad de la categoría**
+- Optimización de la efectividad del mensaje
 
 ### Frecuencia Efectiva
 
 Número de exposiciones, en un ciclo publicitario, necesario para maximizar la disposición de compra del público objetivo. Se expresa como:
 
--   MEF (Minimum Effective Frequency): nivel mínimo necesario
--   MaxEF (Maximum Effective Frequency): nivel máximo antes de generar desgaste
+- MEF (Minimum Effective Frequency): nivel mínimo necesario
+- MaxEF (Maximum Effective Frequency): nivel máximo antes de generar desgaste
 
 ### Carryover Publicitario (Advertising Carryover)
 
 Persistencia de la disposición de compra generada por las exposiciones publicitarias.
 
--   Es el efecto posterior al ciclo publicitario
--   Es especialmente clave en exposiciones espaciadas en el tiempo
--   Afecta directamente al alcance efectivo activo
+- Es el efecto posterior al ciclo publicitario
+- Es especialmente clave en exposiciones espaciadas en el tiempo
+- Afecta directamente al alcance efectivo activo
 
 ### Alcance Efectivo
 
 Número de individuos del público objetivo que deben alcanzarse al nivel de MEF o superior en un ciclo publicitario. 
 
--   Combina alcance y frecuencia efectiva
--   Se define dentro del rango [MEF, MaxEF]
--   Es un parámetro clave para evaluar planes de medios
+- Combina alcance y frecuencia efectiva
+- Se define dentro del rango [MEF, MaxEF]
+- Es un parámetro clave para evaluar planes de medios
 
 ### Alcance Efectivo Activo
 
 Alcance efectivo después del ciclo publicitario. 
 
--   Mide la persistencia del efecto publicitario
--   Considera el fenómeno de *carryover*
--   Es clave para evaluar la efectividad a largo plazo
--   Depende de la tasa de decaimiento de los efectos publicitarios
+- Mide la persistencia del efecto publicitario
+- Considera el fenómeno de *carryover*
+- Es clave para evaluar la efectividad a largo plazo
+- Depende de la tasa de decaimiento de los efectos publicitarios
 
 ### Dominancia
 
 Estrategia en que la frecuencia MEF se establece deliberadamente por encima de la competencia principal.
 
--   Busca establecer presencia superior
--   Es especialmente relevante en momentos críticos del mercado
+- Busca establecer presencia superior
+- Es especialmente relevante en momentos críticos del mercado
 
 # Objetivos del Plan de Medios y Soportes
 
@@ -982,15 +993,15 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 
 **Objetivos de exposición**:
 
--   Cobertura y frecuencia efectivas
+- Cobertura y frecuencia efectivas
 
 **Objetivos de comunicación**:
 
--   Necesidad de la categoría (*Need for the category*)
--   Memoria (*Brand awareness*)
--   Actitud (*Brand attitude*)
--   Disposición a la compra (*Brand purchase intention*)
--   Facilidad de Compra (*Purchase Facilitation*)
+- Necesidad de la categoría (*Need for the category*)
+- Memoria (*Brand awareness*)
+- Actitud (*Brand attitude*)
+- Disposición a la compra (*Brand purchase intention*)
+- Facilidad de Compra (*Purchase Facilitation*)
 
 ![Objetivos de la publicidad](./img/img_objectives_rossiter_percy.jpg) <sub>Nota: *La imagen ha sido tomada de Rossiter, J.R. y Percy, L. (1997). Advertising and promotion management. Mcgraw-Hill Book Company. Reproducido con fines académicos.*</sub>
 
@@ -999,41 +1010,42 @@ El objetivo del plan de medios y soportes reside en lograr que la disposición h
 Los **objetivos de comunicación** son fundamentales en el proceso publicitario ya que establecen conexiones mentales duraderas entre la marca y el consumidor potencial. Estos objetivos se materializan a través de cinco efectos de comunicación que deben estar presentes antes de que el comprador tome acción:
 
 - **Necesidad de Categoría**
-
+  
     Esta es la base del proceso, y se refiere a la aceptación por parte del consumidor de que necesita un producto o servicio para satisfacer una discrepancia entre su estado actual y el deseado. Por ejemplo, el lanzamiento de los primeros servicios de _streaming_ de música como Spotify. Inicialmente, la tarea comunicacional no era convencer sobre las ventajas de Spotify sobre otros servicios similares, sino crear la necesidad de categoría: ¿por qué alguien necesitaría un servicio de _streaming_ de música cuando ya tenía su música descargada? La comunicación debía enfocarse en mostrar los problemas que resolvía esta nueva categoría: el espacio limitado en los dispositivos, la imposibilidad de descubrir nueva música fácilmente, la dificultad de acceder a toda la música que uno desea.
-
+  
     Otros caso clásico que ilustra el objetivo de la necesidad de la categoría es la campaña [Don’t Leave Home Without It](https://thebrandhopper.com/2024/09/17/a-case-study-on-american-express-dont-leave-home-without-it/)
 
 - **Memoria de marca, conciencia o notoriedad de marca**
-
+  
     Se define como la capacidad del consumidor para identificar y diferenciar la marca dentro de su categoría. Es importante notar que la notoriedad o la _conciencia de marca_ puede evidenciarse tanto por el reconocimiento (exponerse al envase en una tienda) como por el recuerdo (rememorar la marca en el lugar de exposición cuando surge la necesidad).
-    
+  
     En este contexto, Tesla ofrece un excelente ejemplo de construcción de conciencia de marca. Cuando ingresó al mercado, su estrategia no se basó en publicidad tradicional masiva, sino en crear elementos distintivos muy reconocibles: un diseño minimalista único, el logo característico, y la interfaz de pantalla táctil gigante. Estos elementos hacen que un Tesla sea instantáneamente reconocible, tanto en el punto de venta como en la calle. Además, la marca construyó un fuerte recuerdo de marca a través de la asociación con innovación y sostenibilidad (*cf.* IMC).
-    
+
 - **Actitud hacia la marca, y su uso**
-
+  
     Se refiere a la evaluación que hace el consumidor sobre la capacidad de la marca para satisfacer una motivación relevante. La actitud se compone de creencias sobre los beneficios funcionales y asociaciones emocionales que el consumidor vincula con la marca, y la importancia percibida de cada uno de ellos.
-
+  
     Por ejemplo, Nike representa un caso maestro de construcción de actitud hacia la marca. Su comunicación va más allá de los beneficios funcionales de su calzado deportivo para crear una conexión emocional profunda con el "espíritu deportivo". Su eslogan "*Just Do It*" y sus campañas no venden solo simplemente zapatos ergonómicos, sino que también *venden* superación personal, determinación y excelencia, es decir, construye una estrategia de marca transformativa. Esta actitud positiva hacia la marca basada en aspectos de gratificación sensorial, estimulación intelectual o aprobación social se construye mediante la combinación de beneficios funcionales (tecnología, comodidad, durabilidad) con beneficios emocionales (confianza, inspiración, pertenencia).
 
 - **Disposición de compra, desplazamiento mental**
-
+  
     Se define como la disposición del consumidor para comprar la marca. Es interesante notar que la intención de compra puede variar según el nivel de implicación del consumidor o usuario:
 
 - para productos de baja implicación, una actitud favorable (superficial o *soft*) puede ser suficiente (*cf.* modelo de Derbaix)
-- para productos de alta implicación se necesita generar una actitud *hard* y una intención explícita.
 
+- para productos de alta implicación se necesita generar una actitud *hard* y una intención explícita.
+  
     Apple maneja magistralmente la generación de intención de compra, especialmente en sus lanzamientos de iPhone. Observa cómo construyen anticipación semanas antes del lanzamiento, filtran estratégicamente información, crean eventos de presentación que son verdaderos espectáculos y generan listas de espera. Para un producto de alta implicación como un *smartphone*, no basta con que guste la marca; Apple busca crear una urgencia de compra inmediata.
 
 - **Facilidad de compra**
-
+  
     Este último efecto asegura que no existan obstáculos en el proceso de compra, como problemas de distribución, precio o disponibilidad que puedan impedir la adquisición del producto. Amazon es el ejemplo perfecto de facilitación de compra. Su obsesión por eliminar cualquier fricción en el proceso de compra se refleja en innovaciones como:
-
-    - El botón "Compra con 1-Click"
-    - Prime con envío gratuito y rápido
-    - Múltiples opciones de pago
-    - Política de devolución simple
-    - Reseñas detalladas de productos
+  
+  - El botón "Compra con 1-Click"
+  - Prime con envío gratuito y rápido
+  - Múltiples opciones de pago
+  - Política de devolución simple
+  - Reseñas detalladas de productos
 
 ## Cobertura efectiva
 
@@ -1053,10 +1065,10 @@ Los **objetivos de comunicación** son fundamentales en el proceso publicitario 
 
 > La Frecuencia Efectiva Máxima (MaxEF) es el límite superior de exposiciones recomendado por ciclo. El valor MaxEF se alcanza cuando las exposiciones adicionales ya no aumentan la probabilidad de compra, e incluso, puede decrecer.
 
--   En suma, se producen dos efectos:
-
-    -   **_Wear-in_**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo se expone al anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
-    -   **_Wear-out_**: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca y su uso.
+- En suma, se producen dos efectos:
+  
+  - **_Wear-in_**: Este efecto describe la fase inicial en la que la repetición de la exposición a un anuncio aumenta su efectividad. A medida que el público objetivo se expone al anuncio más veces, se familiariza con el mensaje, lo que puede llevar a un mayor *memoria*, una mejor *comprensión del mensaje* y una *actitud más favorable hacia la marca y su uso*.
+  - **_Wear-out_**: Este efecto se produce cuando la repetición excesiva de un anuncio comienza a tener un impacto negativo en su efectividad. El público puede llegar a cansarse del anuncio, considerarlo repetitivo o incluso irritante, lo que podría generar, por ejemplo, una actitud negativa hacia la marca y su uso.
 
 Finalmente, es importante destacar que el concepto de frecuencia efectiva se combina con el efecto _**recencia**_, que enfatiza la importancia de llegar a los receptores cerca del momento en que están predispuestos para realizar una compra. Por ejemplo, la publicidad de comida a altas horas de la noche, dirigida a personas que buscan opciones rápidas y convenientes, es un ejemplo del efecto _recency_ en acción. 
 
@@ -1086,13 +1098,13 @@ Los valores se presentan en la siguiente tabla que presenta un marco de referenc
 
 Tabla. Valores de corrección para el cálculo de MEF/c
 
-|FACTOR|-1|0|+1|+2|LC + 1*|
-|-|-|-|-|-|-|
-|1. Atención al vehículo|||alta atención|baja atención||
-|2. Público objetivo||leales a marca|favorables|favorables otras marcas, leales a otra marca|nuevos usuarios|
-|3. Objetivos de comunicación (dos factores)||reconocimiento de marca|||recuerdo de marca|
-|||actitud informativa|||actitud transformativa|
-|4. Influencia personal|alta (contacto >= .25)|baja (contacto < .25)||||
+| FACTOR                                      | -1                     | 0                       | +1            | +2                                           | LC + 1*                |
+| ------------------------------------------- | ---------------------- | ----------------------- | ------------- | -------------------------------------------- | ---------------------- |
+| 1. Atención al vehículo                     |                        |                         | alta atención | baja atención                                |                        |
+| 2. Público objetivo                         |                        | leales a marca          | favorables    | favorables otras marcas, leales a otra marca | nuevos usuarios        |
+| 3. Objetivos de comunicación (dos factores) |                        | reconocimiento de marca |               |                                              | recuerdo de marca      |
+|                                             |                        | actitud informativa     |               |                                              | actitud transformativa |
+| 4. Influencia personal                      | alta (contacto >= .25) | baja (contacto < .25)   |               |                                              |                        |
 
 <sub>Nota: Si la marca es líder de mercado, LC + 1 es +2 exposiciones; si la marca no es líder, igualar a MEF/c del mayor competidor (LC) + 1. Se precisa que + 1 solo se suma una vez, por ejemplo, campaña dirigida a nuevos usuarios, con objetivos de recuerdo de marca y actitud transformadora, usaría LC + 1 + 1 + 1 exposiciones.</sub>
 
@@ -1105,20 +1117,20 @@ Tabla. Valores de corrección para el cálculo de MEF/c
 El concepto de atención al vehículo (medio o soporte) se refiere al nivel de procesamiento cognitivo que un medio específico demanda de su audiencia, y se fundamenta en la capacidad del medio para captar y mantener la atención del espectador/lector/oyente.
 
 - **Medios con Alto Valor de Atención**:
-
-    - **Televisión**: La televisión, al ser un medio audiovisual, tiene un alto potencial para captar la atención del público. Los anuncios televisivos pueden combinar imágenes, sonido y movimiento para crear un impacto visual y emocional significativo. Sin embargo, es importante tener en cuenta factores como la saturación publicitaria (*cf. clutter* publicitario competitivo o no competitivo) que puede disminuir la atención del público. En este sentido, televisión en _prime time_ suele ser considerada una franja de alto VA, mientras que otros horarios o franjas, a excepción del período que se corresponde con los seriales a mediodía, se consideran franjas de bajo VA.
-
-    - **Prensa (lectores primarios)**: La atención a las revistas varía según el tipo de publicación y el nivel de interés del lector con su contenido. Las revistas especializadas, que se dirigen a un público con un alto interés en el tema, pueden generar un alto VA, los lectores suelen prestar mayor atención al contenido.
-
-    - **Internet**: La publicidad en Internet puede tener un alto VA debido a su capacidad de segmentación y personalización. La publicidad en línea puede pues dirigirse a usuarios con intereses específicos, lo que aumenta la confianza en que presten atención al mensaje.
+  
+  - **Televisión**: La televisión, al ser un medio audiovisual, tiene un alto potencial para captar la atención del público. Los anuncios televisivos pueden combinar imágenes, sonido y movimiento para crear un impacto visual y emocional significativo. Sin embargo, es importante tener en cuenta factores como la saturación publicitaria (*cf. clutter* publicitario competitivo o no competitivo) que puede disminuir la atención del público. En este sentido, televisión en _prime time_ suele ser considerada una franja de alto VA, mientras que otros horarios o franjas, a excepción del período que se corresponde con los seriales a mediodía, se consideran franjas de bajo VA.
+  
+  - **Prensa (lectores primarios)**: La atención a las revistas varía según el tipo de publicación y el nivel de interés del lector con su contenido. Las revistas especializadas, que se dirigen a un público con un alto interés en el tema, pueden generar un alto VA, los lectores suelen prestar mayor atención al contenido.
+  
+  - **Internet**: La publicidad en Internet puede tener un alto VA debido a su capacidad de segmentación y personalización. La publicidad en línea puede pues dirigirse a usuarios con intereses específicos, lo que aumenta la confianza en que presten atención al mensaje.
 
 - **Medios con Bajo Valor de Atención**:
-
-    - **Radio**: La radio, al ser un medio únicamente auditivo, puede tener un VA más bajo que la televisión, ya que compite con otras actividades que el oyente puede estar realizando simultáneamente. No obstante, la atención a la radio también depende del tipo de programa y la fidelidad del oyente.
-
-    - **Publicidad Exterior**:  La atención a la publicidad exterior puede ser baja debido a la distracción del entorno y la brevedad de la exposición, y depende en gran medida del contexto y la ubicación. Un anuncio en una carretera con tráfico puede pasar desapercibido, mientras que un anuncio en una parada de autobús, donde las personas tienen tiempo de observarlo, puede despertar mayor atención.
-
-    - **Prensa (lector secundario)**: La atención a los anuncios en prensa escrita, como periódicos y revistas, puede ser baja si los lectores simplemente hojean las páginas sin detenerse a leer el contenido.
+  
+  - **Radio**: La radio, al ser un medio únicamente auditivo, puede tener un VA más bajo que la televisión, ya que compite con otras actividades que el oyente puede estar realizando simultáneamente. No obstante, la atención a la radio también depende del tipo de programa y la fidelidad del oyente.
+  
+  - **Publicidad Exterior**:  La atención a la publicidad exterior puede ser baja debido a la distracción del entorno y la brevedad de la exposición, y depende en gran medida del contexto y la ubicación. Un anuncio en una carretera con tráfico puede pasar desapercibido, mientras que un anuncio en una parada de autobús, donde las personas tienen tiempo de observarlo, puede despertar mayor atención.
+  
+  - **Prensa (lector secundario)**: La atención a los anuncios en prensa escrita, como periódicos y revistas, puede ser baja si los lectores simplemente hojean las páginas sin detenerse a leer el contenido.
 
 ## Población Objetivo
 
@@ -1126,71 +1138,71 @@ Se refiere a la clasificación de la audiencia según su relación actual con la
 
 ### Leal a mi marca
 
--   Son consumidores ya leales a la marca
--   Su comportamiento de compra ya está establecido
--   No requieren ajuste adicional en la MEF/c
+- Son consumidores ya leales a la marca
+- Su comportamiento de compra ya está establecido
+- No requieren ajuste adicional en la MEF/c
 
 ### Favorable a mi marca
 
--   Son consumidores que alternan entre marcas (promiscuidad comercial) pero tienen una actitud positiva hacia nuestra marca
--   El objetivo es reforzar su preferencia existente
--   Requieren un ajuste de +1 exposición por ciclo
+- Son consumidores que alternan entre marcas (promiscuidad comercial) pero tienen una actitud positiva hacia nuestra marca
+- El objetivo es reforzar su preferencia existente
+- Requieren un ajuste de +1 exposición por ciclo
 
 ### Leal a otras marcas y favorable a otras marcas
 
--   Son consumidores leales a otras marcas o que alternan entre otras marcas
--   El objetivo es persuadirlos para cambiar sus preferencias actuales
--   Requieren un ajuste adicional de +2 exposiciones
+- Son consumidores leales a otras marcas o que alternan entre otras marcas
+- El objetivo es persuadirlos para cambiar sus preferencias actuales
+- Requieren un ajuste adicional de +2 exposiciones
 
 ### Nuevos usuarios de la categoría
 
--   Son consumidores nuevos en la categoría, o que han manifestado anteriormente rechazo o resistencia a iniciativas comerciales previas.
--   Necesitan _educación_ sobre la categoría y la marca
--   Requieren el máximo ajuste, +2 (siendo líder) o LC + 1 (no siendo líder)
+- Son consumidores nuevos en la categoría, o que han manifestado anteriormente rechazo o resistencia a iniciativas comerciales previas.
+- Necesitan _educación_ sobre la categoría y la marca
+- Requieren el máximo ajuste, +2 (siendo líder) o LC + 1 (no siendo líder)
 
-## Objetivos de Comunicación 
+## Objetivos de Comunicación
 
 Se refiere a los objetivos específicos de comunicación que la marca busca alcanzar:
 
 ### Memoria
 
--   Reconocimiento y recuerdo de marca
-
-    - **Reconocimiento** (disponible en la memoria): El reconocimiento de marca (proceso de identificar si un estímulo presente ha sido experimentado previamente) se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior. Se beneficia de los aprendizajes parciales, e implica discriminar entre opciones presentadas.
-
-    - **Recuerdo libre o ayudado** (disponible y accesible): El recuerdo (proceso de recuperar información presuntamente almacenada sin ayudas externas presentes) requiere un mayor esfuerzo cognitivo, y consecuentemente  requiere generalmente una mayor frecuencia de exposición para su éxito. Las exposiciones repetidas refuerzan la huella en la memoria. Se divide en: (1) recuerdo libre: sin pistas contextuales, y (2) recuerdo con claves: ayudado por pistas o contextos.
-    
-    **El Reconocimiento en el contexto publicitario**:
-
-    Este mecanismo cognitivo se manifiesta en la capacidad del consumidor para identificar elementos publicitarios previamente expuestos, operando mediante:
-
-    1. Identificación de Marca:
-
-        - Reconocimiento instantáneo de logotipos en entornos comerciales
-        - Discriminación de elementos visuales distintivos
-        - Activación de asociaciones marca-producto
-    
-    2. Procesamiento Periférico:
-        - Detección automática de elementos cromáticos corporativos
-        - Reconocimiento de _jingles_ y elementos sonoros distintivos
-        - Identificación de _packaging_ y elementos de identidad visual
-
-    **El Recuerdo como indicador de efectividad**:
-
-    El recuerdo publicitario implica un procesamiento más profundo y constituye un indicador más robusto de la efectividad comunicacional, manifestándose en:
-
-    1. Recuperación Activa:
-
-        - Evocación espontánea de mensajes publicitarios
-        - Reconstrucción de propuestas de valor
-        - Articulación de beneficios producto-servicio
-
-    2. Integración Cognitiva:
-
-        - Incorporación del mensaje a esquemas mentales preexistentes
-        - Construcción de narrativas marca-consumidor
-        - Establecimiento de vínculos emocionales duraderos
-
+- Reconocimiento y recuerdo de marca
+  
+  - **Reconocimiento** (disponible en la memoria): El reconocimiento de marca (proceso de identificar si un estímulo presente ha sido experimentado previamente) se puede lograr con una frecuencia de exposición menor que el recuerdo. La simple exposición al anuncio, aunque no sea suficiente para generar un recuerdo, puede crear una familiaridad con la marca que facilite su reconocimiento posterior. Se beneficia de los aprendizajes parciales, e implica discriminar entre opciones presentadas.
+  
+  - **Recuerdo libre o ayudado** (disponible y accesible): El recuerdo (proceso de recuperar información presuntamente almacenada sin ayudas externas presentes) requiere un mayor esfuerzo cognitivo, y consecuentemente  requiere generalmente una mayor frecuencia de exposición para su éxito. Las exposiciones repetidas refuerzan la huella en la memoria. Se divide en: (1) recuerdo libre: sin pistas contextuales, y (2) recuerdo con claves: ayudado por pistas o contextos.
+  
+  **El Reconocimiento en el contexto publicitario**:
+  
+  Este mecanismo cognitivo se manifiesta en la capacidad del consumidor para identificar elementos publicitarios previamente expuestos, operando mediante:
+  
+  1. Identificación de Marca:
+     
+     - Reconocimiento instantáneo de logotipos en entornos comerciales
+     - Discriminación de elementos visuales distintivos
+     - Activación de asociaciones marca-producto
+  
+  2. Procesamiento Periférico:
+     
+     - Detección automática de elementos cromáticos corporativos
+     - Reconocimiento de _jingles_ y elementos sonoros distintivos
+     - Identificación de _packaging_ y elementos de identidad visual
+  
+  **El Recuerdo como indicador de efectividad**:
+  
+  El recuerdo publicitario implica un procesamiento más profundo y constituye un indicador más robusto de la efectividad comunicacional, manifestándose en:
+  
+  1. Recuperación Activa:
+     
+     - Evocación espontánea de mensajes publicitarios
+     - Reconstrucción de propuestas de valor
+     - Articulación de beneficios producto-servicio
+  
+  2. Integración Cognitiva:
+     
+     - Incorporación del mensaje a esquemas mentales preexistentes
+     - Construcción de narrativas marca-consumidor
+     - Establecimiento de vínculos emocionales duraderos
 
 ![FCB](./img/img_grid_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
@@ -1200,40 +1212,43 @@ Se divide en dos tipos principales:
 
 ### Estrategia Informativa
 
--   Busca comunicar beneficios funcionales
--   Se centra en aspectos racionales, fácilmente observables y aprehensibles a través de los sentidos, del producto
--   No requiere un ajuste adicional sobre el base
+- Busca comunicar beneficios funcionales
 
--   Ejemplos: 
-    
-    Anuncio de un **medicamento para la acidez estomacal**:
-    
-      - Emoción (Problema): Malestar, dolor, frustración por la acidez.
-      - Emoción (Solución): Alivio, bienestar, tranquilidad.
-      - Enfoque: Mostrar a personas sufriendo los síntomas de la acidez, luego presentar el medicamento como una solución rápida y eficaz para aliviar el malestar.
-    
-    Anuncio de un **servicio de reparación de electrodomésticos**:
-    
-      - Emoción (Problema): Frustración, estrés, impotencia ante la avería del electrodoméstico.
-      - Emoción (Solución): Tranquilidad, confianza, satisfacción.
-      - Enfoque: Presentar situaciones cotidianas donde un electrodoméstico se avería, generando caos e inconvenientes. El servicio de reparación se muestra como la solución confiable y rápida para recuperar la normalidad.
+- Se centra en aspectos racionales, fácilmente observables y aprehensibles a través de los sentidos, del producto
+
+- No requiere un ajuste adicional sobre el base
+
+- Ejemplos: 
+  
+  Anuncio de un **medicamento para la acidez estomacal**:
+  
+  - Emoción (Problema): Malestar, dolor, frustración por la acidez.
+  - Emoción (Solución): Alivio, bienestar, tranquilidad.
+  - Enfoque: Mostrar a personas sufriendo los síntomas de la acidez, luego presentar el medicamento como una solución rápida y eficaz para aliviar el malestar.
+  
+  Anuncio de un **servicio de reparación de electrodomésticos**:
+  
+  - Emoción (Problema): Frustración, estrés, impotencia ante la avería del electrodoméstico.
+  - Emoción (Solución): Tranquilidad, confianza, satisfacción.
+  - Enfoque: Presentar situaciones cotidianas donde un electrodoméstico se avería, generando caos e inconvenientes. El servicio de reparación se muestra como la solución confiable y rápida para recuperar la normalidad.
 
 ### Estrategia Transformativa
 
--   Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
--   Requiere el máximo ajuste
+- Busca crear asociaciones emocionales y experienciales, transformando la esencia del producto
 
--   Ejemplos:
+- Requiere el máximo ajuste
 
-    Anuncio de una marca de cerveza:
-    
-      - Emoción: Alegría, amistad, diversión, celebración.
-      - Enfoque: Mostrar grupos de amigos disfrutando de momentos agradables y de la cerveza en un ambiente festivo y relajado. Se busca asociar la marca con la felicidad y la camaradería.
-    
-    Anuncio de un perfume:
-    
-      - Emoción: Sensualidad, elegancia, sofisticación, atracción.
-      - Enfoque: Presentar imágenes sugestivas y elegantes con modelos atractivos utilizando el perfume. Se busca transmitir un aura de misterio y seducción, asociando el perfume con la belleza y la confianza en uno mismo.
+- Ejemplos:
+  
+  Anuncio de una marca de cerveza:
+  
+  - Emoción: Alegría, amistad, diversión, celebración.
+  - Enfoque: Mostrar grupos de amigos disfrutando de momentos agradables y de la cerveza en un ambiente festivo y relajado. Se busca asociar la marca con la felicidad y la camaradería.
+  
+  Anuncio de un perfume:
+  
+  - Emoción: Sensualidad, elegancia, sofisticación, atracción.
+  - Enfoque: Presentar imágenes sugestivas y elegantes con modelos atractivos utilizando el perfume. Se busca transmitir un aura de misterio y seducción, asociando el perfume con la belleza y la confianza en uno mismo.
 
 ![FCB](./img/img_FCB_rossiter_percy.png) <sub>Nota: *La imagen ha sido tomada de "A better Advertising Planning Grid", por J. R. Rossiter et al, 1991, Journal of Advertising Research 31(5):11-21. Reproducido con fines académicos.*</sub>
 
@@ -1248,15 +1263,15 @@ En este contexto, la Figura _FCB Grid_ (desarrollado por la agencia de publicida
 Es importante señalar, como indica la nota al pie del _grid_, que el nivel de implicación aumenta hacia la parte superior del eje vertical y que ambas dimensiones son continuas, no categóricas. Esta continuidad permite una comprensión más matizada de cómo los consumidores se relacionan con diferentes productos y marcas. En este sentido, esta herramienta resulta especialmente valiosa para los profesionales del marketing, ya que permite adaptar las estrategias de comunicación y publicidad según la posición que ocupa cada producto en el grid, optimizando así la efectividad de sus mensajes y campañas.  
 
 A continuación, se muestra un breve ejemplo ilustrativo del concepto *Informativo versus Transformativo* de un producto (marca ficticia) de baja implicación:
-    
-- **Campaña Informativa**. Imagina una campaña publicitaria para una nueva cerveza artesanal cuyo objetivo principal e inicial es dar a conocer las características únicas de esta cerveza, diferenciándola de las cervezas industriales.
 
+- **Campaña Informativa**. Imagina una campaña publicitaria para una nueva cerveza artesanal cuyo objetivo principal e inicial es dar a conocer las características únicas de esta cerveza, diferenciándola de las cervezas industriales.
+  
   - Información Clave: Se destacaría el origen de los ingredientes (lúpulo orgánico, agua de manantial), el proceso de elaboración artesanal (fermentación lenta, sin aditivos) y el sabor distintivo (notas cítricas, amargor equilibrado).
   - Medios Adecuados: Redes sociales especializadas, marketing de *influencers* cerveceros, festivales de cerveza abiertos al público, bares especializados en cervezas artesanales, y publicidad local segmentada por zonas.
   - Frecuencia Efectiva: La campaña repetiría la información clave en diferentes formatos para asegurar que el receptor la recuerde. Se podrían usar infografías que expliquen el proceso de elaboración, videos cortos con el maestro cervecero hablando de la pasión por su producto, y testimonios de consumidores que destacan el sabor único de la cerveza.
 
 - **Campaña Transformativa**: Imagina una campaña para una cerveza tradicional, ya conocida por el público. El objetivo no es tanto informar, sino transformar la percepción de la cerveza, asociándola con momentos de felicidad y conexión humana (por ejemplo, *¿tomamos una cerveza?*).
-
+  
   - Mensaje Emocional: Se mostrarían escenas de amigos riendo y disfrutando de la cerveza en diferentes contextos: una reunión familiar, un partido de fútbol, una noche de juegos de mesa. La música y la estética del anuncio transmitirían una sensación de alegría y camaradería, a saber, gratificacións ensorial y aprobación social. La motivación es transformacional, buscando la gratificación a través del sabor y las sensaciones que la cerveza proporciona. 
   - Medios Masivos: Se utilizaría la televisión, con anuncios durante programas de entretenimiento y eventos deportivos. También se podrían usar plataformas de redes sociales, creando contenido que invite a los usuarios a compartir sus propias historias de momentos felices con la cerveza.
   - Conexión Emocional: La campaña buscaría generar una respuesta emocional en el espectador, haciéndole sentir nostalgia por momentos felices compartidos con amigos y familia. La cerveza se presentaría como un elemento que facilita y realza esos momentos de conexión.
@@ -1264,14 +1279,14 @@ A continuación, se muestra un breve ejemplo ilustrativo del concepto *Informati
 En suma, si bien la estrategia de comunicación más efectiva para cualquier tipo de cerveza debería enfocarse en aspectos emocionales y experienciales, variando únicamente la intensidad de la implicación requerida en la decisión de compra, para una cerveza artesanal nueva en el mercado, sería estratégicamente válido:
 
 - Primera Fase (Introductoria - Informativa):
-
+  
   - Comunicar las características diferenciales (ingredientes, proceso, origen)
   - Educar sobre las cualidades organolépticas distintivas
   - Establecer credenciales de calidad y autenticidad
   - Construir notoriedad de marca
 
 - Segunda Fase (Transformativa):
-
+  
   - Una vez establecido el conocimiento básico, transitar hacia comunicación más emocional
   - Enfatizar la experiencia de consumo
   - Construir conexiones emocionales
@@ -1285,15 +1300,15 @@ Define efecto multiplicador de la comunicación boca a boca favorable a los inte
 
 ### Alto Contacto ($\geq$ 0.25)
 
--   Significa que al menos una de cada cuatro personas expuestas comparte el mensaje
--   Típico en productos con alto componente social
--   Reduce la necesidad de frecuencia publicitaria, recomendando un ajuste de -1
+- Significa que al menos una de cada cuatro personas expuestas comparte el mensaje
+- Típico en productos con alto componente social
+- Reduce la necesidad de frecuencia publicitaria, recomendando un ajuste de -1
 
 ### Bajo Contacto (< 0.25)
 
--   Menor tasa de transmisión del mensaje entre personas
--   Típico en productos de consumo privado o baja implicación social
--   No permite reducir la frecuencia publicitaria
+- Menor tasa de transmisión del mensaje entre personas
+- Típico en productos de consumo privado o baja implicación social
+- No permite reducir la frecuencia publicitaria
 
 En los casos en que la influencia social nea negativa, deberá considerarse aumentar la MEF/c.
 
@@ -1302,13 +1317,13 @@ En los casos en que la influencia social nea negativa, deberá considerarse aume
 En la determinación del MEF/c, existen varias consideraciones críticas relacionadas con el tratamiento del competidor más grande (*Largest Competitor*, LC) y los ajustes necesarios en diferentes contextos mediáticos.
 
 - Para marcas **líderes del mercado (LC)**, el valor que corresponde a la última columna de la tabla es +2. Las marcas **no líderes (no LC)** deben igualar la frecuencia del competidor más grande más una exposición adicional (LC + 1). No obstante, este ajuste puede variar según el contexto competitivo específico, y no debe establecerse como un valor fijo.
-
+  
     El valor del competidor más grande (LC) funciona como base única en la fórmula y se ajusta posteriormente según los requerimientos específicos de comunicación. Es crucial entender que el valor LC se incorpora una sola vez y no se duplica con cada ajuste adicional. Por ejemplo, en una campaña que requiere tanto recuerdo de marca como actitud transformativa, la fórmula sumará (LC + 1) + (~~LC~~ + 1), evitando la duplicación errónea (LC + 1) + (LC + 1). Esta distinción es fundamental para prevenir una sobrestimación del efecto del competidor principal en la frecuencia necesaria.
 
 - En situaciones donde el competidor más grande utiliza vehículos de baja atención (VA = 2), es fundamental realizar un ajuste específico en la fórmula del MEF para evitar una "sobre exposición". En estos casos, existen dos opciones recomendadas: 
-
-    - Se puede corregir el valor del vehículo de atención de VA = 2 a VA = 1 cuando nuestra marca también emplea un medio de baja atención.
-    - Se puede dividir por 2 el valor MEF/c del competidor más grande (LC). Esta corrección es necesaria porque se asume que el competidor dominante ya ha sobre dimensionado su frecuencia para compensar la naturaleza del vehículo de baja atención.
+  
+  - Se puede corregir el valor del vehículo de atención de VA = 2 a VA = 1 cuando nuestra marca también emplea un medio de baja atención.
+  - Se puede dividir por 2 el valor MEF/c del competidor más grande (LC). Esta corrección es necesaria porque se asume que el competidor dominante ya ha sobre dimensionado su frecuencia para compensar la naturaleza del vehículo de baja atención.
 
 La implementación correcta de estos ajustes requiere pues una comprensión profunda del contexto competitivo y los objetivos de comunicación específicos. La fórmula del MEF/c, con sus diversos componentes y ajustes, debe verse como una herramienta de planificación flexible que se adapta a las condiciones particulares de cada situación de mercado.
 
@@ -1452,25 +1467,33 @@ Inversión total: $3 millones
 **Información Clave para MEF/c**
 
 - **Atención al Medio**: Medios digitales que requieren mayor frecuencia por ser de baja atención.
-
-    - Existe multitarea durante el consumo del medio
-    - El tiempo de exposición es fragmentado y breve
-    - Compiten con múltiple contenido simultáneo
+  
+  - Existe multitarea durante el consumo del medio
+  - El tiempo de exposición es fragmentado y breve
+  - Compiten con múltiple contenido simultáneo
 
 - **Población Objetivo**: NCUs (*New Category Users*) sin experiencia previa en la categoría. 
 
 - **Objetivos de Comunicación**
-
+  
     **Recuerdo de marca**
-    - Crítico porque las decisiones de compra de scooters eléctricos típicamente ocurren lejos del punto de venta
-    - El consumidor debe recordar activamente la marca EcoRide antes de su decisión de compra
-    - Las búsquedas de información y comparaciones se realizan principalmente _online_
-    - El proceso de decisión es extenso y complejo (producto de alta implicación)
+  
+  - Crítico porque las decisiones de compra de scooters eléctricos típicamente ocurren lejos del punto de venta
+  
+  - El consumidor debe recordar activamente la marca EcoRide antes de su decisión de compra
+  
+  - Las búsquedas de información y comparaciones se realizan principalmente _online_
+  
+  - El proceso de decisión es extenso y complejo (producto de alta implicación)
     
+
     **Estrategia transformativa**
-    - Busca transformar la percepción actual de los scooters eléctricos
-    - Debe crear asociaciones emocionales con sostenibilidad e innovación
-    - Necesita establecer beneficios experienciales más allá de los funcionales
+  
+  - Busca transformar la percepción actual de los scooters eléctricos
+  
+  - Debe crear asociaciones emocionales con sostenibilidad e innovación
+  
+  - Necesita establecer beneficios experienciales más allá de los funcionales
 
 - **Influencia Personal**: Coeficiente de contacto moderado (0.28) que permite reducir un punto la frecuencia efectiva por el efecto de recomendación entre early adopters
 
@@ -1490,17 +1513,17 @@ Estas dimensiones se entrelazan en lo que conocemos como patrones de planificaci
 
 Los patrones se dividen en dos grandes categorías:
 
-> Patrones para Marcas Nuevas: Diseñados para productos que necesitan establecerse en el mercado, estos patrones tienden a priorizar una alta frecuencia inicial para generar conocimiento y consideración rápidamente.
+> **Patrones para Marcas Nuevas**: Diseñados para productos que necesitan establecerse en el mercado, estos patrones tienden a priorizar una alta frecuencia inicial para generar conocimiento y consideración rápidamente.
 
-> Patrones para Marcas Establecidas: Enfocados en mantener la presencia de marca y optimizar la inversión publicitaria a largo plazo, estos patrones suelen equilibrar la cobertura y la frecuencia de manera más eficiente.
+> **Patrones para Marcas Establecidas**: Enfocados en mantener la presencia de marca y optimizar la inversión publicitaria a largo plazo, estos patrones suelen equilibrar la cobertura y la frecuencia de manera más eficiente.
 
 La distribución de exposición en cada patrón puede ser:
 
-> Continua: Mantiene un nivel constante de presión publicitaria
+> **Continua**: Mantiene un nivel constante de presión publicitaria
 
-> Pulsante: Alterna períodos de alta y baja intensidad, incrementa o decrece la intensidad gradualmente
+> **Pulsante**: Alterna períodos de alta y baja intensidad, incrementa o decrece la intensidad gradualmente
 
-> Flighting: Concentra la actividad en períodos específicos, alterna períodos de actividad con períodos de hiatus
+> **Flighting**: Concentra la actividad en períodos específicos, alterna períodos de actividad con períodos de hiatus
 
 A continuación, se presentan los patrones para marcas nuevas que representan esquemas de planificación diseñados para productos que se introducen por primera vez en el mercado. La complejidad de establecer una nueva marca requiere estrategias que equilibren la necesidad de construir conocimiento con la optimización de recursos limitados. Estos patrones deben considerar factores como el nivel de innovación del producto, la estructura competitiva del mercado, y el proceso de adopción por parte del consumidor, adaptándose a cada fase del ciclo de introducción-crecimiento.
 
@@ -1804,7 +1827,7 @@ El paquete **mediaPlanR** incluye implementaciones de modelos clásicos de plani
 
 La forma más sencilla de instalar y configurar **mediaPlanR** es usando las siguientes instrucciones:
 
-``` r
+```r
 # Instalar el paquete devtools si no está instalado
 if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
@@ -1814,7 +1837,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
 devtools::install_github("majesus/mediaPlanR", force = TRUE, upgrade = "never")
 ```
 
-## Funciones 
+## Funciones
 
 En general, las funciones en R son bloques de código reutilizables que:
 
@@ -1824,7 +1847,7 @@ En general, las funciones en R son bloques de código reutilizables que:
 
 Sintaxis básica:
 
-``` r
+```r
 nombre_funcion <- function(arg1, arg2, ...) {
   # Operaciones
   return(resultado)
@@ -1880,34 +1903,34 @@ En particular, las funciones incluidas en el paquete están organizadas en difer
 
 Estos modelos se caracterizan por:
 
--   Buscar funciones matemáticas que se ajusten a los datos de audiencia disponibles
--   No considerar la naturaleza probabilística de la exposición
--   Enfocarse en reproducir la evolución de la cobertura según el número de inserciones
+- Buscar funciones matemáticas que se ajusten a los datos de audiencia disponibles
+- No considerar la naturaleza probabilística de la exposición
+- Enfocarse en reproducir la evolución de la cobertura según el número de inserciones
 
 **Limitaciones principales**:
 
--   No proporcionan información sobre la distribución de exposición
--   No permiten determinar la campaña óptima al no considerar la frecuencia de exposición
+- No proporcionan información sobre la distribución de exposición
+- No permiten determinar la campaña óptima al no considerar la frecuencia de exposición
 
 #### Modelos Estocásticos
 
 Estos modelos se distinguen por:
 
--   Representar los patrones de audiencia mediante distribuciones de probabilidad
--   Considerar la exposición como fenómeno aleatorio
--   Asumir probabilidades individuales de exposición
+- Representar los patrones de audiencia mediante distribuciones de probabilidad
+- Considerar la exposición como fenómeno aleatorio
+- Asumir probabilidades individuales de exposición
 
 **Características clave**:
 
--   Requieren hipótesis adicionales sobre la probabilidad individual
--   Las hipótesis específicas diferencian los distintos modelos estocásticos
+- Requieren hipótesis adicionales sobre la probabilidad individual
+- Las hipótesis específicas diferencian los distintos modelos estocásticos
 
 La selección del modelo de estimación debe basarse en un análisis riguroso que considere:
 
--   Las hipótesis subyacentes
--   El tipo de plan de medios a evaluar
--   La precisión requerida en las estimaciones
--   Los recursos disponibles para la implementación
+- Las hipótesis subyacentes
+- El tipo de plan de medios a evaluar
+- La precisión requerida en las estimaciones
+- Los recursos disponibles para la implementación
 
 La elección de un modelo de estimación de cobertura y distribución de exposición requiere una comprensión de las hipótesis subyacentes. Estas hipótesis, que simplifican la realidad para facilitar la modelización, tienen un impacto directo en la precisión de las estimaciones. En este capítulo, examinaremos las diferentes hipótesis y tipos de modelos disponibles.
 
@@ -1917,38 +1940,38 @@ La elección de un modelo de estimación de cobertura y distribución de exposic
 
 La hipótesis de estacionariedad se puede desglosar en dos componentes:
 
-1.  **Estacionariedad respecto a los individuos**: la probabilidad de que un individuo sea expuesto a una inserción publicitaria en particular no depende de si ha estado expuesto a inserciones anteriores.
+1. **Estacionariedad respecto a los individuos**: la probabilidad de que un individuo sea expuesto a una inserción publicitaria en particular no depende de si ha estado expuesto a inserciones anteriores.
 
-2.  **Estacionariedad respecto a las inserciones**: la probabilidad de exposición de un individuo i a una inserción N no está influenciada por la probabilidad de exposición de otro individuo j a la misma inserción.
+2. **Estacionariedad respecto a las inserciones**: la probabilidad de exposición de un individuo i a una inserción N no está influenciada por la probabilidad de exposición de otro individuo j a la misma inserción.
 
 #### Otras Hipótesis Fundamentales
 
--   **Homogeneidad de la población**: asume que todos los individuos de la población, más allá de sus cualidades, tienen igual probabilidad de exposición a un soporte.
+- **Homogeneidad de la población**: asume que todos los individuos de la población, más allá de sus cualidades, tienen igual probabilidad de exposición a un soporte.
 
--   **Homogeneidad de los soportes**: considera que todos los soportes del plan de medios tienen igual capacidad de generar exposición, comparten la misma probabilidad de exposición.
+- **Homogeneidad de los soportes**: considera que todos los soportes del plan de medios tienen igual capacidad de generar exposición, comparten la misma probabilidad de exposición.
 
--   **Aleatoriedad de la duplicación**: establece que la probabilidad de exposición a un soporte es independiente de la exposición a otros soportes.
+- **Aleatoriedad de la duplicación**: establece que la probabilidad de exposición a un soporte es independiente de la exposición a otros soportes.
 
--   **Aleatoriedad de la acumulación**: postula que la probabilidad de exposición a una inserción en un soporte es independiente de la exposición anterior a otras inserciones.
+- **Aleatoriedad de la acumulación**: postula que la probabilidad de exposición a una inserción en un soporte es independiente de la exposición anterior a otras inserciones.
 
 ### Clasificación de modelos según soportes e inserciones
 
 Los modelos se pueden clasificar en tres categorías principales según su aplicación:
 
-1.  **Modelos de Acumulación de Audiencias**
+1. **Modelos de Acumulación de Audiencias**
+   
+   - Diseñados para planes con $n$ inserciones en un único soporte
+   - Focalizados en el efecto acumulativo de exposiciones repetidas
 
-    -   Diseñados para planes con $n$ inserciones en un único soporte
-    -   Focalizados en el efecto acumulativo de exposiciones repetidas
+2. **Modelos de Duplicación de Audiencias (o Cobertura neta)**
+   
+   - Aplicables a planes con una inserción en $n$ soportes diferentes
+   - Centrados en el efecto de la exposición a través de múltiples soportes
 
-2.  **Modelos de Duplicación de Audiencias (o Cobertura neta)**
-
-    -   Aplicables a planes con una inserción en $n$ soportes diferentes
-    -   Centrados en el efecto de la exposición a través de múltiples soportes
-
-3.  **Modelos de Cobertura Neta Acumulada**
-
-    -   Desarrollados para planes con $n$ inserciones en $m$ soportes diferentes
-    -   Combinan los efectos de acumulación y duplicación
+3. **Modelos de Cobertura Neta Acumulada**
+   
+   - Desarrollados para planes con $n$ inserciones en $m$ soportes diferentes
+   - Combinan los efectos de acumulación y duplicación
 
 La comprensión de estos aspectos permite una elección informada que optimiza el balance entre precisión y complejidad del modelo.
 
@@ -1964,9 +1987,9 @@ El modelo considera la duplicación aleatoria, las probabilidades individuales d
 
 ## Características
 
--   Considera la independencia entre soportes, es decir, la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro (duplicación aleatoria)
--   Asume que las probabilidades de exposición individuales son homogéneas
--   Las probabilidades de exposición edl soporte son heterogéneas
+- Considera la independencia entre soportes, es decir, la exposición a un soporte no modifica la probabilidad de resultar expuesto a otro (duplicación aleatoria)
+- Asume que las probabilidades de exposición individuales son homogéneas
+- Las probabilidades de exposición edl soporte son heterogéneas
 
 Para el cálculo de la cobertura neta (probabilidad de al menos 1 contacto) empleamos la siguiente expresión:
 
@@ -1974,10 +1997,10 @@ $$C = 1 - \prod_{i=1}^{n} \left(1 - \frac{A_i}{P}\right)$$
 
 Donde:
 
--   C es la cobertura
--   n es el número de soportes
--   Ai es la audiencia del soporte i
--   P es la población total
+- C es la cobertura
+- n es el número de soportes
+- Ai es la audiencia del soporte i
+- P es la población total
 
 Aplicando la función de Sainsbury (simplificado) a los datos anteriormente expuestos, este sería el valor (en tanto por uno) de la cobertura neta:
 
@@ -1989,14 +2012,14 @@ $$P(X=k) = \sum_{|S|=k} \prod_{i \in S} p_i \prod_{j \notin S} (1-p_j)$$
 
 Donde:
 
--   \|S\| = k significa que sumamos sobre todas las combinaciones posibles de k soportes
--   pi es la probabilidad de exposición al soporte i (Ai/P)
--   El primer producto corresponde a las probabilidades de exposición a los soportes i
--   El segundo producto corresponde a las probabilidades de no exposición a los soportes j
+- \|S\| = k significa que sumamos sobre todas las combinaciones posibles de k soportes
+- pi es la probabilidad de exposición al soporte i (Ai/P)
+- El primer producto corresponde a las probabilidades de exposición a los soportes i
+- El segundo producto corresponde a las probabilidades de no exposición a los soportes j
 
 ## Aplicación de la función
 
-``` r
+```r
 > library(mediaPlanR)
 > audiencias <- c(300000, 400000, 200000)  
 > pob_total <- 1000000                     
@@ -2038,10 +2061,10 @@ La función calc_binomial() Implementa el modelo Binomial, desarrollado por Chan
 
 ## Características
 
--   Cada individuo de la población tiene la misma probabilidad de exposición a un soporte i
--   La probabilidad de exposición a cada soporte es la misma para cada uno de ellos
--   La duplicación de las audiencias es un suceso aleatorio
--   Las probabilidades de exposición son estacionarias
+- Cada individuo de la población tiene la misma probabilidad de exposición a un soporte i
+- La probabilidad de exposición a cada soporte es la misma para cada uno de ellos
+- La duplicación de las audiencias es un suceso aleatorio
+- Las probabilidades de exposición son estacionarias
 
 Para el cálculo de la cobertura neta (probabilidad de al menos 1 contacto) empleamos la siguiente expresión:
 
@@ -2049,10 +2072,10 @@ $$p = \frac{1}{P} \sum_{i=1}^{n} \frac{A_i}{n}$$
 
 Donde:
 
--   p es la probabilidad _promedio_ de éxito
--   n es el número de soportes (1 inserción por soporte)
--   Ai es la audiencia del soporte i
--   P es la población total
+- p es la probabilidad _promedio_ de éxito
+- n es el número de soportes (1 inserción por soporte)
+- Ai es la audiencia del soporte i
+- P es la población total
 
 Distribución de contactos (probabilidad de exactamente k contactos):
 
@@ -2060,13 +2083,13 @@ $$P(X=k) = \binom{n}{k} p^k (1-p)^{n-k}$$
 
 Donde:
 
--   k es el número de contactos
--   n es el número de soportes
--   p es la probabilidad media calculada anteriormente
+- k es el número de contactos
+- n es el número de soportes
+- p es la probabilidad media calculada anteriormente
 
 ## Aplicación de la función
 
-``` r
+```r
 > library(mediaPlanR)
 > audiencias <- c(300000, 400000, 200000)  
 > pob_total <- 1000000                     
@@ -2107,10 +2130,10 @@ La función Beta-Binomial implementa el modelo Beta-Binomial para calcular la ac
 
 ## Características
 
--   Modela heterogeneidad de la población en sus probabilidades de exposición
--   La acumulación de audiencias no es aleatoria
--   Asume la estacionariedad (estabilidad en el tiempo) de las probabilidades de exposición respecto a los individuos o a las inserciones
--   Requiere datos de audiencias acumuladas (A1 y A2)
+- Modela heterogeneidad de la población en sus probabilidades de exposición
+- La acumulación de audiencias no es aleatoria
+- Asume la estacionariedad (estabilidad en el tiempo) de las probabilidades de exposición respecto a los individuos o a las inserciones
+- Requiere datos de audiencias acumuladas (A1 y A2)
 
 La distribución de contactos (probabilidad de exactamente k contactos) se estima del modo siguiente:
 
@@ -2123,7 +2146,7 @@ A continuación, se profundiza en la interpretación de la distribución Beta-Bi
 **¿Cómo se asignan las probabilidades individuales?** Cada individuo "extrae" su probabilidad p de la distribución beta común Beta($\alpha$,$\beta$). Una vez asignada, esta p se mantiene constante para ese individuo (estacionariedad).
 
 En el ejemplo de una campaña publicitaria para un nuevo modelo de coche, la distribución Beta permitiría:
-    
+
 - Identificar a los **entusiastas de los coches**: Asignar una alta probabilidad de exposición a los individuos que, según los datos de audiencia, consumen habitualmente medios relacionados con el automóvil.
 - Identificar a los que **no tienen interés en los coches**: Asignar una baja probabilidad de exposición a los individuos que no muestran ningún interés en este tipo de productos o medios.
 - Representar la **diversidad**: Asignar una gama de probabilidades intermedias al resto de la población, reflejando la variedad de niveles de interés que pueden existir.
@@ -2151,10 +2174,10 @@ $$P_i = \binom{n}{i} \frac{(\alpha + i - 1)(\alpha + i - 2) \cdots \alpha \cdot 
 
 Donde:
 
--   i es el número de contactos
--   n es el número de inserciones
--   $\alpha$ (alpha) controla la asimetría hacia valores altos de probabilidad
--   $\beta$ (beta) controla la asimetría hacia valores bajos de probabilidad
+- i es el número de contactos
+- n es el número de inserciones
+- $\alpha$ (alpha) controla la asimetría hacia valores altos de probabilidad
+- $\beta$ (beta) controla la asimetría hacia valores bajos de probabilidad
 
 $$\alpha = \frac{R_1(R_2 - R_1)}{2R_1 - R_1^2 - R_2}$$
 
@@ -2162,12 +2185,12 @@ $$\beta = \alpha \frac{1 - R_1}{R_1}$$
 
 Donde:
 
--   R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
--   R2 es la proporción de audiencia alcanzada (al menos 2 veces) tras la segunda inserción
+- R1 es la proporción de audiencia alcanzada (al menos 1 vez) tras la primera inserción
+- R2 es la proporción de audiencia alcanzada (al menos 2 veces) tras la segunda inserción
 
 ## Aplicación de la función
 
-``` r
+```r
 resultado <- calc_beta_binomial(
   A1 = 500000,    
   A2 = 550000,    
@@ -2212,7 +2235,6 @@ resultado
 # -------------------
 # Promedio de contactos por individuo alcanzado: 4.14
 # Media teórica de la distribución beta: 0.500
-
 ```
 
 # Modelo de Metheringham (`calc_metheringham`)
@@ -2224,7 +2246,7 @@ Se sustentan las siguientes hipótesis:
 - La **población es heterogénea**. Cada individuo tiene su propia probabilidad personal de exposición que, sin embargo, se distribuye como una Beta para el conjunto.
 
 - Los **soportes son homogéneos**. Ello no quiere decir que cada individuo tenga la misma probabilidad de exposición respecto a cada soporte, sino que estas probabilidades individuales se distribuyen de tal forma que todos los soportes acaban con la misma distribución Beta de probabilidades de exposición. Metheringham simplifica esta suposición utilizando la audiencia media de todos los soportes para calcular la probabilidad de exposición. Esta simplificación puede no ser realista en la práctica, ya que hay medios con mayor alcance que otros; sin embargo, facilita el cálculo al homogeneizar el conjunto de medios.
-
+  
     Volviendo al ejemplo de la campaña del coche nuevo, la hipótesis de soportes homogéneos implicaría que, si bien algunos individuos pueden ser más propensos a ver el anuncio en la televisión, otros en revistas especializadas y otros en sitios web de coches, la distribución general de probabilidades de exposición a lo largo de todos estos soportes seguiría una forma similar (la distribución beta).
 
 - La **acumulación y duplicación de las audiencias se promedian entre los soportes para conformar un soporte “tipo”**.
@@ -2235,7 +2257,7 @@ El proceso comienza calculando la **audiencia promedio de todos los soportes** i
 
 ## Aplicación de la función
 
-``` r
+```r
 matriz_dup <- matrix(c(
   150000, 200000, 180000,
   200000, 120000, 140000,
@@ -2316,7 +2338,6 @@ resultado
 -------------------
 # Promedio de contactos por individuo alcanzado: 1.94
 # Media teórica de la distribución beta: 0.120
-
 ```
 
 # Modelo de Hofmans (`calc_hofmans`)
@@ -2331,48 +2352,48 @@ Para su aplicación práctica, el modelo requiere únicamente conocer las cobert
 
 Objetivo del modelo:
 
--   Calcular la audiencia acumulada de múltiples inserciones en un único soporte
+- Calcular la audiencia acumulada de múltiples inserciones en un único soporte
 
 Supuestos fundamentales:
 
--   La audiencia de un soporte es constante para todos sus números
--   La duplicación entre dos inserciones cualesquiera es constante e igual a d
--   La duplicación no depende de qué par de inserciones estemos considerando
--   Para N = 3: Usa una formulación directa
--   Para N \> 3: Incorpora el parámetro \alpha para ajustar el comportamiento no lineal
--   \alpha es un parámetro de ajuste que mejora la precisión del modelo para un número de inserciones mayor que 3, corrigiendo la suposición inicial errónea de que k era constante.
+- La audiencia de un soporte es constante para todos sus números
+- La duplicación entre dos inserciones cualesquiera es constante e igual a d
+- La duplicación no depende de qué par de inserciones estemos considerando
+- Para N = 3: Usa una formulación directa
+- Para N \> 3: Incorpora el parámetro \alpha para ajustar el comportamiento no lineal
+- \alpha es un parámetro de ajuste que mejora la precisión del modelo para un número de inserciones mayor que 3, corrigiendo la suposición inicial errónea de que k era constante.
 
 Datos de partida:
 
--   R1: Cobertura de la primera inserción (proporción entre 0 y 1)
--   R2: Cobertura acumulada tras la segunda inserción (proporción entre 0 y 1)
--   N $\geq$ 3: Número de inserciones para las que queremos calcular la cobertura
+- R1: Cobertura de la primera inserción (proporción entre 0 y 1)
+- R2: Cobertura acumulada tras la segunda inserción (proporción entre 0 y 1)
+- N $\geq$ 3: Número de inserciones para las que queremos calcular la cobertura
 
 El modelo calculará como datos adicionales:
 
--   k = 2 \* R1 / R2
--   d = 2 \* R1 - R2
--   \alpha
+- k = 2 \* R1 / R2
+- d = 2 \* R1 - R2
+- \alpha
 
 ------------------------------------------------------------------------
 
 A continuación, se presenta un ejemplo ilustrativo:
 
--   Lunes: 100,000 lectores
--   Martes: 100,000 lectores
--   Miércoles: 100,000 lectores
+- Lunes: 100,000 lectores
+- Martes: 100,000 lectores
+- Miércoles: 100,000 lectores
 
 La duplicación constante significa que el número de personas que leen dos días cualesquiera es siempre el mismo. Por ejemplo:
 
--   Entre lunes y martes: 60.000 leen ambos días
--   Entre martes y miércoles: 60.000 leen ambos días
--   Entre lunes y miércoles: 60.000 leen ambos días
+- Entre lunes y martes: 60.000 leen ambos días
+- Entre martes y miércoles: 60.000 leen ambos días
+- Entre lunes y miércoles: 60.000 leen ambos días
 
 Si no fuera constante, podría ser:
 
--   Entre lunes y martes: 60.000 leen ambos días
--   Entre martes y miércoles: 55.000 leen ambos días
--   Entre lunes y miércoles: 40.000 leen ambos días
+- Entre lunes y martes: 60.000 leen ambos días
+- Entre martes y miércoles: 55.000 leen ambos días
+- Entre lunes y miércoles: 40.000 leen ambos días
 
 En el modelo de Hofmans, esta simplificación (duplicación constante) permite calcular:
 
@@ -2380,15 +2401,15 @@ d = 2R1 - R2
 
 Donde:
 
--   R1 es la cobertura de un día (por ejemplo 100.000)
--   R2 es la cobertura acumulada de dos días (por ejemplo 140.000)
--   d sería entonces: 2(100.000) - 140.000 = 60.000 lectores duplicados
+- R1 es la cobertura de un día (por ejemplo 100.000)
+- R2 es la cobertura acumulada de dos días (por ejemplo 140.000)
+- d sería entonces: 2(100.000) - 140.000 = 60.000 lectores duplicados
 
 Esta constante d se utiliza luego en la fórmula para calcular la cobertura para N inserciones, asumiendo que la duplicación entre cualquier par de días será siempre la misma.
 
 ## Aplicación de la función
 
-``` r
+```r
 R1 <- 0.06    
 R2 <- 0.103   
 resultado <- calc_hofmans(R1, R2, N = 5)
@@ -2405,33 +2426,33 @@ Características
 
 Estimación Iterativa de los Parámetros A y B:
 
--   El código comienza con un valor arbitrario A$_0$ y calcula un valor inicial B$_0$
--   Se realiza un ajuste de A basado en la diferencia entre la cobertura BBD y la cobertura de Morgenstern (RM)
--   Se utiliza un factor de ajuste (adj_factor) para refinar el valor de A
+- El código comienza con un valor arbitrario A$_0$ y calcula un valor inicial B$_0$
+- Se realiza un ajuste de A basado en la diferencia entre la cobertura BBD y la cobertura de Morgenstern (RM)
+- Se utiliza un factor de ajuste (adj_factor) para refinar el valor de A
 
 Cálculo de la Cobertura BBD:
 
--   El código emplea la función 'dbbinom' de la librería de distribuciones extraDistr
--   Calcula la probabilidad de cero exposiciones (p_zero)
--   La cobertura BBD se obtiene como (1 - p_zero)
+- El código emplea la función 'dbbinom' de la librería de distribuciones extraDistr
+- Calcula la probabilidad de cero exposiciones (p_zero)
+- La cobertura BBD se obtiene como (1 - p_zero)
 
 Proceso Iterativo:
 
--   La iteración continúa hasta que la cobertura calculada por BBD se aproxime lo suficiente a RM
--   Esta convergencia es un aspecto fundamental en el ajuste del MBBD
+- La iteración continúa hasta que la cobertura calculada por BBD se aproxime lo suficiente a RM
+- Esta convergencia es un aspecto fundamental en el ajuste del MBBD
 
 Distribución de Contactos Final:
 
--   Al finalizar la iteración, se calcula la distribución de contactos usando los valores finales de A y B (AF y BF)
--   Esto permite modelar la distribución de contactos para distintas exposiciones según los requerimientos del modelo MBBD
+- Al finalizar la iteración, se calcula la distribución de contactos usando los valores finales de A y B (AF y BF)
+- Esto permite modelar la distribución de contactos para distintas exposiciones según los requerimientos del modelo MBBD
 
 Nota Importante sobre RM:
 
--   El valor RM debe calcularse previamente usando la fórmula de Morgensztern
+- El valor RM debe calcularse previamente usando la fórmula de Morgensztern
 
 ## Aplicación de la función
 
-``` r
+```r
 resultado <- calc_MBBD(
   m = 3,                          
   insertions = c(5, 7, 4),        
@@ -2450,14 +2471,14 @@ La función evalúa la distribución de contactos publicitarios utilizando el mo
 
 Características principales
 
--   Calcula parámetros óptimos \alpha y \beta
--   Determina número óptimo de inserciones
--   Genera distribución de contactos completa
--   Permite ajustar tolerancia y criterios de convergencia
+- Calcula parámetros óptimos \alpha y \beta
+- Determina número óptimo de inserciones
+- Genera distribución de contactos completa
+- Permite ajustar tolerancia y criterios de convergencia
 
 Aplicación de la función
 
-``` r
+```r
 resultado2 <- optimizar_d(
   Pob = 1000000,
   FE = 4,
@@ -2481,14 +2502,14 @@ Esta función optimiza la distribución de contactos publicitarios y calcula los
 
 Características principales
 
--   Calcula parámetros óptimos \alpha y \beta
--   Determina número óptimo de inserciones
--   Genera distribución de contactos completa
--   Permite ajustar tolerancia y criterios de convergencia
+- Calcula parámetros óptimos \alpha y \beta
+- Determina número óptimo de inserciones
+- Genera distribución de contactos completa
+- Permite ajustar tolerancia y criterios de convergencia
 
 Aplicación de la función
 
-``` r
+```r
 resultado <- optimizar_dc(
   Pob = 500000,
   FEM = 4,               
@@ -2508,14 +2529,14 @@ Optimiza planes de medios con restricciones mediante procesamiento por lotes.
 
 Características:
 
--   Permite elegir entre modelo Sainsbury o Binomial
--   Maneja restricciones presupuestarias
--   Permite exclusión de soportes específicos
--   Trabaja con audiencias brutas o útiles
+- Permite elegir entre modelo Sainsbury o Binomial
+- Maneja restricciones presupuestarias
+- Permite exclusión de soportes específicos
+- Trabaja con audiencias brutas o útiles
 
 Aplicación de la función
 
-``` r
+```r
 # Ejemplo con audiencia bruta y modelo Sainsbury
 datos <- data.frame(
   soportes = c("Medio1", "Medio2", "Medio3"),
@@ -2552,7 +2573,7 @@ resultado_util <- optimize_media_plan(
 
 # Casos Prácticos
 
-## RNE 
+## RNE
 
 - Calcula las **audiencias útiles de RNE de 6 a 7:00, de 7 a 8:00, y de 8 a 8:30**. Emplea los índices de afinidad del producto café soluble, interesándote por las clases con índice de afinidad mayor o igual que 1.
 - Una vez que hayas estimado las audiencias útiles, contrata una única inserción en cada soporte, y **estima la cobertura y la distribución de exposición (y acumulada)**.
@@ -2574,27 +2595,27 @@ El Director de Marketing, Carlos Ruiz, se enfrenta al reto de elegir el mercado 
 
 La empresa ha realizado un estudio de mercado en tres regiones diferentes, obteniendo los siguientes índices relativos aplicables a la categoría y a su marca:
 
-  | Región        | CDI  | BDI  |
-  |---------------|------|------|
-  | Norte         | 112  | 95   |
-  | Centro        | 108  | 115  |
-  | Levante       | 85   | 98   |
+| Región  | CDI | BDI |
+| ------- | --- | --- |
+| Norte   | 112 | 95  |
+| Centro  | 108 | 115 |
+| Levante | 85  | 98  |
 
 ### Medios Disponibles
 
 Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes de prensa con los siguientes datos:
 
-| Soporte               | Mercado | Aud. útil (000) | Aud. útil 2ª inserción (000) | Tarifa página color (€) |
-|----------------------|---------|-----------------|----------------------------|----------------------|
-| Norte Noticias       | Norte   | 595            | 620                        | 12.500              |
-| La Gaceta del Norte  | Norte   | 504            | 720                        | 10.800              |
-| El Eco del Norte     | Norte   | 315            | 450                        | 7.200               |
-| Centro Diario        | Centro  | 546            | 780                        | 11.800              |
-| La Voz de Madrid     | Centro  | 476            | 680                        | 10.200              |
-| El Heraldo Central   | Centro  | 294            | 420                        | 6.900               |
-| Levante Express      | Levante | 406            | 580                        | 9.500               |
-| El Mediterráneo      | Levante | 343            | 490                        | 8.200               |
-| Diario de Levante    | Levante | 245            | 350                        | 5.800               |
+| Soporte             | Mercado | Aud. útil (000) | Aud. útil 2ª inserción (000) | Tarifa página color (€) |
+| ------------------- | ------- | --------------- | ---------------------------- | ----------------------- |
+| Norte Noticias      | Norte   | 595             | 620                          | 12.500                  |
+| La Gaceta del Norte | Norte   | 504             | 720                          | 10.800                  |
+| El Eco del Norte    | Norte   | 315             | 450                          | 7.200                   |
+| Centro Diario       | Centro  | 546             | 780                          | 11.800                  |
+| La Voz de Madrid    | Centro  | 476             | 680                          | 10.200                  |
+| El Heraldo Central  | Centro  | 294             | 420                          | 6.900                   |
+| Levante Express     | Levante | 406             | 580                          | 9.500                   |
+| El Mediterráneo     | Levante | 343             | 490                          | 8.200                   |
+| Diario de Levante   | Levante | 245             | 350                          | 5.800                   |
 
 ### Objetivos de Campaña
 
@@ -2608,7 +2629,6 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
 1. **Selección de Mercado**
 - Analizar los índices CDI y BDI para cada región
 - Justificar la elección del mercado con mayor oportunidad de marca
-
 2. **Planificación de Medios**
 - Desarrollar un plan de inserciones utilizando los soportes disponibles
 - El plan debe contener un único soporte
@@ -2620,12 +2640,10 @@ Para la campaña de lanzamiento, se han preseleccionado los siguientes soportes 
   * GRPs del plan
   * CPM del plan
   * Coste por punto porcentual de población efectivamente alcanzada
-
 3. **Análisis con Modelo Beta Binomial**
 - Realizar un único cálculo manual para un plan básico de n inserciones
 - Utilizar MediaPlanR para resto de planes con n inserciones
 - Comparar resultados y eficiencia
-
 4. **Diagnóstico y Recomendaciones**
 - Evaluar si se cumplen los objetivos de cobertura y frecuencia
 - Proponer ajustes si fuera necesario
@@ -2645,37 +2663,37 @@ FórmulaPlus, una marca establecida de **detergente**, lanza una campaña inform
 
 La campaña se desarrollará en **revistas orientadas al hogar y gestión familiar**, con alta afinidad con el perfil de compradoras habituales de productos de limpieza.
 
-| Revista | Audiencia Bruta | Índice de Utilidad | Audiencia Útil | Tarifa Página Completa Color (€) |
-|---------------|---------------|---------------|---------------|---------------|
-| Pronto | 320000 | 0.85 | 272000 | 12000 |
-| Lecturas | 290000 | 0.80 | 232000 | 11000 |
-| Semana | 310000 | 0.75 | 232500 | 10500 |
-| Mía | 280000 | 0.90 | 252000 | 9500 |
-| Clara | 250000 | 0.85 | 212500 | 9000 |
-| Saber Vivir | 400000 | 0.70 | 280000 | 8500 |
-| AR | 230000 | 0.65 | 149500 | 8000 |
-| Casa Fácil | 260000 | 0.80 | 208000 | 7500 |
-| Diez Minutos | 295000 | 0.75 | 221250 | 10000 |
-| ¡Hola! | 420000 | 0.65 | 273000 | 13500 |
-| Mi Casa | 245000 | 0.85 | 208250 | 8000 |
-| El Mueble | 275000 | 0.70 | 192500 | 9500 |
-| Nuevo Estilo | 220000 | 0.60 | 132000 | 9000 |
-| Cocina Fácil | 235000 | 0.80 | 188000 | 7000 |
-| Casa al Día | 185000 | 0.85 | 157250 | 6500 |
-| SuperTele | 280000 | 0.75 | 210000 | 8500 |
-| Cuore | 265000 | 0.65 | 172250 | 9500 |
-| Qué Me Dices | 255000 | 0.70 | 178500 | 8000 |
-| Telva Cocina | 195000 | 0.80 | 156000 | 7500 |
-| Saber Cocinar | 210000 | 0.75 | 157500 | 7000 |
+| Revista       | Audiencia Bruta | Índice de Utilidad | Audiencia Útil | Tarifa Página Completa Color (€) |
+| ------------- | --------------- | ------------------ | -------------- | -------------------------------- |
+| Pronto        | 320000          | 0.85               | 272000         | 12000                            |
+| Lecturas      | 290000          | 0.80               | 232000         | 11000                            |
+| Semana        | 310000          | 0.75               | 232500         | 10500                            |
+| Mía           | 280000          | 0.90               | 252000         | 9500                             |
+| Clara         | 250000          | 0.85               | 212500         | 9000                             |
+| Saber Vivir   | 400000          | 0.70               | 280000         | 8500                             |
+| AR            | 230000          | 0.65               | 149500         | 8000                             |
+| Casa Fácil    | 260000          | 0.80               | 208000         | 7500                             |
+| Diez Minutos  | 295000          | 0.75               | 221250         | 10000                            |
+| ¡Hola!        | 420000          | 0.65               | 273000         | 13500                            |
+| Mi Casa       | 245000          | 0.85               | 208250         | 8000                             |
+| El Mueble     | 275000          | 0.70               | 192500         | 9500                             |
+| Nuevo Estilo  | 220000          | 0.60               | 132000         | 9000                             |
+| Cocina Fácil  | 235000          | 0.80               | 188000         | 7000                             |
+| Casa al Día   | 185000          | 0.85               | 157250         | 6500                             |
+| SuperTele     | 280000          | 0.75               | 210000         | 8500                             |
+| Cuore         | 265000          | 0.65               | 172250         | 9500                             |
+| Qué Me Dices  | 255000          | 0.70               | 178500         | 8000                             |
+| Telva Cocina  | 195000          | 0.80               | 156000         | 7500                             |
+| Saber Cocinar | 210000          | 0.75               | 157500         | 7000                             |
 
 **Tabla de Revistas con Audiencias y Tarifas (datos ficticios)**
 
 Explicación de las Columnas:
 
--   Audiencia Bruta: Audiencia ficticia para cada revista
--   Índice de Utilidad: Proporción que representa la audiencia útil 
--   Audiencia Útil: Audiencia bruta multiplicada por el índice de utilidad
--   Tarifa Página Completa Color (€): Precio estimado por inserción en una página completa a color en cada revista.
+- Audiencia Bruta: Audiencia ficticia para cada revista
+- Índice de Utilidad: Proporción que representa la audiencia útil 
+- Audiencia Útil: Audiencia bruta multiplicada por el índice de utilidad
+- Tarifa Página Completa Color (€): Precio estimado por inserción en una página completa a color en cada revista.
 
 ### Estructura de la Campaña en Oleadas
 
@@ -2691,17 +2709,20 @@ La determinación de la frecuencia efectiva se fundamenta parcialmente en el mod
 
 Factores de Ajuste:
 
-  - Variables de Marketing (-0.2)
-    - Marca establecida (-0.4)
-    - Producto de uso diario (+0.2)
-    
-  - Factores del Mensaje (+0.4)
-    - Innovación en producto existente
-     
-  - Contexto Mediático (+0.4)
-    - Alto nivel de saturación publicitaria
-    - Estrategia de pulsing, ciclo de compra regular
-    - Limitaciones de repetición natural en el medio elegido (prensa)
+- Variables de Marketing (-0.2)
+  
+  - Marca establecida (-0.4)
+  - Producto de uso diario (+0.2)
+
+- Factores del Mensaje (+0.4)
+  
+  - Innovación en producto existente
+
+- Contexto Mediático (+0.4)
+  
+  - Alto nivel de saturación publicitaria
+  - Estrategia de pulsing, ciclo de compra regular
+  - Limitaciones de repetición natural en el medio elegido (prensa)
 
 Resultado: Frecuencia efectiva de 4 exposiciones (Base 3 + Ajuste total +0.6)
 
@@ -2810,29 +2831,29 @@ resultado_bruto <- optimize_media_plan(
 
 # Características Generales del Paquete
 
--   Múltiples modelos de cobertura y frecuencia
--   Optimización con restricciones presupuestarias
--   Soporte para audiencias brutas y ponderadas
--   Procesamiento por lotes para cálculos eficientes
--   Salida detallada con distribuciones de contactos
--   Validación y manejo de errores integrado
--   Seguimiento de progreso para operaciones largas
+- Múltiples modelos de cobertura y frecuencia
+- Optimización con restricciones presupuestarias
+- Soporte para audiencias brutas y ponderadas
+- Procesamiento por lotes para cálculos eficientes
+- Salida detallada con distribuciones de contactos
+- Validación y manejo de errores integrado
+- Seguimiento de progreso para operaciones largas
 
 ## Manejo de Errores
 
 El paquete incluye validación de entrada y manejo de errores:
 
--   Validación de rangos de parámetros
--   Verificaciones de consistencia
--   Mensajes de error descriptivos
--   Seguimiento de progreso
+- Validación de rangos de parámetros
+- Verificaciones de consistencia
+- Mensajes de error descriptivos
+- Seguimiento de progreso
 
 ## Contacto y Soporte
 
--   **Autor**: Manuel J. Sánchez-Franco
--   **ORCID**: [0000-0002-8042-3550](https://orcid.org/0000-0002-8042-3550)
--   **Email**: [majesus\@us.es](mailto:majesus@us.es){.email}
--   **Issues**: Para reportar problemas o sugerencias, usa la sección de [Issues](https://github.com/majesus/mediaPlanR/issues)
+- **Autor**: Manuel J. Sánchez-Franco
+- **ORCID**: [0000-0002-8042-3550](https://orcid.org/0000-0002-8042-3550)
+- **Email**: [majesus\@us.es](mailto:majesus@us.es){.email}
+- **Issues**: Para reportar problemas o sugerencias, usa la sección de [Issues](https://github.com/majesus/mediaPlanR/issues)
 
 ## Licencia
 
@@ -2840,5 +2861,4 @@ Este paquete está disponibl---
 title: "Herramientas tradicionales para la Planificación de Medios Publicitarios"
 author: "Manuel J. Sánchez Franco"
 output: pdf_document
----
 
