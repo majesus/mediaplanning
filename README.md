@@ -635,9 +635,9 @@ El coeficiente de afinidad es fundamental para evaluar qué tan relevante o atra
 
 El coeficiente o índice de afinidad es pues un indicador aproximado de que el producto es especialmente atractivo o relevante para ese grupo específico. La siguiente tabla es un ejemplo del uso de índices de afinidad en media planning, que son fundamentales para identificar audiencias objetivo. Los índices (última columna) muestran la concentración relativa de golfistas regulares en diferentes segmentos demográficos comparado con la población general. Valores por encima de 100 indican una **sobrerrepresentación** del segmento entre los golfistas; por el contrario, valores por debajo de 100 indican que el segmento está infrarrepresentado.
 
-![](file://C:\Users\EQUIPO\OneDrive - UNIVERSIDAD DE SEVILLA\Bookdown\mediaPlanR\mediaPlanR\img\img_roger_baron_affinity_index.png?msec=1735493854406)
+![Coeficiente de afinidad](./img/img_roger_baron_affinity_index.png)
 
-<sub>Fuente: baron, R. y SIssors, J.Z. (2010) Advertising Media Planning, Seventh Edition. McGraw-Hill, New York</sub>
+<sub>Fuente: baron, R. y Sssors, J.Z. (2010) Advertising Media Planning, Seventh Edition. McGraw-Hill, New York</sub>
 
 Aspectos destacables:
 
@@ -749,7 +749,9 @@ $Frecuencia = \frac{\sum_{i=1}^{n} A_i \times n_i}{Cobertura}$
 
 La principal limitación del concepto de frecuencia media en la planificación de medios es que las estimaciones de frecuencia proporcionadas por los programas de planificación son abstracciones sin sentido práctico. Estas simplemente resumen una amplia distribución, donde pocos valores pueden estar realmente cercanos al "promedio". Por ejemplo, si especificamos una frecuencia promedio semanal de 2 OTS, el plan pudiera ofrecer 2 impactos por persona de la cobertura en una minoría de los casos.
 
-![Distribución de exposiciones](./img/img_frequency_distribution.png) <sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
+![Distribución de exposiciones](./img/img_frequency_distribution.png) 
+
+<sub>Nota: *La imagen ha sido tomada de "Advanced Media Planning", por J. R. Rossiter y P. J. Danaher, 1998, Kluwer Academic Publishers. Copyright 1998 por Kluwer Academic Publishers. Reproducido con fines académicos.*</sub>
 
 La frecuencia media es pues un indicador poco fiable y potencialmente engañoso para la planificación de medios. No refleja necesariamente la realidad de la exposición que experimentará la mayoría de la cobertura. En suma, usar promedios de frecuencia puede dar una falsa sensación de precisión en la planificación de medios, cuando en realidad estamos trabajando con una distribución más dispersa y variable de exposiciones reales al mensaje publicitario.
 
