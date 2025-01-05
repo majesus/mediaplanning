@@ -2857,10 +2857,5 @@ El paquete incluye validación de entrada y manejo de errores:
 - **Email**: [majesus\@us.es](mailto:majesus@us.es){.email}
 - **Issues**: Para reportar problemas o sugerencias, usa la sección de [Issues](https://github.com/majesus/mediaPlanR/issues)
 
-## Licencia
 
-Este paquete está disponibl---
-title: "Herramientas tradicionales para la Planificación de Medios Publicitarios"
-author: "Manuel J. Sánchez Franco"
-output: pdf_document
 
